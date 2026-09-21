@@ -794,6 +794,93 @@ function StayStoicApp() {
   })));
 }
 
+
+const STOIC_MOMENTS = [
+  {
+    author: "EPICTETO",
+    quote: "No son las cosas las que nos perturban, sino lo que pensamos sobre ellas."
+  },
+  {
+    author: "SÉNECA",
+    quote: "Sufrimos más en la imaginación que en la realidad."
+  },
+  {
+    author: "MARCO AURELIO",
+    quote: "La mejor venganza es no parecerse a quien hizo el daño."
+  }
+];
+
+function StoicMomentCard({ day }) {
+  const item = STOIC_MOMENTS[(Math.max(1, day) - 1) % STOIC_MOMENTS.length];
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: "relative",
+      overflow: "hidden",
+      minHeight: 150,
+      border: `1px solid ${C.line}`,
+      borderRadius: 18,
+      marginBottom: 16,
+      background: `linear-gradient(135deg, ${C.bgSoft} 0%, ${C.bg} 72%)`,
+      boxShadow: "0 14px 32px rgba(0,0,0,0.2)"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: "relative",
+      zIndex: 2,
+      width: "67%",
+      padding: "20px 18px"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.bronzeLight,
+      fontSize: 10,
+      fontWeight: 800,
+      letterSpacing: 1.1,
+      marginBottom: 10
+    }
+  }, "MOMENTO ESTOICO"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marble,
+      fontFamily: serif,
+      fontSize: 19,
+      lineHeight: 1.35,
+      fontStyle: "italic"
+    }
+  }, "“", item.quote, "”"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.bronzeLight,
+      fontSize: 10.5,
+      fontWeight: 800,
+      letterSpacing: 1,
+      marginTop: 12
+    }
+  }, "— ", item.author)), /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: "absolute",
+      inset: "0 0 0 auto",
+      width: "45%",
+      background: `linear-gradient(90deg, rgba(0,0,0,0) 0%, ${C.bg} 94%)`,
+      zIndex: 1
+    }
+  }), /*#__PURE__*/React.createElement("img", {
+    src: "app-icon.webp",
+    alt: "Busto estoico",
+    style: {
+      position: "absolute",
+      right: -10,
+      bottom: -12,
+      width: 150,
+      height: 150,
+      objectFit: "cover",
+      objectPosition: "50% 18%",
+      borderRadius: "50%",
+      opacity: 0.78,
+      filter: "sepia(0.22) contrast(1.05)",
+      zIndex: 0
+    }
+  }));
+}
+
 /* ===================== HEADER / HOME / CALENDAR ===================== */
 const pageStyle = {
   minHeight: "100vh",
@@ -968,6 +1055,10 @@ function HomeView({
       borderRadius: 999
     }
   }))),
+
+  /*#__PURE__*/React.createElement(StoicMomentCard, {
+    day: meta.day
+  }),
 
   /*#__PURE__*/React.createElement("div", {
     style: {
@@ -1200,7 +1291,9 @@ function DayFlow({
       fontSize: 12,
       lineHeight: 1.5
     }
-  }, "Practica la estructura, escucha con intención y termina produciendo por tu cuenta.")), /*#__PURE__*/React.createElement(StageDots, {
+  }, "Practica la estructura, escucha con intención y termina produciendo por tu cuenta.")), stage === "intro" && /*#__PURE__*/React.createElement(StoicMomentCard, {
+    day: day
+  }), /*#__PURE__*/React.createElement(StageDots, {
     stage: stage
   }), stage === "intro" && /*#__PURE__*/React.createElement(IntroStage, {
     day: day,
