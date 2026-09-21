@@ -796,18 +796,56 @@ function StayStoicApp() {
 
 
 const STOIC_MOMENTS = [
-  {
-    author: "EPICTETO",
-    quote: "No son las cosas las que nos perturban, sino lo que pensamos sobre ellas."
-  },
-  {
-    author: "SÉNECA",
-    quote: "Sufrimos más en la imaginación que en la realidad."
-  },
-  {
-    author: "MARCO AURELIO",
-    quote: "La mejor venganza es no parecerse a quien hizo el daño."
-  }
+  { author: "MARCO AURELIO", quote: "Gobierna tu mente; lo externo no necesita gobernarte." },
+  { author: "SÉNECA", quote: "La dificultad revela la fuerza que la comodidad mantiene escondida." },
+  { author: "EPICTETO", quote: "Distingue lo que depende de ti y suelta lo demás." },
+  { author: "MARCO AURELIO", quote: "Tu vida toma la forma de los pensamientos que alimentas." },
+  { author: "SÉNECA", quote: "No esperes una vida sin problemas; aprende a atravesarlos mejor." },
+  { author: "EPICTETO", quote: "La libertad empieza cuando dejas de exigir que todo ocurra a tu manera." },
+  { author: "MARCO AURELIO", quote: "Haz lo correcto aunque nadie esté mirando." },
+  { author: "SÉNECA", quote: "El tiempo es tu posesión más valiosa; no lo entregues sin pensar." },
+  { author: "EPICTETO", quote: "No controles el resultado; controla tu respuesta." },
+  { author: "MARCO AURELIO", quote: "Lo que obstaculiza el camino puede convertirse en parte del camino." },
+  { author: "SÉNECA", quote: "La calma se entrena antes de necesitarla." },
+  { author: "EPICTETO", quote: "Practica hoy la persona que quieres ser bajo presión." },
+  { author: "MARCO AURELIO", quote: "No añadas una segunda herida con una mala interpretación." },
+  { author: "SÉNECA", quote: "Quien necesita poco conserva más libertad." },
+  { author: "EPICTETO", quote: "La opinión que das a un hecho puede doler más que el hecho mismo." },
+  { author: "MARCO AURELIO", quote: "Cada mañana es otra oportunidad para actuar con carácter." },
+  { author: "SÉNECA", quote: "Prepararte para la adversidad reduce el poder de la sorpresa." },
+  { author: "EPICTETO", quote: "Si quieres mejorar, acepta parecer principiante por un tiempo." },
+  { author: "MARCO AURELIO", quote: "No desperdicies el presente discutiendo con lo inevitable." },
+  { author: "SÉNECA", quote: "La riqueza también consiste en saber cuándo ya tienes suficiente." },
+  { author: "EPICTETO", quote: "No pidas menos dificultades; construye mejor juicio." },
+  { author: "MARCO AURELIO", quote: "Tu tarea es sencilla: pensar con claridad y actuar con justicia." },
+  { author: "SÉNECA", quote: "Una mente ocupada no siempre es una mente bien dirigida." },
+  { author: "EPICTETO", quote: "Antes de reaccionar, pregúntate qué parte sí está bajo tu control." },
+  { author: "MARCO AURELIO", quote: "La paciencia también es una forma de fortaleza." },
+  { author: "SÉNECA", quote: "No conviertas una posibilidad futura en sufrimiento presente." },
+  { author: "EPICTETO", quote: "El progreso se nota más en tus reacciones que en tus palabras." },
+  { author: "MARCO AURELIO", quote: "Cumple tu deber sin necesitar aplausos." },
+  { author: "SÉNECA", quote: "La disciplina de hoy compra tranquilidad para mañana." },
+  { author: "EPICTETO", quote: "No es pérdida si nunca estuvo realmente bajo tu control." },
+  { author: "MARCO AURELIO", quote: "No te rebajes intentando vencer a alguien en su propio mal carácter." },
+  { author: "SÉNECA", quote: "Aprende a estar contigo mismo sin necesitar escapar." },
+  { author: "EPICTETO", quote: "Tu carácter se fortalece cada vez que eliges bien bajo presión." },
+  { author: "MARCO AURELIO", quote: "El presente es suficiente para practicar virtud." },
+  { author: "SÉNECA", quote: "Quien vive aplazando también aplaza su propia vida." },
+  { author: "EPICTETO", quote: "No confundas comodidad con libertad." },
+  { author: "MARCO AURELIO", quote: "Acepta el momento y úsalo bien." },
+  { author: "SÉNECA", quote: "Un contratiempo puede ser entrenamiento si decides aprender de él." },
+  { author: "EPICTETO", quote: "No necesitas controlar a otros para gobernarte a ti mismo." },
+  { author: "MARCO AURELIO", quote: "Haz menos, pero haz lo necesario con plena atención." },
+  { author: "SÉNECA", quote: "La serenidad requiere límites, no solo buenas intenciones." },
+  { author: "EPICTETO", quote: "No negocies tus principios por una emoción momentánea." },
+  { author: "MARCO AURELIO", quote: "Lo que hoy parece pesado también pasará." },
+  { author: "SÉNECA", quote: "Ensaya mentalmente la pérdida para valorar mejor lo que tienes." },
+  { author: "EPICTETO", quote: "La práctica convierte la filosofía en carácter." },
+  { author: "MARCO AURELIO", quote: "Sé exigente con tus actos y comprensivo con los ajenos." },
+  { author: "SÉNECA", quote: "No toda urgencia merece tu atención." },
+  { author: "EPICTETO", quote: "Tu paz mejora cuando tus expectativas se vuelven más realistas." },
+  { author: "MARCO AURELIO", quote: "No busques una ocasión perfecta para actuar correctamente." },
+  { author: "SÉNECA", quote: "Vive de modo que el final del día no te encuentre debiéndote a ti mismo." }
 ];
 
 function StoicMomentCard({ day }) {
@@ -854,7 +892,7 @@ function StoicMomentCard({ day }) {
       letterSpacing: 1,
       marginTop: 12
     }
-  }, "— ", item.author)), /*#__PURE__*/React.createElement("div", {
+  }, "— IDEA DE ", item.author)), /*#__PURE__*/React.createElement("div", {
     style: {
       position: "absolute",
       inset: "0 0 0 auto",
