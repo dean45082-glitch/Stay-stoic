@@ -19,6 +19,8 @@ jobs:
         run: |
           mkdir -p app/src/main/assets/www
           cp index.html app.js data1.js data2.js app/src/main/assets/www/
+          mkdir -p app/src/main/assets/www/vendor
+          cp vendor/react.production.min.js vendor/react-dom.production.min.js app/src/main/assets/www/vendor/
       - name: Build debug APK
         run: gradle assembleDebug
       - name: Rename APK
