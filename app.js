@@ -850,6 +850,7 @@ const STOIC_MOMENTS = [
 
 function StoicMomentCard({ day }) {
   const item = STOIC_MOMENTS[(Math.max(1, day) - 1) % STOIC_MOMENTS.length];
+  const bustSrc = item.author === "SÉNECA" ? "seneca.webp" : item.author === "EPICTETO" ? "epictetus.webp" : "app-icon.webp";
   return /*#__PURE__*/React.createElement("div", {
     style: {
       position: "relative",
@@ -901,8 +902,8 @@ function StoicMomentCard({ day }) {
       zIndex: 1
     }
   }), /*#__PURE__*/React.createElement("img", {
-    src: "app-icon.webp",
-    alt: "Busto estoico",
+    src: bustSrc,
+    alt: "Busto de " + item.author,
     style: {
       position: "absolute",
       right: -10,
