@@ -1118,7 +1118,6 @@ function IntroStage({
   onNext
 }) {
   const [shadowHidden, setShadowHidden] = useState(false);
-  const deepText = structureModel.map(x => x.en).join(" ");
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
     style: cardStyle
   }, /*#__PURE__*/React.createElement("div", {
@@ -1226,11 +1225,19 @@ function IntroStage({
     style: cardStyle
   }, /*#__PURE__*/React.createElement("div", {
     style: { color: C.bronzeLight, fontSize: 11, marginBottom: 8, letterSpacing: 0.7, fontWeight: 700 }
-  }, "LECTURA PROFUNDA"), /*#__PURE__*/React.createElement("div", {
-    style: { color: C.marble, fontFamily: serif, fontSize: 15, lineHeight: 1.75, marginBottom: 10 }
-  }, deepText), /*#__PURE__*/React.createElement("div", {
-    style: { color: C.marbleDim, fontSize: 12, lineHeight: 1.6 }
-  }, "Lee una vez por significado y otra por forma. Identifica la estructura de la semana y explica mentalmente por qué se usa en cada oración.")), /*#__PURE__*/React.createElement("div", {
+  }, "LECTURA PROFUNDA"), structureModel.map((item, i) => /*#__PURE__*/React.createElement("div", {
+    key: "deep-" + i,
+    style: {
+      padding: "12px 0",
+      borderBottom: i < structureModel.length - 1 ? `1px solid ${C.line}` : "none"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: { color: C.bronzeLight, fontSize: 10.5, marginBottom: 5, letterSpacing: 0.5 }
+  }, "ORACIÓN ", i + 1), /*#__PURE__*/React.createElement("div", {
+    style: { color: C.marble, fontFamily: serif, fontSize: 15, lineHeight: 1.7 }
+  }, item.en))), /*#__PURE__*/React.createElement("div", {
+    style: { color: C.marbleDim, fontSize: 12, lineHeight: 1.6, marginTop: 12 }
+  }, "Lee cada oración por separado: primero por significado y después por forma. Identifica la estructura de la semana y explica mentalmente por qué se usa.")), /*#__PURE__*/React.createElement("div", {
     style: cardStyle
   }, /*#__PURE__*/React.createElement("div", {
     style: {
