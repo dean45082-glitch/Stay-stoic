@@ -23,6 +23,7 @@ jobs:
           cp vendor/react.production.min.js vendor/react-dom.production.min.js app/src/main/assets/www/vendor/
           mkdir -p app/src/main/res/drawable-nodpi
           base64 -d app-icon.b64 > app/src/main/res/drawable-nodpi/stoic_icon.webp
+          base64 -d app-icon.b64 > app/src/main/assets/www/app-icon.webp
       - name: Build debug APK
         run: gradle assembleDebug
       - name: Rename APK
