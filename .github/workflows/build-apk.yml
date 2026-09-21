@@ -24,6 +24,8 @@ jobs:
           mkdir -p app/src/main/res/drawable-nodpi
           base64 -d app-icon.b64 > app/src/main/res/drawable-nodpi/stoic_icon.webp
           base64 -d app-icon.b64 > app/src/main/assets/www/app-icon.webp
+          base64 -d seneca.b64 > app/src/main/assets/www/seneca.webp
+          base64 -d epictetus.b64 > app/src/main/assets/www/epictetus.webp
       - name: Build debug APK
         run: gradle assembleDebug
       - name: Rename APK
