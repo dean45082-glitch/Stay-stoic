@@ -181,6 +181,72 @@ const MODAL_DAILY_STRUCTURES = {
   ]
 };
 
+
+const DEEP_READING_WEEK1 = [
+  [
+    "Tomorrow I'll be enduring another demanding day, but I won't be wasting energy on what I can't control.",
+    "I'll be bracing myself for setbacks instead of pretending they won't happen.",
+    "By the end of the day, I'll be letting go of whatever no longer deserves my attention."
+  ],
+  [
+    "This week I'll be building resilience by staying consistent when things get uncomfortable.",
+    "I won't be letting one setback decide how the rest of the week goes.",
+    "I'll be learning to endure pressure without turning it into panic."
+  ],
+  [
+    "She'll be bracing herself for a difficult conversation, but she'll be staying calm.",
+    "She'll be letting go of the need to control the other person's reaction.",
+    "That kind of response will be strengthening her resilience over time."
+  ],
+  [
+    "We'll be facing uncertainty, but we won't be treating it like an emergency.",
+    "We'll be enduring the discomfort long enough to think clearly.",
+    "Afterward, we'll be letting go of the parts we can no longer change."
+  ],
+  [
+    "He'll be dealing with another setback tomorrow, but he won't be quitting.",
+    "He'll be rebuilding his resilience one decision at a time.",
+    "By next week, he'll be bracing himself for challenges with more confidence."
+  ],
+  [
+    "They'll be facing the same pressure from a different perspective.",
+    "They'll be enduring what they cannot avoid and changing what they can.",
+    "They'll be letting go of the rest instead of carrying it forward."
+  ],
+  [
+    "Next week I'll be putting everything together in a more deliberate way.",
+    "I'll be bracing myself for difficult moments without expecting perfection.",
+    "I'll be using every setback as another chance to build resilience."
+  ]
+];
+
+function deepReadingForDay(day, week, structureModel) {
+  const offset = Math.max(0, day - week.range[0]);
+  if (week.id === 1) return DEEP_READING_WEEK1[offset % DEEP_READING_WEEK1.length];
+
+  const modalBank = MODAL_DAILY_STRUCTURES[week.id];
+  if (modalBank && modalBank.length) {
+    const start = ((offset * 3) + 6) % modalBank.length;
+    const out = [];
+    for (let i = 0; i < 3; i++) out.push(modalBank[(start + i) % modalBank.length][1]);
+    return out;
+  }
+
+  const candidates = [
+    ...(week.pool || []).map(x => x[1]),
+    ...(week.structures || []),
+    ...(week.ancla ? [week.ancla] : [])
+  ].filter(Boolean);
+
+  const seen = new Set((structureModel || []).map(x => x.en));
+  const unique = candidates.filter(x => !seen.has(x));
+  const source = unique.length >= 3 ? unique : candidates;
+  const start = source.length ? (offset * 3) % source.length : 0;
+  const out = [];
+  for (let i = 0; i < Math.min(3, source.length); i++) out.push(source[(start + i) % source.length]);
+  return out;
+}
+
 function weekForDay(day) {
   return WEEKS.find(w => day >= w.range[0] && day <= w.range[1]) || WEEKS[WEEKS.length - 1];
 }
@@ -1045,6 +1111,7 @@ function DayFlow({
   }, "Día ", day, " ", reviewMode && "· modo repaso", " · ", week.title), /*#__PURE__*/React.createElement(StageDots, {
     stage: stage
   }), stage === "intro" && /*#__PURE__*/React.createElement(IntroStage, {
+    day: day,
     week: week,
     structureModel: weekSlots.structureModel,
     extras: extraSlots.read,
@@ -1112,12 +1179,14 @@ function StageDots({
 
 /* ---------- 1-5: intro ---------- */
 function IntroStage({
+  day,
   week,
   structureModel,
   extras,
   onNext
 }) {
   const [shadowHidden, setShadowHidden] = useState(false);
+  const deepReading = deepReadingForDay(day, week, structureModel);
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
     style: cardStyle
   }, /*#__PURE__*/React.createElement("div", {
@@ -1225,19 +1294,26 @@ function IntroStage({
     style: cardStyle
   }, /*#__PURE__*/React.createElement("div", {
     style: { color: C.bronzeLight, fontSize: 11, marginBottom: 8, letterSpacing: 0.7, fontWeight: 700 }
-  }, "LECTURA PROFUNDA"), structureModel.map((item, i) => /*#__PURE__*/React.createElement("div", {
+  }, "LECTURA PROFUNDA"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 12,
+      lineHeight: 1.6,
+      marginBottom: 10
+    }
+  }, "Contexto distinto al shadowing. Lee por significado primero; después fíjate en la estructura."), deepReading.map((line, i) => /*#__PURE__*/React.createElement("div", {
     key: "deep-" + i,
     style: {
-      padding: "12px 0",
-      borderBottom: i < structureModel.length - 1 ? `1px solid ${C.line}` : "none"
+      padding: "13px 0",
+      borderBottom: i < deepReading.length - 1 ? `1px solid ${C.line}` : "none"
     }
   }, /*#__PURE__*/React.createElement("div", {
-    style: { color: C.bronzeLight, fontSize: 10.5, marginBottom: 5, letterSpacing: 0.5 }
-  }, "ORACIÓN ", i + 1), /*#__PURE__*/React.createElement("div", {
-    style: { color: C.marble, fontFamily: serif, fontSize: 15, lineHeight: 1.7 }
-  }, item.en))), /*#__PURE__*/React.createElement("div", {
+    style: { color: C.bronzeLight, fontSize: 10.5, marginBottom: 6, letterSpacing: 0.6, fontWeight: 700 }
+  }, "LÍNEA ", i + 1), /*#__PURE__*/React.createElement("div", {
+    style: { color: C.marble, fontFamily: serif, fontSize: 15.5, lineHeight: 1.75 }
+  }, line))), /*#__PURE__*/React.createElement("div", {
     style: { color: C.marbleDim, fontSize: 12, lineHeight: 1.6, marginTop: 12 }
-  }, "Lee cada oración por separado: primero por significado y después por forma. Identifica la estructura de la semana y explica mentalmente por qué se usa.")), /*#__PURE__*/React.createElement("div", {
+  }, "Pregunta mental: ¿qué idea expresa la estructura de esta semana en cada línea?")), /*#__PURE__*/React.createElement("div", {
     style: cardStyle
   }, /*#__PURE__*/React.createElement("div", {
     style: {
