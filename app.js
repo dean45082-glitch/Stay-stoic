@@ -45,6 +45,10 @@ function defaultMeta() {
    speakWithStatus() además reporta qué pasó, para poder diagnosticar. */
 function speak(text) {
   try {
+    if (window.AndroidTTS && typeof window.AndroidTTS.speak === "function") {
+      window.AndroidTTS.speak(text);
+      return;
+    }
     if (!window.speechSynthesis) return;
     const synth = window.speechSynthesis;
     synth.cancel();
@@ -59,8 +63,13 @@ function speak(text) {
 }
 function speakWithStatus(text, setStatus) {
   try {
+    if (window.AndroidTTS && typeof window.AndroidTTS.speak === "function") {
+      window.AndroidTTS.speak(text);
+      setStatus("✅ Audio nativo de Android activo.");
+      return;
+    }
     if (!window.speechSynthesis) {
-      setStatus("❌ Este navegador no tiene speechSynthesis disponible.");
+      setStatus("❌ Audio no disponible en este dispositivo.");
       return;
     }
     const synth = window.speechSynthesis;
@@ -88,6 +97,90 @@ function normalizeAnswer(s) {
 }
 
 /* ===================== HELPERS DE CONTENIDO ===================== */
+
+const MODAL_DAILY_STRUCTURES = {
+  11: [
+    ["Yo lo habría hecho distinto.","I would've done it differently."],
+    ["Lo habría hecho distinto si pudiera volver atrás.","I'd've done it differently if I could go back."],
+    ["Preferiría luchar por la paz que quedarme callado.","I'd rather fight for peace than stay silent."],
+    ["En retrospectiva, no habría contenido lo que pensaba.","In hindsight, I wouldn't have held back what I thought."],
+    ["Ojalá hubiera dejado ir ese resentimiento antes.","If only I'd let go of that resentment sooner."],
+    ["Habría reaccionado distinto si hubiera tenido más perspectiva.","I would've reacted differently if I'd had more perspective."],
+    ["Ella habría preferido esperar que actuar por impulso.","She would've rather waited than acted on impulse."],
+    ["Nosotros no habríamos contenido la verdad por tanto tiempo.","We wouldn't have held back the truth for so long."],
+    ["En retrospectiva, ellos habrían tomado otra decisión.","In hindsight, they would've made a different decision."],
+    ["Yo habría dejado ir la discusión mucho antes.","I would've let the argument go much sooner."],
+    ["Él habría hablado distinto si hubiera sabido el resultado.","He would've spoken differently if he'd known the outcome."],
+    ["Ojalá no hubiéramos esperado hasta el último momento.","If only we hadn't waited until the last moment."],
+    ["Habría preferido perder la discusión que perder la calma.","I'd rather have lost the argument than lost my calm."],
+    ["Ella no habría contenido su opinión si se hubiera sentido segura.","She wouldn't have held back her opinion if she'd felt safe."],
+    ["En retrospectiva, yo habría sido más paciente.","In hindsight, I would've been more patient."],
+    ["Ellos habrían hecho las paces si hubieran dejado ir el orgullo.","They would've made peace if they'd let go of their pride."],
+    ["Ojalá hubiera manejado esa conversación de otra manera.","If only I'd handled that conversation differently."],
+    ["Habríamos elegido otra ruta si hubiéramos visto el riesgo.","We would've chosen another path if we'd seen the risk."]
+  ],
+  12: [
+    ["Eso debió haber sido duro.","That must've been rough."],
+    ["Debo haber parecido más molesto de lo que pensaba.","I must've looked more upset than I thought."],
+    ["Debes aceptar lo que ya pasó.","You must come to grips with what already happened."],
+    ["Ella debe haber asumido que no íbamos a llegar.","She must've assumed we weren't going to make it."],
+    ["Ese resultado debió haber parecido inevitable.","That outcome must've seemed inevitable."],
+    ["Su reacción debe haber venido de una deducción equivocada.","His reaction must've come from a wrong deduction."],
+    ["Ellos deben haber llegado a aceptar la situación anoche.","They must've come to grips with the situation last night."],
+    ["Debimos haber confundido certeza con una simple suposición.","We must've mistaken certainty for a simple assumption."],
+    ["Él debe haber pensado que la decisión era inevitable.","He must've thought the decision was inevitable."],
+    ["Algo debe haber cambiado después de esa conversación.","Something must've changed after that conversation."],
+    ["Ella debe haber sacado esa conclusión por lo que vio.","She must've made that deduction from what she saw."],
+    ["Debes haber asumido demasiado sin suficiente evidencia.","You must've assumed too much without enough evidence."],
+    ["Ellos deben haber sentido mucha certeza en ese momento.","They must've felt very certain at that moment."],
+    ["Debimos haber entendido mal la señal.","We must've misunderstood the signal."],
+    ["Eso debe haberles ayudado a aceptar la realidad.","That must've helped them come to grips with reality."],
+    ["Él debe haber visto el cambio como algo inevitable.","He must've seen the change as inevitable."],
+    ["Ella debe haber supuesto que ya lo sabíamos.","She must've assumed we already knew."],
+    ["Nuestra deducción debe haber sido incompleta.","Our deduction must've been incomplete."]
+  ],
+  13: [
+    ["Debería haber podido resolverlo solo.","I should've been able to figure it out alone."],
+    ["No debiste haberte molestado por eso.","You shouldn't have gotten upset about that."],
+    ["Ella debería poder demostrar lo que vale pronto.","She should be able to prove herself soon."],
+    ["Debería haber podido ganarme mi lugar sin apresurarme.","I should've been able to earn my place without rushing."],
+    ["Él debería haber podido manejar mejor la curva de aprendizaje.","He should've been able to handle the learning curve better."],
+    ["Deberíamos haber podido avanzar paso a paso.","We should've been able to work our way up step by step."],
+    ["Ella debería haber podido demostrar lo que valía bajo presión.","She should've been able to prove herself under pressure."],
+    ["No deberías haber esperado dominarlo de inmediato.","You shouldn't have expected to master it immediately."],
+    ["Ellos deberían haber podido pagar su derecho de piso con paciencia.","They should've been able to pay their dues with patience."],
+    ["Yo debería haber podido aprender de ese error antes.","I should've been able to learn from that mistake sooner."],
+    ["Él debería haber podido ganarse la confianza del equipo.","He should've been able to earn the team's trust."],
+    ["Nosotros deberíamos haber podido superar esa curva de aprendizaje.","We should've been able to get through that learning curve."],
+    ["Ella no debería haber dudado tanto de sí misma.","She shouldn't have doubted herself so much."],
+    ["Deberías haber podido demostrar tu progreso con hechos.","You should've been able to prove your progress through actions."],
+    ["Ellos deberían haber podido avanzar sin saltarse etapas.","They should've been able to work their way up without skipping steps."],
+    ["Yo no debería haber esperado resultados instantáneos.","I shouldn't have expected instant results."],
+    ["Él debería haber podido demostrar que se había ganado su lugar.","He should've been able to prove he'd earned his place."],
+    ["Deberíamos haber podido ver esa dificultad como parte del proceso.","We should've been able to see that difficulty as part of the process."]
+  ],
+  14: [
+    ["Deberías haberlo sabido mejor.","You ought to have known better."],
+    ["Ella debería haber asumido esa responsabilidad.","She ought to have taken that responsibility."],
+    ["Deberíamos haber cumplido con esa obligación formal.","We ought to have met that formal obligation."],
+    ["En retrospectiva, yo debería haber hablado antes.","In hindsight, I ought to have spoken sooner."],
+    ["Ellos deberían haber aclarado la expectativa desde el principio.","They ought to have clarified the expectation from the start."],
+    ["Él debería haber sabido que eso tendría consecuencias.","He ought to have known that would have consequences."],
+    ["Yo debería haber asumido más responsabilidad por el resultado.","I ought to have taken more responsibility for the outcome."],
+    ["Ella debería haber manejado esa obligación con más cuidado.","She ought to have handled that obligation more carefully."],
+    ["En retrospectiva, deberíamos haber preguntado antes de asumir.","In hindsight, we ought to have asked before assuming."],
+    ["Ellos deberían haber sabido mejor que ignorar esa señal.","They ought to have known better than to ignore that sign."],
+    ["Tú deberías haber dejado clara tu expectativa.","You ought to have made your expectation clear."],
+    ["Yo debería haber cumplido lo que prometí.","I ought to have followed through on what I promised."],
+    ["Ella debería haber aceptado su parte de responsabilidad.","She ought to have accepted her share of the responsibility."],
+    ["Nosotros deberíamos haber tratado esa obligación como prioritaria.","We ought to have treated that obligation as a priority."],
+    ["En retrospectiva, él debería haber sido más directo.","In hindsight, he ought to have been more direct."],
+    ["Ellos deberían haber sabido mejor que depender de una suposición.","They ought to have known better than to rely on an assumption."],
+    ["Deberías haber ajustado tu expectativa a la realidad.","You ought to have adjusted your expectation to reality."],
+    ["Yo debería haber respondido con más responsabilidad.","I ought to have responded with more responsibility."]
+  ]
+};
+
 function weekForDay(day) {
   return WEEKS.find(w => day >= w.range[0] && day <= w.range[1]) || WEEKS[WEEKS.length - 1];
 }
@@ -112,7 +205,8 @@ function weekSlotsForDay(day, week) {
   // Estructura modelo: 21 frases distintas por semana (banco propio, structBank),
   // 3 por dia, sin repetir el mismo trio ni la misma frase en toda la semana.
   const dayOffset = (day - week.range[0]) % 7;
-  const structureModel = week.structBank.slice(dayOffset * 3, dayOffset * 3 + 3).map(pair => ({
+  const structureSource = MODAL_DAILY_STRUCTURES[week.id] || week.structBank;
+  const structureModel = structureSource.slice(dayOffset * 3, dayOffset * 3 + 3).map(pair => ({
     es: pair[0],
     en: pair[1]
   }));
@@ -748,7 +842,7 @@ function HomeView({
       fontSize: 12.5,
       lineHeight: 1.6
     }
-  }, "Voz alta · ordenar fragmentos · completar (banco) · opción múltiple (x2) ·", /*#__PURE__*/React.createElement("br", null), "juntar pares · traducción escrita (x2) · crear tu propia frase") : /*#__PURE__*/React.createElement("div", {
+  }, "Vocabulario · shadowing · lectura profunda · ordenar · completar · opción múltiple (x2) ·", /*#__PURE__*/React.createElement("br", null), "juntar pares · traducción escrita (x2) · crear tu propia frase") : /*#__PURE__*/React.createElement("div", {
     style: {
       color: C.marbleDim,
       fontSize: 12.5
@@ -1023,6 +1117,8 @@ function IntroStage({
   extras,
   onNext
 }) {
+  const [shadowHidden, setShadowHidden] = useState(false);
+  const deepText = structureModel.map(x => x.en).join(" ");
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
     style: cardStyle
   }, /*#__PURE__*/React.createElement("div", {
@@ -1102,6 +1198,39 @@ function IntroStage({
     size: 13,
     color: C.bronzeLight
   })))))), /*#__PURE__*/React.createElement("div", {
+    style: cardStyle
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.bronzeLight,
+      fontSize: 11,
+      marginBottom: 8,
+      letterSpacing: 0.7,
+      fontWeight: 700
+    }
+  }, "SHADOWING · 3 RONDAS"), /*#__PURE__*/React.createElement("div", {
+    style: { color: C.marbleDim, fontSize: 12, lineHeight: 1.6, marginBottom: 10 }
+  }, "1) Escucha. 2) Repite con texto. 3) Oculta el texto y repite de memoria."), structureModel.map((item, i) => /*#__PURE__*/React.createElement("div", {
+    key: "sh-"+i,
+    style: { padding: "8px 0", borderBottom: i < structureModel.length - 1 ? `1px solid ${C.line}` : "none" }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: { display: "flex", alignItems: "center", justifyContent: "space-between", gap: 10 }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: { color: shadowHidden ? C.bgSoft : C.marble, fontSize: 13, lineHeight: 1.5, flex: 1 }
+  }, shadowHidden ? "••••••••••••••••" : item.en), /*#__PURE__*/React.createElement("button", {
+    onClick: () => speak(item.en),
+    style: iconBtn
+  }, /*#__PURE__*/React.createElement(Volume2, { size: 15, color: C.bronzeLight }))))), /*#__PURE__*/React.createElement("button", {
+    onClick: () => setShadowHidden(!shadowHidden),
+    style: { ...ghostBtn, marginTop: 10 }
+  }, shadowHidden ? "Mostrar texto" : "Ocultar texto · ronda 3")), /*#__PURE__*/React.createElement("div", {
+    style: cardStyle
+  }, /*#__PURE__*/React.createElement("div", {
+    style: { color: C.bronzeLight, fontSize: 11, marginBottom: 8, letterSpacing: 0.7, fontWeight: 700 }
+  }, "LECTURA PROFUNDA"), /*#__PURE__*/React.createElement("div", {
+    style: { color: C.marble, fontFamily: serif, fontSize: 15, lineHeight: 1.75, marginBottom: 10 }
+  }, deepText), /*#__PURE__*/React.createElement("div", {
+    style: { color: C.marbleDim, fontSize: 12, lineHeight: 1.6 }
+  }, "Lee una vez por significado y otra por forma. Identifica la estructura de la semana y explica mentalmente por qué se usa en cada oración.")), /*#__PURE__*/React.createElement("div", {
     style: cardStyle
   }, /*#__PURE__*/React.createElement("div", {
     style: {
@@ -2244,19 +2373,21 @@ function ProgressBar({
 const cardStyle = {
   background: C.bgSoft,
   border: `1px solid ${C.line}`,
-  borderRadius: 6,
+  borderRadius: 14,
   padding: "20px 18px",
-  marginBottom: 14
+  marginBottom: 16,
+  boxShadow: "0 10px 28px rgba(0,0,0,0.16)"
 };
 function primaryBtn(bg) {
   return {
     width: "100%",
-    padding: "14px 16px",
+    padding: "16px 18px",
+    minHeight: 52,
     background: bg,
     color: C.marble,
     border: "none",
-    borderRadius: 4,
-    fontSize: 15,
+    borderRadius: 12,
+    fontSize: 16,
     fontFamily: sans,
     display: "flex",
     alignItems: "center",
@@ -2270,8 +2401,9 @@ const ghostBtn = {
   background: "transparent",
   border: `1px solid ${C.line}`,
   color: C.marbleDim,
-  borderRadius: 4,
-  padding: "8px 12px",
+  borderRadius: 10,
+  padding: "10px 14px",
+  minHeight: 42,
   fontSize: 12,
   display: "inline-flex",
   alignItems: "center",
@@ -2281,9 +2413,16 @@ const ghostBtn = {
 };
 const iconBtn = {
   background: "transparent",
-  border: "none",
+  border: `1px solid ${C.line}`,
+  color: C.bronzeLight,
+  borderRadius: 10,
   cursor: "pointer",
-  padding: 2
+  padding: 8,
+  minWidth: 38,
+  minHeight: 38,
+  display: "inline-flex",
+  alignItems: "center",
+  justifyContent: "center"
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
