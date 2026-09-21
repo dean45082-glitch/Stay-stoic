@@ -24,6 +24,27 @@ async function saveJSON(key, val) {
     console.error(e);
   }
 }
+const SPEECH_RATE_KEY = "stayStoicSpeechRate";
+function getSpeechRate() {
+  try {
+    const n = Number(localStorage.getItem(SPEECH_RATE_KEY));
+    return Number.isFinite(n) && n >= 0.6 && n <= 1.4 ? n : 0.9;
+  } catch {
+    return 0.9;
+  }
+}
+function setSpeechRate(rate) {
+  const n = Math.max(0.6, Math.min(1.4, Number(rate) || 0.9));
+  try { localStorage.setItem(SPEECH_RATE_KEY, String(n)); } catch {}
+  try {
+    if (window.AndroidTTS && typeof window.AndroidTTS.setSpeechRate === "function") {
+      window.AndroidTTS.setSpeechRate(n);
+    }
+  } catch (e) {
+    console.error("setSpeechRate error", e);
+  }
+  return n;
+}
 function defaultMeta() {
   return {
     day: 1,
@@ -45,7 +66,9 @@ function defaultMeta() {
    speakWithStatus() además reporta qué pasó, para poder diagnosticar. */
 function speak(text) {
   try {
+    const rate = getSpeechRate();
     if (window.AndroidTTS && typeof window.AndroidTTS.speak === "function") {
+      if (typeof window.AndroidTTS.setSpeechRate === "function") window.AndroidTTS.setSpeechRate(rate);
       window.AndroidTTS.speak(text);
       return;
     }
@@ -54,7 +77,7 @@ function speak(text) {
     synth.cancel();
     const u = new SpeechSynthesisUtterance(text);
     u.lang = "en-US";
-    u.rate = 0.9;
+    u.rate = rate;
     synth.speak(u);
     if (synth.paused) synth.resume();
   } catch (e) {
@@ -63,7 +86,9 @@ function speak(text) {
 }
 function speakWithStatus(text, setStatus) {
   try {
+    const rate = getSpeechRate();
     if (window.AndroidTTS && typeof window.AndroidTTS.speak === "function") {
+      if (typeof window.AndroidTTS.setSpeechRate === "function") window.AndroidTTS.setSpeechRate(rate);
       window.AndroidTTS.speak(text);
       setStatus("✅ Audio nativo de Android activo.");
       return;
@@ -77,7 +102,7 @@ function speakWithStatus(text, setStatus) {
     const voices = synth.getVoices();
     const u = new SpeechSynthesisUtterance(text);
     u.lang = "en-US";
-    u.rate = 0.9;
+    u.rate = rate;
     u.onstart = () => setStatus("🔊 Reproduciendo... (voces disponibles: " + voices.length + ")");
     u.onend = () => setStatus("✅ Terminó sin errores.");
     u.onerror = e => setStatus("❌ Error al reproducir: " + (e.error || "desconocido"));
@@ -785,7 +810,7 @@ function Header({
       display: "flex",
       alignItems: "center",
       justifyContent: "space-between",
-      padding: "16px 18px",
+      padding: "32px 18px 16px",
       borderBottom: `1px solid ${C.line}`
     }
   }, /*#__PURE__*/React.createElement("div", {
@@ -796,8 +821,17 @@ function Header({
       gap: 10,
       cursor: "pointer"
     }
-  }, /*#__PURE__*/React.createElement(StoicBust, {
-    size: 34
+  }, /*#__PURE__*/React.createElement("img", {
+    src: "app-icon.webp",
+    alt: "Marco Aurelio",
+    style: {
+      width: 38,
+      height: 38,
+      borderRadius: "50%",
+      objectFit: "cover",
+      border: `1px solid ${C.line}`,
+      flexShrink: 0
+    }
   }), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
     style: {
       fontFamily: serif,
@@ -839,6 +873,11 @@ function HomeView({
   const extras = exam ? [] : extraSlotsForDay(meta.day).read;
   const totalErrors = Object.values(meta.bridgeErrors).reduce((a, b) => a + b, 0);
   const [audioStatus, setAudioStatus] = useState(null);
+  const [speechRate, setSpeechRateState] = useState(getSpeechRate());
+  const changeSpeechRate = rate => {
+    const next = setSpeechRate(rate);
+    setSpeechRateState(next);
+  };
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
     style: {
       textAlign: "center",
@@ -865,6 +904,38 @@ function HomeView({
       letterSpacing: 0.5
     }
   }, exam ? "EXAMEN SEMANAL" : "20 ACTIVIDADES · TODOS LOS FORMATOS")), /*#__PURE__*/React.createElement("div", {
+    style: cardStyle
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11,
+      marginBottom: 10,
+      letterSpacing: 0.5
+    }
+  }, "VELOCIDAD DE VOZ"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      gap: 6,
+      flexWrap: "wrap"
+    }
+  }, [0.7, 0.85, 1.0, 1.15, 1.3].map(rate => /*#__PURE__*/React.createElement("button", {
+    key: rate,
+    onClick: () => changeSpeechRate(rate),
+    style: {
+      ...ghostBtn,
+      minWidth: 58,
+      padding: "9px 10px",
+      color: speechRate === rate ? C.marble : C.marbleDim,
+      borderColor: speechRate === rate ? C.bronze : C.line,
+      background: speechRate === rate ? C.bgSoft : "transparent"
+    }
+  }, rate.toFixed(rate === 1 ? 1 : 2).replace(/0$/, ""), "×"))), /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11,
+      marginTop: 8
+    }
+  }, "Se aplica a vocabulario, estructuras, Shadowing y Lectura Profunda.")), /*#__PURE__*/React.createElement("div", {
     style: cardStyle
   }, /*#__PURE__*/React.createElement("div", {
     style: {
@@ -1310,8 +1381,22 @@ function IntroStage({
   }, /*#__PURE__*/React.createElement("div", {
     style: { color: C.bronzeLight, fontSize: 10.5, marginBottom: 6, letterSpacing: 0.6, fontWeight: 700 }
   }, "LÍNEA ", i + 1), /*#__PURE__*/React.createElement("div", {
-    style: { color: C.marble, fontFamily: serif, fontSize: 15.5, lineHeight: 1.75 }
-  }, line))), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "space-between",
+      gap: 10
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: { color: C.marble, fontFamily: serif, fontSize: 15.5, lineHeight: 1.75, flex: 1 }
+  }, line), /*#__PURE__*/React.createElement("button", {
+    onClick: () => speak(line),
+    style: iconBtn,
+    "aria-label": "Reproducir línea " + (i + 1)
+  }, /*#__PURE__*/React.createElement(Volume2, {
+    size: 15,
+    color: C.bronzeLight
+  }))))), /*#__PURE__*/React.createElement("div", {
     style: { color: C.marbleDim, fontSize: 12, lineHeight: 1.6, marginTop: 12 }
   }, "Pregunta mental: ¿qué idea expresa la estructura de esta semana en cada línea?")), /*#__PURE__*/React.createElement("div", {
     style: cardStyle
