@@ -878,113 +878,133 @@ function HomeView({
 }) {
   const w = weekForDay(meta.day);
   const exam = isExamDay(meta.day);
-  const extras = exam ? [] : extraSlotsForDay(meta.day).read;
-  const totalErrors = Object.values(meta.bridgeErrors).reduce((a, b) => a + b, 0);
   const completedPct = Math.round((meta.completedDays.length / TOTAL_DAYS) * 100);
+
+  const moduleRow = (num, title, subtitle) => /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      alignItems: "center",
+      gap: 12,
+      padding: "14px 0",
+      borderBottom: num < 4 ? `1px solid ${C.line}` : "none"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      width: 34,
+      height: 34,
+      borderRadius: "50%",
+      border: `1px solid ${C.bronze}`,
+      color: C.bronzeLight,
+      fontWeight: 800,
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      flexShrink: 0
+    }
+  }, num), /*#__PURE__*/React.createElement("div", {
+    style: { flex: 1, minWidth: 0 }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marble,
+      fontFamily: serif,
+      fontSize: 17,
+      lineHeight: 1.15
+    }
+  }, title), /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11.5,
+      lineHeight: 1.45,
+      marginTop: 3
+    }
+  }, subtitle)), /*#__PURE__*/React.createElement(ChevronRight, {
+    size: 16,
+    color: C.bronzeLight
+  }));
 
   return /*#__PURE__*/React.createElement("div", null,
   /*#__PURE__*/React.createElement("div", {
     style: {
-      padding: "10px 2px 18px"
+      padding: "8px 2px 14px"
     }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
-      color: C.bronzeLight,
-      fontSize: 10.5,
-      fontWeight: 800,
-      letterSpacing: 1.2,
-      textTransform: "uppercase",
-      marginBottom: 7
+      display: "flex",
+      alignItems: "baseline",
+      justifyContent: "space-between",
+      gap: 12
     }
-  }, exam ? "EXAMEN SEMANAL" : "SESIÓN DE HOY"), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
     style: {
       color: C.marble,
-      fontFamily: serif,
-      fontSize: 30,
-      lineHeight: 1.1
+      fontSize: 14,
+      fontWeight: 700
     }
-  }, w.title), /*#__PURE__*/React.createElement("div", {
+  }, "Día ", meta.day, " de ", TOTAL_DAYS), /*#__PURE__*/React.createElement("div", {
     style: {
       color: C.marbleDim,
-      fontSize: 12,
-      lineHeight: 1.5,
-      marginTop: 6
+      fontSize: 11.5,
+      marginTop: 3
     }
-  }, "Día ", meta.day, " de ", TOTAL_DAYS, " · ", completedPct, "% del programa completado"), /*#__PURE__*/React.createElement("div", {
+  }, exam ? "Examen semanal" : "Modo enfoque")), /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.bronzeLight,
+      fontSize: 11.5,
+      fontWeight: 700
+    }
+  }, completedPct, "% completado")), /*#__PURE__*/React.createElement("div", {
     style: {
       height: 5,
       background: C.bgSoft,
-      borderRadius: 4,
+      borderRadius: 999,
       overflow: "hidden",
-      marginTop: 12
+      marginTop: 10
     }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
       height: "100%",
       width: Math.max(2, completedPct) + "%",
       background: C.bronze,
-      borderRadius: 4
+      borderRadius: 999
     }
   }))),
 
   /*#__PURE__*/React.createElement("div", {
     style: {
       ...cardStyle,
-      padding: "18px 16px"
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      color: C.marble,
-      fontFamily: serif,
-      fontSize: 18,
-      marginBottom: 5
-    }
-  }, exam ? "Examen semanal" : "Ruta de práctica"), /*#__PURE__*/React.createElement("div", {
-    style: {
-      color: C.marbleDim,
-      fontSize: 11.5,
-      lineHeight: 1.55
-    }
-  }, exam ? "10 preguntas de opción múltiple sin repetir contenido de exámenes anteriores." : "Vocabulario · estructuras modelo · Shadowing · lectura profunda · práctica activa · producción."), !exam && /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: "flex",
-      gap: 6,
-      flexWrap: "wrap",
-      marginTop: 12
-    }
-  }, ["Vocabulario", "Shadowing", "Lectura", "Producción"].map(label => /*#__PURE__*/React.createElement("span", {
-    key: label,
-    style: {
-      border: `1px solid ${C.line}`,
-      borderRadius: 999,
-      padding: "6px 9px",
-      color: C.marbleDim,
-      fontSize: 10.5,
-      background: C.bg
-    }
-  }, label))), !exam && extras.length > 0 && /*#__PURE__*/React.createElement("div", {
-    style: {
-      marginTop: 13,
-      paddingTop: 12,
-      borderTop: `1px solid ${C.line}`
+      padding: "20px 18px",
+      background: `linear-gradient(135deg, ${C.bgSoft} 0%, ${C.bg} 100%)`
     }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
       color: C.bronzeLight,
-      fontSize: 10,
+      fontSize: 10.5,
       fontWeight: 800,
-      letterSpacing: 0.6,
-      marginBottom: 5
+      letterSpacing: 1.1,
+      marginBottom: 7
     }
-  }, "EXPRESIONES DE HOY"), /*#__PURE__*/React.createElement("div", {
+  }, exam ? "EXAMEN" : "LECCIÓN DE HOY"), /*#__PURE__*/React.createElement("div", {
     style: {
-      color: C.gold,
+      color: C.marble,
       fontFamily: serif,
-      fontStyle: "italic",
-      fontSize: 12.5,
-      lineHeight: 1.55
+      fontSize: 26,
+      lineHeight: 1.12
     }
-  }, extras.map(e => e.phrase).join(" · ")))),
+  }, w.title), /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 12,
+      lineHeight: 1.55,
+      marginTop: 7
+    }
+  }, exam ? "Pon a prueba lo trabajado durante la semana." : "Aprende. Aplica. Repite hasta que la estructura salga con naturalidad.")),
+
+  !exam && /*#__PURE__*/React.createElement("div", {
+    style: {
+      ...cardStyle,
+      padding: "0 16px"
+    }
+  }, moduleRow(1, "Estructuras modelo", "Observa cómo se usa la gramática en contexto."), moduleRow(2, "Shadowing", "Escucha, repite y practica en 3 rondas."), moduleRow(3, "Lectura profunda", "Lee por significado y analiza la estructura."), moduleRow(4, "Audio / Velocidad", "Ajusta el ritmo de todos los audios.")),
 
   /*#__PURE__*/React.createElement("button", {
     onClick: onOpenDay,
@@ -995,7 +1015,7 @@ function HomeView({
       fontSize: 17,
       fontWeight: 700
     }
-  }, exam ? "Comenzar examen semanal" : "Continuar con la práctica", " ", /*#__PURE__*/React.createElement(ChevronRight, {
+  }, exam ? "Comenzar examen semanal" : "Continuar", " ", /*#__PURE__*/React.createElement(ChevronRight, {
     size: 18
   })),
 
@@ -1010,33 +1030,24 @@ function HomeView({
     }
   }, /*#__PURE__*/React.createElement(Calendar, {
     size: 14
-  }), " Ver calendario · Día 1 a ", TOTAL_DAYS),
+  }), " Ver calendario"),
 
   /*#__PURE__*/React.createElement("div", {
     style: {
-      ...cardStyle,
-      marginTop: 16,
-      padding: "14px 16px"
+      textAlign: "center",
+      color: C.marbleDim,
+      fontSize: 10,
+      letterSpacing: 1.4,
+      marginTop: 22,
+      paddingBottom: 6
     }
-  }, /*#__PURE__*/React.createElement(Row, {
-    label: "Racha actual",
-    value: `${meta.streak} días`
-  }), /*#__PURE__*/React.createElement(Row, {
-    label: "Días completados",
-    value: `${meta.completedDays.length} / ${TOTAL_DAYS}`
-  }), /*#__PURE__*/React.createElement(Row, {
-    label: "Exámenes hechos",
-    value: meta.examHistory.length
-  }), /*#__PURE__*/React.createElement(Row, {
-    label: "Errores de puente",
-    value: totalErrors
-  })),
+  }, "DISCIPLINA HOY · MÁS LIBERTAD MAÑANA"),
 
   /*#__PURE__*/React.createElement("button", {
     onClick: onReset,
     style: {
       ...ghostBtn,
-      marginTop: 8
+      marginTop: 10
     }
   }, /*#__PURE__*/React.createElement(RotateCcw, {
     size: 13
@@ -1273,37 +1284,29 @@ function IntroStage({
     const next = setSpeechRate(rate);
     setSpeechRateState(next);
   };
-  const sectionLabel = (num, title, subtitle, meta) => /*#__PURE__*/React.createElement("div", {
+
+  const head = (num, title, subtitle, meta) => /*#__PURE__*/React.createElement("div", {
     style: {
       display: "flex",
-      alignItems: "flex-start",
-      justifyContent: "space-between",
-      gap: 10,
+      alignItems: "center",
+      gap: 12,
       marginBottom: 14
     }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
-      display: "flex",
-      alignItems: "flex-start",
-      gap: 10,
-      minWidth: 0
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      width: 30,
-      height: 30,
+      width: 34,
+      height: 34,
       borderRadius: "50%",
-      background: C.bronze,
-      color: C.bg,
+      border: `1px solid ${C.bronze}`,
+      color: C.bronzeLight,
       fontWeight: 800,
-      fontSize: 13,
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
       flexShrink: 0
     }
   }, num), /*#__PURE__*/React.createElement("div", {
-    style: { minWidth: 0 }
+    style: { flex: 1, minWidth: 0 }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
       color: C.marble,
@@ -1315,25 +1318,33 @@ function IntroStage({
     style: {
       color: C.marbleDim,
       fontSize: 11.5,
-      lineHeight: 1.45,
+      lineHeight: 1.4,
       marginTop: 3
     }
-  }, subtitle))), meta && /*#__PURE__*/React.createElement("div", {
+  }, subtitle)), meta && /*#__PURE__*/React.createElement("div", {
     style: {
       color: C.marbleDim,
       fontSize: 10.5,
-      whiteSpace: "nowrap",
-      paddingTop: 4
+      whiteSpace: "nowrap"
     }
   }, meta));
 
   return /*#__PURE__*/React.createElement("div", null,
+
   /*#__PURE__*/React.createElement("div", {
     style: {
       ...cardStyle,
-      padding: "18px 16px"
+      padding: "16px"
     }
-  }, sectionLabel("1", "Vocabulario clave", "Lee 3 veces en voz alta cada palabra.", week.vocab.length + " palabras"), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.bronzeLight,
+      fontSize: 10.5,
+      fontWeight: 800,
+      letterSpacing: 0.8,
+      marginBottom: 10
+    }
+  }, "VOCABULARIO CLAVE"), /*#__PURE__*/React.createElement("div", {
     style: {
       display: "grid",
       gridTemplateColumns: "repeat(2, minmax(0, 1fr))",
@@ -1343,33 +1354,31 @@ function IntroStage({
     key: i,
     style: {
       border: `1px solid ${C.line}`,
-      borderRadius: 11,
-      padding: "11px 10px",
-      minWidth: 0,
-      background: C.bg
+      borderRadius: 10,
+      padding: "10px",
+      background: C.bg,
+      minWidth: 0
     }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
       display: "flex",
       alignItems: "center",
-      justifyContent: "space-between",
       gap: 6
     }
   }, /*#__PURE__*/React.createElement("div", {
-    style: { minWidth: 0 }
+    style: { flex: 1, minWidth: 0 }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
       color: C.marble,
-      fontSize: 13,
-      lineHeight: 1.35,
+      fontSize: 12.5,
+      lineHeight: 1.3,
       overflowWrap: "anywhere"
     }
   }, v[0]), /*#__PURE__*/React.createElement("div", {
     style: {
       color: C.marbleDim,
-      fontSize: 11,
-      marginTop: 3,
-      lineHeight: 1.35
+      fontSize: 10.5,
+      marginTop: 3
     }
   }, v[1])), /*#__PURE__*/React.createElement("button", {
     onClick: () => speak(v[0]),
@@ -1389,7 +1398,7 @@ function IntroStage({
       ...cardStyle,
       padding: "18px 16px"
     }
-  }, sectionLabel("2", "Estructuras modelo", "Escucha, repite y fíjate en la estructura.", structureModel.length + " frases"), structureModel.map((item, i) => /*#__PURE__*/React.createElement("div", {
+  }, head("1", "Estructuras modelo", "Observa cómo se usa en contexto.", structureModel.length + " frases"), structureModel.map((item, i) => /*#__PURE__*/React.createElement("div", {
     key: i,
     style: {
       display: "flex",
@@ -1400,20 +1409,6 @@ function IntroStage({
     }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
-      width: 26,
-      height: 26,
-      borderRadius: "50%",
-      background: C.bronze,
-      color: C.bg,
-      fontWeight: 800,
-      fontSize: 12,
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-      flexShrink: 0
-    }
-  }, i + 1), /*#__PURE__*/React.createElement("div", {
-    style: {
       flex: 1,
       minWidth: 0
     }
@@ -1422,14 +1417,14 @@ function IntroStage({
       color: C.marble,
       fontFamily: serif,
       fontSize: 15,
-      lineHeight: 1.45
+      lineHeight: 1.5
     }
   }, item.en), /*#__PURE__*/React.createElement("div", {
     style: {
       color: C.marbleDim,
       fontSize: 10.5,
-      marginTop: 3,
-      lineHeight: 1.35
+      lineHeight: 1.35,
+      marginTop: 3
     }
   }, item.es)), /*#__PURE__*/React.createElement("button", {
     onClick: () => speak(item.en),
@@ -1444,51 +1439,50 @@ function IntroStage({
       ...cardStyle,
       padding: "18px 16px"
     }
-  }, sectionLabel("3", "Shadowing", "Escucha, repite con texto y luego de memoria.", "3 rondas"), /*#__PURE__*/React.createElement("div", {
+  }, head("2", "Shadowing", "Escucha, repite y practica.", "3 rondas"), /*#__PURE__*/React.createElement("div", {
     style: {
       display: "grid",
       gridTemplateColumns: "repeat(3, minmax(0, 1fr))",
       gap: 8,
-      marginBottom: 14
+      marginBottom: 12
     }
-  }, [["1", "Escucha"], ["2", "Repite con texto"], ["3", "Oculta y repite"]].map((step, i) => /*#__PURE__*/React.createElement("div", {
+  }, [["1","Escucha"],["2","Repite con texto"],["3","Oculta y repite"]].map((step, i) => /*#__PURE__*/React.createElement("div", {
     key: i,
     style: {
-      border: `1px solid ${i === 0 ? C.bronze : C.line}`,
+      border: `1px solid ${i===0 ? C.bronze : C.line}`,
       borderRadius: 10,
-      padding: "10px 6px",
+      padding: "9px 5px",
       textAlign: "center",
-      background: i === 0 ? C.bg : "transparent"
+      background: i===0 ? C.bg : "transparent"
     }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
-      color: i === 0 ? C.bronzeLight : C.marbleDim,
+      color: i===0 ? C.bronzeLight : C.marbleDim,
       fontWeight: 800,
       fontSize: 12,
-      marginBottom: 4
+      marginBottom: 3
     }
   }, step[0]), /*#__PURE__*/React.createElement("div", {
     style: {
       color: C.marble,
-      fontSize: 10.5,
-      lineHeight: 1.3
+      fontSize: 10,
+      lineHeight: 1.25
     }
   }, step[1])))), structureModel.map((item, i) => /*#__PURE__*/React.createElement("div", {
-    key: "sh-" + i,
+    key: "sh-"+i,
     style: {
       display: "flex",
       alignItems: "center",
-      justifyContent: "space-between",
       gap: 10,
-      padding: "9px 0",
+      padding: "8px 0",
       borderBottom: i < structureModel.length - 1 ? `1px solid ${C.line}` : "none"
     }
   }, /*#__PURE__*/React.createElement("span", {
     style: {
+      flex: 1,
       color: shadowHidden ? C.bgSoft : C.marble,
-      fontSize: 13,
-      lineHeight: 1.5,
-      flex: 1
+      fontSize: 12.5,
+      lineHeight: 1.5
     }
   }, shadowHidden ? "••••••••••••••••" : item.en), /*#__PURE__*/React.createElement("button", {
     onClick: () => speak(item.en),
@@ -1500,50 +1494,17 @@ function IntroStage({
     onClick: () => setShadowHidden(!shadowHidden),
     style: {
       ...ghostBtn,
-      marginTop: 12
+      marginTop: 10
     }
-  }, shadowHidden ? "Mostrar texto" : "Ocultar texto · ronda 3"), /*#__PURE__*/React.createElement("div", {
-    style: {
-      marginTop: 14,
-      paddingTop: 14,
-      borderTop: `1px solid ${C.line}`
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      color: C.marble,
-      fontSize: 12,
-      fontWeight: 700,
-      marginBottom: 8
-    }
-  }, "Velocidad de audio"), /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: "flex",
-      gap: 6,
-      flexWrap: "wrap"
-    }
-  }, [0.7, 0.85, 1.0, 1.15, 1.3].map(rate => /*#__PURE__*/React.createElement("button", {
-    key: rate,
-    onClick: () => changeSpeechRate(rate),
-    style: {
-      ...ghostBtn,
-      minWidth: 54,
-      minHeight: 38,
-      padding: "8px 10px",
-      justifyContent: "center",
-      color: speechRate === rate ? C.bg : C.marbleDim,
-      borderColor: speechRate === rate ? C.bronze : C.line,
-      background: speechRate === rate ? C.bronze : "transparent",
-      fontWeight: speechRate === rate ? 800 : 500
-    }
-  }, rate.toFixed(rate === 1 ? 1 : 2).replace(/0$/, ""), "×"))))),
+  }, shadowHidden ? "Mostrar texto" : "Ocultar texto · ronda 3")),
 
   /*#__PURE__*/React.createElement("div", {
     style: {
       ...cardStyle,
       padding: "18px 16px"
     }
-  }, sectionLabel("4", "Lectura profunda", "Lee por significado primero; después analiza la estructura.", deepReading.length + " líneas"), deepReading.map((line, i) => /*#__PURE__*/React.createElement("div", {
-    key: "deep-" + i,
+  }, head("3", "Lectura profunda", "Lee por significado y analiza la estructura.", deepReading.length + " líneas"), deepReading.map((line, i) => /*#__PURE__*/React.createElement("div", {
+    key: "deep-"+i,
     style: {
       display: "flex",
       alignItems: "center",
@@ -1553,59 +1514,77 @@ function IntroStage({
     }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
-      width: 26,
-      height: 26,
-      borderRadius: "50%",
-      background: C.bronze,
-      color: C.bg,
-      fontWeight: 800,
-      fontSize: 12,
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-      flexShrink: 0
+      flex: 1,
+      minWidth: 0
     }
-  }, i + 1), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.bronzeLight,
+      fontSize: 10,
+      fontWeight: 800,
+      letterSpacing: 0.6,
+      marginBottom: 4
+    }
+  }, "LÍNEA ", i+1), /*#__PURE__*/React.createElement("div", {
     style: {
       color: C.marble,
       fontFamily: serif,
       fontSize: 15.5,
-      lineHeight: 1.6,
-      flex: 1,
-      minWidth: 0
+      lineHeight: 1.6
     }
-  }, line), /*#__PURE__*/React.createElement("button", {
+  }, line)), /*#__PURE__*/React.createElement("button", {
     onClick: () => speak(line),
-    style: iconBtn,
-    "aria-label": "Reproducir línea " + (i + 1)
+    style: iconBtn
   }, /*#__PURE__*/React.createElement(Volume2, {
     size: 15,
     color: C.bronzeLight
   })))), /*#__PURE__*/React.createElement("div", {
     style: {
-      marginTop: 13,
-      padding: "12px 13px",
+      marginTop: 12,
+      padding: "11px 12px",
+      background: C.bg,
       border: `1px solid ${C.line}`,
       borderRadius: 10,
-      background: C.bg
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      color: C.bronzeLight,
-      fontSize: 10.5,
-      fontWeight: 800,
-      letterSpacing: 0.5,
-      marginBottom: 4
-    }
-  }, "PREGUNTA MENTAL"), /*#__PURE__*/React.createElement("div", {
-    style: {
       color: C.marbleDim,
       fontSize: 11.5,
       lineHeight: 1.5
     }
-  }, "¿Qué idea expresa la estructura de esta semana en cada línea?"))),
+  }, "Primero, lee por el significado. Después, fíjate en la estructura y cómo se usa en contexto.")),
 
   /*#__PURE__*/React.createElement("div", {
+    style: {
+      ...cardStyle,
+      padding: "18px 16px"
+    }
+  }, head("4", "Audio / Velocidad", "Selecciona la velocidad para todos los audios.", null), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "grid",
+      gridTemplateColumns: "repeat(5, minmax(0, 1fr))",
+      gap: 6
+    }
+  }, [0.7,0.85,1.0,1.15,1.3].map(rate => /*#__PURE__*/React.createElement("button", {
+    key: rate,
+    onClick: () => changeSpeechRate(rate),
+    style: {
+      border: `1px solid ${speechRate===rate ? C.bronze : C.line}`,
+      borderRadius: 10,
+      minHeight: 44,
+      background: speechRate===rate ? C.bronze : C.bg,
+      color: speechRate===rate ? C.bg : C.marble,
+      fontWeight: speechRate===rate ? 800 : 600,
+      fontSize: 11,
+      cursor: "pointer"
+    }
+  }, rate.toFixed(rate===1 ? 1 : 2).replace(/0$/,""), "×"))), /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 10.5,
+      marginTop: 10,
+      lineHeight: 1.45
+    }
+  }, "La velocidad seleccionada se aplica a todos los audios de la lección.")),
+
+  extras.length > 0 && /*#__PURE__*/React.createElement("div", {
     style: {
       ...cardStyle,
       padding: "16px"
@@ -1614,34 +1593,33 @@ function IntroStage({
     style: {
       color: C.marbleDim,
       fontSize: 10.5,
-      marginBottom: 10,
-      letterSpacing: 0.7,
-      fontWeight: 700
+      fontWeight: 700,
+      letterSpacing: 0.6,
+      marginBottom: 8
     }
-  }, "BANCO DE EXPRESIONES · HOY"), extras.map((e, i) => /*#__PURE__*/React.createElement("div", {
-    key: i,
-    style: {
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "space-between",
-      gap: 8,
-      padding: "8px 0",
-      borderBottom: i < extras.length - 1 ? `1px solid ${C.line}` : "none"
+  }, "BANCO DE EXPRESIONES"), extras.map((e,i) => /*#__PURE__*/React.createElement("div", {
+    key:i,
+    style:{
+      display:"flex",
+      alignItems:"center",
+      gap:8,
+      padding:"7px 0",
+      borderBottom:i<extras.length-1 ? `1px solid ${C.line}` : "none"
     }
-  }, /*#__PURE__*/React.createElement("span", {
-    style: {
-      color: C.gold,
-      fontFamily: serif,
-      fontStyle: "italic",
-      fontSize: 14,
-      lineHeight: 1.4
+  }, /*#__PURE__*/React.createElement("span",{
+    style:{
+      flex:1,
+      color:C.gold,
+      fontFamily:serif,
+      fontStyle:"italic",
+      fontSize:13.5
     }
-  }, e.phrase), /*#__PURE__*/React.createElement("button", {
-    onClick: () => speak(e.phrase),
-    style: iconBtn
-  }, /*#__PURE__*/React.createElement(Volume2, {
-    size: 13,
-    color: C.bronzeLight
+  },e.phrase), /*#__PURE__*/React.createElement("button",{
+    onClick:()=>speak(e.phrase),
+    style:iconBtn
+  }, /*#__PURE__*/React.createElement(Volume2,{
+    size:13,
+    color:C.bronzeLight
   }))))),
 
   /*#__PURE__*/React.createElement("button", {
@@ -1651,11 +1629,10 @@ function IntroStage({
       minHeight: 58,
       fontFamily: serif,
       fontSize: 17,
-      fontWeight: 700,
-      marginTop: 2
+      fontWeight: 700
     }
-  }, "Continuar con la práctica ", /*#__PURE__*/React.createElement(ChevronRight, {
-    size: 19
+  }, "Continuar ", /*#__PURE__*/React.createElement(ChevronRight, {
+    size: 18
   })));
 }
 /* ---------- 6-7: reordenar fragmentos (gramatica) ---------- */
