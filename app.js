@@ -797,8 +797,7 @@ function HomeView({
   }, /*#__PURE__*/React.createElement(Calendar, {
     size: 14
   }), " Ver calendario · Día 1 a ", TOTAL_DAYS), /*#__PURE__*/React.createElement("div", {
-    style: {
-      marginTop: 28,
+    style: {      marginTop: 28,
       borderTop: `1px solid ${C.line}`,
       paddingTop: 18
     }
@@ -998,3 +997,1294 @@ function DayFlow({
 }
 function StageDots({
   stage
+}) {
+  const idx = STAGE_ORDER.indexOf(stage);
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      gap: 4,
+      marginBottom: 16
+    }
+  }, STAGE_ORDER.map((s, i) => /*#__PURE__*/React.createElement("div", {
+    key: s,
+    style: {
+      flex: 1,
+      height: 4,
+      borderRadius: 2,
+      background: i <= idx ? C.bronze : C.bgSoft
+    }
+  })));
+}
+
+/* ---------- 1-5: intro ---------- */
+function IntroStage({
+  week,
+  structureModel,
+  extras,
+  onNext
+}) {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: cardStyle
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11,
+      marginBottom: 8,
+      letterSpacing: 0.5
+    }
+  }, "PASO 1-4 · VOCABULARIO — LEE 3 VECES EN VOZ ALTA"), week.vocab.map((v, i) => /*#__PURE__*/React.createElement("div", {
+    key: i,
+    style: {
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "space-between",
+      fontSize: 13,
+      padding: "4px 0"
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      color: C.marble
+    }
+  }, v[0]), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      alignItems: "center",
+      gap: 6
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      color: C.marbleDim
+    }
+  }, v[1]), /*#__PURE__*/React.createElement("button", {
+    onClick: () => speak(v[0]),
+    style: iconBtn
+  }, /*#__PURE__*/React.createElement(Volume2, {
+    size: 13,
+    color: C.bronzeLight
+  })))))), /*#__PURE__*/React.createElement("div", {
+    style: cardStyle
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11,
+      marginBottom: 8,
+      letterSpacing: 0.5
+    }
+  }, "PASO 5 · ESTRUCTURA MODELO (cambia cada día)"), structureModel.map((item, i) => /*#__PURE__*/React.createElement("div", {
+    key: i,
+    style: {
+      padding: "6px 0",
+      borderBottom: i < structureModel.length - 1 ? `1px solid ${C.line}` : "none"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11.5,
+      marginBottom: 2
+    }
+  }, item.es), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      alignItems: "center",
+      gap: 6
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      color: C.marble,
+      fontFamily: serif,
+      fontStyle: "italic",
+      fontSize: 14
+    }
+  }, item.en), /*#__PURE__*/React.createElement("button", {
+    onClick: () => speak(item.en),
+    style: iconBtn
+  }, /*#__PURE__*/React.createElement(Volume2, {
+    size: 13,
+    color: C.bronzeLight
+  })))))), /*#__PURE__*/React.createElement("div", {
+    style: cardStyle
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 10.5,
+      marginBottom: 8,
+      letterSpacing: 0.5
+    }
+  }, "BANCO DE EXPRESIONES — LEE EN VOZ ALTA"), extras.map((e, i) => /*#__PURE__*/React.createElement("div", {
+    key: i,
+    style: {
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "space-between",
+      padding: "6px 0",
+      borderBottom: i < extras.length - 1 ? `1px solid ${C.line}` : "none"
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      color: C.gold,
+      fontFamily: serif,
+      fontStyle: "italic",
+      fontSize: 14
+    }
+  }, e.phrase), /*#__PURE__*/React.createElement("button", {
+    onClick: () => speak(e.phrase),
+    style: iconBtn
+  }, /*#__PURE__*/React.createElement(Volume2, {
+    size: 13,
+    color: C.bronzeLight
+  }))))), /*#__PURE__*/React.createElement("button", {
+    onClick: onNext,
+    style: primaryBtn(C.bronze)
+  }, "Continuar ", /*#__PURE__*/React.createElement(ChevronRight, {
+    size: 18
+  })));
+}
+
+/* ---------- 6-7: reordenar fragmentos (gramatica) ---------- */
+function ReorderStage({
+  items,
+  bridge,
+  onMark,
+  onDone
+}) {
+  const [idx, setIdx] = useState(0);
+  const item = items[idx];
+  const rd = useMemo(() => item ? buildReorder(item) : null, [item && item.id]);
+  const [built, setBuilt] = useState([]);
+  const [pool, setPool] = useState([]);
+  useEffect(() => {
+    if (rd) {
+      setBuilt([]);
+      setPool(rd.shuffled);
+    }
+  }, [item && item.id]);
+  if (!item) {
+    onDone();
+    return null;
+  }
+  function tapWord(w, i) {
+    setBuilt([...built, w]);
+    setPool(pool.filter((_, x) => x !== i));
+  }
+  function reset() {
+    setBuilt([]);
+    setPool(rd.shuffled);
+  }
+  const done = pool.length === 0;
+  const correct = built.join(" ") === rd.words.join(" ");
+  function submit() {
+    onMark(item, correct);
+    if (idx + 1 < items.length) setIdx(idx + 1);else onDone();
+  }
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11,
+      marginBottom: 6
+    }
+  }, "PASO 6-7 · ORDENA LA FRASE · ", idx + 1, "/", items.length), /*#__PURE__*/React.createElement("div", {
+    style: cardStyle
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 12,
+      marginBottom: 14,
+      fontStyle: "italic"
+    }
+  }, item.es), /*#__PURE__*/React.createElement("div", {
+    style: {
+      minHeight: 40,
+      borderBottom: `1px solid ${C.line}`,
+      paddingBottom: 10,
+      marginBottom: 14,
+      fontFamily: serif,
+      color: C.marble,
+      fontSize: 16
+    }
+  }, built.join(" ")), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      flexWrap: "wrap",
+      gap: 6
+    }
+  }, pool.map((w, i) => /*#__PURE__*/React.createElement("button", {
+    key: i,
+    onClick: () => tapWord(w, i),
+    style: {
+      padding: "7px 10px",
+      borderRadius: 4,
+      border: `1px solid ${C.bronze}`,
+      background: "transparent",
+      color: C.marble,
+      fontSize: 13.5
+    }
+  }, w)))), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      gap: 10
+    }
+  }, /*#__PURE__*/React.createElement("button", {
+    onClick: reset,
+    style: {
+      ...ghostBtn,
+      flex: 1,
+      justifyContent: "center"
+    }
+  }, /*#__PURE__*/React.createElement(RotateCcw, {
+    size: 13
+  }), " Reiniciar"), done && /*#__PURE__*/React.createElement("button", {
+    onClick: submit,
+    style: {
+      ...primaryBtn(correct ? C.verdigris : C.terracotta),
+      flex: 2,
+      marginTop: 0
+    }
+  }, correct ? "¡Correcto! Siguiente" : "Ver y continuar", " ", /*#__PURE__*/React.createElement(ChevronRight, {
+    size: 16
+  }))), done && !correct && /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 12.5,
+      marginTop: 10
+    }
+  }, "Frase correcta: ", /*#__PURE__*/React.createElement("span", {
+    style: {
+      color: C.marble,
+      fontStyle: "italic"
+    }
+  }, rd.words.join(" "))));
+}
+
+/* ---------- 8-9: completar espacio (banco extra) ---------- */
+function FillExtraStage({
+  items,
+  onMark,
+  onDone
+}) {
+  const [idx, setIdx] = useState(0);
+  const item = items[idx];
+  const fb = useMemo(() => item ? genericBlank(item.phrase, items) : null, [item && item.id]);
+  const [picked, setPicked] = useState(null);
+  useEffect(() => setPicked(null), [idx]);
+  if (!item) {
+    onDone();
+    return null;
+  }
+  if (!fb) {
+    if (idx + 1 < items.length) {
+      setIdx(idx + 1);
+      return null;
+    }
+    onDone();
+    return null;
+  }
+  function submit(correct) {
+    onMark(null, correct);
+    if (idx + 1 < items.length) setIdx(idx + 1);else onDone();
+  }
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11,
+      marginBottom: 6
+    }
+  }, "PASO 8-9 · COMPLETA (BANCO) · ", idx + 1, "/", items.length), /*#__PURE__*/React.createElement("div", {
+    style: cardStyle
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11,
+      marginBottom: 8
+    }
+  }, "COMPLETA LA EXPRESIÓN"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontFamily: serif,
+      color: C.gold,
+      fontSize: 18,
+      fontStyle: "italic"
+    }
+  }, fb.blanked)), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      gap: 8
+    }
+  }, fb.options.map((opt, i) => {
+    let border = C.line,
+      color = C.marble;
+    if (picked) {
+      if (opt === fb.correct) {
+        border = C.verdigris;
+        color = "#8FB09E";
+      } else if (opt === picked) {
+        border = C.terracotta;
+        color = C.terracotta;
+      }
+    }
+    return /*#__PURE__*/React.createElement("button", {
+      key: i,
+      disabled: !!picked,
+      onClick: () => setPicked(opt),
+      style: {
+        flex: 1,
+        padding: "12px 8px",
+        borderRadius: 4,
+        border: `1px solid ${border}`,
+        background: "transparent",
+        color,
+        fontSize: 14
+      }
+    }, opt);
+  })), picked && /*#__PURE__*/React.createElement("button", {
+    onClick: () => submit(picked === fb.correct),
+    style: primaryBtn(C.bronze)
+  }, "Siguiente ", /*#__PURE__*/React.createElement(ChevronRight, {
+    size: 18
+  })));
+}
+
+/* ---------- 10-11: opcion multiple (gramatica) ---------- */
+function McGramStage({
+  items,
+  bridge,
+  onMark,
+  onDone
+}) {
+  const [idx, setIdx] = useState(0);
+  const item = items[idx];
+  const options = useMemo(() => item ? buildOptions(item, items) : [], [item && item.id]);
+  const [picked, setPicked] = useState(null);
+  useEffect(() => setPicked(null), [idx]);
+  if (!item) {
+    onDone();
+    return null;
+  }
+  function submit(correct) {
+    onMark(item, correct);
+    if (idx + 1 < items.length) setIdx(idx + 1);else onDone();
+  }
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11,
+      marginBottom: 6
+    }
+  }, "PASO 10-11 · OPCIÓN MÚLTIPLE · ", idx + 1, "/", items.length), /*#__PURE__*/React.createElement("div", {
+    style: cardStyle
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11,
+      marginBottom: 8
+    }
+  }, "TRADUCE AL INGLÉS"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontFamily: serif,
+      color: C.marble,
+      fontSize: 18
+    }
+  }, item.es)), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      flexDirection: "column",
+      gap: 8
+    }
+  }, options.map((opt, i) => {
+    let border = C.line,
+      color = C.marble;
+    if (picked) {
+      if (opt === item.en) {
+        border = C.verdigris;
+        color = "#8FB09E";
+      } else if (opt === picked) {
+        border = C.terracotta;
+        color = C.terracotta;
+      }
+    }
+    return /*#__PURE__*/React.createElement("button", {
+      key: i,
+      disabled: !!picked,
+      onClick: () => setPicked(opt),
+      style: {
+        textAlign: "left",
+        padding: "12px 14px",
+        borderRadius: 4,
+        border: `1px solid ${border}`,
+        background: "transparent",
+        color,
+        fontSize: 14
+      }
+    }, opt);
+  })), picked && /*#__PURE__*/React.createElement("button", {
+    onClick: () => submit(picked === item.en),
+    style: primaryBtn(C.bronze)
+  }, "Siguiente ", /*#__PURE__*/React.createElement(ChevronRight, {
+    size: 18
+  })));
+}
+
+/* ---------- 12-13: opcion multiple (banco extra) — frase correcta ---------- */
+function McExtraStage({
+  items,
+  onMark,
+  onDone
+}) {
+  const [idx, setIdx] = useState(0);
+  const item = items[idx];
+  const options = useMemo(() => item ? buildPhraseVariants(item.phrase, items) : [], [item && item.id]);
+  const [picked, setPicked] = useState(null);
+  useEffect(() => setPicked(null), [idx]);
+  if (!item) {
+    onDone();
+    return null;
+  }
+  function submit(correct) {
+    onMark(null, correct);
+    if (idx + 1 < items.length) setIdx(idx + 1);else onDone();
+  }
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11,
+      marginBottom: 6
+    }
+  }, "PASO 12-13 · ¿CUÁL ESTÁ BIEN ESCRITA? · ", idx + 1, "/", items.length), /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 12,
+      marginBottom: 14
+    }
+  }, "Elige la expresión correcta:"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      flexDirection: "column",
+      gap: 8
+    }
+  }, options.map((opt, i) => {
+    let border = C.line,
+      color = C.marble;
+    if (picked) {
+      if (opt === item.phrase) {
+        border = C.verdigris;
+        color = "#8FB09E";
+      } else if (opt === picked) {
+        border = C.terracotta;
+        color = C.terracotta;
+      }
+    }
+    return /*#__PURE__*/React.createElement("button", {
+      key: i,
+      disabled: !!picked,
+      onClick: () => setPicked(opt),
+      style: {
+        textAlign: "left",
+        padding: "12px 14px",
+        borderRadius: 4,
+        border: `1px solid ${border}`,
+        background: "transparent",
+        color,
+        fontSize: 14,
+        fontStyle: "italic"
+      }
+    }, opt);
+  })), picked && /*#__PURE__*/React.createElement("button", {
+    onClick: () => submit(picked === item.phrase),
+    style: primaryBtn(C.bronze)
+  }, "Siguiente ", /*#__PURE__*/React.createElement(ChevronRight, {
+    size: 18
+  })));
+}
+
+/* ---------- 14-15: juntar pares (gramatica ES-EN + banco extra mitad/mitad, TODO EN UNA SOLA FASE) ---------- */
+function PairsStage({
+  gramItems,
+  extraItems,
+  bridge,
+  onMark,
+  onDone
+}) {
+  const left = useMemo(() => [...gramItems.map(i => ({
+    id: i.id,
+    label: i.es
+  })), ...extraItems.map((i, x) => ({
+    id: "X" + x,
+    label: splitPhrase(i.phrase).first
+  }))], [gramItems, extraItems]);
+  const rightBase = useMemo(() => [...gramItems.map(i => ({
+    id: i.id,
+    label: i.en
+  })), ...extraItems.map((i, x) => ({
+    id: "X" + x,
+    label: splitPhrase(i.phrase).second
+  }))], [gramItems, extraItems]);
+  const right = useMemo(() => [...rightBase].sort(() => Math.random() - 0.5), [rightBase]);
+  const [matched, setMatched] = useState([]);
+  const [selL, setSelL] = useState(null);
+  const [selR, setSelR] = useState(null);
+  const [flash, setFlash] = useState(null);
+  const [wrongCount, setWrongCount] = useState(0);
+  useEffect(() => {
+    if (selL && selR) {
+      const ok = selL === selR;
+      setFlash({
+        l: selL,
+        r: selR,
+        ok
+      });
+      if (ok) {
+        setTimeout(() => {
+          setMatched(m => [...m, selL]);
+          setSelL(null);
+          setSelR(null);
+          setFlash(null);
+        }, 400);
+      } else {
+        setWrongCount(c => c + 1);
+        setTimeout(() => {
+          setSelL(null);
+          setSelR(null);
+          setFlash(null);
+        }, 500);
+      }
+    }
+  }, [selL, selR]);
+  const done = matched.length === left.length;
+  function finish() {
+    onMark(bridge, wrongCount === 0);
+    onDone();
+  }
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11,
+      marginBottom: 6
+    }
+  }, "PASO 14-15 · JUNTAR PARES (gramática + banco)"), /*#__PURE__*/React.createElement("div", {
+    style: cardStyle
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      gap: 14
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      flex: 1
+    }
+  }, left.map(it => {
+    const isMatched = matched.includes(it.id);
+    const isSel = selL === it.id;
+    const isFlash = flash && flash.l === it.id;
+    let border = C.line,
+      color = C.marble;
+    if (isMatched) {
+      border = C.verdigris;
+      color = C.verdigris;
+    } else if (isFlash) {
+      border = flash.ok ? C.verdigris : C.terracotta;
+      color = flash.ok ? "#8FB09E" : C.terracotta;
+    } else if (isSel) {
+      border = C.bronzeLight;
+    }
+    return /*#__PURE__*/React.createElement("button", {
+      key: it.id,
+      disabled: isMatched,
+      onClick: () => !isMatched && setSelL(it.id),
+      style: {
+        width: "100%",
+        textAlign: "left",
+        padding: "9px 10px",
+        marginBottom: 6,
+        borderRadius: 4,
+        border: `1px solid ${border}`,
+        background: "transparent",
+        color,        fontSize: 12.5,
+        opacity: isMatched ? 0.4 : 1
+      }
+    }, it.label);
+  })), /*#__PURE__*/React.createElement("div", {
+    style: {
+      flex: 1
+    }
+  }, right.map(it => {
+    const isMatched = matched.includes(it.id);
+    const isSel = selR === it.id;
+    const isFlash = flash && flash.r === it.id;
+    let border = C.line,
+      color = C.marble;
+    if (isMatched) {
+      border = C.verdigris;
+      color = C.verdigris;
+    } else if (isFlash) {
+      border = flash.ok ? C.verdigris : C.terracotta;
+      color = flash.ok ? "#8FB09E" : C.terracotta;
+    } else if (isSel) {
+      border = C.bronzeLight;
+    }
+    return /*#__PURE__*/React.createElement("button", {
+      key: it.id,
+      disabled: isMatched,
+      onClick: () => !isMatched && setSelR(it.id),
+      style: {
+        width: "100%",
+        textAlign: "left",
+        padding: "9px 10px",
+        marginBottom: 6,
+        borderRadius: 4,
+        border: `1px solid ${border}`,
+        background: "transparent",
+        color,
+        fontSize: 12.5,
+        opacity: isMatched ? 0.4 : 1
+      }
+    }, it.label);
+  })))), done && /*#__PURE__*/React.createElement("button", {
+    onClick: finish,
+    style: primaryBtn(C.bronze)
+  }, "Siguiente ", /*#__PURE__*/React.createElement(ChevronRight, {
+    size: 18
+  })));
+}
+
+/* ---------- 16-17: traduccion escrita (gramatica, ES->EN) ---------- */
+function TranslateGramStage({
+  items,
+  bridge,
+  onMark,
+  onDone
+}) {
+  const [idx, setIdx] = useState(0);
+  const item = items[idx];
+  const [text, setText] = useState("");
+  const [checked, setChecked] = useState(null); // {correct}
+  useEffect(() => {
+    setText("");
+    setChecked(null);
+  }, [idx]);
+  if (!item) {
+    onDone();
+    return null;
+  }
+  function check() {
+    const correct = normalizeAnswer(text) === normalizeAnswer(item.en);
+    setChecked({
+      correct
+    });
+  }
+  function next() {
+    onMark(item, checked.correct);
+    if (idx + 1 < items.length) setIdx(idx + 1);else onDone();
+  }
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11,
+      marginBottom: 6
+    }
+  }, "PASO 16-17 · TRADUCE (ESCRIBE) · ", idx + 1, "/", items.length), /*#__PURE__*/React.createElement("div", {
+    style: cardStyle
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11,
+      marginBottom: 8,
+      letterSpacing: 0.5
+    }
+  }, "ESPAÑOL"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontFamily: serif,
+      color: C.marble,
+      fontSize: 18,
+      marginBottom: 16
+    }
+  }, item.es), /*#__PURE__*/React.createElement("input", {
+    value: text,
+    onChange: e => setText(e.target.value),
+    disabled: !!checked,
+    placeholder: "Escribe tu respuesta en inglés...",
+    style: {
+      width: "100%",
+      background: C.bg,
+      border: `1px solid ${checked ? checked.correct ? C.verdigris : C.terracotta : C.line}`,
+      borderRadius: 4,
+      color: C.marble,
+      padding: 10,
+      fontSize: 14,
+      fontFamily: sans
+    }
+  }), checked && !checked.correct && /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginTop: 10,
+      color: C.marbleDim,
+      fontSize: 12.5
+    }
+  }, "Respuesta correcta: ", /*#__PURE__*/React.createElement("span", {
+    style: {
+      color: "#8FB09E",
+      fontStyle: "italic"
+    }
+  }, item.en))), !checked ? /*#__PURE__*/React.createElement("button", {
+    onClick: check,
+    disabled: !text.trim(),
+    style: {
+      ...primaryBtn(C.bronze),
+      opacity: text.trim() ? 1 : 0.4
+    }
+  }, "Comprobar") : /*#__PURE__*/React.createElement("button", {
+    onClick: next,
+    style: primaryBtn(checked.correct ? C.verdigris : C.terracotta)
+  }, "Siguiente ", /*#__PURE__*/React.createElement(ChevronRight, {
+    size: 18
+  })));
+}
+
+/* ---------- 18-19: reconstruccion escrita (banco extra) ---------- */
+function TranslateExtraStage({
+  items,
+  onMark,
+  onDone
+}) {
+  const [idx, setIdx] = useState(0);
+  const item = items[idx];
+  const gb = useMemo(() => item ? genericBlankTyped(item.phrase) : null, [item && item.id]);
+  const [text, setText] = useState("");
+  const [checked, setChecked] = useState(null);
+  useEffect(() => {
+    setText("");
+    setChecked(null);
+  }, [idx]);
+  if (!item) {
+    onDone();
+    return null;
+  }
+  if (!gb) {
+    if (idx + 1 < items.length) {
+      setIdx(idx + 1);
+      return null;
+    }
+    onDone();
+    return null;
+  }
+  function check() {
+    const correct = normalizeAnswer(text) === normalizeAnswer(gb.correct);
+    setChecked({
+      correct
+    });
+  }
+  function next() {
+    onMark(null, checked.correct);
+    if (idx + 1 < items.length) setIdx(idx + 1);else onDone();
+  }
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11,
+      marginBottom: 6
+    }
+  }, "PASO 18-19 · COMPLETA ESCRIBIENDO (BANCO) · ", idx + 1, "/", items.length), /*#__PURE__*/React.createElement("div", {
+    style: cardStyle
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11,
+      marginBottom: 8
+    }
+  }, "ESCRIBE LA PALABRA QUE FALTA"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontFamily: serif,
+      color: C.gold,
+      fontSize: 18,
+      fontStyle: "italic",
+      marginBottom: 16
+    }
+  }, gb.blanked), /*#__PURE__*/React.createElement("input", {
+    value: text,
+    onChange: e => setText(e.target.value),
+    disabled: !!checked,
+    placeholder: "Escribe la palabra...",
+    style: {
+      width: "100%",
+      background: C.bg,
+      border: `1px solid ${checked ? checked.correct ? C.verdigris : C.terracotta : C.line}`,
+      borderRadius: 4,
+      color: C.marble,
+      padding: 10,
+      fontSize: 14,
+      fontFamily: sans
+    }
+  }), checked && !checked.correct && /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginTop: 10,
+      color: C.marbleDim,
+      fontSize: 12.5
+    }
+  }, "Era: ", /*#__PURE__*/React.createElement("span", {
+    style: {
+      color: "#8FB09E",
+      fontStyle: "italic"
+    }
+  }, gb.correct), " — frase completa: ", /*#__PURE__*/React.createElement("span", {
+    style: {
+      color: C.marble,
+      fontStyle: "italic"
+    }
+  }, item.phrase))), !checked ? /*#__PURE__*/React.createElement("button", {
+    onClick: check,
+    disabled: !text.trim(),
+    style: {
+      ...primaryBtn(C.bronze),
+      opacity: text.trim() ? 1 : 0.4
+    }
+  }, "Comprobar") : /*#__PURE__*/React.createElement("button", {
+    onClick: next,
+    style: primaryBtn(checked.correct ? C.verdigris : C.terracotta)
+  }, "Siguiente ", /*#__PURE__*/React.createElement(ChevronRight, {
+    size: 18
+  })));
+}
+
+/* ---------- 20: frase propia ---------- */
+function FreeStage({
+  seed,
+  freeInputs,
+  setFreeInputs,
+  onDone
+}) {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11,
+      marginBottom: 6
+    }
+  }, "PASO 20 · CREA TU PROPIA FRASE"), /*#__PURE__*/React.createElement("div", {
+    style: cardStyle
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11,
+      marginBottom: 8
+    }
+  }, "FRASE SEMILLA"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      alignItems: "center",
+      gap: 8
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontFamily: serif,
+      color: C.bronzeLight,
+      fontSize: 17,
+      fontStyle: "italic"
+    }
+  }, seed), /*#__PURE__*/React.createElement("button", {
+    onClick: () => speak(seed),
+    style: iconBtn
+  }, /*#__PURE__*/React.createElement(Volume2, {
+    size: 15,
+    color: C.bronzeLight
+  })))), /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 12,
+      margin: "16px 0 8px"
+    }
+  }, "Escribe 2 frases propias, inspiradas en la de arriba:"), [0, 1].map(i => /*#__PURE__*/React.createElement("textarea", {
+    key: i,
+    value: freeInputs[i],
+    onChange: e => {
+      const arr = [...freeInputs];
+      arr[i] = e.target.value;
+      setFreeInputs(arr);
+    },
+    placeholder: `Frase propia ${i + 1}...`,
+    rows: 2,
+    style: {
+      width: "100%",
+      background: C.bgSoft,
+      border: `1px solid ${C.line}`,
+      borderRadius: 4,
+      color: C.marble,
+      padding: 10,
+      fontSize: 14,
+      fontFamily: sans,
+      marginBottom: 10,
+      resize: "vertical"
+    }
+  })), /*#__PURE__*/React.createElement("button", {
+    onClick: onDone,
+    disabled: !freeInputs[0].trim() || !freeInputs[1].trim(),
+    style: {
+      ...primaryBtn(C.bronze),
+      opacity: !freeInputs[0].trim() || !freeInputs[1].trim() ? 0.4 : 1
+    }
+  }, "Terminar día ", /*#__PURE__*/React.createElement(ChevronRight, {
+    size: 18
+  })));
+}
+
+/* ---------- examen ---------- */
+function ExamBlock({
+  examState,
+  onExamPick,
+  onExamNext
+}) {
+  if (!examState || !examState.items.length) return null;
+  const item = examState.items[examState.idx];
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 12,
+      marginBottom: 4
+    }
+  }, "Pregunta ", examState.idx + 1, " / ", examState.items.length, " · aciertos: ", examState.score), /*#__PURE__*/React.createElement(ProgressBar, {
+    current: examState.idx + 1,
+    total: examState.items.length,
+    color: C.terracotta
+  }), /*#__PURE__*/React.createElement("div", {
+    style: cardStyle
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11,
+      marginBottom: 8
+    }
+  }, "TRADUCE AL INGLÉS"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontFamily: serif,
+      color: C.marble,
+      fontSize: 18
+    }
+  }, item.es)), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      flexDirection: "column",
+      gap: 8
+    }
+  }, examState.options.map((opt, i) => {
+    let border = C.line,
+      color = C.marble;
+    if (examState.answered) {
+      if (opt === item.en) {
+        border = C.verdigris;
+        color = "#8FB09E";
+      } else if (opt === examState.answered.picked) {
+        border = C.terracotta;
+        color = C.terracotta;
+      }
+    }
+    return /*#__PURE__*/React.createElement("button", {
+      key: i,
+      disabled: !!examState.answered,
+      onClick: () => onExamPick(opt),
+      style: {
+        textAlign: "left",
+        padding: "12px 14px",
+        borderRadius: 4,
+        border: `1px solid ${border}`,
+        background: "transparent",
+        color,
+        fontSize: 14
+      }
+    }, opt);
+  })), examState.answered && /*#__PURE__*/React.createElement("button", {
+    onClick: onExamNext,
+    style: primaryBtn(C.bronze)
+  }, examState.idx + 1 < examState.items.length ? "Siguiente" : "Ver resultado", " ", /*#__PURE__*/React.createElement(ChevronRight, {
+    size: 18
+  })));
+}
+
+/* ===================== DONE / PROGRESS ===================== */
+function DoneView({
+  isExam,
+  results,
+  examState,
+  effectiveness,
+  passed,
+  ringSpin,
+  reviewMode,
+  onComplete,
+  onRepeat,
+  onBackHome
+}) {
+  const pct = Math.round(effectiveness * 100);
+  const needed = Math.round(EFFECTIVENESS_THRESHOLD * 100);
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      textAlign: "center",
+      paddingTop: 20
+    }
+  }, /*#__PURE__*/React.createElement(Sparkles, {
+    size: 26,
+    color: passed ? C.bronzeLight : C.terracotta,
+    style: {
+      marginBottom: 10
+    }
+  }), /*#__PURE__*/React.createElement("div", {
+    style: {
+      fontFamily: serif,
+      color: C.marble,
+      fontSize: 22,
+      marginBottom: 6
+    }
+  }, reviewMode ? "Repaso terminado" : isExam ? "Examen terminado" : "Sesión terminada"), isExam ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 14,
+      marginBottom: 6
+    }
+  }, examState.score, " de ", examState.items.length, " correctas") : /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 14,
+      marginBottom: 6
+    }
+  }, results.correct, " lograste · ", results.wrong, " se cayeron"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: passed ? "#8FB09E" : C.terracotta,
+      fontSize: 15,
+      fontFamily: serif,
+      marginBottom: 24
+    }
+  }, "Efectividad: ", pct, "%"), reviewMode ? /*#__PURE__*/React.createElement("button", {
+    onClick: onBackHome,
+    style: primaryBtn(C.bronze)
+  }, "Volver al inicio ", /*#__PURE__*/React.createElement(ChevronRight, {
+    size: 18
+  })) : passed ? /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
+    onClick: onComplete,
+    style: {
+      width: 96,
+      height: 96,
+      borderRadius: "50%",
+      border: `2px solid ${C.bronzeLight}`,
+      margin: "0 auto 16px",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      cursor: "pointer",
+      transform: ringSpin ? "rotate(360deg)" : "rotate(0deg)",
+      transition: "transform 0.9s ease"
+    }
+  }, /*#__PURE__*/React.createElement(StoicBust, {
+    size: 44
+  })), /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.bronzeLight,
+      fontFamily: serif,
+      fontSize: 15,
+      fontStyle: "italic"
+    }
+  }, "Gira el anillo — Stay Stoic")) : /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      width: 96,
+      height: 96,
+      borderRadius: "50%",
+      border: `2px solid ${C.terracotta}`,
+      margin: "0 auto 16px",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      opacity: 0.5
+    }
+  }, /*#__PURE__*/React.createElement(StoicBust, {
+    size: 44
+  })), /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.terracotta,
+      fontSize: 13.5,
+      marginBottom: 18,
+      lineHeight: 1.5
+    }
+  }, "No alcanzaste el ", needed, "% necesario para avanzar.", /*#__PURE__*/React.createElement("br", null), isExam ? "Repite este mismo examen." : "Repite la sesión de hoy."), /*#__PURE__*/React.createElement("button", {
+    onClick: onRepeat,
+    style: primaryBtn(C.terracotta)
+  }, /*#__PURE__*/React.createElement(RotateCcw, {
+    size: 16
+  }), " ", isExam ? "Repetir examen" : "Repetir sesión")));
+}
+function ProgressView({
+  meta,
+  onBack
+}) {
+  const b = meta.bridgeErrors;
+  const max = Math.max(1, b.be, b.have, b.been, b.modal);
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("button", {
+    onClick: onBack,
+    style: ghostBtn
+  }, /*#__PURE__*/React.createElement(HomeIcon, {
+    size: 13
+  }), " Volver"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginTop: 18
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 12,
+      marginBottom: 10
+    }
+  }, "PUENTES QUE MÁS SE CAEN"), /*#__PURE__*/React.createElement(BarRow, {
+    label: "be (Futuro Continuo)",
+    value: b.be,
+    max: max
+  }), /*#__PURE__*/React.createElement(BarRow, {
+    label: "have (Perfectos)",
+    value: b.have,
+    max: max
+  }), /*#__PURE__*/React.createElement(BarRow, {
+    label: "been (Perfectos Continuos)",
+    value: b.been,
+    max: max
+  }), /*#__PURE__*/React.createElement(BarRow, {
+    label: "modales + have",
+    value: b.modal,
+    max: max
+  })), /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginTop: 26
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 12,
+      marginBottom: 10
+    }
+  }, "HISTORIAL DE EXÁMENES"), meta.examHistory.length === 0 && /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 13
+    }
+  }, "Todavía no has hecho ningún examen."), meta.examHistory.slice().reverse().map((e, i) => /*#__PURE__*/React.createElement(Row, {
+    key: i,
+    label: `Día ${e.day}`,
+    value: `${e.score}/${e.total}`
+  }))), /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginTop: 26,
+      display: "flex",
+      alignItems: "center",
+      gap: 8
+    }
+  }, /*#__PURE__*/React.createElement(Award, {
+    size: 16,
+    color: C.bronzeLight
+  }), /*#__PURE__*/React.createElement("span", {
+    style: {
+      color: C.marble,
+      fontSize: 13
+    }
+  }, "Racha más larga: ", meta.streak, " días")));
+}
+function BarRow({
+  label,
+  value,
+  max
+}) {
+  const pct = Math.round(value / max * 100);
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginBottom: 12
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      justifyContent: "space-between",
+      fontSize: 12.5,
+      marginBottom: 4
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      color: C.marbleDim
+    }
+  }, label), /*#__PURE__*/React.createElement("span", {
+    style: {
+      color: C.marble
+    }
+  }, value)), /*#__PURE__*/React.createElement("div", {
+    style: {
+      height: 6,
+      background: C.bgSoft,
+      borderRadius: 3
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      height: 6,
+      width: `${pct}%`,
+      background: C.terracotta,
+      borderRadius: 3,
+      transition: "width 0.4s"
+    }
+  })));
+}
+function ProgressBar({
+  current,
+  total,
+  color = C.bronze
+}) {
+  const pct = Math.round(current / total * 100);
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      height: 4,
+      background: C.bgSoft,
+      borderRadius: 2,
+      marginBottom: 18
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      height: 4,
+      width: `${pct}%`,
+      background: color,
+      borderRadius: 2,
+      transition: "width 0.3s"
+    }
+  }));
+}
+
+/* ===================== ESTILOS ===================== */
+const cardStyle = {
+  background: C.bgSoft,
+  border: `1px solid ${C.line}`,
+  borderRadius: 6,
+  padding: "20px 18px",
+  marginBottom: 14
+};
+function primaryBtn(bg) {
+  return {
+    width: "100%",
+    padding: "14px 16px",
+    background: bg,
+    color: C.marble,
+    border: "none",
+    borderRadius: 4,
+    fontSize: 15,
+    fontFamily: sans,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 6,
+    cursor: "pointer",
+    marginTop: 8
+  };
+}
+const ghostBtn = {
+  background: "transparent",
+  border: `1px solid ${C.line}`,
+  color: C.marbleDim,
+  borderRadius: 4,
+  padding: "8px 12px",
+  fontSize: 12,
+  display: "inline-flex",
+  alignItems: "center",
+  gap: 6,
+  cursor: "pointer",
+  fontFamily: sans
+};
+const iconBtn = {
+  background: "transparent",
+  border: "none",
+  cursor: "pointer",
+  padding: 2
+};
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(React.createElement(StayStoicApp));
