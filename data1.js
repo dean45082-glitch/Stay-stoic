@@ -156,7 +156,35 @@ const WEEKS_A = [{
   priority: 3,
   vocab: [["to endure", "soportar, aguantar"], ["resilience", "resiliencia"], ["setback", "contratiempo"], ["to brace yourself for", "prepararte para"], ["to let go", "soltar"]],
   structures: ["At this time tomorrow, I will be facing the same problem.", "She'll be dealing with it her own way.", "We won't be worrying about things we can't control."],
-  structBank: [["Yo estaré enfrentando el mismo problema.", "I'll be facing the same problem."], ["Yo estaré trabajando tarde esta noche.", "I'll be working late tonight."], ["Yo estaré viajando la próxima semana.", "I'll be traveling next week."], ["Tú estarás enfrentando el mismo problema.", "You'll be facing the same problem."], ["Tú estarás trabajando tarde esta noche.", "You'll be working late tonight."], ["Tú estarás viajando la próxima semana.", "You'll be traveling next week."], ["Él estará enfrentando el mismo problema.", "He'll be facing the same problem."], ["Él estará trabajando tarde esta noche.", "He'll be working late tonight."], ["Él estará viajando la próxima semana.", "He'll be traveling next week."], ["Ella estará enfrentando el mismo problema.", "She'll be facing the same problem."], ["Ella estará trabajando tarde esta noche.", "She'll be working late tonight."], ["Ella estará viajando la próxima semana.", "She'll be traveling next week."], ["Nosotros estaremos enfrentando el mismo problema.", "We'll be facing the same problem."], ["Nosotros estaremos trabajando tarde esta noche.", "We'll be working late tonight."], ["Nosotros estaremos viajando la próxima semana.", "We'll be traveling next week."], ["Ellos estarán enfrentando el mismo problema.", "They'll be facing the same problem."], ["Ellos estarán trabajando tarde esta noche.", "They'll be working late tonight."], ["Ellos estarán viajando la próxima semana.", "They'll be traveling next week."], ["Mi hermano estará enfrentando el mismo problema.", "My brother will be facing the same problem."], ["Mi hermano estará trabajando tarde esta noche.", "My brother will be working late tonight."], ["Mi hermano estará viajando la próxima semana.", "My brother will be traveling next week."]],
+  structBank: [
+    ["Yo estaré enfrentando el mismo problema.", "I'll be facing the same problem."],
+    ["Yo estaré trabajando tarde esta noche.", "I'll be working late tonight."],
+    ["Yo estaré viajando la próxima semana.", "I'll be traveling next week."],
+
+    ["Mañana estaré soportando otra jornada difícil.", "Tomorrow I'll be enduring another difficult day."],
+    ["Ella estará dejando ir lo que ya no puede controlar.", "She'll be letting go of what she can no longer control."],
+    ["Nos estaremos preparando para otro contratiempo.", "We'll be bracing ourselves for another setback."],
+
+    ["Él estará reconstruyendo su resiliencia después de este golpe.", "He'll be rebuilding his resilience after this setback."],
+    ["A esta hora mañana, estaré aguantando la presión con calma.", "At this time tomorrow, I'll be enduring the pressure calmly."],
+    ["No estaremos aferrándonos a errores que ya pasaron.", "We won't be holding on to mistakes that are already behind us."],
+
+    ["Ella estará preparándose para una conversación difícil.", "She'll be bracing herself for a difficult conversation."],
+    ["Ellos estarán aprendiendo a dejar ir el resultado.", "They'll be learning to let go of the outcome."],
+    ["Yo estaré usando cada contratiempo para fortalecer mi resiliencia.", "I'll be using every setback to strengthen my resilience."],
+
+    ["Esta noche no estaré huyendo del problema.", "Tonight I won't be running away from the problem."],
+    ["Pronto estaremos soportando mejor la incertidumbre.", "Soon we'll be enduring uncertainty better."],
+    ["Él estará convirtiendo ese contratiempo en una lección.", "He'll be turning that setback into a lesson."],
+
+    ["Ellos estarán preparándose para lo inesperado.", "They'll be bracing themselves for the unexpected."],
+    ["Yo estaré dejando ir esa frustración antes de dormir.", "I'll be letting go of that frustration before I go to sleep."],
+    ["Ella estará mostrando resiliencia cuando las cosas se compliquen.", "She'll be showing resilience when things get difficult."],
+
+    ["La próxima semana estaremos aprendiendo a soportar mejor la presión.", "Next week we'll be learning to endure pressure better."],
+    ["Él no estará dejando que un contratiempo defina su progreso.", "He won't be letting one setback define his progress."],
+    ["Yo estaré preparándome para lo que venga, sin perder la calma.", "I'll be bracing myself for whatever comes without losing my calm."]
+  ],
   ancla: "I'll be handling it, one step at a time.",
   pool: [["Esta noche estaré trabajando tarde otra vez.", "I'll be working late again tonight."], ["Él no estará pensando en eso mañana.", "He won't be thinking about it tomorrow."], ["A esta hora la próxima semana, estaré viajando.", "This time next week, I'll be traveling."], ["Ellos estarán esperando afuera.", "They'll be waiting outside."], ["No estaremos discutiendo por tonterías.", "We won't be arguing over little things."], ["Ella no estará esperando disculpas.", "She won't be expecting an apology."], ["Estaremos enfrentando decisiones difíciles pronto.", "We'll be facing tough decisions soon."], ["¿Vas a estar trabajando el sábado?", "Will you be working on Saturday?"]]
 }, {
