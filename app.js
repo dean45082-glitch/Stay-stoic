@@ -810,55 +810,63 @@ function Header({
       display: "flex",
       alignItems: "center",
       justifyContent: "space-between",
-      padding: "32px 18px 16px",
-      borderBottom: `1px solid ${C.line}`
+      padding: "26px 18px 18px",
+      borderBottom: `1px solid ${C.line}`,
+      background: C.bg
     }
   }, /*#__PURE__*/React.createElement("div", {
     onClick: onHome,
     style: {
       display: "flex",
       alignItems: "center",
-      gap: 10,
-      cursor: "pointer"
+      gap: 12,
+      cursor: "pointer",
+      minWidth: 0
     }
   }, /*#__PURE__*/React.createElement("img", {
     src: "app-icon.webp",
     alt: "Marco Aurelio",
     style: {
-      width: 38,
-      height: 38,
+      width: 46,
+      height: 46,
       borderRadius: "50%",
       objectFit: "cover",
-      border: `1px solid ${C.line}`,
+      border: `1px solid ${C.bronze}`,
       flexShrink: 0
     }
-  }), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+  }), /*#__PURE__*/React.createElement("div", {
+    style: { minWidth: 0 }
+  }, /*#__PURE__*/React.createElement("div", {
     style: {
       fontFamily: serif,
       color: C.marble,
-      fontSize: 18,
-      letterSpacing: 1
+      fontSize: 22,
+      lineHeight: 1.05,
+      letterSpacing: 0.8,
+      whiteSpace: "nowrap"
     }
   }, "Stay Stoic"), /*#__PURE__*/React.createElement("div", {
     style: {
       color: C.marbleDim,
-      fontSize: 11
+      fontSize: 12,
+      marginTop: 4
     }
-  }, "Día ", meta.day, " de ", TOTAL_DAYS))), /*#__PURE__*/React.createElement("div", {
+  }, "Día ", meta.day, " de ", TOTAL_DAYS))), /*#__PURE__*/React.createElement("button", {
     onClick: onProgress,
     style: {
-      display: "flex",
-      alignItems: "center",
-      gap: 6,
-      cursor: "pointer"
+      ...ghostBtn,
+      padding: "9px 12px",
+      minWidth: 58,
+      justifyContent: "center",
+      color: C.marble
     }
   }, /*#__PURE__*/React.createElement(Flame, {
-    size: 18,
+    size: 17,
     color: C.bronzeLight
   }), /*#__PURE__*/React.createElement("span", {
     style: {
       color: C.marble,
-      fontSize: 14
+      fontSize: 13
     }
   }, meta.streak)));
 }
@@ -1175,11 +1183,33 @@ function DayFlow({
   } = dayData;
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
     style: {
+      marginBottom: 14,
+      padding: "4px 2px 0"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.bronzeLight,
+      fontSize: 10.5,
+      fontWeight: 700,
+      letterSpacing: 1.2,
+      textTransform: "uppercase",
+      marginBottom: 6
+    }
+  }, "DÍA ", day, reviewMode ? " · MODO REPASO" : " · SESIÓN ACTUAL"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marble,
+      fontFamily: serif,
+      fontSize: 28,
+      lineHeight: 1.12,
+      marginBottom: 6
+    }
+  }, week.title), /*#__PURE__*/React.createElement("div", {
+    style: {
       color: C.marbleDim,
       fontSize: 12,
-      marginBottom: 4
+      lineHeight: 1.5
     }
-  }, "Día ", day, " ", reviewMode && "· modo repaso", " · ", week.title), /*#__PURE__*/React.createElement(StageDots, {
+  }, "Practica la estructura, escucha con intención y termina produciendo por tu cuenta.")), /*#__PURE__*/React.createElement(StageDots, {
     stage: stage
   }), stage === "intro" && /*#__PURE__*/React.createElement(IntroStage, {
     day: day,
@@ -1257,138 +1287,313 @@ function IntroStage({
   onNext
 }) {
   const [shadowHidden, setShadowHidden] = useState(false);
+  const [speechRate, setSpeechRateState] = useState(getSpeechRate());
   const deepReading = deepReadingForDay(day, week, structureModel);
-  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
-    style: cardStyle
+  const changeSpeechRate = rate => {
+    const next = setSpeechRate(rate);
+    setSpeechRateState(next);
+  };
+  const sectionLabel = (num, title, subtitle, meta) => /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      alignItems: "flex-start",
+      justifyContent: "space-between",
+      gap: 10,
+      marginBottom: 14
+    }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
-      color: C.marbleDim,
-      fontSize: 11,
-      marginBottom: 8,
-      letterSpacing: 0.5
+      display: "flex",
+      alignItems: "flex-start",
+      gap: 10,
+      minWidth: 0
     }
-  }, "PASO 1-4 · VOCABULARIO — LEE 3 VECES EN VOZ ALTA"), week.vocab.map((v, i) => /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      width: 30,
+      height: 30,
+      borderRadius: "50%",
+      background: C.bronze,
+      color: C.bg,
+      fontWeight: 800,
+      fontSize: 13,
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      flexShrink: 0
+    }
+  }, num), /*#__PURE__*/React.createElement("div", {
+    style: { minWidth: 0 }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marble,
+      fontFamily: serif,
+      fontSize: 18,
+      lineHeight: 1.1
+    }
+  }, title), /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11.5,
+      lineHeight: 1.45,
+      marginTop: 3
+    }
+  }, subtitle))), meta && /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 10.5,
+      whiteSpace: "nowrap",
+      paddingTop: 4
+    }
+  }, meta));
+
+  return /*#__PURE__*/React.createElement("div", null,
+  /*#__PURE__*/React.createElement("div", {
+    style: {
+      ...cardStyle,
+      padding: "18px 16px"
+    }
+  }, sectionLabel("1", "Vocabulario clave", "Lee 3 veces en voz alta cada palabra.", week.vocab.length + " palabras"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "grid",
+      gridTemplateColumns: "repeat(2, minmax(0, 1fr))",
+      gap: 8
+    }
+  }, week.vocab.map((v, i) => /*#__PURE__*/React.createElement("div", {
     key: i,
+    style: {
+      border: `1px solid ${C.line}`,
+      borderRadius: 11,
+      padding: "11px 10px",
+      minWidth: 0,
+      background: C.bg
+    }
+  }, /*#__PURE__*/React.createElement("div", {
     style: {
       display: "flex",
       alignItems: "center",
       justifyContent: "space-between",
-      fontSize: 13,
-      padding: "4px 0"
+      gap: 6
     }
-  }, /*#__PURE__*/React.createElement("span", {
+  }, /*#__PURE__*/React.createElement("div", {
+    style: { minWidth: 0 }
+  }, /*#__PURE__*/React.createElement("div", {
     style: {
-      color: C.marble
+      color: C.marble,
+      fontSize: 13,
+      lineHeight: 1.35,
+      overflowWrap: "anywhere"
     }
   }, v[0]), /*#__PURE__*/React.createElement("div", {
     style: {
-      display: "flex",
-      alignItems: "center",
-      gap: 6
+      color: C.marbleDim,
+      fontSize: 11,
+      marginTop: 3,
+      lineHeight: 1.35
     }
-  }, /*#__PURE__*/React.createElement("span", {
-    style: {
-      color: C.marbleDim
-    }
-  }, v[1]), /*#__PURE__*/React.createElement("button", {
+  }, v[1])), /*#__PURE__*/React.createElement("button", {
     onClick: () => speak(v[0]),
-    style: iconBtn
+    style: {
+      ...iconBtn,
+      minWidth: 34,
+      minHeight: 34,
+      padding: 7
+    }
   }, /*#__PURE__*/React.createElement(Volume2, {
     size: 13,
     color: C.bronzeLight
-  })))))), /*#__PURE__*/React.createElement("div", {
-    style: cardStyle
-  }, /*#__PURE__*/React.createElement("div", {
+  }))))))),
+
+  /*#__PURE__*/React.createElement("div", {
     style: {
-      color: C.marbleDim,
-      fontSize: 11,
-      marginBottom: 8,
-      letterSpacing: 0.5
+      ...cardStyle,
+      padding: "18px 16px"
     }
-  }, "PASO 5 · ESTRUCTURA MODELO (cambia cada día)"), structureModel.map((item, i) => /*#__PURE__*/React.createElement("div", {
+  }, sectionLabel("2", "Estructuras modelo", "Escucha, repite y fíjate en la estructura.", structureModel.length + " frases"), structureModel.map((item, i) => /*#__PURE__*/React.createElement("div", {
     key: i,
     style: {
-      padding: "6px 0",
+      display: "flex",
+      alignItems: "center",
+      gap: 10,
+      padding: "10px 0",
       borderBottom: i < structureModel.length - 1 ? `1px solid ${C.line}` : "none"
     }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
-      color: C.marbleDim,
-      fontSize: 11.5,
-      marginBottom: 2
-    }
-  }, item.es), /*#__PURE__*/React.createElement("div", {
-    style: {
+      width: 26,
+      height: 26,
+      borderRadius: "50%",
+      background: C.bronze,
+      color: C.bg,
+      fontWeight: 800,
+      fontSize: 12,
       display: "flex",
       alignItems: "center",
-      gap: 6
+      justifyContent: "center",
+      flexShrink: 0
     }
-  }, /*#__PURE__*/React.createElement("span", {
+  }, i + 1), /*#__PURE__*/React.createElement("div", {
+    style: {
+      flex: 1,
+      minWidth: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
     style: {
       color: C.marble,
       fontFamily: serif,
-      fontStyle: "italic",
-      fontSize: 14
+      fontSize: 15,
+      lineHeight: 1.45
     }
-  }, item.en), /*#__PURE__*/React.createElement("button", {
+  }, item.en), /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 10.5,
+      marginTop: 3,
+      lineHeight: 1.35
+    }
+  }, item.es)), /*#__PURE__*/React.createElement("button", {
     onClick: () => speak(item.en),
     style: iconBtn
   }, /*#__PURE__*/React.createElement(Volume2, {
-    size: 13,
+    size: 14,
     color: C.bronzeLight
-  })))))), /*#__PURE__*/React.createElement("div", {
-    style: cardStyle
-  }, /*#__PURE__*/React.createElement("div", {
+  }))))),
+
+  /*#__PURE__*/React.createElement("div", {
     style: {
-      color: C.bronzeLight,
-      fontSize: 11,
-      marginBottom: 8,
-      letterSpacing: 0.7,
-      fontWeight: 700
+      ...cardStyle,
+      padding: "18px 16px"
     }
-  }, "SHADOWING · 3 RONDAS"), /*#__PURE__*/React.createElement("div", {
-    style: { color: C.marbleDim, fontSize: 12, lineHeight: 1.6, marginBottom: 10 }
-  }, "1) Escucha. 2) Repite con texto. 3) Oculta el texto y repite de memoria."), structureModel.map((item, i) => /*#__PURE__*/React.createElement("div", {
-    key: "sh-"+i,
-    style: { padding: "8px 0", borderBottom: i < structureModel.length - 1 ? `1px solid ${C.line}` : "none" }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: { display: "flex", alignItems: "center", justifyContent: "space-between", gap: 10 }
-  }, /*#__PURE__*/React.createElement("span", {
-    style: { color: shadowHidden ? C.bgSoft : C.marble, fontSize: 13, lineHeight: 1.5, flex: 1 }
-  }, shadowHidden ? "••••••••••••••••" : item.en), /*#__PURE__*/React.createElement("button", {
-    onClick: () => speak(item.en),
-    style: iconBtn
-  }, /*#__PURE__*/React.createElement(Volume2, { size: 15, color: C.bronzeLight }))))), /*#__PURE__*/React.createElement("button", {
-    onClick: () => setShadowHidden(!shadowHidden),
-    style: { ...ghostBtn, marginTop: 10 }
-  }, shadowHidden ? "Mostrar texto" : "Ocultar texto · ronda 3")), /*#__PURE__*/React.createElement("div", {
-    style: cardStyle
-  }, /*#__PURE__*/React.createElement("div", {
-    style: { color: C.bronzeLight, fontSize: 11, marginBottom: 8, letterSpacing: 0.7, fontWeight: 700 }
-  }, "LECTURA PROFUNDA"), /*#__PURE__*/React.createElement("div", {
+  }, sectionLabel("3", "Shadowing", "Escucha, repite con texto y luego de memoria.", "3 rondas"), /*#__PURE__*/React.createElement("div", {
     style: {
-      color: C.marbleDim,
+      display: "grid",
+      gridTemplateColumns: "repeat(3, minmax(0, 1fr))",
+      gap: 8,
+      marginBottom: 14
+    }
+  }, [["1", "Escucha"], ["2", "Repite con texto"], ["3", "Oculta y repite"]].map((step, i) => /*#__PURE__*/React.createElement("div", {
+    key: i,
+    style: {
+      border: `1px solid ${i === 0 ? C.bronze : C.line}`,
+      borderRadius: 10,
+      padding: "10px 6px",
+      textAlign: "center",
+      background: i === 0 ? C.bg : "transparent"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: i === 0 ? C.bronzeLight : C.marbleDim,
+      fontWeight: 800,
       fontSize: 12,
-      lineHeight: 1.6,
-      marginBottom: 10
+      marginBottom: 4
     }
-  }, "Contexto distinto al shadowing. Lee por significado primero; después fíjate en la estructura."), deepReading.map((line, i) => /*#__PURE__*/React.createElement("div", {
-    key: "deep-" + i,
+  }, step[0]), /*#__PURE__*/React.createElement("div", {
     style: {
-      padding: "13px 0",
-      borderBottom: i < deepReading.length - 1 ? `1px solid ${C.line}` : "none"
+      color: C.marble,
+      fontSize: 10.5,
+      lineHeight: 1.3
     }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: { color: C.bronzeLight, fontSize: 10.5, marginBottom: 6, letterSpacing: 0.6, fontWeight: 700 }
-  }, "LÍNEA ", i + 1), /*#__PURE__*/React.createElement("div", {
+  }, step[1])))), structureModel.map((item, i) => /*#__PURE__*/React.createElement("div", {
+    key: "sh-" + i,
     style: {
       display: "flex",
       alignItems: "center",
       justifyContent: "space-between",
-      gap: 10
+      gap: 10,
+      padding: "9px 0",
+      borderBottom: i < structureModel.length - 1 ? `1px solid ${C.line}` : "none"
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      color: shadowHidden ? C.bgSoft : C.marble,
+      fontSize: 13,
+      lineHeight: 1.5,
+      flex: 1
+    }
+  }, shadowHidden ? "••••••••••••••••" : item.en), /*#__PURE__*/React.createElement("button", {
+    onClick: () => speak(item.en),
+    style: iconBtn
+  }, /*#__PURE__*/React.createElement(Volume2, {
+    size: 14,
+    color: C.bronzeLight
+  })))), /*#__PURE__*/React.createElement("button", {
+    onClick: () => setShadowHidden(!shadowHidden),
+    style: {
+      ...ghostBtn,
+      marginTop: 12
+    }
+  }, shadowHidden ? "Mostrar texto" : "Ocultar texto · ronda 3"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginTop: 14,
+      paddingTop: 14,
+      borderTop: `1px solid ${C.line}`
     }
   }, /*#__PURE__*/React.createElement("div", {
-    style: { color: C.marble, fontFamily: serif, fontSize: 15.5, lineHeight: 1.75, flex: 1 }
+    style: {
+      color: C.marble,
+      fontSize: 12,
+      fontWeight: 700,
+      marginBottom: 8
+    }
+  }, "Velocidad de audio"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      gap: 6,
+      flexWrap: "wrap"
+    }
+  }, [0.7, 0.85, 1.0, 1.15, 1.3].map(rate => /*#__PURE__*/React.createElement("button", {
+    key: rate,
+    onClick: () => changeSpeechRate(rate),
+    style: {
+      ...ghostBtn,
+      minWidth: 54,
+      minHeight: 38,
+      padding: "8px 10px",
+      justifyContent: "center",
+      color: speechRate === rate ? C.bg : C.marbleDim,
+      borderColor: speechRate === rate ? C.bronze : C.line,
+      background: speechRate === rate ? C.bronze : "transparent",
+      fontWeight: speechRate === rate ? 800 : 500
+    }
+  }, rate.toFixed(rate === 1 ? 1 : 2).replace(/0$/, ""), "×"))))),
+
+  /*#__PURE__*/React.createElement("div", {
+    style: {
+      ...cardStyle,
+      padding: "18px 16px"
+    }
+  }, sectionLabel("4", "Lectura profunda", "Lee por significado primero; después analiza la estructura.", deepReading.length + " líneas"), deepReading.map((line, i) => /*#__PURE__*/React.createElement("div", {
+    key: "deep-" + i,
+    style: {
+      display: "flex",
+      alignItems: "center",
+      gap: 10,
+      padding: "12px 0",
+      borderBottom: i < deepReading.length - 1 ? `1px solid ${C.line}` : "none"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      width: 26,
+      height: 26,
+      borderRadius: "50%",
+      background: C.bronze,
+      color: C.bg,
+      fontWeight: 800,
+      fontSize: 12,
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      flexShrink: 0
+    }
+  }, i + 1), /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marble,
+      fontFamily: serif,
+      fontSize: 15.5,
+      lineHeight: 1.6,
+      flex: 1,
+      minWidth: 0
+    }
   }, line), /*#__PURE__*/React.createElement("button", {
     onClick: () => speak(line),
     style: iconBtn,
@@ -1396,24 +1601,51 @@ function IntroStage({
   }, /*#__PURE__*/React.createElement(Volume2, {
     size: 15,
     color: C.bronzeLight
-  }))))), /*#__PURE__*/React.createElement("div", {
-    style: { color: C.marbleDim, fontSize: 12, lineHeight: 1.6, marginTop: 12 }
-  }, "Pregunta mental: ¿qué idea expresa la estructura de esta semana en cada línea?")), /*#__PURE__*/React.createElement("div", {
-    style: cardStyle
+  })))), /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginTop: 13,
+      padding: "12px 13px",
+      border: `1px solid ${C.line}`,
+      borderRadius: 10,
+      background: C.bg
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.bronzeLight,
+      fontSize: 10.5,
+      fontWeight: 800,
+      letterSpacing: 0.5,
+      marginBottom: 4
+    }
+  }, "PREGUNTA MENTAL"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11.5,
+      lineHeight: 1.5
+    }
+  }, "¿Qué idea expresa la estructura de esta semana en cada línea?"))),
+
+  /*#__PURE__*/React.createElement("div", {
+    style: {
+      ...cardStyle,
+      padding: "16px"
+    }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
       color: C.marbleDim,
       fontSize: 10.5,
-      marginBottom: 8,
-      letterSpacing: 0.5
+      marginBottom: 10,
+      letterSpacing: 0.7,
+      fontWeight: 700
     }
-  }, "BANCO DE EXPRESIONES — LEE EN VOZ ALTA"), extras.map((e, i) => /*#__PURE__*/React.createElement("div", {
+  }, "BANCO DE EXPRESIONES · HOY"), extras.map((e, i) => /*#__PURE__*/React.createElement("div", {
     key: i,
     style: {
       display: "flex",
       alignItems: "center",
       justifyContent: "space-between",
-      padding: "6px 0",
+      gap: 8,
+      padding: "8px 0",
       borderBottom: i < extras.length - 1 ? `1px solid ${C.line}` : "none"
     }
   }, /*#__PURE__*/React.createElement("span", {
@@ -1421,7 +1653,8 @@ function IntroStage({
       color: C.gold,
       fontFamily: serif,
       fontStyle: "italic",
-      fontSize: 14
+      fontSize: 14,
+      lineHeight: 1.4
     }
   }, e.phrase), /*#__PURE__*/React.createElement("button", {
     onClick: () => speak(e.phrase),
@@ -1429,14 +1662,22 @@ function IntroStage({
   }, /*#__PURE__*/React.createElement(Volume2, {
     size: 13,
     color: C.bronzeLight
-  }))))), /*#__PURE__*/React.createElement("button", {
+  }))))),
+
+  /*#__PURE__*/React.createElement("button", {
     onClick: onNext,
-    style: primaryBtn(C.bronze)
-  }, "Continuar ", /*#__PURE__*/React.createElement(ChevronRight, {
-    size: 18
+    style: {
+      ...primaryBtn(C.bronze),
+      minHeight: 58,
+      fontFamily: serif,
+      fontSize: 17,
+      fontWeight: 700,
+      marginTop: 2
+    }
+  }, "Continuar con la práctica ", /*#__PURE__*/React.createElement(ChevronRight, {
+    size: 19
   })));
 }
-
 /* ---------- 6-7: reordenar fragmentos (gramatica) ---------- */
 function ReorderStage({
   items,
@@ -2541,10 +2782,10 @@ function ProgressBar({
 const cardStyle = {
   background: C.bgSoft,
   border: `1px solid ${C.line}`,
-  borderRadius: 14,
+  borderRadius: 16,
   padding: "20px 18px",
-  marginBottom: 16,
-  boxShadow: "0 10px 28px rgba(0,0,0,0.16)"
+  marginBottom: 14,
+  boxShadow: "0 12px 30px rgba(0,0,0,0.18)"
 };
 function primaryBtn(bg) {
   return {
