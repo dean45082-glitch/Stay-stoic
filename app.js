@@ -880,151 +880,126 @@ function HomeView({
   const exam = isExamDay(meta.day);
   const extras = exam ? [] : extraSlotsForDay(meta.day).read;
   const totalErrors = Object.values(meta.bridgeErrors).reduce((a, b) => a + b, 0);
-  const [audioStatus, setAudioStatus] = useState(null);
-  const [speechRate, setSpeechRateState] = useState(getSpeechRate());
-  const changeSpeechRate = rate => {
-    const next = setSpeechRate(rate);
-    setSpeechRateState(next);
-  };
-  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+  const completedPct = Math.round((meta.completedDays.length / TOTAL_DAYS) * 100);
+
+  return /*#__PURE__*/React.createElement("div", null,
+  /*#__PURE__*/React.createElement("div", {
     style: {
-      textAlign: "center",
-      padding: "24px 0 8px"
+      padding: "10px 2px 18px"
     }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
-      color: C.marbleDim,
-      fontSize: 13,
-      marginBottom: 6
+      color: C.bronzeLight,
+      fontSize: 10.5,
+      fontWeight: 800,
+      letterSpacing: 1.2,
+      textTransform: "uppercase",
+      marginBottom: 7
+    }
+  }, exam ? "EXAMEN SEMANAL" : "SESIÓN DE HOY"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marble,
+      fontFamily: serif,
+      fontSize: 30,
+      lineHeight: 1.1
     }
   }, w.title), /*#__PURE__*/React.createElement("div", {
     style: {
-      fontFamily: serif,
-      color: C.marble,
-      fontSize: 46,
-      lineHeight: 1
-    }
-  }, meta.day), /*#__PURE__*/React.createElement("div", {
-    style: {
-      color: C.bronzeLight,
+      color: C.marbleDim,
       fontSize: 12,
-      marginTop: 6,
-      letterSpacing: 0.5
+      lineHeight: 1.5,
+      marginTop: 6
     }
-  }, exam ? "EXAMEN SEMANAL" : "20 ACTIVIDADES · TODOS LOS FORMATOS")), /*#__PURE__*/React.createElement("div", {
-    style: cardStyle
+  }, "Día ", meta.day, " de ", TOTAL_DAYS, " · ", completedPct, "% del programa completado"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      height: 5,
+      background: C.bgSoft,
+      borderRadius: 4,
+      overflow: "hidden",
+      marginTop: 12
+    }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
-      color: C.marbleDim,
-      fontSize: 11,
-      marginBottom: 10,
-      letterSpacing: 0.5
+      height: "100%",
+      width: Math.max(2, completedPct) + "%",
+      background: C.bronze,
+      borderRadius: 4
     }
-  }, "VELOCIDAD DE VOZ"), /*#__PURE__*/React.createElement("div", {
+  }))),
+
+  /*#__PURE__*/React.createElement("div", {
+    style: {
+      ...cardStyle,
+      padding: "18px 16px"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marble,
+      fontFamily: serif,
+      fontSize: 18,
+      marginBottom: 5
+    }
+  }, exam ? "Examen semanal" : "Ruta de práctica"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: C.marbleDim,
+      fontSize: 11.5,
+      lineHeight: 1.55
+    }
+  }, exam ? "10 preguntas de opción múltiple sin repetir contenido de exámenes anteriores." : "Vocabulario · estructuras modelo · Shadowing · lectura profunda · práctica activa · producción."), !exam && /*#__PURE__*/React.createElement("div", {
     style: {
       display: "flex",
       gap: 6,
-      flexWrap: "wrap"
+      flexWrap: "wrap",
+      marginTop: 12
     }
-  }, [0.7, 0.85, 1.0, 1.15, 1.3].map(rate => /*#__PURE__*/React.createElement("button", {
-    key: rate,
-    onClick: () => changeSpeechRate(rate),
+  }, ["Vocabulario", "Shadowing", "Lectura", "Producción"].map(label => /*#__PURE__*/React.createElement("span", {
+    key: label,
     style: {
-      ...ghostBtn,
-      minWidth: 58,
-      padding: "9px 10px",
-      color: speechRate === rate ? C.marble : C.marbleDim,
-      borderColor: speechRate === rate ? C.bronze : C.line,
-      background: speechRate === rate ? C.bgSoft : "transparent"
-    }
-  }, rate.toFixed(rate === 1 ? 1 : 2).replace(/0$/, ""), "×"))), /*#__PURE__*/React.createElement("div", {
-    style: {
+      border: `1px solid ${C.line}`,
+      borderRadius: 999,
+      padding: "6px 9px",
       color: C.marbleDim,
-      fontSize: 11,
-      marginTop: 8
+      fontSize: 10.5,
+      background: C.bg
     }
-  }, "Se aplica a vocabulario, estructuras, Shadowing y Lectura Profunda.")), /*#__PURE__*/React.createElement("div", {
-    style: cardStyle
-  }, /*#__PURE__*/React.createElement("div", {
+  }, label))), !exam && extras.length > 0 && /*#__PURE__*/React.createElement("div", {
     style: {
-      color: C.marbleDim,
-      fontSize: 11,
-      marginBottom: 8,
-      letterSpacing: 0.5
-    }
-  }, "DIAGNÓSTICO DE AUDIO"), /*#__PURE__*/React.createElement("button", {
-    onClick: () => speakWithStatus("This is a test. Can you hear this?", setAudioStatus),
-    style: {
-      ...ghostBtn,
-      marginBottom: 8
-    }
-  }, /*#__PURE__*/React.createElement(Volume2, {
-    size: 14
-  }), " Probar audio"), audioStatus && /*#__PURE__*/React.createElement("div", {
-    style: {
-      color: C.marbleDim,
-      fontSize: 12,
-      lineHeight: 1.5
-    }
-  }, audioStatus)), /*#__PURE__*/React.createElement("div", {
-    style: cardStyle
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      color: C.marbleDim,
-      fontSize: 11,
-      marginBottom: 10,
-      letterSpacing: 0.5
-    }
-  }, "HOY VAS A TRABAJAR"), /*#__PURE__*/React.createElement("div", {
-    style: {
-      color: C.marble,
-      fontSize: 14,
-      marginBottom: 4
-    }
-  }, w.title), !exam ? /*#__PURE__*/React.createElement("div", {
-    style: {
-      color: C.marbleDim,
-      fontSize: 12.5,
-      lineHeight: 1.6
-    }
-  }, "Vocabulario · shadowing · lectura profunda · ordenar · completar · opción múltiple (x2) ·", /*#__PURE__*/React.createElement("br", null), "juntar pares · traducción escrita (x2) · crear tu propia frase") : /*#__PURE__*/React.createElement("div", {
-    style: {
-      color: C.marbleDim,
-      fontSize: 12.5
-    }
-  }, "10 preguntas de opción múltiple, sin repetir contenido de exámenes anteriores"), !exam && /*#__PURE__*/React.createElement("div", {
-    style: {
-      marginTop: 10,
-      paddingTop: 10,
+      marginTop: 13,
+      paddingTop: 12,
       borderTop: `1px solid ${C.line}`
     }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
-      color: C.marbleDim,
-      fontSize: 10.5,
-      marginBottom: 4,
-      letterSpacing: 0.5
+      color: C.bronzeLight,
+      fontSize: 10,
+      fontWeight: 800,
+      letterSpacing: 0.6,
+      marginBottom: 5
     }
-  }, "DEL BANCO DE EXPRESIONES, HOY:"), /*#__PURE__*/React.createElement("div", {
+  }, "EXPRESIONES DE HOY"), /*#__PURE__*/React.createElement("div", {
     style: {
       color: C.gold,
+      fontFamily: serif,
+      fontStyle: "italic",
       fontSize: 12.5,
-      fontStyle: "italic"
+      lineHeight: 1.55
     }
-  }, extras.map(e => e.phrase).join(" · "))), /*#__PURE__*/React.createElement("div", {
-    style: {
-      marginTop: 12,
-      paddingTop: 10,
-      borderTop: `1px solid ${C.line}`,
-      color: C.marbleDim,
-      fontSize: 12
-    }
-  }, "Necesitas ", Math.round(EFFECTIVENESS_THRESHOLD * 100), "% de efectividad para completar el día.")), /*#__PURE__*/React.createElement("button", {
+  }, extras.map(e => e.phrase).join(" · ")))),
+
+  /*#__PURE__*/React.createElement("button", {
     onClick: onOpenDay,
-    style: primaryBtn(exam ? C.terracotta : C.bronze)
-  }, exam ? "Comenzar examen semanal" : "Comenzar sesión de hoy", " ", /*#__PURE__*/React.createElement(ChevronRight, {
+    style: {
+      ...primaryBtn(exam ? C.terracotta : C.bronze),
+      minHeight: 58,
+      fontFamily: serif,
+      fontSize: 17,
+      fontWeight: 700
+    }
+  }, exam ? "Comenzar examen semanal" : "Continuar con la práctica", " ", /*#__PURE__*/React.createElement(ChevronRight, {
     size: 18
-  })), /*#__PURE__*/React.createElement("button", {
+  })),
+
+  /*#__PURE__*/React.createElement("button", {
     onClick: onCalendar,
     style: {
       ...ghostBtn,
@@ -1035,28 +1010,33 @@ function HomeView({
     }
   }, /*#__PURE__*/React.createElement(Calendar, {
     size: 14
-  }), " Ver calendario · Día 1 a ", TOTAL_DAYS), /*#__PURE__*/React.createElement("div", {
-    style: {      marginTop: 28,
-      borderTop: `1px solid ${C.line}`,
-      paddingTop: 18
+  }), " Ver calendario · Día 1 a ", TOTAL_DAYS),
+
+  /*#__PURE__*/React.createElement("div", {
+    style: {
+      ...cardStyle,
+      marginTop: 16,
+      padding: "14px 16px"
     }
   }, /*#__PURE__*/React.createElement(Row, {
     label: "Racha actual",
     value: `${meta.streak} días`
   }), /*#__PURE__*/React.createElement(Row, {
-    label: "Errores de puente acumulados",
-    value: totalErrors
+    label: "Días completados",
+    value: `${meta.completedDays.length} / ${TOTAL_DAYS}`
   }), /*#__PURE__*/React.createElement(Row, {
     label: "Exámenes hechos",
     value: meta.examHistory.length
   }), /*#__PURE__*/React.createElement(Row, {
-    label: "Banco de expresiones",
-    value: `${EXTRA_BANK.length} frases`
-  })), /*#__PURE__*/React.createElement("button", {
+    label: "Errores de puente",
+    value: totalErrors
+  })),
+
+  /*#__PURE__*/React.createElement("button", {
     onClick: onReset,
     style: {
       ...ghostBtn,
-      marginTop: 24
+      marginTop: 8
     }
   }, /*#__PURE__*/React.createElement(RotateCcw, {
     size: 13
