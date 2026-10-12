@@ -306,6 +306,56 @@
       "file": "audio/eea7f80c52208ccbb6d6e46b3b3798fe412ec5ab382e57127275bba133b165cd.mp3",
       "sha256": "27aca4c40e540d908a874c2994de517a0bbb671c338085c206b36b3b29bb8d84",
       "bytes": 36824
+    },
+    "Tit for tat": {
+      "file": "audio/962e49d886771b4acb0186fd76381dff9274282ea6b817a215b613a0eba6318a.mp3",
+      "sha256": "6661af1261170d3486de02a15f74f8cbac2cebacc3ac9bbc7d575e46a9140fa6",
+      "bytes": 18852
+    },
+    "Any port in a storm": {
+      "file": "audio/bd1b9937bc1848f0a3809f11c8c76d2dfe16da022bff065dbb31c70f22eb2c2f.mp3",
+      "sha256": "fcc43283e147a695efce59e80c2eb9a1168ef0571dafe3dcadaa3cb85b97f876",
+      "bytes": 21777
+    },
+    "A piece of cake": {
+      "file": "audio/c58d14b8e18fa25df25e6e67863c76ae4a0904c2e76407439967801bbc86456f.mp3",
+      "sha256": "28f99ddf8f17027c71dc7739ef12706b0871d17bf3ded356abc63b6687268c50",
+      "bytes": 22613
+    },
+    "Back seat driver": {
+      "file": "audio/ac6b492609fd1dc4f299a397d07875d8c1a77d1da3bcb45c7148fad331577508.mp3",
+      "sha256": "0cad56771bb9726b3929071c24ac72dcee9c3dd5efcdea67e6db335aff4f7404",
+      "bytes": 23449
+    },
+    "flog a dead horse": {
+      "file": "audio/ea212b7e77969cf006c0604c1fc3078abd83844048f64eb579619a55774c80c5.mp3",
+      "sha256": "4eab6aa99034c721469c9b89336e169882220d7b5790389e734029aa90fc95fc",
+      "bytes": 20942
+    },
+    "Beauty is in the eye of the beholder": {
+      "file": "audio/d8dd79f8a3ca665a2bfe8b401c29157bf7c9f73d678239628a7ce3456a440e67.mp3",
+      "sha256": "4e7471428ed361008e4642a90a9de5dc69b27bbb7939857ee5cda988029432c8",
+      "bytes": 30973
+    },
+    "(Once in a) Blue moon": {
+      "file": "audio/ae26356c02046f851a6a20938b3fd89e282182de905dc22d9f331bd2d630e1ab.mp3",
+      "sha256": "58549cc479e4b1109b5b7b4a75284ef4a1a5e5b6901ea8d6f2b3043667094ce3",
+      "bytes": 15926
+    },
+    "Break a leg": {
+      "file": "audio/cd5fa352c4dc88fc6f2298d56b293d5d95f7ce3d4ce5c63ea6dad371e868b96c.mp3",
+      "sha256": "3925c60a461511226a55c525666774b76b246ff4a6ba79d3d694729ec565c504",
+      "bytes": 18016
+    },
+    "Business is business": {
+      "file": "audio/cd35b35d46a115419f565c6f48d03adc98f3943b1db11f4f204a6a90f9164a5a.mp3",
+      "sha256": "2406af4ccce3be8b79c61338c56a8db8e25b5eacad63acefc81867d9e377bb59",
+      "bytes": 20942
+    },
+    "Buy a lemon": {
+      "file": "audio/564bd2be0d57b4c2594a21aae62b5d83f0a4b72c8718954092d736ca70f30978.mp3",
+      "sha256": "a3b65b990518311972bc328a69a8c39dade35d37318de615c58a58eb24473ee6",
+      "bytes": 16762
     }
   }
 }
