@@ -456,6 +456,56 @@
       "file": "audio/7180841c980c61f469cf6d2f333ebbc3e892d63d09d97992b125bc9b298f5f0d.mp3",
       "sha256": "a7a13600006dfb356e4b77856a3941a3c26c6e5f77b74559e3ba2c533d0952cb",
       "bytes": 24703
+    },
+    "It cost an arm and a leg": {
+      "file": "audio/cf546357dcf77dfc6156b959fe0abb5033785e3128a30666f8aba2f1afb5941b.mp3",
+      "sha256": "752ccf61aa18fccd182f80c02a8135fc2ef8488889365f3da2c77bac77763767",
+      "bytes": 21777
+    },
+    "It's all Greek to me": {
+      "file": "audio/5b9c062b27569b57d2e61c620cec2952fdbb25c98510b2a9356fda0f1032b0e6.mp3",
+      "sha256": "3c520a38f70b1c06ec04f64c289e2ecf3852aec94b35534592ea6dd3017912f3",
+      "bytes": 21777
+    },
+    "It takes two to tango": {
+      "file": "audio/cd1c4e7f33ed1d8f0926f7d7716e2f769acedc76b628a1d531741ea49b75d4f3.mp3",
+      "sha256": "297cf4726fdc9296bd4d8c0090d635976fd6fa92f27010eea3f7ef12552256d5",
+      "bytes": 23449
+    },
+    "It's a small world": {
+      "file": "audio/0658dbdb9bdb1c7fcd82c582efa7ea39b4785d4f2dc94f5ba496cf4da51cb172.mp3",
+      "sha256": "9f3ded6ac635e22341b8962d6b9d4f4835c7057a278e297bdbf845c387c06077",
+      "bytes": 24285
+    },
+    "(To) let the cat out of the bag": {
+      "file": "audio/0f452f8e877e06d73302ef61635f377cc524715a4d1dec00e104e9b1602303e5.mp3",
+      "sha256": "404e2233bf59290b41b1d8ac7808860c21d9b8e49f6ae2bda3d3d742655cc45e",
+      "bytes": 27629
+    },
+    "(A) level playing field": {
+      "file": "audio/529a2c619abbf7d2523c2092ed5e53113072f5b2dfe07ab413c830cc03d26309.mp3",
+      "sha256": "8055f323955b703203de035311013d7f6342f3d88aa089679100cff31c04148e",
+      "bytes": 20942
+    },
+    "Lightning never strikes twice": {
+      "file": "audio/7778efd041fd7f919fac05f8089ff6b582b1d1ca0786693270eb497c9ceccff2.mp3",
+      "sha256": "d73a0a796999b79988b073d02300269871e6b6fb8a81c638f09f5ce66808b77e",
+      "bytes": 28465
+    },
+    "(To be) like a chicken with its head cut off": {
+      "file": "audio/ba1d5602236681e77d410249fe60e63c6c5cbde669fbb05f2346560eb7427a69.mp3",
+      "sha256": "c7f98014318fb7de22388ad262b02ffc801353d10b2f5444884137f585aed346",
+      "bytes": 35988
+    },
+    "Love is blind": {
+      "file": "audio/27178018b36e245d4f206fc66d27b6b9020719e0eec5829520aaca1401ddc47c.mp3",
+      "sha256": "1d33ca6168fe8616b73aff947989afec82060666b5fc09718de077bf241cd434",
+      "bytes": 18852
+    },
+    "Make hay while the sun shines": {
+      "file": "audio/8ed28408f2fb6215e49e9e694e88cee75287621cd76d9993c27ae10c1d9e4903.mp3",
+      "sha256": "7301ae12bddc3a1cfd47ff23261b60cca7062aa859989ac2232e45f88b9795f4",
+      "bytes": 30973
     }
   }
 }
