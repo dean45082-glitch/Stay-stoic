@@ -1456,6 +1456,56 @@
       "file": "audio/d39772c3c7d854fab976ed8f6419593bd297ee2e44d61dfe4e808a6132e7a9e9.mp3",
       "sha256": "3cb1139d7745dbe276f4b550b6fd2a35c29e7a13c30c83436d0302990d31a10f",
       "bytes": 24703
+    },
+    "(To) go down like a lead balloon": {
+      "file": "audio/c652570e88a4bb2921c916a154c1ae5d7b9a52c28647a283f6681639cde24e87.mp3",
+      "sha256": "4624dedfe5824efc15cf2002400528990031c895fc0f5ba031b3b69d94b3360c",
+      "bytes": 28465
+    },
+    "He that fights and runs away lives to fight another day": {
+      "file": "audio/04525e2abc19620ff2f6799b83daa4ccebbb1fcffb796cf68a48699254cf19e6.mp3",
+      "sha256": "d0d13ef2aaabb5b39aa178f5cf29bfa7213b58ad65889eb7ba12e7cdc96f69fe",
+      "bytes": 49363
+    },
+    "He who laughs last laughs the longest": {
+      "file": "audio/571a893520b8e112088568697d2b69527abfd4abfeed9c6881e3d46b761f61a7.mp3",
+      "sha256": "af8b66012c52e9ee9553bf89b203bbd9bbd6d4560c5e1e90d947afcca5ce388c",
+      "bytes": 38914
+    },
+    "Home is where the heart is": {
+      "file": "audio/92c2117eb0d4deb6f26969c1a542f91146c2ae7b7b3380052b595e3387375ed7.mp3",
+      "sha256": "83b7e3b926c60ebab3ea7dc443c144d99223c3e26ad205baa65aadfbd6aec457",
+      "bytes": 21777
+    },
+    "Honesty is the best policy": {
+      "file": "audio/943af5db0eb944446e212a8f7dfd35b281de10d3cf6ea9678f174b3956531af1.mp3",
+      "sha256": "e5841f2de7c5c70347576163712bc0b77c84a0b08a8a36af5ac84fd0749f6dce",
+      "bytes": 29301
+    },
+    "To be in stitches": {
+      "file": "audio/c467eec05ea2ecc0dd245a49b51ea156241627a22ed9685f25b13a05bdc3e76b.mp3",
+      "sha256": "62dcdb62b2527cb4a735aa9cf8bda543522097eee4e9ed20917b361d1e065948",
+      "bytes": 22613
+    },
+    "(To be) in the driver's seat": {
+      "file": "audio/984878d57d46c05259b69c28ea77a8a25aaaa2abbf5c1d2df256808dbcb9a480.mp3",
+      "sha256": "00091718a77b2c76eac9bf888b5b3f37ea50696557fb4ef7756d1fbf476c1cdf",
+      "bytes": 24285
+    },
+    "It's no use crying over spilled milk": {
+      "file": "audio/c28c4a8f867b392dea1c7c4813365b983b7cdd7e1b2a20268ae985ea28206cc0.mp3",
+      "sha256": "cd29e53e8c9b357fea02af87f7ff235dd7288175df2945922a5f9d5563f9b7f1",
+      "bytes": 33062
+    },
+    "In for a penny in for a pound": {
+      "file": "audio/0d2b87539bff78113a7128b3c1b687d8dd48d42ffcf0a2a3502d5d1a345930af.mp3",
+      "sha256": "1d069e9f018b74acfaa850528e63f8fcf1c50e701c08af0c4d75cacfacf25174",
+      "bytes": 27211
+    },
+    "Look on the bright side": {
+      "file": "audio/7396e0f3fe922d55003d91dee395c499b82d4af2ae72a74c16f0e5eb5f666184.mp3",
+      "sha256": "e726f03d6bc5ab9e0679953d5931b424531673c81ea4b5c02cf03cc37f1c1cec",
+      "bytes": 20942
     }
   }
 }
