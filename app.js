@@ -36,6 +36,7 @@ function getSpeechRate() {
 function setSpeechRate(rate) {
   const n = Math.max(0.6, Math.min(1.4, Number(rate) || 0.9));
   try { localStorage.setItem(SPEECH_RATE_KEY, String(n)); } catch {}
+  window.StoicAudio?.setRate(n);
   try {
     if (window.AndroidTTS && typeof window.AndroidTTS.setSpeechRate === "function") {
       window.AndroidTTS.setSpeechRate(n);
@@ -65,6 +66,7 @@ function defaultMeta() {
 /* Audio: se llama de forma sincrona para no perder el gesto del usuario.
    speakWithStatus() además reporta qué pasó, para poder diagnosticar. */
 function speak(text) {
+  if (window.StoicAudio) return window.StoicAudio.speak(text, getSpeechRate());
   try {
     const rate = getSpeechRate();
     if (window.AndroidTTS && typeof window.AndroidTTS.speak === "function") {
@@ -85,6 +87,7 @@ function speak(text) {
   }
 }
 function speakWithStatus(text, setStatus) {
+  if (window.StoicAudio) return window.StoicAudio.speak(text, getSpeechRate(), setStatus);
   try {
     const rate = getSpeechRate();
     if (window.AndroidTTS && typeof window.AndroidTTS.speak === "function") {
@@ -534,6 +537,7 @@ function StayStoicApp() {
   const [activeDay, setActiveDay] = useState(1);
   const [reviewMode, setReviewMode] = useState(false);
   const [stage, setStage] = useState("intro");
+  useEffect(() => { window.StoicAudio?.stop(); }, [stage, view, activeDay]);
   const [dayData, setDayData] = useState(null); // { weekSlots, extraSlots }
   const [results, setResults] = useState({
     correct: 0,
@@ -1411,6 +1415,7 @@ function IntroStage({
 }) {
   const [shadowHidden, setShadowHidden] = useState(false);
   const [speechRate, setSpeechRateState] = useState(getSpeechRate());
+  const [offlineStatus, setOfflineStatus] = useState("");
   const deepReading = deepReadingForDay(day, week, structureModel);
   const changeSpeechRate = rate => {
     const next = setSpeechRate(rate);
@@ -1714,7 +1719,12 @@ function IntroStage({
       marginTop: 10,
       lineHeight: 1.45
     }
-  }, "La velocidad seleccionada se aplica a todos los audios de la lección.")),
+  }, "La velocidad seleccionada se aplica a todos los audios de la lección."),
+  /*#__PURE__*/React.createElement("div", {style:{fontSize:11,color:C.marbleDim,marginTop:10}},
+    window.AndroidTTS ? "Los audios incluidos funcionan sin conexión. Las frases pendientes usan la voz de Android." :
+    /*#__PURE__*/React.createElement("button", {style:ghostBtn,onClick:()=>window.StoicAudio?.downloadOffline(setOfflineStatus)}, "Guardar audios para usar sin conexión"),
+    /*#__PURE__*/React.createElement("div", {role:"status",style:{marginTop:6}},offlineStatus),
+    /*#__PURE__*/React.createElement("div", {style:{marginTop:6}}, "Voz NY sofisticado · elevenlabs.io"))),
 
   extras.length > 0 && /*#__PURE__*/React.createElement("div", {
     style: {

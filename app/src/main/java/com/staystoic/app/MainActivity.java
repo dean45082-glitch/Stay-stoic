@@ -80,6 +80,11 @@ public class MainActivity extends Activity {
 
     public class TtsBridge {
         @JavascriptInterface
+        public void stop() {
+            runOnUiThread(() -> { if (tts != null) tts.stop(); });
+        }
+
+        @JavascriptInterface
         public void setSpeechRate(float rate) {
             runOnUiThread(() -> {
                 speechRate = Math.max(0.6f, Math.min(1.4f, rate));

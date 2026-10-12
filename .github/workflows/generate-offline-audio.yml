@@ -1,0 +1,83 @@
+name: Generate approved offline audio
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Dry run or generate the approved initial batch (max 9771 credits)'
+        type: choice
+        options: [dry-run, generate]
+        default: dry-run
+  push:
+    branches: [main]
+    paths: ['.github/workflows/generate-offline-audio.yml']
+concurrency:
+  group: stay-stoic-audio-generation
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  generate:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[audio-batch-1]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate generator without API calls
+        run: node --test scripts/audio.test.cjs scripts/player.test.cjs
+      - uses: actions/checkout@v4
+        with:
+          ref: audio-assets
+          path: audio-store
+      - name: Configure audio checkpoint author
+        run: |
+          git -C audio-store config user.name 'github-actions[bot]'
+          git -C audio-store config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Verify decoder
+        run: |
+          if ! command -v ffmpeg >/dev/null; then sudo apt-get update && sudo apt-get install -y ffmpeg; fi
+          ffmpeg -version
+      - name: Generate or simulate approved batch
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          MODE: ${{ github.event_name == 'push' && 'generate' || inputs.mode }}
+        run: |
+          if [ "$MODE" = "generate" ]; then
+            node scripts/generate-audio.cjs audio-store --generate
+          else
+            node scripts/generate-audio.cjs audio-store --dry-run
+          fi
+      - name: Preserve checkpoint even when generation stops
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: StayStoic-audio-checkpoint
+          path: |
+            audio-store/audio
+            audio-store/ledger.json
+            audio-store/audio-index.js
+            audio-store/audio-index.json
+          retention-days: 90
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.7'
+      - name: Package Android and web with verified audio
+        run: node scripts/package-offline.cjs audio-store
+      - name: Build Android APK
+        run: gradle assembleDebug
+      - uses: actions/upload-artifact@v4
+        with:
+          name: StayStoic-2.3.4-offline-APK
+          path: app/build/outputs/apk/debug/app-debug.apk
+          retention-days: 90
+      - uses: actions/upload-artifact@v4
+        with:
+          name: StayStoic-2.3.4-offline-web
+          path: offline-web/
+          retention-days: 90

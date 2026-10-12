@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Stay Stoic</title>
 <link rel="manifest" href="manifest.json" />
-<link rel="icon" href="icons/icon-192.png" />
-<link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+<link rel="icon" href="app-icon.webp" />
+<link rel="apple-touch-icon" href="app-icon.webp" />
 <meta name="theme-color" content="#1C1B18" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -25,10 +25,12 @@
 <script src="vendor/react-dom.production.min.js"></script>
 <script src="data1.js"></script>
 <script src="data2.js"></script>
+<script src="audio-index.js"></script>
+<script src="audio-player.js"></script>
 <script src="app.js"></script>
 
 <script>
-if ("serviceWorker" in navigator) {
+if (location.protocol !== "file:" && "serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("sw.js").catch(err => console.error("SW error:", err));
   });
