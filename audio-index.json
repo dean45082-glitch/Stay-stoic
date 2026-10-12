@@ -906,6 +906,56 @@
       "file": "audio/03b05d1c410910bdaf650e02e58828998c85980f2ba3979f9184d09eb77446a5.mp3",
       "sha256": "4f536f7a48856b70efc6a8308af7a784afb35ba6f0e61e3a72101df6e9b8e57c",
       "bytes": 23449
+    },
+    "Beats me": {
+      "file": "audio/664642da1eb148dfb1662880d2c687906393b709903a193541b157a80baab5b6.mp3",
+      "sha256": "039f70c07f5ad37e5f063637771a58912876f549c31654794d8d5c6f60c41cc0",
+      "bytes": 17598
+    },
+    "Sounds great!": {
+      "file": "audio/536f67867de2c5d2334eb07f728f51fbc62279e248d845f234cde5876b3798fa.mp3",
+      "sha256": "644a8a3c6f5039849d158806ae4f6e601acd5d598213d0529ebf525cc6c473d1",
+      "bytes": 13836
+    },
+    "Take it with a grain of salt": {
+      "file": "audio/54dd4b244a593a9ad47351ddbf3e4176cbfefaadebffd89cac108b2417db8784.mp3",
+      "sha256": "555c06c2adc453e8b396e1ce115ef9ad1c876d46c0316192e7749726ff18c8e8",
+      "bytes": 24285
+    },
+    "Wrap your head around": {
+      "file": "audio/3cd6475c1289b1fc94cce972d975621038956ae64a78779b2fbe76bf850fe538.mp3",
+      "sha256": "a0903cc5eb3b93d8c4746eedc1956daa6cc579c6cd5c37e894350d4c9d0a76c9",
+      "bytes": 19688
+    },
+    "Leave no stone unturned": {
+      "file": "audio/030deb674d0df8178f7f0ce27184793eb7ebef6a44f350e3c505e39d8bc5a821.mp3",
+      "sha256": "3924643d8bc72afb708f92ac699a7606fdacc7a28e7391654dae9aaac8ca95b0",
+      "bytes": 23449
+    },
+    "Barking up the wrong tree": {
+      "file": "audio/6461f981b0106050131a6afa5b2f9b59654cffb98deda443289d32fc1c0e4e56.mp3",
+      "sha256": "682f24d491d8868371a913ce8a60f6b11b32165bc93f9b5cc6fe75d2fd90db62",
+      "bytes": 24285
+    },
+    "It's drizzling": {
+      "file": "audio/c8da78c59f4c6113e89c6b6c825a892ac256bc1dfcb98c4ac1dcefed5de22d6a.mp3",
+      "sha256": "ff8969dad07d85d0d04e20e0fd69e96bcebd9b4ef689283473d5b25ae2b10ad3",
+      "bytes": 16762
+    },
+    "Hit the sack": {
+      "file": "audio/b23a7447bb93470bdb4e7b01f934a9e2ef6df2cf53f2979153b972d7d3efee3e.mp3",
+      "sha256": "52fde2eb841fea93e1634d300fbee93a19317e6090897b2cd887027b61bc6f03",
+      "bytes": 17598
+    },
+    "(To be) as red as a beetroot": {
+      "file": "audio/1147ce454c488bd407c3bae9d2d6985f992b0c6648118d3bdd6486350384b43f.mp3",
+      "sha256": "e52faf693b387aa029aff0bf509651527dc087c9585acc35608747a01085fcad",
+      "bytes": 26375
+    },
+    "(To be) as high as a kite": {
+      "file": "audio/4d13677544c6afc791170159405ff32afb449f7c2af61706236543e5bf81b608.mp3",
+      "sha256": "f02ff8f6ac0f1795758e958fe577bbb206f78b1276bc00d998ca1755fdbff92b",
+      "bytes": 23449
     }
   }
 }
