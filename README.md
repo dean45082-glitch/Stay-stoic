@@ -1,8 +1,3 @@
-# Stay Stoic
+# Stay Stoic offline audio
 
-150-day English learning app. Current web source plus Android wrapper.
-
-## Android APK
-GitHub Actions builds an installable debug APK on every push to main and on manual dispatch.
-
-> Note: the current web source loads React/ReactDOM from unpkg. The APK therefore needs internet access for those libraries until they are bundled locally.
+Generated audio and durable generation ledger. Do not delete the ledger or retry unresolved requests without reconciling them. The ElevenLabs API key is stored only in GitHub Secrets.
