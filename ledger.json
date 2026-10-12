@@ -2802,54 +2802,74 @@
       "sha256": "801fcce46a1e9db0fb6ab691cfc8dfac2416f23fc2cd04f1d0b1412b663ac94f"
     },
     "404dc179c080b15bf22d9cb82fe6bc8babf756786ce50635282c89ed91eaeeb8": {
-      "status": "reserved",
+      "status": "complete",
       "batch": "2026-10-initial",
-      "estimatedCredits": 12
+      "estimatedCredits": 12,
+      "bytes": 20524,
+      "sha256": "72b01e42b2a25c9cb285028535e6f7ce1fee670735678ae9bea98bd72a878058"
     },
     "ea7521ea12fecd681943b3ba2f9bb138027fd59d8d176c869d7aafbcd334977d": {
-      "status": "reserved",
+      "status": "complete",
       "batch": "2026-10-initial",
-      "estimatedCredits": 10
+      "estimatedCredits": 10,
+      "bytes": 16762,
+      "sha256": "c8210fa00ee84b79d82bf9aa21b0e3f76e95512067f71c3337aa8f61a0177555"
     },
     "ed1f7c649642b833a2dd9e59f4597bdbf74d46870436913a9cb58d1b9f6f9118": {
-      "status": "reserved",
+      "status": "complete",
       "batch": "2026-10-initial",
-      "estimatedCredits": 11
+      "estimatedCredits": 11,
+      "bytes": 16762,
+      "sha256": "0ba34560f6eb1ac5d6f88e5c9fecee43efe9c8e34b503ce8800af814446695c0"
     },
     "6e36dfd12ce3f81e18edcaeebf0379c2cb68db78968f6f5027bccc92a4220eca": {
-      "status": "reserved",
+      "status": "complete",
       "batch": "2026-10-initial",
-      "estimatedCredits": 9
+      "estimatedCredits": 9,
+      "bytes": 15090,
+      "sha256": "3b3d2ac2b1afb51661ab79223d1364371f8392e06e5a4cddbd07901897200d87"
     },
     "bfdb5ce53cbe9ce0cbfbf06cd481eb2b17cea36bbdf70cea0fc3beb2d1c918fe": {
-      "status": "reserved",
+      "status": "complete",
       "batch": "2026-10-initial",
-      "estimatedCredits": 11
+      "estimatedCredits": 11,
+      "bytes": 17598,
+      "sha256": "615eb4e0bfc337434f040562a2f765926fba2abddeb7ba92e886e9dbb1f40a84"
     },
     "076203c0d17835069894d8343b47cd2a5e54cbac4a1cb2f166d173e82e83c679": {
-      "status": "reserved",
+      "status": "complete",
       "batch": "2026-10-initial",
-      "estimatedCredits": 12
+      "estimatedCredits": 12,
+      "bytes": 19688,
+      "sha256": "a1d804b6b465942bdc6144b42da59305bd0251f76c03fd28b2145bb8a5edac39"
     },
     "d137bdb34764c57ee4ca8300f8a8655163d1d4b0d21358c8399e9f473f83bded": {
-      "status": "reserved",
+      "status": "complete",
       "batch": "2026-10-initial",
-      "estimatedCredits": 16
+      "estimatedCredits": 16,
+      "bytes": 21777,
+      "sha256": "be812e57f6b5200fe79aa2cf825dfef6de4a5b1a5a957dce5c85c0d8bad5a912"
     },
     "689f87019ae7c062c4b6199923043fb1d930f7a1e8b8ea7133d3b13f30f8258f": {
-      "status": "reserved",
+      "status": "complete",
       "batch": "2026-10-initial",
-      "estimatedCredits": 9
+      "estimatedCredits": 9,
+      "bytes": 16762,
+      "sha256": "fbd6a6caec058c164ec25d13130644fa523ec18475bd4b198f11ca5ae26d00cf"
     },
     "e9b310c1524db8889fd201dc60a10ce31ce469d406f6c777919e3ba6a46fd2ad": {
-      "status": "reserved",
+      "status": "complete",
       "batch": "2026-10-initial",
-      "estimatedCredits": 12
+      "estimatedCredits": 12,
+      "bytes": 18016,
+      "sha256": "710a7cfdb7239275175c071269f80947243e3a538c899a9e34a7d2c09998d7e7"
     },
     "9559fbee822c1e201ad27aaa0bc69510792e8be6cfcfe8daa3442390f29b415d": {
-      "status": "reserved",
+      "status": "complete",
       "batch": "2026-10-initial",
-      "estimatedCredits": 11
+      "estimatedCredits": 11,
+      "bytes": 15926,
+      "sha256": "f2233397ff194a9f53b13304ef72033859aa10fe0bca12eaf1c36aacf945a317"
     },
     "45534216699d72667d27d87b8fbe3f3d9268e860a2d3eac932feb21e1c6a2d8b": {
       "status": "reserved",
