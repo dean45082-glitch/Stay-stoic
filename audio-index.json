@@ -956,6 +956,56 @@
       "file": "audio/4d13677544c6afc791170159405ff32afb449f7c2af61706236543e5bf81b608.mp3",
       "sha256": "f02ff8f6ac0f1795758e958fe577bbb206f78b1276bc00d998ca1755fdbff92b",
       "bytes": 23449
+    },
+    "(To) bite off more than you can chew": {
+      "file": "audio/3661819810ee04f50834b7df2c2508bfc743e3d536249c7829d384ac8fb07d6e.mp3",
+      "sha256": "8c14340c6e175fcc16976e0d8703dd2a59c08f8d3886d5731535d6fec755cea5",
+      "bytes": 30973
+    },
+    "(To) bite your tongue": {
+      "file": "audio/77965f66bfe1629105012be144737f27ba61eed9fe7202b3eb1e978b3f1de118.mp3",
+      "sha256": "68869906a4cbb8ebc2b13526d6926c4d3797ca9443fb87bc30ad1577861337bd",
+      "bytes": 19688
+    },
+    "Cock and bull story": {
+      "file": "audio/709a7130781e2c231da401ed5875134638b0e63bdc577bd3d5331adc076706e2.mp3",
+      "sha256": "8abfe584eb109a8fca6ed2bf2b29b1eef6a48abb92d5a9b9fff0d8d392c902ed",
+      "bytes": 20524
+    },
+    "Cook the books": {
+      "file": "audio/36eba7f26799b7641db4e7bbd5e20aa2a0e4309137344075a94f5a88d6ab460e.mp3",
+      "sha256": "87351b9bffc5db42e8d1368d6349a79beccc8f15835dd4b12c1abaa2047cdfbd",
+      "bytes": 16762
+    },
+    "To crack someone up": {
+      "file": "audio/64e6b5d4f7ac502ca234cbdf6ee57b88b46ec589f3401d8f3157175a728ed92c.mp3",
+      "sha256": "2d005f9e281deeb9da1c30c536cb3e65d8b515b786840cbb23847e8be79dbf3f",
+      "bytes": 20942
+    },
+    "Fingers Crossed": {
+      "file": "audio/a6f229e1485d794f9a2717f6da6bfe1d32755357993ca5a7a6a876d39850409a.mp3",
+      "sha256": "d43ac72ddf85eacbe4de6c090ef96f4e530f99b429178fb5d3e40d9ac58334c8",
+      "bytes": 18852
+    },
+    "Drastic times call for drastic measures": {
+      "file": "audio/fd8fb0e5c509f0816398af6dc4c9e71aafbc0811d4f046056099015878c6483b.mp3",
+      "sha256": "32cfff17ea0d72792d970726f20ba9c08453105896cf3f47947b849db39a0b39",
+      "bytes": 36824
+    },
+    "(To) drink like a fish": {
+      "file": "audio/35b4cc118ccd5abf55f476f1d6385f962eb6fa39e1ec9838d2b5af852844ac88.mp3",
+      "sha256": "1c948289ff2993346ab10b5ac11549e0502a146a9ff0a48db098cf9274f5e409",
+      "bytes": 21777
+    },
+    "(To) find your feet": {
+      "file": "audio/b97683b59b67799eb2773c12add71dfde973bdb4ac1d1d3b51deb2ae35f25ab9.mp3",
+      "sha256": "d8f4840a740f45acff0d1fa963f4757be4a5c6426c1f55e4f9405aeb31764161",
+      "bytes": 18852
+    },
+    "(A) flash in the pan": {
+      "file": "audio/11ece869aac0fe6327d24a4001540fd718016ae607ac38adbc85d3b478ba65a8.mp3",
+      "sha256": "b5f23f1f2157340e05cb3fda596fdfe836b538010c36e219531e4fd3f87f59ea",
+      "bytes": 22613
     }
   }
 }
