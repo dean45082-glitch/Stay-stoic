@@ -1906,6 +1906,56 @@
       "file": "audio/d25c36ca665c4763ca60cfc8392a82030f98cb521f06fe9aa0a5c052bb5a9224.mp3",
       "sha256": "6d7ba8fc7b77b41375d1e83cd90e15bb34c25e52f107258dfbd4b31345dc139c",
       "bytes": 20942
+    },
+    "to settle down": {
+      "file": "audio/4b9743ebc3deb3ff8508f2d2d9d11c19cca2a9927e06f2c5371bbaebc0a3f6c3.mp3",
+      "sha256": "4aad777a58b8f958f19673cadf188d1ed2b5b312d57ad5825a98f55e4ea1b10e",
+      "bytes": 22613
+    },
+    "dichotomy of control": {
+      "file": "audio/498a9b12f5c9bb9123549c6c541a5c63e167ffb11648ff2d9c3774fc0ebeb672.mp3",
+      "sha256": "869046194a9a66cc77ef4fb4ac3b24bd356385d27b833e976ef285b89f28ee25",
+      "bytes": 20942
+    },
+    "decade": {
+      "file": "audio/512b61bb6709edf207e085d689e513c860adbde6dbe30059518790f868d05b48.mp3",
+      "sha256": "f43b0581f387a37b03c00586455a85a4f32282cc14c9b31716c4b84d29c63a4c",
+      "bytes": 12164
+    },
+    "consistency": {
+      "file": "audio/8e42b74bdd0ffbea2038caf40ee0982096f0b1af5859390bd0edf6851838afb9.mp3",
+      "sha256": "87456f786bd053dc143c803c8b283ae72b64e7243379a990f73ba766c98de5ab",
+      "bytes": 18016
+    },
+    "to cultivate a habit": {
+      "file": "audio/d5f5d4969f81fff72f50b200314acfa864eca071c222dfaaf5fa04da3dabf374.mp3",
+      "sha256": "fea19ca78bfffa434b92340937ec686f2ebb4cbc43e72dd80a43d5cd5bff0a0b",
+      "bytes": 22613
+    },
+    "self-mastery": {
+      "file": "audio/890ccdd13ab964a946f7c45698e7427f53d98945ec01bbd09d37748b7403bae9.mp3",
+      "sha256": "8d92182ba9b21e2bfd10155d0ea71604fe44f0121d33a74761a1ccbb8682b71b",
+      "bytes": 17598
+    },
+    "journey": {
+      "file": "audio/e13360961dde26228a6d07197d9d123e25adb6dea4973f16d3fb28af9f8ddde4.mp3",
+      "sha256": "e7c21abeb9fa3365d9aba9cb58760c02b084c8acea43e23706ead3a8f16a90c3",
+      "bytes": 13000
+    },
+    "to struggle with": {
+      "file": "audio/6782f6c05296433d1109a74d99e5cd55c7557a511e1e4896a6a180c63464efaf.mp3",
+      "sha256": "2c78e646c745d2a2959b58fe3832eb0591dbcbde6e0af33734d0aaafc4c881f9",
+      "bytes": 19688
+    },
+    "burnout": {
+      "file": "audio/2a75a98aaa034bf2119e36713ff32d3bd024a732ad1ad6c53888d6ad5456bb5d.mp3",
+      "sha256": "b6b35325b4bfeede4d5f6a37c00a2188cf85dcc2e4412329e83d9f9f0db45513",
+      "bytes": 11328
+    },
+    "to spiral out of control": {
+      "file": "audio/5dae22af9a33c3659a6da84e5485a06c709ab860681f31e431193ec0a4dcf552.mp3",
+      "sha256": "b8e2089d75467c6c4f0e21182d1e1287614671bb214916ac4bf3bf07d2eacd8c",
+      "bytes": 26375
     }
   }
 }
