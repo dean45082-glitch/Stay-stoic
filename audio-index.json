@@ -1756,6 +1756,56 @@
       "file": "audio/1929bb0d7d680bce75abd41f72681c2b7cb4eb00774b715652f629b2c1881d5b.mp3",
       "sha256": "4bcaf67ac289ac0e82ec6ab763ae416df6506981e44cf1c9c524d3ebaa8d65a7",
       "bytes": 16762
+    },
+    "Up in the air": {
+      "file": "audio/7bd9f34761e1091d763c447ed57817e1eb1b2fb62a9495fda2e0eb6c5fd2fe44.mp3",
+      "sha256": "5b269ea90cf1b69582aee9060d51fd0e93720490c95d19214b8646ec9e8e5d6a",
+      "bytes": 15090
+    },
+    "Red tape": {
+      "file": "audio/be98d2a7348d31f75c53e9e359abf9b37dae0edc2deb3f0517bc14cbe7dab79c.mp3",
+      "sha256": "13800de646f59790509c3cff57ef0998af15cd9f2efc96527d898ad61e1afc50",
+      "bytes": 14254
+    },
+    "Learn the ropes": {
+      "file": "audio/3d9ffe5e3cb4dca8f2b6659307f5db9a1c6a5f010c59fa68b5c0476fb618eabe.mp3",
+      "sha256": "1ba6d08d4c238ae8e6289f1ca2e42af1e40d3aca03563277210a87ebd5d07f1a",
+      "bytes": 16762
+    },
+    "Bite off more than you can chew": {
+      "file": "audio/99f3a44da9d9112be64389eaa433009ffb62be3336460a33f0d10f2d5767fa04.mp3",
+      "sha256": "69a6dcfae8d69a7af54612fde3086057a61b4de24aa9ea09933ed6992d3bad96",
+      "bytes": 30137
+    },
+    "Can I put you on hold?": {
+      "file": "audio/22273debc5367e3647e57d548f7a44b1c3f4502a4fc89714c2ecf58a1ba08a80.mp3",
+      "sha256": "53ae6b9bb5b3f406043315edc6c72f977c53b61153eb990b2fade6731d9bef5e",
+      "bytes": 22613
+    },
+    "Fed up with": {
+      "file": "audio/1b8e49272e53d18d02bfa88cbccd755947a231300d4f2d270b60ee6f57bf2cc1.mp3",
+      "sha256": "45dd2bc6e2d7497706af88ea514c815e4092a9ba1fb8cc0c96275e86b3520fc7",
+      "bytes": 15926
+    },
+    "To be spent": {
+      "file": "audio/2cb27a054ee714a96635c119a48d9a805b981b15b46b95bf86b8336cfe60eaab.mp3",
+      "sha256": "e4cdad3e50204589d352ed1f09f6e8a744326d81670755718feb699cee0908c7",
+      "bytes": 20942
+    },
+    "Rip-off": {
+      "file": "audio/e3234e4baa10065e4549a095b90b2a280ed6b1ff30f00e45c722dd8a4c47ddea.mp3",
+      "sha256": "994e0f957f0650971937435b3eff7f807e3d626f15981843ffa41b17f0a522e2",
+      "bytes": 15090
+    },
+    "Nest egg": {
+      "file": "audio/1eb4bb4171016ae8249a1faef9483b0ae13231e839c28447e849efd142fae06c.mp3",
+      "sha256": "cdf2ac7581cbf3d817d3fa0023837bdca77b8620fd7b60617c9c5907e97767f1",
+      "bytes": 13836
+    },
+    "Deal with it": {
+      "file": "audio/f2de06d5f9a1464f714e24759cca52aeb2e146cf50839bba3feac6743f9d9414.mp3",
+      "sha256": "51134a1d9248a56d670db8c37c1dc77596df608f1f4f120a8c61bf6305d48094",
+      "bytes": 14254
     }
   }
 }
