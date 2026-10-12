@@ -1056,6 +1056,56 @@
       "file": "audio/679e56615e401268eec8909a1d8e245a06fc5b25fd3f47d801654c02d785a089.mp3",
       "sha256": "236e35ed09d1c227db00fdfccc54231415f9b5d08bc78cdfccbd4b7a46399a2f",
       "bytes": 20524
+    },
+    "Let bygones be bygones": {
+      "file": "audio/a28bcb359b336c7f842aaa214a37079638c9a2ad9c48c67facf64b8d6b83e81a.mp3",
+      "sha256": "0be49434ad049e68be5eb97be7531a32074d95b91b85bc183930cc06f2f52cd9",
+      "bytes": 27629
+    },
+    "Let sleeping dogs lie": {
+      "file": "audio/530ea75416f279808e0c34ad3702b8fc1edb5d0db42fb02e227880aa43c12f61.mp3",
+      "sha256": "5e2cb50d10cd68af6ca137d50d7dd91acc11aaee0b9df7437d7158b2729da0af",
+      "bytes": 20524
+    },
+    "Loose cannon": {
+      "file": "audio/fd0a1103fe4f59ddd4af0bc80eb4517cf848eb4c7e2b5779efb4383e986cbe99.mp3",
+      "sha256": "b3de24190b8bfca0e51f129b6ad679540dc3b48740e65d25412a522ad713300d",
+      "bytes": 18016
+    },
+    "Love at first sight": {
+      "file": "audio/23f9d1cabda6e9ab6127655b1c1afac1dbc285eb26b394a3730843377be4df5c.mp3",
+      "sha256": "2aa1d35d7f259a49a41dcf7141802f0ce0fc9b8899bb96241011d59ba3ec5916",
+      "bytes": 22613
+    },
+    "(There's) no room to swing a cat": {
+      "file": "audio/ece57cd9617f8dc249036a91311b811088fe2fdb79a3ab04b8b078b8dfb28696.mp3",
+      "sha256": "c930a79c463e4e6bd3b19098e2774cf89a0dd434cb946cb8157b975878d7dd37",
+      "bytes": 26375
+    },
+    "Nothing lasts forever": {
+      "file": "audio/361bd077ae1108e74afbf62c67fec117cb78704ea83eb4d14025cbe4827c0abf.mp3",
+      "sha256": "702d6ea07ef2207dd93e654025c488b57899a518a9c43347b2c2c69ea0c871be",
+      "bytes": 21777
+    },
+    "(To) put a sock in it": {
+      "file": "audio/b827e989e7b80d4e68ae1b947b3f4e8fc256b52e08e48b8be172d786b69e75e6.mp3",
+      "sha256": "6d95a414862b74a2740b58d6c53d89dd4bd8be2382847c885661773de8f85b4d",
+      "bytes": 20942
+    },
+    "(To) put on a brave face": {
+      "file": "audio/8ca85fef936fd9ce574628e28b26fa87ecf117ddaa007881c6953b39d00d795e.mp3",
+      "sha256": "7b3da4bf1bbc303f3b9ddb96ec8cf1388609032834f7913f1f0fea8628a7d853",
+      "bytes": 24703
+    },
+    "I come in guns blazing": {
+      "file": "audio/07b1f2e3a49f7c9d49fc5f908ae1c90d644d5ca1e0651d006b46d48b23a5a323.mp3",
+      "sha256": "71132d36b91c53dca41cf9a5c024ed4fb5bcb5f23266b0153511eddebc0ee8f4",
+      "bytes": 24703
+    },
+    "I brush them off": {
+      "file": "audio/e6ba5e2a11c1d7997fa4d43f2b9ce8c0238185bfd8a2ba1f74b735af59aaa36a.mp3",
+      "sha256": "cbc6a3fe6b5be717ac92f65cee06a46bfef171ddccb9ce77ea0fcaf4ea68b99d",
+      "bytes": 22613
     }
   }
 }
