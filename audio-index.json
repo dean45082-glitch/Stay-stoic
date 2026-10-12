@@ -1556,6 +1556,56 @@
       "file": "audio/2b96b3e9ba7373ec1a0ce92867c1fe8fa857c427bcaa3a6b675ac847a79a46bf.mp3",
       "sha256": "b676f1d36aa8cd06ace47ee55504a959e2fcdfb4b519cae553dda965fdfea82d",
       "bytes": 26375
+    },
+    "It's a losing battle": {
+      "file": "audio/b7f397d4808069190d54b16f141cd7c8fd07d6ec0864a9cc7b1aabbe0ae913b1.mp3",
+      "sha256": "3d0b8a8ae89920952604070a699e53a95a1294a6f713aa51f72ffdad8dd3fb29",
+      "bytes": 20942
+    },
+    "my inner circle": {
+      "file": "audio/ac7e93919d37cd6606c97617f17db29083c13343f55da92147af806a55cf14e4.mp3",
+      "sha256": "c664ef5a07a22edb584a9d1e332b7a835fb9095d14987916a114c97c69cb29a7",
+      "bytes": 17598
+    },
+    "life puts you to the test": {
+      "file": "audio/9527c683132b4129f3963c9608398494235d097e581246f415f60ce8cc41b65c.mp3",
+      "sha256": "7224d9cf7e1d8af88e8cf9a4a04d88dfdc878b2602014d51667eec001f5bdd67",
+      "bytes": 25539
+    },
+    "looking for a confrontation": {
+      "file": "audio/fe3ce6960685f4a646d94a58ffad2d2c0783f3a97f4e4467f6795c4b4715a614.mp3",
+      "sha256": "71d86aee1d9722b6d1d2a8bba2703cbda883a7d8454b74106cafed583a11eb9b",
+      "bytes": 30137
+    },
+    "picking a fight": {
+      "file": "audio/907b14950b0345a4b58b835c21fb403c1052bcb79d23c2d57b9d3c9faa2fefd5.mp3",
+      "sha256": "bf7351f4ad374d8bdf0f23cc8026bf4db34f041513d30d3ad7c3a044456e4b54",
+      "bytes": 20942
+    },
+    "a weight is lifted off me": {
+      "file": "audio/2d1238755b48694734fea1f0dacdfddcf98b51af6261636995d2c9d54e5dd335.mp3",
+      "sha256": "97e9fa628cc7f2ed5a88b25fb2ae27e075c75394e96efa38078b2edc1524de6d",
+      "bytes": 27211
+    },
+    "I emptied myself into it": {
+      "file": "audio/2cfaa77d1987a881d6b423b2bb2a81f7ab47d64ac1ae0131947a34877ecdea8b.mp3",
+      "sha256": "81e28cf3a414ab7aba41e2b82ca3c6f9689b1a629838ea2dcd473f04d9f6c79c",
+      "bytes": 24703
+    },
+    "tap into my potential": {
+      "file": "audio/3e23e9918e3a90201f9c7b5165c305249b667b076ca8bde796330b0acabf56ee.mp3",
+      "sha256": "82e69d4f6081a5b0c7ae84cbb90231bdf7dc8ebd9675446b452773584383cbaa",
+      "bytes": 22613
+    },
+    "what's holding me back": {
+      "file": "audio/65fcd78c4df012ccd22cc2d5a12ed7749a4ae94e64cb4615f558a0327697a464.mp3",
+      "sha256": "dd3a19d6013376c8f691105615d35093eb084eefbc3475bfa6226ea2a707e5fc",
+      "bytes": 23449
+    },
+    "don't hold back": {
+      "file": "audio/957fa300a7ad92033466036b86438a45c4a44fe4dcf31caffa8d902945d27fcd.mp3",
+      "sha256": "d0161a467a39358aef6bb8540eeb43b4dc7da346ec17c8f1345d16396594454a",
+      "bytes": 17598
     }
   }
 }
