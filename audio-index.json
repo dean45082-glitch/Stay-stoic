@@ -1856,6 +1856,56 @@
       "file": "audio/a99fc3382910ed8f1cdc47d702aa8483f1ac52897190346552a0be993751adc3.mp3",
       "sha256": "0517e67e27b39fd7f35a906df12263374c41ae0a680cf23b7ae0830a7cc3fcb8",
       "bytes": 17598
+    },
+    "adversity": {
+      "file": "audio/5f61c21822f12664c4786c367a318ea331a6b76a45441c6adca5d6350f0e424f.mp3",
+      "sha256": "9088dbad5ecac2a627b941ff6d65f065f70549e87eadf8a2969d7583277ed45a",
+      "bytes": 17598
+    },
+    "to reflect on": {
+      "file": "audio/6880facb1b09792082d2435942054d507d861d7c3d994f88773e420d487ff386.mp3",
+      "sha256": "f8052a09d60512611b3c68bca3b7e5b346b5914409f9ade0194e000bea547682",
+      "bytes": 20524
+    },
+    "to let it slide": {
+      "file": "audio/85317f6bc08884e0936feec328bb0764b09afa8900d1e5a7c962e0c4979042b7.mp3",
+      "sha256": "bea08b6d7a8ccaebf2353c02e118922cfbff9942ed22236b2dd261cca6f6495c",
+      "bytes": 21777
+    },
+    "turning point": {
+      "file": "audio/2d88d79c97e00f5961189d1c5a3b2fc8c0ddf8e8bce3ec509598ca17b5f0f73e.mp3",
+      "sha256": "de0fd75ad563d4694cdb95b39c084d0fcf030aab06636e073334e5076b76da37",
+      "bytes": 16762
+    },
+    "to come to terms with": {
+      "file": "audio/ce92807b6235710848c6806a762b58c6873cac5b1a414ebd0f838c14936cc913.mp3",
+      "sha256": "9c7b6eacd4023a9be8cf828c887329c5132af792a44fb427eee5a39e72387324",
+      "bytes": 23449
+    },
+    "to dwell on": {
+      "file": "audio/1e4643fbbfc9aab9e5e362a60e9d60f9f2b4fd5676f2cf23883ac6b0bff06af7.mp3",
+      "sha256": "47fc8f0468f0edfaa4117567a05d456a089ff953b45fe81c32ca21fc49e770e3",
+      "bytes": 15926
+    },
+    "in hindsight": {
+      "file": "audio/d8948f1fcd34147a3d1338032d3ffbdbe66f450e34f3404e766e2fba6e4e5a9c.mp3",
+      "sha256": "10347adc1d863f96797ab6bddb177aabbcf505625b9a7504fe9063733eec210f",
+      "bytes": 17598
+    },
+    "looking back": {
+      "file": "audio/cc1ac91a3d80e2982cc7baba3a384cd7ff4c54507df773fae3598144cceeb38d.mp3",
+      "sha256": "cf04d10458d4de06c14c2ccff2610f66cd190777ebcfa126ebb43200a8d7f8ba",
+      "bytes": 20524
+    },
+    "milestone": {
+      "file": "audio/1034117a3ca341107be25df4fe166ce01a62ec8c30129a471c9c8355d1c3d64e.mp3",
+      "sha256": "6d0b346a8faaeecf60286ecad3cf30387d531bc9eb5ee7b70c86ddcde459b7fd",
+      "bytes": 15926
+    },
+    "to picture something": {
+      "file": "audio/d25c36ca665c4763ca60cfc8392a82030f98cb521f06fe9aa0a5c052bb5a9224.mp3",
+      "sha256": "6d7ba8fc7b77b41375d1e83cd90e15bb34c25e52f107258dfbd4b31345dc139c",
+      "bytes": 20942
     }
   }
 }
