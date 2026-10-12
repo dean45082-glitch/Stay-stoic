@@ -1206,6 +1206,56 @@
       "file": "audio/b942b058ff6bd0061a8bec9d3b903270baeb199ce6303cff5007f6563d61f2bf.mp3",
       "sha256": "91f1d3aa75d49d7d1f647778df3bd5947b6eadfbb08a896634a4db20887b49c6",
       "bytes": 21777
+    },
+    "it's more caution than fear": {
+      "file": "audio/8f15dac38732be0517e884ebff6fa9397cde804e3a4e3e3ed7f4b454f517425c.mp3",
+      "sha256": "6ab3f9f49a7e53086c330ada3fff14d8c2a844d764a209e7aee2169f743dd3c3",
+      "bytes": 26375
+    },
+    "build their own destiny": {
+      "file": "audio/bcbe180037bfaa9e0aa27e0df1b945543d1a535b5e3610860c70f2f2420e03a8.mp3",
+      "sha256": "6ce844056fdc8c52fdac6994296d906d215abcb6e8a7308cb5821c4086df1903",
+      "bytes": 23449
+    },
+    "a life that isn't mine anymore": {
+      "file": "audio/996837f8000e5a8ab147285dd7f7aed631bd211b884e6bdd35d6b013dd122b5d.mp3",
+      "sha256": "4b76c0ae22ed86db078d2132aa52512b423de532efb0dcec56b62e134d180209",
+      "bytes": 27211
+    },
+    "someone I'm not anymore": {
+      "file": "audio/9d99dd213b996e11491a005a35f6b84a92dd1be588faf77068ccc13294475e8c.mp3",
+      "sha256": "87891fd9e4cee33306d4ecd6476ea0c634bad3e8091cacb63650eb623700a963",
+      "bytes": 21777
+    },
+    "The best of both worlds": {
+      "file": "audio/eb6e306f8c08b6441d381465b6087e71875a900e0f39e1b883b51f0f03faac87.mp3",
+      "sha256": "461710c605167eb8aecf92977703d4cedea6a6df722a2d9d51d16dc0f0071644",
+      "bytes": 24285
+    },
+    "Speak of the devil": {
+      "file": "audio/79ac8d8ea9d97e1d53cc1da3fb4ff0390a49b4e506275c1de5775676774fb765.mp3",
+      "sha256": "8cc719a8aaa5f9a8a87463d5b7af7ca607aa9b8ed90f39e2329c243021532d76",
+      "bytes": 18016
+    },
+    "Cut to the chase": {
+      "file": "audio/ab957339343210d6d9bb3947b13560031fab73ef063d67e317a5ef1c72f35fdf.mp3",
+      "sha256": "df57f6e63651eb5be624402b4ad6538507d2c8b821b30a9c6eba8ff6211cd753",
+      "bytes": 18852
+    },
+    "A leopard can't change its spots": {
+      "file": "audio/418311aac3f224a20e3e57181975774bd14084c8d44cab4f4a06ff62da673e12.mp3",
+      "sha256": "3b0eb82d6adbb6a939d2d9a9f3b236bf711308da059b9d94bc44f439af9919a5",
+      "bytes": 29301
+    },
+    "An eye for an eye": {
+      "file": "audio/b8969e2f84aae5c93a94240e3081ec1908136634602f23c2c5ed4f17dc7e69d2.mp3",
+      "sha256": "26fd35c63f10ecf4944268e1c1e7a7c09c86f531d3b40e32a7b9e53dbc797076",
+      "bytes": 18016
+    },
+    "A penny saved is a penny earned": {
+      "file": "audio/e28b223eb15f6ac3f016582daf191f8cf4daa0ccfe30da4b348739ebf7f14d5c.mp3",
+      "sha256": "00eb5417e49be35eb1e419194978e4d8a33b53dc36d02618db39b447c4e559e4",
+      "bytes": 32226
     }
   }
 }
