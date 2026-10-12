@@ -206,6 +206,56 @@
       "file": "audio/44eb470a2e749d91ebf0b410fbe66c6d827bd1da767013fe593cc8af262e9c2b.mp3",
       "sha256": "6e45d9cfbf04f4c119ae788d70cb24777de881f79e26f36f1b31a3d16f133825",
       "bytes": 17598
+    },
+    "Cross that bridge when you come to it": {
+      "file": "audio/409308ebf70ffe3e8ff6c494fa60d27a220715eee0efe92c6313975ca9859d7b.mp3",
+      "sha256": "afe8f111985fbb8e768560f8cd9a0787c85e163af14f0196a786b9373a7f9115",
+      "bytes": 30137
+    },
+    "So far so good": {
+      "file": "audio/99976f0c66e72496b2af51e07367e204ad4f64ce3a33b073a05b6e47fe8dcc02.mp3",
+      "sha256": "8abcf5ba82bf97aa0005d4e30b1d455bb6ac48544247fa0d30fb48a398d57907",
+      "bytes": 18852
+    },
+    "Play it by ear": {
+      "file": "audio/e3c61ae91e3ac40735a74615cc578bc7fe43ad1678fdc5d69b2f02e27eaf7d8f.mp3",
+      "sha256": "940242a762cd9c4d2b739f843bcd97d34856f5a99e17b4104c8d6b7fa33037b1",
+      "bytes": 18852
+    },
+    "Chip in": {
+      "file": "audio/cc446835178222b752cf73070d5058c212c69e0a9f4321faac74422ca9899462.mp3",
+      "sha256": "34ed0edc5e8c6d10803369e93c6220d031bca0996b3f303da03b9f347e31f414",
+      "bytes": 13000
+    },
+    "A win-win situation": {
+      "file": "audio/f98b8ad6df5d91ee1d41cac1f751fcd5ea7813a85d778f1122459a1014f56b81.mp3",
+      "sha256": "a705d25456bda9502eacec9966af345d0a589de346853dd51b5002f290bbea51",
+      "bytes": 24703
+    },
+    "On me": {
+      "file": "audio/5032c9c0518db7bfd992ea2f91a0ed588f28e2d2fe0ab6f741e36f30a43df16c.mp3",
+      "sha256": "7f3ea9dd978876eff4515258aaf1483f785405dbc8805924ca7c95d7faceba65",
+      "bytes": 15090
+    },
+    "It was dirt cheap": {
+      "file": "audio/377e96999ca2ea515f37156763a6f5f313ae9cd3dc01ba3e34eaded3d806dd72.mp3",
+      "sha256": "34a5b3eca8b8f38939d9984807dd9c547e73c66eee2ae2d38b79011648355682",
+      "bytes": 18852
+    },
+    "Make a long story short": {
+      "file": "audio/f79d7d803cb7f89b18029674149972906091784928fba77bee94bd202c7b7056.mp3",
+      "sha256": "5d188e7bba6673c9229e5efae7a9626cb732bf53e196f77648c7f6a8f29d137b",
+      "bytes": 20524
+    },
+    "That's funny (irónico)": {
+      "file": "audio/2d4ad8c171f3a744db90eeb9f0af6fcde09c6e04af8f5d93c4a76965720fd211.mp3",
+      "sha256": "be02a7ca589853fc4b9d5a76338cd9789748c1ead4512cf5fbd38490747cdf6b",
+      "bytes": 18016
+    },
+    "I live for": {
+      "file": "audio/ba8a0d5e4e292527f6c45f9eb9f345b358ccb52cd976df3e6ac16f79b1091bcc.mp3",
+      "sha256": "bdfda743a9721372074e4bb99afb365153d8a5c367c62d684dd06ce6c54e9b48",
+      "bytes": 16762
     }
   }
 }
