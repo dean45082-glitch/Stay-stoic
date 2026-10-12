@@ -156,6 +156,56 @@
       "file": "audio/a171ebb3860766287a896f949d3cf2ed2bfc37602f50596831bdcf45c334022f.mp3",
       "sha256": "82deed6550088c04c9327bf104b84a060bc05cd991fc23fe7fffb6c463aa3469",
       "bytes": 17598
+    },
+    "Call the shots": {
+      "file": "audio/4a6da8400f62ea60433d722169bff41e2bb7afe27c527f087a8af348e6971de2.mp3",
+      "sha256": "f1ea554d3be2988ff8869b672e959f951347c7d70acb03a550b4fb60130d6da6",
+      "bytes": 15926
+    },
+    "Down the road": {
+      "file": "audio/1b1d57126f1ed7d6e9f3d2027d065ffc49942ac84c2d4746a3f524b8027372bc.mp3",
+      "sha256": "8e1016c464f826c1c6e4f3f6ae93459dd4a8a6b7d838c04cb579b1032b1daa63",
+      "bytes": 18852
+    },
+    "Hands-on experience": {
+      "file": "audio/fde9e0ce41126c0500d9d7bd80b85bac0828e89baad62ad5259a6193869c1cc7.mp3",
+      "sha256": "e4a90f825bda53bd651e7916b14a98e36f724bead6ca7e824fe23efd8d5a942d",
+      "bytes": 20942
+    },
+    "To be short of": {
+      "file": "audio/2a335e4d7b46b0dcdbb96d81a8b975f7cc415cffb2ade6f1746c36cf26fbd8ee.mp3",
+      "sha256": "3dce51d84ddcd813d8c35131e1a7a5a70bb31faee7cdad89e49b5e04224b7452",
+      "bytes": 21777
+    },
+    "To do well": {
+      "file": "audio/5bf1822bb2a21951df6507686cb4e7ded345cb8369953f75daa933382b4bab1f.mp3",
+      "sha256": "4d0bdf9a7322169a069217a54603296ed02d1738d347798aaa5be2a3fc9b9fea",
+      "bytes": 17598
+    },
+    "Get down to brass tacks": {
+      "file": "audio/cc1115773d49692dbe945059557cd6ab3db1cfe7f0e993ca08925f9a2ca8919f.mp3",
+      "sha256": "a398a6791b8387fb4ae3efdaee4f1e016e833dc60feaf71991afcd06fa3e9cab",
+      "bytes": 22613
+    },
+    "Could I jump in here?": {
+      "file": "audio/d9e6220013382538bdfc5db1cf7e52b89f657bcebae1f0e261aac28a26e5af09.mp3",
+      "sha256": "04fbdd78774295a411d92438b9424fab1110dc9643c87aa9be0c91217f4c777c",
+      "bytes": 17598
+    },
+    "Discuss something (nunca \"discuss about\")": {
+      "file": "audio/74d902b8f5c1e0a6cffbe69ce07e96b2c23ece750254c9d0ff5b629bc2a28e6d.mp3",
+      "sha256": "c53e8ac38b592d3ad5f7009d44fc8dc52ac3a3307665783a8d1d6b5407bf3348",
+      "bytes": 19688
+    },
+    "Comes in (para productos)": {
+      "file": "audio/6ceed5c1783f024e82239f2c37c866b3b6e8587234e6594b08d74796add06e0a.mp3",
+      "sha256": "a4bc41cbcda09afed3dea776c8d86b875fb679f59c50994c64ed3684338e8835",
+      "bytes": 15926
+    },
+    "Call it a day": {
+      "file": "audio/44eb470a2e749d91ebf0b410fbe66c6d827bd1da767013fe593cc8af262e9c2b.mp3",
+      "sha256": "6e45d9cfbf04f4c119ae788d70cb24777de881f79e26f36f1b31a3d16f133825",
+      "bytes": 17598
     }
   }
 }
