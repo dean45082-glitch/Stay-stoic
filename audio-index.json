@@ -2156,6 +2156,56 @@
       "file": "audio/aff93c1c68b699fd4ff292bb8fef68a32e98d38bf28f971394a8259fc896c120.mp3",
       "sha256": "d8f5a2391806eac56bc34fcf459e8e833268ca4a99bedd3fc6ad736975b36a57",
       "bytes": 16762
+    },
+    "hunger": {
+      "file": "audio/934d1d2f20e33a12e5a36c03722dff5412252a138ded0437aecb129cabe6e23d.mp3",
+      "sha256": "e243b72e38237c30c7b9cf17b64d542f58311bee0188bd7e74f780b5cf56bf69",
+      "bytes": 16762
+    },
+    "edge": {
+      "file": "audio/04f2a328b55ad69fa9f35a8f02f4fbc08dfde5edd30b4028a010f69d5c099614.mp3",
+      "sha256": "b94ab98bc92a66b92a4592e53f10e6458fefe4044611ef10b651396d9da4d6ac",
+      "bytes": 11328
+    },
+    "anchor": {
+      "file": "audio/e20a2cb92b18089a053bc73cce41055d09058deb3f8628c9f08b1bc2849fdebb.mp3",
+      "sha256": "7e88233ac62da32eaf2d899a180fcee4d3e0a27111f46eb54ddeb78d4024eb0a",
+      "bytes": 11328
+    },
+    "although / though": {
+      "file": "audio/1f7247c4b06d13aa27871e7a21c50c155c38bb6c94f7886c5e65d2c721a2b9a7.mp3",
+      "sha256": "aa490d3ce6cf8d7e03084b42be8cf4f0e42df6428a1d5c6344cf9d168327f6b9",
+      "bytes": 20524
+    },
+    "since": {
+      "file": "audio/401ccf309578e6ce850e986675e47e39037c4def395990c7746a1c549388da79.mp3",
+      "sha256": "59de41e50faf331d460514bf73812e10426b4a80d51fa4a91c3418503126120f",
+      "bytes": 11328
+    },
+    "unless": {
+      "file": "audio/e2f422e94e9ffda79b8ea6fbe3f317d3433cbf341fdcb7e2325d69d6dcbcb4fe.mp3",
+      "sha256": "da1e30f6d251f571f2f2d5a28ba2699dbb22f433481b6d88f483bb467043b392",
+      "bytes": 15090
+    },
+    "once": {
+      "file": "audio/9b1ad011ed6752f22f1211c101c12cd379191f8b1b6a35cff53acbfc23735411.mp3",
+      "sha256": "0b4c530bfb03f41001de87eb8b722db8bab8d60b401c40cd67b148be08d17f33",
+      "bytes": 10911
+    },
+    "even though": {
+      "file": "audio/e92b91fb3d3f899b7f62a31e653f8d04a2407ca59bde585553d4554b070bac06.mp3",
+      "sha256": "193dfdd769e66d3c8eb158082acef0b8c3a6137e940555d25b5208e820afc40a",
+      "bytes": 13836
+    },
+    "to stay hungry": {
+      "file": "audio/30b860179753d2157ec405bff0f5c62e1106d299275d11734daf6e6578c051be.mp3",
+      "sha256": "c718384e870c02298282a6c2185f75e38b3478e290b73e31f371017264530ad1",
+      "bytes": 16762
+    },
+    "to anchor myself": {
+      "file": "audio/adf2ffeffde49306939d9b232307b1a952d11a0a94b27a587ded3f8bebbfbd6d.mp3",
+      "sha256": "0f5e8c40cf55be9fbb4c91256ff01cb8a339893b9a1a979b26f3d54e420051f7",
+      "bytes": 20942
     }
   }
 }
