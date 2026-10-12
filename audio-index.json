@@ -2206,6 +2206,56 @@
       "file": "audio/adf2ffeffde49306939d9b232307b1a952d11a0a94b27a587ded3f8bebbfbd6d.mp3",
       "sha256": "0f5e8c40cf55be9fbb4c91256ff01cb8a339893b9a1a979b26f3d54e420051f7",
       "bytes": 20942
+    },
+    "fire and blood": {
+      "file": "audio/23001b82cd4b721c8236fc60daaf5227ad526566bfc23f42fe37c36c46b5eb0f.mp3",
+      "sha256": "af29fbe7059428ad1eeba03fce44bb215efd5c2f1c274351c8916ab4f3c31eb1",
+      "bytes": 17598
+    },
+    "stepping stone": {
+      "file": "audio/d66e1117eecf280811304caceb4e11c861d4e1f39aafb02cd5f188bcc5fafedf.mp3",
+      "sha256": "2d9e88ab2b419bb9f1543221a3ebbcf11267869e64cbbe7050794e9d9e9daa9d",
+      "bytes": 18852
+    },
+    "I'll be facing the same problem.": {
+      "file": "audio/4c5782aa4c3651da2a96af27d938e757062b39f69928c0a36f58da3147f60ceb.mp3",
+      "sha256": "30c81e46ae01f4c2be669a4928278f2331f38a90835078295617c7f359801038",
+      "bytes": 27629
+    },
+    "I'll be working late tonight.": {
+      "file": "audio/cfd5850e16e98effdd20f88485c575f84e207b3c0425ca8b579e3363859d9146.mp3",
+      "sha256": "24d7aeb639e62f1b8a07e8ddbf9d0bd519dbdebc352dbff0b1e4489f5ef45b0d",
+      "bytes": 22613
+    },
+    "I'll be traveling next week.": {
+      "file": "audio/1cbdf5219c0e49a655d4385b69e9600434568bbdc04ca28b7c504d11ed15702a.mp3",
+      "sha256": "2870f6e0cb4084fb77d19ec9b88b5efa13fe884314ceb013e099e9567f008c30",
+      "bytes": 24703
+    },
+    "Tomorrow I'll be enduring another difficult day.": {
+      "file": "audio/4ad7b44b532e68a8be245aa6ccebcb98bab4531b65cbfb515c84db96c087039e.mp3",
+      "sha256": "8d18dc4ca6b837a2d860b971c8a65953caaa1964ee17806f54184548eed7610a",
+      "bytes": 41004
+    },
+    "She'll be letting go of what she can no longer control.": {
+      "file": "audio/9150b71eb3f41ae80545d6d85231c4a9677b0e86f561c1527e1de7d78dda4715.mp3",
+      "sha256": "b687d1862bf625a472a65177934dc5957a70a6093487a8c1685621d897861438",
+      "bytes": 45601
+    },
+    "We'll be bracing ourselves for another setback.": {
+      "file": "audio/3f1336108dd9ffbaf460a25eaafce604a4d6534cd5298a85c8ef17a3eef9f819.mp3",
+      "sha256": "c435d722bd5ead10c25391a30459e8077fc1ba0df0cb3ace31ae96f74ad3f692",
+      "bytes": 38914
+    },
+    "He'll be rebuilding his resilience after this setback.": {
+      "file": "audio/5db3ddd25d4db81661c6d220e433daf1fe79509aa8c7d82474fc9d2d415b4c7b.mp3",
+      "sha256": "35ef8e355ca2263cc682d3b79d65bffc7d291b69fc40fe842d722121aa901f30",
+      "bytes": 45601
+    },
+    "At this time tomorrow, I'll be enduring the pressure calmly.": {
+      "file": "audio/fb698b4d61cd43d38ad2a1462e85e6bb6a758baea33af3a475d5b2653d51c3c6.mp3",
+      "sha256": "a0b323a9fa4202da068cfb6934a7ab1b93ac21930284e08b1f0874a970250cb3",
+      "bytes": 53124
     }
   }
 }
