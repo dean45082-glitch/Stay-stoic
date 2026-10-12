@@ -1,0 +1,73 @@
+name: ElevenLabs smoke test
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/elevenlabs-smoke-test.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  smoke-test:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, 'Run ElevenLabs smoke test')
+    runs-on: ubuntu-latest
+    env:
+      VOICE_ID: WbNN0ZquKxio6sawH5yC
+    steps:
+      - name: Generate tiny ElevenLabs sample
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${ELEVENLABS_API_KEY:-}" ]; then
+            echo "ELEVENLABS_API_KEY is not available to this workflow."
+            exit 1
+          fi
+
+          python3 - <<'PY' > payload.json
+          import json
+          print(json.dumps({
+              "text": "Stay Stoic.",
+              "model_id": "eleven_multilingual_v2"
+          }))
+          PY
+
+          http_code="$(curl --silent --show-error             --output elevenlabs-smoke.mp3             --write-out "%{http_code}"             --request POST             "https://api.elevenlabs.io/v1/text-to-speech/${VOICE_ID}?output_format=mp3_44100_128"             --header "xi-api-key: ${ELEVENLABS_API_KEY}"             --header "Content-Type: application/json"             --data-binary @payload.json)"
+
+          if [ "$http_code" != "200" ]; then
+            echo "ElevenLabs request failed with HTTP $http_code."
+            python3 - <<'PY'
+          from pathlib import Path
+          p = Path("elevenlabs-smoke.mp3")
+          if p.exists():
+              raw = p.read_bytes()[:500]
+              try:
+                  print(raw.decode("utf-8", errors="replace"))
+              except Exception:
+                  print("Non-text error response.")
+          PY
+            exit 1
+          fi
+
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path("elevenlabs-smoke.mp3")
+          data = p.read_bytes()
+          if len(data) < 1000:
+              raise SystemExit(f"Audio response is unexpectedly small: {len(data)} bytes")
+          is_mp3 = data[:3] == b"ID3" or (len(data) >= 2 and data[0] == 0xFF and (data[1] & 0xE0) == 0xE0)
+          if not is_mp3:
+              raise SystemExit("Response does not look like a valid MP3 stream.")
+          print(f"ElevenLabs TTS smoke test passed: {len(data)} bytes, MP3 signature valid.")
+          PY
+
+      - name: Upload sample for listening check
+        uses: actions/upload-artifact@v4
+        with:
+          name: elevenlabs-ny-sofisticado-smoke
+          path: elevenlabs-smoke.mp3
+          retention-days: 1
