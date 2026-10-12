@@ -256,6 +256,56 @@
       "file": "audio/ba8a0d5e4e292527f6c45f9eb9f345b358ccb52cd976df3e6ac16f79b1091bcc.mp3",
       "sha256": "bdfda743a9721372074e4bb99afb365153d8a5c367c62d684dd06ce6c54e9b48",
       "bytes": 16762
+    },
+    "I'm crazy about": {
+      "file": "audio/def0db00b3afacc1231af31fb08d554fddba7ac8dc5f446eb2838badb8cdfe05.mp3",
+      "sha256": "e9902c965c44e9597fa59156b7c4b5e3eb37a82be845850cb90e3d6546a9359e",
+      "bytes": 20524
+    },
+    "The elephant in the room": {
+      "file": "audio/4b0c3c5145ac4c45828ed7b00f74823ccb0b65c6385d1775cf8248f11f0b2088.mp3",
+      "sha256": "125794d546fbcd8aa98dca1fc5ec30b6727005ed721db3becefcc96bdc103177",
+      "bytes": 25539
+    },
+    "Move on": {
+      "file": "audio/03f9dbc8a383a873c3d23c67aeed4ee23cdf10ef9e31fa5ebf3e7885c74b37be.mp3",
+      "sha256": "863398c85df872de1895dfbe00cd1fa607a3afd1e3f7f1c4330b8eeb03e4ff54",
+      "bytes": 13000
+    },
+    "Get your act together": {
+      "file": "audio/e7d6d54411723a2b381de3a4a87cb24c708ab8ff54311181d2b6e67e8c25210f.mp3",
+      "sha256": "05a4a4e9dea55e72a3ce9c51d835651d77df7f668c524d163d2bcd1c9dc3fb27",
+      "bytes": 20524
+    },
+    "Sit on the fence": {
+      "file": "audio/c264c8e003c2d60c98b48f62aa20e1a9ec556d8d16a9b0a2d1b8b0b46c1f6ec9.mp3",
+      "sha256": "827eba0119dae18b85fb90d04eaec09e358e94fb8ce73de0b346e5cf4f55f1ca",
+      "bytes": 25539
+    },
+    "To do something in your sleep": {
+      "file": "audio/5eff0842218240d3f775b7ef65972f1d7b9b9f23d15aabcd2bbbbb8d0fc2ece5.mp3",
+      "sha256": "b66552afef5657cc15760c9b9110c0571d10ca50d8c8a0b5c2fab6ecb2f93fa2",
+      "bytes": 22613
+    },
+    "wanna = want to": {
+      "file": "audio/0359f8185841a18e537e1a5f8cd363b0f7435ef0c2c6c8da5482396e42bf554d.mp3",
+      "sha256": "23f2ec47e1061d67c2aa320a7d8cf05196d6192230877e551d023ebc31a338db",
+      "bytes": 18852
+    },
+    "gotta = have got to": {
+      "file": "audio/b9343031c6dec4b6aa96a8a59fc76678b7d0975d71efafdc5e9c2f132fac8383.mp3",
+      "sha256": "649a9740194b884e8a32c328690bb4a1b39644e87ee43bf634e4a066ad86624d",
+      "bytes": 27629
+    },
+    "gonna = going to": {
+      "file": "audio/1bfeeab615593b848ce973942fa2d69212bb8b77ec55c140edd3e2c995919a56.mp3",
+      "sha256": "856ab1e2931e7877242240c45f4172a8993ac2b15747c561e6a889187d50878c",
+      "bytes": 26375
+    },
+    "An eye for an eye and a tooth for a tooth": {
+      "file": "audio/eea7f80c52208ccbb6d6e46b3b3798fe412ec5ab382e57127275bba133b165cd.mp3",
+      "sha256": "27aca4c40e540d908a874c2994de517a0bbb671c338085c206b36b3b29bb8d84",
+      "bytes": 36824
     }
   }
 }
