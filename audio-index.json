@@ -756,6 +756,56 @@
       "file": "audio/05a31a8c818911bb08a1d98e682f91c126c284d638580f0ab6356c570465b024.mp3",
       "sha256": "f392aa66b23c7a1912e4af6e2873e4cb6d5737af6c6ea03a56dd9e658941e423",
       "bytes": 24703
+    },
+    "give unsolicited advice": {
+      "file": "audio/d9341b7874316a8b247a26216fd06d326fd464633031e2240a7e22cb68b96cae.mp3",
+      "sha256": "9865deaca623f88cb9397942cbc74155b13933f8b2659731e5e4f3e8e0a24737",
+      "bytes": 24703
+    },
+    "let them be the bad cop": {
+      "file": "audio/4d2bcfe827a1a981a4c8dde22641a652529e33240e95607eb9766c7febfd69a4.mp3",
+      "sha256": "002a4dfc7f61e899a6cecf3606644315ac7a878785ea9e77981a39e8df366762",
+      "bytes": 24285
+    },
+    "I don't mind": {
+      "file": "audio/787c6cf60fcbfdf1ca0c5428daac5ff3bec8bbc7eb6f18044c318c87f376ce92.mp3",
+      "sha256": "8be6ea18c21e479cbd6faee94d3ed2dd5e28b1a484dc88419cbd57f1b1c3efb9",
+      "bytes": 17598
+    },
+    "I'm good with that": {
+      "file": "audio/2de0660557ffa59841e472cdef39990d9053b330392e8e2caa3c2de3d0ad4fc0.mp3",
+      "sha256": "25a734947539286dc3e2dedc0bc2a834a463c6dea614c2edd08447201beb4303",
+      "bytes": 20524
+    },
+    "I don't feel like I deserve everything he's given me": {
+      "file": "audio/f50d4197fa28b0ec08ee6fc54f61695e58dc88a5641e81bb4f4d939428be1441.mp3",
+      "sha256": "0d0185e064762f343a98e29c4b62f1c5aeb267ea1de650a1e47230d1483e68da",
+      "bytes": 41004
+    },
+    "even if it doesn't seem that way": {
+      "file": "audio/2ab51dd9b5867b62a2e463de71fb7c418ed623579ecc7f1d0858f6c32b8495a1.mp3",
+      "sha256": "5bc0c4eddf48f4b33bc20034b2b6591ea4b70941f1058b5fb0b24943e9a42377",
+      "bytes": 27629
+    },
+    "Actions speak louder than words": {
+      "file": "audio/7ead22a1926568b761d4fff4e85b7ad9f09d191ea4b086ae09b6e7053df63759.mp3",
+      "sha256": "5ec6581e3b043ec557659e3d80d8b2769a441b7f856364ae2216397b3e545a89",
+      "bytes": 28465
+    },
+    "Every cloud has a silver lining": {
+      "file": "audio/3689a221eb05918cda2c4751847f3ae9ffa004f17c27bf546392569f2d9620ac.mp3",
+      "sha256": "e84b21d0d21d87918743e3e1aab0deaf947785ead6af0375ff33ecff9b2f1949",
+      "bytes": 31391
+    },
+    "A bird in the hand is worth two in the bush": {
+      "file": "audio/8507c1e777335c1d0e2662672cfa5928a5b327f0a105c4f73fcdf43e5c78e322.mp3",
+      "sha256": "9ff18c9ea807e22cd77c225de73c74228aad3917c1ebbf6a4df08e48fc9b1926",
+      "bytes": 33898
+    },
+    "A dime a dozen": {
+      "file": "audio/4d9263ca251683967d5967e04aea45cbec31022f32213466e3fca76be4622fdf.mp3",
+      "sha256": "a9cb32c0c556c8c3ca2fe51753fdd54584b37a0c102a9a31527e9598e6d1ca48",
+      "bytes": 21777
     }
   }
 }
