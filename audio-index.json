@@ -2256,6 +2256,31 @@
       "file": "audio/fb698b4d61cd43d38ad2a1462e85e6bb6a758baea33af3a475d5b2653d51c3c6.mp3",
       "sha256": "a0b323a9fa4202da068cfb6934a7ab1b93ac21930284e08b1f0874a970250cb3",
       "bytes": 53124
+    },
+    "We won't be holding on to mistakes that are already behind us.": {
+      "file": "audio/b258653c1fe265ac0c9b04931fe81d7a3bac73bad7b3590a0934cafffcb94893.mp3",
+      "sha256": "c403780824104ef7c04eb96c708526c8630200331d8aab84333e3a0a1265b60a",
+      "bytes": 50199
+    },
+    "She'll be bracing herself for a difficult conversation.": {
+      "file": "audio/2b988fedc7417d99c084c1f5d007520151d58f07e29143e9ba380984631e5047.mp3",
+      "sha256": "e85bec5c49d3d2279deeb4e906a4ea2d2d08421339c1e549035d5880150a80e6",
+      "bytes": 44347
+    },
+    "They'll be learning to let go of the outcome.": {
+      "file": "audio/09a086307559f1268365a1ea1718270f3778671c52045861da371a30a815366a.mp3",
+      "sha256": "39f294271f1e36a451adac4b66665c32b28a4a0ee5f3b8bc638cfa43afc14c27",
+      "bytes": 35988
+    },
+    "I'll be using every setback to strengthen my resilience.": {
+      "file": "audio/05da9191c45cf90bab77e02ea5d7a19d04de26369bd4425bdb12cd457827c9b6.mp3",
+      "sha256": "4f07971828cc0caec0e6f2ee06238169e92307384fb8a8e812a4830a576c8c4b",
+      "bytes": 51453
+    },
+    "Tonight I won't be running away from the problem.": {
+      "file": "audio/4ec1173d614ddb6de8b0f65086eaf224cc804b402c1bcd0caf0877acabf4b0af.mp3",
+      "sha256": "f1d23b4563178f848d3cabfe9ea80db0c927393edf0b5122cd62d2ab952cd311",
+      "bytes": 38078
     }
   }
 }
