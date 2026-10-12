@@ -1006,6 +1006,56 @@
       "file": "audio/11ece869aac0fe6327d24a4001540fd718016ae607ac38adbc85d3b478ba65a8.mp3",
       "sha256": "b5f23f1f2157340e05cb3fda596fdfe836b538010c36e219531e4fd3f87f59ea",
       "bytes": 22613
+    },
+    "(To) go the extra mile": {
+      "file": "audio/a3b8d124b307c62e574ce2a170a06584ff37286abc9da273f64ecec657577cc5.mp3",
+      "sha256": "ff91e0917ba6db2a7a01ba98a8cbd06a0e51f46e66c5196f8f39ba13460e7b1a",
+      "bytes": 18852
+    },
+    "(A) golden handshake": {
+      "file": "audio/fffc2d50a52b9d01c539e9a815af71443b614d4b21c7728e06c73092ea24c982.mp3",
+      "sha256": "f81f386dba474ed277eb242251476176c5f3ee47c653a12d084d7106cd0112b2",
+      "bytes": 20942
+    },
+    "(To be a) horse of a different colour": {
+      "file": "audio/6353d4b9f84c5c7d352421a78b3de9af0848b69ffb0101e722bafa4e969b5b47.mp3",
+      "sha256": "b28717a10adb9f964380dad839d9c5af35126db5322400a13846b9c288f671cf",
+      "bytes": 29301
+    },
+    "Hope for the best and prepare for the worst": {
+      "file": "audio/142f643723b3cc30ce317fefb5b1edd399ed619892da8440e3ef4cc3988a9cf4.mp3",
+      "sha256": "a137e7fec1352f46f801d41d92f2d72d50c66d9c6b0588960eddc77c3ab7e944",
+      "bytes": 33898
+    },
+    "It never rains but it pours": {
+      "file": "audio/e43c8cf89e3bd300b0c9af96b1fa6b37c58dac2d1701b94fb227f8a0c1545423.mp3",
+      "sha256": "26ff5f787710648dfda65d16912b341bb0b689f8dc3a9393bc42387da5170bc8",
+      "bytes": 24703
+    },
+    "It's (a question of) swings and roundabouts": {
+      "file": "audio/c6f7fd36ef9700fab0c1371b6360a82ee196dd89c9d48d76b23cb520777a77e0.mp3",
+      "sha256": "c4dcbdcceb6e93354e976dd0280ed13a372e15ed537d8f4e21d4a4375b5b6a84",
+      "bytes": 34316
+    },
+    "It's six of one and half a dozen of the other": {
+      "file": "audio/fbb61bd61751a51fc74ce2aa685ce569b7802a3a1466ce68ff57cc0bc49fb4f2.mp3",
+      "sha256": "57015e3a812ecce05f3c5ffe70ee4b87553bedf1a64c80357ae8ab154452b5f2",
+      "bytes": 38078
+    },
+    "It's the pot calling the kettle black": {
+      "file": "audio/f3d723b0c535ca14f78c59965fe3420adc7945db325fb658362e8eb676b38e44.mp3",
+      "sha256": "88fc5feca6a955257d04b3e26815bf55b86ea9029297c960c0415cd46e266c6b",
+      "bytes": 33062
+    },
+    "(To) keep an eye on someone": {
+      "file": "audio/06398a096b11f6ea08c4962663925fe925a6cd0ebb2ea4e1fc78a509e457e483.mp3",
+      "sha256": "660930b54ec2853348000ce4badbdb6d61a7bc5acb8e0b5c7425959bda3d5401",
+      "bytes": 23449
+    },
+    "(To) keep your chin up": {
+      "file": "audio/679e56615e401268eec8909a1d8e245a06fc5b25fd3f47d801654c02d785a089.mp3",
+      "sha256": "236e35ed09d1c227db00fdfccc54231415f9b5d08bc78cdfccbd4b7a46399a2f",
+      "bytes": 20524
     }
   }
 }
