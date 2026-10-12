@@ -1,1 +1,61 @@
-{"version":1,"entries":{}}
+{
+  "version": 1,
+  "voice": "WbNN0ZquKxio6sawH5yC",
+  "entries": {
+    "Break the ice": {
+      "file": "audio/74353d0246d4d4833dfc001455cf80c7386622badd399626b32eb3aa151772f4.mp3",
+      "sha256": "7a5560a63ba2a752b4b7f158db2227a238f297fbd8eb72e3842e98703346e3ad",
+      "bytes": 17598
+    },
+    "Piece of cake": {
+      "file": "audio/3ebe5e522657d865227104417e767e3d14056b39bcb769ec5c3cc2cc296d1104.mp3",
+      "sha256": "d4c9d0d12eb6d47cea5f04c07252c941c5a20934b1a182a149ba093416c7829f",
+      "bytes": 21777
+    },
+    "Hit the nail on the head": {
+      "file": "audio/de95d9bc40865c81eaa0a9b9c148508d37d5cbfd154994a533bbc97cbb677400.mp3",
+      "sha256": "ca50a4c6c0262e8379a01459fbdee9999284c5b536451963f9480e851f34311b",
+      "bytes": 21777
+    },
+    "Nailed it": {
+      "file": "audio/50176c994794d7bb14cb2999657187acd368670470bd19c69faa3fc6deca1399.mp3",
+      "sha256": "ccee2941ac857b23ba893fcaa0b0a0c180caa9f18ed0b3ced67e1e8d8d830751",
+      "bytes": 20524
+    },
+    "It's raining cats and dogs": {
+      "file": "audio/b388121ea451c8dbc9713a29e2f432f89a21f6048ced5d03a77024b26c43c280.mp3",
+      "sha256": "331bc0a4afd3ea713fb06acf16f97953bdffa79ffb433a8af1618eb2e2d911f8",
+      "bytes": 24703
+    },
+    "On the same page": {
+      "file": "audio/e1975ac8996c023617675bf8777462103c094e33eb83e9580fa3c6c7bfcec9a2.mp3",
+      "sha256": "2558598ff535862610ed92af3804be5e22edc3859739d4db8f08a3bcae6f4c22",
+      "bytes": 23449
+    },
+    "Out of the blue": {
+      "file": "audio/f25f657b8f202a7dcd1c099ee6d0b58d3ec1b41f6eca9f96c53e123caa004e29.mp3",
+      "sha256": "b56a5bfb5ea42d97aff8b3e4eae8407d3bbac429905ce3cb59b82dd52c03c0a3",
+      "bytes": 18852
+    },
+    "Easier said than done": {
+      "file": "audio/0a02abd7f7d9d3fd1ef62c7bf42d4cdba91f94ca254dfaff7a417d9236331a68.mp3",
+      "sha256": "c1eb27e41f96dfe80c6ceaafcb9762cb725347c57d43de01e0b3cf1b57ec48f6",
+      "bytes": 22613
+    },
+    "A drop in the bucket": {
+      "file": "audio/5451dca9b00e6318e11f476c184af9d790039fafae81fa4a36293fe154619ab2.mp3",
+      "sha256": "3a155e9d022001f5a036f91a43cefdee7fe908a790e1cd719ffd3d6568256c00",
+      "bytes": 23449
+    },
+    "A drop in the bucket/ocean": {
+      "file": "audio/5451dca9b00e6318e11f476c184af9d790039fafae81fa4a36293fe154619ab2.mp3",
+      "sha256": "3a155e9d022001f5a036f91a43cefdee7fe908a790e1cd719ffd3d6568256c00",
+      "bytes": 23449
+    },
+    "A friend in need is a friend indeed": {
+      "file": "audio/73e3c7f571f14ad8ee6f10f181b9a735e8efc042a4ac01d57d6819b8ced0acd0.mp3",
+      "sha256": "5ee5c11d4e8c120c169b21529fb474e1aca49a0762c0d2f269562253b5699051",
+      "bytes": 32226
+    }
+  }
+}
