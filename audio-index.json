@@ -856,6 +856,56 @@
       "file": "audio/f63ba689bf249fd6adebf4fa43908b0abe7383a8d8bb5885ca6fce4cab55d3e3.mp3",
       "sha256": "427c47b38d765f47c786aebc3d2b1ed3943bd87db42a5efa0ec8c08884061e28",
       "bytes": 22613
+    },
+    "Ahead of the curve": {
+      "file": "audio/ddb0c7449e8b3ed4f414c9a925bd47b591fdd32729a9cf18fae1a9fc4d362c76.mp3",
+      "sha256": "f368568763a62c85cd8835819d1376fb6c72980e8f44cfe3f950bec60bb4aa3a",
+      "bytes": 22613
+    },
+    "Ballpark figure": {
+      "file": "audio/14cd4f1b89513cc5758f821dada669bc8dcd7c508ab93d7c4639a1f8bd1c6706.mp3",
+      "sha256": "31eb9ff3ebd1463b948e1e0d92e51815aeb12b48c051dd7f96c6d57c457b0ef8",
+      "bytes": 19688
+    },
+    "Cutting corners": {
+      "file": "audio/fb6f1baccdb525a2af2f3d8dfe50401935a5d6efad556917af3142f4162f326c.mp3",
+      "sha256": "2ef2639a7596a40acec1d6ba5e972edcfd9f4ba04411af30bfd6151f3a98067d",
+      "bytes": 20942
+    },
+    "Raise the bar": {
+      "file": "audio/dd0c7a302cbd28314680540d6f557110347ea89282bdc0cd2f7a266441f09930.mp3",
+      "sha256": "6590eed41d8ad35bc6694675dc392dffd97e9d45049c202c165727941a29e53b",
+      "bytes": 16762
+    },
+    "Can I get a rain check?": {
+      "file": "audio/a2dccf588e227cc56bb802101e7bb99c5db416d57122c87cb338639d40f13679.mp3",
+      "sha256": "f8cd55cee2094a254e5fa26c12ee8dfe1ad75b3fd1bff5ee46d24e6dae94041f",
+      "bytes": 20524
+    },
+    "Short notice": {
+      "file": "audio/3efdaaaf9fb82f9639dfdc37fcdf471778fd4a56bc61cc6fa2121353213855d7.mp3",
+      "sha256": "7a274508c8d461bcdb5efab04ca66cfbbcac43de961141eb3ea2cc29fee654db",
+      "bytes": 15926
+    },
+    "Get out of hand": {
+      "file": "audio/6ba48c2b9c09c618202d0fde5bd44d210e948b1209138fd7f796b134e92d7423.mp3",
+      "sha256": "5874a3d4531f502edcb69c190e961cdff4bc4d7ba2c2344b7a4b75cb6c08d99c",
+      "bytes": 24285
+    },
+    "Hang in there": {
+      "file": "audio/2e1f84a88cc4e77ced9bf50da27884cd891cd4491304d1bf0c7a8615703cab03.mp3",
+      "sha256": "6a4321d6ef693158539bb98f3efcfffccfa7f62beee9e6b7046a92ff597247b6",
+      "bytes": 16762
+    },
+    "No wonder": {
+      "file": "audio/2c4aa25e089e6726406261f24b6849080aabcacd29874f7e64a5e49c77b9e3d9.mp3",
+      "sha256": "c721d2c4bca7a5071cdbed56b399962080f797d34eeac0e7502b7a3f895fcff3",
+      "bytes": 15090
+    },
+    "It slipped my mind": {
+      "file": "audio/03b05d1c410910bdaf650e02e58828998c85980f2ba3979f9184d09eb77446a5.mp3",
+      "sha256": "4f536f7a48856b70efc6a8308af7a784afb35ba6f0e61e3a72101df6e9b8e57c",
+      "bytes": 23449
     }
   }
 }
