@@ -1406,6 +1406,56 @@
       "file": "audio/aff380da63edde7d6882326320bee43c8fbfdd8a390c413b8148f7060656a6be.mp3",
       "sha256": "60d05507b2b2fdb840f0ee8dd6d9a26b1f32a542e163d06d0cf082a1917f0068",
       "bytes": 27211
+    },
+    "(To be) as mad as a hatter": {
+      "file": "audio/9db9514cf92c324191a1a446c50e08b8e08536f7f69195a0f018800c60ea4e4f.mp3",
+      "sha256": "1a2db76e1be67dce9ffbb86c502c8c5a214364b94148bd340defea21d1a2ed81",
+      "bytes": 21777
+    },
+    "Better the Devil you know than the devil you don't": {
+      "file": "audio/51a5b7ea9340ad6e3be65dcdacafa3c682d08fd0115cc6de3d37fc01aa7733cc.mp3",
+      "sha256": "235ec3efa3e2291d9865ab0a787f1979d10ab273586849cc0b1d0db8876301e1",
+      "bytes": 42675
+    },
+    "Better to be safe than sorry": {
+      "file": "audio/2cf2a7409c1db47b35f129c570e1af1b7cc59b3d16ccd55db982d473f39c2b1a.mp3",
+      "sha256": "6ac7cbe61c45173698dc45545c8d38fd2fa04a4b7b6035742dfc864326396a58",
+      "bytes": 28465
+    },
+    "(To have a) chip on his shoulder": {
+      "file": "audio/84542eb3cf53195a0f29da01274d22f518878c1a589be35171b14c114befe665.mp3",
+      "sha256": "8c2769eed1848f84a7d94632ac691074b89fcd98ee032cad4d96d1e8d31779bf",
+      "bytes": 24703
+    },
+    "Close but no cigar": {
+      "file": "audio/231113783a9979188b63ffafacb0628f71541bb126ed2013dde90aa68a417b8f.mp3",
+      "sha256": "1aaed523108c9d8573b4308bb6575a95771682a50580beeb6271eda51822410e",
+      "bytes": 22613
+    },
+    "(A) feeding frenzy": {
+      "file": "audio/726c0c96799dbf6ecb23af9f4437a619d7e87b82402dbdb9d0d56a676013ee78.mp3",
+      "sha256": "6ceeed0135d83034b9eb638b4a1ed26398e96a8393cf9e5ef947057330e21f9e",
+      "bytes": 20524
+    },
+    "(A) field day": {
+      "file": "audio/80876459e5e4fe3f600aeee440fc1a07363b5a738bb11aa1616e5389c7565fbd.mp3",
+      "sha256": "349fec2c1fd8d989aa6693da774e5cab97b8da30a80e3b5cb3f945fe98026531",
+      "bytes": 17598
+    },
+    "(To) go for broke": {
+      "file": "audio/0921111d8abbbd1a8f8addd3a047e6f20bff61410727e296d53006cc2ea2fc11.mp3",
+      "sha256": "1b8abb72ceac72288ec0caca0722e5053eba730b030f34bc9dd18150dcff4fd3",
+      "bytes": 19688
+    },
+    "(To) go out on a limb": {
+      "file": "audio/fc459b47b63d9b8ca4bfeffd4105ed1e708413792b313ac70549a563dc7d4c45.mp3",
+      "sha256": "e6520139a3172925fdfe95b24553c4b2bf8dc1d4f90f44e114f346571376bfb4",
+      "bytes": 17598
+    },
+    "(To be) head over heels": {
+      "file": "audio/d39772c3c7d854fab976ed8f6419593bd297ee2e44d61dfe4e808a6132e7a9e9.mp3",
+      "sha256": "3cb1139d7745dbe276f4b550b6fd2a35c29e7a13c30c83436d0302990d31a10f",
+      "bytes": 24703
     }
   }
 }
