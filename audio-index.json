@@ -1956,6 +1956,56 @@
       "file": "audio/5dae22af9a33c3659a6da84e5485a06c709ab860681f31e431193ec0a4dcf552.mp3",
       "sha256": "b8e2089d75467c6c4f0e21182d1e1287614671bb214916ac4bf3bf07d2eacd8c",
       "bytes": 26375
+    },
+    "to hold it together": {
+      "file": "audio/e24a0470d8b084bb37cb1b5742126e8f89ce6958d3547ad2e80b7b65b702a9d8.mp3",
+      "sha256": "9d455da9b2b5a0e0504091e41bb20160cce296272161af2842eca33654dcc263",
+      "bytes": 20942
+    },
+    "rough patch": {
+      "file": "audio/3ae001344775ec61af9c6ab2679c09751b4fa8c4365bf1feed0327015aba27c2.mp3",
+      "sha256": "a18c28004ea3b783699f3bca222e843f575366ddf6330964745cb70d5a123cfa",
+      "bytes": 15090
+    },
+    "to beat yourself up": {
+      "file": "audio/b3c947bffedf6bb2c755f1d9b7a21b028fd97233695d381044061a5ac33b1f0e.mp3",
+      "sha256": "67d6b5318a71c3de279f43f9c158cb5007c4da4662bcd5c07b5a44fe119619e8",
+      "bytes": 20942
+    },
+    "to grind away": {
+      "file": "audio/870ab2182b7f417ce66b5bc3e8757312ca2fe988d1814dbbccf85c4b285dedc5.mp3",
+      "sha256": "3a49a30197686e59513fc073b107882e47783d67b5adbec8e2194214e35ae966",
+      "bytes": 20524
+    },
+    "non-stop": {
+      "file": "audio/955dfe3186d53ed6fa35415cc7965d07438bc73e7b7e06fd794dad84a261e4c9.mp3",
+      "sha256": "2c67195b7040f2ee5ef07fad16b3a2496e088890b16c88e07d63baf7437889bb",
+      "bytes": 15926
+    },
+    "to chase consistency": {
+      "file": "audio/4fddc5930f6ab9b4d4653521b5a90271e975dfbebe8a1d1e9440b57e7d389173.mp3",
+      "sha256": "899d2d74789de8be171066bef7e80704efa4a31c1e9f9d8bdd1508397096937c",
+      "bytes": 24285
+    },
+    "to build something": {
+      "file": "audio/28719513f949dc5c6932b12fa5d52ac6a4d9e19f4fe6ba91fde8a9e314962afb.mp3",
+      "sha256": "b52db000ef1b794bdb9a52f718c4a18e0de8cf18a54013079b8d4d15cb7b1131",
+      "bytes": 22613
+    },
+    "outcome": {
+      "file": "audio/5585ebd2ba9569253630c66d6d4e4f375a5cb3eaf129f21f9ea5b55144ade653.mp3",
+      "sha256": "ea8c41c1277eb02ca320389340ef167e19077d0bb05c9a2a40ea402dd39058ea",
+      "bytes": 12164
+    },
+    "reaction": {
+      "file": "audio/e56e421a3a269fe52ca60eb5933490d233cf4467c803b905273845bfab6c28c5.mp3",
+      "sha256": "c4663041a128b437703de6d42287169d8cd7a678c5048d8ee31d36ef48fb197b",
+      "bytes": 15926
+    },
+    "self-control": {
+      "file": "audio/4ad4e367b3b629dc388e73c3fd75169a3856a80deb89c31c4db0f20032762107.mp3",
+      "sha256": "801fcce46a1e9db0fb6ab691cfc8dfac2416f23fc2cd04f1d0b1412b663ac94f",
+      "bytes": 16762
     }
   }
 }
