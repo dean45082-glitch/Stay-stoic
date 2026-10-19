@@ -4769,7 +4769,7 @@
       "sha256": "45e542e77329241e9c162dcace3372b6d66512469ef49cf575be907a4d8a08f6"
     },
     "5345a39a3baad0113667cdbba1007cea5d0ad32d7f00249b743c6a670d3d522e": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 30,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4778,7 +4778,9 @@
       "original": "We've overcome that adversity.",
       "day": 12,
       "week": 2,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 26374,
+      "sha256": "5f3fc142216ddcc0528121674ec774e7742407383d0de168a5057a603a644aee"
     },
     "84fe78be40e6c3ae8eab430e50abec6d67fade1b091644769ba1c2d06a021eed": {
       "status": "reserved",
