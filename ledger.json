@@ -4503,7 +4503,7 @@
       "sha256": "ce6bb1b47c56b79c0e02fa36ff9026e3f57bb1fd08bb252bf3ef5fd9ebbd380d"
     },
     "6ffcec09f42c3a14b15abddb6db9d8de5cc7e086d8750a758e08b04fbfb4fb13": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 23,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4512,7 +4512,9 @@
       "original": "I haven't finished yet.",
       "day": 8,
       "week": 2,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 20523,
+      "sha256": "edc83b3034b21ab5ae4f87436c085cc87f6fd15581602d18a557dc1abcb4df36"
     },
     "add22d5ba377cadd9229e5ad2d338bbbe8e924a7e5d92316a4949f1413c06a96": {
       "status": "reserved",
