@@ -3515,6 +3515,13 @@
       "bytes": 27628,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We've been here since morning.": {
+      "file": "audio/b8a434a75971a20e5fad748616eeefb8a4faf182cf46648f500ef41ed4fcc817.mp3",
+      "sha256": "451beedee6690da1356ffa1e5cfd03e83fd24628bb37e1df501f568251ac007a",
+      "bytes": 22612,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
