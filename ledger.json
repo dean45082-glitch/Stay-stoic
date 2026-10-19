@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "entries": {
     "74353d0246d4d4833dfc001455cf80c7386622badd399626b32eb3aa151772f4": {
       "status": "complete",
@@ -3185,6 +3185,18 @@
       "estimatedCredits": 49,
       "bytes": 38078,
       "sha256": "f1d23b4563178f848d3cabfe9ea80db0c927393edf0b5122cd62d2ab952cd311"
+    },
+    "e761b3978d1e0e4270e3162ffceac0310123c5bc062aaf232517715101d68380": {
+      "status": "reserved",
+      "batch": "2026-10-secondary-smoke",
+      "estimatedCredits": 103,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style",
+      "text": "Tomorrow I'll be enduring another demanding day, but I won't be wasting energy on what I can't control.",
+      "original": "Tomorrow I'll be enduring another demanding day, but I won't be wasting energy on what I can't control.",
+      "day": 1,
+      "week": 1,
+      "group": "reading"
     }
   },
   "batches": {
@@ -3192,6 +3204,14 @@
       "status": "complete",
       "cap": 9771,
       "estimatedCredits": 9733
+    }
+  },
+  "voices": {
+    "WbNN0ZquKxio6sawH5yC": {
+      "label": "NY sofisticado"
+    },
+    "VcxTwjcCv1kVfys2U7LT": {
+      "label": "Eminem style"
     }
   }
 }
