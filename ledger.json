@@ -4825,7 +4825,7 @@
       "sha256": "70e6e440ec5faf6c8e3f5b148616719f0ff4f37bae9b06ae34ec696355e2fe76"
     },
     "7a6f46415587deebb3491ac980f632076fc03e1658b9adaf6b6aacb7ec5feb3f": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 24,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4834,7 +4834,9 @@
       "original": "They've reflected on it.",
       "day": 13,
       "week": 2,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 21776,
+      "sha256": "8d34d0ef0401333329dfefb070f269d42d7e2713939a05df6872ae62a31b3baf"
     },
     "3023e811675141acee632d2f3972ec8e97b13e6b3ed3b1431872494892d95f12": {
       "status": "reserved",
