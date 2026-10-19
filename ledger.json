@@ -4671,7 +4671,7 @@
       "sha256": "6b71e3fdaafb838347fc74fdf4ff59e3d16b24d538e7b3b14f914240e0254417"
     },
     "26e2388407f89cb0fd436db8f94a8b09c43257f0a635660f107f149878e9cbb8": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 27,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4680,7 +4680,9 @@
       "original": "I have already accepted it.",
       "day": 10,
       "week": 2,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 22612,
+      "sha256": "d4169ca38565c739952e898a64defba8f38ad76bbd98035699be917c781b1ef5"
     },
     "ea53ef72f368f0209516d9120de3a742794976f8030b930fd7759c9b197a5d5b": {
       "status": "reserved",

@@ -3480,6 +3480,13 @@
       "bytes": 24284,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I have already accepted it.": {
+      "file": "audio/26e2388407f89cb0fd436db8f94a8b09c43257f0a635660f107f149878e9cbb8.mp3",
+      "sha256": "d4169ca38565c739952e898a64defba8f38ad76bbd98035699be917c781b1ef5",
+      "bytes": 22612,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
