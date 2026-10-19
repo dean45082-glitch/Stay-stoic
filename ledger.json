@@ -4265,7 +4265,7 @@
       "sha256": "17937bd17504f8fa65e5d5dc5ed8c6ae3dc9f37690f02d2990bb751543a1676c"
     },
     "a95a811c6154b786815e7356a8f339148bd89ff14db2d6274fe10e89a52bd48a": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 68,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4274,7 +4274,9 @@
       "original": "Afterward, we'll be letting go of the parts we can no longer change.",
       "day": 4,
       "week": 1,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 53123,
+      "sha256": "71f18684cd92d25151b0c5798293473fab8f73e32e62011b0c93d81192e5b529"
     },
     "5aa13eee4ae812993f8daa81a760226b7fdda2011a5c150cec147a47d83b8631": {
       "status": "reserved",
