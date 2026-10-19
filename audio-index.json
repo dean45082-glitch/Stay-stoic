@@ -3326,6 +3326,13 @@
       "bytes": 36823,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I'll be letting go of that frustration before I go to sleep.": {
+      "file": "audio/dc0c5d0f49ccdbf847308ddcb7d13f7a943d429b343cc076fbbe6a67160fb07c.mp3",
+      "sha256": "99438f24c297d392549dbe74e9a5a4f08d7ffa5591f640e96791c15c35c2c2b0",
+      "bytes": 48526,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
