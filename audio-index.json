@@ -3333,6 +3333,13 @@
       "bytes": 48526,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She'll be showing resilience when things get difficult.": {
+      "file": "audio/a1a988d5de368357b9aae51508763b172e023e640fda0e75e8b73dc8c67e3b33.mp3",
+      "sha256": "3abe3b2e20aa3139e4d8e7d40d77409427be8b2fe393b76248d22098a09bac44",
+      "bytes": 42674,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

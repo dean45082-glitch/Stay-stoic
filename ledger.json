@@ -4377,7 +4377,7 @@
       "sha256": "99438f24c297d392549dbe74e9a5a4f08d7ffa5591f640e96791c15c35c2c2b0"
     },
     "a1a988d5de368357b9aae51508763b172e023e640fda0e75e8b73dc8c67e3b33": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 55,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4386,7 +4386,9 @@
       "original": "She'll be showing resilience when things get difficult.",
       "day": 6,
       "week": 1,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 42674,
+      "sha256": "3abe3b2e20aa3139e4d8e7d40d77409427be8b2fe393b76248d22098a09bac44"
     },
     "f16fa4204f128228ad85dba8920037a3a6f2cb18a00f3f7ebdffe8f83e0cc80d": {
       "status": "reserved",
