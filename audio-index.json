@@ -3305,6 +3305,13 @@
       "bytes": 57721,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "He'll be rebuilding his resilience one decision at a time.": {
+      "file": "audio/dcab8cfb25347d9799e0a31ea308ff17fc5b1b46aeb70006af759615498329e2.mp3",
+      "sha256": "8678b9bb315374c152a7d422c06007cb8f670d1d278bd9fdfa8a6bfa51b96afd",
+      "bytes": 48526,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
