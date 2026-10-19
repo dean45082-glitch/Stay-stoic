@@ -3221,6 +3221,13 @@
       "bytes": 34315,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "This week I'll be building resilience by staying consistent when things get uncomfortable.": {
+      "file": "audio/b3b75c72e66b86be1ba35b835d3fa46fae4940af2a937a01f25227aa95c2bba0.mp3",
+      "sha256": "beffef37e2f5429bc4042e78cfac7b81eb2ac54696b6b484d861d0b38599717e",
+      "bytes": 68588,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

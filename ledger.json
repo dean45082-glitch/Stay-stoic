@@ -4153,7 +4153,7 @@
       "sha256": "02d4650fcb24ea46865e4b6dbdcc1bb82ad1cabb8959cd512dc02af8d7c9ff0a"
     },
     "b3b75c72e66b86be1ba35b835d3fa46fae4940af2a937a01f25227aa95c2bba0": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 90,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4162,7 +4162,9 @@
       "original": "This week I'll be building resilience by staying consistent when things get uncomfortable.",
       "day": 2,
       "week": 1,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 68588,
+      "sha256": "beffef37e2f5429bc4042e78cfac7b81eb2ac54696b6b484d861d0b38599717e"
     },
     "b00e746cbb5dd80f883286dbe1e095934b929322614a575ba201782720c430e6": {
       "status": "reserved",
