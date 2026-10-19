@@ -4573,7 +4573,7 @@
       "sha256": "b1791d231c718be4bd2b896e6bdfb06707774ed7f9467e00f2d8716dbaedf1a4"
     },
     "662ce3d28c6c3daa57ee942ccee5d505cd1bdcffc818448c50a4f435450660ab": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 19,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4582,7 +4582,9 @@
       "original": "Have you eaten yet?",
       "day": 9,
       "week": 2,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 20523,
+      "sha256": "d3f3af89fd4df8c477188c2fff643b890ad7f98d684bbd429a984550cd3596ea"
     },
     "b30113feb03bc6439026c1da9372c1b7aaf69f816629f7565ed3917cdff7b049": {
       "status": "reserved",
