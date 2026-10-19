@@ -3235,6 +3235,13 @@
       "bytes": 54377,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I'll be learning to endure pressure without turning it into panic.": {
+      "file": "audio/f98f8b5e0b9fb603fb81498a9c1d9688b5e4f749f7d0e86548516856df1adb44.mp3",
+      "sha256": "a485a4aee2af64d3c0c246835a17657b375ab182b1f835ee73bb2d9cd870d759",
+      "bytes": 51452,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
