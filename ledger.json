@@ -4349,7 +4349,7 @@
       "sha256": "15677109f266e854c734d38c8ed3fe9a33941f46eb91094de74f8d1c7fd4765e"
     },
     "25f205626e785866649e41bce8d66441fada46ea586ba3f6c77c6f2958be4def": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 49,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4358,7 +4358,9 @@
       "original": "They'll be bracing themselves for the unexpected.",
       "day": 6,
       "week": 1,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 36823,
+      "sha256": "7118ff31d36748d9c0bea43c4bd39b7e5a7fbde14e54d2bd0f9baf2c18fc34ff"
     },
     "dc0c5d0f49ccdbf847308ddcb7d13f7a943d429b343cc076fbbe6a67160fb07c": {
       "status": "reserved",
