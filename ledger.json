@@ -4489,7 +4489,7 @@
       "sha256": "df7f10c63fa69caef3a79e6b6377ca8d4b64a532ceefc097167accdeed8a5b52"
     },
     "bd8f3af7692e9e25415197be218f31f16d9f3339cd99b53814a5c6678a00927e": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 35,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4498,7 +4498,9 @@
       "original": "She's already accepted the outcome.",
       "day": 8,
       "week": 2,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 29300,
+      "sha256": "ce6bb1b47c56b79c0e02fa36ff9026e3f57bb1fd08bb252bf3ef5fd9ebbd380d"
     },
     "6ffcec09f42c3a14b15abddb6db9d8de5cc7e086d8750a758e08b04fbfb4fb13": {
       "status": "reserved",
