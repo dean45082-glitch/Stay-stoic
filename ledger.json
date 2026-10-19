@@ -4139,7 +4139,7 @@
       "sha256": "52dcce843a5df12c6bc5dc50117660d60d9a327585945b8821a01bde466029d1"
     },
     "6971c9ae7e0786256bea564f926ba22e686558d16f162c097385fbbf3c666af4": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 40,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4148,7 +4148,9 @@
       "original": "I'll be handling it, one step at a time.",
       "day": 1,
       "week": 1,
-      "group": "seed"
+      "group": "seed",
+      "bytes": 34315,
+      "sha256": "02d4650fcb24ea46865e4b6dbdcc1bb82ad1cabb8959cd512dc02af8d7c9ff0a"
     },
     "b3b75c72e66b86be1ba35b835d3fa46fae4940af2a937a01f25227aa95c2bba0": {
       "status": "reserved",

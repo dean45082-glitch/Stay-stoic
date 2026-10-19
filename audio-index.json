@@ -3214,6 +3214,13 @@
       "bytes": 66498,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I'll be handling it, one step at a time.": {
+      "file": "audio/6971c9ae7e0786256bea564f926ba22e686558d16f162c097385fbbf3c666af4.mp3",
+      "sha256": "02d4650fcb24ea46865e4b6dbdcc1bb82ad1cabb8959cd512dc02af8d7c9ff0a",
+      "bytes": 34315,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
