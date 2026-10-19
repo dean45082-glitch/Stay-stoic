@@ -4881,7 +4881,7 @@
       "sha256": "a55a1721e1bf9a7d01bddb9bf0757b60e22b511c5b03dc1b0bf557fc773ba217"
     },
     "6a31de1f2ebf889c41981b5fc5204da68c553bc310b61e6fc6f622880d6d5147": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 41,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4890,7 +4890,9 @@
       "original": "I had already finished when they arrived.",
       "day": 15,
       "week": 3,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 36823,
+      "sha256": "b6da8a40386b6ec9603a15516de59f1a4d1bd3bd0e3d88d2d47873f1abd4542b"
     },
     "8fead6292cda8c89dd73b66cd91fba7badae5751f338e789eabbc4c14e17b56b": {
       "status": "reserved",
