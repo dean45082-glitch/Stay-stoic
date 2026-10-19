@@ -4629,7 +4629,7 @@
       "sha256": "d17d0ab706072cd30223212dffa6979160871716fc6ea3252fc8b9977b97864e"
     },
     "e107fd03cb711822d8e825e78e64b40ea3dbe4a2e2bd8aed88c28bbb75c2ad53": {
-      "status": "reserved",
+      "status": "in_flight",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 21,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
