@@ -4559,7 +4559,7 @@
       "sha256": "fc2106925934ee3b044b420135cee5e40eb3b0e201f1a1ec68dea6257aaecd38"
     },
     "bf4181fcc149f4562b598a99ecde93b31294cbd1401ef18cc84d0f9312873b15": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 23,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4568,7 +4568,9 @@
       "original": "We've been here before.",
       "day": 9,
       "week": 2,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 21776,
+      "sha256": "b1791d231c718be4bd2b896e6bdfb06707774ed7f9467e00f2d8716dbaedf1a4"
     },
     "662ce3d28c6c3daa57ee942ccee5d505cd1bdcffc818448c50a4f435450660ab": {
       "status": "reserved",
