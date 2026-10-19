@@ -3354,6 +3354,13 @@
       "bytes": 56885,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "They'll be letting go of the rest instead of carrying it forward.": {
+      "file": "audio/cc3405e9c496decb00f2666507169d3f3db7f287e7bcbb4b34dd9cc8b627392a.mp3",
+      "sha256": "3a52b1ff6499b7a641cd693a858dec08505dec52f63381494a665162d1e94ea3",
+      "bytes": 52287,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

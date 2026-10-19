@@ -4419,7 +4419,7 @@
       "sha256": "b14894809f3227581dba192b01bfb80c772b033ff470de2fbcf992b73401d1cc"
     },
     "cc3405e9c496decb00f2666507169d3f3db7f287e7bcbb4b34dd9cc8b627392a": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 65,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4428,7 +4428,9 @@
       "original": "They'll be letting go of the rest instead of carrying it forward.",
       "day": 6,
       "week": 1,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 52287,
+      "sha256": "3a52b1ff6499b7a641cd693a858dec08505dec52f63381494a665162d1e94ea3"
     },
     "8aca5d717d042ac2ad6471f16ce8f6ead26098235ca9425022dc670696123fe7": {
       "status": "reserved",
