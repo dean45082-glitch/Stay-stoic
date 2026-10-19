@@ -3368,6 +3368,13 @@
       "bytes": 23448,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I've overcome that adversity.": {
+      "file": "audio/8f2507e0048b5a77d417fe6a98ad57673f01d67e3f9417f0f77973c02e49b45b.mp3",
+      "sha256": "3a58951986eb8413f8ee1e7598364656e70f02c8faeeb5f4c76b34bdb99947fa",
+      "bytes": 24702,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
