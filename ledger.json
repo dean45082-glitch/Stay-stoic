@@ -4923,7 +4923,7 @@
       "sha256": "d3a995e57d934e7a24403b3251825957a110d595272c027983ad04372922312c"
     },
     "0dffe35aa2c233fe8d22efc8737d449b85b490161e06019a86af315971c6dbc6": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 49,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4932,7 +4932,9 @@
       "original": "By the time I understood, it had already changed.",
       "day": 15,
       "week": 3,
-      "group": "seed"
+      "group": "seed",
+      "bytes": 38913,
+      "sha256": "8f4318d12fe71f0d1b5b5db290ae54ac800c201613b65a55e8c55892c7b0bceb"
     },
     "4dd63cbc7339b5c6fd8f554a6ff6e8d24ffc794d0920d91bee65ca030291e12f": {
       "status": "reserved",
