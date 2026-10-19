@@ -4279,7 +4279,7 @@
       "sha256": "71f18684cd92d25151b0c5798293473fab8f73e32e62011b0c93d81192e5b529"
     },
     "5aa13eee4ae812993f8daa81a760226b7fdda2011a5c150cec147a47d83b8631": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 42,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4288,7 +4288,9 @@
       "original": "Soon we'll be enduring uncertainty better.",
       "day": 5,
       "week": 1,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 34315,
+      "sha256": "141fd087678d7968196c0a84bcd0afc7d8312d12628b787d403bc9976ccd1428"
     },
     "9bbbd8136125315f145c698f7cd5a7ae6c074f0c9eb8a99fba4de8338121e483": {
       "status": "reserved",

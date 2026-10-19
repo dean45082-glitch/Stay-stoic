@@ -3284,6 +3284,13 @@
       "bytes": 53123,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "Soon we'll be enduring uncertainty better.": {
+      "file": "audio/5aa13eee4ae812993f8daa81a760226b7fdda2011a5c150cec147a47d83b8631.mp3",
+      "sha256": "141fd087678d7968196c0a84bcd0afc7d8312d12628b787d403bc9976ccd1428",
+      "bytes": 34315,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
