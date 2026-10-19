@@ -3298,6 +3298,13 @@
       "bytes": 35987,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "He'll be dealing with another setback tomorrow, but he won't be quitting.": {
+      "file": "audio/e9e8dd898474f3dba33657f9df942ff51894a9a33489b3464696f1a13e173710.mp3",
+      "sha256": "f1163395397752c2b757bd7391f0e9d8e5873e3de3827d76fe4f18ce444bd89e",
+      "bytes": 57721,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

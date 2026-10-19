@@ -4307,7 +4307,7 @@
       "sha256": "2f3f0b26e137b5bc9da498e5664359551d400eea8f7e521c88edc53d21de6e0e"
     },
     "e9e8dd898474f3dba33657f9df942ff51894a9a33489b3464696f1a13e173710": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 73,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4316,7 +4316,9 @@
       "original": "He'll be dealing with another setback tomorrow, but he won't be quitting.",
       "day": 5,
       "week": 1,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 57721,
+      "sha256": "f1163395397752c2b757bd7391f0e9d8e5873e3de3827d76fe4f18ce444bd89e"
     },
     "dcab8cfb25347d9799e0a31ea308ff17fc5b1b46aeb70006af759615498329e2": {
       "status": "reserved",
