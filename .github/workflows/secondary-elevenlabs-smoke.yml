@@ -1,0 +1,204 @@
+name: Secondary ElevenLabs smoke test
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/secondary-elevenlabs-smoke.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stay-stoic-secondary-audio
+  cancel-in-progress: false
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      SECONDARY_VOICE_ID: VcxTwjcCv1kVfys2U7LT
+      OLD_VOICE_ID: WbNN0ZquKxio6sawH5yC
+      TOTAL_ACCOUNT_BUDGET: "2981"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/checkout@v4
+        with:
+          ref: audio-assets
+          path: audio-store
+
+      - name: Configure audio checkpoint author
+        run: |
+          git -C audio-store config user.name 'github-actions[bot]'
+          git -C audio-store config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+      - name: Verify secondary secret exists
+        env:
+          ELEVENLABS_API_KEY_SECONDARY: ${{ secrets.ELEVENLABS_API_KEY_SECONDARY }}
+        run: |
+          set -euo pipefail
+          if [ -z "${ELEVENLABS_API_KEY_SECONDARY:-}" ]; then
+            echo "ELEVENLABS_API_KEY_SECONDARY is not available to this workflow."
+            exit 1
+          fi
+          echo "Secondary secret is available."
+
+      - name: Select earliest pending phrase and reserve it
+        run: |
+          node <<'NODE'
+          'use strict';
+          const fs=require('node:fs'), path=require('node:path'), crypto=require('node:crypto'), vm=require('node:vm');
+          const clean=s=>s.normalize('NFC').replace(/\s+/g,' ').trim();
+          const edits={'Discuss something (nunca "discuss about")':'Discuss something','Comes in (para productos)':'Comes in',"That's funny (irónico)":"That's funny",'wanna = want to':'Wanna. Want to.','gotta = have got to':'Gotta. Have got to.','gonna = going to':'Gonna. Going to.','(To be/get) off on the wrong foot':'To get off on the wrong foot','A drop in the bucket/ocean':'A drop in the bucket','although / though':'Although. Though.','what if...':'What if?'};
+          const deferred=new Set(['(To) beat','Are we still on for...?', "I'd rather... than..."]);
+          const spoken=raw=>{
+            const original=clean(raw);
+            if(deferred.has(original)) return null;
+            return clean(edits[original]||original.replace(/[()]/g,''));
+          };
+          const profile={voiceId:process.env.SECONDARY_VOICE_ID,modelId:'eleven_multilingual_v2',format:'mp3_44100_128',settings:{stability:0.5,similarity_boost:0.75,style:0,use_speaker_boost:true,speed:1}};
+          const c=vm.createContext({React:{}});
+          const src=['data1.js','data2.js','app.js'].map(f=>fs.readFileSync(f,'utf8'));
+          vm.runInContext(src[0]+'\n'+src[1]+'\n'+src[2].split('/* ===================== ICONO: BUSTO KINTSUGI')[0],c,{timeout:5000});
+          const rows=vm.runInContext(`(()=>{const rows=[];for(let d=1;d<=150;d++){if(isExamDay(d))continue;const w=weekForDay(d),s=weekSlotsForDay(d,w),e=extraSlotsForDay(d);const add=(group,arr)=>{for(const text of arr||[])rows.push({day:d,week:w.id,group,text})};add('vocabulary',w.vocab.map(x=>x[0]));add('structures',s.structureModel.map(x=>x.en));add('reading',deepReadingForDay(d,w,s.structureModel));add('expressions',e.read.map(x=>x.phrase));add('seed',w.ancla?[w.ancla]:[]);}return rows;})()`,c,{timeout:5000});
+
+          const indexPath=path.join('audio-store','audio-index.json');
+          const ledgerPath=path.join('audio-store','ledger.json');
+          const index=JSON.parse(fs.readFileSync(indexPath,'utf8'));
+          const ledger=JSON.parse(fs.readFileSync(ledgerPath,'utf8'));
+          const unresolved=Object.entries(ledger.entries||{}).filter(([,v])=>v.status!=='complete');
+          if(unresolved.length) throw new Error('Unresolved ledger entries exist; refusing a new request.');
+
+          const existingSpoken=new Set();
+          for(const alias of Object.keys(index.entries||{})){
+            const s=spoken(alias);
+            if(s) existingSpoken.add(s);
+          }
+          const seen=new Set();
+          let candidate=null;
+          for(const row of rows){
+            const original=clean(row.text);
+            const text=spoken(original);
+            if(!text || seen.has(text)) continue;
+            seen.add(text);
+            if(existingSpoken.has(text)) continue;
+            candidate={...row,original,text,credits:[...text].length};
+            break;
+          }
+          if(!candidate) throw new Error('No pending phrase found.');
+          if(candidate.credits<1 || candidate.credits>150) throw new Error('Smoke phrase outside safe credit range.');
+
+          const id=crypto.createHash('sha256').update(JSON.stringify({profile,text:candidate.text})).digest('hex');
+          if(ledger.entries[id]) throw new Error('Secondary smoke ID already exists; refusing any retry.');
+
+          ledger.version=Math.max(2,ledger.version||1);
+          ledger.voices={...(ledger.voices||{}),
+            [process.env.OLD_VOICE_ID]:{label:'NY sofisticado'},
+            [process.env.SECONDARY_VOICE_ID]:{label:'Eminem style'}
+          };
+          ledger.entries[id]={
+            status:'reserved',
+            batch:'2026-10-secondary-smoke',
+            estimatedCredits:candidate.credits,
+            voiceId:process.env.SECONDARY_VOICE_ID,
+            voiceLabel:'Eminem style',
+            text:candidate.text,
+            original:candidate.original,
+            day:candidate.day,
+            week:candidate.week,
+            group:candidate.group
+          };
+          fs.writeFileSync(ledgerPath,JSON.stringify(ledger,null,2)+'\n');
+          fs.writeFileSync('secondary-smoke-selection.json',JSON.stringify({...candidate,id,profile},null,2)+'\n');
+          console.log(JSON.stringify({selected:true,day:candidate.day,week:candidate.week,group:candidate.group,text:candidate.text,estimatedCredits:candidate.credits,totalBudget:Number(process.env.TOTAL_ACCOUNT_BUDGET)}));
+          NODE
+          git -C audio-store add ledger.json
+          git -C audio-store commit -m "Reserve secondary ElevenLabs smoke phrase"
+          git -C audio-store push origin HEAD:audio-assets
+
+      - name: Generate exactly one secondary-voice MP3
+        env:
+          ELEVENLABS_API_KEY_SECONDARY: ${{ secrets.ELEVENLABS_API_KEY_SECONDARY }}
+        run: |
+          set -euo pipefail
+          if ! command -v ffmpeg >/dev/null; then sudo apt-get update && sudo apt-get install -y ffmpeg; fi
+          node <<'NODE'
+          'use strict';
+          const fs=require('node:fs'), path=require('node:path'), crypto=require('node:crypto'), {execFileSync}=require('node:child_process');
+          const sel=JSON.parse(fs.readFileSync('secondary-smoke-selection.json','utf8'));
+          const ledgerPath=path.join('audio-store','ledger.json');
+          const ledger=JSON.parse(fs.readFileSync(ledgerPath,'utf8'));
+          const row=ledger.entries[sel.id];
+          if(!row || row.status!=='reserved') throw new Error('Smoke reservation missing or not reserved.');
+          row.status='in_flight';
+          fs.writeFileSync(ledgerPath,JSON.stringify(ledger,null,2)+'\n');
+          execFileSync('git',['-C','audio-store','add','ledger.json']);
+          execFileSync('git',['-C','audio-store','commit','-m','Mark secondary smoke request in flight']);
+          execFileSync('git',['-C','audio-store','push','origin','HEAD:audio-assets'],{stdio:'inherit'});
+          const body=JSON.stringify({text:sel.text,model_id:sel.profile.modelId,voice_settings:sel.profile.settings});
+          fetch('https://api.elevenlabs.io/v1/text-to-speech/'+sel.profile.voiceId+'?output_format='+sel.profile.format,{
+            method:'POST',
+            headers:{'xi-api-key':process.env.ELEVENLABS_API_KEY_SECONDARY,'Content-Type':'application/json'},
+            body,
+            signal:AbortSignal.timeout(60000)
+          }).then(async response=>{
+            if(!response.ok){
+              row.status='stopped_http_'+response.status;
+              fs.writeFileSync(ledgerPath,JSON.stringify(ledger,null,2)+'\n');
+              execFileSync('git',['-C','audio-store','add','ledger.json']);
+              execFileSync('git',['-C','audio-store','commit','-m','Stop secondary smoke after HTTP '+response.status]);
+              execFileSync('git',['-C','audio-store','push','origin','HEAD:audio-assets'],{stdio:'inherit'});
+              throw new Error('ElevenLabs HTTP '+response.status+'; stopped without retry');
+            }
+            const bytes=Buffer.from(await response.arrayBuffer());
+            if(bytes.length<1000 || !(bytes.subarray(0,3).toString()==='ID3'||(bytes[0]===255&&(bytes[1]&224)===224))) throw new Error('Invalid MP3 response; stopped without retry');
+            const target=path.join('audio-store','audio',sel.id+'.mp3');
+            fs.writeFileSync(target,bytes);
+            execFileSync('ffmpeg',['-v','error','-xerror','-i',target,'-f','null','-'],{stdio:'pipe',timeout:30000});
+            const hash=crypto.createHash('sha256').update(bytes).digest('hex');
+            row.status='complete'; row.bytes=bytes.length; row.sha256=hash;
+            fs.writeFileSync(ledgerPath,JSON.stringify(ledger,null,2)+'\n');
+
+            const indexPath=path.join('audio-store','audio-index.json');
+            const index=JSON.parse(fs.readFileSync(indexPath,'utf8'));
+            const oldVoice=index.voice||process.env.OLD_VOICE_ID;
+            index.version=2;
+            index.voice=oldVoice;
+            index.defaultVoice=oldVoice;
+            index.voices={...(index.voices||{}),
+              [oldVoice]:{label:'NY sofisticado'},
+              [process.env.SECONDARY_VOICE_ID]:{label:'Eminem style'}
+            };
+            for(const entry of Object.values(index.entries||{})){
+              if(!entry.voiceId){entry.voiceId=oldVoice;entry.voiceLabel='NY sofisticado';}
+            }
+            const newEntry={file:'audio/'+sel.id+'.mp3',sha256:hash,bytes:bytes.length,voiceId:process.env.SECONDARY_VOICE_ID,voiceLabel:'Eminem style'};
+            index.entries[sel.original]=newEntry;
+            if(sel.text!==sel.original) index.entries[sel.text]=newEntry;
+            fs.writeFileSync(indexPath,JSON.stringify(index,null,2)+'\n');
+            fs.writeFileSync(path.join('audio-store','audio-index.js'),'window.STOIC_AUDIO_INDEX = '+JSON.stringify(index)+';\n');
+
+            console.log(JSON.stringify({success:true,text:sel.text,week:sel.week,day:sel.day,credits:sel.credits,bytes:bytes.length,voiceId:sel.profile.voiceId}));
+          }).catch(err=>{console.error(err.message);process.exitCode=1});
+          NODE
+
+      - name: Save successful smoke checkpoint
+        if: success()
+        run: |
+          git -C audio-store add audio ledger.json audio-index.json audio-index.js
+          git -C audio-store commit -m "Add secondary ElevenLabs smoke audio"
+          git -C audio-store push origin HEAD:audio-assets
+
+      - name: Upload smoke audio checkpoint
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: StayStoic-secondary-smoke
+          path: |
+            secondary-smoke-selection.json
+            audio-store/ledger.json
+            audio-store/audio-index.json
+            audio-store/audio/*.mp3
+          retention-days: 7
