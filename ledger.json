@@ -4237,7 +4237,7 @@
       "sha256": "3a751931dd882e252d9a0a0a695eb8ca1729e333048d26b9a57db9c43962aec1"
     },
     "62a690c5e045c880134461cf0322d03d8153ef7bfcc81805430cc5077c1748ca": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 75,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4246,7 +4246,9 @@
       "original": "We'll be facing uncertainty, but we won't be treating it like an emergency.",
       "day": 4,
       "week": 1,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 64826,
+      "sha256": "79672d3ed97fa19f3837ab72a6038f29bea6520e613d3d5539e30a66368b365e"
     },
     "ab9adc6b7cb4712e8a310cfff803f88d06892c7f2d818b55c2e7068d02aab057": {
       "status": "reserved",

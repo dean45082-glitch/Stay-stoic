@@ -3263,6 +3263,13 @@
       "bytes": 56049,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We'll be facing uncertainty, but we won't be treating it like an emergency.": {
+      "file": "audio/62a690c5e045c880134461cf0322d03d8153ef7bfcc81805430cc5077c1748ca.mp3",
+      "sha256": "79672d3ed97fa19f3837ab72a6038f29bea6520e613d3d5539e30a66368b365e",
+      "bytes": 64826,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
