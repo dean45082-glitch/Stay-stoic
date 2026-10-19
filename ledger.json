@@ -5049,7 +5049,7 @@
       "sha256": "59056375b8ee874131057d9ef7f45f965a44f22a4a6b0b180d9621792c60f81a"
     },
     "3d6a1d854db41b42a443526e50c5a3008050a7a28817c0a59b839033ed87d5d7": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 42,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5058,7 +5058,9 @@
       "original": "He hadn't said anything until that moment.",
       "day": 17,
       "week": 3,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 35151,
+      "sha256": "a4cc74613271fa3c3495b608fa94383c87f5ffed44985914544da45739f82c03"
     },
     "18c2c4ce166a6c6c4b50edd62c9a0391ad4199499a02ad963ee06cca935585c9": {
       "status": "reserved",

@@ -3669,6 +3669,13 @@
       "bytes": 27210,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "He hadn't said anything until that moment.": {
+      "file": "audio/3d6a1d854db41b42a443526e50c5a3008050a7a28817c0a59b839033ed87d5d7.mp3",
+      "sha256": "a4cc74613271fa3c3495b608fa94383c87f5ffed44985914544da45739f82c03",
+      "bytes": 35151,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
