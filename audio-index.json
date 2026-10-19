@@ -3522,6 +3522,13 @@
       "bytes": 22612,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We've accepted the outcome.": {
+      "file": "audio/4c9a60f63d4467f6ed22086d70e9801410a59e511af57153ad81fc93d8b1a043.mp3",
+      "sha256": "45e542e77329241e9c162dcace3372b6d66512469ef49cf575be907a4d8a08f6",
+      "bytes": 23448,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
