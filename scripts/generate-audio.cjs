@@ -11,9 +11,26 @@ function validate(file,checksum,decode=true){
  return {bytes:b.length,sha256:sha(b)};
 }
 function snapshot(manifest,ledger,store){
- const entries={};for(const item of manifest.items){const r=ledger.entries[item.id];if(r?.status!=='complete')continue;validate(path.join(store,'audio',item.id+'.mp3'),r.sha256,false);for(const alias of item.aliases)entries[alias]={file:'audio/'+item.id+'.mp3',sha256:r.sha256,bytes:r.bytes};}
- fs.writeFileSync(path.join(store,'audio-index.js'),'window.STOIC_AUDIO_INDEX = '+JSON.stringify({version:1,voice:manifest.profile.voiceId,entries})+';\n');
- write(path.join(store,'audio-index.json'),{version:1,voice:manifest.profile.voiceId,entries});
+ const indexPath=path.join(store,'audio-index.json');
+ const current=json(indexPath,{version:2,voice:manifest.profile.voiceId,defaultVoice:manifest.profile.voiceId,voices:{},entries:{}});
+ const priorDefault=current.defaultVoice||current.voice||manifest.profile.voiceId;
+ const entries={...(current.entries||{})};
+ const voices={...(current.voices||{})};
+ const knownLabels={'WbNN0ZquKxio6sawH5yC':'NY sofisticado','VcxTwjcCv1kVfys2U7LT':'Eminem style'};
+ if(!voices[priorDefault])voices[priorDefault]={label:knownLabels[priorDefault]||'Primary voice'};
+ for(const entry of Object.values(entries)){
+  if(!entry.voiceId){entry.voiceId=priorDefault;entry.voiceLabel=voices[priorDefault]?.label||knownLabels[priorDefault]||'Primary voice';}
+ }
+ const voiceLabel=voices[manifest.profile.voiceId]?.label||knownLabels[manifest.profile.voiceId]||'Voice';
+ voices[manifest.profile.voiceId]={...(voices[manifest.profile.voiceId]||{}),label:voiceLabel};
+ for(const item of manifest.items){
+  const r=ledger.entries[item.id];if(r?.status!=='complete')continue;
+  validate(path.join(store,'audio',item.id+'.mp3'),r.sha256,false);
+  for(const alias of item.aliases)entries[alias]={file:'audio/'+item.id+'.mp3',sha256:r.sha256,bytes:r.bytes,voiceId:manifest.profile.voiceId,voiceLabel};
+ }
+ const payload={version:2,voice:priorDefault,defaultVoice:priorDefault,voices,entries};
+ fs.writeFileSync(path.join(store,'audio-index.js'),'window.STOIC_AUDIO_INDEX = '+JSON.stringify(payload)+';\n');
+ write(indexPath,payload);
 }
 async function generate({manifest,store,live=false,persist=()=>{},request=fetch,decode=true}){
  fs.mkdirSync(path.join(store,'audio'),{recursive:true});
