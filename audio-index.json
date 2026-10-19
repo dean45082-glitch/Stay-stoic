@@ -3340,6 +3340,13 @@
       "bytes": 42674,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "They'll be facing the same pressure from a different perspective.": {
+      "file": "audio/f16fa4204f128228ad85dba8920037a3a6f2cb18a00f3f7ebdffe8f83e0cc80d.mp3",
+      "sha256": "1bbfe8bff090ed40683537a888c576963d6dd81d5183a8ca0739cfd613eb0151",
+      "bytes": 50198,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

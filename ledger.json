@@ -4391,7 +4391,7 @@
       "sha256": "3abe3b2e20aa3139e4d8e7d40d77409427be8b2fe393b76248d22098a09bac44"
     },
     "f16fa4204f128228ad85dba8920037a3a6f2cb18a00f3f7ebdffe8f83e0cc80d": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 65,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4400,7 +4400,9 @@
       "original": "They'll be facing the same pressure from a different perspective.",
       "day": 6,
       "week": 1,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 50198,
+      "sha256": "1bbfe8bff090ed40683537a888c576963d6dd81d5183a8ca0739cfd613eb0151"
     },
     "d4f2f5f5fc5862d70dace6a78435a00ae1b33c47c9f566d6a2604c597bc54772": {
       "status": "reserved",
