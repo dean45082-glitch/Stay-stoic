@@ -4475,7 +4475,7 @@
       "sha256": "2d35e077e2ac09c94421913e7fc1cc77374a3369cc5df180a3094a1a6aa593de"
     },
     "7f1c7e033d10c36f61571d80195ed732a45dc738d53295e0dbb6ab73b9aaa411": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 32,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4484,7 +4484,9 @@
       "original": "I've already made peace with it.",
       "day": 8,
       "week": 2,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 25538,
+      "sha256": "df7f10c63fa69caef3a79e6b6377ca8d4b64a532ceefc097167accdeed8a5b52"
     },
     "bd8f3af7692e9e25415197be218f31f16d9f3339cd99b53814a5c6678a00927e": {
       "status": "reserved",
