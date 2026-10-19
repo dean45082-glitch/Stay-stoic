@@ -3347,6 +3347,13 @@
       "bytes": 50198,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "They'll be enduring what they cannot avoid and changing what they can.": {
+      "file": "audio/d4f2f5f5fc5862d70dace6a78435a00ae1b33c47c9f566d6a2604c597bc54772.mp3",
+      "sha256": "b14894809f3227581dba192b01bfb80c772b033ff470de2fbcf992b73401d1cc",
+      "bytes": 56885,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

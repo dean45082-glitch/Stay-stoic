@@ -4405,7 +4405,7 @@
       "sha256": "1bbfe8bff090ed40683537a888c576963d6dd81d5183a8ca0739cfd613eb0151"
     },
     "d4f2f5f5fc5862d70dace6a78435a00ae1b33c47c9f566d6a2604c597bc54772": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 70,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4414,7 +4414,9 @@
       "original": "They'll be enduring what they cannot avoid and changing what they can.",
       "day": 6,
       "week": 1,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 56885,
+      "sha256": "b14894809f3227581dba192b01bfb80c772b033ff470de2fbcf992b73401d1cc"
     },
     "cc3405e9c496decb00f2666507169d3f3db7f287e7bcbb4b34dd9cc8b627392a": {
       "status": "reserved",
