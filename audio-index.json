@@ -3200,6 +3200,13 @@
       "bytes": 77783,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I'll be bracing myself for setbacks instead of pretending they won't happen.": {
+      "file": "audio/9ad0e3040bd6a880a2ef71ec96073223d5964eab9ff3e1b60c84f596e5d274d3.mp3",
+      "sha256": "25a9fccd119e410c38c2d3396f850f1877aeac662ec06a72ae382e9c2af1e065",
+      "bytes": 59811,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
