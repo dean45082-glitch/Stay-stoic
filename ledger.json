@@ -4195,7 +4195,7 @@
       "sha256": "a485a4aee2af64d3c0c246835a17657b375ab182b1f835ee73bb2d9cd870d759"
     },
     "53d4ad14c740762c3b5e82c8cf16e4af8a162a0ee7393ebcce224e5f5df256da": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 83,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4204,7 +4204,9 @@
       "original": "She'll be bracing herself for a difficult conversation, but she'll be staying calm.",
       "day": 3,
       "week": 1,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 68588,
+      "sha256": "89dcc416ec4ae26f51d726db18694292ebc5fd0d7aef8d9780737ef6a766d238"
     },
     "5577df55c9ebc79ede1e449bfeacd88532e16463d64de72a9fefff524ac6c7fe": {
       "status": "reserved",

@@ -3242,6 +3242,13 @@
       "bytes": 51452,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She'll be bracing herself for a difficult conversation, but she'll be staying calm.": {
+      "file": "audio/53d4ad14c740762c3b5e82c8cf16e4af8a162a0ee7393ebcce224e5f5df256da.mp3",
+      "sha256": "89dcc416ec4ae26f51d726db18694292ebc5fd0d7aef8d9780737ef6a766d238",
+      "bytes": 68588,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
