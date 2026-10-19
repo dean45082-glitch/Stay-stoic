@@ -3249,6 +3249,13 @@
       "bytes": 68588,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She'll be letting go of the need to control the other person's reaction.": {
+      "file": "audio/5577df55c9ebc79ede1e449bfeacd88532e16463d64de72a9fefff524ac6c7fe.mp3",
+      "sha256": "a0b6046a59e1d29682a2294bef060c2f2e1a5ac2c3b3326f2196279b3c9ff514",
+      "bytes": 53123,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
