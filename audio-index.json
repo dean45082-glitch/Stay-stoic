@@ -3473,6 +3473,13 @@
       "bytes": 22612,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We haven't talked about that yet.": {
+      "file": "audio/b875e1dcadf8cb7bd219ee11e7a824b87f0077bcbaf9f04dae25f5b1f6669f87.mp3",
+      "sha256": "6b71e3fdaafb838347fc74fdf4ff59e3d16b24d538e7b3b14f914240e0254417",
+      "bytes": 24284,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
