@@ -4335,7 +4335,7 @@
       "sha256": "8678b9bb315374c152a7d422c06007cb8f670d1d278bd9fdfa8a6bfa51b96afd"
     },
     "3be8d0672733091073f41e2396503e37ad8a8b791d0ce64da28799871cb5e69e": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 75,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4344,7 +4344,9 @@
       "original": "By next week, he'll be bracing himself for challenges with more confidence.",
       "day": 5,
       "week": 1,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 67334,
+      "sha256": "15677109f266e854c734d38c8ed3fe9a33941f46eb91094de74f8d1c7fd4765e"
     },
     "25f205626e785866649e41bce8d66441fada46ea586ba3f6c77c6f2958be4def": {
       "status": "reserved",

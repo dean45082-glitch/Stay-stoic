@@ -3312,6 +3312,13 @@
       "bytes": 48526,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "By next week, he'll be bracing himself for challenges with more confidence.": {
+      "file": "audio/3be8d0672733091073f41e2396503e37ad8a8b791d0ce64da28799871cb5e69e.mp3",
+      "sha256": "15677109f266e854c734d38c8ed3fe9a33941f46eb91094de74f8d1c7fd4765e",
+      "bytes": 67334,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
