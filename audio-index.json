@@ -3256,6 +3256,13 @@
       "bytes": 53123,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "That kind of response will be strengthening her resilience over time.": {
+      "file": "audio/3bea775f52338c859d1705126f850469a67e651973ef83e89e62c3abddfb47db.mp3",
+      "sha256": "3a751931dd882e252d9a0a0a695eb8ca1729e333048d26b9a57db9c43962aec1",
+      "bytes": 56049,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

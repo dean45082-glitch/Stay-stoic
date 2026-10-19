@@ -4223,7 +4223,7 @@
       "sha256": "a0b6046a59e1d29682a2294bef060c2f2e1a5ac2c3b3326f2196279b3c9ff514"
     },
     "3bea775f52338c859d1705126f850469a67e651973ef83e89e62c3abddfb47db": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 69,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4232,7 +4232,9 @@
       "original": "That kind of response will be strengthening her resilience over time.",
       "day": 3,
       "week": 1,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 56049,
+      "sha256": "3a751931dd882e252d9a0a0a695eb8ca1729e333048d26b9a57db9c43962aec1"
     },
     "62a690c5e045c880134461cf0322d03d8153ef7bfcc81805430cc5077c1748ca": {
       "status": "reserved",
