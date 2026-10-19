@@ -4909,7 +4909,7 @@
       "sha256": "fad30d3125a3153a8f77e03990f7dcc49cb3481f7c177a58c5e0c4bf11813432"
     },
     "9d818d473d2f454d1e2408172a29a8e123a0433ddcca9a29f6e37b4249ae8f75": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 32,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4918,7 +4918,9 @@
       "original": "We hadn't seen anything like it.",
       "day": 15,
       "week": 3,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 26374,
+      "sha256": "d3a995e57d934e7a24403b3251825957a110d595272c027983ad04372922312c"
     },
     "0dffe35aa2c233fe8d22efc8737d449b85b490161e06019a86af315971c6dbc6": {
       "status": "reserved",

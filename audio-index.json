@@ -3599,6 +3599,13 @@
       "bytes": 24284,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We hadn't seen anything like it.": {
+      "file": "audio/9d818d473d2f454d1e2408172a29a8e123a0433ddcca9a29f6e37b4249ae8f75.mp3",
+      "sha256": "d3a995e57d934e7a24403b3251825957a110d595272c027983ad04372922312c",
+      "bytes": 26374,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
