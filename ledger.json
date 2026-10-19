@@ -4209,7 +4209,7 @@
       "sha256": "89dcc416ec4ae26f51d726db18694292ebc5fd0d7aef8d9780737ef6a766d238"
     },
     "5577df55c9ebc79ede1e449bfeacd88532e16463d64de72a9fefff524ac6c7fe": {
-      "status": "reserved",
+      "status": "in_flight",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 72,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
