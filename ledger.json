@@ -5098,13 +5098,14 @@
       "estimatedCredits": 9733
     },
     "2026-10-secondary-1": {
-      "status": "running",
+      "status": "complete",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style",
       "totalBudget": 2981,
       "usedBefore": 103,
       "estimatedCredits": 2864,
-      "files": 70
+      "files": 70,
+      "completedCredits": 2864
     }
   },
   "voices": {
