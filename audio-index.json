@@ -3291,6 +3291,13 @@
       "bytes": 34315,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "He'll be turning that setback into a lesson.": {
+      "file": "audio/9bbbd8136125315f145c698f7cd5a7ae6c074f0c9eb8a99fba4de8338121e483.mp3",
+      "sha256": "2f3f0b26e137b5bc9da498e5664359551d400eea8f7e521c88edc53d21de6e0e",
+      "bytes": 35987,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

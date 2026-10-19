@@ -4293,7 +4293,7 @@
       "sha256": "141fd087678d7968196c0a84bcd0afc7d8312d12628b787d403bc9976ccd1428"
     },
     "9bbbd8136125315f145c698f7cd5a7ae6c074f0c9eb8a99fba4de8338121e483": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 44,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4302,7 +4302,9 @@
       "original": "He'll be turning that setback into a lesson.",
       "day": 5,
       "week": 1,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 35987,
+      "sha256": "2f3f0b26e137b5bc9da498e5664359551d400eea8f7e521c88edc53d21de6e0e"
     },
     "e9e8dd898474f3dba33657f9df942ff51894a9a33489b3464696f1a13e173710": {
       "status": "reserved",
