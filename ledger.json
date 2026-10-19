@@ -4951,7 +4951,7 @@
       "sha256": "3d4f75975a87c31d36ee156c402aefe508e6239c13ab3de36d1c0f50f59bb313"
     },
     "46e984fffd324721fb19da810c00b3149298d0d8101c64ad10d00414ebfda605": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 29,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4960,7 +4960,9 @@
       "original": "You'd left when they arrived.",
       "day": 16,
       "week": 3,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 23448,
+      "sha256": "1e2febc538e85a7cde5730a755e23920e560a29d5e82e77e1a13e193729891e2"
     },
     "19274163f41653c691f20974b270fac600271abc84e0afd23308c03c96d341a3": {
       "status": "reserved",
