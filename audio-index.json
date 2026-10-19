@@ -3270,6 +3270,13 @@
       "bytes": 64826,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We'll be enduring the discomfort long enough to think clearly.": {
+      "file": "audio/ab9adc6b7cb4712e8a310cfff803f88d06892c7f2d818b55c2e7068d02aab057.mp3",
+      "sha256": "17937bd17504f8fa65e5d5dc5ed8c6ae3dc9f37690f02d2990bb751543a1676c",
+      "bytes": 47272,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

@@ -4251,7 +4251,7 @@
       "sha256": "79672d3ed97fa19f3837ab72a6038f29bea6520e613d3d5539e30a66368b365e"
     },
     "ab9adc6b7cb4712e8a310cfff803f88d06892c7f2d818b55c2e7068d02aab057": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 62,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4260,7 +4260,9 @@
       "original": "We'll be enduring the discomfort long enough to think clearly.",
       "day": 4,
       "week": 1,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 47272,
+      "sha256": "17937bd17504f8fa65e5d5dc5ed8c6ae3dc9f37690f02d2990bb751543a1676c"
     },
     "a95a811c6154b786815e7356a8f339148bd89ff14db2d6274fe10e89a52bd48a": {
       "status": "reserved",
