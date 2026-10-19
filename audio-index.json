@@ -3662,6 +3662,13 @@
       "bytes": 35151,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "He'd left when they arrived.": {
+      "file": "audio/afcc368a734ef14df88a064886e992404926a263d48784d6e7165d19deafde6a.mp3",
+      "sha256": "59056375b8ee874131057d9ef7f45f965a44f22a4a6b0b180d9621792c60f81a",
+      "bytes": 27210,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

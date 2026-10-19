@@ -5035,7 +5035,7 @@
       "sha256": "bc7a2f4fd73bb95fbefd34645ca3f5b1acf0ba0f7128bd1cbc2d063402795f44"
     },
     "afcc368a734ef14df88a064886e992404926a263d48784d6e7165d19deafde6a": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 28,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5044,7 +5044,9 @@
       "original": "He'd left when they arrived.",
       "day": 17,
       "week": 3,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 27210,
+      "sha256": "59056375b8ee874131057d9ef7f45f965a44f22a4a6b0b180d9621792c60f81a"
     },
     "3d6a1d854db41b42a443526e50c5a3008050a7a28817c0a59b839033ed87d5d7": {
       "status": "reserved",
