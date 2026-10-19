@@ -1,0 +1,97 @@
+name: Generate secondary offline audio
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/generate-secondary-audio.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stay-stoic-secondary-audio
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - uses: actions/checkout@v4
+        with:
+          ref: audio-assets
+          path: audio-store
+
+      - name: Configure audio checkpoint author
+        run: |
+          git -C audio-store config user.name 'github-actions[bot]'
+          git -C audio-store config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+      - name: Verify decoder
+        run: |
+          if ! command -v ffmpeg >/dev/null; then sudo apt-get update && sudo apt-get install -y ffmpeg; fi
+          ffmpeg -version
+
+      - name: Plan batch without API calls
+        run: node scripts/generate-secondary-audio.cjs audio-store --dry-run
+
+      - name: Generate approved secondary batch
+        env:
+          ELEVENLABS_API_KEY_SECONDARY: ${{ secrets.ELEVENLABS_API_KEY_SECONDARY }}
+        run: node scripts/generate-secondary-audio.cjs audio-store --generate
+
+      - name: Preserve checkpoint
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: StayStoic-secondary-audio-checkpoint
+          path: |
+            audio-store/audio
+            audio-store/ledger.json
+            audio-store/audio-index.json
+            audio-store/audio-index.js
+          retention-days: 90
+
+      - name: Run offline audio tests
+        if: success()
+        run: node --test scripts/audio.test.cjs scripts/player.test.cjs scripts/offline.test.cjs
+
+      - uses: actions/setup-java@v4
+        if: success()
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: gradle/actions/setup-gradle@v4
+        if: success()
+        with:
+          gradle-version: '8.7'
+
+      - name: Package Android and web with both voices
+        if: success()
+        run: node scripts/package-offline.cjs audio-store
+
+      - name: Build Android APK
+        if: success()
+        run: gradle assembleDebug
+
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: StayStoic-2.3.4-secondary-offline-APK
+          path: app/build/outputs/apk/debug/app-debug.apk
+          retention-days: 90
+
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: StayStoic-2.3.4-secondary-offline-web
+          path: offline-web/
+          retention-days: 90
