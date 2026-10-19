@@ -4895,7 +4895,7 @@
       "sha256": "b6da8a40386b6ec9603a15516de59f1a4d1bd3bd0e3d88d2d47873f1abd4542b"
     },
     "8fead6292cda8c89dd73b66cd91fba7badae5751f338e789eabbc4c14e17b56b": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 19,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4904,7 +4904,9 @@
       "original": "She'd already left.",
       "day": 15,
       "week": 3,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 24284,
+      "sha256": "fad30d3125a3153a8f77e03990f7dcc49cb3481f7c177a58c5e0c4bf11813432"
     },
     "9d818d473d2f454d1e2408172a29a8e123a0433ddcca9a29f6e37b4249ae8f75": {
       "status": "reserved",

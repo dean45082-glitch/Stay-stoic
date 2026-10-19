@@ -3592,6 +3592,13 @@
       "bytes": 36823,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She'd already left.": {
+      "file": "audio/8fead6292cda8c89dd73b66cd91fba7badae5751f338e789eabbc4c14e17b56b.mp3",
+      "sha256": "fad30d3125a3153a8f77e03990f7dcc49cb3481f7c177a58c5e0c4bf11813432",
+      "bytes": 24284,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
