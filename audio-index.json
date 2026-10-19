@@ -3487,6 +3487,13 @@
       "bytes": 22612,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She's accepted the outcome.": {
+      "file": "audio/ea53ef72f368f0209516d9120de3a742794976f8030b930fd7759c9b197a5d5b.mp3",
+      "sha256": "6c854624b0a599840a772c047a877c797caf350f3b3060d5f066b0379a8a81d3",
+      "bytes": 24702,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

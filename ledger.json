@@ -4685,7 +4685,7 @@
       "sha256": "d4169ca38565c739952e898a64defba8f38ad76bbd98035699be917c781b1ef5"
     },
     "ea53ef72f368f0209516d9120de3a742794976f8030b930fd7759c9b197a5d5b": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 27,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4694,7 +4694,9 @@
       "original": "She's accepted the outcome.",
       "day": 11,
       "week": 2,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 24702,
+      "sha256": "6c854624b0a599840a772c047a877c797caf350f3b3060d5f066b0379a8a81d3"
     },
     "d844361323e996030ae0f226bcb847efb188fca4d5f8b7e06e249245b27da2fd": {
       "status": "reserved",
