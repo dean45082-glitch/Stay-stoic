@@ -4993,7 +4993,7 @@
       "sha256": "d92a3b4976eabb544c6f1a36e41715765bfc891b3e71ea110f1ae9babbf9e087"
     },
     "412d552ab2929bcfa12cb6f0c01ac9d1d868bdc24ce9b6b2337edd2b2c65116e": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 30,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5002,7 +5002,9 @@
       "original": "By then, we'd already decided.",
       "day": 16,
       "week": 3,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 27210,
+      "sha256": "1731e1b3ab3925ad466c8f1329a4b85b574f49539cea5133c87c97ef98c8451b"
     },
     "37dc24602c3bf363c0c69feadc12c02c49d5b2107899796ef1a76cb93e7d18e8": {
       "status": "reserved",

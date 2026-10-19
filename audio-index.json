@@ -3641,6 +3641,13 @@
       "bytes": 27628,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "By then, we'd already decided.": {
+      "file": "audio/412d552ab2929bcfa12cb6f0c01ac9d1d868bdc24ce9b6b2337edd2b2c65116e.mp3",
+      "sha256": "1731e1b3ab3925ad466c8f1329a4b85b574f49539cea5133c87c97ef98c8451b",
+      "bytes": 27210,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
