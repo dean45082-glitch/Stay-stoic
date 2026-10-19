@@ -3228,6 +3228,13 @@
       "bytes": 68588,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I won't be letting one setback decide how the rest of the week goes.": {
+      "file": "audio/b00e746cbb5dd80f883286dbe1e095934b929322614a575ba201782720c430e6.mp3",
+      "sha256": "8142949b7869d508b3c619118ad7c6193d9fb8a2ac011167c3458682a087341f",
+      "bytes": 54377,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

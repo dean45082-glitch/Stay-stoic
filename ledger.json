@@ -4167,7 +4167,7 @@
       "sha256": "beffef37e2f5429bc4042e78cfac7b81eb2ac54696b6b484d861d0b38599717e"
     },
     "b00e746cbb5dd80f883286dbe1e095934b929322614a575ba201782720c430e6": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 68,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4176,7 +4176,9 @@
       "original": "I won't be letting one setback decide how the rest of the week goes.",
       "day": 2,
       "week": 1,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 54377,
+      "sha256": "8142949b7869d508b3c619118ad7c6193d9fb8a2ac011167c3458682a087341f"
     },
     "f98f8b5e0b9fb603fb81498a9c1d9688b5e4f749f7d0e86548516856df1adb44": {
       "status": "reserved",
