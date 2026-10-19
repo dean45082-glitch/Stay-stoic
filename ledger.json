@@ -4797,7 +4797,7 @@
       "sha256": "5602aeb324b46713233c2befdcfb538123e71bb18d5a231ae7994d15547fa3a2"
     },
     "5ffe52d5a9afdeb3717902f1db7e885b1bd1627bd00dfc2cf51d2e567de23a3e": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-secondary-1",
       "estimatedCredits": 29,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -4806,7 +4806,9 @@
       "original": "They've accepted the outcome.",
       "day": 13,
       "week": 2,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 24702,
+      "sha256": "9fa9316d446bde6d78093ef824fea7899d1ae054cc71b5d8640b952d2475e1f1"
     },
     "9c415005a3c05459480f4cd2ae458d3e27df58a1e782a61a589c11ffab6c0554": {
       "status": "reserved",
