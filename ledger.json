@@ -5805,7 +5805,7 @@
       "sha256": "1b34d325de5785a942fd042abd55baf4f0ec1740771fda53b575f0668bd170a3"
     },
     "2a8901b62cf15993f2a7b5416d40cbf5f0ee5f7031a1b81a85d9ac436e5fe8cc": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 27,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5814,7 +5814,9 @@
       "original": "She's been trying her best.",
       "day": 31,
       "week": 5,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 21776,
+      "sha256": "2444a5043433710b079307148f0f823668c21c9687bda19439f6a2c8a537e44a"
     },
     "9c3a21619012c346622543d66f7ccd1ffeb5e7074205eebaa82beab020199347": {
       "status": "reserved",

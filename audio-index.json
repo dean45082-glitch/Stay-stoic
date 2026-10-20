@@ -4047,6 +4047,13 @@
       "bytes": 28464,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She's been trying her best.": {
+      "file": "audio/2a8901b62cf15993f2a7b5416d40cbf5f0ee5f7031a1b81a85d9ac436e5fe8cc.mp3",
+      "sha256": "2444a5043433710b079307148f0f823668c21c9687bda19439f6a2c8a537e44a",
+      "bytes": 21776,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
