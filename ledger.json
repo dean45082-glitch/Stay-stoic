@@ -5763,7 +5763,7 @@
       "sha256": "c8e7caa5e7ce6a0b3f65fe5ab6913af76e373c79f72a795627f1b3c4355e0d7c"
     },
     "f9bd7045e1936713f060b635c675991eb9996d1cbe32752ea5362cbc9eed6150": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 36,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5772,7 +5772,9 @@
       "original": "He's been working on this for hours.",
       "day": 31,
       "week": 5,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 34315,
+      "sha256": "b6be5f7d6a416c1df3485a55bda5a908d97a09cee0258957519ea1997c010544"
     },
     "996d8f9d3aa8c34851a7311d2271a21fa1a3f37f72e5135bbb1585c9455bc21e": {
       "status": "reserved",
