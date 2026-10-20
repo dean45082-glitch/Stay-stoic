@@ -3872,6 +3872,13 @@
       "bytes": 58975,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She'll have accepted what couldn't be controlled.": {
+      "file": "audio/6dd42db7c0725eb88edc54f0ae5bc80124c06356faac9cc05253e34d105707e0.mp3",
+      "sha256": "e32d992254b17557259bd8ce046c617fa0e3d04ed34a4d49432fd0ecd325553d",
+      "bytes": 36823,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
