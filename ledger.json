@@ -5301,7 +5301,7 @@
       "sha256": "cbaf9934b4e29af119e110b7184a5335e088d20cade9f7aa667b3bba0352590c"
     },
     "abb5890ff7d7ebaaea3cad99c0d04bc94ec832cab29706b517eb51160f045593": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 38,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5310,7 +5310,9 @@
       "original": "By next week, I'll have shaken it off.",
       "day": 22,
       "week": 4,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 34315,
+      "sha256": "3fa5798e6b3c65a09a742cabb26e902d3cfd7e62bf85d0ae6b1161365bce89d6"
     },
     "75bb7975002ad52963a1aa687f377a666a2a6d5d8f382d375da798adfa403076": {
       "status": "reserved",

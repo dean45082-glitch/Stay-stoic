@@ -3795,6 +3795,13 @@
       "bytes": 22612,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "By next week, I'll have shaken it off.": {
+      "file": "audio/abb5890ff7d7ebaaea3cad99c0d04bc94ec832cab29706b517eb51160f045593.mp3",
+      "sha256": "3fa5798e6b3c65a09a742cabb26e902d3cfd7e62bf85d0ae6b1161365bce89d6",
+      "bytes": 34315,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
