@@ -6295,7 +6295,7 @@
       "sha256": "746ac1f16a3f77f434855f3a4d63150803e9dba37fb00ef423b6db1146e12e68"
     },
     "e741e00e36f8fa643970b5ad2bedc3f3b02c982ff58686be946348a2ca88bf87": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 33,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6304,7 +6304,9 @@
       "original": "They'd been avoiding the problem.",
       "day": 41,
       "week": 6,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 27628,
+      "sha256": "020ec1b406fd38104920c6705ea8bda63f14aaf968bf7408965bee4a38b0d46e"
     },
     "89690e511a6234a1cc3cdbbd4fa23681a16093fe800bc32279d6624d8db80731": {
       "status": "reserved",
