@@ -7891,7 +7891,7 @@
       "sha256": "da4c1b4ed4fa2a3b802e2cbccdb96acc310d267e7fed2a8820de1f39f130b9ca"
     },
     "319f45bcc2224fe6a1e19e3d1f68ea0b0312e5f4be4a4f83772e76ca76004924": {
-      "status": "reserved",
+      "status": "in_flight",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 47,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
