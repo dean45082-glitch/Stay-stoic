@@ -6351,7 +6351,7 @@
       "sha256": "6165d0919ef130edd7166d6fbe93f5cb4fcf262b51e48492edb5176b6fa59f74"
     },
     "9c6484a23582a9bafea0ef567f8a917709f3bc16e57a263dfcc181d940c0ea87": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 69,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6360,7 +6360,9 @@
       "original": "By the time I turn 40, I will have been practicing this for a decade.",
       "day": 43,
       "week": 7,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 61065,
+      "sha256": "ef9ba57f779c206ede8912a4de96d78364176a0d3cb40fe99ec4a56098a037d7"
     },
     "5dd9a2467877336b0141afb67480403c0274c57c8e4cda7eef8339d8852d66e5": {
       "status": "reserved",
