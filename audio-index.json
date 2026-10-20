@@ -4523,6 +4523,13 @@
       "bytes": 25538,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I could've reacted badly — I chose not to.": {
+      "file": "audio/45d0b7eca197ddac0542ffc9d741fcfb88d831a701aa7b613eb462928fe90d29.mp3",
+      "sha256": "f2dec479b95ecd47a362d236411b5e908af70f2b419aa61b90edd8ba62148611",
+      "bytes": 46436,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

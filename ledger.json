@@ -6757,7 +6757,7 @@
       "sha256": "fc304adf8da5f68c2c18c1f34d7d822f55eba0ac40998fdb439e499820a25032"
     },
     "45d0b7eca197ddac0542ffc9d741fcfb88d831a701aa7b613eb462928fe90d29": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 42,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6766,7 +6766,9 @@
       "original": "I could've reacted badly — I chose not to.",
       "day": 50,
       "week": 8,
-      "group": "seed"
+      "group": "seed",
+      "bytes": 46436,
+      "sha256": "f2dec479b95ecd47a362d236411b5e908af70f2b419aa61b90edd8ba62148611"
     },
     "adc0262dab87b15b717b5490823b59326c4f2e0d47325ff5a956c5f2627ba4af": {
       "status": "reserved",
