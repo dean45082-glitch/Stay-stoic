@@ -5777,7 +5777,7 @@
       "sha256": "b6be5f7d6a416c1df3485a55bda5a908d97a09cee0258957519ea1997c010544"
     },
     "996d8f9d3aa8c34851a7311d2271a21fa1a3f37f72e5135bbb1585c9455bc21e": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 30,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5786,7 +5786,9 @@
       "original": "I haven't been resting enough.",
       "day": 31,
       "week": 5,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 22612,
+      "sha256": "ef268e412433fda8fa8404db244d785b152344846741706e43ed0135500bda6c"
     },
     "c6b94f9c62a2127dd56aaa7b46ff7cb999fcde6514bcd299d5b5d6afa8dcfaf2": {
       "status": "reserved",

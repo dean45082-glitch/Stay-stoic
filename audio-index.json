@@ -4033,6 +4033,13 @@
       "bytes": 34315,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I haven't been resting enough.": {
+      "file": "audio/996d8f9d3aa8c34851a7311d2271a21fa1a3f37f72e5135bbb1585c9455bc21e.mp3",
+      "sha256": "ef268e412433fda8fa8404db244d785b152344846741706e43ed0135500bda6c",
+      "bytes": 22612,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
