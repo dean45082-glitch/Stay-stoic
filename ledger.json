@@ -5133,7 +5133,7 @@
       "sha256": "4e0f4883a2777355be727a7317b5f27589ed1ae941e8a23856085adea0fa35ec"
     },
     "bc230f40902be3652762260a252b7f65d726077ec9116f23a36712ce7e949434": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 24,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5142,7 +5142,9 @@
       "original": "We hadn't expected that.",
       "day": 18,
       "week": 3,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 22612,
+      "sha256": "e9b5f4e7b3ce8e12b243f971b9da4455be3f05feed613e8379defae88373031e"
     },
     "adfcd41095e29d79df28b6c907c37bb8388ea2bb019931618d05043b3b024cd6": {
       "status": "reserved",
