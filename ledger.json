@@ -6449,7 +6449,7 @@
       "sha256": "a4d35a8650d83e8a4cfc4e4b551e85ce2bc09fbde963d0339f271065ebccec32"
     },
     "a2f7391230b5c26da91b0e3305e3105c9b35cb970a35327809d58e873b51c491": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 47,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6458,7 +6458,9 @@
       "original": "I'll have been grinding away at this for years.",
       "day": 44,
       "week": 7,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 34315,
+      "sha256": "bc962f59dbdd387e3c391f4966a667c336ce4aba10476fe5bb4b86b1f35365a3"
     },
     "e9d1c43da0d2a07d8eb004a40275244ed471fab93e6a674437a705d640ef23f6": {
       "status": "reserved",
