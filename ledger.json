@@ -7247,7 +7247,7 @@
       "sha256": "83ac20363fb495eb459593d77f2e1a2efd27665e0bf3f687dff50b77764e2464"
     },
     "159044058ea3a242e56b80fa43c25cc67062fdb5f47a2b37834d56909b90ac2f": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 39,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7256,7 +7256,9 @@
       "original": "He might not have realized the mistake.",
       "day": 59,
       "week": 9,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 33897,
+      "sha256": "8ab3aeef85c6838b190ae7b48ee0754e7deaa1dc23c9cdc77d03848a819c9f26"
     },
     "b936a2706a3aeb9e6998d9b6799247a4280ecd3fe2ca6202ede442150706f083": {
       "status": "reserved",
