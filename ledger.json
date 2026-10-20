@@ -6043,7 +6043,7 @@
       "sha256": "a7fdd96fb295a6310a0e65f330c2f18819429a945049ca2febf2738f390141fd"
     },
     "7fecb852a82873a1c0573383bc27f78da5226779c42bdc550dc2c0a71c9d3105": {
-      "status": "reserved",
+      "status": "in_flight",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 44,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
