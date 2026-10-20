@@ -4236,6 +4236,13 @@
       "bytes": 47272,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She'd been struggling with anger for months.": {
+      "file": "audio/5ce7352d8fa8546666ea5d5a673974ac67aeceaffe7d3e88300028aa2d109dfe.mp3",
+      "sha256": "8fc7c2abab2440fec4255c021bf67338793b5e56b9d29f2c0d7d985760cc71e9",
+      "bytes": 42674,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
