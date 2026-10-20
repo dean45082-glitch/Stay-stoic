@@ -4103,6 +4103,13 @@
       "bytes": 30136,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "They've been working on this for hours.": {
+      "file": "audio/2fbd5664d91f0ffa901a6a4d2ebf2235f7d6403c22a2cb0d16ef45e53914d093.mp3",
+      "sha256": "7d3a70f8ec5909da80fbadbc4b3f76d745d93c5709f47965eb7050e74f492826",
+      "bytes": 30136,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
