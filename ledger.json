@@ -6407,7 +6407,7 @@
       "sha256": "c608990fae4b147d5db89e6a1d318cf4f33dcc9b3f5245bc4e1902cfa5a4ce4e"
     },
     "ffe0bd574dfc71fac505c070f1af45496cf6838f80512314bf3094ead9fa9385": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 46,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6416,7 +6416,9 @@
       "original": "You'll have been practicing this for a decade.",
       "day": 44,
       "week": 7,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 37659,
+      "sha256": "f31ccf113b096ef6f81e68337c575812526b0b2777fc590f956be3a9dbcd8ec6"
     },
     "c30aef4ba505208473ad00c5e9401bd1bd8d2ffaf4794123384005975dcd0172": {
       "status": "reserved",
