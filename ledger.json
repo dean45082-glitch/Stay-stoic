@@ -7107,7 +7107,7 @@
       "sha256": "cdb9692234f14e1b81c17ae831d572a528faaf97f248dca75861b3df73338ff4"
     },
     "920c90c8fa92cd326bfa384ed6ad70950301b1fdbdb3fb9ca05aec2cc890a4b8": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 24,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7116,7 +7116,9 @@
       "original": "He might've overreacted.",
       "day": 57,
       "week": 9,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 24702,
+      "sha256": "6d0cfef6c094c82f05ff53813cef1dacd157a9408bccd1f37695e6ca29872bc4"
     },
     "71a5296601006f27cf7761a920d78044c753e34251dc5396f32fb257173109e4": {
       "status": "reserved",
