@@ -8129,7 +8129,7 @@
       "sha256": "6a44df1dce6b002948230e32683a95dc279b32f769e84a3e9285aa3091811533"
     },
     "f9f0e2e96475c19dcf8a1fed5264e74a7fc050d7a626970ac43ecebb11cab7f2": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 50,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8138,7 +8138,9 @@
       "original": "She must've made that deduction from what she saw.",
       "day": 79,
       "week": 12,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 43510,
+      "sha256": "696f1f25c180794ba2cfd7b8fe3603e1df8c8d6b66eaa34ca82a4c9c0e0da945"
     },
     "61a57d3b19c528c098352bc559ad0c149809e025a0b8f6bd82bc38ef71a4f23d": {
       "status": "reserved",
