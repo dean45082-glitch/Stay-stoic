@@ -7443,7 +7443,7 @@
       "sha256": "292c69217fbc8260532465ceb36faa4f6483363d99e596c62f54686caf853ac2"
     },
     "7f99dacaa23536476e03fc24765503c72be8abad4e2a6302862dc2344ead3e16": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 41,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7452,7 +7452,9 @@
       "original": "I'll have been at this for years by then.",
       "day": 64,
       "week": 10,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 33061,
+      "sha256": "b7f16e954248cbadeb2f35eb87f196abe0022473aa8e138e3f1a501ea5a23c79"
     },
     "dc5cb2a9bf5b240c87bfd2d54a543ad5cf5833a6e7f252299aa217dd21e66787": {
       "status": "reserved",
