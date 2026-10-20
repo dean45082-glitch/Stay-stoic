@@ -5020,6 +5020,13 @@
       "bytes": 33897,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I'd rather fight for peace than stay silent.": {
+      "file": "audio/acc0dca30ec5cbe921fd7496c5d93e828ef796ff209e145f9359b197d840b52d.mp3",
+      "sha256": "debd75a6391527a3c47638445b9a720718c58af29b75ab689434b66776054add",
+      "bytes": 37659,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

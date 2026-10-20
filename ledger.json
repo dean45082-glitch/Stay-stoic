@@ -7751,7 +7751,7 @@
       "sha256": "cee46634cfb3c4f65e0f3ee875b03bcead5235fbc96fe8ea8234ff6251b0471c"
     },
     "acc0dca30ec5cbe921fd7496c5d93e828ef796ff209e145f9359b197d840b52d": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 44,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7760,7 +7760,9 @@
       "original": "I'd rather fight for peace than stay silent.",
       "day": 71,
       "week": 11,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 37659,
+      "sha256": "debd75a6391527a3c47638445b9a720718c58af29b75ab689434b66776054add"
     },
     "b424dd08729bc06ea32174294dfac536642125c811b1cde6cab3d0e28f40e579": {
       "status": "reserved",
