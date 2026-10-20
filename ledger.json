@@ -7723,7 +7723,7 @@
       "sha256": "cecdd97a523a512ca38090509d8d4edfe21b52ede753e321f831f2a5b679bdd6"
     },
     "90472810aaa621652699ccf301f8e71ac3d4dcc13c06b13b5568b59e85e1b384": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 31,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7732,7 +7732,9 @@
       "original": "I would've done it differently.",
       "day": 71,
       "week": 11,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 21776,
+      "sha256": "38845baffb89f9f4c09de0c517d296a5f6f30ab322eb2eed946b2da8683bc50f"
     },
     "0e6d0ee3982c4e95bbd9270800a3a062736acaa268daeedf0c2859e1e491eb93": {
       "status": "reserved",
