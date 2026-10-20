@@ -5749,7 +5749,7 @@
       "sha256": "b30114e9526daff9a4b7fecb99a23596826801021bdf7795c3f3806216ebfb51"
     },
     "2cd8ed667f207cb98688fff4416ac0e121d8183a248cccc734f3d902ce4fc7be": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 36,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5758,7 +5758,9 @@
       "original": "He's been thinking about it all day.",
       "day": 31,
       "week": 5,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 30972,
+      "sha256": "c8e7caa5e7ce6a0b3f65fe5ab6913af76e373c79f72a795627f1b3c4355e0d7c"
     },
     "f9bd7045e1936713f060b635c675991eb9996d1cbe32752ea5362cbc9eed6150": {
       "status": "reserved",

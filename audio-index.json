@@ -4019,6 +4019,13 @@
       "bytes": 24702,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "He's been thinking about it all day.": {
+      "file": "audio/2cd8ed667f207cb98688fff4416ac0e121d8183a248cccc734f3d902ce4fc7be.mp3",
+      "sha256": "c8e7caa5e7ce6a0b3f65fe5ab6913af76e373c79f72a795627f1b3c4355e0d7c",
+      "bytes": 30972,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
