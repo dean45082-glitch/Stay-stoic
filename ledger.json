@@ -7877,7 +7877,7 @@
       "sha256": "d696d285e46aae2c8623355d35cb936c58c7bb169359af03fc8e30489490d984"
     },
     "63eb62ab0a3ff1b5a23feca1a7005091bc993df0df43dfd86c0dfc2d9ee51cc9": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 57,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7886,7 +7886,9 @@
       "original": "He would've spoken differently if he'd known the outcome.",
       "day": 72,
       "week": 11,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 41838,
+      "sha256": "da4c1b4ed4fa2a3b802e2cbccdb96acc310d267e7fed2a8820de1f39f130b9ca"
     },
     "319f45bcc2224fe6a1e19e3d1f68ea0b0312e5f4be4a4f83772e76ca76004924": {
       "status": "reserved",

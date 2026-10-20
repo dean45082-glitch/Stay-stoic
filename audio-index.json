@@ -5083,6 +5083,13 @@
       "bytes": 35151,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "He would've spoken differently if he'd known the outcome.": {
+      "file": "audio/63eb62ab0a3ff1b5a23feca1a7005091bc993df0df43dfd86c0dfc2d9ee51cc9.mp3",
+      "sha256": "da4c1b4ed4fa2a3b802e2cbccdb96acc310d267e7fed2a8820de1f39f130b9ca",
+      "bytes": 41838,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
