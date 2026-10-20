@@ -7793,7 +7793,7 @@
       "sha256": "2a723d021f9527ab0d5e8b8ea90bec77c101088ad44c78815c3f808b2b72bbbe"
     },
     "82b2890bbaf67216b41851879ba90cc0889e00b487d12fd2c95517ff00294139": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 54,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7802,7 +7802,9 @@
       "original": "In hindsight, they would've made a different decision.",
       "day": 71,
       "week": 11,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 38077,
+      "sha256": "fd4fec5c85c32bd4fb249452e68d2bee7c8ed4a1178cc5edc3b246fd083435ed"
     },
     "c734a1f5882bf3ef11407d8ea75d998dcc0cbdf03f435d8457fdd54e7c16b8b1": {
       "status": "reserved",
