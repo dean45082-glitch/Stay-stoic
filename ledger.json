@@ -5413,7 +5413,7 @@
       "sha256": "818ac055d06c53bbdf0997c82af2f178ae2221cbeae5db82e070dfd1a37e7fe8"
     },
     "a755e345815b8e8ef38e067826635db4a060a672ae04352977bc61b7ecefc8f0": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 48,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5422,7 +5422,9 @@
       "original": "He'll have accepted what couldn't be controlled.",
       "day": 24,
       "week": 4,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 38077,
+      "sha256": "2b288f8d07a5afa8486b45537769c6e100d35f4c6708882eac289c02c567ae6f"
     },
     "0c9b433205e79f40e44d32fd6e7f266460ce23b7cd9e5c5cefcb9bc5c05e964b": {
       "status": "reserved",
