@@ -7919,7 +7919,7 @@
       "sha256": "a14eb18ac44cc46952f6c648e35585cb598a68a9ce33c65e9aef1f8fa14e7359"
     },
     "2be6c403066fa9b40b9e28457106da42bf18559f1f9c09bccb6feaf94c542b52": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 59,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7928,7 +7928,9 @@
       "original": "She wouldn't have held back her opinion if she'd felt safe.",
       "day": 73,
       "week": 11,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 45600,
+      "sha256": "79b0a25b470a314ae13b8ad1491d11b6422d1f1f20dcbde379c7480f96546977"
     },
     "8a55caaffc58990f59ea7d19d45283be0a8f4f379204e07f2fe8e04f4166c959": {
       "status": "reserved",

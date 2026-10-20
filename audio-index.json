@@ -5104,6 +5104,13 @@
       "bytes": 44764,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She wouldn't have held back her opinion if she'd felt safe.": {
+      "file": "audio/2be6c403066fa9b40b9e28457106da42bf18559f1f9c09bccb6feaf94c542b52.mp3",
+      "sha256": "79b0a25b470a314ae13b8ad1491d11b6422d1f1f20dcbde379c7480f96546977",
+      "bytes": 45600,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
