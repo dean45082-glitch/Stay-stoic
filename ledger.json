@@ -8185,7 +8185,7 @@
       "sha256": "ae61e078592012d0d0e80f64816b6f34e9050a287d0af520c164955f1f5cc3d7"
     },
     "f0c2400c5b1a90996fe6265af645a4cc1dc455b3fa7cda7f5852183dd71d8fbe": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 52,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8194,7 +8194,9 @@
       "original": "That must've helped them come to grips with reality.",
       "day": 80,
       "week": 12,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 41838,
+      "sha256": "aab009ee2eb523750c78c6997d7db6e84aa7a9e70427aed6eacad753bb1d0dad"
     },
     "b10663c08d82156fca22169c45469ac86922bd6263285950dab0f8ead40c901c": {
       "status": "reserved",
