@@ -5118,6 +5118,13 @@
       "bytes": 35151,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "They would've made peace if they'd let go of their pride.": {
+      "file": "audio/00a6e438d58d02533e85d4a8b64aeb475b95d1698a2b4feff6b9343427a3b639.mp3",
+      "sha256": "00583225de0a93630e6d7e72ba32f749e18a29a0af10c5889589f233770dd95c",
+      "bytes": 44346,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
