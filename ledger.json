@@ -7471,7 +7471,7 @@
       "sha256": "7f282bdffa3565bf4f04a8fcbe22f2f898d904264ef82f9fb5253e8ba4c6c327"
     },
     "08b3716bf92d7e890756f76fdc01b52117b2f1b37d89d8e841842a7ebc2f3933": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 37,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7480,7 +7480,9 @@
       "original": "You'll have been waiting a long time.",
       "day": 65,
       "week": 10,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 30972,
+      "sha256": "98a6c4c4984a424853df2fd209239a59d5467cfb91052f8e69ac0736e842717d"
     },
     "96b4e7291327052912961f20cc58b1dcb2a9adc178e0c01b790b8c2884da920b": {
       "status": "reserved",
