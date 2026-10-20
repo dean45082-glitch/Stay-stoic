@@ -4012,6 +4012,13 @@
       "bytes": 21776,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "He's been avoiding the topic.": {
+      "file": "audio/f771ddd0ca902eee0b23f8226491941568cac8b2087bd0666a6e822f368d264b.mp3",
+      "sha256": "b30114e9526daff9a4b7fecb99a23596826801021bdf7795c3f3806216ebfb51",
+      "bytes": 24702,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

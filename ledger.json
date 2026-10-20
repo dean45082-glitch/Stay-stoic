@@ -5735,7 +5735,7 @@
       "sha256": "3bfb67a45ad8ed402ab86017313634382ebf725f5944871fe0a2f84d0126c06e"
     },
     "f771ddd0ca902eee0b23f8226491941568cac8b2087bd0666a6e822f368d264b": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 29,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5744,7 +5744,9 @@
       "original": "He's been avoiding the topic.",
       "day": 30,
       "week": 5,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 24702,
+      "sha256": "b30114e9526daff9a4b7fecb99a23596826801021bdf7795c3f3806216ebfb51"
     },
     "2cd8ed667f207cb98688fff4416ac0e121d8183a248cccc734f3d902ce4fc7be": {
       "status": "reserved",
