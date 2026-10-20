@@ -3837,6 +3837,13 @@
       "bytes": 32225,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "He'll have overcome that adversity.": {
+      "file": "audio/82bba41c8a33aa09a5efd7365b9170669e7d0a8bff2ef9f72cc3e5ceec427a45.mp3",
+      "sha256": "a3f45abffb0a981188bed0eb9436dd7c319336e2e0bb31de699c78a781563442",
+      "bytes": 30972,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
