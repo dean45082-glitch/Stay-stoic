@@ -7961,7 +7961,7 @@
       "sha256": "00583225de0a93630e6d7e72ba32f749e18a29a0af10c5889589f233770dd95c"
     },
     "c2cc8faf8efc584337b5c5cd4d2ee5e01bcab7bd73ea1d5bcfee3ce30f4f707c": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 50,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7970,7 +7970,9 @@
       "original": "If only I'd handled that conversation differently.",
       "day": 74,
       "week": 11,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 39749,
+      "sha256": "27fe85096560d13851bc56f6cf4eb5cd214237579684d6172ca3fc36deb6cfd5"
     },
     "cbca9b63ec72d872c6a98ae4dc90f81af9cc5d3bd1741f62235d0ce3702745e4": {
       "status": "reserved",
