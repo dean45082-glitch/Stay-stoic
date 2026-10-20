@@ -7863,7 +7863,7 @@
       "sha256": "ca858762e73cbbe39e08c43994d5831c49db58925968fdeac0a66c26ce6685f1"
     },
     "a3293b5171fb59f189ecdf8d992da4cf5011754bcc4fabdcac1285718a2b4fd4": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 43,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7872,7 +7872,9 @@
       "original": "I would've let the argument go much sooner.",
       "day": 72,
       "week": 11,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 35151,
+      "sha256": "d696d285e46aae2c8623355d35cb936c58c7bb169359af03fc8e30489490d984"
     },
     "63eb62ab0a3ff1b5a23feca1a7005091bc993df0df43dfd86c0dfc2d9ee51cc9": {
       "status": "reserved",
