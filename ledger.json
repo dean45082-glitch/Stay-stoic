@@ -5623,7 +5623,7 @@
       "sha256": "ea02fb6889a5f13fae2fac8e1a0ad5de5af46fecc326d3b3f2cc6636acb611e5"
     },
     "c82c23972bf4cd3a239c4ca244dc10431109170362c2f620e7bc7352c41d99ff": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 29,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5632,7 +5632,9 @@
       "original": "She's been waiting patiently.",
       "day": 29,
       "week": 5,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 24284,
+      "sha256": "d77e2f4531819a5358df43b5b5602fdc86cceaa78fbb31b22c568ceda89e06e7"
     },
     "f2f558e15ef478dd44e871770edb25ec6bab2246ff6ada76e567bedebc1ae5a8": {
       "status": "reserved",
