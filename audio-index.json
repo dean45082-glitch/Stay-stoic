@@ -4145,6 +4145,13 @@
       "bytes": 35987,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "He'd been beating himself up over it.": {
+      "file": "audio/7d43b372f09fa7035d4c59ab840130edfbae82d75c84b1b2996f7d3af0d29b64.mp3",
+      "sha256": "078e701ebc99c9e3cbe4812966aaf335166b2b64610b18f27c2d78f0ef322cd9",
+      "bytes": 30136,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
