@@ -5287,7 +5287,7 @@
       "sha256": "1a4611f0eb5d99146b7e1a2dced77f83a7c18107d099f6f6a16697fcf7f1f33d"
     },
     "c8c9085c1e7cd80c5d84f4420ea78f17f9063ef761fa64939363bb0b90ef04f2": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 29,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5296,7 +5296,9 @@
       "original": "She'll have moved on by then.",
       "day": 22,
       "week": 4,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 22612,
+      "sha256": "cbaf9934b4e29af119e110b7184a5335e088d20cade9f7aa667b3bba0352590c"
     },
     "abb5890ff7d7ebaaea3cad99c0d04bc94ec832cab29706b517eb51160f045593": {
       "status": "reserved",
