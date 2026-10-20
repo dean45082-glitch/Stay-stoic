@@ -8353,7 +8353,7 @@
       "sha256": "e60b1581504d135dfa7caddf7217d66a2a78d6cdaec760a0496d6cd0d76f03e9"
     },
     "e438dd154207abf7c687e425005d41a6b5212198aa3b6de66b394f28c84dafd4": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 59,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8362,7 +8362,9 @@
       "original": "He should've been able to handle the learning curve better.",
       "day": 86,
       "week": 13,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 39749,
+      "sha256": "98ad0d9b7882263ddcee0cf3c203f973355ea1916c1cbf20a7d0c24e97675a61"
     },
     "ce14966b4e01e68199c933461f273f62b16e5d31671a063581f8d09a96e44382": {
       "status": "reserved",

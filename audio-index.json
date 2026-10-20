@@ -5321,6 +5321,13 @@
       "bytes": 41003,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "He should've been able to handle the learning curve better.": {
+      "file": "audio/e438dd154207abf7c687e425005d41a6b5212198aa3b6de66b394f28c84dafd4.mp3",
+      "sha256": "98ad0d9b7882263ddcee0cf3c203f973355ea1916c1cbf20a7d0c24e97675a61",
+      "bytes": 39749,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
