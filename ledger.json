@@ -6127,7 +6127,7 @@
       "sha256": "83e8e71ef0657a85877daf64521e42acc75d2ead1af02c5ce86f4e915f6c409a"
     },
     "1b14d69200d10b4d8348fcee0590a28657606665c13b7d192ea0e984e42f562f": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 37,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6136,7 +6136,9 @@
       "original": "He'd been carrying that weight alone.",
       "day": 38,
       "week": 6,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 30136,
+      "sha256": "d160f9acac9466906d1d78b5e0a99c4173ae970570083eb6255383009a9f98cc"
     },
     "4d9edc27401d2c11afb1df82f8d091421b1fa6a448666fdc82d324e2bde01c65": {
       "status": "reserved",
