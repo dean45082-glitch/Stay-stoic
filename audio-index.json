@@ -4516,6 +4516,13 @@
       "bytes": 20523,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I could've lost it right there.": {
+      "file": "audio/a1308402d78acaa0256a3cb8caf6ac22bb2c5935b2104fda79986ddefd7dca84.mp3",
+      "sha256": "fc304adf8da5f68c2c18c1f34d7d822f55eba0ac40998fdb439e499820a25032",
+      "bytes": 25538,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
