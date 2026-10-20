@@ -3704,6 +3704,13 @@
       "bytes": 29300,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She'd crossed that line before.": {
+      "file": "audio/ae20713c4d2669e326280a129751e0636d98b8e61db8dce7da38076657225f30.mp3",
+      "sha256": "4e0f4883a2777355be727a7317b5f27589ed1ae941e8a23856085adea0fa35ec",
+      "bytes": 27628,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

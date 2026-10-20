@@ -5119,7 +5119,7 @@
       "sha256": "94258da1804261c520d8b67d25f21e2dd8d71ab314967dac7e32363a105cf652"
     },
     "ae20713c4d2669e326280a129751e0636d98b8e61db8dce7da38076657225f30": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 31,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5128,7 +5128,9 @@
       "original": "She'd crossed that line before.",
       "day": 18,
       "week": 3,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 27628,
+      "sha256": "4e0f4883a2777355be727a7317b5f27589ed1ae941e8a23856085adea0fa35ec"
     },
     "bc230f40902be3652762260a252b7f65d726077ec9116f23a36712ce7e949434": {
       "status": "reserved",
