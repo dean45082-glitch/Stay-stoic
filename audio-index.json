@@ -5160,6 +5160,13 @@
       "bytes": 40585,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "They must've come to grips with the situation last night.": {
+      "file": "audio/018700372345e1556e3b81e77617e6616d6c6cee398c88be022f31786c00a9a8.mp3",
+      "sha256": "e1734a3db360638580167535bee46a84df775594e42681e4315b1cf9df2394e9",
+      "bytes": 43510,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
