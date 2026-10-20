@@ -8311,7 +8311,7 @@
       "sha256": "b520574aba3a949e10f1eadbb1c99c1934f880d4cee184221d4e77a953471402"
     },
     "b4b88cbdb89119d5796b07837cf5d27140ec9e320c49bbdf08c5b080becfa27d": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 57,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8320,7 +8320,9 @@
       "original": "They should've been able to pay their dues with patience.",
       "day": 85,
       "week": 13,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 40585,
+      "sha256": "edb1fad95097c836f6a3db6c1a6faf1d27d25657bdf918c38ccbd355be813aeb"
     },
     "e0b38c2d6c6f1265c9645b1ddd74bfb077f165dc54ae658becfd62bc6152e670": {
       "status": "reserved",
