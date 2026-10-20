@@ -5328,6 +5328,13 @@
       "bytes": 39749,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We should've been able to work our way up step by step.": {
+      "file": "audio/ce14966b4e01e68199c933461f273f62b16e5d31671a063581f8d09a96e44382.mp3",
+      "sha256": "139dff2aafea2161456a139142c42bc8bc13dad404a83a2a2931d6753fdf80d6",
+      "bytes": 44764,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

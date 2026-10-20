@@ -8367,7 +8367,7 @@
       "sha256": "98ad0d9b7882263ddcee0cf3c203f973355ea1916c1cbf20a7d0c24e97675a61"
     },
     "ce14966b4e01e68199c933461f273f62b16e5d31671a063581f8d09a96e44382": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 55,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8376,7 +8376,9 @@
       "original": "We should've been able to work our way up step by step.",
       "day": 86,
       "week": 13,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 44764,
+      "sha256": "139dff2aafea2161456a139142c42bc8bc13dad404a83a2a2931d6753fdf80d6"
     },
     "f289fb8c2586274feff4977b98d594c8eac052249789b4617864cc244b779eef": {
       "status": "reserved",
