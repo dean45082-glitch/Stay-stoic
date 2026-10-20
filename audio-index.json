@@ -5314,6 +5314,13 @@
       "bytes": 47272,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I should've been able to earn my place without rushing.": {
+      "file": "audio/6b4ec8e985c825981c6e29838adcc161497375444ce9ed817b21dffb6d628cc2.mp3",
+      "sha256": "e60b1581504d135dfa7caddf7217d66a2a78d6cdaec760a0496d6cd0d76f03e9",
+      "bytes": 41003,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

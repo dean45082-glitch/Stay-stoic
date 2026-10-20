@@ -8339,7 +8339,7 @@
       "sha256": "f95a9cc574098e56f5371ae96c44adb910a724e8361b0c96ffd9e46b22235dbf"
     },
     "6b4ec8e985c825981c6e29838adcc161497375444ce9ed817b21dffb6d628cc2": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 55,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8348,7 +8348,9 @@
       "original": "I should've been able to earn my place without rushing.",
       "day": 86,
       "week": 13,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 41003,
+      "sha256": "e60b1581504d135dfa7caddf7217d66a2a78d6cdaec760a0496d6cd0d76f03e9"
     },
     "e438dd154207abf7c687e425005d41a6b5212198aa3b6de66b394f28c84dafd4": {
       "status": "reserved",
