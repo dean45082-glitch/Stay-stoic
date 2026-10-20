@@ -6575,7 +6575,7 @@
       "sha256": "b55dfa877c9971a7451659e9db7cd00f0e75caea7853966cca667b00210ada13"
     },
     "f8494a9690be65dea18962143bbff274568c75f6b92742a3bee15a18ab6e7119": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 41,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6584,7 +6584,9 @@
       "original": "She'll have been building this for years.",
       "day": 46,
       "week": 7,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 33897,
+      "sha256": "b7fb186e255a395b499f819a7f3f52fff20c79388556b80324ea9bafbfe84c66"
     },
     "9e3b429087fecb17a7a8ea444f34420d04f58439a286751d5e79edbb73300260": {
       "status": "reserved",
