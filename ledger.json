@@ -7583,7 +7583,7 @@
       "sha256": "968db0409d4064b628b4e4b8e2227203bde42557fbd636b40b02a21472285434"
     },
     "bc40ddf568934742c1a21f07f0306ce2f736b48c867f622bc9adf079c5e0154a": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 41,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7592,7 +7592,9 @@
       "original": "They'll have been living there for years.",
       "day": 66,
       "week": 10,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 32225,
+      "sha256": "b23945d055c40b2ab43901b781a3541b9498d4cc6769befd7a8454ba40b65ec1"
     },
     "7707a384561fbb32b1ba21913a79fbb10b14eae359cd55d726745e0382f88535": {
       "status": "reserved",
