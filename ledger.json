@@ -8409,7 +8409,7 @@
       "sha256": "ca7f875d84c511e59a50feed5871fe9eee401098ecb915603f0acdc5fa61d180"
     },
     "372dc8625eaf9e167897bc1a02d8144134f21847321f8e1a9497e82e06a25103": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 58,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8418,7 +8418,9 @@
       "original": "We should've been able to get through that learning curve.",
       "day": 86,
       "week": 13,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 40585,
+      "sha256": "908fc16375f723661415b23fa6b46099669b4d98d4c2c669dbd683a43c609697"
     },
     "f5ab6a22c53331fd4b2ac2bb3b4509fcb02c4542fd05de325a5bf7b25da11559": {
       "status": "reserved",

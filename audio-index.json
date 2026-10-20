@@ -5349,6 +5349,13 @@
       "bytes": 39749,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We should've been able to get through that learning curve.": {
+      "file": "audio/372dc8625eaf9e167897bc1a02d8144134f21847321f8e1a9497e82e06a25103.mp3",
+      "sha256": "908fc16375f723661415b23fa6b46099669b4d98d4c2c669dbd683a43c609697",
+      "bytes": 40585,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
