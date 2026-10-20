@@ -4782,6 +4782,13 @@
       "bytes": 25538,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "It might have been worse, honestly.": {
+      "file": "audio/3d1b8eb91fb7eaf70396b7b70dbb789fcb225592c7aabc7fc225fcbda609b282.mp3",
+      "sha256": "ee467d955d12a0c0d174a7d8c2ceaca4a1ace9e663537915b35036e36a701809",
+      "bytes": 31390,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
