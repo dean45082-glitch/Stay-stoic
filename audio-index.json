@@ -4278,6 +4278,13 @@
       "bytes": 27210,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "They'd been struggling with anger for months.": {
+      "file": "audio/f7e270ae554d49fff25888dc7bfd89ba1abcc2ac7ecf7e3c2b2dd9be1fc6177e.mp3",
+      "sha256": "7826ed72af21e2881402452dea08ec41b268a18742456902289e63a2eb748f61",
+      "bytes": 36823,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
