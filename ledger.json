@@ -5721,7 +5721,7 @@
       "sha256": "41d4f4b82765ec2d4252cc31b5b2e43098f697e2711f0c3a917db1132192917a"
     },
     "3c8bb35dc1b7e5d156479d8279d153df601189bc69fccce7931052d79df45ff0": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 25,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5730,7 +5730,9 @@
       "original": "Have you been practicing?",
       "day": 30,
       "week": 5,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 21776,
+      "sha256": "3bfb67a45ad8ed402ab86017313634382ebf725f5944871fe0a2f84d0126c06e"
     },
     "f771ddd0ca902eee0b23f8226491941568cac8b2087bd0666a6e822f368d264b": {
       "status": "reserved",
