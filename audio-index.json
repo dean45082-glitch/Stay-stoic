@@ -4152,6 +4152,13 @@
       "bytes": 30136,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We'd been going through a rough patch.": {
+      "file": "audio/df0b6455340691331ba583fdcbf346d7c42ff3da66ac59cbe72f73b95da1131e.mp3",
+      "sha256": "8a59cf45afd6a96c0143c02d242651611501fcbb30e17e834ce06ae55cdc9094",
+      "bytes": 30972,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
