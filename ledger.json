@@ -8059,7 +8059,7 @@
       "sha256": "0b4a2def036ca72e6e9645db4cd245fe53284209e57e43b411abfe1e8fdcd4bb"
     },
     "ece5af993632bb79c459adbe731863f0884c24f377f1b441d6d9870954993055": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 47,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8068,7 +8068,9 @@
       "original": "He must've thought the decision was inevitable.",
       "day": 78,
       "week": 12,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 39749,
+      "sha256": "39a2515eb6b0d8e5e89314ee7d71f4a1114c5fd71bc22b1ee6adc112def78b85"
     },
     "7f90293d6e68b5f582a614220ff43120309032d2a7b2c13c13aef96a0db05d20": {
       "status": "reserved",
