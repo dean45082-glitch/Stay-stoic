@@ -8423,7 +8423,7 @@
       "sha256": "908fc16375f723661415b23fa6b46099669b4d98d4c2c669dbd683a43c609697"
     },
     "f5ab6a22c53331fd4b2ac2bb3b4509fcb02c4542fd05de325a5bf7b25da11559": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 43,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8432,7 +8432,9 @@
       "original": "She shouldn't have doubted herself so much.",
       "day": 87,
       "week": 13,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 34315,
+      "sha256": "0f2ac5fa5f34aad1e7d8c248bb3116145eb385995da3ce524a41919a538a7065"
     },
     "119d25065cad9bd041446e796410c2f8658b0d660b551b1fa2e40025e5598fa1": {
       "status": "reserved",

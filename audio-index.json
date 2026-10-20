@@ -5356,6 +5356,13 @@
       "bytes": 40585,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She shouldn't have doubted herself so much.": {
+      "file": "audio/f5ab6a22c53331fd4b2ac2bb3b4509fcb02c4542fd05de325a5bf7b25da11559.mp3",
+      "sha256": "0f2ac5fa5f34aad1e7d8c248bb3116145eb385995da3ce524a41919a538a7065",
+      "bytes": 34315,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
