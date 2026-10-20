@@ -5097,6 +5097,13 @@
       "bytes": 37659,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I'd rather have lost the argument than lost my calm.": {
+      "file": "audio/e424bc027f5f2f920c0fc3c862eee0339627a44368ea161f00a07fd1da7317da.mp3",
+      "sha256": "a14eb18ac44cc46952f6c648e35585cb598a68a9ce33c65e9aef1f8fa14e7359",
+      "bytes": 44764,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

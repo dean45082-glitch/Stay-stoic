@@ -7905,7 +7905,7 @@
       "sha256": "fd6d2a256a38715e1a79005e154424d740550d4f94165275d7cde529fb8caa13"
     },
     "e424bc027f5f2f920c0fc3c862eee0339627a44368ea161f00a07fd1da7317da": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 52,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7914,7 +7914,9 @@
       "original": "I'd rather have lost the argument than lost my calm.",
       "day": 73,
       "week": 11,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 44764,
+      "sha256": "a14eb18ac44cc46952f6c648e35585cb598a68a9ce33c65e9aef1f8fa14e7359"
     },
     "2be6c403066fa9b40b9e28457106da42bf18559f1f9c09bccb6feaf94c542b52": {
       "status": "reserved",
