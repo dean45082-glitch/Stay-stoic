@@ -6897,7 +6897,7 @@
       "sha256": "349f4610bc520a6f610f2eb2ab016bd58f434c6e8c2a13d7ed5119e98c218d4e"
     },
     "f824afe17f1039efffd6df2222f6d8a36559c57c90b8d5502eab87c400513760": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 25,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6906,7 +6906,9 @@
       "original": "I could've reacted worse.",
       "day": 52,
       "week": 8,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 20941,
+      "sha256": "0ad6cfee7dd2cd2ddb746008d77b65ceb5a7e12a8a31ec37d8673497210ce5d7"
     },
     "6ae14378852b3f0df5b5a71abffd11ac31c48f10634b46127770a4b19280c867": {
       "status": "reserved",

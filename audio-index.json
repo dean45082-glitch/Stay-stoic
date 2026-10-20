@@ -4593,6 +4593,13 @@
       "bytes": 28464,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I could've reacted worse.": {
+      "file": "audio/f824afe17f1039efffd6df2222f6d8a36559c57c90b8d5502eab87c400513760.mp3",
+      "sha256": "0ad6cfee7dd2cd2ddb746008d77b65ceb5a7e12a8a31ec37d8673497210ce5d7",
+      "bytes": 20941,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
