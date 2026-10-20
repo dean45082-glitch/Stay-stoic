@@ -5181,6 +5181,13 @@
       "bytes": 39749,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She must've assumed we weren't going to make it.": {
+      "file": "audio/7f90293d6e68b5f582a614220ff43120309032d2a7b2c13c13aef96a0db05d20.mp3",
+      "sha256": "641120ddc3a3a71a6d7421b6191c70555e6e4b38c429ceda320e109367915516",
+      "bytes": 37659,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

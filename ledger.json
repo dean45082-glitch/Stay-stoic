@@ -8073,7 +8073,7 @@
       "sha256": "39a2515eb6b0d8e5e89314ee7d71f4a1114c5fd71bc22b1ee6adc112def78b85"
     },
     "7f90293d6e68b5f582a614220ff43120309032d2a7b2c13c13aef96a0db05d20": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 48,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8082,7 +8082,9 @@
       "original": "She must've assumed we weren't going to make it.",
       "day": 79,
       "week": 12,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 37659,
+      "sha256": "641120ddc3a3a71a6d7421b6191c70555e6e4b38c429ceda320e109367915516"
     },
     "175d85cd076321ca9f0ac69b319882413dae61a290ee600c7a952837d1c84866": {
       "status": "reserved",
