@@ -3970,6 +3970,13 @@
       "bytes": 27210,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I haven't been sleeping well.": {
+      "file": "audio/d2431b6168b161990f8c09fc66a534a16aa5ec613008fe22522e51d7e6349513.mp3",
+      "sha256": "4e6e2d41403611b372bb5603028327f5422fab88c020845cb228ae2437887ba7",
+      "bytes": 22612,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

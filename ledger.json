@@ -5651,7 +5651,7 @@
       "sha256": "e6359d951613804ccb7e27ab1c1b6b0ac547dc83bdd42fba914782c9a6882cd6"
     },
     "d2431b6168b161990f8c09fc66a534a16aa5ec613008fe22522e51d7e6349513": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 29,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5660,7 +5660,9 @@
       "original": "I haven't been sleeping well.",
       "day": 29,
       "week": 5,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 22612,
+      "sha256": "4e6e2d41403611b372bb5603028327f5422fab88c020845cb228ae2437887ba7"
     },
     "7e511f369266d11760dc660634d2bde05875db77d2eaeb62a6a72195e72027d4": {
       "status": "reserved",
