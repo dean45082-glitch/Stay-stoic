@@ -7611,7 +7611,7 @@
       "sha256": "242289e238e4b1887df3303fd906af9423e44ac38a26f2caf81c862f020a9bec"
     },
     "20c4e773eea1d68298df8cef5f08188da848f900557ccbdbb5aa937c1c12ea93": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 38,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7620,7 +7620,9 @@
       "original": "She'll have been saving up for months.",
       "day": 67,
       "week": 10,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 35987,
+      "sha256": "b3912728738dc5ee5dc9c992cdb137a25334ea4bd393aa9b0d5906c5e70de27f"
     },
     "4a5b301676384f74573bc658401449a38683bbe902e6dd5f3d5dd9e2b4b1199d": {
       "status": "reserved",

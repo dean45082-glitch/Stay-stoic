@@ -4950,6 +4950,13 @@
       "bytes": 27210,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She'll have been saving up for months.": {
+      "file": "audio/20c4e773eea1d68298df8cef5f08188da848f900557ccbdbb5aa937c1c12ea93.mp3",
+      "sha256": "b3912728738dc5ee5dc9c992cdb137a25334ea4bd393aa9b0d5906c5e70de27f",
+      "bytes": 35987,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
