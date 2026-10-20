@@ -6085,7 +6085,7 @@
       "sha256": "e2f433066ebe65a42f0c47d04f7e25e0ea9fcfce4e841f9797279899861cf2b2"
     },
     "0dd344f5dae0dd3cefeb77f5d7d9591e876856c27c78774254ad5910f868e516": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 31,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6094,7 +6094,9 @@
       "original": "She'd been holding it together.",
       "day": 37,
       "week": 6,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 27628,
+      "sha256": "0ceccf9512922cdbdb86f42ba513f320f6eb9b84867a3f0149c3f7b20b7df7a0"
     },
     "6a5df8516be85bd829d2c2a3491f5c7589978b1d158cac9de993d47aacf1f50f": {
       "status": "reserved",

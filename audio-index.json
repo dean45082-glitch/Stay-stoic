@@ -4187,6 +4187,13 @@
       "bytes": 29300,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She'd been holding it together.": {
+      "file": "audio/0dd344f5dae0dd3cefeb77f5d7d9591e876856c27c78774254ad5910f868e516.mp3",
+      "sha256": "0ceccf9512922cdbdb86f42ba513f320f6eb9b84867a3f0149c3f7b20b7df7a0",
+      "bytes": 27628,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
