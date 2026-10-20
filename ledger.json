@@ -7779,7 +7779,7 @@
       "sha256": "b68f5bfa8bad478aeb543516e4d4c24d3b735542e4dbb9538df44db93d933472"
     },
     "785d1f5c34ce318b088710c4fa7f53a73dbebc43b30c075b8e5b3f559d93958d": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 49,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7788,7 +7788,9 @@
       "original": "We wouldn't have held back the truth for so long.",
       "day": 71,
       "week": 11,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 38077,
+      "sha256": "2a723d021f9527ab0d5e8b8ea90bec77c101088ad44c78815c3f808b2b72bbbe"
     },
     "82b2890bbaf67216b41851879ba90cc0889e00b487d12fd2c95517ff00294139": {
       "status": "reserved",

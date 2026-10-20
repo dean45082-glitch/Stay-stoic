@@ -5034,6 +5034,13 @@
       "bytes": 41838,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We wouldn't have held back the truth for so long.": {
+      "file": "audio/785d1f5c34ce318b088710c4fa7f53a73dbebc43b30c075b8e5b3f559d93958d.mp3",
+      "sha256": "2a723d021f9527ab0d5e8b8ea90bec77c101088ad44c78815c3f808b2b72bbbe",
+      "bytes": 38077,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
