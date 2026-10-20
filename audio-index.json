@@ -4999,6 +4999,13 @@
       "bytes": 33897,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "By next year, I'll have been learning English for a long time.": {
+      "file": "audio/c19a641364eb7a467dca11b6fcd3768edee617c8ed12b412c37ac6ad4bfe4587.mp3",
+      "sha256": "cecdd97a523a512ca38090509d8d4edfe21b52ede753e321f831f2a5b679bdd6",
+      "bytes": 53123,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

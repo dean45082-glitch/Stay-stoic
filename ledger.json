@@ -7709,7 +7709,7 @@
       "sha256": "4fe1aaced2e403ecbd63f631b96b54a758bccfc45cd5b89af17023de121ca147"
     },
     "c19a641364eb7a467dca11b6fcd3768edee617c8ed12b412c37ac6ad4bfe4587": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 62,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7718,7 +7718,9 @@
       "original": "By next year, I'll have been learning English for a long time.",
       "day": 69,
       "week": 10,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 53123,
+      "sha256": "cecdd97a523a512ca38090509d8d4edfe21b52ede753e321f831f2a5b679bdd6"
     },
     "90472810aaa621652699ccf301f8e71ac3d4dcc13c06b13b5568b59e85e1b384": {
       "status": "reserved",
