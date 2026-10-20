@@ -5195,6 +5195,13 @@
       "bytes": 33897,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "His reaction must've come from a wrong deduction.": {
+      "file": "audio/e69b17e917b5f647ecbabcd18ec502998d5f75a6498a692958007ebaf1b1636f.mp3",
+      "sha256": "fe79536b2551d1a7acdb44ed66969eaa6de7268a4aa1ff0abd5540ef77bc95bc",
+      "bytes": 42674,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

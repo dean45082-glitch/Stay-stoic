@@ -8101,7 +8101,7 @@
       "sha256": "6d3dc10bc1f6f43233a6abc92ccaa4b7ace3d13c04fc3d5c5721e6825e5d1fb8"
     },
     "e69b17e917b5f647ecbabcd18ec502998d5f75a6498a692958007ebaf1b1636f": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 49,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8110,7 +8110,9 @@
       "original": "His reaction must've come from a wrong deduction.",
       "day": 79,
       "week": 12,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 42674,
+      "sha256": "fe79536b2551d1a7acdb44ed66969eaa6de7268a4aa1ff0abd5540ef77bc95bc"
     },
     "fea8694f00c90fdadedd93d47dadfb3acd5eaf3eca61154df081425691836088": {
       "status": "reserved",
