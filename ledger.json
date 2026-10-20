@@ -5847,7 +5847,7 @@
       "sha256": "c19f38875a0a41a40c2390bf7a85e2f9dc6dc8a9b1103bede923de3596a7c9f5"
     },
     "eb0bd106d6fd547aab6aeed1b3039c3a8f2038caeec0f098a97c5d442af8a199": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 30,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5856,7 +5856,9 @@
       "original": "She's been avoiding the topic.",
       "day": 32,
       "week": 5,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 26374,
+      "sha256": "c404662ec4e7ff97dbd192c6e6886fc1523d965634d6f1892b219bd359752ca8"
     },
     "a68d15d963e5b6c01a0b8e1a5a3a0cb384151e7c06926f3ce4f68415f638692e": {
       "status": "reserved",
