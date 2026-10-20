@@ -5230,6 +5230,13 @@
       "bytes": 36823,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We must've misunderstood the signal.": {
+      "file": "audio/992ca9cafbc0c1a3c8de9146af761e3f324af0a692145a639fe0901dcfdf410f.mp3",
+      "sha256": "ae61e078592012d0d0e80f64816b6f34e9050a287d0af520c164955f1f5cc3d7",
+      "bytes": 30136,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

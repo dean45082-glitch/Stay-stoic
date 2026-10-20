@@ -8171,7 +8171,7 @@
       "sha256": "9ed32c93050d23fa4bbe5043cd06ab05c7f414270d5634bc0246e84161ab4291"
     },
     "992ca9cafbc0c1a3c8de9146af761e3f324af0a692145a639fe0901dcfdf410f": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 36,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8180,7 +8180,9 @@
       "original": "We must've misunderstood the signal.",
       "day": 80,
       "week": 12,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 30136,
+      "sha256": "ae61e078592012d0d0e80f64816b6f34e9050a287d0af520c164955f1f5cc3d7"
     },
     "f0c2400c5b1a90996fe6265af645a4cc1dc455b3fa7cda7f5852183dd71d8fbe": {
       "status": "reserved",
