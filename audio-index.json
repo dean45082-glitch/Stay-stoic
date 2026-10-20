@@ -5293,6 +5293,13 @@
       "bytes": 38913,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "You shouldn't have expected to master it immediately.": {
+      "file": "audio/84997df42c40877a535017af5ce4b18406a19eb094e928c65eb0090b6fa3ca27.mp3",
+      "sha256": "b520574aba3a949e10f1eadbb1c99c1934f880d4cee184221d4e77a953471402",
+      "bytes": 44346,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
