@@ -6379,7 +6379,7 @@
       "sha256": "d17c7357fcdee576be57d2992462b48c36cdf23a95b2c828d668f2e336266a0c"
     },
     "019b4166e340194b5d4b7596b8414203b164d2f8ae54a31a2b1971e7ad113398": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 49,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6388,7 +6388,9 @@
       "original": "By June, she'll have been working on it non-stop.",
       "day": 43,
       "week": 7,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 48526,
+      "sha256": "31a2788ceefaeca2f8a1b56b23b67fd8e7f85c89aae544950d7d8ed02ee799c7"
     },
     "302b7c6c299f4c860acdd7a9243200045892e6025b565be34a28b3aa7ec00494": {
       "status": "reserved",
