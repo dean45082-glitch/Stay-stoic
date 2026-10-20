@@ -7933,7 +7933,7 @@
       "sha256": "79b0a25b470a314ae13b8ad1491d11b6422d1f1f20dcbde379c7480f96546977"
     },
     "8a55caaffc58990f59ea7d19d45283be0a8f4f379204e07f2fe8e04f4166c959": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 43,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7942,7 +7942,9 @@
       "original": "In hindsight, I would've been more patient.",
       "day": 73,
       "week": 11,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 35151,
+      "sha256": "e71502116c25f3459b2d2c0b8affd24241a5e48e30f7d2a4e91b08ff6d4fdfa0"
     },
     "00a6e438d58d02533e85d4a8b64aeb475b95d1698a2b4feff6b9343427a3b639": {
       "status": "reserved",

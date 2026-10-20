@@ -5111,6 +5111,13 @@
       "bytes": 45600,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "In hindsight, I would've been more patient.": {
+      "file": "audio/8a55caaffc58990f59ea7d19d45283be0a8f4f379204e07f2fe8e04f4166c959.mp3",
+      "sha256": "e71502116c25f3459b2d2c0b8affd24241a5e48e30f7d2a4e91b08ff6d4fdfa0",
+      "bytes": 35151,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
