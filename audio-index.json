@@ -5132,6 +5132,13 @@
       "bytes": 39749,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We would've chosen another path if we'd seen the risk.": {
+      "file": "audio/cbca9b63ec72d872c6a98ae4dc90f81af9cc5d3bd1741f62235d0ce3702745e4.mp3",
+      "sha256": "889b953a2543aedd18c093a6e3469ff1f74acc01da416dd05b2d14aa0b60d5ff",
+      "bytes": 44346,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

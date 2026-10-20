@@ -7975,7 +7975,7 @@
       "sha256": "27fe85096560d13851bc56f6cf4eb5cd214237579684d6172ca3fc36deb6cfd5"
     },
     "cbca9b63ec72d872c6a98ae4dc90f81af9cc5d3bd1741f62235d0ce3702745e4": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 54,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7984,7 +7984,9 @@
       "original": "We would've chosen another path if we'd seen the risk.",
       "day": 74,
       "week": 11,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 44346,
+      "sha256": "889b953a2543aedd18c093a6e3469ff1f74acc01da416dd05b2d14aa0b60d5ff"
     },
     "936e1f8cd8ce7305d6bf16e9b4f9196a3015327f681c221e73f6d86948c7ab98": {
       "status": "reserved",
