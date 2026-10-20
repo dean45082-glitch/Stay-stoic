@@ -3977,6 +3977,13 @@
       "bytes": 22612,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I've been building this, little by little.": {
+      "file": "audio/7e511f369266d11760dc660634d2bde05875db77d2eaeb62a6a72195e72027d4.mp3",
+      "sha256": "a839b99361945ddf00a660d45e74c41258cb0d6ab7f7643c4b3067ff34fd880d",
+      "bytes": 35151,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

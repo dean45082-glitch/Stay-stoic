@@ -5665,7 +5665,7 @@
       "sha256": "4e6e2d41403611b372bb5603028327f5422fab88c020845cb228ae2437887ba7"
     },
     "7e511f369266d11760dc660634d2bde05875db77d2eaeb62a6a72195e72027d4": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 42,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5674,7 +5674,9 @@
       "original": "I've been building this, little by little.",
       "day": 29,
       "week": 5,
-      "group": "seed"
+      "group": "seed",
+      "bytes": 35151,
+      "sha256": "a839b99361945ddf00a660d45e74c41258cb0d6ab7f7643c4b3067ff34fd880d"
     },
     "36dff03674b2ec5f494e5fad748f3f805e10e7fa03caaaba9f64f28f75cf7088": {
       "status": "reserved",
