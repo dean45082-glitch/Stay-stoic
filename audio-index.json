@@ -4908,6 +4908,13 @@
       "bytes": 27628,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We'll have been working together for a decade.": {
+      "file": "audio/f09eab2b93dc72c274e7863f4ecb346c10d2fb3039a8e1b19f6fbb2d859a6002.mp3",
+      "sha256": "76e7f38082612c602dbac1e128b0fc74fbe90d2be5fc4c7d9cab29d73f8ed476",
+      "bytes": 32225,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

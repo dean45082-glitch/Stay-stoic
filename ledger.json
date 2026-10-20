@@ -7527,7 +7527,7 @@
       "sha256": "9c55866f59e90d8100227f086a3b5440b8048ad5d2bf339b4c27ddf20ff5d2a5"
     },
     "f09eab2b93dc72c274e7863f4ecb346c10d2fb3039a8e1b19f6fbb2d859a6002": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 46,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7536,7 +7536,9 @@
       "original": "We'll have been working together for a decade.",
       "day": 65,
       "week": 10,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 32225,
+      "sha256": "76e7f38082612c602dbac1e128b0fc74fbe90d2be5fc4c7d9cab29d73f8ed476"
     },
     "9161cca09cce0075408f470ea7262ae2bbd8943f8decb08d148fa38021f249d6": {
       "status": "reserved",
