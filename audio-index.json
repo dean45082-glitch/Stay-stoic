@@ -5251,6 +5251,13 @@
       "bytes": 34315,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She must've assumed we already knew.": {
+      "file": "audio/7626c9efc22af4d5db863380b7e0b2789e1074d26f4c095e615f0e5b29e790bb.mp3",
+      "sha256": "adbf6acd91982daeeb50079418cca474217605035fa826a50d223ed2341eacb4",
+      "bytes": 30136,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
