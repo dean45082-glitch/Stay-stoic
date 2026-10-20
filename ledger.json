@@ -8465,7 +8465,7 @@
       "sha256": "efff83e72016711d63ddc93aee5438e49e4d9b70150bdecdce6b946011a46706"
     },
     "e0f8776dc60cc38515a6a0c848b1716cd77073ba5cd615b54a3d676b1e5674de": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 42,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8474,7 +8474,9 @@
       "original": "I shouldn't have expected instant results.",
       "day": 88,
       "week": 13,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 33061,
+      "sha256": "3854232e0e26420cd83384d0996e3049eef60e4bf19c6abc546061f4ef836431"
     },
     "3e88a24ca759577c7be17326787c1ae77840dd70e18ae5f8dfcb1f113bd593ab": {
       "status": "reserved",
