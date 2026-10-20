@@ -5370,6 +5370,13 @@
       "bytes": 45600,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "They should've been able to work their way up without skipping steps.": {
+      "file": "audio/ffdfeedf291ef609d2ede17061d39ab07450489fa32401fdad750554dcf8a7e8.mp3",
+      "sha256": "efff83e72016711d63ddc93aee5438e49e4d9b70150bdecdce6b946011a46706",
+      "bytes": 51452,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

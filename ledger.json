@@ -8451,7 +8451,7 @@
       "sha256": "739e8418d764751c35affb5bd435428947b663b1fedac78831c04a3ab007e5db"
     },
     "ffdfeedf291ef609d2ede17061d39ab07450489fa32401fdad750554dcf8a7e8": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 69,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8460,7 +8460,9 @@
       "original": "They should've been able to work their way up without skipping steps.",
       "day": 87,
       "week": 13,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 51452,
+      "sha256": "efff83e72016711d63ddc93aee5438e49e4d9b70150bdecdce6b946011a46706"
     },
     "e0f8776dc60cc38515a6a0c848b1716cd77073ba5cd615b54a3d676b1e5674de": {
       "status": "reserved",
