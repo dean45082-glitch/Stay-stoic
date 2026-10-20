@@ -5441,7 +5441,7 @@
       "sha256": "df7722de501d22b5a7189017d676c742cf2de5817f6fb74cb95a515ad00a20a4"
     },
     "19b673cc212326232e858fe1ee6eb134a00afeb02ccd86b05e1fccd7e7cbfa74": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 66,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5450,7 +5450,9 @@
       "original": "By the time I'm old, I will have built the life I always pictured.",
       "day": 24,
       "week": 4,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 58975,
+      "sha256": "c984db8564481cc774d534d71b32ea2fb2fabd331079b72cb13adc26e2b1f089"
     },
     "6dd42db7c0725eb88edc54f0ae5bc80124c06356faac9cc05253e34d105707e0": {
       "status": "reserved",
