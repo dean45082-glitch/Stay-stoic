@@ -8524,13 +8524,14 @@
       "completedCredits": 2864
     },
     "2026-10-20-secondary-renewal": {
-      "status": "running",
+      "status": "complete",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style",
       "totalBudget": 10000,
       "usedBefore": 0,
       "estimatedCredits": 9973,
-      "files": 244
+      "files": 244,
+      "completedCredits": 9973
     }
   },
   "voices": {
