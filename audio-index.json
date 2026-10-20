@@ -5062,6 +5062,13 @@
       "bytes": 42674,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "If only I'd let go of that resentment sooner.": {
+      "file": "audio/9bbbc2f01048f62d99128287b916b1b7e53e008f5139db9487eda55d01b18e5f.mp3",
+      "sha256": "baa9541b631cfec152b30d0255ad35e757f49dd48ab0e86b62efab4f05ddb977",
+      "bytes": 40585,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

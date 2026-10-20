@@ -7835,7 +7835,7 @@
       "sha256": "12536225cb8fbbc3ebd6fc3d1286cbfc9d4b61d5910bb08bc5a67e6810cf7acf"
     },
     "9bbbc2f01048f62d99128287b916b1b7e53e008f5139db9487eda55d01b18e5f": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 45,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7844,7 +7844,9 @@
       "original": "If only I'd let go of that resentment sooner.",
       "day": 72,
       "week": 11,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 40585,
+      "sha256": "baa9541b631cfec152b30d0255ad35e757f49dd48ab0e86b62efab4f05ddb977"
     },
     "ee2bffbda6e8ac572e7d00537b1796c4672c29641d30c7f5852ad99efc390a44": {
       "status": "reserved",
