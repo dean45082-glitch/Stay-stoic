@@ -6659,7 +6659,7 @@
       "sha256": "ba4ff40df43ee82f891bf55e91463d21fab260e57d69fe1c059aebc572fde981"
     },
     "f4e955bce6900f1b92a22d6a116fd0e6db8268eecae4c3378e29bb5dac2aba2b": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 47,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6668,7 +6668,9 @@
       "original": "They'll have been chasing consistency all year.",
       "day": 48,
       "week": 7,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 37659,
+      "sha256": "e4cf18699986e25c0267cede505cc21ab4b0b423e6bb3558995d3c3ec400575a"
     },
     "6db2c742b879bb784be4e5cb061406b3993b47ed8d852a7538342e8ba3a4b7d5": {
       "status": "reserved",
