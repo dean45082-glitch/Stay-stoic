@@ -4425,6 +4425,13 @@
       "bytes": 39749,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She'll have been practicing this for a decade.": {
+      "file": "audio/9d2f71c220fbd9b635ea35bb6505277e9009f9e1922ad1bab964fa9cb756e973.mp3",
+      "sha256": "b55dfa877c9971a7451659e9db7cd00f0e75caea7853966cca667b00210ada13",
+      "bytes": 34315,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
