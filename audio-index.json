@@ -4901,6 +4901,13 @@
       "bytes": 35151,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She'll have been waiting patiently.": {
+      "file": "audio/afcab0c1e5872d0b11f172230e96f7c4e1b9439a7234d919a95cce7bdd736938.mp3",
+      "sha256": "9c55866f59e90d8100227f086a3b5440b8048ad5d2bf339b4c27ddf20ff5d2a5",
+      "bytes": 27628,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
