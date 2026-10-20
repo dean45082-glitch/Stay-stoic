@@ -5048,6 +5048,13 @@
       "bytes": 38077,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I'd rather fight for peace than lose myself in the war.": {
+      "file": "audio/c734a1f5882bf3ef11407d8ea75d998dcc0cbdf03f435d8457fdd54e7c16b8b1.mp3",
+      "sha256": "e71236e104aa508b076c0cd5389053604f7cf48b6dce522115a4c9f30b9772dd",
+      "bytes": 43510,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
