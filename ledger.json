@@ -6701,7 +6701,7 @@
       "sha256": "f9af96f749c1c1e75d11a5887d4f9bfbbb85b8727a6fae07ef25efc6f7895fdd"
     },
     "ce1c89323b1a11cd51b3882693fd3ac5c5a87fc4e54f601945ef7fa58da1a306": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 32,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6710,7 +6710,9 @@
       "original": "I can't have done it on purpose.",
       "day": 50,
       "week": 8,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 27628,
+      "sha256": "b1b0f6ee8d0568b3ee4df0244480aec0489f2395dda54197cd4b41003dba7317"
     },
     "994d60c2dbf40985ed8425c2c0d92bd4159cf22e7ba3df2026e87caeea37e61c": {
       "status": "reserved",
