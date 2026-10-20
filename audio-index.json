@@ -4131,6 +4131,13 @@
       "bytes": 31390,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I'd been avoiding the problem.": {
+      "file": "audio/3a7546d68859590f9346450dc05ba0d56e1e1f0a39373b3bec7b184aacf8fe81.mp3",
+      "sha256": "f2a21cc2456d324ca9c9429fb6a4d0395e4434588bd83be8c0de735faabd2b69",
+      "bytes": 27628,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
