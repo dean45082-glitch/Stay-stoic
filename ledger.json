@@ -8381,7 +8381,7 @@
       "sha256": "139dff2aafea2161456a139142c42bc8bc13dad404a83a2a2931d6753fdf80d6"
     },
     "f289fb8c2586274feff4977b98d594c8eac052249789b4617864cc244b779eef": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 56,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8390,7 +8390,9 @@
       "original": "I should've been able to learn from that mistake sooner.",
       "day": 86,
       "week": 13,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 40585,
+      "sha256": "476196c7e5b53493c148aa1313a6cfa92f1ba29c990871dfd10c0d9be7618627"
     },
     "a1e1a7720cec3e38aceda3d4fe5ed72c07050412f4f825110d81889a1e65c7f4": {
       "status": "reserved",

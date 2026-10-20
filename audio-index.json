@@ -5335,6 +5335,13 @@
       "bytes": 44764,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I should've been able to learn from that mistake sooner.": {
+      "file": "audio/f289fb8c2586274feff4977b98d594c8eac052249789b4617864cc244b779eef.mp3",
+      "sha256": "476196c7e5b53493c148aa1313a6cfa92f1ba29c990871dfd10c0d9be7618627",
+      "bytes": 40585,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
