@@ -5307,6 +5307,13 @@
       "bytes": 40585,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I'm still working my way up — one step at a time.": {
+      "file": "audio/e0b38c2d6c6f1265c9645b1ddd74bfb077f165dc54ae658becfd62bc6152e670.mp3",
+      "sha256": "f95a9cc574098e56f5371ae96c44adb910a724e8361b0c96ffd9e46b22235dbf",
+      "bytes": 47272,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
