@@ -5272,6 +5272,13 @@
       "bytes": 34315,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "You shouldn't have gotten upset about that.": {
+      "file": "audio/5f41c1809e4c0f0585a329843d422c2e4b0f21df697ae2164f694e42c1fbe0b6.mp3",
+      "sha256": "537b015e6f9815aa2146e992e9af0767887294afbe04c653e4c7708323617999",
+      "bytes": 30136,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
