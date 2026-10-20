@@ -4488,6 +4488,13 @@
       "bytes": 32225,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I can't have known the whole truth.": {
+      "file": "audio/17f68eb162d6cffcb4a19b2f1059e1bf0a14bc312f17afb7f8f2ea1b1d7c0162.mp3",
+      "sha256": "f9af96f749c1c1e75d11a5887d4f9bfbbb85b8727a6fae07ef25efc6f7895fdd",
+      "bytes": 28464,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

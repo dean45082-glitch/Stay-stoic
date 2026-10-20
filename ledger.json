@@ -6687,7 +6687,7 @@
       "sha256": "906d42538b03ab48dd55a12dd1e7a57066bcd1f6270b22a40ed074d661af697b"
     },
     "17f68eb162d6cffcb4a19b2f1059e1bf0a14bc312f17afb7f8f2ea1b1d7c0162": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 35,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6696,7 +6696,9 @@
       "original": "I can't have known the whole truth.",
       "day": 50,
       "week": 8,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 28464,
+      "sha256": "f9af96f749c1c1e75d11a5887d4f9bfbbb85b8727a6fae07ef25efc6f7895fdd"
     },
     "ce1c89323b1a11cd51b3882693fd3ac5c5a87fc4e54f601945ef7fa58da1a306": {
       "status": "reserved",
