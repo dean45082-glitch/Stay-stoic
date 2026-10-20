@@ -5679,7 +5679,7 @@
       "sha256": "a839b99361945ddf00a660d45e74c41258cb0d6ab7f7643c4b3067ff34fd880d"
     },
     "36dff03674b2ec5f494e5fad748f3f805e10e7fa03caaaba9f64f28f75cf7088": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 38,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5688,7 +5688,9 @@
       "original": "You've been thinking about it all day.",
       "day": 30,
       "week": 5,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 27210,
+      "sha256": "b016988fb92f00e8b88a704a92303bba432387a4e95da97b6333ee5a91c46872"
     },
     "20199f568118d2eaf2cefdfca095527019a33fc99d596507ffe7fc708e3ff0ea": {
       "status": "reserved",
