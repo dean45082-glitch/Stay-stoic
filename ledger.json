@@ -7205,7 +7205,7 @@
       "sha256": "03c326ba0c5617a23d471216420cc2dda8fb1a664ca6aa2bfc2d7edfdcfb3208"
     },
     "f5a9cfda45429804f278c4d71ae8cb643f5cc009a826987c7bbaff6dce91eaaa": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 37,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7214,7 +7214,9 @@
       "original": "They might not have seen the message.",
       "day": 58,
       "week": 9,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 30136,
+      "sha256": "d6042a8676e0281b76d252d5999a9cb52a1df63eb61a3ff17dc6cae4107197d2"
     },
     "62a8138473d9af5cedf1ea43997124dc59b0a8c27ddc30ab3dabd6ed12ccd799": {
       "status": "reserved",
