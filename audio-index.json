@@ -4922,6 +4922,13 @@
       "bytes": 28464,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "He'll have been waiting a long time.": {
+      "file": "audio/4590993b4dd9adfc9ff3e14f248c34747d63137b2f4cdb056d10d83a0f3224c0.mp3",
+      "sha256": "93f55439c2cb0e0a4d3611fca8405e70538b7f2fb8146e70ef3f1bafcfd70b32",
+      "bytes": 31390,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
