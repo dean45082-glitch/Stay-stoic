@@ -4327,6 +4327,13 @@
       "bytes": 61065,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We'll have been putting up with a lot by then.": {
+      "file": "audio/5dd9a2467877336b0141afb67480403c0274c57c8e4cda7eef8339d8852d66e5.mp3",
+      "sha256": "d17c7357fcdee576be57d2992462b48c36cdf23a95b2c828d668f2e336266a0c",
+      "bytes": 35151,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
