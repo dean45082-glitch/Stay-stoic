@@ -4971,6 +4971,13 @@
       "bytes": 31390,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We'll have been saving up for months.": {
+      "file": "audio/f30c8f7222637035a4ecaa69d7528819d210d58815ce4b683b787e988d02f385.mp3",
+      "sha256": "26e04a7e90657cbc74b94ab35d056c0f736066e8eab357c2b09d51e90d705882",
+      "bytes": 31390,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
