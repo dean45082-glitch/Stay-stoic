@@ -5286,6 +5286,13 @@
       "bytes": 30136,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She should've been able to prove herself under pressure.": {
+      "file": "audio/3becdbb4fa3b5899bf5e5dcf60cace8643d05bf93dd6fdc6e9eac9a9573d56c4.mp3",
+      "sha256": "47a6b7fe910406e8f49a8e975c249ef2890e29647f8b9fd99a7507ba905b5a2a",
+      "bytes": 38913,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

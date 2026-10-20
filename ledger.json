@@ -8283,7 +8283,7 @@
       "sha256": "78782bc7a55e8cc82e0a7ecd38c4cb8e09233f61bdfda575493e91b28e1ce536"
     },
     "3becdbb4fa3b5899bf5e5dcf60cace8643d05bf93dd6fdc6e9eac9a9573d56c4": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 56,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8292,7 +8292,9 @@
       "original": "She should've been able to prove herself under pressure.",
       "day": 85,
       "week": 13,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 38913,
+      "sha256": "47a6b7fe910406e8f49a8e975c249ef2890e29647f8b9fd99a7507ba905b5a2a"
     },
     "84997df42c40877a535017af5ce4b18406a19eb094e928c65eb0090b6fa3ca27": {
       "status": "reserved",
