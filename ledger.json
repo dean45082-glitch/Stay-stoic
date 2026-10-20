@@ -7289,7 +7289,7 @@
       "sha256": "ee467d955d12a0c0d174a7d8c2ceaca4a1ace9e663537915b35036e36a701809"
     },
     "f40d7f802dbfc9483fadeb9114736bed9110355cc64fb49bb4f4e6e38ad76fa1": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 44,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7298,7 +7298,9 @@
       "original": "She might not have understood the situation.",
       "day": 60,
       "week": 9,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 38077,
+      "sha256": "f9221efd6654320eca50bfe7bf9b933881bcbf107f2c63882c560d20a42b35cf"
     },
     "7d272a6bd68cc12ab17442dacde10e774c0d696e77653402dd680930d6d4b552": {
       "status": "reserved",
