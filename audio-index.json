@@ -4250,6 +4250,13 @@
       "bytes": 33061,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She'd been avoiding the problem.": {
+      "file": "audio/c8c1bc4eb57e68b06a80c654807b93eddacb524cef2c7a18dffe8b7ee901519d.mp3",
+      "sha256": "521bd8c41191729873c1488089c0fcc2db0854925c025b98db0dd9e55b55415d",
+      "bytes": 30972,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

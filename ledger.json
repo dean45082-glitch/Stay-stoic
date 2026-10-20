@@ -6211,7 +6211,7 @@
       "sha256": "6c470f08e9c0ecfa4d191e8883cb16bbad630c14a103a616a7fdb9f0bc29eb29"
     },
     "c8c1bc4eb57e68b06a80c654807b93eddacb524cef2c7a18dffe8b7ee901519d": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 32,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6220,7 +6220,9 @@
       "original": "She'd been avoiding the problem.",
       "day": 39,
       "week": 6,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 30972,
+      "sha256": "521bd8c41191729873c1488089c0fcc2db0854925c025b98db0dd9e55b55415d"
     },
     "9fb396ca7cf22f4c8431eaa74dd936aa23dec7c909b9ae11aab4600b17df92c0": {
       "status": "reserved",
