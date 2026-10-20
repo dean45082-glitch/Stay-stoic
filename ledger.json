@@ -6393,7 +6393,7 @@
       "sha256": "31a2788ceefaeca2f8a1b56b23b67fd8e7f85c89aae544950d7d8ed02ee799c7"
     },
     "302b7c6c299f4c860acdd7a9243200045892e6025b565be34a28b3aa7ec00494": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 48,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6402,7 +6402,9 @@
       "original": "By then, I'll have been building this for years.",
       "day": 43,
       "week": 7,
-      "group": "seed"
+      "group": "seed",
+      "bytes": 38913,
+      "sha256": "c608990fae4b147d5db89e6a1d318cf4f33dcc9b3f5245bc4e1902cfa5a4ce4e"
     },
     "ffe0bd574dfc71fac505c070f1af45496cf6838f80512314bf3094ead9fa9385": {
       "status": "reserved",
