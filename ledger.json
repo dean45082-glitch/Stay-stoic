@@ -6099,7 +6099,7 @@
       "sha256": "0ceccf9512922cdbdb86f42ba513f320f6eb9b84867a3f0149c3f7b20b7df7a0"
     },
     "6a5df8516be85bd829d2c2a3491f5c7589978b1d158cac9de993d47aacf1f50f": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 51,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6108,7 +6108,9 @@
       "original": "I'd been going back and forth in my head for hours.",
       "day": 37,
       "week": 6,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 46436,
+      "sha256": "71b42ab699028506262d831c3c783db5fcb4abd9ce4ddf4050a8aa1fc5cdedd6"
     },
     "ec83b3e10805f4362f7a24ed9fd99db484ec6beb6cf181f153766a5956db812f": {
       "status": "reserved",
