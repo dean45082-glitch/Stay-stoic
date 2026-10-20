@@ -6337,7 +6337,7 @@
       "sha256": "799439769381933aa242c1c12b35b78fb539fe04094d35952a3c304545ad8b30"
     },
     "87d9b63633ac7be4736a88f829f9bb728126eea055b21702ce8d92cef83043fc": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 44,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6346,7 +6346,9 @@
       "original": "I'll have been chasing consistency all year.",
       "day": 43,
       "week": 7,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 35987,
+      "sha256": "6165d0919ef130edd7166d6fbe93f5cb4fcf262b51e48492edb5176b6fa59f74"
     },
     "9c6484a23582a9bafea0ef567f8a917709f3bc16e57a263dfcc181d940c0ea87": {
       "status": "reserved",
