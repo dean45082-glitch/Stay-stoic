@@ -5188,6 +5188,13 @@
       "bytes": 37659,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "That outcome must've seemed inevitable.": {
+      "file": "audio/175d85cd076321ca9f0ac69b319882413dae61a290ee600c7a952837d1c84866.mp3",
+      "sha256": "6d3dc10bc1f6f43233a6abc92ccaa4b7ace3d13c04fc3d5c5721e6825e5d1fb8",
+      "bytes": 33897,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

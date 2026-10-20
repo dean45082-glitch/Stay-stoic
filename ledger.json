@@ -8087,7 +8087,7 @@
       "sha256": "641120ddc3a3a71a6d7421b6191c70555e6e4b38c429ceda320e109367915516"
     },
     "175d85cd076321ca9f0ac69b319882413dae61a290ee600c7a952837d1c84866": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 39,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8096,7 +8096,9 @@
       "original": "That outcome must've seemed inevitable.",
       "day": 79,
       "week": 12,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 33897,
+      "sha256": "6d3dc10bc1f6f43233a6abc92ccaa4b7ace3d13c04fc3d5c5721e6825e5d1fb8"
     },
     "e69b17e917b5f647ecbabcd18ec502998d5f75a6498a692958007ebaf1b1636f": {
       "status": "reserved",
