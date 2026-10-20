@@ -6813,7 +6813,7 @@
       "sha256": "7449e25ed572567f0cf2a522510a26e9e145a0625e18ab1199742604c999eb1d"
     },
     "d0b911448286757c9ba9492be3f04c86372d3bf0a10930aa1bf1949ad4509f4a": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 33,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6822,7 +6822,9 @@
       "original": "She could've handled that better.",
       "day": 51,
       "week": 8,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 24284,
+      "sha256": "72f5f98cf41d39278420c30edbc4cdc5695be19d995ad3f2509fc9f0d3f2fafe"
     },
     "aeee5db22cbd65666be15ab3dffd8e8989426f79bb6b224b437e70aab995fa0c": {
       "status": "reserved",

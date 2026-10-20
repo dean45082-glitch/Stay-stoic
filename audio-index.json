@@ -4551,6 +4551,13 @@
       "bytes": 27210,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She could've handled that better.": {
+      "file": "audio/d0b911448286757c9ba9492be3f04c86372d3bf0a10930aa1bf1949ad4509f4a.mp3",
+      "sha256": "72f5f98cf41d39278420c30edbc4cdc5695be19d995ad3f2509fc9f0d3f2fafe",
+      "bytes": 24284,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
