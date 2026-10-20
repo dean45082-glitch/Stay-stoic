@@ -3718,6 +3718,13 @@
       "bytes": 22612,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We'd decided before they talked.": {
+      "file": "audio/adfcd41095e29d79df28b6c907c37bb8388ea2bb019931618d05043b3b024cd6.mp3",
+      "sha256": "c1c85059508968f61dc3fa5912424b789fab2229462cefb3a7d65cd9a98b44e4",
+      "bytes": 33061,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
