@@ -5399,7 +5399,7 @@
       "sha256": "a3f45abffb0a981188bed0eb9436dd7c319336e2e0bb31de699c78a781563442"
     },
     "a0dffc06f1dff8d807469f3c4ae74a57c9ff4d55ebab7c32d37e2313298c0b39": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 50,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5408,7 +5408,9 @@
       "original": "By the time you arrive, I'll have reflected on it.",
       "day": 23,
       "week": 4,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 36823,
+      "sha256": "818ac055d06c53bbdf0997c82af2f178ae2221cbeae5db82e070dfd1a37e7fe8"
     },
     "a755e345815b8e8ef38e067826635db4a060a672ae04352977bc61b7ecefc8f0": {
       "status": "reserved",
