@@ -5161,7 +5161,7 @@
       "sha256": "c1c85059508968f61dc3fa5912424b789fab2229462cefb3a7d65cd9a98b44e4"
     },
     "0d94d8fd7b37bc63ed0990842cddecc05f093374ac4c4e7c77913caba91a2919": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 28,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5170,7 +5170,9 @@
       "original": "We'd left when they arrived.",
       "day": 19,
       "week": 3,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 24702,
+      "sha256": "0304c1ca370614d5834c7cc15b4a45113892cb1840a5a2b6b2198f3f4af5d698"
     },
     "45247fbda9591fa8c2c2c87eef325fe910d877cd9dcf55f8aca00ff77f434f02": {
       "status": "reserved",
