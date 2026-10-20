@@ -4222,6 +4222,13 @@
       "bytes": 30136,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "They'd been spiraling out of control for weeks.": {
+      "file": "audio/fec57f653756d5d5a9b62d6a2816041e4b9bec8ead0000f0ac024b89f562cf01.mp3",
+      "sha256": "236327a2d4149262a718842266d468cfcb9d88cbd851090a239fcccd406cf7c7",
+      "bytes": 38077,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
