@@ -4,8 +4,8 @@ const {execFileSync}=require('node:child_process');
 
 const OLD_VOICE_ID='WbNN0ZquKxio6sawH5yC';
 const SECONDARY_VOICE_ID='VcxTwjcCv1kVfys2U7LT';
-const TOTAL_BUDGET=2981;
-const BATCH_ID='2026-10-secondary-1';
+const TOTAL_BUDGET=10000;
+const BATCH_ID='2026-10-20-secondary-renewal';
 const profile={voiceId:SECONDARY_VOICE_ID,modelId:'eleven_multilingual_v2',format:'mp3_44100_128',settings:{stability:0.5,similarity_boost:0.75,style:0,use_speaker_boost:true,speed:1}};
 const edits={'Discuss something (nunca "discuss about")':'Discuss something','Comes in (para productos)':'Comes in',"That's funny (irónico)":"That's funny",'wanna = want to':'Wanna. Want to.','gotta = have got to':'Gotta. Have got to.','gonna = going to':'Gonna. Going to.','(To be/get) off on the wrong foot':'To get off on the wrong foot','A drop in the bucket/ocean':'A drop in the bucket','although / though':'Although. Though.','what if...':'What if?'};
 const deferred=new Set(['(To) beat','Are we still on for...?', "I'd rather... than..."]);
@@ -38,7 +38,7 @@ function readStore(store){
 }
 
 function usedSecondaryCredits(ledger){
- return Object.values(ledger.entries||{}).filter(r=>r.voiceId===SECONDARY_VOICE_ID||String(r.batch||'').startsWith('2026-10-secondary')).reduce((n,r)=>n+(Number(r.estimatedCredits)||0),0);
+ return Object.values(ledger.entries||{}).filter(r=>r.batch===BATCH_ID).reduce((n,r)=>n+(Number(r.estimatedCredits)||0),0);
 }
 
 function plan(root,store){
