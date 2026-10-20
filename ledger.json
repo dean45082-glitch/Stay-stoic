@@ -6855,7 +6855,7 @@
       "sha256": "be08dfd5330159640693772feaa760c99f07c5a12c861bbf90cccd8cd56ac530"
     },
     "aee5973c7d2be60415c4dcf03fbdab07bf1291bf2cc7f2958f85f52ffa209aef": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 35,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6864,7 +6864,9 @@
       "original": "He can't have meant that seriously.",
       "day": 52,
       "week": 8,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 33897,
+      "sha256": "21512039ad65f11a9bf324480b7dfe700722119881a761e562e96058324b135d"
     },
     "9b2a92eb68d68d791d0f2422ad1c3945188cf049f7b917733fd2d399ccad710c": {
       "status": "reserved",
