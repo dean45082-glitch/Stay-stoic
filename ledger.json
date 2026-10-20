@@ -7429,7 +7429,7 @@
       "sha256": "dba06d71c0c2e61587817a859de792d0d1530f7d4c6c66b22b33f876fecba592"
     },
     "40f156d423213da86b8081e7fa815c46241991f8c2ffd9957476fbc518be5d56": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 40,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7438,7 +7438,9 @@
       "original": "I'll have been learning for a long time.",
       "day": 64,
       "week": 10,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 33897,
+      "sha256": "292c69217fbc8260532465ceb36faa4f6483363d99e596c62f54686caf853ac2"
     },
     "7f99dacaa23536476e03fc24765503c72be8abad4e2a6302862dc2344ead3e16": {
       "status": "reserved",
