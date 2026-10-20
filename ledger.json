@@ -8227,7 +8227,7 @@
       "sha256": "adbf6acd91982daeeb50079418cca474217605035fa826a50d223ed2341eacb4"
     },
     "ab162a88fe839b389566dcd41f11e900488b16f502903b359d3103f8367242e1": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 38,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8236,7 +8236,9 @@
       "original": "Our deduction must've been incomplete.",
       "day": 81,
       "week": 12,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 30136,
+      "sha256": "2b46e7bcef2bb4e6230cc5f75ae495ab39a79951bf80013faabdfedaabe03b39"
     },
     "00ef3ac80a78d065e53c4ac4644bb14e58072d952183779125045892eae2c62b": {
       "status": "reserved",

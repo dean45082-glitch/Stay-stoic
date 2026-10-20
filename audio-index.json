@@ -5258,6 +5258,13 @@
       "bytes": 30136,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "Our deduction must've been incomplete.": {
+      "file": "audio/ab162a88fe839b389566dcd41f11e900488b16f502903b359d3103f8367242e1.mp3",
+      "sha256": "2b46e7bcef2bb4e6230cc5f75ae495ab39a79951bf80013faabdfedaabe03b39",
+      "bytes": 30136,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
