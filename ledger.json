@@ -7065,7 +7065,7 @@
       "sha256": "504595614760843d8abfd72776a2a1015124f7e373c003a64b8aa3696681fb33"
     },
     "bdf8d7defb3924fce908cbdb8df6044f97da8f40d5ca9825e7d20f612243afd4": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 38,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7074,7 +7074,9 @@
       "original": "I might not have realized the mistake.",
       "day": 57,
       "week": 9,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 33061,
+      "sha256": "013a2f10875f5babd5c4dac4014ebabdf56c0b975bdac258703b73fb297a578a"
     },
     "8bb2769b26fa662503761046a28191dc79ed0b70478c8df00cf17292e5f709a9": {
       "status": "reserved",
