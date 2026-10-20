@@ -6477,7 +6477,7 @@
       "sha256": "f273b45b997ba2b7b6f322b60febb087e2d54a8ee248f1436ccdbd6661caf28c"
     },
     "978166d101bea0d06270152fba3df1e70e2a69989adaa62f98099c91c6839b5b": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 48,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6486,7 +6486,9 @@
       "original": "By then, we'll have been building this together.",
       "day": 44,
       "week": 7,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 36823,
+      "sha256": "afe293afdab5ead1d700ee2c7b742918683936140bc583c490ee98448bf0d94a"
     },
     "00f497e487c533a12e45459a7b09b1cae3b7d1f5299d2ef7ef9bbb6a6b00f314": {
       "status": "reserved",

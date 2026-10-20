@@ -4383,6 +4383,13 @@
       "bytes": 40585,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "By then, we'll have been building this together.": {
+      "file": "audio/978166d101bea0d06270152fba3df1e70e2a69989adaa62f98099c91c6839b5b.mp3",
+      "sha256": "afe293afdab5ead1d700ee2c7b742918683936140bc583c490ee98448bf0d94a",
+      "bytes": 36823,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
