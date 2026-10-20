@@ -5363,6 +5363,13 @@
       "bytes": 34315,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "You should've been able to prove your progress through actions.": {
+      "file": "audio/119d25065cad9bd041446e796410c2f8658b0d660b551b1fa2e40025e5598fa1.mp3",
+      "sha256": "739e8418d764751c35affb5bd435428947b663b1fedac78831c04a3ab007e5db",
+      "bytes": 45600,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

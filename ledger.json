@@ -8437,7 +8437,7 @@
       "sha256": "0f2ac5fa5f34aad1e7d8c248bb3116145eb385995da3ce524a41919a538a7065"
     },
     "119d25065cad9bd041446e796410c2f8658b0d660b551b1fa2e40025e5598fa1": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 63,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8446,7 +8446,9 @@
       "original": "You should've been able to prove your progress through actions.",
       "day": 87,
       "week": 13,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 45600,
+      "sha256": "739e8418d764751c35affb5bd435428947b663b1fedac78831c04a3ab007e5db"
     },
     "ffdfeedf291ef609d2ede17061d39ab07450489fa32401fdad750554dcf8a7e8": {
       "status": "reserved",
