@@ -8003,7 +8003,7 @@
       "sha256": "f39bd2678557a0ac658d1c86310a302d4c5fe90c6193dace446022f1e1ce3024"
     },
     "f709f914deba496c9048cb8752008073757eb36d5fdec0ae9caea6ca7dda01a3": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 43,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8012,7 +8012,9 @@
       "original": "I must've looked more upset than I thought.",
       "day": 78,
       "week": 12,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 34315,
+      "sha256": "d8632d140947b567082599cb54a4a33ca79a56be9ce666d48e28046a5dd6bc8c"
     },
     "3678a999fdf790751e62c72ef3e61c329b9a5c5d8a1bf50b0dc18f9068cdb4af": {
       "status": "reserved",
