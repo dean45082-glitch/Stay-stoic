@@ -4229,6 +4229,13 @@
       "bytes": 38077,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I had been struggling with anger before I discovered Stoicism.": {
+      "file": "audio/c3d82cba08addc7ad3c702c45fd68e61b5e30e4bc22f4d5e84add67edd23d5e8.mp3",
+      "sha256": "ebc8dc5916d7376c7f1778d98de7c71b1eafb6216ba655e7fcadb5787cfd8d34",
+      "bytes": 47272,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
