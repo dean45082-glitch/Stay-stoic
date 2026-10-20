@@ -8395,7 +8395,7 @@
       "sha256": "476196c7e5b53493c148aa1313a6cfa92f1ba29c990871dfd10c0d9be7618627"
     },
     "a1e1a7720cec3e38aceda3d4fe5ed72c07050412f4f825110d81889a1e65c7f4": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 48,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8404,7 +8404,9 @@
       "original": "He should've been able to earn the team's trust.",
       "day": 86,
       "week": 13,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 39749,
+      "sha256": "ca7f875d84c511e59a50feed5871fe9eee401098ecb915603f0acdc5fa61d180"
     },
     "372dc8625eaf9e167897bc1a02d8144134f21847321f8e1a9497e82e06a25103": {
       "status": "reserved",

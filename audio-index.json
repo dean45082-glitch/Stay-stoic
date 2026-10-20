@@ -5342,6 +5342,13 @@
       "bytes": 40585,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "He should've been able to earn the team's trust.": {
+      "file": "audio/a1e1a7720cec3e38aceda3d4fe5ed72c07050412f4f825110d81889a1e65c7f4.mp3",
+      "sha256": "ca7f875d84c511e59a50feed5871fe9eee401098ecb915603f0acdc5fa61d180",
+      "bytes": 39749,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
