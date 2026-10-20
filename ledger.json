@@ -7191,7 +7191,7 @@
       "sha256": "4d405b3ca0f8ee196a14515054da5e13da71f8c6cf4850ba68c8834b23d03bdb"
     },
     "b9ef91f44587fd8f9a25bf5f0376d4b9f75954f01a276271e73d25d3048e3488": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 27,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7200,7 +7200,9 @@
       "original": "It may have been a mistake.",
       "day": 58,
       "week": 9,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 23448,
+      "sha256": "03c326ba0c5617a23d471216420cc2dda8fb1a664ca6aa2bfc2d7edfdcfb3208"
     },
     "f5a9cfda45429804f278c4d71ae8cb643f5cc009a826987c7bbaff6dce91eaaa": {
       "status": "reserved",
