@@ -5265,6 +5265,13 @@
       "bytes": 30136,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I should've been able to figure it out alone.": {
+      "file": "audio/00ef3ac80a78d065e53c4ac4644bb14e58072d952183779125045892eae2c62b.mp3",
+      "sha256": "fe27d0c88bea36036c42a412339361d135ca2d6c7cb3a981d9503172964322ef",
+      "bytes": 34315,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
