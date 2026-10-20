@@ -4558,6 +4558,13 @@
       "bytes": 24284,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "It can't have been that bad.": {
+      "file": "audio/aeee5db22cbd65666be15ab3dffd8e8989426f79bb6b224b437e70aab995fa0c.mp3",
+      "sha256": "f95e063dd4369a05354987eda73f7ba66731f619e8bd4c1d141246d7891c459e",
+      "bytes": 22612,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
