@@ -4271,6 +4271,13 @@
       "bytes": 29300,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We'd been avoiding the problem.": {
+      "file": "audio/3806ec0ab6e0ef47711e35a73614828ad30d113a8d27b8675d803b450e14cdfc.mp3",
+      "sha256": "3317828aa80c8983ac1dc01a2ceb18b517a93d75eb7b287d61df5e7fa0b30b2f",
+      "bytes": 27210,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
