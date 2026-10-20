@@ -6029,7 +6029,7 @@
       "sha256": "8a59cf45afd6a96c0143c02d242651611501fcbb30e17e834ce06ae55cdc9094"
     },
     "03d5bb23c1fc4b806c571e26f8a90f99952ec38d17b8aa2ce530797898187b2e": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 48,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6038,7 +6038,9 @@
       "original": "I'd been losing my cool for weeks — not anymore.",
       "day": 36,
       "week": 6,
-      "group": "seed"
+      "group": "seed",
+      "bytes": 51034,
+      "sha256": "a7fdd96fb295a6310a0e65f330c2f18819429a945049ca2febf2738f390141fd"
     },
     "7fecb852a82873a1c0573383bc27f78da5226779c42bdc550dc2c0a71c9d3105": {
       "status": "reserved",

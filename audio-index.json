@@ -4159,6 +4159,13 @@
       "bytes": 30972,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I'd been losing my cool for weeks — not anymore.": {
+      "file": "audio/03d5bb23c1fc4b806c571e26f8a90f99952ec38d17b8aa2ce530797898187b2e.mp3",
+      "sha256": "a7fdd96fb295a6310a0e65f330c2f18819429a945049ca2febf2738f390141fd",
+      "bytes": 51034,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
