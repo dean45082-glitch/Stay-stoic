@@ -5391,6 +5391,13 @@
       "bytes": 41003,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We should've been able to see that difficulty as part of the process.": {
+      "file": "audio/acec54bfd692b8708caf21ac120ccc40c1c87589de9888b6c1824f874995134d.mp3",
+      "sha256": "b7c782a232e356440fb792351f23558cea2fd2c18628beb23400437724c76c2c",
+      "bytes": 54377,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
