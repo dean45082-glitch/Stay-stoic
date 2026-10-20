@@ -8409,7 +8409,7 @@
       "sha256": "ca7f875d84c511e59a50feed5871fe9eee401098ecb915603f0acdc5fa61d180"
     },
     "372dc8625eaf9e167897bc1a02d8144134f21847321f8e1a9497e82e06a25103": {
-      "status": "reserved",
+      "status": "in_flight",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 58,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
