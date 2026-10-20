@@ -5861,7 +5861,7 @@
       "sha256": "c404662ec4e7ff97dbd192c6e6886fc1523d965634d6f1892b219bd359752ca8"
     },
     "a68d15d963e5b6c01a0b8e1a5a3a0cb384151e7c06926f3ce4f68415f638692e": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 38,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5870,7 +5870,9 @@
       "original": "We've been improving little by little.",
       "day": 32,
       "week": 5,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 31390,
+      "sha256": "5fae8b91931e9e572853e82da7b96fea7c5c55fa2032f3d86a87258a42df4d55"
     },
     "8481900a457c1bc377c55f047ef99600a7ca7d197fdf5e74a95d72437359f663": {
       "status": "reserved",

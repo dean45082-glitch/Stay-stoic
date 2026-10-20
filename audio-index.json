@@ -4075,6 +4075,13 @@
       "bytes": 26374,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We've been improving little by little.": {
+      "file": "audio/a68d15d963e5b6c01a0b8e1a5a3a0cb384151e7c06926f3ce4f68415f638692e.mp3",
+      "sha256": "5fae8b91931e9e572853e82da7b96fea7c5c55fa2032f3d86a87258a42df4d55",
+      "bytes": 31390,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
