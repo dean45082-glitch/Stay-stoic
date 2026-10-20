@@ -6715,7 +6715,7 @@
       "sha256": "b1b0f6ee8d0568b3ee4df0244480aec0489f2395dda54197cd4b41003dba7317"
     },
     "994d60c2dbf40985ed8425c2c0d92bd4159cf22e7ba3df2026e87caeea37e61c": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 26,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6724,7 +6724,9 @@
       "original": "That can't have been easy.",
       "day": 50,
       "week": 8,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 20941,
+      "sha256": "f0a89f7f32404e76dd3a134e3df7c048bbdacf491a08046fbefd2f06f81ec37e"
     },
     "7d5ee34c1ddb54b601a9d1efad16675dcf65a56d3a1e2fb1ff5b5298591d209d": {
       "status": "reserved",
