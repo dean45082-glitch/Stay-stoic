@@ -5139,6 +5139,13 @@
       "bytes": 44346,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "That must've been rough.": {
+      "file": "audio/936e1f8cd8ce7305d6bf16e9b4f9196a3015327f681c221e73f6d86948c7ab98.mp3",
+      "sha256": "f39bd2678557a0ac658d1c86310a302d4c5fe90c6193dace446022f1e1ce3024",
+      "bytes": 21776,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
