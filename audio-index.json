@@ -3781,6 +3781,13 @@
       "bytes": 30136,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "By the end of the day, I will have accepted what I couldn't control.": {
+      "file": "audio/7d37ff39f1942269b52f9d929eefac5eac95d2d8f020ba2537b07da60dddca62.mp3",
+      "sha256": "1a4611f0eb5d99146b7e1a2dced77f83a7c18107d099f6f6a16697fcf7f1f33d",
+      "bytes": 54377,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

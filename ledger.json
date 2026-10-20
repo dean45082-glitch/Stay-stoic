@@ -5273,7 +5273,7 @@
       "sha256": "18d9d2ac768e9b8b1b0f4984dba4e631d354ca2889d90bffb076977c88e69f3d"
     },
     "7d37ff39f1942269b52f9d929eefac5eac95d2d8f020ba2537b07da60dddca62": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 68,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5282,7 +5282,9 @@
       "original": "By the end of the day, I will have accepted what I couldn't control.",
       "day": 22,
       "week": 4,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 54377,
+      "sha256": "1a4611f0eb5d99146b7e1a2dced77f83a7c18107d099f6f6a16697fcf7f1f33d"
     },
     "c8c9085c1e7cd80c5d84f4420ea78f17f9063ef761fa64939363bb0b90ef04f2": {
       "status": "reserved",
