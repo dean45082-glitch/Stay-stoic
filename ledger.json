@@ -7849,7 +7849,7 @@
       "sha256": "baa9541b631cfec152b30d0255ad35e757f49dd48ab0e86b62efab4f05ddb977"
     },
     "ee2bffbda6e8ac572e7d00537b1796c4672c29641d30c7f5852ad99efc390a44": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 59,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7858,7 +7858,9 @@
       "original": "I would've reacted differently if I'd had more perspective.",
       "day": 72,
       "week": 11,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 44764,
+      "sha256": "ca858762e73cbbe39e08c43994d5831c49db58925968fdeac0a66c26ce6685f1"
     },
     "a3293b5171fb59f189ecdf8d992da4cf5011754bcc4fabdcac1285718a2b4fd4": {
       "status": "reserved",
