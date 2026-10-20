@@ -4705,6 +4705,13 @@
       "bytes": 24702,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "It might not be easy, but I must accept it.": {
+      "file": "audio/71a5296601006f27cf7761a920d78044c753e34251dc5396f32fb257173109e4.mp3",
+      "sha256": "21c5e2f68336974ca98bce48181e8a404452c92627e38bad1ec03832400affbf",
+      "bytes": 34315,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
