@@ -5167,6 +5167,13 @@
       "bytes": 43510,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We must've mistaken certainty for a simple assumption.": {
+      "file": "audio/4220ed656827a56276453ce4112e10ff9ca36f8706de59447213d31172092913.mp3",
+      "sha256": "0b4a2def036ca72e6e9645db4cd245fe53284209e57e43b411abfe1e8fdcd4bb",
+      "bytes": 46436,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

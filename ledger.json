@@ -8045,7 +8045,7 @@
       "sha256": "e1734a3db360638580167535bee46a84df775594e42681e4315b1cf9df2394e9"
     },
     "4220ed656827a56276453ce4112e10ff9ca36f8706de59447213d31172092913": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 54,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8054,7 +8054,9 @@
       "original": "We must've mistaken certainty for a simple assumption.",
       "day": 78,
       "week": 12,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 46436,
+      "sha256": "0b4a2def036ca72e6e9645db4cd245fe53284209e57e43b411abfe1e8fdcd4bb"
     },
     "ece5af993632bb79c459adbe731863f0884c24f377f1b441d6d9870954993055": {
       "status": "reserved",
