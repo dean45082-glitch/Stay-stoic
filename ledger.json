@@ -5371,7 +5371,7 @@
       "sha256": "63000a2ba4bcbae805d6595a55c854e391855312c6fc5d8d12688ae862bc340b"
     },
     "c7ef15c0dd399c54330d77eb491bae0a00a827b3c12a1a257fa643a51620679f": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 41,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5380,7 +5380,9 @@
       "original": "We'll have worked this out before Friday.",
       "day": 23,
       "week": 4,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 32225,
+      "sha256": "3b91e02b3ad33d320252b5942ad08d328462a715a1c326ef7ab502ed733813ed"
     },
     "82bba41c8a33aa09a5efd7365b9170669e7d0a8bff2ef9f72cc3e5ceec427a45": {
       "status": "reserved",

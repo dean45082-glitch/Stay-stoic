@@ -3830,6 +3830,13 @@
       "bytes": 30972,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We'll have worked this out before Friday.": {
+      "file": "audio/c7ef15c0dd399c54330d77eb491bae0a00a827b3c12a1a257fa643a51620679f.mp3",
+      "sha256": "3b91e02b3ad33d320252b5942ad08d328462a715a1c326ef7ab502ed733813ed",
+      "bytes": 32225,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
