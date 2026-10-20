@@ -5384,6 +5384,13 @@
       "bytes": 33061,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "He should've been able to prove he'd earned his place.": {
+      "file": "audio/3e88a24ca759577c7be17326787c1ae77840dd70e18ae5f8dfcb1f113bd593ab.mp3",
+      "sha256": "324e3d6f1df939305ef51b4eab95a043aa728d5c98819417266c3f9b1cf6d9cf",
+      "bytes": 41003,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

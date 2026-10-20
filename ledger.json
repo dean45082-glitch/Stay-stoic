@@ -8479,7 +8479,7 @@
       "sha256": "3854232e0e26420cd83384d0996e3049eef60e4bf19c6abc546061f4ef836431"
     },
     "3e88a24ca759577c7be17326787c1ae77840dd70e18ae5f8dfcb1f113bd593ab": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 54,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8488,7 +8488,9 @@
       "original": "He should've been able to prove he'd earned his place.",
       "day": 88,
       "week": 13,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 41003,
+      "sha256": "324e3d6f1df939305ef51b4eab95a043aa728d5c98819417266c3f9b1cf6d9cf"
     },
     "acec54bfd692b8708caf21ac120ccc40c1c87589de9888b6c1824f874995134d": {
       "status": "reserved",
