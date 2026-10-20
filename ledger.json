@@ -6939,7 +6939,7 @@
       "sha256": "c8e42216113eaa86e1d8e49f1160f82427b1d3d1c5ec9d44081280266b9286a7"
     },
     "049baeaeeb4b26a8c177436703dfe9494c67966e5524ab43de915fe7182e76ec": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 34,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -6948,7 +6948,9 @@
       "original": "She can't have done it on purpose.",
       "day": 53,
       "week": 8,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 27210,
+      "sha256": "7f414c6ddfaf63604a9385b60714544192c4c69c8af56052720d04cc8ef63c09"
     },
     "7fe84b40c7ee8f5e0c6d18d12eb55a4bec1373171f3a64818402e12321d56f2c": {
       "status": "reserved",
