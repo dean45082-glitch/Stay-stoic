@@ -5189,7 +5189,7 @@
       "sha256": "c4e6d3895599d3dfda42c1b9188f95a10b431641d6634a1069ef5ced96f4895b"
     },
     "0719b02061979e4042bdfb69e0835c889760c79d1f6d400c4cb11be64f7e0d13": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 34,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5198,7 +5198,9 @@
       "original": "They'd decided before they talked.",
       "day": 20,
       "week": 3,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 35987,
+      "sha256": "1f85cfad687f957929ff117a6f35c06eef80e0fb2a4192d02f38eddc9fec7705"
     },
     "6f2c5d068e6c5fafc15ed0e11917872dfe20247c968c5eb9a8554f0894a19557": {
       "status": "reserved",
