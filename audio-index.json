@@ -3760,6 +3760,13 @@
       "bytes": 26374,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I'll have accepted what couldn't be controlled.": {
+      "file": "audio/313d1c78741826dba9ea58fa0b0068dab2a69f55765647f2b1cf1bc075dff38a.mp3",
+      "sha256": "c30908b472557ee70ce733b080297096e2955eb8d16427ff125750a2bd9240e2",
+      "bytes": 35987,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
