@@ -5027,6 +5027,13 @@
       "bytes": 37659,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She would've rather waited than acted on impulse.": {
+      "file": "audio/b424dd08729bc06ea32174294dfac536642125c811b1cde6cab3d0e28f40e579.mp3",
+      "sha256": "b68f5bfa8bad478aeb543516e4d4c24d3b735542e4dbb9538df44db93d933472",
+      "bytes": 41838,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
