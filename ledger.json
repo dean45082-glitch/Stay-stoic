@@ -5259,7 +5259,7 @@
       "sha256": "805bde8ee45833b686333bd5ec9546249ddb259ed53706f7230ee6955fbc0b6c"
     },
     "008dd7bdd43d52572af38a1a16d576c974d733ed711a38bc6960f7aed8fbc741": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 34,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5268,7 +5268,9 @@
       "original": "I'll have overcome that adversity.",
       "day": 22,
       "week": 4,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 30136,
+      "sha256": "18d9d2ac768e9b8b1b0f4984dba4e631d354ca2889d90bffb076977c88e69f3d"
     },
     "7d37ff39f1942269b52f9d929eefac5eac95d2d8f020ba2537b07da60dddca62": {
       "status": "reserved",
