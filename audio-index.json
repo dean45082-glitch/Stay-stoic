@@ -4243,6 +4243,13 @@
       "bytes": 42674,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She'd been carrying that weight alone.": {
+      "file": "audio/4906f7062b0bbf908a3c1f3b4430c19f92cd9a27c5918166e209de7a4f8e1fae.mp3",
+      "sha256": "6c470f08e9c0ecfa4d191e8883cb16bbad630c14a103a616a7fdb9f0bc29eb29",
+      "bytes": 33061,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
