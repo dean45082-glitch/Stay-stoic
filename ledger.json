@@ -7485,7 +7485,7 @@
       "sha256": "98a6c4c4984a424853df2fd209239a59d5467cfb91052f8e69ac0736e842717d"
     },
     "96b4e7291327052912961f20cc58b1dcb2a9adc178e0c01b790b8c2884da920b": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 38,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7494,7 +7494,9 @@
       "original": "You'll have been saving up for months.",
       "day": 65,
       "week": 10,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 32225,
+      "sha256": "c877b521c64b66e502b76938726b6d65b01fbc0a2030487d56093148fc5bf019"
     },
     "a0a5e4b2a7488cbcea4cbb9c613d96fadc618df595a030d720636ff96bf5d9fa": {
       "status": "reserved",
