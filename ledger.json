@@ -7597,7 +7597,7 @@
       "sha256": "b23945d055c40b2ab43901b781a3541b9498d4cc6769befd7a8454ba40b65ec1"
     },
     "7707a384561fbb32b1ba21913a79fbb10b14eae359cd55d726745e0382f88535": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 37,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7606,7 +7606,9 @@
       "original": "She'll have been waiting a long time.",
       "day": 67,
       "week": 10,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 27210,
+      "sha256": "242289e238e4b1887df3303fd906af9423e44ac38a26f2caf81c862f020a9bec"
     },
     "20c4e773eea1d68298df8cef5f08188da848f900557ccbdbb5aa937c1c12ea93": {
       "status": "reserved",
