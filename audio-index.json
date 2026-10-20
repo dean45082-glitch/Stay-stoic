@@ -4684,6 +4684,13 @@
       "bytes": 33061,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She may have known.": {
+      "file": "audio/8bb2769b26fa662503761046a28191dc79ed0b70478c8df00cf17292e5f709a9.mp3",
+      "sha256": "7b9606236312843dad4edccde7f8007b7c080f0fd0f782668cf3dff3c143085f",
+      "bytes": 21776,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",

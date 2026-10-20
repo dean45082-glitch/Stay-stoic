@@ -7079,7 +7079,7 @@
       "sha256": "013a2f10875f5babd5c4dac4014ebabdf56c0b975bdac258703b73fb297a578a"
     },
     "8bb2769b26fa662503761046a28191dc79ed0b70478c8df00cf17292e5f709a9": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 19,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7088,7 +7088,9 @@
       "original": "She may have known.",
       "day": 57,
       "week": 9,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 21776,
+      "sha256": "7b9606236312843dad4edccde7f8007b7c080f0fd0f782668cf3dff3c143085f"
     },
     "653ab82fa52afed36836b46936f1b2f4e86910f6b3375d291f4371899764cc87": {
       "status": "reserved",
