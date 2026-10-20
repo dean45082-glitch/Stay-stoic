@@ -5889,7 +5889,7 @@
       "sha256": "f47c5d92ba01d8117983c28e1ebfd91f70f6c90ba180c3cf8b6fc849347bdcd7"
     },
     "b30a869c840ffcd856fc893621b8eb0d6630400b807aff2927e48175ef8ebcd2": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 30,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5898,7 +5898,9 @@
       "original": "We've been avoiding the topic.",
       "day": 33,
       "week": 5,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 24284,
+      "sha256": "6e2c5078f1221a122a271410a38122b29daae985ec26de3385c4204154fe49c9"
     },
     "fc6c819d5ef23d2ccc889c2d69efebf061d907a13220403185d2cef000505ce5": {
       "status": "reserved",

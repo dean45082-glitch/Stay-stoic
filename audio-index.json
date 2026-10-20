@@ -4089,6 +4089,13 @@
       "bytes": 30972,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We've been avoiding the topic.": {
+      "file": "audio/b30a869c840ffcd856fc893621b8eb0d6630400b807aff2927e48175ef8ebcd2.mp3",
+      "sha256": "6e2c5078f1221a122a271410a38122b29daae985ec26de3385c4204154fe49c9",
+      "bytes": 24284,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
