@@ -4929,6 +4929,13 @@
       "bytes": 31390,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "He'll have been learning for a long time.": {
+      "file": "audio/d70e746f42b0598e584e2379c16f40ae6c450f97360c6bb929f1141aa4a5c606.mp3",
+      "sha256": "968db0409d4064b628b4e4b8e2227203bde42557fbd636b40b02a21472285434",
+      "bytes": 30972,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
