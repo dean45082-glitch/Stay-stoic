@@ -5945,7 +5945,7 @@
       "sha256": "5ceb4b91cc5342745fca4c4404225beb14bfc518999d4ce9af650a5e816feae9"
     },
     "37a0025021fb4fb7371964818107f6d25c6834050175d279296861161d2df34a": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 42,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -5954,7 +5954,9 @@
       "original": "I'd been struggling with anger for months.",
       "day": 36,
       "week": 6,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 35987,
+      "sha256": "679b080ea7df38059b1956f10fb6ef3d669a2381bae06c7136ccdf8fb6838157"
     },
     "ca60d965e8586fc96e0869cb29405597d90615c1793774d4fcac63bf77d3f560": {
       "status": "reserved",
