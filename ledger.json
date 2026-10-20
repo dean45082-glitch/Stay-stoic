@@ -8017,7 +8017,7 @@
       "sha256": "d8632d140947b567082599cb54a4a33ca79a56be9ce666d48e28046a5dd6bc8c"
     },
     "3678a999fdf790751e62c72ef3e61c329b9a5c5d8a1bf50b0dc18f9068cdb4af": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 50,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8026,7 +8026,9 @@
       "original": "You must come to grips with what already happened.",
       "day": 78,
       "week": 12,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 40585,
+      "sha256": "2c3294be78515ce3e194e8b882b3d793e62b9eb0e5f08c5b63f144f466299607"
     },
     "018700372345e1556e3b81e77617e6616d6c6cee398c88be022f31786c00a9a8": {
       "status": "reserved",
