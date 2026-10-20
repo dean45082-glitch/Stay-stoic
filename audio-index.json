@@ -4404,6 +4404,13 @@
       "bytes": 35151,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "He'll have been chasing consistency all year.": {
+      "file": "audio/c3740271c72daf1616627df0c737b190a8f8e0237ab0ff674844aedddf506e9c.mp3",
+      "sha256": "ed0e3614616215bd15a374a93d5b8ff707d087fcfab10cce624af904c6029d59",
+      "bytes": 35987,
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   },
   "defaultVoice": "WbNN0ZquKxio6sawH5yC",
