@@ -7821,7 +7821,7 @@
       "sha256": "e71236e104aa508b076c0cd5389053604f7cf48b6dce522115a4c9f30b9772dd"
     },
     "6b5e0f46e9d6069a4a6be364302a01f2d70f9dff085b45e94c83f20b099c33d0": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 55,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -7830,7 +7830,9 @@
       "original": "In hindsight, I wouldn't have held back what I thought.",
       "day": 72,
       "week": 11,
-      "group": "structures"
+      "group": "structures",
+      "bytes": 42674,
+      "sha256": "12536225cb8fbbc3ebd6fc3d1286cbfc9d4b61d5910bb08bc5a67e6810cf7acf"
     },
     "9bbbc2f01048f62d99128287b916b1b7e53e008f5139db9487eda55d01b18e5f": {
       "status": "reserved",
