@@ -8157,7 +8157,7 @@
       "sha256": "53cd9033e1c4c580c4945c7574bc43ef4607b0d535af83373fb49f7b2c073903"
     },
     "d42078ec9bd33d34af6981589f9d74fe197e8e67ea38e28aa4aff450768d555f": {
-      "status": "in_flight",
+      "status": "complete",
       "batch": "2026-10-20-secondary-renewal",
       "estimatedCredits": 46,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
@@ -8166,7 +8166,9 @@
       "original": "They must've felt very certain at that moment.",
       "day": 80,
       "week": 12,
-      "group": "reading"
+      "group": "reading",
+      "bytes": 36823,
+      "sha256": "9ed32c93050d23fa4bbe5043cd06ab05c7f414270d5634bc0246e84161ab4291"
     },
     "992ca9cafbc0c1a3c8de9146af761e3f324af0a692145a639fe0901dcfdf410f": {
       "status": "reserved",
