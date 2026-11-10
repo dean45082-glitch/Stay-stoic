@@ -1,3 +1,4 @@
+// Refresh calendar controls on install; retain existing offline audio cache.
 const CACHE='stay-stoic-2.4.0';
 const CORE=['./','index.html','app.js','data1.js','data2.js','audio-player.js','audio-index.js','c1-data.js','modules.js','manifest.json','app-icon.webp','seneca.webp','epictetus.webp','vendor/react.production.min.js','vendor/react-dom.production.min.js'];
 let downloading=null;

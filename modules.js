@@ -608,6 +608,7 @@
 
   function C1Calendar({ meta, onPick }) {
     const total = w.C1_COURSE?.totalDays || 69;
+    const latest = meta.lastMarkedDay ?? meta.lastCompletedDay ?? 0;
     const weeks = [];
     for (let start = 1; start <= total; start += 7) {
       const end = Math.min(total, start + 6);
@@ -629,7 +630,7 @@
           lineHeight: 1.5,
           marginBottom: 18
         }
-      }, 'Verde: completado · Bronce: día actual · Todos los días permanecen disponibles para repaso.'),
+      }, '✓ Verde: último día guardado · Bronce: día actual · Todos los días están disponibles para repaso.'),
       weeks.map((range, wi) => h('div', {
         key: wi,
         style: { marginBottom: 18 }
@@ -650,22 +651,23 @@
           }
         },
           Array.from({ length: range[1] - range[0] + 1 }, (_, i) => range[0] + i).map(d => {
-            const done = meta.completedDays?.includes(d);
+            const last = d === latest;
             const current = meta.day === d;
             return h('button', {
               key: d,
               onClick: () => onPick(d),
+              'aria-label': last ? `Día ${d}, último guardado` : `Día ${d}`,
               style: {
                 width: 38,
                 height: 38,
                 borderRadius: 7,
-                border: '1px solid ' + (current ? COLORS.bronzeLight : done ? COLORS.verdigris : COLORS.line),
-                background: current ? COLORS.bronze : done ? COLORS.verdigris : COLORS.bgSoft,
-                color: done || current ? COLORS.marble : COLORS.marbleDim,
+                border: '1px solid ' + (last ? COLORS.verdigris : current ? COLORS.bronzeLight : COLORS.line),
+                background: last ? COLORS.verdigris : current ? COLORS.bronze : COLORS.bgSoft,
+                color: last || current ? COLORS.marble : COLORS.marbleDim,
                 fontSize: 12,
                 cursor: 'pointer'
               }
-            }, d);
+            }, last ? `${d} ✓` : d);
           })
         )
       ))
@@ -1004,7 +1006,7 @@
           cursor: done ? 'default' : 'pointer',
           marginBottom: 30
         }
-      }, done ? '✓ Día completado' : 'Completar día ' + lesson.day)
+      }, done ? '✓ Día completado' : '✓ Guardar día ' + lesson.day + ' como hecho')
     );
   }
 
@@ -1065,6 +1067,7 @@
       saveMeta({
         ...meta,
         day: nextDay,
+        lastMarkedDay: activeDay,
         lastCompletedDay: Math.max(meta.lastCompletedDay || 0, activeDay),
         streak,
         completedDays
