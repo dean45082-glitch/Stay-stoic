@@ -53,7 +53,12 @@ test('C1 curriculum contains 69 complete lesson shells', () => {
     assert.ok(Array.isArray(d.models) && d.models.length >= 3);
     assert.ok(Array.isArray(d.shadowing) && d.shadowing.length >= 3);
     assert.ok(d.reading);
-    assert.ok(Array.isArray(d.questions) && d.questions.length >= 3);
+    assert.ok(Array.isArray(d.questions) && d.questions.length >= 1);
+    assert.equal(d.readingAnswers.length, d.questions.length);
+    for (const { answer, evidence } of d.readingAnswers) {
+      assert.ok(answer?.trim() && evidence?.trim());
+    }
+    assert.ok(!d.reading.includes('Read the passage as a connected situation:'));
     assert.ok(d.oralChallenge);
   }
 });
