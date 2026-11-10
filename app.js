@@ -2933,5 +2933,6 @@ const iconBtn = {
   justifyContent: "center"
 };
 
+window.StayStoicApp = StayStoicApp;
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(React.createElement(StayStoicApp));
+root.render(React.createElement(window.StayStoicShell || StayStoicApp));
