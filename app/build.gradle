@@ -4,7 +4,7 @@ android {
     namespace 'com.staystoic.app'
     compileSdk 35
     defaultConfig {
-        applicationId 'com.staystoic.app'
+        applicationId 'com.staystoic.app.c1new'
         minSdk 26
         targetSdk 35
         versionCode 14

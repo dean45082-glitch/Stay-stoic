@@ -2,7 +2,7 @@ name: Build Stay Stoic APK
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [android/c1-instalacion-paralela]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -46,8 +46,8 @@ jobs:
       - name: Build debug APK
         run: gradle assembleDebug
       - name: Rename APK
-        run: cp app/build/outputs/apk/debug/app-debug.apk StayStoic-V2.apk
+        run: cp app/build/outputs/apk/debug/app-debug.apk StayStoic-Nuevo.apk
       - uses: actions/upload-artifact@v4
         with:
           name: StayStoic-V2-APK
-          path: StayStoic-V2.apk
+          path: StayStoic-Nuevo.apk
