@@ -1,7 +1,7 @@
 const CACHE='stay-stoic-2.4.0';
 const CORE=['./','index.html','app.js','data1.js','data2.js','audio-player.js','audio-index.js','c1-data.js','modules.js','manifest.json','app-icon.webp','seneca.webp','epictetus.webp','vendor/react.production.min.js','vendor/react-dom.production.min.js'];
 let downloading=null;
-self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE))));
+self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE.map(asset=>new Request(new URL(asset,self.registration.scope),{cache:'reload'}))))));
 self.addEventListener('activate',event=>event.waitUntil(self.clients.claim()));
 async function rangeResponse(request,response){
  const range=request.headers.get('range');if(!range)return response;

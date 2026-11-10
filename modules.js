@@ -918,7 +918,14 @@
             lineHeight: 1.55,
             padding: '6px 0'
           }
-        }, (i + 1) + '. ' + q))
+        },
+          h('div', null, (i + 1) + '. ' + q),
+          lesson.readingAnswers?.[i] && h('details', { style: { marginTop: 7 } },
+            h('summary', { style: { cursor: 'pointer', color: COLORS.bronzeLight } }, 'Ver ejemplo de respuesta'),
+            h('p', { lang: 'en', style: { color: COLORS.marble, margin: '8px 0 4px' } }, lesson.readingAnswers[i].answer),
+            h('p', { style: { margin: '0 0 6px' } }, 'Pista del texto: ' + lesson.readingAnswers[i].evidence)
+          )
+        ))
       ),
 
       h('div', { style: card },

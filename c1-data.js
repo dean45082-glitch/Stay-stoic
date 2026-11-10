@@ -35,11 +35,9 @@ window.C1_COURSE = {
         "We still need to iron out a few details.",
         "I'd love to catch up with everyone this weekend."
       ],
-      "reading": "Maya suggested a day trip so everyone could catch up. Leo was free on Saturday, but Nina could only go on Sunday. What they needed was a plan that worked for everyone.",
+      "reading": "Maya suggested a day trip so everyone could catch up. Leo was free on Saturday, but Nina could only go on Sunday. What they needed was a plan that worked for everyone. Maya offered to call them that evening to iron out the details.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Cleft con what” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Por qué la llamada todavía no confirma la excursión?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Organizar un fin de semana”. Usa al menos una forma de Cleft con what, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -48,6 +46,12 @@ window.C1_COURSE = {
         "Propose + -ing: I propose holding a special briefing session to iron out issues.",
         "The man standing next to the CEO is the head of HR. Comparar con the man who is standing.",
         "I didn't say she stole the money. · Quizá lo insinué o di a entender."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "Maya wants to iron out the details, so the call is meant to resolve the scheduling conflict rather than announce a final plan.",
+          "evidence": "Leo y Nina tienen disponibilidades distintas; iron out señala que quedan detalles por resolver."
+        }
       ]
     },
     {
@@ -76,11 +80,9 @@ window.C1_COURSE = {
         "He might have overlooked the change.",
         "She can't have accessed the files without permission."
       ],
-      "reading": "He must have left already. He might have overlooked the change. She can't have accessed the files without permission. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "Alex said he'd meet us at the new café, but twenty minutes later he sent a photo of the old one. He might have overlooked the new address. He must have gone to the old café, but he can't have known we were already waiting here. If we leave now, we run the risk of missing him.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Must have, might have, can't have” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué deducción tiene más respaldo: que fue al café antiguo o que pasó por alto la dirección?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Un amigo que todavía no llega”. Usa al menos una forma de Must have, might have, can't have, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -89,6 +91,12 @@ window.C1_COURSE = {
         "Propose + to-inf: The municipal council proposes to implement new bike lanes.",
         "The software running on that server is outdated.",
         "I didn't say she stole the money. · Quizá dije que robó otra cosa."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "His visit to the old café is more strongly supported by the photo. Overlooking the address is one possible explanation for why he went there.",
+          "evidence": "Must have marca una deducción fuerte; might have presenta una explicación posible."
+        }
       ]
     },
     {
@@ -116,11 +124,9 @@ window.C1_COURSE = {
         "The review highlights how much the story depends on atmosphere.",
         "We need to strike a balance between explaining the plot and avoiding spoilers."
       ],
-      "reading": "Granted, the film is slow at first, but the ending is worth the wait. The review highlights how much the story depends on atmosphere. We need to strike a balance between explaining the plot and avoiding spoilers. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "Granted, the film is slow at first, but the ending is worth the wait. I want my review to highlight the atmosphere and strike a balance between giving readers a reason to watch and spoiling the twist.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Concesión con granted” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿La lentitud inicial es la conclusión de la reseña o una concesión?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Recomendar una película”. Usa al menos una forma de Concesión con granted, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -128,6 +134,12 @@ window.C1_COURSE = {
         "Get across: Hacer entender o comunicar un mensaje con éxito.",
         "Propose + to-inf: Our international department proposes to build three new facilities.",
         "Anyone wishing to apply for the grant must submit their paperwork by Friday."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "It is a concession. The writer admits the film starts slowly before giving the stronger judgment that the ending makes it worthwhile.",
+          "evidence": "Granted concede un punto; but introduce la valoración que pesa más."
+        }
       ]
     },
     {
@@ -155,11 +167,9 @@ window.C1_COURSE = {
         "If I hadn't moved away, I'd probably see them every week.",
         "There's no point in dwelling on a decision you can no longer change."
       ],
-      "reading": "If I had taken that job in London, I would be living there now. If I hadn't moved away, I'd probably see them every week. There's no point in dwelling on a decision you can no longer change. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "If I had moved to Bristol when I had the chance, I'd probably be more comfortable living alone now. I try not to dwell on that decision: I still have time to adapt to a new city if I decide to move.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Condicional mixto pasado → presente” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿La persona se mudó y ahora se arrepiente, o imagina una consecuencia presente?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Cómo te habría cambiado una mudanza”. Usa al menos una forma de Condicional mixto pasado → presente, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -167,6 +177,12 @@ window.C1_COURSE = {
         "Make up for: Compensar una falta, error o pérdida.",
         "Be used to: Our technicians are used to working under intense pressure.",
         "The terms agreed upon during the meeting are non-negotiable."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "They did not move then. They are imagining how a past move could have made them more comfortable living alone today.",
+          "evidence": "Had moved sitúa la condición en el pasado; now sitúa el resultado imaginado en el presente."
+        }
       ]
     },
     {
@@ -194,11 +210,9 @@ window.C1_COURSE = {
         "Off the top of my head, I'd say the first month will be the hardest.",
         "Could you move over a little so I can sit down?"
       ],
-      "reading": "A: I've decided to move abroad. B: Have you, now? Off the top of my head, I'd say the first month will be the hardest. Could you move over a little so I can sit down? Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "“I'm moving to Cardiff.” “You're moving where?” asked Sam, who'd been looking down at his phone. I asked him to move over so I could show him the map. “Off the top of my head, it's about two hours by train,” I said.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Echo questions” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿La pregunta de Sam expresa necesariamente desaprobación?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Un amigo anuncia una mudanza”. Usa al menos una forma de Echo questions, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -206,6 +220,12 @@ window.C1_COURSE = {
         "Put up with: Soportar o tolerar a alguien o algo molesto.",
         "Be used to: She is used to dealing with demanding international clients.",
         "The ideas presented in his book completely changed my perspective."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "No. He may simply have missed the destination because he was looking at his phone; the echo question asks for that detail again.",
+          "evidence": "El contexto de la distracción apoya una petición de aclaración, no un juicio sobre la mudanza."
+        }
       ]
     },
     {
@@ -234,11 +254,9 @@ window.C1_COURSE = {
         "The birds observed near the coast were moving north.",
         "The evidence suggests that the change happened gradually."
       ],
-      "reading": "It is widely believed that the species returns to the same nesting area. The birds observed near the coast were moving north. The evidence suggests that the change happened gradually. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "The evidence suggests that the birds use the river to navigate. In the documentary, tags attached to six birds demonstrate how closely their routes follow the water. It is believed that the river is one of several landmarks they use.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Pasiva impersonal y relativa reducida” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿El documental afirma que el río es la única referencia?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Lo que cuenta un documental de naturaleza”. Usa al menos una forma de Pasiva impersonal y relativa reducida, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -246,6 +264,12 @@ window.C1_COURSE = {
         "Stand out: Destacar, resaltar sobre los demás.",
         "Get used to: It took me nearly six months to get used to living in Tokyo.",
         "Having reviewed the applications, the committee selected three finalists."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "No. The tracked routes support a link with the river, but the narrator describes it as one of several possible landmarks.",
+          "evidence": "One of several limita el alcance; is believed distingue la interpretación de la observación."
+        }
       ]
     },
     {
@@ -274,11 +298,9 @@ window.C1_COURSE = {
         "They might have taken the wrong road.",
         "Granted, nobody had checked the weather carefully."
       ],
-      "reading": "What we needed was a backup plan. They might have taken the wrong road. Granted, nobody had checked the weather carefully. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "We thought the cabin was free, but the owner hasn't answered. She might have missed my message. Granted, the campsite costs more, but it can be booked tonight. What we need is a firm reservation before we iron out the rest.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Cleft + modal de deducción + concesión” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué prioridad justifica considerar el camping aunque sea más caro?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Repaso · Una escapada improvisada”. Usa al menos una forma de Cleft + modal de deducción + concesión, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -286,6 +308,12 @@ window.C1_COURSE = {
         "Tell off: Regañar o reñir severamente a alguien.",
         "Get used to: New employees must quickly get used to operating our software.",
         "Having spent all his savings on the startup, he had to look for a part-time job."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The group needs a confirmed place to stay. The campsite costs more, but it is the option they can secure tonight.",
+          "evidence": "La cleft enfoca la reserva confirmada; granted reconoce el inconveniente del precio."
+        }
       ]
     },
     {
@@ -314,11 +342,9 @@ window.C1_COURSE = {
         "Never before had the museum displayed the object in public.",
         "You hit the nail on the head when you said the date was the key clue."
       ],
-      "reading": "Only when the lights came on did we notice the inscription. Never before had the museum displayed the object in public. You hit the nail on the head when you said the date was the key clue. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "Only when the guide turned the painting over did we notice a date on the back. “That explains why the frame looks newer,” said Rosa. She hit the nail on the head: the guide used the date to illustrate how the painting and frame came from different periods. Never before had I thought to look behind a painting.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Inversión con only when y never before” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué cambió la interpretación del marco?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Un descubrimiento en un museo”. Usa al menos una forma de Inversión con only when y never before, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -326,6 +352,12 @@ window.C1_COURSE = {
         "Be on the same page: Estar de acuerdo, tener la misma información.",
         "Look forward to: We look forward to establishing a long-lasting partnership.",
         "Knowing how strict the rules are, I decided to follow every step."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The date on the back gave Rosa a reason to treat the frame and the painting as objects from different periods.",
+          "evidence": "Only when sitúa la pista decisiva justo antes del cambio de interpretación."
+        }
       ]
     },
     {
@@ -354,11 +386,9 @@ window.C1_COURSE = {
         "The change of route prevented a longer delay.",
         "A thorough analysis of the outage is required before a final decision is made."
       ],
-      "reading": "We changed the route because the power went down. The change of route prevented a longer delay. A thorough analysis of the outage is required before a final decision is made. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "The lights went down as the band plugged in its equipment. The venue blamed an overload, but the discovery of a damaged cable prompted a second inspection. The interruption disrupted the set; its cause was still disputed.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Nominalización” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué queda por resolver aunque se haya encontrado el cable?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Dos explicaciones de un apagón”. Usa al menos una forma de Nominalización, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -366,6 +396,12 @@ window.C1_COURSE = {
         "See eye to eye: Coincidir plenamente con la opinión de alguien.",
         "Look forward to: The research team is looking forward to presenting their findings.",
         "Damaged during transit, the package was returned to the sender."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The inspectors still need to establish whether the damaged cable caused the outage or whether the circuit was overloaded.",
+          "evidence": "The discovery confirma el hallazgo, mientras still disputed indica que la causa sigue abierta."
+        }
       ]
     },
     {
@@ -394,11 +430,9 @@ window.C1_COURSE = {
         "We can stay outside as long as the wind doesn't get stronger.",
         "Supposing the park closes, what's our backup plan?"
       ],
-      "reading": "We can have the picnic provided that the weather improves. We can stay outside as long as the wind doesn't get stronger. Supposing the park closes, what's our backup plan? Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "We can keep the picnic outdoors as long as the rain holds off. Supposing it starts early, we can switch over to the covered terrace, provided that the caretaker opens it. We're running low on water, so I'll bring another bottle either way.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Provided that, as long as, supposing” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Por qué la terraza todavía no es un plan seguro?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Cambiar los planes de un picnic”. Usa al menos una forma de Provided that, as long as, supposing, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -406,6 +440,12 @@ window.C1_COURSE = {
         "Agree to disagree: Aceptar que se tienen opiniones distintas sin discutir.",
         "Object to: The shareholders heavily objected to merging with a competitor.",
         "Deducción fuerte. They must have missed the train. They're never this late."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "It depends on the caretaker opening it. Rain alone is not enough to make the backup plan work.",
+          "evidence": "Provided that introduce una segunda condición independiente."
+        }
       ]
     },
     {
@@ -434,11 +474,9 @@ window.C1_COURSE = {
         "She urged me to explain what I had actually heard.",
         "He conceded that his first version had been incomplete."
       ],
-      "reading": "He denied having said that the money was missing. She urged me to explain what I had actually heard. He conceded that his first version had been incomplete. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "Mia denied having tried to embarrass Dan at dinner. She said she had only wanted to play devil's advocate, but conceded that her timing had been poor. Dan urged her to raise disagreements in private next time.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Deny, urge, concede en reported speech” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué admite Mia sin aceptar toda la acusación?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Dos amigos recuerdan una discusión”. Usa al menos una forma de Deny, urge, concede en reported speech, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -446,6 +484,12 @@ window.C1_COURSE = {
         "Play devil's advocate: Defender el punto de vista opuesto solo por debatir.",
         "Object to: Local residents objected to building a factory near the reserve.",
         "Deducción negativa. She can't have accessed the files. She didn't have permission to open that folder."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "She admits that the timing was poor but denies that embarrassing Dan was her intention.",
+          "evidence": "Conceded delimita lo que reconoce; denied separa esa admisión de la intención que le atribuyen."
+        }
       ]
     },
     {
@@ -473,11 +517,9 @@ window.C1_COURSE = {
         "Hidden away in the back of the drawer were three old letters.",
         "Only later did we uncover why the key had been moved."
       ],
-      "reading": "At the end of the corridor stood a narrow wooden cabinet. Hidden away in the back of the drawer were three old letters. Only later did we uncover why the key had been moved. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "Hidden away behind the cabinet was a narrow drawer. Inside lay a list of repairs dated 1742. It helped the curator uncover when the west staircase had been rebuilt, although it did not say why.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Inversión locativa y con participio” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué resuelve el hallazgo y qué deja sin explicar?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Un castillo y un cajón secreto”. Usa al menos una forma de Inversión locativa y con participio, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -485,6 +527,12 @@ window.C1_COURSE = {
         "Burn the midnight oil: Quedarse trabajando o estudiando hasta muy tarde.",
         "With a view to: The company restructured its hierarchy with a view to boosting efficiency.",
         "Posibilidad. The client might have overlooked the attachment. Let's resend it."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The list helps date the rebuilding of the staircase, but it does not explain why the work was needed.",
+          "evidence": "Although contrasta la fecha documentada con el motivo que sigue faltando."
+        }
       ]
     },
     {
@@ -513,11 +561,9 @@ window.C1_COURSE = {
         "Don't forget to seal the container, will you?",
         "Can you spare a minute to help me with this?"
       ],
-      "reading": "Let's taste the sauce again, shall we? Don't forget to seal the container, will you? Can you spare a minute to help me with this? Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "“Spare me a clean jar, will you?” asked Lena. “We'll seal the last batch and call it a day, shall we?” There was fruit left on the counter, but nobody offered to start another batch.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Tags con shall we? y will you?” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿La segunda pregunta solicita un objeto o busca acuerdo sobre terminar?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Cocinar juntos”. Usa al menos una forma de Tags con shall we? y will you?, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -525,6 +571,12 @@ window.C1_COURSE = {
         "Go the extra mile: Hacer un esfuerzo adicional superior al requerido.",
         "With a view to: He enrolled in a bootcamp with a view to changing his career path.",
         "Crítica. You shouldn't have sent that email without proofreading it first."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "It seeks agreement to finish after sealing the last batch; the request for an object comes in the first question.",
+          "evidence": "Will you acompaña la petición del frasco; shall we invita a acordar una acción conjunta."
+        }
       ]
     },
     {
@@ -553,11 +605,9 @@ window.C1_COURSE = {
         "The witness conceded that she had entered the room earlier.",
         "He denied having moved the box."
       ],
-      "reading": "The discovery of the hidden letter changed the investigation. The witness conceded that she had entered the room earlier. He denied having moved the box. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "The detective's discovery of a second key changed the direction of the case. The reviewer conceded that she hadn't spotted the clue on her first viewing. She said the film let viewers uncover the truth just before the detective did.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Nominalización + reported speech” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué elogia la reseñista pese a no haber visto la pista al principio?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Repaso · Reseñar un misterio”. Usa al menos una forma de Nominalización + reported speech, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -565,6 +615,12 @@ window.C1_COURSE = {
         "Hit the ground running: Empezar una actividad con gran energía y éxito.",
         "Have difficulty: Many independent retailers had great difficulty surviving the recession.",
         "Acción realizada que resultó innecesaria. We needn't have rushed to the airport. The flight was delayed."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "She praises the timing of the reveal: the clue is easy to miss, but viewers can solve the mystery before the detective does.",
+          "evidence": "Conceded admite una dificultad inicial y just before precisa el efecto del giro."
+        }
       ]
     },
     {
@@ -593,11 +649,9 @@ window.C1_COURSE = {
         "We finally got the brakes replaced yesterday.",
         "I'll look into why the chain keeps slipping."
       ],
-      "reading": "I need to have my bike serviced before the trip. We finally got the brakes replaced yesterday. I'll look into why the chain keeps slipping. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "I had the front brake replaced last week, but the bike still pulls left when I stop. The mechanic promised to look into the alignment. I'll get the wheel checked before the next ride so we can sort out what's causing it.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Causativos con have/get something done” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Por qué la primera reparación no cierra el problema?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Una bicicleta que necesita arreglo”. Usa al menos una forma de Causativos con have/get something done, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -605,6 +659,12 @@ window.C1_COURSE = {
         "Keep your chin up: Mantener el ánimo alto ante la adversidad.",
         "Have difficulty: I had some difficulty understanding his thick accent.",
         "Opción razonable dadas las circunstancias. We might as well start dinner. They're running late."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The brake was replaced, but the symptom remains. The wheel and alignment still need to be checked.",
+          "evidence": "Still pulls left indica que el trabajo hecho no resolvió el síntoma."
+        }
       ]
     },
     {
@@ -632,11 +692,9 @@ window.C1_COURSE = {
         "If I spoke fluent German, I would have applied for that position in Berlin.",
         "I was bitterly disappointed, but I learned to keep up with the pace afterward."
       ],
-      "reading": "If I were more decisive, I would have accepted the opportunity last year. If I spoke fluent German, I would have applied for that position in Berlin. I was bitterly disappointed, but I learned to keep up with the pace afterward. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "I'm bitterly disappointed that I turned down the editing course. If I were better at asking for help, I would have enrolled instead of worrying that I couldn't keep up with the others.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Condicional mixto presente → pasado” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué rasgo presente usa la persona para explicar una decisión pasada?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Una oportunidad que dejaste pasar”. Usa al menos una forma de Condicional mixto presente → pasado, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -644,6 +702,12 @@ window.C1_COURSE = {
         "Pull your socks up: Ponerse las pilas, mejorar el esfuerzo o rendimiento.",
         "Have trouble: The development team is having trouble finding the security breach.",
         "Preferencia sobre la acción de otra persona. I would rather you didn't disclose this information yet."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "They find it hard to ask for help, and they believe that made them turn down the course.",
+          "evidence": "If I were describe una dificultad actual; would have enrolled imagina otra decisión pasada."
+        }
       ]
     },
     {
@@ -672,11 +736,9 @@ window.C1_COURSE = {
         "The notes written during the expedition were surprisingly detailed.",
         "The story has a strong ending, but the middle needs to be fleshed out."
       ],
-      "reading": "Having reviewed the diary, I noticed that two dates did not match. The notes written during the expedition were surprisingly detailed. The story has a strong ending, but the middle needs to be fleshed out. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "Having reviewed the explorer's diary, the editor decided to flesh out the account of the river crossing. She incorporated notes found in a separate notebook, but marked them as uncertain because they had no date.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Having reviewed y relativas reducidas” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Por qué incluir las notas no equivale a presentarlas como seguras?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Después de leer el diario de un explorador”. Usa al menos una forma de Having reviewed y relativas reducidas, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -684,6 +746,12 @@ window.C1_COURSE = {
         "Be in a pickle / tight spot: Estar en un apuro o en una situación complicada.",
         "Have trouble: If you have trouble keeping up with the workload, please let us know.",
         "Pasiva impersonal. It is widely believed that inflation will drop next quarter."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The notes add detail, but without a date the editor cannot be sure they refer to that crossing.",
+          "evidence": "Marked them as uncertain separa la decisión de incorporar material de la certeza sobre su origen."
+        }
       ]
     },
     {
@@ -712,11 +780,9 @@ window.C1_COURSE = {
         "All we wanted was somewhere dry to wait.",
         "“Perfect. Another flooded trail,” she said, staring at the sky."
       ],
-      "reading": "So heavy was the rain that we could barely see the road. All we wanted was somewhere dry to wait. “Perfect. Another flooded trail,” she said, staring at the sky. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "So heavy was the rain that traffic backed up on the only road out. All we wanted was somewhere dry to wait. “Perfect. Another flooded trail,” Maya said as she folded the useless map.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Inversión con so y cleft con all” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Está celebrando Maya lo que ve? ¿Qué pista lo aclara?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Un aguacero arruina una excursión”. Usa al menos una forma de Inversión con so y cleft con all, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -724,6 +790,12 @@ window.C1_COURSE = {
         "Be up in the air: Estar en el aire, sin decidir o resolver aún.",
         "It’s no good: It’s no good arguing with the inspector; his decision is final.",
         "Pasiva con sujeto. The CEO is rumored to be stepping down next month."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "No. “Perfect” is sarcastic because the trail is flooded and she is giving up on using the map.",
+          "evidence": "La palabra positiva choca con el problema concreto de la escena."
+        }
       ]
     },
     {
@@ -752,11 +824,9 @@ window.C1_COURSE = {
         "Conversely, strict limits can be hard to maintain.",
         "Notwithstanding the inconvenience, some people prefer clear rules."
       ],
-      "reading": "The limit may reduce distractions. Furthermore, it may improve sleep. Conversely, strict limits can be hard to maintain. Notwithstanding the inconvenience, some people prefer clear rules. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "Cutting out screens entirely is virtually impossible for students who need them for homework. Furthermore, a total ban could make group work harder. Conversely, a limit on recreational use might help. Notwithstanding these benefits, the school should test the policy first.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Furthermore, conversely, notwithstanding” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué propuesta distingue el autor de una prohibición total?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Una conversación sobre limitar las pantallas”. Usa al menos una forma de Furthermore, conversely, notwithstanding, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -764,6 +834,12 @@ window.C1_COURSE = {
         "Bite the bullet: Apechugar, tomar una decisión difícil pero necesaria.",
         "It’s no good: It's no good trying to fix this machine yourself without the manual.",
         "Pasiva con it. It has been verified that the breach originated internally."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The author favors testing a limit on recreational use while allowing screens for necessary schoolwork.",
+          "evidence": "Conversely introduce la alternativa y notwithstanding evita presentarla como una solución probada."
+        }
       ]
     },
     {
@@ -792,11 +868,9 @@ window.C1_COURSE = {
         "We needn't have rushed; they were still waiting for us.",
         "I would rather you told me directly next time."
       ],
-      "reading": "You shouldn't have sent the message before checking the details. We needn't have rushed; they were still waiting for us. I would rather you told me directly next time. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "“To be perfectly honest, you should have checked on me before you left,” said Eva. “But you needn't have come all the way back. I'd rather you called next time.”",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Should have, needn't have, would rather” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Eva quería que volvieran o que se comunicaran con ella?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Un malentendido entre amigos”. Usa al menos una forma de Should have, needn't have, would rather, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -804,6 +878,12 @@ window.C1_COURSE = {
         "Face the music: Dar la cara, afrontar las consecuencias de tus actos.",
         "It’s no use: It’s no use crying over spilled milk; we need a solution immediately.",
         "Causativo. We need to have the budget approved by Friday."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "She wanted them to check on her, preferably by calling. She says coming back was unnecessary.",
+          "evidence": "Should have marca lo que faltó; needn't have señala lo que se hizo sin necesidad."
+        }
       ]
     },
     {
@@ -832,11 +912,9 @@ window.C1_COURSE = {
         "Granted, the signs were confusing, but we should have asked.",
         "We shouldn't have dwelt on whose fault it was."
       ],
-      "reading": "Having checked the booking twice, we still went to the wrong terminal. Granted, the signs were confusing, but we should have asked. We shouldn't have dwelt on whose fault it was. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "Having looked into the booking, I realized we'd been given two different departure times. Granted, the email was confusing, but we should have called before leaving. There was no point in dwelling on it once the agent offered to rebook us.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Participio perfecto + concesión + modal de crítica” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿El hablante atribuye toda la culpa al correo?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Repaso · Un viaje con planes cruzados”. Usa al menos una forma de Participio perfecto + concesión + modal de crítica, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -844,6 +922,12 @@ window.C1_COURSE = {
         "Play it by ear: Improvisar según vayan surgiendo las cosas.",
         "It’s no use: It’s no use pretending you understand if you can't solve the problem.",
         "Causativo. I need to have my car serviced before the road trip."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "No. The email contributed to the mix-up, but the group also accepts that they should have checked by phone.",
+          "evidence": "Granted admite el factor externo; should have reconoce una acción propia omitida."
+        }
       ]
     },
     {
@@ -872,11 +956,9 @@ window.C1_COURSE = {
         "Had I known the reading room was closed, I would have come earlier.",
         "Were the original manuscript available, it would be displayed here."
       ],
-      "reading": "Should you require assistance, please ask at the front desk. Had I known the reading room was closed, I would have come earlier. Were the original manuscript available, it would be displayed here. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "Should the scanner stop working, please notify the front desk. Had we phased out the old cards already, visitors would have had no backup last week. Were the problem to recur, staff would keep accepting both cards for another month.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Condicionales invertidos con should, had y were” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Deben desechar los visitantes sus tarjetas antiguas ya?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Un aviso para quienes visitan una biblioteca”. Usa al menos una forma de Condicionales invertidos con should, had y were, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -884,6 +966,12 @@ window.C1_COURSE = {
         "Take it with a grain of salt: Tomárselo con reservas, no creerlo al pie de la letra.",
         "There is no point in: There is no point in scrutinizing minor details that won't change outcomes.",
         "Causativo. They managed to get the project approved despite the budget cuts."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "No. The old cards provided a backup and may still be accepted if the problem returns.",
+          "evidence": "Had we phased out plantea algo que no ocurrió; were the problem to recur indica el escenario futuro."
+        }
       ]
     },
     {
@@ -912,11 +1000,9 @@ window.C1_COURSE = {
         "The evidence suggests that the character knew more than she admitted.",
         "It was the final phone call that changed my interpretation."
       ],
-      "reading": "It would appear that the final scene contradicts what we were told earlier. The evidence suggests that the character knew more than she admitted. It was the final phone call that changed my interpretation. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "“That's a tough one to call,” said Jo. “The ending seems to contradict what we saw in episode two. But it was the empty chair that made me wonder whether the final scene was a memory.”",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Hedging + cleft con it” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Jo afirma que el final es un recuerdo o plantea esa lectura?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Un debate sobre el final de una serie”. Usa al menos una forma de Hedging + cleft con it, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -924,6 +1010,12 @@ window.C1_COURSE = {
         "The last straw: La gota que colmó el vaso.",
         "There is no point in: There is no point in waiting for a reply since the deadline passed.",
         "Verbo de reporte + gerundio. He denied leaking the information."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "Jo raises it as a possibility, based on the empty chair, rather than stating it as a fact.",
+          "evidence": "Seems y made me wonder moderan la certeza; it was…that resalta la pista."
+        }
       ]
     },
     {
@@ -952,11 +1044,9 @@ window.C1_COURSE = {
         "The restoration of the garden changed how the space was used.",
         "Local groups advocated keeping the original trees."
       ],
-      "reading": "The garden was restored after years of neglect. The restoration of the garden changed how the space was used. Local groups advocated keeping the original trees. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "The garden was restored after residents advocated for keeping the old paths. The removal of several fences improved access, but one was retained around the pond to strike a balance between openness and safety.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Pasiva + nominalización” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Por qué conservar una cerca no contradice el objetivo de abrir el jardín?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Cómo se restauró un jardín público”. Usa al menos una forma de Pasiva + nominalización, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -964,6 +1054,12 @@ window.C1_COURSE = {
         "A blessing in disguise: Un mal que por bien viene / No hay mal que por bien no venga.",
         "The politician consistently denied having accepted bribes.",
         "Gerundio perfecto. She denied having seen the document."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "Most fences were removed to improve access, but the pond still needed a safety barrier.",
+          "evidence": "But presenta una excepción con un motivo concreto, no un abandono del objetivo."
+        }
       ]
     },
     {
@@ -993,11 +1089,9 @@ window.C1_COURSE = {
         "We regret to inform you that the road is closed.",
         "We stopped driving when the rain became too heavy."
       ],
-      "reading": "I regret selling my old camera. We regret to inform you that the road is closed. We stopped driving when the rain became too heavy. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "“I regret to say the next rest area is closed,” the driver told us. We stopped to stretch at a lay-by instead. I regretted ignoring the earlier signs, but at the end of the day it was better to stop driving than push on while tired.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Regret doing/to say, stop doing/to do” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué acción se lamenta y cuál se hace para descansar?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Parar a descansar durante un viaje”. Usa al menos una forma de Regret doing/to say, stop doing/to do, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1005,6 +1099,12 @@ window.C1_COURSE = {
         "Cost an arm and a leg: Costar un ojo de la cara (muy caro).",
         "She later regretted not having backed up her doctoral thesis.",
         "Verbo de reporte + objeto + infinitivo. She urged me to apply for the promotion."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The speaker regrets ignoring the signs. The group pauses the journey in order to stretch.",
+          "evidence": "Regretted ignoring mira a una decisión pasada; stopped to stretch expresa propósito."
+        }
       ]
     },
     {
@@ -1033,11 +1133,9 @@ window.C1_COURSE = {
         "He objected to being described as the person responsible.",
         "The claim was refuted by a photograph taken that evening."
       ],
-      "reading": "She denied having changed the story. He objected to being described as the person responsible. The claim was refuted by a photograph taken that evening. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "Nora objected to being described as the organizer of the protest. She denied having called the meeting, and a dated flyer named another organizer. That evidence helped refute the claim that Nora had invited the residents herself.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Gerundio perfecto y pasivo en reported speech” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué evidencia debilita la versión que señala a Nora?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Distintas versiones de una historia de barrio”. Usa al menos una forma de Gerundio perfecto y pasivo en reported speech, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1045,6 +1143,12 @@ window.C1_COURSE = {
         "Cut corners: Escatimar gastos o saltarse pasos para ahorrar tiempo/dinero.",
         "Introverted individuals rarely enjoy being put on the spot.",
         "Preposición + gerundio. The board objected to expanding operations."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The dated flyer names a different organizer, so it challenges the claim that Nora called the meeting herself.",
+          "evidence": "El volante aporta una pista comprobable más allá de la negativa de Nora."
+        }
       ]
     },
     {
@@ -1073,11 +1177,9 @@ window.C1_COURSE = {
         "The inscription appears to have been added later.",
         "The sample needs to be examined before any conclusion is announced."
       ],
-      "reading": "The object is believed to have been buried for centuries. The inscription appears to have been added later. The sample needs to be examined before any conclusion is announced. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "The host hypothesized that the seal had been brought from a coastal town. It appears to have been repaired before burial. A historian postulated that it had passed through several owners, but said the repair alone was not enough to prove that.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Infinitivo perfecto y pasivo” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué hipótesis no se puede demostrar solo con la reparación?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Un podcast sobre un descubrimiento histórico”. Usa al menos una forma de Infinitivo perfecto y pasivo, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1085,6 +1187,12 @@ window.C1_COURSE = {
         "Hit the jackpot: Ganar la lotería / Tener un éxito enorme y repentino.",
         "The film director loathes being questioned about his personal life.",
         "Cláusula con that. He conceded that their competitors had a superior product."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The repair does not establish that the seal passed through several owners. One owner could also have had it repaired.",
+          "evidence": "Appears to have been repaired se limita al indicio visible; no identifica a sus dueños."
+        }
       ]
     },
     {
@@ -1114,11 +1222,9 @@ window.C1_COURSE = {
         "She might have overlooked one detail.",
         "Informal: We need to sort out why these numbers don't match."
       ],
-      "reading": "What matters most is how strong the evidence is. She might have overlooked one detail. Informal: We need to sort out why these numbers don't match. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "The cheaper room might have been booked already; the host hasn't replied. What we need is somewhere we can confirm before the train leaves. “Can you hold the other room until six?” I asked, then wrote, “Would it be possible to reserve it provisionally?”",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “Cleft + modal + cambio de registro” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Por qué se reformula la petición sin cambiar el objetivo?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Repaso · Decidir entre dos planes con información incompleta”. Usa al menos una forma de Cleft + modal + cambio de registro, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1126,6 +1232,12 @@ window.C1_COURSE = {
         "Make ends meet: Llegar a fin de mes a nivel económico.",
         "The journalist wrote a book about having been detained by foreign authorities.",
         "Cláusula con that. He insisted that we postpone the vote."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The written version sounds more formal, but both requests aim to hold the second room while the first remains uncertain.",
+          "evidence": "Hold y reserve it provisionally conservan la misma intención con distinto registro."
+        }
       ]
     },
     {
@@ -1154,11 +1266,9 @@ window.C1_COURSE = {
         "Our camping plans fell through when it started snowing.",
         "They called off the outdoor concert because of the rain."
       ],
-      "reading": "We'd planned to meet at the park, but the concert was called off when it started raining. Maya came up with a backup plan. We ended up at her place watching an old comedy.",
+      "reading": "We'd planned to meet at the park, but the concert was called off when it started raining. Our outdoor plan fell through. Maya came up with a backup plan. We ended up at her place watching an old comedy.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “come up with · fall through · call off · end up” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué se canceló y qué plan surgió como respuesta?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Una salida que cambia de rumbo”. Usa al menos una forma de come up with · fall through · call off · end up, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1166,6 +1276,12 @@ window.C1_COURSE = {
         "At the end of the day: Al fin y al cabo / A fin de cuentas.",
         "He felt a deep sense of relief after having been cleared of all charges.",
         "Metáforas. Dissect a problem, be a rising star, cloud the issue."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The concert was called off, so Maya suggested watching a film at her place instead.",
+          "evidence": "Called off marca la cancelación; ended up presenta el resultado no previsto."
+        }
       ]
     },
     {
@@ -1194,11 +1310,9 @@ window.C1_COURSE = {
         "She said she'd help me move, and she followed through.",
         "I'm weighing up my options before I decide where to live."
       ],
-      "reading": "Let's iron out the details before we book the flights. She said she'd help me move, and she followed through. I'm weighing up my options before I decide where to live. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "We weighed up two venues and picked the smaller one. The owner agreed to iron out the timing with us if we sorted out the deposit that week. When the deposit arrived on Friday, she knew we'd followed through.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “iron out · follow through · weigh up · sort out” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué demuestra que el grupo cumplió y no solo prometió?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Hacer planes y cumplirlos”. Usa al menos una forma de iron out · follow through · weigh up · sort out, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1206,6 +1320,12 @@ window.C1_COURSE = {
         "By and large: En líneas generales / Por lo general.",
         "The lost city of Atlantis is rumored to have sunk into the ocean.",
         "Play devil's advocate · cuestionar una idea para poner a prueba sus argumentos."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The deposit arrived by the agreed deadline, showing that the group acted on its promise.",
+          "evidence": "Arrived on Friday es el hecho que justifica followed through."
+        }
       ]
     },
     {
@@ -1234,11 +1354,9 @@ window.C1_COURSE = {
         "You may encounter delays on this route.",
         "I'll deal with the broken lock when I get home."
       ],
-      "reading": "We ran into a problem with our tickets at the station. You may encounter delays on this route. I'll deal with the broken lock when I get home. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "We ran into a problem with our tickets at the station. The clerk had encountered the same error that morning, so she ruled out a mistake in our booking and dealt with the faulty scanner instead.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “run into · encounter · deal with · rule out” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Por qué dejó la empleada de investigar la reserva?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Cuando algo sale mal”. Usa al menos una forma de run into · encounter · deal with · rule out, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1246,6 +1364,12 @@ window.C1_COURSE = {
         "In the grand scheme of things: En el fondo / Mirando el panorama general.",
         "The cyberattack is widely believed to have originated from an offshore server.",
         "Take a leaf out of someone's book · seguir el ejemplo de alguien."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "She recognized the same error from earlier and treated the scanner as the likely source of the problem.",
+          "evidence": "The same error that morning vincula el fallo con un problema repetido."
+        }
       ]
     },
     {
@@ -1274,11 +1398,9 @@ window.C1_COURSE = {
         "She's still learning to cope with living alone.",
         "He finally overcame his fear of flying."
       ],
-      "reading": "I had to face up to the fact that I couldn't afford the trip. She's still learning to cope with living alone. He finally overcame his fear of flying. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "When her father lost his job, Ana had to face up to the fact that he needed help. He acknowledged that he was struggling to cope with the uncertainty. They made a budget together, a first step toward overcoming the immediate shortfall.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “face up to · cope with · overcome · acknowledge” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿El presupuesto ya solucionó el problema o fue un paso inicial?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Una noticia difícil”. Usa al menos una forma de face up to · cope with · overcome · acknowledge, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1286,6 +1408,12 @@ window.C1_COURSE = {
         "On the tip of my tongue: Tener algo en la punta de la lengua.",
         "The board decreed that the new regulations are to be implemented by midnight.",
         "Call it a day · dar por terminada la actividad del día."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "It was a first step toward dealing with the shortfall. It did not end the uncertainty about his job.",
+          "evidence": "A first step limita lo conseguido y evita confundir avance con solución."
+        }
       ]
     },
     {
@@ -1314,11 +1442,9 @@ window.C1_COURSE = {
         "He refused to back down, even after he saw the receipt.",
         "I can't put up with that noise every night."
       ],
-      "reading": "I didn't want to bring up the argument at dinner. He refused to back down, even after he saw the receipt. I can't put up with that noise every night. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "I brought up the noise after midnight. Ben told me off for mentioning it in front of our guests, but I refused to back down: I couldn't put up with another sleepless night. We agreed to finish the conversation in private.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “bring up · back down · put up with · tell off” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿El acuerdo final implica que el narrador retiró la queja?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Pequeñas tensiones entre amigos”. Usa al menos una forma de bring up · back down · put up with · tell off, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1326,6 +1452,12 @@ window.C1_COURSE = {
         "Once in a blue moon: Muy de vez en cuando / Una vez cada mil años.",
         "This highly confidential document needs to be shredded immediately after perusal.",
         "Hit the nail on the head · dar en el clavo."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "No. They changed where they would discuss it, but the narrator did not withdraw the complaint.",
+          "evidence": "Refused to back down distingue ceder en el asunto de aceptar otro momento para hablar."
+        }
       ]
     },
     {
@@ -1354,11 +1486,9 @@ window.C1_COURSE = {
         "I was trying to get across how much the visit meant to me.",
         "That red jacket really stands out in the crowd."
       ],
-      "reading": "I hope I didn't come across as rude. I was trying to get across how much the visit meant to me. That red jacket really stands out in the crowd. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "At first, my announcement came across as abrupt. I wanted to get across that the club needed volunteers, so I added one concrete story to make the message stand out. Once people heard how the scheme worked, the idea caught on.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “come across · get across · stand out · catch on” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué hizo que la idea empezara a ganar aceptación?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Hacerse entender”. Usa al menos una forma de come across · get across · stand out · catch on, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1366,6 +1496,12 @@ window.C1_COURSE = {
         "Read between the lines: Leer entre líneas (captar el sentido oculto).",
         "The cathedral is documented to have been constructed over a span of two centuries.",
         "Iron out the details before you sign off on the project."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The story helped people understand what volunteering would achieve, so the idea began to gain support.",
+          "evidence": "Once people heard how… vincula entender la propuesta con que se difundiera."
+        }
       ]
     },
     {
@@ -1394,11 +1530,9 @@ window.C1_COURSE = {
         "Can you take over for a minute while I answer the door?",
         "We can do without a car for the weekend."
       ],
-      "reading": "I'll make up for missing your birthday by taking you to dinner. Can you take over for a minute while I answer the door? We can do without a car for the weekend. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "To make up for losing our venue, I offered to take over the booking. We could do without a stage, but we decided to do away with printed tickets only after the new venue confirmed it could scan phones.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “make up for · take over · do without · do away with” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué cosa aceptaron no tener y cuál eliminaron deliberadamente?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Lo que pasa después”. Usa al menos una forma de make up for · take over · do without · do away with, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1406,6 +1540,12 @@ window.C1_COURSE = {
         "Advocate: Many economists advocate lowering interest rates.",
         "The missing architectural blueprints are thought to have been destroyed in the fire.",
         "Flesh out the outline before presenting it to the client."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "They could manage without a stage. They deliberately replaced printed tickets once phone scanning was available.",
+          "evidence": "Do without expresa prescindir de algo; do away with señala eliminarlo como decisión."
+        }
       ]
     },
     {
@@ -1434,11 +1574,9 @@ window.C1_COURSE = {
         "I was studying every night and started to burn out.",
         "He keeps sucking up to the coach to get more playing time."
       ],
-      "reading": "I need to knuckle down and finish studying for my exam. I was studying every night and started to burn out. He keeps sucking up to the coach to get more playing time. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "Nina wanted to knuckle down and finish the club newsletter, but she'd been working every night and was starting to burn out. Instead of sucking up to the editor for an extension, she asked directly. He told her to lay off the late nights and send a shorter issue.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “knuckle down · burn out · suck up to · lay off” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Por qué pedir una prórroga no significa que Nina quiera evitar el trabajo?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Ponerse las pilas y descansar”. Usa al menos una forma de knuckle down · burn out · suck up to · lay off, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1446,6 +1584,12 @@ window.C1_COURSE = {
         "Advocate: The committee does not advocate implementing structural changes.",
         "Not only did she ace the interview, but she also negotiated a higher starting salary.",
         "Dwell on the past · darle vueltas al pasado."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "She still intends to finish the newsletter; she needs a realistic workload after working too many late nights.",
+          "evidence": "Knuckle down muestra su intención de trabajar; burn out explica por qué necesita un ajuste."
+        }
       ]
     },
     {
@@ -1474,11 +1618,9 @@ window.C1_COURSE = {
         "We blundered into the wrong room and interrupted a wedding rehearsal.",
         "The new bus route brought about a big change in how people got around."
       ],
-      "reading": "They embarked on a yearlong trip across South America. We blundered into the wrong room and interrupted a wedding rehearsal. The new bus route brought about a big change in how people got around. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "We embarked on a cycling trip with a printed map and blundered into a road closure. The detour brought about an unexpected change: we had time to visit a village we'd planned to skip. Before carrying out the revised plan, we checked the last ferry time.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “embark on / upon · blunder into · bring about · carry out” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Por qué comprobar el ferry antes de seguir el nuevo plan?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Un viaje y un giro inesperado”. Usa al menos una forma de embark on / upon · blunder into · bring about · carry out, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1486,6 +1628,12 @@ window.C1_COURSE = {
         "Contemplate: The board is contemplating expanding our operations.",
         "Barely had I closed my eyes when the alarm went off.",
         "Phase out the old software · retirar gradualmente el software antiguo."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The detour gave them a new opportunity, but the last ferry still limited how much time they could spend in the village.",
+          "evidence": "Before carrying out muestra que comprobar el horario forma parte de decidir si el plan es viable."
+        }
       ]
     },
     {
@@ -1514,11 +1662,9 @@ window.C1_COURSE = {
         "I concede that the old route is shorter, but the new one is safer.",
         "His account contradicts what the other witness said."
       ],
-      "reading": "She advocates keeping the park open later in the summer. I concede that the old route is shorter, but the new one is safer. His account contradicts what the other witness said. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "At the meeting, Luis advocated for keeping the playground open late. He conceded that some neighbors had complained about noise. But when a speaker claimed most complaints came from the playground, Luis showed records that contradicted her account and refuted the claim.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “advocate · concede · contradict · refute” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué diferencia hay entre lo que Luis admite y lo que refuta?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Una charla sobre el barrio”. Usa al menos una forma de advocate · concede · contradict · refute, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1526,6 +1672,12 @@ window.C1_COURSE = {
         "Contemplate: He is seriously contemplating resigning from his post.",
         "Never before had the company faced such a severe financial crisis.",
         "run a risk · We run the risk of missing the deadline. · Corremos el riesgo de incumplir el plazo."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "He accepts that complaints exist but refutes the claim that most of them came from the playground.",
+          "evidence": "Some y most distinguen el hecho que admite de la generalización que cuestiona."
+        }
       ]
     },
     {
@@ -1554,11 +1706,9 @@ window.C1_COURSE = {
         "She emphasized the need to lock the door. The empty shelves underline how quickly supplies ran out. The guide highlights the best places to stop.",
         "This scene illustrates how easily a misunderstanding can spread."
       ],
-      "reading": "The instructor demonstrated how to change a bike tire. She emphasized the need to lock the door. The empty shelves underline how quickly supplies ran out. The guide highlights the best places to stop. This scene illustrates how easily a misunderstanding can spread. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "To demonstrate how the filter works, Jae poured cloudy water through it. She highlighted the clear sample, then used a diagram to illustrate which particles had been trapped. She incorporated a second sample to emphasize that clear water isn't necessarily safe to drink.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “demonstrate · emphasize / underline / highlight · illustrate · incorporate” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Por qué añadió Jae una segunda muestra?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Contar cómo funciona algo”. Usa al menos una forma de demonstrate · emphasize / underline / highlight · illustrate · incorporate, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1566,6 +1716,12 @@ window.C1_COURSE = {
         "Defer: The department decided to defer publishing the results.",
         "Rarely do we see this level of dedication in a junior developer.",
         "strike a balance · We need to strike a balance between speed and accuracy. · Hay que encontrar un equilibrio entre rapidez y precisión."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "She wanted to prevent people from equating clear water with safe drinking water.",
+          "evidence": "The final contrast explains the limit of what the first demonstration proves."
+        }
       ]
     },
     {
@@ -1594,11 +1750,9 @@ window.C1_COURSE = {
         "The author postulates that the custom began as a way to mark the end of winter.",
         "From the wet shoes by the door, I deduced that someone had already been outside."
       ],
-      "reading": "The researchers hypothesized that the birds were following the coastline. The author postulates that the custom began as a way to mark the end of winter. From the wet shoes by the door, I deduced that someone had already been outside. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "The team hypothesized that the pond cooled faster because it was shallow. One researcher postulated a link with wind exposure as well. From the temperature logs they could deduce when cooling began, but without wind records they could only speculate about its cause.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “hypothesize · postulate · deduce · speculate” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué pueden deducir y sobre qué solo pueden especular?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Una explicación científica”. Usa al menos una forma de hypothesize · postulate · deduce · speculate, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1606,6 +1760,12 @@ window.C1_COURSE = {
         "Defer: We cannot defer making this investment.",
         "Seldom have I experienced such exceptional customer service.",
         "contain your anger · She struggled to contain her anger during the meeting. · Le costó contener el enojo durante la reunión."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "They can deduce when the cooling began, but they cannot establish whether wind helped cause it.",
+          "evidence": "Los registros de temperatura aportan una hora; faltan registros del viento para atribuir una causa."
+        }
       ]
     },
     {
@@ -1634,11 +1794,9 @@ window.C1_COURSE = {
         "The ceremony will commence at noon.",
         "My excitement diminished after two hours in line."
       ],
-      "reading": "The warmer weather accelerated the melting of the snow. The ceremony will commence at noon. My excitement diminished after two hours in line. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "Work on the old square will commence in March. The council hopes to accelerate repairs before summer and enhance pedestrian access. It expects disruption to diminish once the temporary walkway opens, even though the square will still be under construction.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “accelerate · commence · diminish · enhance” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Cuándo se espera que disminuyan las molestias y por qué?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Cambios en un lugar conocido”. Usa al menos una forma de accelerate · commence · diminish · enhance, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1646,6 +1804,12 @@ window.C1_COURSE = {
         "Involve: Upgrading the security infrastructure involves scrutinizing every user account.",
         "Only when the data was analyzed did they realize the mistake.",
         "bitterly disappointed · They were bitterly disappointed by the decision. · La decisión los decepcionó profundamente."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "Disruption should diminish when the temporary walkway opens, because people will have an easier route through the square.",
+          "evidence": "Once relaciona la reducción de las molestias con un acceso concreto, no con el fin de las obras."
+        }
       ]
     },
     {
@@ -1674,11 +1838,9 @@ window.C1_COURSE = {
         "The bus schedule varies depending on the day.",
         "I modified the recipe because we were out of eggs."
       ],
-      "reading": "Ticket prices fluctuate throughout the week. The bus schedule varies depending on the day. I modified the recipe because we were out of eggs. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "Attendance at our market fluctuates from week to week, and stall fees vary by location. We modified the layout so the cheapest stalls were easier to find. It didn't transform the market overnight, but more first-time sellers signed up the next month.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “fluctuate · vary · modify · transform” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿El autor presenta el cambio como una transformación total?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Cosas que cambian según el día”. Usa al menos una forma de fluctuate · vary · modify · transform, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1686,6 +1848,12 @@ window.C1_COURSE = {
         "Involve: Landing a managerial position involves taking on higher stress.",
         "Only by working together can we overcome this obstacle.",
         "blatantly obvious · The error was blatantly obvious once we checked the numbers. · El error saltaba a la vista al revisar los números."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "No. The new layout produced an early improvement, but it did not transform the entire market immediately.",
+          "evidence": "Didn't…overnight limita el alcance y la cifra de nuevas altas aporta un efecto concreto."
+        }
       ]
     },
     {
@@ -1714,11 +1882,9 @@ window.C1_COURSE = {
         "Open the curtains to maximize natural light. Leave early to minimize the risk of missing your flight.",
         "The town is phasing out its old parking meters."
       ],
-      "reading": "The city implemented a new bus schedule in June. Open the curtains to maximize natural light. Leave early to minimize the risk of missing your flight. The town is phasing out its old parking meters. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "The city implemented a new bus timetable to maximize connections and minimize long waits. It kept both evening routes for a month to account for workers on late shifts, then phased out the older route once riders had switched.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “implement · maximize / minimize · phase out · account for” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Por qué mantuvo las dos rutas al principio?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Hacer que algo funcione mejor”. Usa al menos una forma de implement · maximize / minimize · phase out · account for, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1726,6 +1892,12 @@ window.C1_COURSE = {
         "Postpone: They had to postpone launching the new software.",
         "Little did they know that the project was about to be canceled.",
         "virtually impossible · It was virtually impossible to hear over the radio. · Era prácticamente imposible oír por la radio."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The city wanted to account for late-shift workers and give them time to switch before removing the older route.",
+          "evidence": "Once riders had switched convierte la retirada en el último paso de una transición."
+        }
       ]
     },
     {
@@ -1754,11 +1926,9 @@ window.C1_COURSE = {
         "I'm contemplating taking a year off to travel.",
         "I spent the evening pondering whether to accept the invitation."
       ],
-      "reading": "The mechanic assessed the damage. We evaluated three routes before choosing one. I'm contemplating taking a year off to travel. I spent the evening pondering whether to accept the invitation. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "We contemplated moving the book club online. To assess the idea, we evaluated attendance records and scrutinized the dates when people dropped out. That made us ponder a smaller change: starting later rather than abandoning in-person meetings.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “assess / evaluate · contemplate · ponder · scrutinize” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Por qué contemplan cambiar la hora en vez de pasar a reuniones virtuales?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Pensar antes de decidir”. Usa al menos una forma de assess / evaluate · contemplate · ponder · scrutinize, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1766,6 +1936,12 @@ window.C1_COURSE = {
         "Postpone: The government has postponed adjusting the tax rates.",
         "Under no circumstances should you share your password.",
         "Notwithstanding introduce una concesión en un registro formal. Notwithstanding the costs, the project was a success. A pesar de los costos, el proyecto fue un éxito."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "Reviewing the attendance patterns gave them a reason to consider timing as the problem rather than the meeting format.",
+          "evidence": "A smaller change indica que la revisión les permitió considerar una alternativa menos drástica."
+        }
       ]
     },
     {
@@ -1794,11 +1970,9 @@ window.C1_COURSE = {
         "It took a second to grasp why everyone was laughing.",
         "I can't envisage living that far from my family. Can you envision what this place will look like in ten years?"
       ],
-      "reading": "I could barely discern the words over the music. It took a second to grasp why everyone was laughing. I can't envisage living that far from my family. Can you envision what this place will look like in ten years? Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "At first, I couldn't discern why visitors rushed past the exhibit. Once I grasped that the map was hard to read, I could envisage a simpler route. We kept the original lighting because a brighter display might detract from the atmosphere.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “discern · grasp · envisage / envision · detract from” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué cambio quiere hacer y qué efecto quiere evitar?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Notar lo que no es evidente”. Usa al menos una forma de discern · grasp · envisage / envision · detract from, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1806,6 +1980,12 @@ window.C1_COURSE = {
         "Resent: The senior staff resented being excluded from the process.",
         "On no account should you sign a contract without reading the fine print.",
         "Furthermore añade un argumento y encaja bien en escritura formal. The system is outdated. Furthermore, it poses a serious security risk. El sistema está obsoleto. Además, representa un riesgo grave de seguridad."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The narrator wants a clearer route without changing lighting that contributes to the atmosphere.",
+          "evidence": "La dificultad del mapa explica el cambio; detract from identifica lo que podría perderse con otra intervención."
+        }
       ]
     },
     {
@@ -1834,11 +2014,9 @@ window.C1_COURSE = {
         "Sharing that password could compromise your privacy. We compromised on where to eat.",
         "The road closure exacerbated the traffic problems."
       ],
-      "reading": "A short walk can help alleviate stress. Sharing that password could compromise your privacy. We compromised on where to eat. The road closure exacerbated the traffic problems. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "Adding an extra shuttle could alleviate crowding, but using the narrow lane might compromise pedestrian safety. Roadworks already hinder access, and sending more vehicles through the lane could exacerbate the problem. The organizers looked for a wider pickup point.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “alleviate · compromise · exacerbate · hinder” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Por qué la idea del transporte adicional necesita otro punto de recogida?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Una dificultad y sus consecuencias”. Usa al menos una forma de alleviate · compromise · exacerbate · hinder, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1846,6 +2024,12 @@ window.C1_COURSE = {
         "Resent: She resented having to justify her hours to a new manager.",
         "At no time did she imply that the results were guaranteed.",
         "Conversely presenta una relación inversa. Higher demand can drive prices up. Conversely, weaker demand can push them down. Una mayor demanda puede subir los precios. A la inversa, una demanda más débil puede bajarlos."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "An extra shuttle may ease crowding, but the narrow lane would make pedestrian access and safety worse.",
+          "evidence": "But introduce un efecto negativo de la solución si se aplica en ese lugar."
+        }
       ]
     },
     {
@@ -1874,11 +2058,9 @@ window.C1_COURSE = {
         "The town planted trees to mitigate the effects of extreme heat.",
         "The smell of fresh bread triggered a memory of my grandmother's kitchen."
       ],
-      "reading": "One missed connection could jeopardize the rest of the trip. The town planted trees to mitigate the effects of extreme heat. The smell of fresh bread triggered a memory of my grandmother's kitchen. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "Publishing an untested alarm plan could jeopardize the event. False alarms might trigger unnecessary evacuations and undermine confidence in the staff. To mitigate the risk, the organizers ran a drill before explaining the plan to visitors.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “jeopardize · mitigate · trigger · undermine” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué riesgo intenta reducir el simulacro además de una evacuación innecesaria?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Riesgo, confianza y prevención”. Usa al menos una forma de jeopardize · mitigate · trigger · undermine, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1886,6 +2068,12 @@ window.C1_COURSE = {
         "Claim: The new startup claims to possess a revolutionary algorithm.",
         "Had I known you were coming, I would have prepared the guest room.",
         "Granted reconoce un punto antes de matizarlo. Granted, the initial investment is high, but the long-term returns could justify it. Es cierto que la inversión inicial es alta, pero el rendimiento a largo plazo podría justificarla."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "It helps prevent people from losing trust in the staff because of repeated false alarms.",
+          "evidence": "Undermine confidence señala una consecuencia indirecta, distinta del traslado físico de personas."
+        }
       ]
     },
     {
@@ -1914,11 +2102,9 @@ window.C1_COURSE = {
         "We postponed leaving until the rain let up.",
         "Getting to the island involves taking two ferries."
       ],
-      "reading": "The organizers deferred announcing the lineup until Friday. We postponed leaving until the rain let up. Getting to the island involves taking two ferries. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "Heavy winds forced us to postpone the festival. The board deferred its decision on refunds until the new date was confirmed. That involved asking stallholders about their availability, but some resented having to wait for an answer.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “defer · postpone · involve · resent” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué se aplazó y por qué la decisión sobre reembolsos quedó pendiente?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Un festival aplazado”. Usa al menos una forma de defer · postpone · involve · resent, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1926,6 +2112,12 @@ window.C1_COURSE = {
         "Claim: He claims to know the politician personally.",
         "Should you require further assistance, please contact us.",
         "Afirmación directa. This will cause a problem."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The festival moved to a later date, while the board put off deciding on refunds until it knew whether stallholders could attend.",
+          "evidence": "Postpone se refiere al evento; defer se refiere a la decisión."
+        }
       ]
     },
     {
@@ -1955,11 +2147,9 @@ window.C1_COURSE = {
         "We will endeavor to reply within two days. [Formal. En conversación, try to.]",
         "I managed to catch the last train."
       ],
-      "reading": "He claims to know a shortcut to the beach. We will endeavor to reply within two days. [Formal. En conversación, try to.] I managed to catch the last train. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "The organizer claimed the hall would be ready on Friday and vowed to tell us if anything changed. The crew endeavoured to finish early and managed to open on time, although they are still striving to improve the lighting.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “claim · endeavour / endeavor · manage · strive · vow” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué se logró y qué sigue siendo un esfuerzo en curso?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Lo que prometes y lo que logras”. Usa al menos una forma de claim · endeavour / endeavor · manage · strive · vow, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -1967,6 +2157,12 @@ window.C1_COURSE = {
         "Endeavour: Our representatives endeavour to resolve all complaints quickly.",
         "Were he my employee, I would address the issue immediately.",
         "Probabilidad alta. This is highly likely to cause a problem."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "They managed to open on time, but improving the lighting remains an ongoing effort.",
+          "evidence": "Managed indica logro; are still striving indica un objetivo todavía pendiente."
+        }
       ]
     },
     {
@@ -1996,11 +2192,9 @@ window.C1_COURSE = {
         "I regret selling my guitar. We regret to inform you that tonight's show has been canceled.",
         "He went on talking after everyone had left. He introduced himself and went on to explain the rules."
       ],
-      "reading": "Taking the early train means getting up at five. I meant to text you, but I forgot. I regret selling my guitar. We regret to inform you that tonight's show has been canceled. He went on talking after everyone had left. He introduced himself and went on to explain the rules. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "“I meant to stop by early,” said Al, “but helping at the door meant missing the opening.” He regretted arriving late. After the talk, he went on to propose a shorter introduction next time, then stopped to thank the volunteers.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “mean · regret · go on · propose · stop” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué significa mean en cada una de las dos primeras partes?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Un verbo, dos sentidos”. Usa al menos una forma de mean · regret · go on · propose · stop, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -2008,6 +2202,12 @@ window.C1_COURSE = {
         "Endeavour: The institution will always endeavour to protect members' privacy.",
         "What ruined the negotiation was his arrogant attitude.",
         "Impresión preliminar. It would appear that this could lead to complications."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "He intended to arrive early, but helping at the door had the consequence of making him miss the opening.",
+          "evidence": "Meant to stop by expresa intención; meant missing expresa consecuencia."
+        }
       ]
     },
     {
@@ -2037,11 +2237,9 @@ window.C1_COURSE = {
         "It took a while to get used to driving on the left.",
         "I'm looking forward to seeing you again."
       ],
-      "reading": "I'm used to hearing traffic at night. It took a while to get used to driving on the left. I'm looking forward to seeing you again. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "I was used to working late, so getting used to the village's early closing times took a while. I rented a bicycle with a view to shopping before work. I look forward to quieter evenings now, though I still object to having no bus after nine.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “be used to · get used to · look forward to · object to · with a view to” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué muestra que adaptarse no implica estar de acuerdo con todo?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Acostumbrarse a un lugar”. Usa al menos una forma de be used to · get used to · look forward to · object to · with a view to, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -2049,6 +2247,12 @@ window.C1_COURSE = {
         "Manage: The legal team managed to iron out the discrepancies.",
         "What the team needs right now is clear leadership.",
         "Conclusión basada en evidencia. The evidence suggests that the change reduced delays."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The narrator has adjusted to earlier hours and enjoys quiet evenings, but still objects to the lack of a late bus.",
+          "evidence": "Though marca la objeción que permanece después de la adaptación."
+        }
       ]
     },
     {
@@ -2076,11 +2280,9 @@ window.C1_COURSE = {
         "It's no good calling him now. It's no use looking for the keys here.",
         "There's no point in waiting if the last bus has already left."
       ],
-      "reading": "I had difficulty understanding the announcement. I had trouble finding the entrance. It's no good calling him now. It's no use looking for the keys here. There's no point in waiting if the last bus has already left. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "I had trouble following the walking route because several signs were missing. It was no use guessing which path to take, and there was no point in pressing on after dark. We turned back and asked for a map the next morning.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “have difficulty / have trouble · it's no good / it's no use · there is no point in” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué hace que seguir caminando deje de valer la pena?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Cuando algo cuesta o deja de valer la pena”. Usa al menos una forma de have difficulty / have trouble · it's no good / it's no use · there is no point in, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -2088,6 +2290,12 @@ window.C1_COURSE = {
         "Manage: The logistics team managed to deliver the cargo on time.",
         "What I love about working here is the flexibility.",
         "Suposición extendida. It is widely assumed that the change will reduce delays."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "Missing signs made guessing unreliable, and darkness made continuing even less useful.",
+          "evidence": "It was no use y there was no point in descartan dos acciones distintas por razones concretas."
+        }
       ]
     },
     {
@@ -2117,11 +2325,9 @@ window.C1_COURSE = {
         "I met her for coffee to catch up with her. I ran to catch up with the group.",
         "She speaks so fast that I can barely keep up with her."
       ],
-      "reading": "Could you move over a little so I can sit down? I met her for coffee to catch up with her. I ran to catch up with the group. She speaks so fast that I can barely keep up with her. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "“Move over so I can sit down,” said Bea. We'd arranged to catch up, but I couldn't keep up with her account of the leak. I offered to check on the downstairs neighbor while she looked into who could repair the pipe.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “move over · catch up with · keep up with · check on · look into” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué divide el grupo entre dos personas y por qué?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Casa, amigos y conversación”. Usa al menos una forma de move over · catch up with · keep up with · check on · look into, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -2129,6 +2335,12 @@ window.C1_COURSE = {
         "Strive: As an organization, we strive to enhance the quality of life.",
         "What bothers me the most is his lack of punctuality.",
         "Informal, con un compañero · We need to sort out why these numbers don't match."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "One person checks whether the neighbor is all right while the other finds out who can repair the pipe.",
+          "evidence": "Check on se centra en la persona; look into abre una investigación sobre la reparación."
+        }
       ]
     },
     {
@@ -2158,11 +2370,9 @@ window.C1_COURSE = {
         "The sound kept cutting out. I cut out sugary drinks for a month.",
         "The internet went down during the storm. Prices usually go down after the holidays."
       ],
-      "reading": "Let's switch over to the other channel. The sound kept cutting out. I cut out sugary drinks for a month. The internet went down during the storm. Prices usually go down after the holidays. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "Our internet went down halfway through the meeting, so I switched over to my phone. The audio kept cutting out, and requests began to back up in the chat. When the phone started to run low on power, I sent everyone the notes instead.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “switch over to · cut out · go down · back up · run low on” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Por qué cambiar al teléfono no bastó?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Cuando se corta algo o se atasca”. Usa al menos una forma de switch over to · cut out · go down · back up · run low on, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -2170,6 +2380,12 @@ window.C1_COURSE = {
         "Strive: Educators must strive to accommodate diverse learning styles.",
         "It was Julia who came up with the winning strategy.",
         "Estándar, en una reunión · We need to resolve the difference between the two reports."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The phone connection still interrupted the audio, and the battery was running low, so sending notes was more reliable.",
+          "evidence": "Kept cutting out marca un problema repetido; run low on añade un límite práctico."
+        }
       ]
     },
     {
@@ -2198,11 +2414,9 @@ window.C1_COURSE = {
         "Can you spare a minute? We've got a spare key if you need one.",
         "The crew backfilled the trench after laying the pipe. The library is hiring someone to backfill the vacant position."
       ],
-      "reading": "Seal the bag so the chips stay fresh. Can you spare a minute? We've got a spare key if you need one. The crew backfilled the trench after laying the pipe. The library is hiring someone to backfill the vacant position. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "Before we sealed the crates, I asked the team to spare one for the display. We needed to backfill a vacant shift to finish packing. If we met the pickup deadline, we could claw back part of the deposit we'd lost when we changed the booking.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “seal · spare · backfill · claw back / claw back a bid” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué beneficio depende de cubrir el turno y terminar a tiempo?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Preparativos y verbos con usos específicos”. Usa al menos una forma de seal · spare · backfill · claw back / claw back a bid, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -2210,6 +2424,12 @@ window.C1_COURSE = {
         "Vow: The newly elected mayor vowed to alleviate traffic congestion.",
         "It is the lack of communication that causes most of our internal issues.",
         "Formal, en un informe · We need to identify the cause of the discrepancy and reconcile the figures."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "Meeting the pickup deadline would allow them to recover part of the deposit.",
+          "evidence": "Claw back se refiere a recuperar dinero ya perdido; la condición es cumplir el plazo."
+        }
       ]
     },
     {
@@ -2238,11 +2458,9 @@ window.C1_COURSE = {
         "The story has a good ending, but you need to flesh out the characters.",
         "My parents signed off on the plan after checking where we'd be staying."
       ],
-      "reading": "Let's not dwell on what went wrong. The story has a good ending, but you need to flesh out the characters. My parents signed off on the plan after checking where we'd be staying. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "The editor didn't want the review to dwell on the weak opening. She asked me to flesh out the argument about the ending before she could sign off on it. She thought the film might catch on if readers understood what made it distinctive.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “dwell on · flesh out · sign off on · catch on” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué tiene que ocurrir antes de que la editora apruebe la reseña?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Reseñas y conversación”. Usa al menos una forma de dwell on · flesh out · sign off on · catch on, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -2250,6 +2468,12 @@ window.C1_COURSE = {
         "Vow: Activists have vowed to fight the new legislation.",
         "It was only yesterday that I found out about the merger.",
         "To be perfectly honest, … introduce una opinión franca. Puede sonar directo según el tono."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The writer needs to develop the argument about the ending rather than spend more space on the opening.",
+          "evidence": "Before she could sign off on it hace explícito el requisito para aprobarla."
+        }
       ]
     },
     {
@@ -2278,11 +2502,9 @@ window.C1_COURSE = {
         "We clearly have different tastes, so let's agree to disagree.",
         "Let me play devil's advocate for a moment. What if the cheaper option breaks sooner?"
       ],
-      "reading": "Let's make sure we're on the same page about when to leave. We don't always see eye to eye on money. We clearly have different tastes, so let's agree to disagree. Let me play devil's advocate for a moment. What if the cheaper option breaks sooner? Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "We were on the same page about cutting costs, though we didn't see eye to eye on closing early. I played devil's advocate and asked who would lose access. Rae hit the nail on the head: the late slot mattered most to shift workers. We agreed to disagree about weekends.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “be on the same page / see eye to eye · agree to disagree · play devil's advocate · hit the nail on the head” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿En qué coincidían y qué desacuerdo decidieron dejar abierto?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Diferencias de opinión”. Usa al menos una forma de be on the same page / see eye to eye · agree to disagree · play devil's advocate · hit the nail on the head, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -2290,6 +2512,12 @@ window.C1_COURSE = {
         "Mean + -ing: Accepting this promotion will mean relocating to Geneva.",
         "It was the marketing campaign that triggered the sudden spike in sales.",
         "At the end of the day, it comes down to … resume el factor decisivo. Encaja en conversación."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "They agreed on reducing costs but left the weekend hours unresolved.",
+          "evidence": "On the same page identifica el acuerdo general; agreed to disagree delimita el desacuerdo que queda."
+        }
       ]
     },
     {
@@ -2318,11 +2546,9 @@ window.C1_COURSE = {
         "She studied the route the night before so she could hit the ground running on her first day as a guide.",
         "Keep your chin up. You'll get another chance. The coach told us to pull our socks up before the next match. [Pull your socks up es especialmente británico.]"
       ],
-      "reading": "I burned the midnight oil finishing my essay. Our host went the extra mile and picked us up at the station. She studied the route the night before so she could hit the ground running on her first day as a guide. Keep your chin up. You'll get another chance. The coach told us to pull our socks up before the next match. [Pull your socks up es especialmente británico.] Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "I burned the midnight oil trying to prepare for my first shift. “Keep your chin up,” said Jo. “Take a leaf out of Maya's book: ask for the checklist before you start. That'll help you hit the ground running without having to go the extra mile every night.”",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “burn the midnight oil / go the extra mile · hit the ground running · keep your chin up / pull your socks up · take a leaf out of someone's book” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Jo aconseja trabajar todavía más o prepararse de otra manera?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Esfuerzo y ánimo”. Usa al menos una forma de burn the midnight oil / go the extra mile · hit the ground running · keep your chin up / pull your socks up · take a leaf out of someone's book, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -2330,6 +2556,12 @@ window.C1_COURSE = {
         "Mean + -ing: Failing this final exam means losing the scholarship.",
         "All I want is a straight answer.",
         "Off the top of my head, I'd say … avisa que la respuesta es una primera impresión."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "Jo suggests a more effective way to prepare: use Maya's example and ask for a checklist instead of working late every night.",
+          "evidence": "Without having to go the extra mile aclara que el consejo busca reducir el esfuerzo innecesario."
+        }
       ]
     },
     {
@@ -2358,11 +2590,9 @@ window.C1_COURSE = {
         "The dates are still up in the air. Let's play it by ear and see how the weather looks.",
         "I finally bit the bullet and called the dentist. I broke the vase and had to face the music."
       ],
-      "reading": "We're in a pickle. I locked the keys inside. I was in a tight spot when the last train was canceled. The dates are still up in the air. Let's play it by ear and see how the weather looks. I finally bit the bullet and called the dentist. I broke the vase and had to face the music. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "We were in a pickle: the venue was still up in the air the day before the show. I took the owner's promise with a grain of salt and wanted to play it by ear. When she missed our final call, that was the last straw. We bit the bullet and told the performers we'd moved the show.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “be in a pickle / be in a tight spot · be up in the air / play it by ear · bite the bullet / face the music · take it with a grain of salt / the last straw” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué hizo que dejaran de esperar y actuaran?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Planes inciertos”. Usa al menos una forma de be in a pickle / be in a tight spot · be up in the air / play it by ear · bite the bullet / face the music · take it with a grain of salt / the last straw, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -2370,6 +2600,12 @@ window.C1_COURSE = {
         "Mean + to-inf: I am genuinely sorry; I didn't mean to jeopardize your position.",
         "All they did was complain about the new system.",
         "That's a tough one to call, but … reconoce que es difícil decidir o predecir el resultado."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The missed final call was the last straw. It pushed them to make the difficult decision to move the show.",
+          "evidence": "Last straw indica el hecho que rebasa el límite; bit the bullet muestra que actuar costaba."
+        }
       ]
     },
     {
@@ -2398,11 +2634,9 @@ window.C1_COURSE = {
         "That apartment costs an arm and a leg. It's hard to make ends meet when rent keeps going up.",
         "They cut corners on the repairs and the leak came back. We hit the jackpot with that little café."
       ],
-      "reading": "Missing the train was a blessing in disguise. I ran into an old friend at the station. That apartment costs an arm and a leg. It's hard to make ends meet when rent keeps going up. They cut corners on the repairs and the leak came back. We hit the jackpot with that little café. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "The first studio cost an arm and a leg, and we could barely make ends meet. When its landlord cut corners on repairs, we called it a day. Losing the space was a blessing in disguise: we hit the jackpot with a cheaper room that already had soundproofing.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “a blessing in disguise · cost an arm and a leg / make ends meet · cut corners / hit the jackpot · call it a day” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Por qué perder el primer estudio termina siendo algo positivo?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Dinero y giros inesperados”. Usa al menos una forma de a blessing in disguise · cost an arm and a leg / make ends meet · cut corners / hit the jackpot · call it a day, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -2410,6 +2644,12 @@ window.C1_COURSE = {
         "Mean + to-inf: The government didn't mean to spark such intense public outrage.",
         "The thing that worries me is the tight deadline.",
         "Lugar · An ancient castle stood on the hilltop. · On the hilltop stood an ancient castle."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "It led them to a cheaper room that already met an important need, so they gained something from the setback.",
+          "evidence": "Blessing in disguise cambia la valoración inicial; la sala más barata y aislada justifica ese giro."
+        }
       ]
     },
     {
@@ -2438,11 +2678,9 @@ window.C1_COURSE = {
         "In the grand scheme of things, ten minutes isn't a big deal. I only eat fast food once in a blue moon.",
         "Her name is on the tip of my tongue. If you read between the lines, he wasn't happy about leaving."
       ],
-      "reading": "At the end of the day, it's your decision. By and large, we had a great trip. In the grand scheme of things, ten minutes isn't a big deal. I only eat fast food once in a blue moon. Her name is on the tip of my tongue. If you read between the lines, he wasn't happy about leaving. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "“Off the top of my head, we meet there once in a blue moon,” said Lee. “The name's on the tip of my tongue.” I read between the lines: by and large, nobody minded changing venues. At the end of the day, it was the company that mattered.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “at the end of the day / by and large · in the grand scheme of things / once in a blue moon · on the tip of my tongue / read between the lines · off the top of my head / that's a tough one to call” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué interpreta el narrador más allá de las palabras de Lee?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Frases para el día a día”. Usa al menos una forma de at the end of the day / by and large · in the grand scheme of things / once in a blue moon · on the tip of my tongue / read between the lines · off the top of my head / that's a tough one to call, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -2450,6 +2688,12 @@ window.C1_COURSE = {
         "Regret + -ing: I deeply regret not going the extra mile during my master's.",
         "Pasado → presente. If I had taken that job in London, I would be living there now.",
         "Grado con so · The presentation was so boring that I fell asleep. · So boring was the presentation that I fell asleep."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The group probably isn't attached to the old venue; they rarely use it and care more about seeing each other.",
+          "evidence": "Once in a blue moon aporta una pista; read between the lines presenta una interpretación."
+        }
       ]
     },
     {
@@ -2477,11 +2721,9 @@ window.C1_COURSE = {
         "He struggled to contain his anger when he heard the news. She was bitterly disappointed when the trip was canceled.",
         "It was blatantly obvious that the door had been forced open. It's virtually impossible to find parking here after six."
       ],
-      "reading": "If we leave now, we run the risk of missing the call. I'm trying to strike a balance between saving money and enjoying the trip. He struggled to contain his anger when he heard the news. She was bitterly disappointed when the trip was canceled. It was blatantly obvious that the door had been forced open. It's virtually impossible to find parking here after six. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "The organizers tried to strike a balance between cost and safety. It was blatantly obvious that the exit was blocked, and moving the equipment alone was virtually impossible. I was bitterly disappointed, but I contained my anger: opening anyway would run the risk of trapping people.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “run the risk of / strike a balance · contain your anger / bitterly disappointed · blatantly obvious / virtually impossible” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Por qué contener el enojo no significa aceptar que abran?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Equilibrio, riesgo y reacciones”. Usa al menos una forma de run the risk of / strike a balance · contain your anger / bitterly disappointed · blatantly obvious / virtually impossible, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -2489,6 +2731,12 @@ window.C1_COURSE = {
         "Regret + -ing: He regrets making such an impulsive statement on live television.",
         "Pasado → presente. If I hadn't missed my flight yesterday, I would be sitting in the conference room right now.",
         "Participio inicial · The stolen documents were hidden away in the back of the drawer. · Hidden away in the back of the drawer were the stolen documents."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The speaker controls their reaction but still considers opening unsafe because the exit is blocked.",
+          "evidence": "Run the risk of trapping people expresa la objeción de seguridad que sigue vigente."
+        }
       ]
     },
     {
@@ -2517,11 +2765,9 @@ window.C1_COURSE = {
         "A clear sky can make the ground cool rapidly at night. Conversely, cloud cover can slow that cooling. Notwithstanding the rain, the event went ahead.",
         "The evidence suggests that the animal returned at night. It would appear that the trail is closed for repairs."
       ],
-      "reading": "Granted, the trip is expensive, but it's something I've always wanted to do. The trail is steep. Furthermore, it gets slippery after rain. A clear sky can make the ground cool rapidly at night. Conversely, cloud cover can slow that cooling. Notwithstanding the rain, the event went ahead. The evidence suggests that the animal returned at night. It would appear that the trail is closed for repairs. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "Granted, the trial was short. Furthermore, only one class took part. The evidence suggests the new routine helped that class; conversely, it would be premature to expect the same result elsewhere. To be perfectly honest, it comes down to whether the next trial confirms the result.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “granted / furthermore · conversely / notwithstanding · the evidence suggests / it would appear · to be perfectly honest / it comes down to” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿El hablante recomienda adoptar la rutina en todas las clases ya?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Expresar una opinión con matices”. Usa al menos una forma de granted / furthermore · conversely / notwithstanding · the evidence suggests / it would appear · to be perfectly honest / it comes down to, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -2529,6 +2775,12 @@ window.C1_COURSE = {
         "Regret + to-inf: We regret to inform you that your application has been rejected.",
         "Pasado → presente. If she had taken the technical course last year, she would have more job options today.",
         "We need to analyze the data before we decide what to do. · We need a thorough analysis of the data before making a final decision."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "No. The result is encouraging, but the speaker wants confirmation from a broader follow-up trial.",
+          "evidence": "The evidence suggests mantiene la cautela; la participación de una sola clase limita la conclusión."
+        }
       ]
     },
     {
@@ -2556,11 +2808,9 @@ window.C1_COURSE = {
         "I don't enjoy being interrupted while I'm telling a story.",
         "He was proud of having been chosen for the school play."
       ],
-      "reading": "She regretted not having checked the address before leaving. I don't enjoy being interrupted while I'm telling a story. He was proud of having been chosen for the school play. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "Lina resented having been invited only after the program was printed. Having helped design the event, she had expected to be consulted earlier. She didn't mind being asked to introduce the speakers, but she wanted the organizers to acknowledge her earlier work.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “gerundio perfecto · gerundio pasivo · gerundio perfecto pasivo” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué molesta a Lina y qué acepta hacer?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Una invitación y lo que ocurrió antes”. Usa al menos una forma de gerundio perfecto · gerundio pasivo · gerundio perfecto pasivo, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -2568,6 +2818,12 @@ window.C1_COURSE = {
         "Regret + to-inf: The airline regrets to announce the cancellation of flight BA204.",
         "Condición general → pasado. If she were more organized, she wouldn't have missed the deadline yesterday.",
         "The government intervened quickly, so the economy recovered. · The government's swift intervention led to a rapid economic recovery."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "She is upset about being invited so late, not about introducing the speakers. She still wants recognition for her earlier work.",
+          "evidence": "Having been invited mira a una acción recibida y pasada; being asked señala una petición que acepta."
+        }
       ]
     },
     {
@@ -2595,11 +2851,9 @@ window.C1_COURSE = {
         "The tickets need to be printed before you leave.",
         "The letters are thought to have been written in the same year."
       ],
-      "reading": "The lost painting is believed to have disappeared during the move. The tickets need to be printed before you leave. The letters are thought to have been written in the same year. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "The notebook appears to have been found beneath a loose floorboard. It seems to have belonged to the first owner, although the initials are hard to read. It is due to be examined next week, before the museum labels it for display.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “infinitivo perfecto · infinitivo pasivo · infinitivo perfecto pasivo” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Por qué todavía no debería identificarse al dueño en la etiqueta?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Relatos y hallazgos”. Usa al menos una forma de infinitivo perfecto · infinitivo pasivo · infinitivo perfecto pasivo, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -2607,6 +2861,12 @@ window.C1_COURSE = {
         "Go on + -ing: The professor went on talking despite the students' evident boredom.",
         "Condición general → pasado. If I spoke fluent German, I would have applied for that position in Berlin.",
         "A: I've decided to quit my job. B: Have you, now? What are you planning to do? Con un tono cálido puede mostrar interés. Con otro tono puede sonar escéptico."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The initials are unclear, so the attribution is tentative until the notebook can be examined.",
+          "evidence": "Seems to have belonged expresa una atribución provisional; due to be examined sitúa la comprobación en el futuro."
+        }
       ]
     },
     {
@@ -2634,11 +2894,9 @@ window.C1_COURSE = {
         "At the end of the path stood a small stone house. Hidden under the stairs were three boxes of letters.",
         "What puzzled me was the date. It was the signature that gave it away. All we wanted was an explanation."
       ],
-      "reading": "Only after I checked the photo did I notice the date. So strange was the message that I read it twice. At the end of the path stood a small stone house. Hidden under the stairs were three boxes of letters. What puzzled me was the date. It was the signature that gave it away. All we wanted was an explanation. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "Only after we lifted the mat did we see the scratches. Hidden beneath it was a brass key. Never before had we noticed the lock on the old cupboard. What we needed was a better light; it was the torch that finally showed where the key fitted.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “inversión negativa y enfática · inversión locativa y participio inicial · cleft con what, it y all” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué hace falta además de encontrar la llave para resolver el misterio?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Una pista inesperada”. Usa al menos una forma de inversión negativa y enfática · inversión locativa y participio inicial · cleft con what, it y all, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -2646,6 +2904,12 @@ window.C1_COURSE = {
         "Go on + -ing: Even after the alarm went off, he went on working.",
         "Provided that they lower the price, we'll sign the agreement.",
         "A: He rarely helps around the house. B: Doesn't he? I thought he was very helpful. La respuesta reacciona al sentido casi negativo de rarely."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "They need better light to see where the key fits. Finding it alone does not identify its lock.",
+          "evidence": "What we needed enfoca la carencia; it was the torch… identifica qué permitió resolverla."
+        }
       ]
     },
     {
@@ -2673,11 +2937,9 @@ window.C1_COURSE = {
         "Would you have told him? [Escuchar por separado would you, have y him. Volver a oír la frase completa.]",
         "I didn't say she stole the money. [Repetir tres veces con énfasis en I, say y money, respectivamente.]"
       ],
-      "reading": "A: I've booked the earlier train. B: Have you? Let's check the departure time, shall we? Don't forget your ticket, will you? Would you have told him? [Escuchar por separado would you, have y him. Volver a oír la frase completa.] I didn't say she stole the money. [Repetir tres veces con énfasis en I, say y money, respectivamente.] Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "“You booked it for Friday?” “I booked it ON Friday, for Sunday,” said Mo. “Check the confirmation, will you?” I had heard the sentence as one quick stretch of speech and missed the contrast between the day of booking and the day of the visit.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “echo questions y tags · connected speech · énfasis contrastivo” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué malentendido corrige el énfasis en ON?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Una conversación, varias lecturas”. Usa al menos una forma de echo questions y tags · connected speech · énfasis contrastivo, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -2685,6 +2947,12 @@ window.C1_COURSE = {
         "Go on + to-inf: After graduating from Oxford, she went on to become a prominent lawyer.",
         "We can proceed as long as the team approves the plan.",
         "Sugerencia compartida. Let's have a look at the metrics, shall we?"
+      ],
+      "readingAnswers": [
+        {
+          "answer": "Friday was the day Mo made the booking; Sunday was the day of the visit.",
+          "evidence": "ON Friday contrasta con for Sunday; la pregunta eco hace visible la interpretación inicial."
+        }
       ]
     },
     {
@@ -2712,11 +2980,9 @@ window.C1_COURSE = {
         "If I had learned to swim as a kid, I'd feel more comfortable in the water now. If I were more patient, I wouldn't have given up so quickly. We can go tomorrow as long as the weather holds.",
         "Had I known the trail was closed, I would have taken the bus. She might have missed the sign. We needn't have rushed."
       ],
-      "reading": "We changed the route because it was safer. The change of route improved safety. If I had learned to swim as a kid, I'd feel more comfortable in the water now. If I were more patient, I wouldn't have given up so quickly. We can go tomorrow as long as the weather holds. Had I known the trail was closed, I would have taken the bus. She might have missed the sign. We needn't have rushed. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "“If we'd checked the leak sooner, the room would be open now,” I told Jo. “We can still meet here as long as the side room is dry.” The notice used a more formal register: “Following the closure of the main room, should visitors require assistance, staff will direct them to the side room.”",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “nominalización y registro · condicionales mixtos y alternativas a if · condicionales invertidos y modales” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Qué cambia al pasar de la conversación al aviso y qué información se conserva?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “El mismo mensaje para dos públicos”. Usa al menos una forma de nominalización y registro · condicionales mixtos y alternativas a if · condicionales invertidos y modales, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -2724,6 +2990,12 @@ window.C1_COURSE = {
         "Go on + to-inf: The CEO spoke and then went on to outline the future goals.",
         "Supposing they don't accept the offer, what's our backup plan?",
         "Recordatorio con imperativo negativo. Don't forget to send the invoice, will you?"
+      ],
+      "readingAnswers": [
+        {
+          "answer": "The notice replaces the personal explanation with a formal announcement, but it still tells people that the side room is the alternative.",
+          "evidence": "Closure nominaliza la acción y should visitors require… formula una condición de modo formal."
+        }
       ]
     },
     {
@@ -2751,11 +3023,9 @@ window.C1_COURSE = {
         "Having read the label, we understood the guide's point. The statue displayed by the entrance was made in the 1800s.",
         "“Perfect. Another flat tire,” she said, looking at the bike. It was the last straw."
       ],
-      "reading": "The statue is believed to be a copy. The guide denied having called it an original and urged us to look at the label. Having read the label, we understood the guide's point. The statue displayed by the entrance was made in the 1800s. “Perfect. Another flat tire,” she said, looking at the bike. It was the last straw. Read the passage as a connected situation: decide what is explicit, what is implied, and which wording carries the strongest nuance.",
+      "reading": "The statue displayed by the entrance is believed to be a copy. The guide denied having called it an original and urged us to read the label. Having read it, we realized the date referred to the original mold. “Perfect. Another clue I walked straight past,” Jo said; that was the last straw for her theory.",
       "questions": [
-        "¿Qué hecho está explícitamente confirmado y qué conclusión tienes que inferir?",
-        "¿Qué palabra, estructura o expresión de “pasiva y reported speech · cláusulas de participio y relativas reducidas · lenguaje figurado” cambia más la interpretación?",
-        "Reformula una de las ideas con un registro más neutro sin perder el significado principal."
+        "¿Por qué el año de la etiqueta ya no respalda la teoría de Jo?"
       ],
       "oralChallenge": "Habla durante 30–45 segundos sobre “Contar lo que se sabe”. Usa al menos una forma de pasiva y reported speech · cláusulas de participio y relativas reducidas · lenguaje figurado, después reformula una de tus frases de una manera más precisa o más natural.",
       "sourceExamples": [
@@ -2763,6 +3033,12 @@ window.C1_COURSE = {
         "Propose + -ing: The architect proposed modifying the building's layout.",
         "But for your timely warning, we would have lost millions.",
         "I didn't say she stole the money. · Quizá alguien más lo dijo. Yo no."
+      ],
+      "readingAnswers": [
+        {
+          "answer": "It dates the mold rather than the statue itself, so it doesn't establish when this particular statue was made.",
+          "evidence": "El referente de la fecha cambia al leer la etiqueta; la reacción irónica señala que Jo abandona su teoría."
+        }
       ]
     }
   ],
