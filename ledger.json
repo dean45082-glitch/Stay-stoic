@@ -9947,9 +9947,11 @@
       "type": "model"
     },
     "b0a589f6fd731f2c335b7e934266aa3f817739101d922c07a7708dda5df2053c": {
-      "status": "reserved",
+      "status": "complete",
       "batch": "2026-11-12-c1-primary",
       "estimatedCredits": 116,
+      "bytes": 193558,
+      "sha256": "e8b8d277848c6909951c6242ff98494b2940fd64de7127575153b3301ba436ce",
       "voiceId": "WbNN0ZquKxio6sawH5yC",
       "voiceLabel": "NY sofisticado",
       "modelId": "eleven_flash_v2_5",
@@ -9957,9 +9959,11 @@
       "type": "reading"
     },
     "d4781be5737ab4a3f7007e1ec893de22f581048dda72aa5f08beb7fd582cb3e7": {
-      "status": "reserved",
+      "status": "complete",
       "batch": "2026-11-12-c1-primary",
       "estimatedCredits": 18,
+      "bytes": 35151,
+      "sha256": "ed496c66baff10e0b98ccacb2d442ca7406a29c765716d5eeb63bb876fbd6815",
       "voiceId": "WbNN0ZquKxio6sawH5yC",
       "voiceLabel": "NY sofisticado",
       "modelId": "eleven_flash_v2_5",
@@ -9967,9 +9971,11 @@
       "type": "model"
     },
     "41801f2d966a04c1bb5047f46efd6acde9add8e648c131310908a414dfba3904": {
-      "status": "reserved",
+      "status": "complete",
       "batch": "2026-11-12-c1-primary",
       "estimatedCredits": 29,
+      "bytes": 49362,
+      "sha256": "5e5796299d03b99e00cf341778e2f66e7f83e36185fa060dcc6b59e44ffccaab",
       "voiceId": "WbNN0ZquKxio6sawH5yC",
       "voiceLabel": "NY sofisticado",
       "modelId": "eleven_flash_v2_5",
@@ -9977,9 +9983,11 @@
       "type": "model"
     },
     "7cea403dd3b1e326bc27d4b908ac28f081a147684678d6ecb70ddbc704b3177d": {
-      "status": "reserved",
+      "status": "complete",
       "batch": "2026-11-12-c1-primary",
       "estimatedCredits": 29,
+      "bytes": 47690,
+      "sha256": "721fffc3360ee2e21791c70c9825dba67ade09ea9dc157e76180e0f13034f435",
       "voiceId": "WbNN0ZquKxio6sawH5yC",
       "voiceLabel": "NY sofisticado",
       "modelId": "eleven_flash_v2_5",
@@ -9987,9 +9995,11 @@
       "type": "model"
     },
     "bd068e286c60e16c72385c7756a37ec37c21845f13bcbeb494363a6433ebf8ec": {
-      "status": "reserved",
+      "status": "complete",
       "batch": "2026-11-12-c1-primary",
       "estimatedCredits": 40,
+      "bytes": 63572,
+      "sha256": "df356e4ceee008b0edb5e21b357bdc9c1c84a07b49f2d2c89f402a3835667478",
       "voiceId": "WbNN0ZquKxio6sawH5yC",
       "voiceLabel": "NY sofisticado",
       "modelId": "eleven_flash_v2_5",
@@ -9997,9 +10007,11 @@
       "type": "model"
     },
     "07a353c9fc49ae00536bca4898fa69e7c7f8ea3878f876be9e10ecae83a26a7b": {
-      "status": "reserved",
+      "status": "complete",
       "batch": "2026-11-12-c1-primary",
       "estimatedCredits": 115,
+      "bytes": 186870,
+      "sha256": "bb07bf130952e5c1f165ee3ba5df677e2c531550d0923f22e8a0745e545c52d0",
       "voiceId": "WbNN0ZquKxio6sawH5yC",
       "voiceLabel": "NY sofisticado",
       "modelId": "eleven_flash_v2_5",
@@ -10007,9 +10019,11 @@
       "type": "reading"
     },
     "4dc2413f9dd70b6c621d6088375874dbfbcadda78630868ae27d193bb859df0c": {
-      "status": "reserved",
+      "status": "complete",
       "batch": "2026-11-12-c1-primary",
       "estimatedCredits": 29,
+      "bytes": 44764,
+      "sha256": "4decb09fd814d2c1025cdb62b35078252a1dc75c914235d9d0f3062e9ea80d10",
       "voiceId": "WbNN0ZquKxio6sawH5yC",
       "voiceLabel": "NY sofisticado",
       "modelId": "eleven_flash_v2_5",
@@ -10017,9 +10031,11 @@
       "type": "model"
     },
     "f57e707ee63ff8d9219d5657e17c895e71afb056f327625227bc636525d2619f": {
-      "status": "reserved",
+      "status": "complete",
       "batch": "2026-11-12-c1-primary",
       "estimatedCredits": 25,
+      "bytes": 38913,
+      "sha256": "96cf1090632cbca66b9e993de1f75a420bdd74b85a0204d8000d2bdfe494fa1f",
       "voiceId": "WbNN0ZquKxio6sawH5yC",
       "voiceLabel": "NY sofisticado",
       "modelId": "eleven_flash_v2_5",
@@ -10027,9 +10043,11 @@
       "type": "model"
     },
     "5b36910f92ee530d424ba423744ec92f2c24c96e2a6ee8428eb1f54dfe486a73": {
-      "status": "reserved",
+      "status": "complete",
       "batch": "2026-11-12-c1-primary",
       "estimatedCredits": 34,
+      "bytes": 55213,
+      "sha256": "149c1d4d6076094fb2b47f2a7367e9a8f624fcdf623666fbdc8bcd8054369013",
       "voiceId": "WbNN0ZquKxio6sawH5yC",
       "voiceLabel": "NY sofisticado",
       "modelId": "eleven_flash_v2_5",
@@ -10037,9 +10055,11 @@
       "type": "model"
     },
     "ba01ad36a1f139ca783ee5be78e9fbed8c7d18ac1d0a46dfe022a6da86f736fc": {
-      "status": "reserved",
+      "status": "complete",
       "batch": "2026-11-12-c1-primary",
       "estimatedCredits": 53,
+      "bytes": 89486,
+      "sha256": "007b9ebe8c01110377a2492afe49ccea4edd9a17a75595366333654d58bfbe32",
       "voiceId": "WbNN0ZquKxio6sawH5yC",
       "voiceLabel": "NY sofisticado",
       "modelId": "eleven_flash_v2_5",
