@@ -6457,6 +6457,76 @@
       "bytes": 33897,
       "voiceId": "WbNN0ZquKxio6sawH5yC",
       "voiceLabel": "NY sofisticado"
+    },
+    "We can't rule out the possibility that we got the date wrong.": {
+      "file": "audio/06c2292cb10208a60cf446438c2e29d44ac8086d8fdfa3c149460529f85946ac.mp3",
+      "sha256": "0c5ca1fd5b757c88adebc90d07a445a73c237e2f540ad5e1033c8aa3a517b7d2",
+      "bytes": 48526,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "We ran into a problem with our tickets at the station. The clerk had encountered the same error that morning, so she ruled out a mistake in our booking and dealt with the faulty scanner instead.": {
+      "file": "audio/667161aca9a4772c5de6bbd2423a340ac8fc9621e38f76bc6087bd99397324b5.mp3",
+      "sha256": "70909335741c71cee2880f37a49a60697393badc5e3a121f5d4160c2b975a2c2",
+      "bytes": 142149,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "I had to face up to the fact that I couldn't afford the trip.": {
+      "file": "audio/9b1c3ac59f09693a96af31c123be653ce09ab6403976bd22f837fdca4bf98d06.mp3",
+      "sha256": "a73cee9e3d0bcd29ff06ac0c2b512803c1121037f399605ba5a2f3cbd2ae56b1",
+      "bytes": 42674,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "She's still learning to cope with living alone.": {
+      "file": "audio/bd123a17e09f251dd532dff831c2a8ea7b6559ba55d36e59be3172aaaf4664bb.mp3",
+      "sha256": "da32d07ff215f69e8fb4a0a6e7dd4a1c1e469e5803b1d4876db45f8d731503ca",
+      "bytes": 35987,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "He finally overcame his fear of flying.": {
+      "file": "audio/cd797b2061210021025a843b54a4d7accd90e8d7d99310c23e575b568dfc64e1.mp3",
+      "sha256": "92c603a4209b6a659232c41798b0ba45192060c3d9f5872da0cf75390ce424cd",
+      "bytes": 33897,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "She acknowledged that she'd forgotten to call.": {
+      "file": "audio/023cd322da2cd6d19cb2286f8b3072ffb0d36dc2fdeb7df5692eb2fb4b227045.mp3",
+      "sha256": "75925f8f329126e18b4c97c6846fcb05f66a2ef781286423db4a4bcc5afaea83",
+      "bytes": 35151,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "When her father lost his job, Ana had to face up to the fact that he needed help. He acknowledged that he was struggling to cope with the uncertainty. They made a budget together, a first step toward overcoming the immediate shortfall.": {
+      "file": "audio/12c6b43a0f1b077bfb4cb241ba35d65fe7de374900ee0ace0fc402fcc499ceb7.mp3",
+      "sha256": "5a83226ecc416dfd37e29dbffe6f0f2d2f534d77b5524b9fac39150b2c3d4a53",
+      "bytes": 182273,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "I didn't want to bring up the argument at dinner.": {
+      "file": "audio/9ca43f6b72309f97ab14d8cd19e2612a8716a6513839ab5b270d3c3c3cc3f69b.mp3",
+      "sha256": "a7d16c631b24fcad1d30346547f1af3ca81335817ff9f933604f9826cee1fa68",
+      "bytes": 33897,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "He refused to back down, even after he saw the receipt.": {
+      "file": "audio/7a0d4f64ca1600f0df08bf9afa784f91411c6b79a3933ea05644b3b9efa6d9bb.mp3",
+      "sha256": "52628367126bdff679dca024e763ff52f7b9a463037862c7257e2bed29bd7a9d",
+      "bytes": 49362,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "I can't put up with that noise every night.": {
+      "file": "audio/ed84fc452c9b5b512c5ff8e6f8abd63f4e35e79aefca2e4318402d214f105dcb.mp3",
+      "sha256": "5fefaca44736fca0dff57d525348cc3664e3dc49e434315f616ebb2d7b7f46b7",
+      "bytes": 30972,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
     }
   }
 }
