@@ -51,3 +51,9 @@ jobs:
         with:
           name: StayStoic-V2-APK
           path: StayStoic-V2.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: StayStoic-V2-Web
+          path: offline-web/
+          retention-days: 90
