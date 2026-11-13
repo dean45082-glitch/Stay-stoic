@@ -153,7 +153,7 @@ async function run({store,live}){
   }
 
   const subscription=await safeSubscription(key);
-  if(subscription?.remaining!==null && subscription.remaining < pendingCredits+100){
+  if(subscription && subscription.remaining!==null && subscription.remaining < pendingCredits+100){
     throw Error('Insufficient renewed credits: need '+(pendingCredits+100)+' including safety margin, have '+subscription.remaining);
   }
 
