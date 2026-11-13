@@ -6037,6 +6037,76 @@
       "bytes": 270880,
       "voiceId": "WbNN0ZquKxio6sawH5yC",
       "voiceLabel": "NY sofisticado"
+    },
+    "You shouldn't have sent the message before checking the details.": {
+      "file": "audio/47aa228b3ee16b31bfa67f6687db8cf4afe938ae268b3177cbe304f5c48b3da4.mp3",
+      "sha256": "61b7b66b12d24eeeeeab4e065e3f4d80be9e9f4dc9a51a6100477e77a695264e",
+      "bytes": 47272,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "We needn't have rushed; they were still waiting for us.": {
+      "file": "audio/893b4b3c5859df744aa9e2a9be47f5141d2b7ec1610f9b679315fd456bd6071a.mp3",
+      "sha256": "5fd4e151577049253840197db3c2b3c3f3f9c1fa4f9d452923140ccf35c52a02",
+      "bytes": 40585,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "I would rather you told me directly next time.": {
+      "file": "audio/4d6c36ea7425a62323198f07c05dd217b94f759ef87cceaa40c0a32788806b0e.mp3",
+      "sha256": "e7417fc07b910c4ff9f7adfce02fcbe3469dbb03d402e7ad4aa355fc09e6baf1",
+      "bytes": 34315,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "To be perfectly honest, I only called to check on you.": {
+      "file": "audio/91d9cec66593059707d0d98d2d2fe19bf4a68c96233d7e550170cb2034df3df4.mp3",
+      "sha256": "a1417fdf6019c74e0959c6e6f7058b4cc2aa280280f3517181a146daf9725de2",
+      "bytes": 46436,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "“To be perfectly honest, you should have checked on me before you left,” said Eva. “But you needn't have come all the way back. I'd rather you called next time.”": {
+      "file": "audio/56c23a3e3cbde48c68bb3274f94c386b8e3495d2c29cfed637037fe3efa3cf8c.mp3",
+      "sha256": "be950c71cf13f422fcc13db31132be01904b3d9d2881ea7ae23cfd0845dd5099",
+      "bytes": 121251,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "Having checked the booking twice, we still went to the wrong terminal.": {
+      "file": "audio/23042a9e022cfd0632a3eafb5a0eb0506d2725b588a8b4c7ff514ba03eddd23f.mp3",
+      "sha256": "6ac6bcdeebce17c933d17dd9e889d5f40b29a24a059fa7cd1978359d55b0a27f",
+      "bytes": 52287,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "Granted, the signs were confusing, but we should have asked.": {
+      "file": "audio/594c3f25a6e48cfbb12bb14d3e7994e354c4abab1104709b12a71d1b8705beaf.mp3",
+      "sha256": "ef8c52501deee89626ee7c5187594182a2ae0321c4d0fcf7c095aca57e65deaf",
+      "bytes": 47272,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "We shouldn't have dwelt on whose fault it was.": {
+      "file": "audio/398ba49b22f9fa19f6c69691337921a8bd04dd4ae2bc418578750dd40d5b55e4.mp3",
+      "sha256": "7418dacfe7db15834abec78f140b432ece1a20034281fc87e932f36b12d13b6f",
+      "bytes": 38077,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "We should have looked into the route before leaving.": {
+      "file": "audio/3c209581af867d06684f53f7bbe942a0ee5101b95dd7ccabce4facfc024f44cd.mp3",
+      "sha256": "9d8e3b244a516a807a45ef5b2a139d1098278c4277961c939cfe942326ed1aa9",
+      "bytes": 37659,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "Having looked into the booking, I realized we'd been given two different departure times. Granted, the email was confusing, but we should have called before leaving. There was no point in dwelling on it once the agent offered to rebook us.": {
+      "file": "audio/0590436035d8cf2b5a67f370dbcb7277330217027e1f53f9160d4f4968822fdf.mp3",
+      "sha256": "c33381ebf0cc92f81f051ae65a0545cfb2f8e423326bd1efd911e2f9233ba2de",
+      "bytes": 191468,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
     }
   }
 }
