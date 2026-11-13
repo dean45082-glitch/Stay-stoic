@@ -6177,6 +6177,76 @@
       "bytes": 148000,
       "voiceId": "WbNN0ZquKxio6sawH5yC",
       "voiceLabel": "NY sofisticado"
+    },
+    "The garden was restored after years of neglect.": {
+      "file": "audio/4ff97b33bafcab1921acadd2f66384b081f93fdb1269c4c09023cf6c0137c3a8.mp3",
+      "sha256": "d41600ab4a1d519d8a3a36562dcfa8ded34714345bca59fd2fc7d1851d23af7d",
+      "bytes": 39749,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "The restoration of the garden changed how the space was used.": {
+      "file": "audio/89f540270f6961b84c546f48892fcff4c3b6900a00aa05f220c60ab74783b7bf.mp3",
+      "sha256": "3b1bb3a6718879d2efcdfe401c15010515ffb402883369e0e213d1d81d18adcb",
+      "bytes": 51034,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "Local groups advocated keeping the original trees.": {
+      "file": "audio/b731a1d37287df502c63dc4ee716b4dd2c744c3871aaac9228b019f0683489a1.mp3",
+      "sha256": "8645e42b8a1aca63d5052a83c9c9b06552ea97eb341611b524ecd3da588b63c8",
+      "bytes": 46436,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "The final design struck a balance between access and preservation.": {
+      "file": "audio/99083eeecf9d224d957eb7ff4e7d70b8f930755c2c19322a6269d92651145f7e.mp3",
+      "sha256": "eb40883bdb93984a2fa12baec908c34745399211d14432c208d4a85171d2adb3",
+      "bytes": 56885,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "The garden was restored after residents advocated for keeping the old paths. The removal of several fences improved access, but one was retained around the pond to strike a balance between openness and safety.": {
+      "file": "audio/8eae22e2aeb526b11fb03e01f62f6a0acb217a58e7193e258f08e653a131d06d.mp3",
+      "sha256": "63a0645d33c42ae4d4c133d45ccdb54bc81eb8779e8eecd59cffba75f60aed98",
+      "bytes": 174750,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "I regret selling my old camera.": {
+      "file": "audio/36db761a40a07dc852491f88713f561ebb2f95553663e946f11f52634a089164.mp3",
+      "sha256": "2b88768e30bf5eaa43b272575f4f7ad0379d96bb6deb7a04285d047d7ddbc909",
+      "bytes": 28464,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "We regret to inform you that the road is closed.": {
+      "file": "audio/c4e04de9e782c2e781e6fd22d49cec0b06d48be348fd2243aad4604beb75af0b.mp3",
+      "sha256": "bc930d8e89bc498f49b50a1c937ceb4526d5417aaa3fc75b877b988e5b0ad945",
+      "bytes": 37659,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "We stopped driving when the rain became too heavy.": {
+      "file": "audio/c7f09bad247604d944b3b0fceaf3ebd64a52438e0c3e726d6069368a0d57c211.mp3",
+      "sha256": "eb16db2f4ec1dc2a7876a6150f0b526ab0109e07fab648d5dece829dff3a566b",
+      "bytes": 44764,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "We stopped to rest before the final stretch.": {
+      "file": "audio/3dc8b3dcfbd9768c54f9939d87e76468d3dc576913a8a85b8babf5fc686f5028.mp3",
+      "sha256": "b1473acd0cbf1c7b459aac59d20d2111e85c302f4fa3107bfd995cc25d1d0949",
+      "bytes": 36823,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "At the end of the day, arriving safely mattered more than arriving early.": {
+      "file": "audio/ddc628022f0017b2c7ec517a481d4e5a548f39349ac7a86a9805810fc59f58d5.mp3",
+      "sha256": "e09010baf6f2c4dafc9ee5472dee4a09e6d61736ba793b2855f61bb8b44ea0a6",
+      "bytes": 62736,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
     }
   }
 }
