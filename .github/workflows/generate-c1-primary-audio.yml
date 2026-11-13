@@ -1,0 +1,99 @@
+name: Generate C1 NY sofisticado renewal audio
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/generate-c1-primary-audio.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stay-stoic-c1-primary-audio
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Validate C1 generator without API calls
+        run: |
+          node --check scripts/generate-c1-audio.cjs
+          node --test scripts/audio.test.cjs scripts/player.test.cjs scripts/offline.test.cjs scripts/modules-storage.test.cjs
+
+      - uses: actions/checkout@v4
+        with:
+          ref: audio-assets
+          path: audio-store
+
+      - name: Configure audio checkpoint author
+        run: |
+          git -C audio-store config user.name 'github-actions[bot]'
+          git -C audio-store config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+      - name: Verify decoder
+        run: |
+          if ! command -v ffmpeg >/dev/null; then sudo apt-get update && sudo apt-get install -y ffmpeg; fi
+          ffmpeg -version
+
+      - name: Plan C1 batch without API calls
+        run: node scripts/generate-c1-audio.cjs audio-store --dry-run
+
+      - name: Generate approved C1 renewal batch
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: node scripts/generate-c1-audio.cjs audio-store --generate
+
+      - name: Preserve C1 checkpoint
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: StayStoic-C1-NY-audio-checkpoint
+          path: |
+            audio-store/audio
+            audio-store/ledger.json
+            audio-store/audio-index.json
+            audio-store/audio-index.js
+          retention-days: 90
+
+      - name: Package Android and web with verified audio
+        if: success()
+        run: node scripts/package-offline.cjs audio-store
+
+      - uses: actions/setup-java@v4
+        if: success()
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: gradle/actions/setup-gradle@v4
+        if: success()
+        with:
+          gradle-version: '8.7'
+
+      - name: Build Android APK
+        if: success()
+        run: gradle assembleDebug
+
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: StayStoic-2.4.0-C1-NY-APK
+          path: app/build/outputs/apk/debug/app-debug.apk
+          retention-days: 90
+
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: StayStoic-2.4.0-C1-NY-offline-web
+          path: offline-web/
+          retention-days: 90
