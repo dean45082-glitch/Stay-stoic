@@ -15,7 +15,7 @@
     function fallback(){if(token!==serial||usedFallback)return;usedFallback=true;if(timer)clearTimeout(timer);timer=null;if(current){current.onerror=null;current.onplaying=null;current.pause();current=null;}try{native(text,rate,status);}catch{status?.('No se pudo reproducir el audio.');}}
     if(!entry||!/^audio\/[a-f0-9]{64}\.mp3$/.test(entry.file)){fallback();return;}
     try{const audio=new w.Audio(entry.file);current=audio;audio.playbackRate=rate;audio.preservesPitch=true;
-      audio.onplaying=()=>{if(token!==serial)return;if(timer)clearTimeout(timer);timer=null;status?.('NY sofisticado · audio guardado.');};
+      audio.onplaying=()=>{if(token!==serial)return;if(timer)clearTimeout(timer);timer=null;status?.((entry.voiceLabel||'Audio guardado')+' · audio guardado.');};
       audio.onended=()=>{if(token===serial){current=null;status?.('Audio terminado.');}};
       audio.onerror=fallback;timer=setTimeout(fallback,10000);const playing=audio.play();if(playing?.catch)playing.catch(fallback);
     }catch{fallback();}
