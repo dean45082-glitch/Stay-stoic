@@ -6737,6 +6737,69 @@
       "bytes": 53959,
       "voiceId": "WbNN0ZquKxio6sawH5yC",
       "voiceLabel": "NY sofisticado"
+    },
+    "You can incorporate leftover vegetables into the soup.": {
+      "file": "audio/9a32946ae687412fbd4f39e9660007e4535299b5198b04fcea12742e876eee9f.mp3",
+      "sha256": "a86ae73a79d28ba330278365eb6bdf30e7b5f9cb1297406294ea2641cd4371c0",
+      "bytes": 44764,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "To demonstrate how the filter works, Jae poured cloudy water through it. She highlighted the clear sample, then used a diagram to illustrate which particles had been trapped. She incorporated a second sample to emphasize that clear water isn't necessarily safe to drink.": {
+      "file": "audio/d397e686195d9781807eebaed2725828d5e98f1916dce638d270321567cb89ed.mp3",
+      "sha256": "b92d6becb90fa7e56e29bf353cd4ca630c391bfa7e2fb0362d06e459030bdb35",
+      "bytes": 221143,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "The researchers hypothesized that the birds were following the coastline.": {
+      "file": "audio/014150f9f4dc0bf0700df3a1ee62d256a56f05f150b8419c472ee1d2f0c1ebc3.mp3",
+      "sha256": "3db7fc00300524fcfaf4a6098ef9173eff6bbf90dc83f4d6394a556189c69316",
+      "bytes": 56885,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "The author postulates that the custom began as a way to mark the end of winter.": {
+      "file": "audio/0c4c44a41da59b2583a94c33d03eb03b555538d855a60eb3ca0eb60b6de11e9d.mp3",
+      "sha256": "01893708218cd5a202188a1da1c33bdc2259ed79fdee544c41b8f885903aec5c",
+      "bytes": 71096,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "From the wet shoes by the door, I deduced that someone had already been outside.": {
+      "file": "audio/4b700de024eec84ddd853842cf45ad37dd6d0e2acd3967862bc288339c40bfd6.mp3",
+      "sha256": "60ed5c5b41f101de074dfeb80fe0032851b4b12a08e519833ba166c5e6697e2d",
+      "bytes": 64408,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "People started speculating about why the lights had gone out.": {
+      "file": "audio/c8b24468202099894799bb773dedb997374f950d999349695920980a9437a145.mp3",
+      "sha256": "6947a2fe186f85958dbfb4a9e734fdcaeb4c56dfa3e2f99923eccd00c5e82c05",
+      "bytes": 46436,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "The team hypothesized that the pond cooled faster because it was shallow. One researcher postulated a link with wind exposure as well. From the temperature logs they could deduce when cooling began, but without wind records they could only speculate about its cause.": {
+      "file": "audio/11a7f229690bd8dfd840d5ccf5d8313d0a1317155f576fb8d1b686a6b858ee49.mp3",
+      "sha256": "52fa86eec4ac4d730745945d93d7fbade8b6c62fa2ff40dd9c8d5cda6c61ff40",
+      "bytes": 231592,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "The warmer weather accelerated the melting of the snow.": {
+      "file": "audio/99b779fb6d39cf9014a0961af78dafd275ba7c762df88f11e21320f2c876ffe2.mp3",
+      "sha256": "75d22d7e290fb2153ebb706e66044f9f6c30353a4599c000b1d9a064967c9afd",
+      "bytes": 44764,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "The ceremony will commence at noon.": {
+      "file": "audio/078cc6912027340d47438c7f5dfcd1f98089dcc82b21108e4acb0c1396b9621e.mp3",
+      "sha256": "bdda25ea683f1e1ff95ea2fa3a2c9c0d9fd7e1436a1b00def9543fab5bb6c6a0",
+      "bytes": 27628,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
     }
   }
 }
