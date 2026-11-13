@@ -5687,6 +5687,76 @@
       "bytes": 71096,
       "voiceId": "WbNN0ZquKxio6sawH5yC",
       "voiceLabel": "NY sofisticado"
+    },
+    "The disruption affected several neighborhoods.": {
+      "file": "audio/361d4e1e4f179115a8dcdc1f62b9c6a41eeaf989398687117f2b5376e9af96ed.mp3",
+      "sha256": "2b6cc57da74cf98e2a3afb3c71f77dc218d8ec972497ed57ee965f9293b382b3",
+      "bytes": 35987,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "The lights went down as the band plugged in its equipment. The venue blamed an overload, but the discovery of a damaged cable prompted a second inspection. The interruption disrupted the set; its cause was still disputed.": {
+      "file": "audio/dc02682b550ec5dba46054eac98f86f1baf9b936ad431c45a14209282422b8a7.mp3",
+      "sha256": "70d93a24937e77c277a98b2cc4d9741b70c8ffceaf9048d011a76067ed3b5ee1",
+      "bytes": 181019,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "We can have the picnic provided that the weather improves.": {
+      "file": "audio/5bf9856caffaec0a4b672409794bc0c89572eca6303205f02b0e95b6b1abbc0e.mp3",
+      "sha256": "b751ffa6b82562ca73a2ba4065466a1cc5db0f2983eecd7ca1f41090b92bb8be",
+      "bytes": 47690,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "We can stay outside as long as the wind doesn't get stronger.": {
+      "file": "audio/d5d5613e85634adbee70055e91a0611a520bc34d56c5e865dc34bea0fa3a3c3a.mp3",
+      "sha256": "c07bf01e07ef27a87869d95b243042855de3c6a80d50cd75372fc250e81700cc",
+      "bytes": 44764,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "Supposing the park closes, what's our backup plan?": {
+      "file": "audio/91e8742fd43637e6970741e87a36661cb9c9f419975e49cc4d6c1debe3c30957.mp3",
+      "sha256": "ee6d13c4f3b375fba1c40d0ef91b52a4c9a4882e23e38c0a79be6c7463d2dd77",
+      "bytes": 39749,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "We're running low on ice, so let's switch over to the smaller cooler.": {
+      "file": "audio/e1849efa7550ee1159386c7b03de37685947636bde17eca5b47f1fc2dd4ce43f.mp3",
+      "sha256": "3f5a7ecf046e98742fb651a51daabaf43841e800db06282bc5986b43f4fce522",
+      "bytes": 47690,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "We can keep the picnic outdoors as long as the rain holds off. Supposing it starts early, we can switch over to the covered terrace, provided that the caretaker opens it. We're running low on water, so I'll bring another bottle either way.": {
+      "file": "audio/31d130898851cecbadac3a149e7c50b5e8ec89863e78eee444446454ecf4ed43.mp3",
+      "sha256": "7066e94c3a2031c2a8b4ff73d535f3f24e43a021727aac633779eafb89e7a90c",
+      "bytes": 171824,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "He denied having said that the money was missing.": {
+      "file": "audio/832cd617a770aee0268a19d6978ae8c1a799d24ed8ba0d31b6f1b6ff6d69e0f4.mp3",
+      "sha256": "5c18e028d8533cafa2e9c1074a2e66c0da2936b591a5f2ea80461290f69c4730",
+      "bytes": 36823,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "She urged me to explain what I had actually heard.": {
+      "file": "audio/0f7cf00c77dd24acd5df3053f4a1a9e5a552b84a73150c77106fdab8cdfb86f2.mp3",
+      "sha256": "4f43143b8ddf49dc95caf46e365554fd964dd4f204667e1ba8c6e70eb270547e",
+      "bytes": 42674,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
+    },
+    "He conceded that his first version had been incomplete.": {
+      "file": "audio/bfd931d1aec874247853d984309669c9eb8d47e2ba0f84bf838d5764fb20eba4.mp3",
+      "sha256": "df9ccd6f65ef33e8b3d51b8a3ea271b18dd141f3c5e72aa7c14521cb03d87346",
+      "bytes": 46436,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado"
     }
   }
 }
