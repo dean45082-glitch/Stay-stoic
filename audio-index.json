@@ -1,6 +1,15 @@
 {
   "version": 2,
   "voice": "WbNN0ZquKxio6sawH5yC",
+  "defaultVoice": "WbNN0ZquKxio6sawH5yC",
+  "voices": {
+    "WbNN0ZquKxio6sawH5yC": {
+      "label": "NY sofisticado"
+    },
+    "VcxTwjcCv1kVfys2U7LT": {
+      "label": "Eminem style"
+    }
+  },
   "entries": {
     "Break the ice": {
       "file": "audio/74353d0246d4d4833dfc001455cf80c7386622badd399626b32eb3aa151772f4.mp3",
@@ -5398,15 +5407,6 @@
       "bytes": 54377,
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
-    }
-  },
-  "defaultVoice": "WbNN0ZquKxio6sawH5yC",
-  "voices": {
-    "WbNN0ZquKxio6sawH5yC": {
-      "label": "NY sofisticado"
-    },
-    "VcxTwjcCv1kVfys2U7LT": {
-      "label": "Eminem style"
     }
   }
 }

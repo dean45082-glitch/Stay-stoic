@@ -8505,6 +8505,2076 @@
       "group": "reading",
       "bytes": 54377,
       "sha256": "b7c782a232e356440fb792351f23558cea2fd2c18628beb23400437724c76c2c"
+    },
+    "855980f6681b05116fb130ae5851424212d0228729fc4a3695aaba2bfb4f4ac5": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 24,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 1,
+      "type": "model"
+    },
+    "6259b3e82a8e5316f5b6d133a131a8bead3cf2409539d9d3522eb95d39ca5c5f": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 20,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 1,
+      "type": "model"
+    },
+    "7f4da8e826e3760dc7e37fd166b56543452ca0b9e28303157113ed341fedee00": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 24,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 1,
+      "type": "model"
+    },
+    "5b7d0c03c976d16c8703e1ee1f264f996ac62ae3e279ba420c07db0dde78d1a8": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 30,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 1,
+      "type": "model"
+    },
+    "ec35c7b1dc8bfe93684514e4fd531811e1866cdb9cdd1527cfd3d0846630da23": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 116,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 1,
+      "type": "reading"
+    },
+    "c84243e458effb062e0f32ea52e6396671e8ebd2c23321cd2e51c7714adc2e20": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 13,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 2,
+      "type": "model"
+    },
+    "b2a47f25bcb5c2293ba305269125cdcdb8f966617b047f3c1ae49aadffb2dcc8": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 18,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 2,
+      "type": "model"
+    },
+    "0ed57c1c3c65ad3c4f65e80b4ad316af3704e1a159a0db76d50891cef7488e71": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 27,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 2,
+      "type": "model"
+    },
+    "3383e4c0833e3ed3908a64c972f18952560d194e18a56e5c284307d0acd226c0": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 24,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 2,
+      "type": "model"
+    },
+    "ef4f847b0336f86d80e736606a8f47641615b6a857176f0609d49a9e8671001b": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 138,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 2,
+      "type": "reading"
+    },
+    "d7991f9c5edc0ec446b4fed0fd1334797c0b6398af616c6129068458327f7131": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 35,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 3,
+      "type": "model"
+    },
+    "f81a2f8953a6d46c995e4fed60535cf12a2c3194f2152c9f3f6e8e55582cf3f8": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 32,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 3,
+      "type": "model"
+    },
+    "f64ea5e26e8a2b0d9f3d8685de24404cee5c5285bc68ab533c1045b2063270c6": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 39,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 3,
+      "type": "model"
+    },
+    "248b506354f08f2d2362dce53474b912f1205e3531119d4fdb399f75d87d4d11": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 100,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 3,
+      "type": "reading"
+    },
+    "ac0005362fd7dc50cf3763b402f4d63d5b26ce7f8d79bfd7825150211fdab734": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 32,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 4,
+      "type": "model"
+    },
+    "4fbe1ba71e11858d787b28678b0f2581f5baa5cc3d1784c3f1d6a4434e950e86": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 29,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 4,
+      "type": "model"
+    },
+    "f6ad37d05acf8485c0ac8d37f6656d8de26ceeb562ec7d076bf200201a004df8": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 34,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 4,
+      "type": "model"
+    },
+    "9727ed5c3ee1d60410c6ef657bc8261ff82f23a8e91d1ab58cc416dd303c0223": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 99,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 4,
+      "type": "reading"
+    },
+    "f7e7cdb49ab05bc9e27fb8c6507d9b9f8ca57eeb2ee23d784fe1a5d9389b1f76": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 25,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 5,
+      "type": "model"
+    },
+    "303a10b150f8347bb531cbdad012e99ad8d704637b65de990ea5c9a3a53c3221": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 34,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 5,
+      "type": "model"
+    },
+    "0bca58ba2e6aa52e127ee26eedfa64bb1aa89acb2f23814d568b80cf750b46cd": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 24,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 5,
+      "type": "model"
+    },
+    "ac5c9f8a4d0495f39afd1608725bc77d01b2a241cefcf08e26c937dadbab59cc": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 108,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 5,
+      "type": "reading"
+    },
+    "d5d785af10fa9020357ade00cb41f01d443b8dcc0e0b90a61d4230f5637444cb": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 36,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 6,
+      "type": "model"
+    },
+    "4b3176b692240f81635e016139e08a42390d3d1677389bd1226891d766a734dc": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 26,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 6,
+      "type": "model"
+    },
+    "51472533749d9f84b8e2213b95a7208ab5eb2f65d602f836e22b81306610ab82": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 29,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 6,
+      "type": "model"
+    },
+    "7ed0d11eebd1822eaaf4a9ea1869d2d2c99075ae6302b6829a90828a35abfe6e": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 29,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 6,
+      "type": "model"
+    },
+    "3bf3344bb4c2de5dc6dfe344ded740a51d0314f02f95b1ae28271b76703d0879": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 117,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 6,
+      "type": "reading"
+    },
+    "35584c6439e6f68b2858cb705483428a5b2feeeea34a38dce8ab263df00e22fb": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 17,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 7,
+      "type": "model"
+    },
+    "3462fe4b178260de93a3e1a1c80d455267864ae04252c5764abdc85c44548bdc": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 19,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 7,
+      "type": "model"
+    },
+    "bf0ef627207146cedc09d2d4919af9894a45d53cb27a63ad80ff975cf0fc96aa": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 25,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 7,
+      "type": "model"
+    },
+    "55843a5dfa2fc0b4519569f8780e15921daabce8c1011f76b131aefaf9150553": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 19,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 7,
+      "type": "model"
+    },
+    "5b2bea91cedadff3587786e9b93277703b05848d2cd86c05f0d4e3a54be513c7": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 112,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 7,
+      "type": "reading"
+    },
+    "216b2dd025d2d2f0b706bab2e930db9970737eac0b8902a1bcfaa22c6ae3eaeb": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 30,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 8,
+      "type": "model"
+    },
+    "859df493649cde10ed131fb49e76a98a418cadccc637c360f5b2e2dc38d133f7": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 30,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 8,
+      "type": "model"
+    },
+    "fb58747e5c3909d25e95dbb455d950c029a301fba48130bf867435fa6eb49082": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 35,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 8,
+      "type": "model"
+    },
+    "c2926b7308287f899bfdcb184f2510216f2e62383268e60cca5354ecca3f94f9": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 29,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 8,
+      "type": "model"
+    },
+    "4ab7ee407633640c4b7a4b1c37942b689a797e8b2ee7abeb01d7441b4f3409d4": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 155,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 8,
+      "type": "reading"
+    },
+    "8bb612f694f3def4216e6a60948a0b11074b31383212bf9c6c608c233143f102": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 25,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 9,
+      "type": "model"
+    },
+    "74ba815cd62cf9d3986a66f4d9421fb986da8dcc91c822b2ca24c31269ca73a8": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 23,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 9,
+      "type": "model"
+    },
+    "a93c554c4b80344a15efcf40c94305058bc052d7e1f1a8796a379b39366d090d": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 39,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 9,
+      "type": "model"
+    },
+    "361d4e1e4f179115a8dcdc1f62b9c6a41eeaf989398687117f2b5376e9af96ed": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 23,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 9,
+      "type": "model"
+    },
+    "dc02682b550ec5dba46054eac98f86f1baf9b936ad431c45a14209282422b8a7": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 111,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 9,
+      "type": "reading"
+    },
+    "5bf9856caffaec0a4b672409794bc0c89572eca6303205f02b0e95b6b1abbc0e": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 29,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 10,
+      "type": "model"
+    },
+    "d5d5613e85634adbee70055e91a0611a520bc34d56c5e865dc34bea0fa3a3c3a": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 31,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 10,
+      "type": "model"
+    },
+    "91e8742fd43637e6970741e87a36661cb9c9f419975e49cc4d6c1debe3c30957": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 25,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 10,
+      "type": "model"
+    },
+    "e1849efa7550ee1159386c7b03de37685947636bde17eca5b47f1fc2dd4ce43f": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 35,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 10,
+      "type": "model"
+    },
+    "31d130898851cecbadac3a149e7c50b5e8ec89863e78eee444446454ecf4ed43": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 120,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 10,
+      "type": "reading"
+    },
+    "832cd617a770aee0268a19d6978ae8c1a799d24ed8ba0d31b6f1b6ff6d69e0f4": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 25,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 11,
+      "type": "model"
+    },
+    "0f7cf00c77dd24acd5df3053f4a1a9e5a552b84a73150c77106fdab8cdfb86f2": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 25,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 11,
+      "type": "model"
+    },
+    "bfd931d1aec874247853d984309669c9eb8d47e2ba0f84bf838d5764fb20eba4": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 28,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 11,
+      "type": "model"
+    },
+    "d48625350c1dd2a3b7ad1ea935da5649bc040b337d5ee98a48d2d04215e0d0d2": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 21,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 11,
+      "type": "model"
+    },
+    "275dca7fb31a259c9fc63d120d9963759809f4c6c664c891f884849889ef967b": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 105,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 11,
+      "type": "reading"
+    },
+    "66dc052339c788e7ad81f9e8e0dadd6ecb8e857ef5d714fc45b286c91f9cfcdf": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 29,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 12,
+      "type": "model"
+    },
+    "ddec4740bff53ea9209a4856d4610b758f8d47015ab851f9bf4d5691419929b5": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 31,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 12,
+      "type": "model"
+    },
+    "ac91367970991e0db5c5ce258d376653bb9ed8eff1274ec9985716595bda4e54": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 27,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 12,
+      "type": "model"
+    },
+    "36b777326f2f7c45c28174d8598cb449f98516f82994557890c2d44b0b215bbd": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 97,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 12,
+      "type": "reading"
+    },
+    "6d3ad1088be1fcfa5a6bb76522c0fbef99783d806766e541bc57a947d966385c": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 19,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 13,
+      "type": "model"
+    },
+    "c928f9c55bcc13f8378b6e81955ac332e6aa5c27cb784a426c2128409e8e732f": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 23,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 13,
+      "type": "model"
+    },
+    "df3008826f852221431076edddb568f8249353daf3d2103a1419d1543c8db8a1": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 22,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 13,
+      "type": "model"
+    },
+    "d0cfbb68da0aeb5c0b4b90be6d63fd3bcbe054488240d5fe8978f7fb445976bd": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 26,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 13,
+      "type": "model"
+    },
+    "e6836f91dd3376c91777e50dc66ad1b6db012891349acffeab6711140ccf6dff": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 91,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 13,
+      "type": "reading"
+    },
+    "a7e8ba04c4ff19c920bec7cc4d9ac21da42d5ec1a2cbd32d492b634a558dbe90": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 31,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 14,
+      "type": "model"
+    },
+    "c061054404fadf1a28915b07ee01dd74b9fb47b2bc05ec149d59656be8fb4f3d": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 30,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 14,
+      "type": "model"
+    },
+    "503354b82fa0acfb069be77ccfa60c27e898cd7eb72e62a63c9e27c45990a865": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 16,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 14,
+      "type": "model"
+    },
+    "59f91b8e1defb878c3262f0bf950164207e90ed971bce5a2c4c681ee42360146": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 27,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 14,
+      "type": "model"
+    },
+    "eba8e044e104c7e26fbc9016f7ac167b6d25cf41ae27da460ee51b0f95037627": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 116,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 14,
+      "type": "reading"
+    },
+    "d797be0015ee9824672b6740639ed0858a22ac863ccf42a9d967696cb743ee7f": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 24,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 15,
+      "type": "model"
+    },
+    "a32858a6296eed1f2e6caba3ba3aa2905030fa4aca4c2c21f259e3424277b75d": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 23,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 15,
+      "type": "model"
+    },
+    "2af8873d2a0875d1eff65103f64e0f410848088563c67dae271495915592e2a3": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 22,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 15,
+      "type": "model"
+    },
+    "1cea5ac7f42e6b89a99102255c815376d66ff85721014ff8c74cb0e504fb5e1f": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 21,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 15,
+      "type": "model"
+    },
+    "bc3f985b01d88a2e5fc64a1ca69888d56168a030799c5662e087b1e865f541f8": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 110,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 15,
+      "type": "reading"
+    },
+    "147bea2aab5a02b7c7651e4e9186e25dd32f0e38825af3f5e8d5ee2db6d64498": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 37,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 16,
+      "type": "model"
+    },
+    "b8fd80397c1f5038cd0f52f162f2d88743c1d670ca24f08a881f3f9ed0ade4a5": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 38,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 16,
+      "type": "model"
+    },
+    "aea7c11ed2dc70d6b2ea8cbf590556cbb4d19fc4c26aa37b366e3cfa7b430cb2": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 39,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 16,
+      "type": "model"
+    },
+    "360744fa652ccb5f799e061bfec02403a9e4379f601ce457014a6e5dbd8466e9": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 92,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 16,
+      "type": "reading"
+    },
+    "243946277fb3bb15e072014ea72b6a2f3ba9d560b9ea0ea70d69db138794d684": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 33,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 17,
+      "type": "model"
+    },
+    "a3811da29548befa1573e5ed18123214a171dd6b944449c1ba2f0576f07e3e3b": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 34,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 17,
+      "type": "model"
+    },
+    "d407e4b3990caecf433939bf92cf11fa833cef9dffa9f73cb6a0ff0da41bdfe8": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 35,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 17,
+      "type": "model"
+    },
+    "a3305c4f5b0d6aa33ee006efb8d68038eaafafe207f0fb9b4ce3f92436160fe8": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 30,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 17,
+      "type": "model"
+    },
+    "bafb7cc4526f4be9b3aded6b5e3bb4d54bd387e41c2b13aef713665b91969b43": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 106,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 17,
+      "type": "reading"
+    },
+    "cc0d7b0aaf229c3698338dbabb647742a000ad1745709c769fff65cf8bcb176d": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 28,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 18,
+      "type": "model"
+    },
+    "c45ff18f29dbacbf0e40dda016479810b146ee2493075f0652f236f6da29ca04": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 20,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 18,
+      "type": "model"
+    },
+    "8f3faa27a5685c0d6c189e993feced7e102126b2caed22f93be8b211cf009341": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 32,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 18,
+      "type": "model"
+    },
+    "4a34a0ee6ab7fe647ddc497a9c76f20f749cddd1ff91f323782e3751055926a8": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 22,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 18,
+      "type": "model"
+    },
+    "23bd65914f9d58c01ada7cd4ce8a210893423a7deeeb5eaa155b0a134ac4ea13": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 91,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 18,
+      "type": "reading"
+    },
+    "6340fe7e2f4821f0a2ad6b75b1b55f39f686afacd2bdf6ea98e432d7ddf1185d": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 35,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 19,
+      "type": "model"
+    },
+    "a0b48287cbbaa553e6ae41f9ba8a3fd44ae3980a69cf229b4c146ea5144f8230": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 25,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 19,
+      "type": "model"
+    },
+    "c76cf8ee4b9287f2a44358192e40335238881f4d81c613e51848c5262d5446c3": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 33,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 19,
+      "type": "model"
+    },
+    "a75f2516de363e9702a21098c7719d4d555e727317116bf80d465e6428ed713b": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 33,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 19,
+      "type": "model"
+    },
+    "7bb4cb93254974d51b508196f48f1b157dce1f31c7e2cf6e42b0a901dd453003": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 137,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 19,
+      "type": "reading"
+    },
+    "47aa228b3ee16b31bfa67f6687db8cf4afe938ae268b3177cbe304f5c48b3da4": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 32,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 20,
+      "type": "model"
+    },
+    "893b4b3c5859df744aa9e2a9be47f5141d2b7ec1610f9b679315fd456bd6071a": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 28,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 20,
+      "type": "model"
+    },
+    "4d6c36ea7425a62323198f07c05dd217b94f759ef87cceaa40c0a32788806b0e": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 23,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 20,
+      "type": "model"
+    },
+    "91d9cec66593059707d0d98d2d2fe19bf4a68c96233d7e550170cb2034df3df4": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 27,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 20,
+      "type": "model"
+    },
+    "56c23a3e3cbde48c68bb3274f94c386b8e3495d2c29cfed637037fe3efa3cf8c": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 81,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 20,
+      "type": "reading"
+    },
+    "23042a9e022cfd0632a3eafb5a0eb0506d2725b588a8b4c7ff514ba03eddd23f": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 35,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 21,
+      "type": "model"
+    },
+    "594c3f25a6e48cfbb12bb14d3e7994e354c4abab1104709b12a71d1b8705beaf": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 30,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 21,
+      "type": "model"
+    },
+    "398ba49b22f9fa19f6c69691337921a8bd04dd4ae2bc418578750dd40d5b55e4": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 23,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 21,
+      "type": "model"
+    },
+    "3c209581af867d06684f53f7bbe942a0ee5101b95dd7ccabce4facfc024f44cd": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 26,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 21,
+      "type": "model"
+    },
+    "0590436035d8cf2b5a67f370dbcb7277330217027e1f53f9160d4f4968822fdf": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 120,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 21,
+      "type": "reading"
+    },
+    "ac1ff0bcbb474c09bd71889d8c71491c3b855bc02540ba30f5848957a6f69217": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 30,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 22,
+      "type": "model"
+    },
+    "3f5c92d6599e5364e6a92feaffcb655bb07d1e58f7fe4d5b7b78ada5d26b295f": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 34,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 22,
+      "type": "model"
+    },
+    "987992718a26830152979b1cb8afdfa3c354cfdc68d77d31fa80375b7f262dde": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 34,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 22,
+      "type": "model"
+    },
+    "fb156ab3317ae788890dd211c3e206e2f070f87f9927a1211bbea9ab59490565": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 39,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 22,
+      "type": "model"
+    },
+    "7a581ca6582641eccce7fb1910d2dcb5502b150b36c315d86e3613f3f351cf01": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 116,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 22,
+      "type": "reading"
+    },
+    "c66149f95526d14541f7b6a61326563eb14557d7ab0760cc981ccfd06835d8bf": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 38,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 23,
+      "type": "model"
+    },
+    "10176c34e64bcd9db53faac62eb408aa5511b26becec217f2ed99582ebf47c4a": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 35,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 23,
+      "type": "model"
+    },
+    "fd66e55c2484361198f03f53a65b25f2768849d493d92ae189f6752e8d30357e": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 30,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 23,
+      "type": "model"
+    },
+    "6747aa1fc9a9c567de3d66c60e7345cc3041b2a8f662a73f9718ea381729ed59": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 36,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 23,
+      "type": "model"
+    },
+    "77567d3c65217ab26865562177e48debfeeaa4e7740d908d9d47504f53c24719": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 92,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 23,
+      "type": "reading"
+    },
+    "4ff97b33bafcab1921acadd2f66384b081f93fdb1269c4c09023cf6c0137c3a8": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 24,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 24,
+      "type": "model"
+    },
+    "89f540270f6961b84c546f48892fcff4c3b6900a00aa05f220c60ab74783b7bf": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 31,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 24,
+      "type": "model"
+    },
+    "b731a1d37287df502c63dc4ee716b4dd2c744c3871aaac9228b019f0683489a1": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 25,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 24,
+      "type": "model"
+    },
+    "99083eeecf9d224d957eb7ff4e7d70b8f930755c2c19322a6269d92651145f7e": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 33,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 24,
+      "type": "model"
+    },
+    "8eae22e2aeb526b11fb03e01f62f6a0acb217a58e7193e258f08e653a131d06d": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 105,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 24,
+      "type": "reading"
+    },
+    "36db761a40a07dc852491f88713f561ebb2f95553663e946f11f52634a089164": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 16,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 25,
+      "type": "model"
+    },
+    "c4e04de9e782c2e781e6fd22d49cec0b06d48be348fd2243aad4604beb75af0b": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 24,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 25,
+      "type": "model"
+    },
+    "c7f09bad247604d944b3b0fceaf3ebd64a52438e0c3e726d6069368a0d57c211": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 25,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 25,
+      "type": "model"
+    },
+    "3dc8b3dcfbd9768c54f9939d87e76468d3dc576913a8a85b8babf5fc686f5028": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 22,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 25,
+      "type": "model"
+    },
+    "ddc628022f0017b2c7ec517a481d4e5a548f39349ac7a86a9805810fc59f58d5": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 37,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 25,
+      "type": "model"
+    },
+    "b0a589f6fd731f2c335b7e934266aa3f817739101d922c07a7708dda5df2053c": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 116,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 25,
+      "type": "reading"
+    },
+    "d4781be5737ab4a3f7007e1ec893de22f581048dda72aa5f08beb7fd582cb3e7": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 18,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 26,
+      "type": "model"
+    },
+    "41801f2d966a04c1bb5047f46efd6acde9add8e648c131310908a414dfba3904": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 29,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 26,
+      "type": "model"
+    },
+    "7cea403dd3b1e326bc27d4b908ac28f081a147684678d6ecb70ddbc704b3177d": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 29,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 26,
+      "type": "model"
+    },
+    "bd068e286c60e16c72385c7756a37ec37c21845f13bcbeb494363a6433ebf8ec": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 40,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 26,
+      "type": "model"
+    },
+    "07a353c9fc49ae00536bca4898fa69e7c7f8ea3878f876be9e10ecae83a26a7b": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 115,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 26,
+      "type": "reading"
+    },
+    "4dc2413f9dd70b6c621d6088375874dbfbcadda78630868ae27d193bb859df0c": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 29,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 27,
+      "type": "model"
+    },
+    "f57e707ee63ff8d9219d5657e17c895e71afb056f327625227bc636525d2619f": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 25,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 27,
+      "type": "model"
+    },
+    "5b36910f92ee530d424ba423744ec92f2c24c96e2a6ee8428eb1f54dfe486a73": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 34,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 27,
+      "type": "model"
+    },
+    "ba01ad36a1f139ca783ee5be78e9fbed8c7d18ac1d0a46dfe022a6da86f736fc": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 53,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 27,
+      "type": "model"
+    },
+    "266c8057c579347aba6fc21cbc4e0f0439a42e6cfaf6f418a2316bec62a552a2": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 122,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 27,
+      "type": "reading"
+    },
+    "c05e7e9a837e39195965ac26bc84a8d1151e8a1fdd8023db1a80987671af4b22": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 24,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 28,
+      "type": "model"
+    },
+    "e4ce0afe32a32f876efb614e62319f71ca24c431228004e4339d2e52490c1e66": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 19,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 28,
+      "type": "model"
+    },
+    "791ab7a6a317b24ba40159a6f03a86caaa1732f56dc33fd662aeaab521c7f197": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 30,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 28,
+      "type": "model"
+    },
+    "4541aa8c77393fb5dd284ec61de5aceb37dbcdff649de4c15131481ac6f64da8": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 34,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 28,
+      "type": "model"
+    },
+    "3be00574efca3ab9fa2ad7a3dc08cff3391722bca1d170cace0e217cf6390c1a": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 42,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 28,
+      "type": "model"
+    },
+    "557a9f15641c3691167b9eb7a7c28b3957a1bbaac226adee0d989472f2782d25": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 127,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 28,
+      "type": "reading"
+    },
+    "a7aa289b4aea2bb9b0a063e72e415e315f9c4c0f1e8e807f466f8df25c5965c0": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 22,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 29,
+      "type": "model"
+    },
+    "de58a188471929657a190c98577bff887e9dd985e0d9d6bce67249746b24332b": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 28,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 29,
+      "type": "model"
+    },
+    "b9a6f770627da45ebf29110759133d62bb75a746d2d6a680420bea3d60e4abed": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 28,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 29,
+      "type": "model"
+    },
+    "429367fed54accefa8ea9d43b7df0d021d07c51acbc65df730991c2ab93dcf05": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 21,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 29,
+      "type": "model"
+    },
+    "baf3d458cee415e3b3459d82b53f40d1a7511959e115ac4e92d0048ab9269202": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 101,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 29,
+      "type": "reading"
+    },
+    "c50e730f689f69471c91dc796a30c7b79a993b7209b8f67e2f9d84501adf0229": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 27,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 30,
+      "type": "model"
+    },
+    "1f0c6a6e2e6883276e7ff31f774702b179af814ae59077814b000bc09309a8bd": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 27,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 30,
+      "type": "model"
+    },
+    "2216d00f346ab779c413a855404fc8bd5caf832d3e8c7bee793b37a103969e86": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 29,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 30,
+      "type": "model"
+    },
+    "0957edbf60ea8ef2001ca9bc920d250f106e9674dbd12b97761473dfa8fd458f": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 20,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 30,
+      "type": "model"
+    },
+    "7b1949e974908889c516859c58d30200a776c1f46abd2e2cddb6793adc544113": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 104,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 30,
+      "type": "reading"
+    },
+    "a14bf16843ee3846d43c3c46cca39eb0c0c3690f0351d692969bc5ad599b7671": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 27,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 31,
+      "type": "model"
+    },
+    "21bc70cec2c2c0c85896ae66d868d6d84c0804f57ebcd270b0cf95a306fd1987": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 20,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 31,
+      "type": "model"
+    },
+    "836f9c53cf13351dac73732df7f1f08d4845568c5d68f26bab083bed2966dc29": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 24,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 31,
+      "type": "model"
+    },
+    "06c2292cb10208a60cf446438c2e29d44ac8086d8fdfa3c149460529f85946ac": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 31,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 31,
+      "type": "model"
+    },
+    "667161aca9a4772c5de6bbd2423a340ac8fc9621e38f76bc6087bd99397324b5": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 97,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 31,
+      "type": "reading"
+    },
+    "9b1c3ac59f09693a96af31c123be653ce09ab6403976bd22f837fdca4bf98d06": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 31,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 32,
+      "type": "model"
+    },
+    "bd123a17e09f251dd532dff831c2a8ea7b6559ba55d36e59be3172aaaf4664bb": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 24,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 32,
+      "type": "model"
+    },
+    "cd797b2061210021025a843b54a4d7accd90e8d7d99310c23e575b568dfc64e1": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 20,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 32,
+      "type": "model"
+    },
+    "023cd322da2cd6d19cb2286f8b3072ffb0d36dc2fdeb7df5692eb2fb4b227045": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 23,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 32,
+      "type": "model"
+    },
+    "12c6b43a0f1b077bfb4cb241ba35d65fe7de374900ee0ace0fc402fcc499ceb7": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 118,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 32,
+      "type": "reading"
+    },
+    "9ca43f6b72309f97ab14d8cd19e2612a8716a6513839ab5b270d3c3c3cc3f69b": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 25,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 33,
+      "type": "model"
+    },
+    "7a0d4f64ca1600f0df08bf9afa784f91411c6b79a3933ea05644b3b9efa6d9bb": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 28,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 33,
+      "type": "model"
+    },
+    "ed84fc452c9b5b512c5ff8e6f8abd63f4e35e79aefca2e4318402d214f105dcb": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 22,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 33,
+      "type": "model"
+    },
+    "a04e3628edc6174b2a34e8ba9118746922c5bf6b70c4225c659fca5c5154351a": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 26,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 33,
+      "type": "model"
+    },
+    "27859a7a7eaf1fcdb752f3550a8868837c35a064a3628704c290e424b86185de": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 111,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 33,
+      "type": "reading"
+    },
+    "3a11c41349486f42301feb2eda93196a00008010481875cfde48d56ffb996cd7": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 18,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 34,
+      "type": "model"
+    },
+    "a5b6ef58b82942c22753a00e17b4c759fbf728fc26b1c0fac17faaa6b6d60016": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 29,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 34,
+      "type": "model"
+    },
+    "ef6550e12115683f488d4224aac96dfe6c79e9bbf7d21b191b82f646ccfdf044": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 24,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 34,
+      "type": "model"
+    },
+    "302b7a4e4a36667a5daf0fd5ae670db1286ed26388b66a37d7f7283b7aff21e8": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 31,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 34,
+      "type": "model"
+    },
+    "80872fe3998dcee9cff9ec12e7d111c5fdb3b3cf41faa21fd49a97a4cff3779c": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 113,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 34,
+      "type": "reading"
+    },
+    "6dbf913256b312661ed9efb3038c3088a8500aeb38697e3bb3bca3ce8eb4618c": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 32,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 35,
+      "type": "model"
+    },
+    "b3bc9203bf6c04b8f902a9b9cbb32c417ebbfba7c127910596274c45d445546e": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 28,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 35,
+      "type": "model"
+    },
+    "8117705a29b23f2c4ae34811c3ebd033262a4f285a189f1012616c6df6642ba4": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 20,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 35,
+      "type": "model"
+    },
+    "b2cc049e824609a261268f0c9d10e10411333d67d9ba77450190b50dff4cb6e0": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 23,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 35,
+      "type": "model"
+    },
+    "6de965a544e11d358d4e5686541af1de68bb1b801840710db09cfc068fb3453e": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 101,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 35,
+      "type": "reading"
+    },
+    "6f43f7e2c16194af22dcf7a9f755be2c9a6d808bd5f620f30969cda85050eeb6": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 28,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 36,
+      "type": "model"
+    },
+    "7d37c9eab8be24dfb73139d3bd0e71422e104458adfa714f6951804b592bcf8a": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 26,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 36,
+      "type": "model"
+    },
+    "e89d7cfbb7a03f1c0c89d9df6755879c803853582b902cdfa5313acb47543198": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 29,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 36,
+      "type": "model"
+    },
+    "3c13bcd0458083d11de31b73d21fbba189e70019c9f398f9c2c16fb493a257e2": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 30,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 36,
+      "type": "model"
+    },
+    "6b697d3adbde8a4610709508b2cd59fdba8d5dc01079514c6a928a41b8509cb4": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 132,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 36,
+      "type": "reading"
+    },
+    "de5b4567d720a5065ab46c23f9cd7de714cd2bed72438e3c1f73096ec35ff1bd": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 27,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 37,
+      "type": "model"
+    },
+    "c509a35d6f0873565f74288caff3b269b631430b4175ca2985e7f6273c0cccca": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 35,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 37,
+      "type": "model"
+    },
+    "6d961e5691ed8b78fbe10a88b8064024bd48178a001beb18f020610e309128fb": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 35,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 37,
+      "type": "model"
+    },
+    "922ed695230527cfd1bdeb98d2a68f85c31d7c335b40fd80ec9a08be8351c7f9": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 40,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 37,
+      "type": "model"
+    },
+    "ce96e5cbae28c0e8d0e3d055681b4c93f12e43cfb5d66abe2428d03d63fd1adc": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 127,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 37,
+      "type": "reading"
+    },
+    "27c5bd558517eab773ebe3727fb1578a3befce8317d04474a2ab4e4b188e35a0": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 28,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 38,
+      "type": "model"
+    },
+    "955f8680e51521b57b050c17ad45b31cd22d35a2eb643762de42b97c439f18e2": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 33,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 38,
+      "type": "model"
+    },
+    "f9635b1c750109dc9020a3467cc68b0b0059b071ab85bae80c2e1cbfa8144ee0": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 26,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 38,
+      "type": "model"
+    },
+    "0bc5bb20a10d65115f9a91f7ce405352dfe46ecea2030854f26bba620eb75a37": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 33,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 38,
+      "type": "model"
+    },
+    "d8a29705fb6d912826bee5a5e30bd5f325103fc95b868bbb9fc863c919953c6b": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 135,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 38,
+      "type": "reading"
+    },
+    "98112a070881403a3f4a9f289d8398db407a2a15f595b44a4a8ca00aae9ad1c5": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 27,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 39,
+      "type": "model"
+    },
+    "799c90c38af31f0e3a439e0b301d36ea44b6097870edf515e2f8092b7e4f17a7": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 73,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 39,
+      "type": "model"
+    },
+    "5c520eced1d969fc55a5153d008de7458e65d3b9fe457602b865896f20b12404": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 32,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 39,
+      "type": "model"
+    },
+    "9a32946ae687412fbd4f39e9660007e4535299b5198b04fcea12742e876eee9f": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 27,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 39,
+      "type": "model"
+    },
+    "d397e686195d9781807eebaed2725828d5e98f1916dce638d270321567cb89ed": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 135,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 39,
+      "type": "reading"
+    },
+    "014150f9f4dc0bf0700df3a1ee62d256a56f05f150b8419c472ee1d2f0c1ebc3": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 37,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 40,
+      "type": "model"
+    },
+    "0c4c44a41da59b2583a94c33d03eb03b555538d855a60eb3ca0eb60b6de11e9d": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 40,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 40,
+      "type": "model"
+    },
+    "4b700de024eec84ddd853842cf45ad37dd6d0e2acd3967862bc288339c40bfd6": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 40,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 40,
+      "type": "model"
+    },
+    "c8b24468202099894799bb773dedb997374f950d999349695920980a9437a145": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 31,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 40,
+      "type": "model"
+    },
+    "11a7f229690bd8dfd840d5ccf5d8313d0a1317155f576fb8d1b686a6b858ee49": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 133,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 40,
+      "type": "reading"
+    },
+    "99b779fb6d39cf9014a0961af78dafd275ba7c762df88f11e21320f2c876ffe2": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 28,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 41,
+      "type": "model"
+    },
+    "078cc6912027340d47438c7f5dfcd1f98089dcc82b21108e4acb0c1396b9621e": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 18,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 41,
+      "type": "model"
+    },
+    "1514b5289752d9a6f4c36749b6939728da5911d8bd588559d153aacec6fa43dd": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 25,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 41,
+      "type": "model"
+    },
+    "3e30b1ffd0424d875b4c9e4c9d35a38c0556b3d8952dd313772a35b8b540fda4": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 20,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 41,
+      "type": "model"
+    },
+    "7c6c22abc6f4cca53ede67a0c03d7a92e6a880985ee9c6fc5b9172c80a4ffd1f": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 128,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 41,
+      "type": "reading"
+    },
+    "b3d20719ed1baca673596095cf3bfb546c62c1ff378eb6a5d502d082a539dc70": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 22,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 42,
+      "type": "model"
+    },
+    "104fdb346ac9db903e68c04c40ce7b46af0b084f1f5f9bd60375a5db0f7099c1": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 23,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 42,
+      "type": "model"
+    },
+    "9d2258d58afcd0899de31805e7fc730cff4965c4a5548c83405171e18d5abdc5": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 25,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 42,
+      "type": "model"
+    },
+    "334403e85db4cbc028e19073a610b0297933d336fd334c78389f8d47ca0eba93": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 22,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 42,
+      "type": "model"
+    },
+    "d0d1e0828c4f71e3a7455efb72b5f05b536c8937ec0e466dfb1b603346ec0313": {
+      "status": "reserved",
+      "batch": "2026-11-12-c1-primary",
+      "estimatedCredits": 125,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "day": 42,
+      "type": "reading"
     }
   },
   "batches": {
@@ -8532,6 +10602,15 @@
       "estimatedCredits": 9973,
       "files": 244,
       "completedCredits": 9973
+    },
+    "2026-11-12-c1-primary": {
+      "status": "running",
+      "cap": 9500,
+      "estimatedCredits": 9448,
+      "voiceId": "WbNN0ZquKxio6sawH5yC",
+      "voiceLabel": "NY sofisticado",
+      "modelId": "eleven_flash_v2_5",
+      "maxDay": 42
     }
   },
   "voices": {
