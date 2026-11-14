@@ -263,8 +263,10 @@
   function ModuleHub({ onSelect }) {
     const legacy = readJSON(LEGACY_META_KEY, null);
     const c1 = readJSON(C1_META_KEY, defaultC1Meta());
+    const amazon = readJSON(AMAZON_META_KEY, { day: 1, completedDays: [] });
     const legacyDone = Array.isArray(legacy?.completedDays) ? legacy.completedDays.length : 0;
     const c1Done = Array.isArray(c1?.completedDays) ? c1.completedDays.length : 0;
+    const amazonDone = Array.isArray(amazon?.completedDays) ? amazon.completedDays.length : 0;
 
     return h('div', {
       style: {
@@ -332,12 +334,12 @@
         }),
         h(ModuleCard, {
           title: 'My Way Up at Amazon',
-          subtitle: 'Inglés operativo y crecimiento dentro de Amazon.',
+          subtitle: 'Inglés C1 para operaciones, coaching, handovers, incidentes y crecimiento dentro de Amazon.',
           author: 'SÉNECA',
           image: 'seneca.webp',
-          done: 0,
-          total: 0,
-          preparing: true
+          done: amazonDone,
+          total: w.AMAZON_COURSE?.totalDays || 60,
+          onClick: () => onSelect('amazon')
         })
       )
     );
@@ -1145,13 +1147,9 @@
         ? (w.StayStoicApp ? h(w.StayStoicApp) : h('div', { style: { color: COLORS.marble, padding: 20 } }, 'Cargando English My Way…'))
         : moduleId === 'c1'
           ? h(C1App)
-          : h('div', {
-              style: {
-                color: COLORS.marble,
-                padding: 24,
-                fontFamily: sans
-              }
-            }, 'En preparación')
+          : (w.StayStoicAmazonApp
+              ? h(w.StayStoicAmazonApp)
+              : h('div', { style: { color: COLORS.marble, padding: 24, fontFamily: sans } }, 'Cargando My Way Up at Amazon…'))
     );
   }
 
