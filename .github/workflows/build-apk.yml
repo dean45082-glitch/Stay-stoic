@@ -18,6 +18,8 @@ jobs:
       - name: Test audio controls without API calls
         run: |
           node --check c1-data.js
+          node --check amazon-data.js
+          node --check amazon-module.js
           node --check modules.js
           node --check app.js
           node --test scripts/audio.test.cjs scripts/player.test.cjs scripts/offline.test.cjs scripts/modules-storage.test.cjs
@@ -31,7 +33,7 @@ jobs:
       - name: Copy web app into Android assets
         run: |
           mkdir -p app/src/main/assets/www
-          cp index.html app.js data1.js data2.js c1-data.js modules.js app/src/main/assets/www/
+          cp index.html app.js data1.js data2.js c1-data.js amazon-data.js amazon-module.js modules.js app/src/main/assets/www/
           mkdir -p app/src/main/assets/www/vendor
           cp vendor/react.production.min.js vendor/react-dom.production.min.js app/src/main/assets/www/vendor/
           mkdir -p app/src/main/res/drawable-nodpi
