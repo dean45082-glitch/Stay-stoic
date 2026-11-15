@@ -80,7 +80,7 @@ test('Amazon v2.2 curriculum and situations load without changing stable lesson 
   assert.equal(course.vocabulary.length, 161);
   assert.equal(course.situations.categories.length, 7);
   assert.equal(course.situations.entries.length, 73);
-  assert.deepEqual(course.feedback_actions, ['accept','suggest_correction','exclude_from_practice','mark_pending']);
+  assert.equal(Array.from(course.feedback_actions).join('|'), 'accept|suggest_correction|exclude_from_practice|mark_pending');
   let models = 0, activities = 0, variants = 0;
   for (let i = 0; i < 60; i++) {
     const d = course.lessons[i];
