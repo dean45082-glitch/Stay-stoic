@@ -26,9 +26,130 @@ function Calendar({meta,onPick}){const total=w.AMAZON_COURSE?.lessons?.length||6
 function Vocabulary(){const course=w.AMAZON_COURSE,[q,setQ]=useState(''),query=q.trim().toLowerCase(),all=course?.vocabulary||[];const groups=[['Priority phrases',all.filter(v=>/^V\d+$/.test(v.id))],['Warehouse vocabulary',all.filter(v=>/^W\d+$/.test(v.id))],['Maintenance vocabulary',all.filter(v=>/^TV\d+$/.test(v.id))]];const row=v=>h('div',{key:v.id,style:{padding:'10px 0',borderBottom:'1px solid '+C.line}},h('div',{style:{color:C.marble,fontSize:13,fontWeight:700}},v.term),h('div',{style:{color:C.dim,fontSize:11.5,lineHeight:1.5,marginTop:3}},v.meaning),v.status&&h('div',{style:{color:C.bronzeLight,fontSize:10,marginTop:3}},v.status));return h('div',null,h('div',{style:{color:C.marble,fontFamily:serif,fontSize:25,marginBottom:6}},'Vocabulary & phrases'),h('div',{style:{color:C.dim,fontSize:12,lineHeight:1.5,marginBottom:14}},all.length+' términos del paquete v2.2.'),h('input',{value:q,onChange:e=>setQ(e.target.value),placeholder:'Buscar término o significado…',style:{width:'100%',background:C.soft,color:C.marble,border:'1px solid '+C.line,borderRadius:10,padding:12,fontSize:12.5,marginBottom:12,outline:'none'}}),...groups.map(([title,items],gi)=>{const filtered=items.filter(v=>!query||(v.term+' '+v.meaning+' '+(v.status||'')).toLowerCase().includes(query));return h('details',{key:title,open:gi===0,style:card},h('summary',{style:{color:C.bronzeLight,cursor:'pointer',fontWeight:800,fontSize:12}},title+' · '+filtered.length),h('div',{style:{marginTop:8}},...filtered.map(row))) }))}
 function Situations({onOpenLesson}){const course=w.AMAZON_COURSE,s=course?.situations||{categories:[],entries:[]},[cat,setCat]=useState('all'),[type,setType]=useState('all'),[q,setQ]=useState(''),[selected,setSelected]=useState(null);const sourceMap=Object.fromEntries((course?.sources||[]).map(x=>[x.id,x])),lessonMap=Object.fromEntries((course?.lessons||[]).map(x=>[x.id,x])),entryMap=Object.fromEntries((s.entries||[]).map(x=>[x.id,x]));const types=[...new Set((s.entries||[]).map(x=>x.type))];const query=q.trim().toLowerCase();const filtered=(s.entries||[]).filter(x=>(cat==='all'||x.category_id===cat)&&(type==='all'||x.type===type)&&(!query||(x.title+' '+x.id+' '+x.type).toLowerCase().includes(query)));if(selected){const e=entryMap[selected],source=sourceMap[e?.source_id],fallbackLesson=e?.lesson_ids?.map(id=>lessonMap[id]).find(Boolean),narrative=source?.text||fallbackLesson?.scenario||'No narrative is available in this package.',category=s.categories.find(c=>c.id===e.category_id);return h('div',null,h('button',{onClick:()=>setSelected(null),style:{...ghost,marginBottom:14}},'‹ Situations'),h('div',{style:card},h('div',{style:{color:C.bronzeLight,fontSize:10,fontWeight:800,letterSpacing:.7,marginBottom:7}},(category?.title||e.category_id)+' · '+e.type),h('div',{style:{color:C.marble,fontFamily:serif,fontSize:24,lineHeight:1.2}},e.title),h('div',{style:{color:C.dim,fontSize:11,marginTop:7}},'ID · '+e.id+(e.technical_status?' · Technical status: '+e.technical_status:''))),h('div',{style:card},h('div',{style:{color:C.bronzeLight,fontSize:10,fontWeight:800,marginBottom:8}},'TEXT CONSULTATION'),...String(narrative).split(/\n\n+/).map((p,i)=>h('p',{key:i,style:{color:C.dim,fontSize:12.5,lineHeight:1.65,margin:'0 0 10px'}},p)),h('div',{style:{color:C.dim,fontSize:10.5,lineHeight:1.45,marginTop:12,borderTop:'1px solid '+C.line,paddingTop:10}},'Esta sección es solo de consulta textual. No genera ni reproduce voces nuevas.')),e.related_situation_ids?.length?h('div',{style:card},h('div',{style:{color:C.bronzeLight,fontSize:10,fontWeight:800,marginBottom:8}},'RELATED SITUATIONS'),...e.related_situation_ids.map(id=>{const r=entryMap[id];return h('button',{key:id,onClick:()=>setSelected(id),style:{...ghost,width:'100%',marginBottom:7,justifyContent:'flex-start'}},r?r.title:id)})):null,e.lesson_ids?.length?h('div',{style:card},h('div',{style:{color:C.bronzeLight,fontSize:10,fontWeight:800,marginBottom:8}},'LINKED LESSONS'),...e.lesson_ids.map(id=>{const l=lessonMap[id];return h('button',{key:id,onClick:()=>l&&onOpenLesson(id),style:{...ghost,width:'100%',marginBottom:7,justifyContent:'flex-start'}},l?'Día '+l.day+' · '+l.title:id)})):null)}return h('div',null,h('div',{style:{color:C.marble,fontFamily:serif,fontSize:25,marginBottom:6}},s.title||'Situations'),h('div',{style:{color:C.dim,fontSize:12,lineHeight:1.5,marginBottom:14}},(s.entries?.length||0)+' situaciones para consulta. Abrir una situación no cambia el progreso de las lecciones.'),h('input',{value:q,onChange:e=>setQ(e.target.value),placeholder:'Buscar situación…',style:{width:'100%',background:C.soft,color:C.marble,border:'1px solid '+C.line,borderRadius:10,padding:12,fontSize:12.5,marginBottom:9,outline:'none'}}),h('select',{value:cat,onChange:e=>setCat(e.target.value),style:{width:'100%',background:C.soft,color:C.marble,border:'1px solid '+C.line,borderRadius:10,padding:11,fontSize:12,marginBottom:9}},h('option',{value:'all'},'Todas las categorías'),...s.categories.map(c=>h('option',{key:c.id,value:c.id},c.title))),h('select',{value:type,onChange:e=>setType(e.target.value),style:{width:'100%',background:C.soft,color:C.marble,border:'1px solid '+C.line,borderRadius:10,padding:11,fontSize:12,marginBottom:14}},h('option',{value:'all'},'Todos los tipos'),...types.map(t=>h('option',{key:t,value:t},t))),...filtered.map(e=>h('button',{key:e.id,onClick:()=>setSelected(e.id),style:{...card,width:'100%',textAlign:'left',cursor:'pointer'}},h('div',{style:{color:C.bronzeLight,fontSize:9.5,fontWeight:800,letterSpacing:.5}},e.type+' · '+e.id),h('div',{style:{color:C.marble,fontFamily:serif,fontSize:17,lineHeight:1.3,marginTop:5}},e.title),e.technical_status&&h('div',{style:{color:C.dim,fontSize:10.5,marginTop:6}},'Technical status · '+e.technical_status))))}
 function Activity({a,record,onChange,listenText,r,status}){const selected=record?.selected,checked=!!record?.checked;if(a.type==='order'){const source=a.cards||a.options||[],order=Array.isArray(record?.order)&&record.order.length?record.order:source;const move=(idx,d)=>{const n=[...order],t=idx+d;if(t<0||t>=n.length)return;[n[idx],n[t]]=[n[t],n[idx]];onChange({order:n,checked:false})};const ok=checked&&JSON.stringify(order)===JSON.stringify(a.correct_order||[]);return h('div',{style:{...card,padding:14}},h('div',{style:{color:C.bronzeLight,fontSize:10,fontWeight:800,marginBottom:7}},'ACTIVIDAD'),h('div',{style:{color:C.marble,fontSize:12.5,lineHeight:1.55,marginBottom:10}},a.prompt),...order.map((x,i)=>h('div',{key:x,style:{display:'grid',gridTemplateColumns:'1fr auto auto',gap:6,alignItems:'center',padding:'8px 0',borderBottom:'1px solid '+C.line}},h('div',{style:{color:C.dim,fontSize:11.5,lineHeight:1.4}},(i+1)+'. '+x),h('button',{onClick:()=>move(i,-1),style:{...ghost,minHeight:30,padding:'4px 8px'}},'↑'),h('button',{onClick:()=>move(i,1),style:{...ghost,minHeight:30,padding:'4px 8px'}},'↓'))),h('button',{onClick:()=>onChange({order,checked:true}),style:{...ghost,width:'100%',marginTop:10}},'Comprobar orden'),checked&&h('div',{style:{marginTop:10,color:ok?'#9FC9A8':C.bronzeLight,fontSize:11.5,lineHeight:1.5}},(ok?'✓ Correcto. ':'Revisa el orden. ')+(a.feedback||''),!ok&&a.correct_order?.length?h('div',{style:{marginTop:5}},'Orden: '+a.correct_order.join(' → ')):null))}const ok=checked&&selected===a.correct_index;return h('div',{style:{...card,padding:14}},h('div',{style:{display:'flex',justifyContent:'space-between',alignItems:'center',gap:8,marginBottom:7}},h('div',{style:{color:C.bronzeLight,fontSize:10,fontWeight:800}},'ACTIVIDAD'),a.type==='listen_select'&&hasAudio(listenText)?h(AudioButton,{text:listenText,r,status,label:'🔊 Escuchar'}):null),h('div',{style:{color:C.marble,fontSize:12.5,lineHeight:1.55,marginBottom:9}},a.prompt),a.type==='listen_select'&&!hasAudio(listenText)&&h('div',{style:{color:C.dim,fontSize:10.5,lineHeight:1.4,marginBottom:8}},'Sin audio nuevo: usa el texto de la situación para esta práctica.'),...(a.options||[]).map((opt,i)=>{const sel=selected===i,right=checked&&i===a.correct_index;return h('button',{key:i,onClick:()=>onChange({selected:i,checked:true}),style:{width:'100%',textAlign:'left',marginBottom:7,padding:'10px 11px',borderRadius:9,border:'1px solid '+(right?C.green:sel?C.bronzeLight:C.line),background:right?'rgba(74,93,82,.35)':sel?'rgba(138,109,59,.25)':C.bg,color:C.dim,fontSize:11.5,lineHeight:1.45,cursor:'pointer'}},String.fromCharCode(65+i)+'. '+opt)}),checked&&h('div',{style:{color:ok?'#9FC9A8':C.bronzeLight,fontSize:11.5,lineHeight:1.5,marginTop:5}},ok?'✓ Correcto. ':'Respuesta: '+String.fromCharCode(65+(a.correct_index??0))+'. ',a.feedback||''))}
-function Lesson({lesson,meta,record,onPatch,onComplete}){const[r,setR]=useState(getRate()),[status,setStatus]=useState(''),done=meta.completedDays?.includes(lesson.day),answers=record?.answers||{},application=record?.application||'',review=record?.reviewStatus||'';const saveAnswer=(n,v)=>onPatch({answers:{...answers,[n]:v}});const scenarioCard=h('div',{style:card},h(Title,{n:'1',title:'Situation & communication goal',sub:'Observed issue, evidence, boundary and operational update.'}),...String(lesson.scenario||'').split(/\n\n+/).map((p,i)=>h('p',{key:i,style:{color:C.marble,fontFamily:serif,fontSize:14,lineHeight:1.65,margin:'0 0 10px'}},p)),hasAudio(lesson.scenario)?h(AudioButton,{text:lesson.scenario,r,status:setStatus,label:'🔊 Audio existente'}):h('div',{style:{color:C.dim,fontSize:10.5,marginTop:8}},'No se generará audio nuevo para esta situación.'));const modelsCard=h('div',{style:card},h(Title,{n:'2',title:'Models · listen & repeat',sub:'Se reproduce audio solo cuando el mismo texto ya existe en la biblioteca.'}),...(lesson.models||[]).map((t,i)=>h('div',{key:i,style:{display:'flex',gap:9,alignItems:'flex-start',padding:'10px 0',borderBottom:i<lesson.models.length-1?'1px solid '+C.line:'none'}},h('div',{style:{flex:1,color:C.marble,fontFamily:serif,fontSize:13.5,lineHeight:1.55}},(i+1)+'. '+t),h(AudioButton,{text:t,r,status:setStatus}))));const variants=lesson.dialogue_variants||[];const dialogueCard=h('div',{style:card},h(Title,{n:'3',title:'Dialogue practice',sub:'Transcript de práctica. Audio únicamente si esa línea ya estaba grabada.'}),...variants.map((variant,vi)=>h('details',{key:vi,style:{padding:'9px 0',borderBottom:vi<variants.length-1?'1px solid '+C.line:'none'}},h('summary',{style:{color:C.marble,cursor:'pointer',fontSize:12,fontWeight:700}},'Dialogue '+(vi+1)),h('div',{style:{marginTop:8}},...variant.map((line,li)=>h('div',{key:li,style:{display:'flex',gap:8,alignItems:'flex-start',padding:'5px 0'}},h('div',{style:{flex:1,color:C.dim,fontSize:11.5,lineHeight:1.55}},h('strong',{style:{color:C.marble}},line.speaker+': '),line.text),h(AudioButton,{text:line.text,r,status:setStatus}))))));const activitiesBlock=h('div',null,h(Title,{n:'4',title:'Selection & analysis',sub:'La respuesta se revela después de tu intento.'}),...(lesson.activities||[]).map((a,i)=>h(Activity,{key:i,a,record:answers[i],onChange:v=>saveAnswer(i,v),listenText:lesson.scenario,r,status:setStatus})));const applicationCard=h('div',{style:card},h(Title,{n:'5',title:'Brief application',sub:'Una respuesta corta, escrita o hablada.'}),h('div',{style:{color:C.marble,fontSize:12.5,lineHeight:1.6,marginBottom:10}},lesson.short_application?.prompt),h('textarea',{value:application,onChange:e=>onPatch({application:e.target.value}),placeholder:'Write your brief operational update here…',style:{width:'100%',minHeight:105,resize:'vertical',background:C.bg,color:C.marble,border:'1px solid '+C.line,borderRadius:10,padding:11,fontSize:12.5,lineHeight:1.5,outline:'none'}}),h('details',{style:{marginTop:10}},h('summary',{style:{color:C.bronzeLight,cursor:'pointer',fontSize:11.5}},'Ver model response'),h('div',{style:{color:C.dim,fontSize:11.5,lineHeight:1.55,marginTop:8}},lesson.short_application?.model)));const aliases={correction:'suggest_correction',exclude:'exclude_from_practice',pending_detail:'mark_pending'},normalizedReview=aliases[review]||review;const reviewCard=h('div',{style:card},h(Title,{n:'6',title:'Review status',sub:'Mantén la fuente, sugiere corrección, excluye de práctica o marca pendiente.'}),h('div',{style:{display:'grid',gridTemplateColumns:'1fr 1fr',gap:8}},...[
-['accept','✓ Aceptar'],['suggest_correction','✎ Corregir'],['exclude_from_practice','× Excluir'],['mark_pending','⏳ Pendiente']
-].map(([v,l])=>h('button',{key:v,onClick:()=>onPatch({reviewStatus:v}),style:{...ghost,minWidth:0,color:normalizedReview===v?C.marble:C.dim,background:normalizedReview===v?C.bronze:'transparent',borderColor:normalizedReview===v?C.bronzeLight:C.line}},l))));const allAudioTexts=[lesson.scenario,...(lesson.models||[]),...(variants.flatMap(v=>v.map(x=>x.text)))].filter(Boolean),savedCount=allAudioTexts.filter(hasAudio).length;const audioCard=h('div',{style:card},h(Title,{n:'7',title:'Existing audio only',sub:'Este módulo no crea voces nuevas ni usa TTS de respaldo.'}),h('div',{style:{color:C.dim,fontSize:12,lineHeight:1.55,marginBottom:10}},savedCount+' de '+allAudioTexts.length+' textos de esta lección coinciden exactamente con audios ya guardados.'),h('div',{style:{display:'grid',gridTemplateColumns:'repeat(4,minmax(0,1fr))',gap:7}},...[.75,.8,1,1.15].map(n=>h('button',{key:n,onClick:()=>setR(setRate(n)),style:{...ghost,minWidth:0,padding:'8px 4px',color:Math.abs(r-n)<.001?C.marble:C.dim,background:Math.abs(r-n)<.001?C.bronze:'transparent',borderColor:Math.abs(r-n)<.001?C.bronzeLight:C.line}},n+'×'))),status&&h('div',{style:{color:C.dim,fontSize:10.5,marginTop:8}},status));return h('div',null,h('div',{style:{color:C.bronzeLight,fontSize:10.5,fontWeight:800,letterSpacing:1.1,marginBottom:6}},'DÍA '+lesson.day+' · '+lesson.id),h('div',{style:{color:C.marble,fontFamily:serif,fontSize:29,lineHeight:1.12,marginBottom:6}},lesson.title),h('div',{style:{color:C.dim,fontSize:12,lineHeight:1.55,marginBottom:16}},lesson.objective),h(Moment,{day:lesson.day}),scenarioCard,modelsCard,dialogueCard,activitiesBlock,applicationCard,reviewCard,audioCard,h('button',{onClick:onComplete,disabled:done,style:{...primary(done?C.green:C.bronze),opacity:done ? .8 : 1,cursor:done?'default':'pointer',marginBottom:30}},done?'✓ Día completado':'✓ Guardar día '+lesson.day+' como hecho'))}
+function Lesson({lesson,meta,record,onPatch,onComplete}){
+  const [r,setR]=useState(getRate());
+  const [status,setStatus]=useState('');
+  const done=meta.completedDays?.includes(lesson.day);
+  const answers=record?.answers||{};
+  const application=record?.application||'';
+  const review=record?.reviewStatus||'';
+  const saveAnswer=(n,v)=>onPatch({answers:{...answers,[n]:v}});
+  const pieces=[];
+
+  pieces.push(
+    h('div',{key:'eyebrow',style:{color:C.bronzeLight,fontSize:10.5,fontWeight:800,letterSpacing:1.1,marginBottom:6}},'DÍA '+lesson.day+' · '+lesson.id),
+    h('div',{key:'title',style:{color:C.marble,fontFamily:serif,fontSize:29,lineHeight:1.12,marginBottom:6}},lesson.title),
+    h('div',{key:'objective',style:{color:C.dim,fontSize:12,lineHeight:1.55,marginBottom:16}},lesson.objective),
+    h(Moment,{key:'moment',day:lesson.day})
+  );
+
+  const situationChildren=[
+    h(Title,{key:'t',n:'1',title:'Situation & communication goal',sub:'Observed issue, evidence, boundary and operational update.'})
+  ];
+  String(lesson.scenario||'').split(/\n\n+/).forEach((p,i)=>{
+    situationChildren.push(h('p',{key:'p'+i,style:{color:C.marble,fontFamily:serif,fontSize:14,lineHeight:1.65,margin:'0 0 10px'}},p));
+  });
+  if(hasAudio(lesson.scenario)){
+    situationChildren.push(h(AudioButton,{key:'a',text:lesson.scenario,r,status:setStatus,label:'🔊 Audio existente'}));
+  }else{
+    situationChildren.push(h('div',{key:'n',style:{color:C.dim,fontSize:10.5,marginTop:8}},'No se generará audio nuevo para esta situación.'));
+  }
+  pieces.push(h('div',{key:'situation',style:card},...situationChildren));
+
+  const modelChildren=[
+    h(Title,{key:'t',n:'2',title:'Models · listen & repeat',sub:'Se reproduce audio solo cuando el mismo texto ya existe en la biblioteca.'})
+  ];
+  (lesson.models||[]).forEach((text,i)=>{
+    modelChildren.push(h('div',{key:'m'+i,style:{display:'flex',gap:9,alignItems:'flex-start',padding:'10px 0',borderBottom:i<lesson.models.length-1?'1px solid '+C.line:'none'}},
+      h('div',{style:{flex:1,color:C.marble,fontFamily:serif,fontSize:13.5,lineHeight:1.55}},(i+1)+'. '+text),
+      h(AudioButton,{text,r,status:setStatus})
+    ));
+  });
+  pieces.push(h('div',{key:'models',style:card},...modelChildren));
+
+  const variants=lesson.dialogue_variants||[];
+  const dialogueChildren=[
+    h(Title,{key:'t',n:'3',title:'Dialogue practice',sub:'Transcript de práctica. Audio únicamente si esa línea ya estaba grabada.'})
+  ];
+  variants.forEach((variant,vi)=>{
+    const lineChildren=[];
+    variant.forEach((line,li)=>{
+      lineChildren.push(h('div',{key:'l'+li,style:{display:'flex',gap:8,alignItems:'flex-start',padding:'5px 0'}},
+        h('div',{style:{flex:1,color:C.dim,fontSize:11.5,lineHeight:1.55}},
+          h('strong',{style:{color:C.marble}},line.speaker+': '),line.text
+        ),
+        h(AudioButton,{text:line.text,r,status:setStatus})
+      ));
+    });
+    dialogueChildren.push(h('details',{key:'d'+vi,style:{padding:'9px 0',borderBottom:vi<variants.length-1?'1px solid '+C.line:'none'}},
+      h('summary',{style:{color:C.marble,cursor:'pointer',fontSize:12,fontWeight:700}},'Dialogue '+(vi+1)),
+      h('div',{style:{marginTop:8}},...lineChildren)
+    ));
+  });
+  pieces.push(h('div',{key:'dialogues',style:card},...dialogueChildren));
+
+  const activityChildren=[
+    h(Title,{key:'t',n:'4',title:'Selection & analysis',sub:'La respuesta se revela después de tu intento.'})
+  ];
+  (lesson.activities||[]).forEach((a,i)=>{
+    activityChildren.push(h(Activity,{key:'a'+i,a,record:answers[i],onChange:v=>saveAnswer(i,v),listenText:lesson.scenario,r,status:setStatus}));
+  });
+  pieces.push(h('div',{key:'activities'},...activityChildren));
+
+  pieces.push(h('div',{key:'application',style:card},
+    h(Title,{n:'5',title:'Brief application',sub:'Una respuesta corta, escrita o hablada.'}),
+    h('div',{style:{color:C.marble,fontSize:12.5,lineHeight:1.6,marginBottom:10}},lesson.short_application?.prompt),
+    h('textarea',{
+      value:application,
+      onChange:e=>onPatch({application:e.target.value}),
+      placeholder:'Write your brief operational update here…',
+      style:{width:'100%',minHeight:105,resize:'vertical',background:C.bg,color:C.marble,border:'1px solid '+C.line,borderRadius:10,padding:11,fontSize:12.5,lineHeight:1.5,outline:'none'}
+    }),
+    h('details',{style:{marginTop:10}},
+      h('summary',{style:{color:C.bronzeLight,cursor:'pointer',fontSize:11.5}},'Ver model response'),
+      h('div',{style:{color:C.dim,fontSize:11.5,lineHeight:1.55,marginTop:8}},lesson.short_application?.model)
+    )
+  ));
+
+  const aliases={correction:'suggest_correction',exclude:'exclude_from_practice',pending_detail:'mark_pending'};
+  const normalizedReview=aliases[review]||review;
+  const reviewButtons=[];
+  [['accept','✓ Aceptar'],['suggest_correction','✎ Corregir'],['exclude_from_practice','× Excluir'],['mark_pending','⏳ Pendiente']].forEach(([v,label])=>{
+    reviewButtons.push(h('button',{
+      key:v,
+      onClick:()=>onPatch({reviewStatus:v}),
+      style:{...ghost,minWidth:0,color:normalizedReview===v?C.marble:C.dim,background:normalizedReview===v?C.bronze:'transparent',borderColor:normalizedReview===v?C.bronzeLight:C.line}
+    },label));
+  });
+  pieces.push(h('div',{key:'review',style:card},
+    h(Title,{n:'6',title:'Review status',sub:'Mantén la fuente, sugiere corrección, excluye de práctica o marca pendiente.'}),
+    h('div',{style:{display:'grid',gridTemplateColumns:'1fr 1fr',gap:8}},...reviewButtons)
+  ));
+
+  const allAudioTexts=[lesson.scenario,...(lesson.models||[])];
+  variants.forEach(v=>v.forEach(line=>allAudioTexts.push(line.text)));
+  const savedCount=allAudioTexts.filter(Boolean).filter(hasAudio).length;
+  const speedButtons=[.75,.8,1,1.15].map(n=>h('button',{
+    key:n,
+    onClick:()=>setR(setRate(n)),
+    style:{...ghost,minWidth:0,padding:'8px 4px',color:Math.abs(r-n)<.001?C.marble:C.dim,background:Math.abs(r-n)<.001?C.bronze:'transparent',borderColor:Math.abs(r-n)<.001?C.bronzeLight:C.line}
+  },n+'×'));
+  pieces.push(h('div',{key:'audio',style:card},
+    h(Title,{n:'7',title:'Existing audio only',sub:'Este módulo no crea voces nuevas ni usa TTS de respaldo.'}),
+    h('div',{style:{color:C.dim,fontSize:12,lineHeight:1.55,marginBottom:10}},savedCount+' de '+allAudioTexts.filter(Boolean).length+' textos de esta lección coinciden exactamente con audios ya guardados.'),
+    h('div',{style:{display:'grid',gridTemplateColumns:'repeat(4,minmax(0,1fr))',gap:7}},...speedButtons),
+    status?h('div',{style:{color:C.dim,fontSize:10.5,marginTop:8}},status):null
+  ));
+
+  pieces.push(h('button',{
+    key:'complete',
+    onClick:onComplete,
+    disabled:done,
+    style:{...primary(done?C.green:C.bronze),opacity:done ? .8 : 1,cursor:done?'default':'pointer',marginBottom:30}
+  },done?'✓ Día completado':'✓ Guardar día '+lesson.day+' como hecho'));
+
+  return h('div',null,...pieces);
+}
 function AmazonApp(){const course=w.AMAZON_COURSE,[meta,setMeta]=useState(()=>read(META,defMeta())),[progress,setProgress]=useState(()=>read(PROGRESS,{})),[view,setView]=useState('home'),[activeDay,setActiveDay]=useState(meta.day||1);useEffect(()=>{try{w.StoicAudio?.stop?.()}catch{}},[view,activeDay]);if(!course?.lessons?.length)return h('div',{style:{minHeight:'100vh',background:C.bg,color:C.marble,padding:24,fontFamily:sans}},'No se pudo cargar My Way Up at Amazon.');const total=course.lessons.length,lesson=course.lessons[Math.max(0,Math.min(total-1,activeDay-1))],record=progress[lesson?.id]||{};const saveMeta=n=>{setMeta(n);write(META,n)},saveProgress=n=>{setProgress(n);write(PROGRESS,n)},open=d=>{setActiveDay(Math.max(1,Math.min(total,d)));setView('day')},openId=id=>{const l=course.lessons.find(x=>x.id===id);if(l)open(l.day)},patch=p=>{const n={...progress,[lesson.id]:{...(progress[lesson.id]||{}),...p,lessonId:lesson.id,updatedAt:Date.now()}};saveProgress(n)},complete=()=>{if(meta.completedDays?.includes(activeDay))return;const completedDays=[...(meta.completedDays||[]),activeDay].sort((a,b)=>a-b),seq=activeDay===meta.day,nextDay=seq?Math.min(total,activeDay+1):meta.day,streak=seq?(meta.lastCompletedDay===activeDay-1||activeDay===1?(meta.streak||0)+1:1):meta.streak||0;saveMeta({...meta,day:nextDay,lastMarkedDay:activeDay,lastCompletedDay:Math.max(meta.lastCompletedDay||0,activeDay),streak,completedDays});setView('home')};return h('div',{style:{minHeight:'100vh',background:C.bg,color:C.marble,fontFamily:sans}},h('div',{style:{maxWidth:520,margin:'0 auto',padding:'22px 18px 42px'}},view==='home'&&h(Home,{meta,onDay:()=>open(meta.day||1),onCalendar:()=>setView('calendar'),onVocab:()=>setView('vocabulary'),onSituations:()=>setView('situations')}),view==='calendar'&&h(React.Fragment,null,h('button',{onClick:()=>setView('home'),style:{...ghost,marginBottom:16}},'‹ Inicio Amazon'),h(Calendar,{meta,onPick:open})),view==='vocabulary'&&h(React.Fragment,null,h('button',{onClick:()=>setView('home'),style:{...ghost,marginBottom:16}},'‹ Inicio Amazon'),h(Vocabulary)),view==='situations'&&h(React.Fragment,null,h('button',{onClick:()=>setView('home'),style:{...ghost,marginBottom:16}},'‹ Inicio Amazon'),h(Situations,{onOpenLesson:openId})),view==='day'&&h(React.Fragment,null,h('button',{onClick:()=>setView('home'),style:{...ghost,marginBottom:16}},'‹ Inicio Amazon'),h(Lesson,{lesson,meta,record,onPatch:patch,onComplete:complete}))))}
 w.StayStoicAmazonApp=AmazonApp;
 })(window);
