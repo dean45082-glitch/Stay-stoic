@@ -9,9 +9,27 @@
     const u=new w.SpeechSynthesisUtterance(text);u.lang='en-US';u.rate=rate;
     u.onend=()=>status?.('Audio terminado.');u.onerror=()=>status?.('No se pudo reproducir el audio nativo.');w.speechSynthesis.speak(u);if(w.speechSynthesis.paused)w.speechSynthesis.resume();
   }
+  function getSavedEntry(text){
+    const entry=w.STOIC_AUDIO_INDEX?.entries?.[normalize(text)];
+    return entry&&/^audio\/[a-f0-9]{64}\.mp3$/.test(entry.file)?entry:null;
+  }
+  function hasSavedAudio(text){return !!getSavedEntry(text);}
+  function speakSavedOnly(text,rate=0.9,status){
+    stop();const token=serial;if(!text||!String(text).trim())return false;
+    const entry=getSavedEntry(text);
+    if(!entry){status?.('No hay audio guardado para este texto.');return false;}
+    try{
+      const audio=new w.Audio(entry.file);current=audio;audio.playbackRate=rate;audio.preservesPitch=true;
+      audio.onplaying=()=>{if(token===serial)status?.((entry.voiceLabel||'Audio guardado')+' · audio existente.');};
+      audio.onended=()=>{if(token===serial){current=null;status?.('Audio terminado.');}};
+      audio.onerror=()=>{if(token===serial){current=null;status?.('El audio guardado no está disponible.');}};
+      const playing=audio.play();if(playing?.catch)playing.catch(()=>{if(token===serial)status?.('El audio guardado no se pudo reproducir.');});
+      return true;
+    }catch{status?.('El audio guardado no se pudo reproducir.');return false;}
+  }
   function speak(text,rate=0.9,status){
     stop();const token=serial;if(!text||!String(text).trim())return;
-    const entry=w.STOIC_AUDIO_INDEX?.entries?.[normalize(text)];let usedFallback=false;
+    const entry=getSavedEntry(text);let usedFallback=false;
     function fallback(){if(token!==serial||usedFallback)return;usedFallback=true;if(timer)clearTimeout(timer);timer=null;if(current){current.onerror=null;current.onplaying=null;current.pause();current=null;}try{native(text,rate,status);}catch{status?.('No se pudo reproducir el audio.');}}
     if(!entry||!/^audio\/[a-f0-9]{64}\.mp3$/.test(entry.file)){fallback();return;}
     try{const audio=new w.Audio(entry.file);current=audio;audio.playbackRate=rate;audio.preservesPitch=true;
@@ -30,7 +48,7 @@
       status('Preparando descarga…');target.postMessage({type:'CACHE_AUDIO'},[channel.port2]);
     }catch{status('No se pudo preparar la descarga offline.');}
   }
-  w.StoicAudio={speak,stop,setRate,downloadOffline};
+  w.StoicAudio={speak,speakSavedOnly,hasSavedAudio,stop,setRate,downloadOffline};
   w.addEventListener('pagehide',stop);
   if(typeof document!=='undefined')document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();});
 })(window);
