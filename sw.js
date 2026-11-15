@@ -1,5 +1,5 @@
 // Refresh calendar controls on install; retain existing offline audio cache.
-const CACHE='stay-stoic-2.5.0';
+const CACHE='stay-stoic-2.5.1';
 const CORE=['./','index.html','app.js','data1.js','data2.js','audio-player.js','audio-index.js','c1-data.js','amazon-data-part1.js','amazon-data-part2.js','amazon-data-part3.js','amazon-data-part4.js','amazon-data-part5.js','amazon-data-part6.js','amazon-data-part7.js','amazon-data-part8.js','amazon-data-part9.js','amazon-data-part10.js','amazon-data-part11.js','amazon-data-part12.js','amazon-data-part13.js','amazon-data-part14.js','amazon-data-part15.js','amazon-data-part16.js','amazon-data-part17.js','amazon-data-part18.js','amazon-data.js','amazon-module.js','modules.js','manifest.json','app-icon.webp','seneca.webp','epictetus.webp','vendor/react.production.min.js','vendor/react-dom.production.min.js'];
 let downloading=null;
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE.map(asset=>new Request(new URL(asset,self.registration.scope),{cache:'reload'}))))));
