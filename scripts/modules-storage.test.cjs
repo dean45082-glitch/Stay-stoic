@@ -113,7 +113,7 @@ test('Amazon module keeps independent progress and return navigation', () => {
   assert.match(amazonModule, /StoicAudio\?\.speak\(text,r,status,lookup\)/);
   assert.match(amazonModule, /amazon-audio:/);
   assert.doesNotMatch(amazonModule, /AndroidTTS|speechSynthesis/);
-  assert.match(modules, /‹ Módulos/);
+  assert.match(modules, /Volver a módulos/);
 });
 
 test('the fixed module header sits outside the scroll area and navigation resets it', () => {
