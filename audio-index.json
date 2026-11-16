@@ -13059,6 +13059,13 @@
       "sha256": "bb5aba5ef548fd10bcdc53ba44255a45fc07a33c2dbc622c49cb665eb63f5594",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "Although we face a setback, we stay calm.": {
+      "file": "audio/14e133d70136e2ad46d4150f3fdfef0cebe510971e856fe658554983d75e270d.mp3",
+      "bytes": 35151,
+      "sha256": "17ad09da37d95b8ab65b484a71a0c8829bf83b08e19ec7c5d91c07e6bb8e1a59",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
