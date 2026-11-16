@@ -12173,7 +12173,7 @@
       "maxDay": 42
     },
     "amazon-five-voices-01": {
-      "status": "running",
+      "status": "complete",
       "cap": 10000,
       "estimate": 9963,
       "lastDay": 13,
