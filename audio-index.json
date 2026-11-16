@@ -7344,6 +7344,27 @@
       "sha256": "f63887400230a3749a7030c810bd22783fb25aab902cbfe1ab4c0b9dd9ee431c",
       "voiceId": "4RNt0zdgATxEX0rq2bVG",
       "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D05:dialogue:0:0": {
+      "file": "audio/d990f193997bd1175d6857500106a46a743901f7696036661219625be2c99c9a.mp3",
+      "bytes": 20941,
+      "sha256": "7d809e670ab0647af80d3e20108cd7646e8c670438331e62bfc60a35ba53bd99",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D07:dialogue:0:0": {
+      "file": "audio/d990f193997bd1175d6857500106a46a743901f7696036661219625be2c99c9a.mp3",
+      "bytes": 20941,
+      "sha256": "7d809e670ab0647af80d3e20108cd7646e8c670438331e62bfc60a35ba53bd99",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D08:dialogue:0:0": {
+      "file": "audio/d990f193997bd1175d6857500106a46a743901f7696036661219625be2c99c9a.mp3",
+      "bytes": 20941,
+      "sha256": "7d809e670ab0647af80d3e20108cd7646e8c670438331e62bfc60a35ba53bd99",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
     }
   }
 }
