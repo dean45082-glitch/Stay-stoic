@@ -12198,6 +12198,13 @@
       "sha256": "769f6ef540e05e4c19b2c20cf346c973f2f674adbea687178c5caece4efe5302",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "If you had known that sooner, you would've felt better.": {
+      "file": "audio/9e1300f64591896155f3da4c9622e866300b64eb5b96f7e7ffde46bde1dbe352.mp3",
+      "bytes": 44346,
+      "sha256": "741cf1905bcfaacb1d5c001b237a3dc7f5c88080284b8e16a180ac74f4d6911a",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
