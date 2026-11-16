@@ -16593,6 +16593,18 @@
       "modelId": "eleven_multilingual_v2",
       "day": 118,
       "module": 1
+    },
+    "ee945997fe87d89c53ac51bb08538e53fea93a04e3570c9798440a76d4066a33": {
+      "status": "complete",
+      "batch": "my-way-and-c1-through48",
+      "estimatedCredits": 34,
+      "bytes": 25538,
+      "sha256": "9b413f26c848b518bcebc79f6f8710a3274804fd118588ed0bc6339d4a09ee70",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style",
+      "modelId": "eleven_multilingual_v2",
+      "day": 120,
+      "module": 1
     }
   },
   "batches": {
@@ -16655,7 +16667,7 @@
       "status": "running",
       "cap": 13771,
       "estimate": 13771,
-      "completed": 102
+      "completed": 103
     }
   },
   "voices": {
