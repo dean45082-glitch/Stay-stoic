@@ -34,7 +34,7 @@ test('module shell contains the three requested modules and busts', () => {
   assert.match(modules, /seneca\.webp/);
   assert.match(modules, /onSelect\('amazon'\)/);
   assert.match(modules, /StayStoicAmazonApp/);
-  assert.match(modules, /‹ Módulos/);
+  assert.match(modules, /Volver a módulos/);
 });
 
 test('C1 curriculum contains 69 complete lesson shells', () => {
@@ -114,4 +114,21 @@ test('Amazon module keeps independent progress and return navigation', () => {
   assert.match(amazonModule, /amazon-audio:/);
   assert.doesNotMatch(amazonModule, /AndroidTTS|speechSynthesis/);
   assert.match(modules, /‹ Módulos/);
+});
+
+test('the fixed module header sits outside the scroll area and navigation resets it', () => {
+  const scroll = { scrollTop: 180 };
+  const effects = [];
+  const h = (type, props, ...children) => ({type, props, children});
+  const window = { React: { createElement: h, useEffect: effect => effects.push(effect), useState: () => ['amazon', () => {}] }, StayStoicAmazonApp: () => null };
+  const vm = require('node:vm');
+  vm.runInNewContext(modules, { window, document: {getElementById: id => id === 'module-scroll' ? scroll : null} });
+  const shell = window.StayStoicShell();
+  const header = shell.children[1];
+  const content = shell.children[2];
+  assert.equal(header.type(header.props).props.className, 'module-banner');
+  assert.equal(content.props.id, 'module-scroll');
+  assert.equal(content.children[0].type, window.StayStoicAmazonApp);
+  effects[0]();
+  assert.equal(scroll.scrollTop, 0);
 });

@@ -346,21 +346,16 @@
   }
 
   function ModuleTopBar({ title, onModules }) {
-    return h('div', {
-      style: {
-        position: 'sticky',
-        top: 0,
-        zIndex: 100,
-        background: 'rgba(28,27,24,.97)',
-        borderBottom: '1px solid ' + COLORS.line,
-        backdropFilter: 'blur(8px)'
-      }
+    return h('nav', {
+      'aria-label': 'Navegación de módulos',
+      className: 'module-banner'
     },
       h('div', {
         style: {
           maxWidth: 520,
           margin: '0 auto',
-          padding: '8px 12px',
+          padding: '0 12px',
+          height: 56,
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
@@ -368,14 +363,11 @@
         }
       },
         h('button', {
+          type: 'button',
           onClick: onModules,
-          style: {
-            ...ghost,
-            minHeight: 36,
-            padding: '7px 10px',
-            color: COLORS.marble
-          }
-        }, '‹ Módulos'),
+          className: 'module-return',
+          'aria-label': 'Volver a módulos'
+        }, h('span', { className: 'module-return-chevron', 'aria-hidden': true }), 'Módulos'),
         h('div', {
           style: {
             color: COLORS.bronzeLight,
@@ -388,18 +380,6 @@
       )
     );
   }
-
-  const EPICTETUS_MOMENTS = [
-    'Distingue lo que depende de ti y suelta lo demás.',
-    'No controles el resultado; controla tu respuesta.',
-    'Si quieres mejorar, acepta parecer principiante por un tiempo.',
-    'El progreso se nota más en tus reacciones que en tus palabras.',
-    'Antes de reaccionar, pregúntate qué parte sí está bajo tu control.',
-    'La práctica convierte la filosofía en carácter.',
-    'Tu carácter se fortalece cada vez que eliges bien bajo presión.',
-    'No necesitas controlar a otros para gobernarte a ti mismo.',
-    'La libertad empieza cuando dejas de exigir que todo ocurra a tu manera.'
-  ];
 
   function C1Moment({ day }) {
     return h(w.StayStoicMoment, { day, moduleId: 'c1' });
@@ -980,7 +960,8 @@
     const [view, setView] = useState('home');
     const [activeDay, setActiveDay] = useState(meta.day || 1);
 
-    useEffect(() => { try { w.StoicAudio?.stop?.(); } catch {} }, [view, activeDay]);
+    useEffect(() => { try { w.StoicAudio?.stop?.(); } catch {}   w.resetStayStoicScroll();
+    }, [view, activeDay]);
 
     if (!course?.days?.length) {
       return h('div', {
@@ -1082,35 +1063,37 @@
     );
   }
 
+  w.resetStayStoicScroll = () => {
+    const content = document.getElementById('module-scroll');
+    if (content) content.scrollTop = 0;
+  };
+
   function StayStoicShell() {
     const [moduleId, setModuleId] = useState(null);
+    useEffect(w.resetStayStoicScroll, [moduleId]);
 
-    if (!moduleId) {
-      return h(ModuleHub, { onSelect: setModuleId });
-    }
-
-    const title = moduleId === 'english' ? 'English My Way' : moduleId === 'c1' ? 'My Way to C1' : 'My Way Up at Amazon';
-
-    return h('div', {
-      style: {
-        minHeight: '100vh',
-        background: COLORS.bg
-      }
-    },
-      h(ModuleTopBar, {
-        title,
+    const titles = {
+      english: 'English My Way',
+      c1: 'My Way to C1',
+      amazon: 'My Way Up at Amazon'
+    };
+    const apps = { english: w.StayStoicApp, c1: C1App, amazon: w.StayStoicAmazonApp };
+    const Module = apps[moduleId];
+    return h('div', { className:'app-frame' },
+      h('div', { className:'system-status-area', 'aria-hidden':true }),
+      moduleId && h(ModuleTopBar, {
+        title: titles[moduleId],
         onModules: () => {
           try { w.StoicAudio?.stop?.(); } catch {}
           setModuleId(null);
         }
       }),
-      moduleId === 'english'
-        ? (w.StayStoicApp ? h(w.StayStoicApp) : h('div', { style: { color: COLORS.marble, padding: 20 } }, 'Cargando English My Way…'))
-        : moduleId === 'c1'
-          ? h(C1App)
-          : (w.StayStoicAmazonApp
-              ? h(w.StayStoicAmazonApp)
-              : h('div', { style: { color: COLORS.marble, padding: 24, fontFamily: sans } }, 'Cargando My Way Up at Amazon…'))
+      h('main', { id:'module-scroll', className:'module-content' },
+        !moduleId ? h(ModuleHub, { onSelect:setModuleId }) :
+          Module ? h(Module) : h('div', {
+            style:{ color:COLORS.marble, padding:24, fontFamily:sans }
+          }, 'Cargando ' + titles[moduleId] + '…')
+      )
     );
   }
 

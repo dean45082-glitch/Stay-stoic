@@ -537,7 +537,7 @@ function StayStoicApp() {
   const [activeDay, setActiveDay] = useState(1);
   const [reviewMode, setReviewMode] = useState(false);
   const [stage, setStage] = useState("intro");
-  useEffect(() => { window.StoicAudio?.stop(); }, [stage, view, activeDay]);
+  useEffect(() => { window.StoicAudio?.stop(); window.resetStayStoicScroll?.(); }, [stage, view, activeDay]);
   const [dayData, setDayData] = useState(null); // { weekSlots, extraSlots }
   const [results, setResults] = useState({
     correct: 0,
