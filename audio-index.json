@@ -11876,6 +11876,13 @@
       "sha256": "6e43bd455c4bd23e63e8d92bee86128b13a0ece89761523fab9a31566a216b75",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "In hindsight, I ought to have spoken sooner.": {
+      "file": "audio/76b077df3ca33ced2ae6e5715efd066105449acd85f9f27e1ef197b8e2048890.mp3",
+      "bytes": 35987,
+      "sha256": "debc579f2c01cb64d9d61f36c1502be4911a0c51b1e6c0851118217b1e815436",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
