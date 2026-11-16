@@ -9388,6 +9388,13 @@
       "sha256": "22cfbf7f6ab798c725b9fd352c37dd0c91437bce3c6ec1f54c69ac62f2c242f7",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "amazon-audio:D21:dialogue:3:2": {
+      "file": "audio/bea9015e05b4a60be8bffebc29ff8944ed7e84dca06793a2c07468d1faf33623.mp3",
+      "bytes": 26374,
+      "sha256": "9e5efc8ce26f58a74af0c88dab2fc1f9e6aca6638f7e3032739e4b359333c5d6",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
