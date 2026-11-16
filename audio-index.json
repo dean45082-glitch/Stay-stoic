@@ -8023,6 +8023,13 @@
       "sha256": "ed748382cc174e0699b3fa452002bf4a27dcb8d66ff164b499339725b5dfafb0",
       "voiceId": "YscMlI9nNgFEyG34UWMB",
       "voiceLabel": "Atlanta real"
+    },
+    "amazon-audio:D11:dialogue:2:0": {
+      "file": "audio/fbb43112c9fba9483063ead3b6aed680098cc6ea4211cc3a29b753184502ad86.mp3",
+      "bytes": 63572,
+      "sha256": "70e85543d00af6b99b909b4f3702d9c9e2a43cda16822b83a5d44dbfbb541551",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
