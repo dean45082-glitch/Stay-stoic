@@ -13122,6 +13122,13 @@
       "sha256": "0608cce65ce8d14d40e6c634f7407d001a405fefc92358d545a4a92e5e75a36a",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "I can't control what happens, only how I'll be responding.": {
+      "file": "audio/2091189b72a706ba4ee0e30f223d07017c0f4bfe61ab4da60a80d347008a8b2c.mp3",
+      "bytes": 47690,
+      "sha256": "d4b7e878323998d331a609ea8dc5be0eeb96286410fa20afe49e0d0e917c5492",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
