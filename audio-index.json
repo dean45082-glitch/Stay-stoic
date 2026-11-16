@@ -12450,6 +12450,13 @@
       "sha256": "b95efa14455635248bfbdfbc7ee73be8f30dcc8f4417f2138a9ec58ccb930ade",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "We had accepted the outcome before the news arrived.": {
+      "file": "audio/5bc783abf280196e3691c712b8689515f30165eeaef161d6e9354894ce6bebc8.mp3",
+      "bytes": 40585,
+      "sha256": "95dc9e57c2a5acc4258a3859ae7c0fedb3cfe885685e6019639f30a84a40a150",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
