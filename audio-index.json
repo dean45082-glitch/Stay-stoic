@@ -13255,6 +13255,13 @@
       "sha256": "b65134897654782e68cc6e85e7c96ebcc4afc71fe31bf2989b872fe8f62f1d1b",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "I stay hungry, because without hunger, there's nothing.": {
+      "file": "audio/bfbf3887c26e005a522d22f87b2326d8af4f5dbc1461d2218de55abff7bcb4e8.mp3",
+      "bytes": 44346,
+      "sha256": "fdf8276ba83841f9bf70039328d14675ee2dc984117671410dec5fdd9dedc1b9",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
