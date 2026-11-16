@@ -11799,6 +11799,13 @@
       "sha256": "31b3c5bd38d20ccc9c8db1d83b7c9c7fefc028dc1a124af7e40f9dc37ad001f1",
       "voiceId": "J4bIp70tzyazNCFxUfjl",
       "voiceLabel": "LA guy"
+    },
+    "amazon-audio:D49:model:5": {
+      "file": "audio/0ff3161818f36c9ef5df454962c5f55effad5fc9793788858e37e0cfbca0cd52.mp3",
+      "bytes": 59811,
+      "sha256": "387d1fe229039e3c5554c982904d8d9c48cefbfc2afc921aeede96a7d460922d",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
     }
   }
 }
