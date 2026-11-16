@@ -11820,6 +11820,13 @@
       "sha256": "8e0f7412d91951cf09f95ff989ab09134c5f1333284a76a90759b450f6f117db",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I'd rather... than...": {
+      "file": "audio/ea4d85e8518431f82598ffd51e2a1ffe7cca9ceffef5d940ae99835eebe28177.mp3",
+      "bytes": 23448,
+      "sha256": "1248c8827934028bac3dd6bb4cf7321a4142f0b514596fe1732ea5d9f5a7deb4",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
