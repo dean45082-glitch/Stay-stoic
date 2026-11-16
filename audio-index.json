@@ -13423,6 +13423,13 @@
       "sha256": "ca53f553c8dc81781f878de84a5bd7917c990a4a49b6d97a6f0ddc8e58bd7fe0",
       "voiceId": "J4bIp70tzyazNCFxUfjl",
       "voiceLabel": "LA guy"
+    },
+    "The road closure accounts for the delay. Rent accounts for about a third of my monthly expenses.": {
+      "file": "audio/3b11549f1011e05487d87db4d61f8227507d140fe62f02361e3781e0b724f194.mp3",
+      "bytes": 81127,
+      "sha256": "3b5f8e5994a372a052cf31e088d41deb8f43a99e210f64a145afe991cedfbc18",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
