@@ -12597,6 +12597,13 @@
       "sha256": "c6f7c9d495c0ae668fbf1bcdcce948b76b18f6e66213c88ddb4ba3008a2e3f4b",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "He should have been able to solve it sooner.": {
+      "file": "audio/bc1bc5f6843a1a64a58afd38d7e4c4fedcaec4d428432fc8646d7cba97faabb5.mp3",
+      "bytes": 30972,
+      "sha256": "3108d9e651622dbecdc0d9e45e259b53f496e8f8b22e9ca1a0c23d5c1541133b",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
