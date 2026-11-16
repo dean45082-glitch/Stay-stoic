@@ -12072,6 +12072,13 @@
       "sha256": "26a234918e2f64e505c1a8e02468a9bdfd1f635b9300a549e30ce3123e6e07f0",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "If I trusted easily, I'd lose my edge.": {
+      "file": "audio/c7bf00573f9e496b77ff4b5c4bc8ee5da80094393d33e1f27e2422073dc86c94.mp3",
+      "bytes": 38913,
+      "sha256": "d0a93a24276de0e0b334b297b8359b139cccaea68774ea13303442c0a45a55fb",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
