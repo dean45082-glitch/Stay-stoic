@@ -8961,6 +8961,20 @@
       "sha256": "620627f840842574666e763631229459d76090b4bc88f136314ec53acf58a6a4",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "amazon-audio:D17:dialogue:0:4": {
+      "file": "audio/c8ddf069bc08fa3ce9b120e181f542924f2316d9738cb4bdf45050d777aae371.mp3",
+      "bytes": 97845,
+      "sha256": "7da878e632f9b46fc70fef2fef8855d6315ed01bf74956379794d01f8444c144",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "amazon-audio:D17:model:3": {
+      "file": "audio/c8ddf069bc08fa3ce9b120e181f542924f2316d9738cb4bdf45050d777aae371.mp3",
+      "bytes": 97845,
+      "sha256": "7da878e632f9b46fc70fef2fef8855d6315ed01bf74956379794d01f8444c144",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
