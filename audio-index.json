@@ -13381,6 +13381,13 @@
       "sha256": "e0525ad35dc7c5fe8a91de294a077753acceee450e5f3705d67d893456bfc0e0",
       "voiceId": "YscMlI9nNgFEyG34UWMB",
       "voiceLabel": "Atlanta real"
+    },
+    "I modified the recipe because we were out of eggs.": {
+      "file": "audio/e36c886ac3078c2ebb4364f9bdbc8153357e5cae86891de041e8156ee3fcd5b4.mp3",
+      "bytes": 41838,
+      "sha256": "994ecea77862a71d6e913e5e366d36f1c083043f3110218fc315fef653b4cddb",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
     }
   }
 }
