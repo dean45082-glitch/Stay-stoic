@@ -12093,6 +12093,13 @@
       "sha256": "7410278a4bbd9d8665b8dbcbfcaddc4577f93a95056a027dcdb8945d6147f3d0",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "If she trusted more easily, she would feel better.": {
+      "file": "audio/d960f9eb17dc1b62eaf3c45c4a13c0bea3ecb0468dfd6b17bb4a496fcb684b75.mp3",
+      "bytes": 39749,
+      "sha256": "67ba714361c52acdfc4ef19d71d0236bfa921cb1a99866ec3cdde0b6f590b117",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
