@@ -9493,6 +9493,20 @@
       "sha256": "20cd477f362430b480e6448316cd01fa78a70d046a1f422d80a41be4a55aef64",
       "voiceId": "nbaOefRJYbGbDU7PX7zP",
       "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D22:dialogue:2:1": {
+      "file": "audio/3d16090c9f66d5ed3e5b9d083a819e3f8d79d69907bfc32cb4b0cd1437c93265.mp3",
+      "bytes": 84470,
+      "sha256": "547762c04c3a6a0689c16d2153165c50a47933dba6b848cc4e74d1db39c8cae6",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "amazon-audio:D22:model:4": {
+      "file": "audio/3d16090c9f66d5ed3e5b9d083a819e3f8d79d69907bfc32cb4b0cd1437c93265.mp3",
+      "bytes": 84470,
+      "sha256": "547762c04c3a6a0689c16d2153165c50a47933dba6b848cc4e74d1db39c8cae6",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
     }
   }
 }
