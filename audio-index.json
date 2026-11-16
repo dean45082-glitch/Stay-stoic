@@ -12261,6 +12261,13 @@
       "sha256": "1fbc764afafefbe8ae39d686b602348e98e97e4a8421898152bf132c1d0b8ce6",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "If I had trusted my gut, I would've avoided that mistake.": {
+      "file": "audio/64d3222686b7fbc37f9653d12bf61e4a8c05bfb134822b957823329556880ce6.mp3",
+      "bytes": 52287,
+      "sha256": "6dd5ea9d74d70c1537e47427a6245a109b3bd6ebd085a8615b62fd802913ae0d",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
