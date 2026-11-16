@@ -11834,6 +11834,13 @@
       "sha256": "a8fe5b0cd7e5de3287c1c8b0c36b7f19f20654a80472a4b5a6ef0a05f7d00911",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "She ought to have taken that responsibility.": {
+      "file": "audio/9b929c49aeb01957b3b3977e9a9dffb856d8e927ed81fab9a4d976f69cce343f.mp3",
+      "bytes": 34315,
+      "sha256": "c982c57c41096e3cb12c626e82ce07b8ed56266c7652be4338b2754527f620cc",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
