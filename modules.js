@@ -986,7 +986,21 @@
           }, n + '×'))
         ),
         h('button', {
-          onClick: () => c1Speak((lesson.shadowing || []).join(' '), rate, setStatus),
+          onClick: () => {
+            const lines = (lesson.shadowing || []).filter(Boolean);
+            if (!lines.length || !lines.every(line => w.StoicAudio?.hasSavedAudio?.(line))) {
+              c1Speak(lines.join(' '), rate, setStatus);
+              return;
+            }
+            const next = i => {
+              if (i >= lines.length) return;
+              w.StoicAudio.speakSavedOnly(lines[i], rate, message => {
+                setStatus(message);
+                if (message === 'Audio terminado.') next(i + 1);
+              });
+            };
+            next(0);
+          },
           style: primary(COLORS.bronze)
         }, '🔊 Reproducir práctica completa'),
         status && h('div', {
