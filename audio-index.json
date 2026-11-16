@@ -13171,6 +13171,13 @@
       "sha256": "7355fe419813d9412c8909ce06102e55d0fe3c6f805ee48903d717af95ffd5ed",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "Things might not go as planned, but I've already accepted that.": {
+      "file": "audio/154e6674411f4df2171f9ca9e9b4d848f534206faa9ba81afca777dadd102543.mp3",
+      "bytes": 52287,
+      "sha256": "11faa72dee6193cc3b5b4b584198565dd2f96ea823a47b1b00a47d1bb7ff89e9",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
