@@ -13087,6 +13087,13 @@
       "sha256": "08568e310d7f70669d65854ded8dc475a3ea6136246619c885c700ca5fd65e15",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "Although they work long hours, they stay calm.": {
+      "file": "audio/fb62560b1fd82d210d8ce9dc86a759728c75ec635089b20606bb7309632a5d53.mp3",
+      "bytes": 44764,
+      "sha256": "16306a2579b1d6be2a942097b985c78c86312765eac2c05c27930e44ab2301c3",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
