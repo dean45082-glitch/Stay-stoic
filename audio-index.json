@@ -13332,6 +13332,13 @@
       "sha256": "d4a5f68ce1ae56191641ee58d9c7766ac22bfc02d3a47cbfa5fc26a9646eaab6",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "They've been growing stronger every day.": {
+      "file": "audio/de763957d8006ae18a96e30d1f910e6a706ac4ed9832a93c5175894e448f7fd9.mp3",
+      "bytes": 33061,
+      "sha256": "465d8e40a9e8d10821c3a0f7b0c0249f5da22128f477c57af077ba50d4553d1f",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
