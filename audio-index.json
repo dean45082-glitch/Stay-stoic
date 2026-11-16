@@ -13339,6 +13339,13 @@
       "sha256": "465d8e40a9e8d10821c3a0f7b0c0249f5da22128f477c57af077ba50d4553d1f",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I should've stayed stoic, but I'm human — and that's okay.": {
+      "file": "audio/d4eb5674c0c2a1560dbc2334f4d63218b65e2a0f9f9c6a85c470656d68dcf44f.mp3",
+      "bytes": 53959,
+      "sha256": "44c997739503b64d8083b4301d90f74525fb25a3809f5aa4ad27b87c4e74a368",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
