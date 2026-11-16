@@ -12471,6 +12471,13 @@
       "sha256": "7c30e6ca52774dfe3ff4e54fd836239596e1a1e87a6d472aacd03b483cad0bdd",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "She's been reflecting on the journey.": {
+      "file": "audio/6fbae61c366fab452124aa43f5ce2f96213c0b8a1a32d1f047e3725c95f1fb3e.mp3",
+      "bytes": 30136,
+      "sha256": "08f03b47d286d8b79ff3c9d45b744bf193b889eacf2604f6cceb11f430455de3",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
