@@ -13094,6 +13094,13 @@
       "sha256": "16306a2579b1d6be2a942097b985c78c86312765eac2c05c27930e44ab2301c3",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "Although they handle a heavy weight, they stay calm.": {
+      "file": "audio/8343fda2cde1ed97ca3f208eab50defeb517b43b18af771b396fb02846988ffa.mp3",
+      "bytes": 41003,
+      "sha256": "7af1ba5c9f0be6009f7964d27000630beaca253bfcd4725040a8088dc9aec415",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
