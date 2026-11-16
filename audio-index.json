@@ -10641,6 +10641,34 @@
       "sha256": "2f90c023058ba482fdeebaf1523397ddc5809d8ae8804b58f1b3cbc4c279baec",
       "voiceId": "YscMlI9nNgFEyG34UWMB",
       "voiceLabel": "Atlanta real"
+    },
+    "amazon-audio:D35:dialogue:2:0": {
+      "file": "audio/f8d01b9f052656dbd1dbbca2af9172defac79c08886817b2b55ff98ad05d9a43.mp3",
+      "bytes": 29300,
+      "sha256": "6788406bf69930a834faed1937198b7ac1556c019be044f73612e814c8be70a6",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D39:dialogue:2:0": {
+      "file": "audio/f8d01b9f052656dbd1dbbca2af9172defac79c08886817b2b55ff98ad05d9a43.mp3",
+      "bytes": 29300,
+      "sha256": "6788406bf69930a834faed1937198b7ac1556c019be044f73612e814c8be70a6",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D43:dialogue:2:0": {
+      "file": "audio/f8d01b9f052656dbd1dbbca2af9172defac79c08886817b2b55ff98ad05d9a43.mp3",
+      "bytes": 29300,
+      "sha256": "6788406bf69930a834faed1937198b7ac1556c019be044f73612e814c8be70a6",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D47:dialogue:2:0": {
+      "file": "audio/f8d01b9f052656dbd1dbbca2af9172defac79c08886817b2b55ff98ad05d9a43.mp3",
+      "bytes": 29300,
+      "sha256": "6788406bf69930a834faed1937198b7ac1556c019be044f73612e814c8be70a6",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
     }
   }
 }
