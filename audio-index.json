@@ -12828,6 +12828,13 @@
       "sha256": "ac55313aec0be5bb2ce3e97f9dcf02d64e4643ee78ca58a158fa7c4e3a2d4226",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "If I had been more patient, I would've avoided that mistake.": {
+      "file": "audio/d1898ec5b5c11f7093a804017c82dd9b06a21e4badef99fb9f056235f02974d1.mp3",
+      "bytes": 48526,
+      "sha256": "5931f95fb7f6f626701643db383eb52c44a4c2f708a13ab9a76500901260a1d9",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
