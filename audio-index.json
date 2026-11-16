@@ -12996,6 +12996,13 @@
       "sha256": "3fede737a2c4a81cd391756e2280e1d16a11ab3795a5892dcac9c4e59372d5a1",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "Although he works long hours, he stays calm.": {
+      "file": "audio/8a15bc22aa3a3c6708bfbe639c6d88849b448ea4c9865885f711b9c2096b05fa.mp3",
+      "bytes": 38077,
+      "sha256": "bb3eb0d0a2565079b2e3c9869bc01a39c3e9fa9d6db457b6e9bfaa4febe50afd",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
