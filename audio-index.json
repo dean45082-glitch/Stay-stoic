@@ -11855,6 +11855,13 @@
       "sha256": "f359dc1a22fad351f47fae2ac5ba5b87c449af3c354b0ac0a1ba7023b56048fe",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She ought to have handled that obligation more carefully.": {
+      "file": "audio/e0b792d0f2f129a82163fd808460d7644d7bd4caf5946243d9d13544bbe28b7a.mp3",
+      "bytes": 42674,
+      "sha256": "b78975dd35749d1e7158b7cfa2ae33486b16edd4bf7657a40a39aac58b62740a",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
