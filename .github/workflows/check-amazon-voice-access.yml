@@ -1,0 +1,28 @@
+name: Check Amazon voice access
+on:
+  push:
+    branches: [verify-amazon-voice-access]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Check saved voices without generating audio
+        env:
+          XI_KEY: ${{ secrets.ELEVENLABS_API_KEY_SECONDARY }}
+        run: |
+          node --input-type=module <<'JS'
+          const names=['Eminem style','New Yorker Sifrino','New Yorker super slam'];
+          if(!process.env.XI_KEY) throw Error('Missing secret');
+          for(const name of names){
+            const u=new URL('https://api.elevenlabs.io/v2/voices');
+            u.searchParams.set('search',name);
+            const r=await fetch(u,{headers:{'xi-api-key':process.env.XI_KEY},signal:AbortSignal.timeout(20000)});
+            if(!r.ok){console.log(name+': HTTP '+r.status);process.exitCode=1;continue;}
+            const a=(await r.json()).voices.filter(v=>v.name.toLowerCase()===name.toLowerCase());
+            console.log(JSON.stringify({name,matches:a.map(v=>({id:v.voice_id,category:v.category}))}));
+            if(a.length!==1)process.exitCode=1;
+          }
+          JS
