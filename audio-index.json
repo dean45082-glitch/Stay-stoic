@@ -12653,6 +12653,13 @@
       "sha256": "cd202e5877e8f06e13225a051dc75a6cb1ed943c67a90872e49a1bef5778a1b7",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "She should've known better.": {
+      "file": "audio/1150e2870ee00f9f1efddc96b5f3df4c999410ea3d57c93e0139d74d8f8edbe6.mp3",
+      "bytes": 20941,
+      "sha256": "6236ac53fa5900d91387c45637e8ce72423dc0234f7bbebfd993dbf4a4fc5726",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
