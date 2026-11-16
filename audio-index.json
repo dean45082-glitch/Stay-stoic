@@ -13017,6 +13017,13 @@
       "sha256": "47d203854f9196d5443d32b9064edd022be80c7662c7d246151b1cb775642116",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "My mind races, whereas my body stays still.": {
+      "file": "audio/a6d9a3934b875c0d50d7097c38d4540bb3b6449ebc9e1309faa49c3b315f2a0f.mp3",
+      "bytes": 35987,
+      "sha256": "b3d0cde9cc4a34823542d82e26d839504bc5bf236098e47da65a424996f553f3",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
