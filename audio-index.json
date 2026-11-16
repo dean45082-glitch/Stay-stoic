@@ -12373,6 +12373,13 @@
       "sha256": "341c289442336adbd21b3cb15314a8dd2f6b7bc4d2a5bb7edf621991de6ee393",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "Every tense tells the same story — mine.": {
+      "file": "audio/2da83d3126459abc143fd98903601a7119403dd83e3aa1fda709e625a807c7f1.mp3",
+      "bytes": 38077,
+      "sha256": "f3df16250a847d7aa978bdbc8d34b79e7a4dfa452376d33b2f5db5ce2f1cb37e",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
