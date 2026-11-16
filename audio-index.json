@@ -12457,6 +12457,13 @@
       "sha256": "95dc9e57c2a5acc4258a3859ae7c0fedb3cfe885685e6019639f30a84a40a150",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She's been learning a lot lately.": {
+      "file": "audio/bbe0bc19ec3c23c6d13a990e9b00531df8e2028af3ae7ccd736a14cc88c057ab.mp3",
+      "bytes": 27210,
+      "sha256": "8bde9d554d6a5a5e1a966d1282090c82bf129c553fee729117a54c16fe172b68",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
