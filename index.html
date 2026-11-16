@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 <title>Stay Stoic</title>
 <link rel="manifest" href="manifest.json" />
 <link rel="icon" href="app-icon.webp" />
@@ -11,11 +11,162 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 <meta name="apple-mobile-web-app-title" content="Stay Stoic" />
+<script>
+  if (window.AndroidTTS || location.href.startsWith('file:///android_asset/')) {
+    document.documentElement.classList.add('android-app');
+  }
+</script>
 <style>
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; background: #1C1B18; }
   textarea, input { font-family: inherit; }
   button { font-family: inherit; cursor: pointer; }
+  :root {
+    --system-top: env(safe-area-inset-top, 0px);
+    --system-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  .android-app {
+    --system-bottom: max(20px, env(safe-area-inset-bottom, 0px));
+  }
+  html, body, #root { width: 100%; height: 100%; overflow: hidden; }
+  .app-frame {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    height: 100dvh;
+    min-height: 0;
+    overflow: hidden;
+    background: #1C1B18;
+  }
+  .system-status-area {
+    flex: 0 0 var(--system-top);
+    background: #141310;
+  }
+  /* Some embedded WebViews return a zero top inset while drawing under the status bar. */
+  .android-app .system-status-area { min-height: 40px; }
+  .module-banner {
+    flex: 0 0 auto;
+    background-color: #29251F;
+    border-top: 1px solid #51442F;
+    border-bottom: 2px solid #947647;
+  }
+  .module-content {
+    flex: 1 1 0;
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    padding: 14px 0 var(--system-bottom);
+    scroll-padding: 14px 0 var(--system-bottom);
+    background-color: #1C1B18;
+  }
+  .stoic-moment {
+    position: relative;
+    min-height: 150px;
+    overflow: hidden;
+    margin: 0 0 14px;
+    border: 1px solid #3A3730;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #242320, #1C1B18);
+    box-shadow: 0 10px 24px rgb(0 0 0 / 18%);
+  }
+  .stoic-moment-copy {
+    position: relative;
+    z-index: 1;
+    width: 74%;
+    padding: 17px 15px;
+    overflow-wrap: anywhere;
+  }
+  .stoic-moment-heading {
+    color: #C9A768;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .11em;
+    text-transform: uppercase;
+  }
+  .stoic-moment blockquote {
+    margin: 9px 0;
+    color: #EDE6D6;
+    font: italic 18px/1.42 Georgia, 'Times New Roman', serif;
+  }
+  .stoic-moment-author { color: #C9A768; font-size: 12px; font-weight: 700; }
+  .stoic-moment-reference { margin-top: 4px; color: #B8AF9C; font-size: 10px; line-height: 1.4; }
+  .stoic-flip-button {
+    margin-top: 9px;
+    min-height: 40px;
+    padding: 5px 10px;
+    border: 1px solid #635136;
+    border-radius: 8px;
+    color: #DFC188;
+    background: #2C271E;
+    font-size: 12px;
+    font-weight: 650;
+  }
+  .stoic-flip-button:focus-visible { outline: 2px solid #C9A768; outline-offset: 2px; }
+  @media (prefers-reduced-motion: no-preference) {
+    .stoic-flip-face { animation: stoic-flip-in 280ms ease-out; }
+  }
+  @keyframes stoic-flip-in {
+    from { transform: perspective(800px) rotateY(-90deg); opacity: 0; }
+    to { transform: perspective(800px) rotateY(0); opacity: 1; }
+  }
+  .stoic-moment-bust {
+    position: absolute;
+    right: -12px;
+    bottom: -12px;
+    width: min(39%, 160px);
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 18%;
+    opacity: .67;
+    mask-image: linear-gradient(90deg, transparent, #000 31%);
+  }
+  .study-audio {
+    appearance: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    min-width: 40px;
+    min-height: 40px;
+    padding: 6px 9px;
+    border: 1px solid #5B4D34;
+    border-radius: 8px;
+    background-color: #2C271E;
+    color: #DFC188;
+    font: 600 12px/1.3 system-ui, sans-serif;
+  }
+  .study-audio:active { background-color: #3B3123; }
+  .study-audio:focus-visible { outline: 2px solid #C9A768; outline-offset: 2px; }
+  .study-audio:disabled { opacity: .45; cursor: default; }
+  .study-audio-row { display: flex; align-items: center; gap: 7px; margin-bottom: 7px; }
+  .study-audio-row > :first-child { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+  .module-return {
+    appearance: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-shrink: 0;
+    min-height: 44px;
+    margin: 0;
+    padding: 0 13px 0 12px;
+    border: 1px solid #635136;
+    border-radius: 10px;
+    background-color: #2C271E;
+    color: #DFC188;
+    font: 650 12px/1.1 system-ui, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .module-return:active { background-color: #3B3123; }
+  .module-return:focus-visible { outline: 2px solid #C9A768; outline-offset: 2px; }
+  .module-return-chevron {
+    width: 7px;
+    height: 7px;
+    border-bottom: 1.5px solid currentColor;
+    border-left: 1.5px solid currentColor;
+    transform: rotate(45deg);
+  }
 </style>
 </head>
 <body>
@@ -27,6 +178,7 @@
 <script src="data2.js"></script>
 <script src="audio-index.js"></script>
 <script src="audio-player.js"></script>
+<script src="stoic-moments.js"></script>
 <script src="c1-data.js"></script>
 <script src="amazon-data-part1.js"></script>
 <script src="amazon-data-part2.js"></script>

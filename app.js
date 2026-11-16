@@ -853,75 +853,7 @@ const STOIC_MOMENTS = [
 ];
 
 function StoicMomentCard({ day }) {
-  const item = STOIC_MOMENTS[(Math.max(1, day) - 1) % STOIC_MOMENTS.length];
-  const bustSrc = item.author === "SÉNECA" ? "seneca.webp" : item.author === "EPICTETO" ? "epictetus.webp" : "app-icon.webp";
-  return /*#__PURE__*/React.createElement("div", {
-    style: {
-      position: "relative",
-      overflow: "hidden",
-      minHeight: 150,
-      border: `1px solid ${C.line}`,
-      borderRadius: 18,
-      marginBottom: 16,
-      background: `linear-gradient(135deg, ${C.bgSoft} 0%, ${C.bg} 72%)`,
-      boxShadow: "0 14px 32px rgba(0,0,0,0.2)"
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      position: "relative",
-      zIndex: 2,
-      width: "67%",
-      padding: "20px 18px"
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      color: C.bronzeLight,
-      fontSize: 10,
-      fontWeight: 800,
-      letterSpacing: 1.1,
-      marginBottom: 10
-    }
-  }, "MOMENTO ESTOICO"), /*#__PURE__*/React.createElement("div", {
-    style: {
-      color: C.marble,
-      fontFamily: serif,
-      fontSize: 19,
-      lineHeight: 1.35,
-      fontStyle: "italic"
-    }
-  }, "“", item.quote, "”"), /*#__PURE__*/React.createElement("div", {
-    style: {
-      color: C.bronzeLight,
-      fontSize: 10.5,
-      fontWeight: 800,
-      letterSpacing: 1,
-      marginTop: 12
-    }
-  }, "— IDEA DE ", item.author)), /*#__PURE__*/React.createElement("div", {
-    style: {
-      position: "absolute",
-      inset: "0 0 0 auto",
-      width: "45%",
-      background: `linear-gradient(90deg, rgba(0,0,0,0) 0%, ${C.bg} 94%)`,
-      zIndex: 1
-    }
-  }), /*#__PURE__*/React.createElement("img", {
-    src: bustSrc,
-    alt: "Busto de " + item.author,
-    style: {
-      position: "absolute",
-      right: -10,
-      bottom: -12,
-      width: 150,
-      height: 150,
-      objectFit: "cover",
-      objectPosition: "50% 18%",
-      borderRadius: "50%",
-      opacity: 0.78,
-      filter: "sepia(0.22) contrast(1.05)",
-      zIndex: 0
-    }
-  }));
+  return React.createElement(window.StayStoicMoment, { day, moduleId: 'english' });
 }
 
 /* ===================== HEADER / HOME / CALENDAR ===================== */

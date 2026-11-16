@@ -1,6 +1,6 @@
 // Refresh calendar controls on install; retain existing offline audio cache.
-const CACHE='stay-stoic-2.5.1';
-const CORE=['./','index.html','app.js','data1.js','data2.js','audio-player.js','audio-index.js','c1-data.js','amazon-data-part1.js','amazon-data-part2.js','amazon-data-part3.js','amazon-data-part4.js','amazon-data-part5.js','amazon-data-part6.js','amazon-data-part7.js','amazon-data-part8.js','amazon-data-part9.js','amazon-data-part10.js','amazon-data-part11.js','amazon-data-part12.js','amazon-data-part13.js','amazon-data-part14.js','amazon-data-part15.js','amazon-data-part16.js','amazon-data-part17.js','amazon-data-part18.js','amazon-data.js','amazon-module.js','modules.js','manifest.json','app-icon.webp','seneca.webp','epictetus.webp','vendor/react.production.min.js','vendor/react-dom.production.min.js'];
+const CACHE='stay-stoic-2.6.7-clasicos';
+const CORE=['./','index.html','app.js','data1.js','data2.js','audio-player.js','audio-index.js','c1-data.js','amazon-data-part1.js','amazon-data-part2.js','amazon-data-part3.js','amazon-data-part4.js','amazon-data-part5.js','amazon-data-part6.js','amazon-data-part7.js','amazon-data-part8.js','amazon-data-part9.js','amazon-data-part10.js','amazon-data-part11.js','amazon-data-part12.js','amazon-data-part13.js','amazon-data-part14.js','amazon-data-part15.js','amazon-data-part16.js','amazon-data-part17.js','amazon-data-part18.js','amazon-data.js','amazon-module.js','modules.js','manifest.json','app-icon.webp','stoic-moments.js','marcus-aurelius.webp','julius-caesar.webp','machiavelli.webp','seneca.webp','epictetus.webp','vendor/react.production.min.js','vendor/react-dom.production.min.js'];
 let downloading=null;
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE.map(asset=>new Request(new URL(asset,self.registration.scope),{cache:'reload'}))))));
 self.addEventListener('activate',event=>event.waitUntil(self.clients.claim()));
@@ -13,14 +13,14 @@ async function rangeResponse(request,response){
  return new Response(buffer.slice(start,end+1),{status:206,headers:{'Content-Type':'audio/mpeg','Content-Range':`bytes ${start}-${end}/${length}`,'Content-Length':String(end-start+1),'Accept-Ranges':'bytes'}});
 }
 self.addEventListener('fetch',event=>{const url=new URL(event.request.url);if(event.request.method!=='GET'||url.origin!==self.location.origin)return;
- event.respondWith((async()=>{const c=await caches.open(CACHE),saved=await c.match(event.request.url);if(saved)return url.pathname.endsWith('.mp3')?rangeResponse(event.request,saved):saved;
+ event.respondWith((async()=>{const c=await caches.open(CACHE),saved=await c.match(event.request.url)||(url.pathname.endsWith('.mp3')?await caches.match(event.request.url):undefined);if(saved)return url.pathname.endsWith('.mp3')?rangeResponse(event.request,saved):saved;
    const response=await fetch(event.request);if(response.ok&&response.status===200&&!url.pathname.endsWith('.mp3'))await c.put(event.request,response.clone());return response;})());
 });
 async function cacheAudio(port){
  const response=await fetch('audio-index.json',{cache:'no-store'});if(!response.ok)throw Error('Index unavailable');const index=await response.json();
  const entries=[...new Map(Object.values(index.entries).map(e=>[e.file,e])).values()];const cache=await caches.open(CACHE);let done=0;
  for(const entry of entries){if(!/^audio\/[a-f0-9]{64}\.mp3$/.test(entry.file))throw Error('Invalid asset');
-  const url=new URL(entry.file,self.registration.scope).href;let r=await cache.match(url);if(!r)r=await fetch(url);if(!r.ok)throw Error('Download failed');
+  const url=new URL(entry.file,self.registration.scope).href;let r=await cache.match(url)||await caches.match(url);if(!r)r=await fetch(url);if(!r.ok)throw Error('Download failed');
   const bytes=await r.clone().arrayBuffer();const digest=[...new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))].map(x=>x.toString(16).padStart(2,'0')).join('');
   if(digest!==entry.sha256)throw Error('Corrupt asset');await cache.put(url,r);port?.postMessage({type:'progress',done:++done,total:entries.length});
  }

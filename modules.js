@@ -402,60 +402,7 @@
   ];
 
   function C1Moment({ day }) {
-    const quote = EPICTETUS_MOMENTS[(day - 1) % EPICTETUS_MOMENTS.length];
-    return h('div', {
-      style: {
-        ...card,
-        position: 'relative',
-        overflow: 'hidden',
-        minHeight: 138,
-        background: 'linear-gradient(135deg, #242320 0%, #1C1B18 100%)'
-      }
-    },
-      h('div', { style: { position: 'relative', zIndex: 2, width: '68%' } },
-        h('div', {
-          style: {
-            color: COLORS.bronzeLight,
-            fontSize: 10,
-            fontWeight: 800,
-            letterSpacing: 1.1,
-            marginBottom: 9
-          }
-        }, 'MOMENTO ESTOICO'),
-        h('div', {
-          style: {
-            color: COLORS.marble,
-            fontFamily: serif,
-            fontSize: 18,
-            fontStyle: 'italic',
-            lineHeight: 1.45
-          }
-        }, '“' + quote + '”'),
-        h('div', {
-          style: {
-            color: COLORS.marbleDim,
-            fontSize: 10,
-            marginTop: 8,
-            letterSpacing: .8
-          }
-        }, '— IDEA DE EPICTETO')
-      ),
-      h('img', {
-        src: 'epictetus.webp',
-        alt: 'Epicteto',
-        style: {
-          position: 'absolute',
-          right: -12,
-          bottom: -16,
-          width: 145,
-          height: 145,
-          borderRadius: '50%',
-          objectFit: 'cover',
-          objectPosition: '50% 18%',
-          opacity: .65
-        }
-      })
-    );
+    return h(w.StayStoicMoment, { day, moduleId: 'c1' });
   }
 
   function SectionTitle({ num, title, subtitle }) {

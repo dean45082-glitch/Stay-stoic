@@ -27,9 +27,9 @@
       return true;
     }catch{status?.('El audio guardado no se pudo reproducir.');return false;}
   }
-  function speak(text,rate=0.9,status){
+  function speak(text,rate=0.9,status,lookup){
     stop();const token=serial;if(!text||!String(text).trim())return;
-    const entry=getSavedEntry(text);let usedFallback=false;
+    const entry=(lookup&&getSavedEntry(lookup))||getSavedEntry(text);let usedFallback=false;
     function fallback(){if(token!==serial||usedFallback)return;usedFallback=true;if(timer)clearTimeout(timer);timer=null;if(current){current.onerror=null;current.onplaying=null;current.pause();current=null;}try{native(text,rate,status);}catch{status?.('No se pudo reproducir el audio.');}}
     if(!entry||!/^audio\/[a-f0-9]{64}\.mp3$/.test(entry.file)){fallback();return;}
     try{const audio=new w.Audio(entry.file);current=audio;audio.playbackRate=rate;audio.preservesPitch=true;
