@@ -11563,6 +11563,17 @@
       "voiceLabel": "Maine Guy",
       "modelId": "eleven_multilingual_v2",
       "day": 6
+    },
+    "6e28021b909c60bd8d46657cdbc8185f27a6b40221844f67903288f269757c21": {
+      "status": "complete",
+      "batch": "amazon-five-voices-01",
+      "estimatedCredits": 91,
+      "bytes": 80709,
+      "sha256": "96217fd1a2b9d0fdf8be75c90aed4f42863669cfab44ba68fcd750c4b5caae02",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style",
+      "modelId": "eleven_multilingual_v2",
+      "day": 6
     }
   },
   "batches": {
@@ -11605,7 +11616,7 @@
       "cap": 10000,
       "estimate": 9963,
       "lastDay": 13,
-      "completed": 60
+      "completed": 61
     }
   },
   "voices": {
