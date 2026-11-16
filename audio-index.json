@@ -20,6 +20,9 @@
     },
     "4RNt0zdgATxEX0rq2bVG": {
       "label": "New Yorker super slam"
+    },
+    "J4bIp70tzyazNCFxUfjl": {
+      "label": "LA guy"
     }
   },
   "entries": {
@@ -11698,6 +11701,20 @@
       "sha256": "d86b09ccd2c7d922b2f655c42e63f8a80082361262aeca6b0b7d4e4382deb306",
       "voiceId": "nbaOefRJYbGbDU7PX7zP",
       "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D49:dialogue:0:0": {
+      "file": "audio/d1d4eb28c61ded0dc8ca10e042f2cae71e32d357154ba55beff28141e70e897e.mp3",
+      "bytes": 64826,
+      "sha256": "22939fe7a98a19fa6e82a1aa98af00ef54a8640f49b12a235c704ce07c71e78e",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "amazon-audio:D49:model:0": {
+      "file": "audio/d1d4eb28c61ded0dc8ca10e042f2cae71e32d357154ba55beff28141e70e897e.mp3",
+      "bytes": 64826,
+      "sha256": "22939fe7a98a19fa6e82a1aa98af00ef54a8640f49b12a235c704ce07c71e78e",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
     }
   }
 }
