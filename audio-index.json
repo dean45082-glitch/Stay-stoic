@@ -13556,6 +13556,13 @@
       "sha256": "00ef2bfb9e6476483e4ceea4b00e172af7b8f1401e9911b00fd97261148e889a",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "The smell of fresh bread triggered a memory of my grandmother's kitchen.": {
+      "file": "audio/703c5aa38d50e38b7aba44726e013f48db84341c2d0f9e9571e6e8b92c8cb503.mp3",
+      "bytes": 52287,
+      "sha256": "959ed90e594d68b4a8263be0722ec4ef9610ee9875fd9966f1cfcc43fd813220",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
     }
   }
 }
