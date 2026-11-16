@@ -12555,6 +12555,13 @@
       "sha256": "2b20896c18e1416d81e44c1a86fc6dc460dfdd28ca81cc0dbf71959b8e516d79",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "We ought to have prepared better.": {
+      "file": "audio/e6683ec56ad6c720b99a910eb808aff8f47b674fa5ea9accc55a3e6dd40b36ac.mp3",
+      "bytes": 27210,
+      "sha256": "b56f5ffff457595a9f87c90b4245ba19c1d312eb113f07ccc024443495aae396",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
