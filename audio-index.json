@@ -12933,6 +12933,13 @@
       "sha256": "ec279a0a7a9271bff789a584c22f2acc7a5bf52457387e4f353033abe7cad44c",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "If I had known about the event, I would have attended.": {
+      "file": "audio/5a6563f9ab5331b042a81cd60305e009fe9375ce02c15d44f7743ca405961280.mp3",
+      "bytes": 44346,
+      "sha256": "ce359ca1d33aa1acca5e3afecb4373a3e44349d188b551c9a1bc9cfafafb9893",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
