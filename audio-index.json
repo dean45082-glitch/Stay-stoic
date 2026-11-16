@@ -11348,6 +11348,13 @@
       "sha256": "8420c9d2783b3eada01472cec85924592c0ad860b53fa3f5c9d6b1722500ea47",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "amazon-audio:D42:model:5": {
+      "file": "audio/5fc86e5e3c6ec58df1bc69bc9797913aed160eec48ffdcbf8ee939d69818f781.mp3",
+      "bytes": 58975,
+      "sha256": "70a0b2bf40ac215263442ce45bda7a3ce0a90d08054df9751f66c62f7d9f214a",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
     }
   }
 }
