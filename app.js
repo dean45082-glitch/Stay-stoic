@@ -886,7 +886,7 @@ function Header({
       minWidth: 0
     }
   }, /*#__PURE__*/React.createElement("img", {
-    src: "app-icon.webp",
+    src: "marcus-aurelius.webp",
     alt: "Marco Aurelio",
     style: {
       width: 46,

@@ -318,7 +318,7 @@
           title: 'English My Way',
           subtitle: 'Tu curso actual de inglés. Conserva exactamente tu calendario y progreso existentes.',
           author: 'MARCO AURELIO',
-          image: 'app-icon.webp',
+          image: 'marcus-aurelius.webp',
           done: legacyDone,
           total: 150,
           onClick: () => onSelect('english')
