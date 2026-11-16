@@ -13297,6 +13297,13 @@
       "sha256": "f05e61d1efc4ffcc87864ef5f2f50e2a605540e04b274994872a9135627d4b1a",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "I'm gonna keep building, one step at a time.": {
+      "file": "audio/dc9524ca105be3dc73ee6421e86ca676edc150d95e29157449544a951424274d.mp3",
+      "bytes": 38077,
+      "sha256": "4edfc79f81f6a9dc75ab52cfd948321721d48875ebeae0aa9a03f7caf485213a",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
