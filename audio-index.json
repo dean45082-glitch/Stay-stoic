@@ -12562,6 +12562,13 @@
       "sha256": "b56f5ffff457595a9f87c90b4245ba19c1d312eb113f07ccc024443495aae396",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "Every modal is a shade of the same truth.": {
+      "file": "audio/fc429234e804aa0174bbec8f9e9a5ebe3bca43515012ba75d100e2fd938635d2.mp3",
+      "bytes": 35987,
+      "sha256": "664271a25a633840bb7bbcd7ad56656456f7accd83b46418fb7bc9547ce10d59",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
