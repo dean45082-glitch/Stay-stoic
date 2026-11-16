@@ -13584,6 +13584,13 @@
       "sha256": "a0db84ff6ec5ce475cbfa854ebdba4af080180cc92b734538f3aa7bab85026cd",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "We postponed leaving until the rain let up.": {
+      "file": "audio/4d590164087b875c1ecb5643bce3883324da4f403cc206dd64ab17b468833f9b.mp3",
+      "bytes": 33897,
+      "sha256": "dcc3e4613bab0f39093ca02d3382dc0ace76832105552e36df09cf81e2215166",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
     }
   }
 }
