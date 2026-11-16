@@ -7029,6 +7029,20 @@
       "sha256": "b9c9bf6b0db3dd3bf1229819b2f81e2668fe80c705c3dcab3025d4ded592b56c",
       "voiceId": "YscMlI9nNgFEyG34UWMB",
       "voiceLabel": "Atlanta real"
+    },
+    "amazon-audio:D02:dialogue:0:4": {
+      "file": "audio/7983d46a55ff00419921d40a1e34dab946e10349c59b850cd4328d697f9c2741.mp3",
+      "bytes": 115399,
+      "sha256": "8253499f1567f0a83e14a38a9dd97acfb4f2c7ba8009fb9d2a5e06707ecd490e",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "amazon-audio:D02:model:3": {
+      "file": "audio/7983d46a55ff00419921d40a1e34dab946e10349c59b850cd4328d697f9c2741.mp3",
+      "bytes": 115399,
+      "sha256": "8253499f1567f0a83e14a38a9dd97acfb4f2c7ba8009fb9d2a5e06707ecd490e",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
     }
   }
 }
