@@ -13598,6 +13598,13 @@
       "sha256": "29b16c16cbeb7eec4af2197404f416f5946cc238ce54b353d5be5916565b72d5",
       "voiceId": "4RNt0zdgATxEX0rq2bVG",
       "voiceLabel": "New Yorker super slam"
+    },
+    "I resented being left out of the conversation.": {
+      "file": "audio/38ecb44160fd21da34258a2cd3573c908d0d1a3532b8c0c916ad7d19843052b1.mp3",
+      "bytes": 41003,
+      "sha256": "d8750936f5051bdb02b561c55a1a98e5dc521cd63ae71677a412061fb2d7e9d0",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
