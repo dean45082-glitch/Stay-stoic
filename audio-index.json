@@ -17,6 +17,9 @@
     },
     "tMVTGjBHMRBk0HpbxEiG": {
       "label": "New Yorker Sifrino"
+    },
+    "4RNt0zdgATxEX0rq2bVG": {
+      "label": "New Yorker super slam"
     }
   },
   "entries": {
@@ -6949,6 +6952,13 @@
       "sha256": "7d1e2c30a01d0fa76df49ff40d5ef5c3a4541ceec5b7a3d52b0f824e0eeb85c2",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "amazon-audio:D01:dialogue:2:0": {
+      "file": "audio/f89bf04820aaf946d600cb83074f732031c20b17cd50305412914c6a5c325afc.mp3",
+      "bytes": 98263,
+      "sha256": "aa932c191e873a2e7f3ac63df059ef9c7634fb25e404d59f9711833ed36e755e",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
     }
   }
 }
