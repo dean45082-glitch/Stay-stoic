@@ -18333,6 +18333,18 @@
       "modelId": "eleven_multilingual_v2",
       "day": 46,
       "module": 2
+    },
+    "678dce91beb45d1c64431cfc4f2227129bc98ec0e71ff6bb3f448966cbf31435": {
+      "status": "complete",
+      "batch": "my-way-and-c1-through48",
+      "estimatedCredits": 265,
+      "bytes": 211530,
+      "sha256": "fac727c2eb234bb06c3c4e117c5a65780146bd3ef0c905f740f5e4125fa847fa",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy",
+      "modelId": "eleven_multilingual_v2",
+      "day": 46,
+      "module": 2
     }
   },
   "batches": {
@@ -18395,7 +18407,7 @@
       "status": "running",
       "cap": 13771,
       "estimate": 13771,
-      "completed": 247
+      "completed": 248
     }
   },
   "voices": {

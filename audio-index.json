@@ -13535,6 +13535,13 @@
       "sha256": "ffb631800ddd6da38fbe6d852d276d24279dc6b7fafb020a18d18b8ab9b0338c",
       "voiceId": "nbaOefRJYbGbDU7PX7zP",
       "voiceLabel": "Maine Guy"
+    },
+    "Adding an extra shuttle could alleviate crowding, but using the narrow lane might compromise pedestrian safety. Roadworks already hinder access, and sending more vehicles through the lane could exacerbate the problem. The organizers looked for a wider pickup point.": {
+      "file": "audio/678dce91beb45d1c64431cfc4f2227129bc98ec0e71ff6bb3f448966cbf31435.mp3",
+      "bytes": 211530,
+      "sha256": "fac727c2eb234bb06c3c4e117c5a65780146bd3ef0c905f740f5e4125fa847fa",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
     }
   }
 }
