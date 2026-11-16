@@ -12044,6 +12044,13 @@
       "sha256": "983d82769278dfe779fd00b3786eb6cdcfd8c72c0e5457b34dc5d13d49da6c55",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "If I held back less, I'd be more honest.": {
+      "file": "audio/19d4eb67b89a1c1542c720f3e42bb9181f04806a884bdeca61b1f279f9b057a3.mp3",
+      "bytes": 37659,
+      "sha256": "379f561d1138ea90e8f7dd40cecd8e4444ff11b8d5766ccbc1029d2347febcba",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
