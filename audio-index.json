@@ -9430,6 +9430,20 @@
       "sha256": "16fd0099727ddeb97ccd1a856ecc8a9fbff66f169266b70f4c3921a5b616576b",
       "voiceId": "nbaOefRJYbGbDU7PX7zP",
       "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D22:dialogue:0:1": {
+      "file": "audio/9ca24d2e54b38a78778e24c5f30ac7a1e6e5fa25fdcb13d67675e44788c7a011.mp3",
+      "bytes": 79873,
+      "sha256": "45dcc523a28d9316d35bbc5202356f5a3228f672e944a56211165e79d00d58c9",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "amazon-audio:D22:model:0": {
+      "file": "audio/9ca24d2e54b38a78778e24c5f30ac7a1e6e5fa25fdcb13d67675e44788c7a011.mp3",
+      "bytes": 79873,
+      "sha256": "45dcc523a28d9316d35bbc5202356f5a3228f672e944a56211165e79d00d58c9",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
