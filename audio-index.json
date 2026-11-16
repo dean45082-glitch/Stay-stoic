@@ -13346,6 +13346,13 @@
       "sha256": "44c997739503b64d8083b4301d90f74525fb25a3809f5aa4ad27b87c4e74a368",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "My excitement diminished after two hours in line.": {
+      "file": "audio/882f08986f845f59015c18bc4f6ee8d623f3bcc398350468619da38e6870aa76.mp3",
+      "bytes": 44346,
+      "sha256": "c6d9d09f4728caa6f910caad8382c6145344fe0d3cab4d3133a9fc879de7e67c",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
