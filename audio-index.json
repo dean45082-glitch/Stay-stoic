@@ -12548,6 +12548,13 @@
       "sha256": "cae3034a0167d2a0cc14133ad8bb5b3bfde3c9b16b8f82325491406c8cd4e001",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She could've said something, but she might not have known.": {
+      "file": "audio/148e681395792f1160cfd2844f95baebaed394222ed2ea55598a85de24337e32.mp3",
+      "bytes": 41838,
+      "sha256": "2b20896c18e1416d81e44c1a86fc6dc460dfdd28ca81cc0dbf71959b8e516d79",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
