@@ -11495,6 +11495,13 @@
       "sha256": "cdd64b7dd2e9c329b3e7fe94175494d100159c8a9895f6f77234827b243db179",
       "voiceId": "YscMlI9nNgFEyG34UWMB",
       "voiceLabel": "Atlanta real"
+    },
+    "amazon-audio:D45:dialogue:3:1": {
+      "file": "audio/2fa3de9005b026e179f59765f01e84e6c4b31cb68cad8386e6c5938e2ee0961f.mp3",
+      "bytes": 104532,
+      "sha256": "d6b5af1b73dac90dec0a8ba43524b22d53aab7e153316721763c8d29aee628b3",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
