@@ -10578,6 +10578,13 @@
       "sha256": "bb669608122a18cdf2d63604e218447c95fdb04c3843a0b544d6828b41d68e9f",
       "voiceId": "nbaOefRJYbGbDU7PX7zP",
       "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D34:model:5": {
+      "file": "audio/e793e8ac0dc3b3f5c2d67835f84bb391891c127ba711c7093b0a0ed66c369a28.mp3",
+      "bytes": 57721,
+      "sha256": "742f1ac6e0fae0392c04d330036bd84246190bf996d170263af2a4c206a41201",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
