@@ -11967,6 +11967,13 @@
       "sha256": "b797c503d3e03e5473aa602c0ef289f75dc38aecea07a1faa7ac7e2f14410c00",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "If I trusted more easily, I would feel better.": {
+      "file": "audio/ac72ebee3bc131700e7330db5839a3de9e4b3fe48aa7425ca6e8793f700f080a.mp3",
+      "bytes": 43510,
+      "sha256": "99a6560e3d47ebc2f941b212c0b13ca83e5cfc6af2f6e60bc434c46e84cf2c6b",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
