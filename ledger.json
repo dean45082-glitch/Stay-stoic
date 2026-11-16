@@ -11596,6 +11596,17 @@
       "voiceLabel": "Atlanta real",
       "modelId": "eleven_multilingual_v2",
       "day": 7
+    },
+    "ee1d1f32a71c57743a99d0d6c8cf3b1c9aa8c13cc69078ff5b4c674da3ca7874": {
+      "status": "complete",
+      "batch": "amazon-five-voices-01",
+      "estimatedCredits": 142,
+      "bytes": 116235,
+      "sha256": "751aebd6dd00e0da73dbd0b2d8ccad71144cf3271bbb05f67369b0d1e955c267",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real",
+      "modelId": "eleven_multilingual_v2",
+      "day": 7
     }
   },
   "batches": {
@@ -11638,7 +11649,7 @@
       "cap": 10000,
       "estimate": 9963,
       "lastDay": 13,
-      "completed": 63
+      "completed": 64
     }
   },
   "voices": {
