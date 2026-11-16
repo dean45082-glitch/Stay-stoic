@@ -13507,6 +13507,13 @@
       "sha256": "f0eb751802037b021fd1cbe68c7aa1a0b94397b64bd15582d37c1dce7a41a107",
       "voiceId": "J4bIp70tzyazNCFxUfjl",
       "voiceLabel": "LA guy"
+    },
+    "A short walk can help alleviate stress.": {
+      "file": "audio/4e9eb18b4f8772e8843c4824ea169aba1a4caec902509906ff4d2fc3525ec3ac.mp3",
+      "bytes": 35151,
+      "sha256": "1451cbbd58ce86a59a6a07fb7ec2ada4ac13fcda5438be1c1e4d237cf22a58e9",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
     }
   }
 }
