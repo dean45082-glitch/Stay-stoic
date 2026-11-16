@@ -13143,6 +13143,13 @@
       "sha256": "b5744956b44aff6f8f97be2587341ba580d2b7993310bd088e43fe900cf40625",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "Whatever comes next, I can handle it. Stay stoic.": {
+      "file": "audio/ceaf0bec8feef73adbcfc6215c7199ab257913eec0008d0450ddc7484d47e475.mp3",
+      "bytes": 52287,
+      "sha256": "8866305fdf98608ff9205656178e6dcdc786bcd920cc57326be381e1f2b692ba",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
