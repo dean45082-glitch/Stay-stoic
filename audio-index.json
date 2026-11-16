@@ -12345,6 +12345,13 @@
       "sha256": "4a54884162c5aba9706081e8ea181edd2659ab4f1f37042294756560d5dbd3ec",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I've been reflecting on the journey.": {
+      "file": "audio/e4120eafe88defe08895f25e8560715be46359dca59296c1e8ceab53e6991940.mp3",
+      "bytes": 29300,
+      "sha256": "b6aa569d6db2d365fc802af02dacc7e4c08a6b8518f4382decdb68856ce0918c",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
