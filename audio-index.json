@@ -12177,6 +12177,13 @@
       "sha256": "a7e453ac0a66b99d54daa891a7406bde7850fb2f975e7b69be5552a0c61d6f46",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "I wouldn't have wasted so much time if I had trusted myself more.": {
+      "file": "audio/86539e53e743094ec6f25af3ded592c631e79efa7d7b34c53cb799e6ab5aae52.mp3",
+      "bytes": 54377,
+      "sha256": "84e68dc64d9b55569c41f8657cba5895532aa620193b4f985343969037cc90df",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
