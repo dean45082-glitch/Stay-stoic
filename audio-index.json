@@ -12751,6 +12751,13 @@
       "sha256": "6d66e225326c9bebf9259e01fd881729e92962f72e4ce0abc414a5fb87a823c1",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "Whatever it takes, I'll anchor myself to what matters.": {
+      "file": "audio/45f8476dc74aeb08173a9c5ead8496278f2d0e47b5ef3bfb08cd80004516a5dd.mp3",
+      "bytes": 42674,
+      "sha256": "ba53c9b692e6400632113efb78a72122a7d2f5169486ab5800b332ac98c82411",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
