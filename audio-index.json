@@ -12401,6 +12401,13 @@
       "sha256": "e954308b7b7977a1953d561f0ecb897536e1b15bebb544d8150d0283035d214b",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "We've been building this, and we've already learned a lot.": {
+      "file": "audio/845bd005d98a544d240114ba4a4a77036db1c2769d61355b158a6a51fdecffcf.mp3",
+      "bytes": 47272,
+      "sha256": "0514a790d47eecaef700a2adae8ae99d912b24f87ff05a4ca74097c36899fcaf",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
