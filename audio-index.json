@@ -12646,6 +12646,13 @@
       "sha256": "b624e898b5a14c6b459cd4c84d7a108e55d594b32d6fbc47386d0526e4ccb6c2",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She should've asked for help sooner.": {
+      "file": "audio/ec96b3ec2d532a88990149f466fdc63c801b26af2588b1ff72ea485f75055e44.mp3",
+      "bytes": 29300,
+      "sha256": "cd202e5877e8f06e13225a051dc75a6cb1ed943c67a90872e49a1bef5778a1b7",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
