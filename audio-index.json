@@ -11593,6 +11593,20 @@
       "sha256": "190f91d34023521c034bd713431c8dc52475613e1b66dd543809c83369a05b5d",
       "voiceId": "YscMlI9nNgFEyG34UWMB",
       "voiceLabel": "Atlanta real"
+    },
+    "amazon-audio:D47:dialogue:0:0": {
+      "file": "audio/041764a0dacfc8ae87f4df9fcb9861dd674abf8427abbf5cd14ba6524efeb59a.mp3",
+      "bytes": 64408,
+      "sha256": "0c2d8fc9da6d1924f4f225ba8c92c7b9ed7cb0c07b2d87859b73f93f0e9e500d",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D47:model:0": {
+      "file": "audio/041764a0dacfc8ae87f4df9fcb9861dd674abf8427abbf5cd14ba6524efeb59a.mp3",
+      "bytes": 64408,
+      "sha256": "0c2d8fc9da6d1924f4f225ba8c92c7b9ed7cb0c07b2d87859b73f93f0e9e500d",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
     }
   }
 }

@@ -15127,6 +15127,17 @@
       "voiceLabel": "Atlanta real",
       "modelId": "eleven_multilingual_v2",
       "day": 46
+    },
+    "041764a0dacfc8ae87f4df9fcb9861dd674abf8427abbf5cd14ba6524efeb59a": {
+      "status": "complete",
+      "batch": "amazon-five-voices-02",
+      "estimatedCredits": 82,
+      "bytes": 64408,
+      "sha256": "0c2d8fc9da6d1924f4f225ba8c92c7b9ed7cb0c07b2d87859b73f93f0e9e500d",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam",
+      "modelId": "eleven_multilingual_v2",
+      "day": 47
     }
   },
   "batches": {
@@ -15176,7 +15187,7 @@
       "cap": 25300,
       "estimate": 25027,
       "lastDay": 48,
-      "completed": 272
+      "completed": 273
     }
   },
   "voices": {
