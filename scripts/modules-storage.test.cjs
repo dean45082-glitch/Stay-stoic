@@ -110,8 +110,8 @@ test('Amazon module keeps independent progress and return navigation', () => {
   assert.match(amazonModule, /Pendiente/);
   assert.match(amazonModule, /Situations/);
   assert.match(amazonModule, /TEXT CONSULTATION/);
-  assert.match(amazonModule, /speakSavedOnly/);
-  assert.match(amazonModule, /hasSavedAudio/);
+  assert.match(amazonModule, /StoicAudio\?\.speak\(text,r,status,lookup\)/);
+  assert.match(amazonModule, /amazon-audio:/);
   assert.doesNotMatch(amazonModule, /AndroidTTS|speechSynthesis/);
   assert.match(modules, /‹ Módulos/);
 });
