@@ -13080,6 +13080,13 @@
       "sha256": "44ddc76c192a9052ab6431b982b7a22692848be3c6757ce9b3b47dbc44780e37",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "Although they face a setback, they stay calm.": {
+      "file": "audio/01f5084782b6dff383aea58ab73a092226b767ab9ccbf0140ab50b9b36297417.mp3",
+      "bytes": 40585,
+      "sha256": "08568e310d7f70669d65854ded8dc475a3ea6136246619c885c700ca5fd65e15",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
