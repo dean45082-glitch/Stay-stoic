@@ -13101,6 +13101,13 @@
       "sha256": "7af1ba5c9f0be6009f7964d27000630beaca253bfcd4725040a8088dc9aec415",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I've been learning and growing.": {
+      "file": "audio/a8abe0ef16ebf85f7817475c48a861d5dfa8fbd10df02952af74ed09ddec5985.mp3",
+      "bytes": 23448,
+      "sha256": "491dc746ef4934ab756fb828b5804bccc996bc375efe2d66dd9c712bf616bd73",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
