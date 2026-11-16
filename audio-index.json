@@ -12478,6 +12478,13 @@
       "sha256": "08f03b47d286d8b79ff3c9d45b744bf193b889eacf2604f6cceb11f430455de3",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We've been learning a lot lately.": {
+      "file": "audio/6fa4d2455fcb8ac285651e799a01c600b71c7e7d8e97303cfdb7c461212262f7.mp3",
+      "bytes": 23448,
+      "sha256": "1a80753e6f6061a1432af00a73a5e7bfbc96755350817c7c6d97db6add432d8b",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
