@@ -13444,6 +13444,13 @@
       "sha256": "5d10c5a6551f47480f43f034c1c93ea8d11d4e221661e2becb3d97062d097d79",
       "voiceId": "J4bIp70tzyazNCFxUfjl",
       "voiceLabel": "LA guy"
+    },
+    "I'm contemplating taking a year off to travel.": {
+      "file": "audio/a8bfcc5b0cd5d7d1911d221444cbf3dacbff3919f88d581d05aa78919755190a.mp3",
+      "bytes": 40585,
+      "sha256": "387f80ed7f03a50d0e82dfb9278d7f2f5f382ab3a498075a529fbfb09bb9d003",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
