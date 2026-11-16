@@ -12639,6 +12639,13 @@
       "sha256": "65e398ca3140f71a385cea9a15bdb8f4690eddd644f0f2221357fb93367dac0b",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "You must have known, but I can't fully blame you.": {
+      "file": "audio/613137ab2e737bccd12a1491be255f571efbf2714c85841b6b2bf0a9326e9cc5.mp3",
+      "bytes": 42674,
+      "sha256": "b624e898b5a14c6b459cd4c84d7a108e55d594b32d6fbc47386d0526e4ccb6c2",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
