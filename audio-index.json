@@ -12387,6 +12387,13 @@
       "sha256": "e45db8340ffa3366832929f116d64bb325dcab682134a41b1c8c02d1344587b0",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "You've been building this together.": {
+      "file": "audio/a6dc753b2d719abc815c9146251f5b82d278bfaca50d7a6ddd9f99e71c3e9d66.mp3",
+      "bytes": 25538,
+      "sha256": "971fe577fefb3e54080bb99b0d48a6f9ac151aef4779c003b8240d3a838d885e",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
