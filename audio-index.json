@@ -11,6 +11,9 @@
     },
     "YscMlI9nNgFEyG34UWMB": {
       "label": "Atlanta real"
+    },
+    "nbaOefRJYbGbDU7PX7zP": {
+      "label": "Maine Guy"
     }
   },
   "entries": {
@@ -6901,6 +6904,34 @@
       "sha256": "0ef95a3afb26b7c0707680a0d4029862ac739b769afda6490627841ba17847be",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "amazon-audio:D01:dialogue:1:0": {
+      "file": "audio/8ca6cbe1907a8c5d525f2f10610af0f6362af3a686483b86ee9cc5aa412aec7c.mp3",
+      "bytes": 29300,
+      "sha256": "2e2f6c7da3b5fb30c95b40a7c1978883713a39bb08d51af9ee49fd491141d38a",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D04:dialogue:1:0": {
+      "file": "audio/8ca6cbe1907a8c5d525f2f10610af0f6362af3a686483b86ee9cc5aa412aec7c.mp3",
+      "bytes": 29300,
+      "sha256": "2e2f6c7da3b5fb30c95b40a7c1978883713a39bb08d51af9ee49fd491141d38a",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D05:dialogue:1:0": {
+      "file": "audio/8ca6cbe1907a8c5d525f2f10610af0f6362af3a686483b86ee9cc5aa412aec7c.mp3",
+      "bytes": 29300,
+      "sha256": "2e2f6c7da3b5fb30c95b40a7c1978883713a39bb08d51af9ee49fd491141d38a",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D08:dialogue:1:0": {
+      "file": "audio/8ca6cbe1907a8c5d525f2f10610af0f6362af3a686483b86ee9cc5aa412aec7c.mp3",
+      "bytes": 29300,
+      "sha256": "2e2f6c7da3b5fb30c95b40a7c1978883713a39bb08d51af9ee49fd491141d38a",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
     }
   }
 }
