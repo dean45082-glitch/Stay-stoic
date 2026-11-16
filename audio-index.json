@@ -11869,6 +11869,13 @@
       "sha256": "90212ff32fcc4210dc410782ea90812805cf09c0e8e3851a58f914b38fbdd078",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "In hindsight, I ought to have known better.": {
+      "file": "audio/09b8a2c2dded91d1826ca949edd8ab6a717d2f792f6e4ce9e36122cc368ae1ad.mp3",
+      "bytes": 36823,
+      "sha256": "6e43bd455c4bd23e63e8d92bee86128b13a0ece89761523fab9a31566a216b75",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
