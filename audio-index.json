@@ -13605,6 +13605,13 @@
       "sha256": "d8750936f5051bdb02b561c55a1a98e5dc521cd63ae71677a412061fb2d7e9d0",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "Heavy winds forced us to postpone the festival. The board deferred its decision on refunds until the new date was confirmed. That involved asking stallholders about their availability, but some resented having to wait for an answer.": {
+      "file": "audio/8d564eb6492c094437907b314cbf59eb4426a98ed2ec9b5a613ae978ba28b71d.mp3",
+      "bytes": 191886,
+      "sha256": "f9c0a7076fbe2eb102d50d804be1f5ca8d2f1eb6ee306f8c4e9edc91a5b30c04",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
     }
   }
 }
