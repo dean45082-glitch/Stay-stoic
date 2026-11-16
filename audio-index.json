@@ -12849,6 +12849,13 @@
       "sha256": "325e0dcd11c0e7d652706386bd9b8aa0d030b650b7ffbc53d749479d02c8856c",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "If she had acted sooner, she would've felt better.": {
+      "file": "audio/07a00326ce3f0791655e805f76e56a5bcf684b2d0fa237e9b704c5facc816114.mp3",
+      "bytes": 41003,
+      "sha256": "319ec241de47d658d037638f66f59e03928d4fe5f11e3168cf3b7b3c34ec59a5",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
