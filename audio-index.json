@@ -12667,6 +12667,13 @@
       "sha256": "25cd177d5b424bb07a142e587a9bd53de3787ba32d3a2ad827408d9ad92e8d66",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We should've asked for help sooner.": {
+      "file": "audio/d0d2c1366796994c62df75b0d6063e9a671cd4c340da8065ea2c33f66bda57f6.mp3",
+      "bytes": 27210,
+      "sha256": "9012cf2bb58154d56814d07b5c52d0dd0d6dbee7f9973875ca9acd8de784d019",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
