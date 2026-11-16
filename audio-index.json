@@ -12226,6 +12226,13 @@
       "sha256": "7ae956fd82cef92c1311cf15d8bbff75cd66811ac8d2d3fcd267f425ca566a1e",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "If I had asked for help sooner, it would've been easier.": {
+      "file": "audio/34c29189b49b7e740ca7137e65d5c430e39db275df37263922ce29933549be5e.mp3",
+      "bytes": 42674,
+      "sha256": "b8f47b93f389f4045c601ef3bfd1754d05565962c7e132a09bb826e94be91409",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
