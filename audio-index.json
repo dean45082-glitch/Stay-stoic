@@ -12961,6 +12961,13 @@
       "sha256": "313de14e69cedeaa20b9341cb1d9f84b1ef3d28b0a7b0c1fc981ed7757b323fa",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "Although you handle a heavy weight, you stay calm.": {
+      "file": "audio/d41bd7e9a7a6523eeb6eafe232699c92305d4772f9eafff3bba7406fa25a590e.mp3",
+      "bytes": 43510,
+      "sha256": "99b54670511a10217cb74565a1a753f65b6c76ce420587c62c14ffc309280613",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
