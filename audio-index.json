@@ -10907,6 +10907,13 @@
       "sha256": "fd380f325386c019b2da5d89a3396081a2cbdce96b67751eeab474ada925cd5c",
       "voiceId": "4RNt0zdgATxEX0rq2bVG",
       "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D37:dialogue:0:1": {
+      "file": "audio/47fc836ea574e136101215a6e73556c29d4a3808a4583a1a8c6045c55e7d2457.mp3",
+      "bytes": 73185,
+      "sha256": "7a65cc91c6944fe99df49fb81eb14a79c431bba7c8bcdb5b2110263a969aa832",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
     }
   }
 }
