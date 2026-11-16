@@ -13500,6 +13500,13 @@
       "sha256": "a63694438fc53dc0cea7ceff22b77d9eff7763b6048ecd74005cc90293bb9c8a",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "At first, I couldn't discern why visitors rushed past the exhibit. Once I grasped that the map was hard to read, I could envisage a simpler route. We kept the original lighting because a brighter display might detract from the atmosphere.": {
+      "file": "audio/fc8079095efa4dcc0160793cc86fce116a08d6709a987eb6aa7cca8387340b1b.mp3",
+      "bytes": 190632,
+      "sha256": "f0eb751802037b021fd1cbe68c7aa1a0b94397b64bd15582d37c1dce7a41a107",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
     }
   }
 }
