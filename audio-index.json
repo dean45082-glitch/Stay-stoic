@@ -12219,6 +12219,13 @@
       "sha256": "5227ef3e3f929ab8671362956fa7eaf94071adf679585e6d085f1b3f9004e0cf",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "If he hadn't crossed that line, I'd still trust him.": {
+      "file": "audio/43a366b9352b02aefcc36cd6e4c903c27ed3c620a8948de29a8dde8a29017da8.mp3",
+      "bytes": 45600,
+      "sha256": "7ae956fd82cef92c1311cf15d8bbff75cd66811ac8d2d3fcd267f425ca566a1e",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
