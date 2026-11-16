@@ -12016,6 +12016,13 @@
       "sha256": "194e7198124b83709f83f723dd03e4fc1a08770bdd6811b4317ec560db273f55",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "If you trusted more easily, you would feel better.": {
+      "file": "audio/a6b4507a9443f5c12ea7085fc08d78a34b5004ad2b803119f90bfcb8ddef6a0d.mp3",
+      "bytes": 44764,
+      "sha256": "a9455578065ec669542e12c6c5f1ec866a4c55e0df476ddf1a498a89a5c63e97",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
