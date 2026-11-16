@@ -8233,6 +8233,440 @@
       "sha256": "e8ae81f18a32f99d7edc9bd520cb342c2d10c0a5c1414fcf9ea26366461ecff3",
       "voiceId": "nbaOefRJYbGbDU7PX7zP",
       "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D18:dialogue:0:0": {
+      "file": "audio/cbc1349beddec54f2611684d1eaf73ec6c3092a662b49d85283c640f0009b293.mp3",
+      "bytes": 20523,
+      "sha256": "baa57cfa527bc82bcab1e9f32abba2917e5f26b315fd434b6edb1fc55b5a7e4d",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "amazon-audio:D22:dialogue:0:0": {
+      "file": "audio/cbc1349beddec54f2611684d1eaf73ec6c3092a662b49d85283c640f0009b293.mp3",
+      "bytes": 20523,
+      "sha256": "baa57cfa527bc82bcab1e9f32abba2917e5f26b315fd434b6edb1fc55b5a7e4d",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "amazon-audio:D23:dialogue:0:0": {
+      "file": "audio/cbc1349beddec54f2611684d1eaf73ec6c3092a662b49d85283c640f0009b293.mp3",
+      "bytes": 20523,
+      "sha256": "baa57cfa527bc82bcab1e9f32abba2917e5f26b315fd434b6edb1fc55b5a7e4d",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "amazon-audio:D18:dialogue:0:2": {
+      "file": "audio/7f7bd7688617846a45f16108155fb7f8e0b33f3b0b40242ee7618d65008c36e3.mp3",
+      "bytes": 22612,
+      "sha256": "6e4f378c49c2085d6c87efaee35180106d090d3120be5c5802cbfb67d12493fc",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "amazon-audio:D22:dialogue:0:2": {
+      "file": "audio/7f7bd7688617846a45f16108155fb7f8e0b33f3b0b40242ee7618d65008c36e3.mp3",
+      "bytes": 22612,
+      "sha256": "6e4f378c49c2085d6c87efaee35180106d090d3120be5c5802cbfb67d12493fc",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "amazon-audio:D23:dialogue:0:2": {
+      "file": "audio/7f7bd7688617846a45f16108155fb7f8e0b33f3b0b40242ee7618d65008c36e3.mp3",
+      "bytes": 22612,
+      "sha256": "6e4f378c49c2085d6c87efaee35180106d090d3120be5c5802cbfb67d12493fc",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "amazon-audio:D15:dialogue:1:0": {
+      "file": "audio/8ca6cbe1907a8c5d525f2f10610af0f6362af3a686483b86ee9cc5aa412aec7c.mp3",
+      "bytes": 29300,
+      "sha256": "2e2f6c7da3b5fb30c95b40a7c1978883713a39bb08d51af9ee49fd491141d38a",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D25:dialogue:1:0": {
+      "file": "audio/8ca6cbe1907a8c5d525f2f10610af0f6362af3a686483b86ee9cc5aa412aec7c.mp3",
+      "bytes": 29300,
+      "sha256": "2e2f6c7da3b5fb30c95b40a7c1978883713a39bb08d51af9ee49fd491141d38a",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D26:dialogue:1:0": {
+      "file": "audio/8ca6cbe1907a8c5d525f2f10610af0f6362af3a686483b86ee9cc5aa412aec7c.mp3",
+      "bytes": 29300,
+      "sha256": "2e2f6c7da3b5fb30c95b40a7c1978883713a39bb08d51af9ee49fd491141d38a",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D17:dialogue:0:0": {
+      "file": "audio/2229d4e750c2216cee48cbc3f13e33fa3fa1a97edebcfe221622ca6773723c02.mp3",
+      "bytes": 20941,
+      "sha256": "7ac3e5bdcd332745ac28e0e0488a6606f377bffc4989f190c1174fa92fe2883f",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "amazon-audio:D24:dialogue:0:0": {
+      "file": "audio/2229d4e750c2216cee48cbc3f13e33fa3fa1a97edebcfe221622ca6773723c02.mp3",
+      "bytes": 20941,
+      "sha256": "7ac3e5bdcd332745ac28e0e0488a6606f377bffc4989f190c1174fa92fe2883f",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "amazon-audio:D17:dialogue:0:2": {
+      "file": "audio/1cae1c503442a1ca4a6eb0b88c0193a373cd88de9f5204a92d3d3633fd6cd0ac.mp3",
+      "bytes": 21776,
+      "sha256": "7c48c7f73f452703647a8a76d29bb768ed534da306f403a4735a19a65fa6eb40",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "amazon-audio:D24:dialogue:0:2": {
+      "file": "audio/1cae1c503442a1ca4a6eb0b88c0193a373cd88de9f5204a92d3d3633fd6cd0ac.mp3",
+      "bytes": 21776,
+      "sha256": "7c48c7f73f452703647a8a76d29bb768ed534da306f403a4735a19a65fa6eb40",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "amazon-audio:D17:dialogue:1:0": {
+      "file": "audio/82ba18ce9e44c7acad2405696aedfb8c86238db15d4a7dc16abe222cdebe4d98.mp3",
+      "bytes": 34315,
+      "sha256": "b59ab45f86063a31b65fdfd6695062ab6052bed0ff4c5d1b0d168b063a5a1051",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D19:dialogue:1:0": {
+      "file": "audio/82ba18ce9e44c7acad2405696aedfb8c86238db15d4a7dc16abe222cdebe4d98.mp3",
+      "bytes": 34315,
+      "sha256": "b59ab45f86063a31b65fdfd6695062ab6052bed0ff4c5d1b0d168b063a5a1051",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D20:dialogue:1:0": {
+      "file": "audio/82ba18ce9e44c7acad2405696aedfb8c86238db15d4a7dc16abe222cdebe4d98.mp3",
+      "bytes": 34315,
+      "sha256": "b59ab45f86063a31b65fdfd6695062ab6052bed0ff4c5d1b0d168b063a5a1051",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D35:dialogue:1:1": {
+      "file": "audio/9ab7d32de8bf67d2975d4eb1bf9861ab6e5535dfbda76f0123c672eacc231f0b.mp3",
+      "bytes": 94501,
+      "sha256": "bd1f4b1811c960a40a004b4351ea2a203694fd31a8fc88e5662e970949557fc1",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D36:model:4": {
+      "file": "audio/09d928e8a218bf8b3a9c87b36884bd3dd52e76350ec5d83e4e1bbd33b42c8a5a.mp3",
+      "bytes": 87814,
+      "sha256": "9e4be16c527dfdf3588f420b4b935b1b68efbf51c826677233b00a482d430388",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D14:dialogue:1:0": {
+      "file": "audio/aa7c3f71757745674d161f0dbaf2baf8a5af3a6af823bc29e0b7ddcb6dd99ddd.mp3",
+      "bytes": 30136,
+      "sha256": "a563f965df5a6a2385f2aee1ef40307518e6209279182bc62711ef36a7106a1b",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "amazon-audio:D24:dialogue:1:0": {
+      "file": "audio/aa7c3f71757745674d161f0dbaf2baf8a5af3a6af823bc29e0b7ddcb6dd99ddd.mp3",
+      "bytes": 30136,
+      "sha256": "a563f965df5a6a2385f2aee1ef40307518e6209279182bc62711ef36a7106a1b",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "amazon-audio:D28:dialogue:3:4": {
+      "file": "audio/282019e07c7ec578bbe9e729f2a02cc19493c4d50eb6af0a209c85b8c7559aa9.mp3",
+      "bytes": 24284,
+      "sha256": "0095763f8b7c8252a991e7b141d567676beed9edc11925d749f10a4012d0488e",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "amazon-audio:D42:dialogue:3:4": {
+      "file": "audio/282019e07c7ec578bbe9e729f2a02cc19493c4d50eb6af0a209c85b8c7559aa9.mp3",
+      "bytes": 24284,
+      "sha256": "0095763f8b7c8252a991e7b141d567676beed9edc11925d749f10a4012d0488e",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "amazon-audio:D14:dialogue:0:0": {
+      "file": "audio/83ee8866da3a006d88dc2bc43e9667e24eb285e6f0330ff7e17d6015975ac235.mp3",
+      "bytes": 19687,
+      "sha256": "a92e36145dee3794ffc2c5b3d150af7f9b893c501819ee03b4ffffbe6c53a4e5",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "amazon-audio:D16:dialogue:0:0": {
+      "file": "audio/83ee8866da3a006d88dc2bc43e9667e24eb285e6f0330ff7e17d6015975ac235.mp3",
+      "bytes": 19687,
+      "sha256": "a92e36145dee3794ffc2c5b3d150af7f9b893c501819ee03b4ffffbe6c53a4e5",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "amazon-audio:D21:dialogue:0:0": {
+      "file": "audio/83ee8866da3a006d88dc2bc43e9667e24eb285e6f0330ff7e17d6015975ac235.mp3",
+      "bytes": 19687,
+      "sha256": "a92e36145dee3794ffc2c5b3d150af7f9b893c501819ee03b4ffffbe6c53a4e5",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "amazon-audio:D14:dialogue:0:2": {
+      "file": "audio/00737f42557f3fa7d5b259ba1f5af0b89a87db549823907487ca9d40842e7ca0.mp3",
+      "bytes": 20523,
+      "sha256": "08ca480a41f148552165208f91da94e3cb87e513e70355d9bba2dd2f7b93f106",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "amazon-audio:D16:dialogue:0:2": {
+      "file": "audio/00737f42557f3fa7d5b259ba1f5af0b89a87db549823907487ca9d40842e7ca0.mp3",
+      "bytes": 20523,
+      "sha256": "08ca480a41f148552165208f91da94e3cb87e513e70355d9bba2dd2f7b93f106",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "amazon-audio:D21:dialogue:0:2": {
+      "file": "audio/00737f42557f3fa7d5b259ba1f5af0b89a87db549823907487ca9d40842e7ca0.mp3",
+      "bytes": 20523,
+      "sha256": "08ca480a41f148552165208f91da94e3cb87e513e70355d9bba2dd2f7b93f106",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "amazon-audio:D37:dialogue:1:1": {
+      "file": "audio/16dfcf631c6ef8d67e180173218476ab2c6fbdb73067527aebaa1aeaa9829906.mp3",
+      "bytes": 75275,
+      "sha256": "f63887400230a3749a7030c810bd22783fb25aab902cbfe1ab4c0b9dd9ee431c",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D15:dialogue:0:0": {
+      "file": "audio/d990f193997bd1175d6857500106a46a743901f7696036661219625be2c99c9a.mp3",
+      "bytes": 20941,
+      "sha256": "7d809e670ab0647af80d3e20108cd7646e8c670438331e62bfc60a35ba53bd99",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D25:dialogue:0:0": {
+      "file": "audio/d990f193997bd1175d6857500106a46a743901f7696036661219625be2c99c9a.mp3",
+      "bytes": 20941,
+      "sha256": "7d809e670ab0647af80d3e20108cd7646e8c670438331e62bfc60a35ba53bd99",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D26:dialogue:0:0": {
+      "file": "audio/d990f193997bd1175d6857500106a46a743901f7696036661219625be2c99c9a.mp3",
+      "bytes": 20941,
+      "sha256": "7d809e670ab0647af80d3e20108cd7646e8c670438331e62bfc60a35ba53bd99",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D27:dialogue:0:0": {
+      "file": "audio/d990f193997bd1175d6857500106a46a743901f7696036661219625be2c99c9a.mp3",
+      "bytes": 20941,
+      "sha256": "7d809e670ab0647af80d3e20108cd7646e8c670438331e62bfc60a35ba53bd99",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D15:dialogue:0:2": {
+      "file": "audio/bb739d55d81b62d6e30b0b617e52c8b21e5e53f2f0ff6c0b1a14f45ad930775e.mp3",
+      "bytes": 23448,
+      "sha256": "1720f4d767aae9d434b79bb8238dc7a8027eb45815ff2a6e3e7722bfd6d16e40",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D25:dialogue:0:2": {
+      "file": "audio/bb739d55d81b62d6e30b0b617e52c8b21e5e53f2f0ff6c0b1a14f45ad930775e.mp3",
+      "bytes": 23448,
+      "sha256": "1720f4d767aae9d434b79bb8238dc7a8027eb45815ff2a6e3e7722bfd6d16e40",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D26:dialogue:0:2": {
+      "file": "audio/bb739d55d81b62d6e30b0b617e52c8b21e5e53f2f0ff6c0b1a14f45ad930775e.mp3",
+      "bytes": 23448,
+      "sha256": "1720f4d767aae9d434b79bb8238dc7a8027eb45815ff2a6e3e7722bfd6d16e40",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D27:dialogue:0:2": {
+      "file": "audio/bb739d55d81b62d6e30b0b617e52c8b21e5e53f2f0ff6c0b1a14f45ad930775e.mp3",
+      "bytes": 23448,
+      "sha256": "1720f4d767aae9d434b79bb8238dc7a8027eb45815ff2a6e3e7722bfd6d16e40",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D34:dialogue:3:2": {
+      "file": "audio/fd2952df6c79c6305528a9eb383bd263cfc1de21affeb1f563a4c1640b5fc68c.mp3",
+      "bytes": 26374,
+      "sha256": "ac5a2019ea005ebcf07b1843869bd6ce15ff3476c49bfbcb1ee97d9b2fca4b3c",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D18:dialogue:1:0": {
+      "file": "audio/975385235ad60418194fc09a671a3120676e4135bae4c1c591cf32b534bb136e.mp3",
+      "bytes": 30136,
+      "sha256": "f231794345c292ae60e147f0e39f1c78ac0281c883ae7bcac5b029814e36519b",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "amazon-audio:D22:dialogue:1:0": {
+      "file": "audio/975385235ad60418194fc09a671a3120676e4135bae4c1c591cf32b534bb136e.mp3",
+      "bytes": 30136,
+      "sha256": "f231794345c292ae60e147f0e39f1c78ac0281c883ae7bcac5b029814e36519b",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "amazon-audio:D23:dialogue:1:0": {
+      "file": "audio/975385235ad60418194fc09a671a3120676e4135bae4c1c591cf32b534bb136e.mp3",
+      "bytes": 30136,
+      "sha256": "f231794345c292ae60e147f0e39f1c78ac0281c883ae7bcac5b029814e36519b",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "amazon-audio:D39:dialogue:2:1": {
+      "file": "audio/5e757e4bf3d7154d36234697c8c36d406d19da075ae625dbfac99abed996f34c.mp3",
+      "bytes": 86560,
+      "sha256": "0558cd00df5e47210c859372b5e55eba97f3dd7350e5d3707af042f32247f495",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "amazon-audio:D39:model:1": {
+      "file": "audio/5e757e4bf3d7154d36234697c8c36d406d19da075ae625dbfac99abed996f34c.mp3",
+      "bytes": 86560,
+      "sha256": "0558cd00df5e47210c859372b5e55eba97f3dd7350e5d3707af042f32247f495",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "amazon-audio:D16:dialogue:1:0": {
+      "file": "audio/279e141bf63f3c096f0e9c7d236cfe050618f40f5b974fe46b0a290adb8a206f.mp3",
+      "bytes": 29300,
+      "sha256": "977f6c9b61affb8bf436f4e35d58ac1508bdad0530e731a9668f255e9aad42e1",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "amazon-audio:D21:dialogue:1:0": {
+      "file": "audio/279e141bf63f3c096f0e9c7d236cfe050618f40f5b974fe46b0a290adb8a206f.mp3",
+      "bytes": 29300,
+      "sha256": "977f6c9b61affb8bf436f4e35d58ac1508bdad0530e731a9668f255e9aad42e1",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "amazon-audio:D27:dialogue:1:0": {
+      "file": "audio/279e141bf63f3c096f0e9c7d236cfe050618f40f5b974fe46b0a290adb8a206f.mp3",
+      "bytes": 29300,
+      "sha256": "977f6c9b61affb8bf436f4e35d58ac1508bdad0530e731a9668f255e9aad42e1",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "amazon-audio:D42:dialogue:1:1": {
+      "file": "audio/f72b3f1b458450da0d536d6638bcbb09ff8521affda12be5dc0ca8738675b0bc.mp3",
+      "bytes": 96173,
+      "sha256": "ae25afb74790857fbd7c43bdda4368d873b96dff6e8f593ed0bc2c50ea5041ce",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "amazon-audio:D43:model:2": {
+      "file": "audio/3d4b9159e6b1b1f30a1b16aa7acdcced18e49211c0fd11ef45765c1e799a482f.mp3",
+      "bytes": 89486,
+      "sha256": "496f39406be91324f0b60cbb8e72b80b8a51e8d35d3e1295abb274b4e58d6924",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D43:dialogue:0:0": {
+      "file": "audio/47d7139f545ae9e66bd4b308eca1b20935edb40ec76906be85eed0f1493fafa4.mp3",
+      "bytes": 70260,
+      "sha256": "d3690dc6bd94918060a44e7187663480134110a764d9c5637d3335ee86214e73",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D43:model:0": {
+      "file": "audio/47d7139f545ae9e66bd4b308eca1b20935edb40ec76906be85eed0f1493fafa4.mp3",
+      "bytes": 70260,
+      "sha256": "d3690dc6bd94918060a44e7187663480134110a764d9c5637d3335ee86214e73",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D19:dialogue:0:0": {
+      "file": "audio/5c54ec160cce8497da6be1b6e935f33092ce3d65266d876b148a5f7571194d50.mp3",
+      "bytes": 24702,
+      "sha256": "7faa6573b1f307e5e4cacd2dfdf2d02847ffc76b1aa71f9275990fa7dbb16841",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D20:dialogue:0:0": {
+      "file": "audio/5c54ec160cce8497da6be1b6e935f33092ce3d65266d876b148a5f7571194d50.mp3",
+      "bytes": 24702,
+      "sha256": "7faa6573b1f307e5e4cacd2dfdf2d02847ffc76b1aa71f9275990fa7dbb16841",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D19:dialogue:0:2": {
+      "file": "audio/2a369dd90471b6e7ed395263dc9fec266441bb8c9db7b53acc6c91580edf2ae6.mp3",
+      "bytes": 21776,
+      "sha256": "d9dc4ad64e1ffb00d0b842f74c5f8fc8d02d7d796d5bdbb0c28448ff89e308c4",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D20:dialogue:0:2": {
+      "file": "audio/2a369dd90471b6e7ed395263dc9fec266441bb8c9db7b53acc6c91580edf2ae6.mp3",
+      "bytes": 21776,
+      "sha256": "d9dc4ad64e1ffb00d0b842f74c5f8fc8d02d7d796d5bdbb0c28448ff89e308c4",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D40:model:4": {
+      "file": "audio/c0585c79a6868f2f693763403773406e36acdbb656578f36f15c956f9337750c.mp3",
+      "bytes": 87814,
+      "sha256": "9b5aeb9285036e22ba8bfb7f3bd844f34612155d252739d0f975dca14d4cabd6",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D40:dialogue:0:0": {
+      "file": "audio/03d157a49e6d50d6f8b04b9e316f49d361689ddff2712fbd2cc67b963d1a42f0.mp3",
+      "bytes": 72350,
+      "sha256": "151c8c8d1894848a81f653f0cd2d9809cc13b21c474823be41505dcf45bf394d",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "amazon-audio:D40:model:0": {
+      "file": "audio/03d157a49e6d50d6f8b04b9e316f49d361689ddff2712fbd2cc67b963d1a42f0.mp3",
+      "bytes": 72350,
+      "sha256": "151c8c8d1894848a81f653f0cd2d9809cc13b21c474823be41505dcf45bf394d",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "amazon-audio:D40:dialogue:0:1": {
+      "file": "audio/768b41046dd4701201254da7b221962e4f4aab67597f679c7a37db464ef5a698.mp3",
+      "bytes": 91158,
+      "sha256": "c8db3584f57959229a3423517e8e3910a148387371ba969a3fb764de87bc0e21",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D40:dialogue:2:1": {
+      "file": "audio/768b41046dd4701201254da7b221962e4f4aab67597f679c7a37db464ef5a698.mp3",
+      "bytes": 91158,
+      "sha256": "c8db3584f57959229a3423517e8e3910a148387371ba969a3fb764de87bc0e21",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D40:model:1": {
+      "file": "audio/768b41046dd4701201254da7b221962e4f4aab67597f679c7a37db464ef5a698.mp3",
+      "bytes": 91158,
+      "sha256": "c8db3584f57959229a3423517e8e3910a148387371ba969a3fb764de87bc0e21",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D44:dialogue:0:1": {
+      "file": "audio/49761bd6c75bddf7157d6e609546f0ad34e1288ff76d8ac06932e6b5659ea2da.mp3",
+      "bytes": 71096,
+      "sha256": "02108a450c8457fc4011d9f8b839bd5153304a44c784b12649608b5080a5a7d7",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D45:dialogue:1:1": {
+      "file": "audio/2e80dd2f0c578a0238eda2e4c449584c885df062c39246b3c254dbe9fc70526c.mp3",
+      "bytes": 87814,
+      "sha256": "6c5eb0eb8f43930ef22da045dbefde62260c8f12033f7649c417ea429ac93e11",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
     }
   }
 }
