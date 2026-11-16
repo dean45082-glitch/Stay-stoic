@@ -12940,6 +12940,13 @@
       "sha256": "ce359ca1d33aa1acca5e3afecb4373a3e44349d188b551c9a1bc9cfafafb9893",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "Even though it's hard, I stay stoic.": {
+      "file": "audio/f6e6591071494bb4b13cb1f39a0f3dc78f9556ba78598011377dcf9ea602feda.mp3",
+      "bytes": 34315,
+      "sha256": "2927ab723179cb3dc751abc429b1c73dc957858d30bdb766056b16a7751708f8",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
