@@ -13521,6 +13521,13 @@
       "sha256": "319077c9daba2fbd5975c08208386dae386a8c3598e16128c65e23ad4f9c5994",
       "voiceId": "YscMlI9nNgFEyG34UWMB",
       "voiceLabel": "Atlanta real"
+    },
+    "The road closure exacerbated the traffic problems.": {
+      "file": "audio/8bc99ccac7145a407db8efccf8cbf75537b6d22a883cc9b3b0a5731d89557468.mp3",
+      "bytes": 45600,
+      "sha256": "4e62a040ef6d54115603893d680ca04f0fe1201043eef4f5fd8e3f676e6ee8a5",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
