@@ -12415,6 +12415,13 @@
       "sha256": "fb49c771a40fa9895ff977a0aee360caa97278301fc8f78bb45a03bcb8f63dcc",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "I had been avoiding the topic until we finally talked about it.": {
+      "file": "audio/de0c3134397d2bd1a40ade119a472d7dd3db0f45379a614de4323f3570f68ee5.mp3",
+      "bytes": 49362,
+      "sha256": "a7e915f96b828e8192ecbb5fcba875eaded0f8c286f9436bf550be0451c989c4",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
