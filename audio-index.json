@@ -13388,6 +13388,13 @@
       "sha256": "994ecea77862a71d6e913e5e366d36f1c083043f3110218fc315fef653b4cddb",
       "voiceId": "J4bIp70tzyazNCFxUfjl",
       "voiceLabel": "LA guy"
+    },
+    "A fresh coat of paint transformed the room.": {
+      "file": "audio/cb50d6f2be49bf4d8f67302b03fce20b0a246ec91aff2220927e6fe5e306a720.mp3",
+      "bytes": 34315,
+      "sha256": "f505397187fc90402c6486d18a970f6ab89bc378f37db05f0f09a760cfac14f9",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
