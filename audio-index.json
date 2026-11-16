@@ -9661,6 +9661,20 @@
       "sha256": "b49a1ebef3501030c92ddddf5e72ce835ba01e21783ce86c88dfcf2a8948b25d",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "amazon-audio:D25:dialogue:0:1": {
+      "file": "audio/56e61148c8bdcc8adfb80004ffcafc2b69a55eaa5336c053a23332a775b6df0a.mp3",
+      "bytes": 91576,
+      "sha256": "7dee91863b8f3626720b29faef23aa86191d77e6e75115a712ebbb3cad101689",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "amazon-audio:D25:model:0": {
+      "file": "audio/56e61148c8bdcc8adfb80004ffcafc2b69a55eaa5336c053a23332a775b6df0a.mp3",
+      "bytes": 91576,
+      "sha256": "7dee91863b8f3626720b29faef23aa86191d77e6e75115a712ebbb3cad101689",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
