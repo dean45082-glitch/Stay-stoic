@@ -12499,6 +12499,13 @@
       "sha256": "21834b37e500ed6cac8996aebe188b4d11b4ea6e12c96df4f922b9eb8b44cbf3",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "They've been learning a lot lately.": {
+      "file": "audio/be53e613f30fe4d9ec6867ba0c6032e7b1b5fce65c7e0f7509f0b737505f9edc.mp3",
+      "bytes": 27210,
+      "sha256": "b5e6384e2589c445aa378a223b813f1cb1f23c0049b783ddb066151b9efea2fb",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
