@@ -12030,6 +12030,13 @@
       "sha256": "75374e720b22f918847171b8d51c4ea1b250d8b59688883d1a136a236e51b731",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "If I stayed in the moment, what would I lose?": {
+      "file": "audio/a077d3b9ef8118e732421891c0afcd4e6d547ad419c18d64675b7e614edb582f.mp3",
+      "bytes": 38913,
+      "sha256": "973e9cc564810414d140ce78784bd8bf09261c1050ae9ae74581043d3c07a4fb",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
