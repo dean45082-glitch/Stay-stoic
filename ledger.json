@@ -17937,6 +17937,18 @@
       "modelId": "eleven_multilingual_v2",
       "day": 145,
       "module": 1
+    },
+    "3ca3c5930c96b626c73346e3cf1017947548fc6454bfee338b4f17539354c911": {
+      "status": "complete",
+      "batch": "my-way-and-c1-through48",
+      "estimatedCredits": 54,
+      "bytes": 44346,
+      "sha256": "b949f88941863b31be4730d6d938decc5f8f987f1e7a8c047120ba62c07539cd",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino",
+      "modelId": "eleven_multilingual_v2",
+      "day": 145,
+      "module": 1
     }
   },
   "batches": {
@@ -17999,7 +18011,7 @@
       "status": "running",
       "cap": 13771,
       "estimate": 13771,
-      "completed": 214
+      "completed": 215
     }
   },
   "voices": {

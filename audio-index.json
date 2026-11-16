@@ -13304,6 +13304,13 @@
       "sha256": "4edfc79f81f6a9dc75ab52cfd948321721d48875ebeae0aa9a03f7caf485213a",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "If I had known this before, I would've started sooner.": {
+      "file": "audio/3ca3c5930c96b626c73346e3cf1017947548fc6454bfee338b4f17539354c911.mp3",
+      "bytes": 44346,
+      "sha256": "b949f88941863b31be4730d6d938decc5f8f987f1e7a8c047120ba62c07539cd",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
