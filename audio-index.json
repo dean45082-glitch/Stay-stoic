@@ -12898,6 +12898,13 @@
       "sha256": "8bf98be2227ccd248241f12109d4d7c75a430adca6c7bb37fdd76f8dd95c6868",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "Although I face a setback, I stay calm.": {
+      "file": "audio/e96437dd1431b46a4969d91783670e1d73af4a47db7ebe06606876b91cf7a86e.mp3",
+      "bytes": 38913,
+      "sha256": "5328d61fdf16f07da41e1c94a462bd0a6c5a816ff24b0872e4f085fd9252f381",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
