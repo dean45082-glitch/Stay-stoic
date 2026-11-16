@@ -12002,6 +12002,13 @@
       "sha256": "187e24d3dee8bb019a650b06d697ffe5fcac44697cadb77b8e552998e2efa070",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "If I stay hungry, I'll keep growing.": {
+      "file": "audio/cd87ecdfdcb14f36b6816abea2aa70165e40cc53cbb2e4adf6a6af2d5144daa2.mp3",
+      "bytes": 33061,
+      "sha256": "532c873ec7f1f7659fd285f549f3a7d3e9d0ea05a3fe2ea8186b44e55180f2fa",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
