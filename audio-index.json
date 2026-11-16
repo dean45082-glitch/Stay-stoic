@@ -13570,6 +13570,13 @@
       "sha256": "aea1fdf1bdccb626c3fb14e51b0e8d8d142363e18c4904735f53343f62aa470e",
       "voiceId": "4RNt0zdgATxEX0rq2bVG",
       "voiceLabel": "New Yorker super slam"
+    },
+    "Publishing an untested alarm plan could jeopardize the event. False alarms might trigger unnecessary evacuations and undermine confidence in the staff. To mitigate the risk, the organizers ran a drill before explaining the plan to visitors.": {
+      "file": "audio/b082d453b4b163670efcfa64099ecd7de3d704f3b60fb1ebe9fdbcb52abb9c5e.mp3",
+      "bytes": 222397,
+      "sha256": "f9e361326d4a5881008150fa1e8b0c4b659e4afc165c840b5611485304e1ae21",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
