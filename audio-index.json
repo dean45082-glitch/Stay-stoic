@@ -13010,6 +13010,13 @@
       "sha256": "e0e9ff2d0ff6da3535a594ed7a0fd5b73be29c7202325e971a04c8fdaf7d36c1",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "I'll speak my mind, provided that it's worth the fight.": {
+      "file": "audio/e057328d4397535c05b6d7ec14c4ca68b677f5e08ef0ff98bcc6fee83b56aa5c.mp3",
+      "bytes": 44346,
+      "sha256": "47d203854f9196d5443d32b9064edd022be80c7662c7d246151b1cb775642116",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
