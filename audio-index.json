@@ -12779,6 +12779,13 @@
       "sha256": "949fee39ccd8af348d91e73f680e8b3480cc5abe202b77eaae585b7980c715b6",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "If I had trusted more, I wouldn't have hesitated so much.": {
+      "file": "audio/1ac85023fcdbf4363275e70eadb38843083056c135d792909f9ea237c5ebe8d8.mp3",
+      "bytes": 47690,
+      "sha256": "bc7b396bd35e2a90cff9cba7d5b2756ffcd2bc4b9158d001227b105a9adc9ff5",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
