@@ -11848,6 +11848,13 @@
       "sha256": "035fd0818af9352e878bfc70c3e914fa5962fc2d3c8095ee967b7eedf75b6078",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "I ought to have taken more responsibility for the outcome.": {
+      "file": "audio/309a2c73746cbf58f419f19337c6c3ef1164e49295cd2294de46c61ff611ce69.mp3",
+      "bytes": 45600,
+      "sha256": "f359dc1a22fad351f47fae2ac5ba5b87c449af3c354b0ac0a1ba7023b56048fe",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
