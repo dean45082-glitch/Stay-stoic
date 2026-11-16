@@ -12352,6 +12352,13 @@
       "sha256": "b6aa569d6db2d365fc802af02dacc7e4c08a6b8518f4382decdb68856ce0918c",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "I've been thinking about it, but I hadn't decided until today.": {
+      "file": "audio/ffda6e5f1e6ea10a183f46c0bc0a98c9fa4eebba363e625cea917b153bd8eb57.mp3",
+      "bytes": 47272,
+      "sha256": "1afd32e7682ecd1bab0cbfe72970a7aa09708f930eb013a26345d7aa07bd274b",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
