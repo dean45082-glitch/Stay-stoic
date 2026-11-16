@@ -12926,6 +12926,13 @@
       "sha256": "c6fcabbb6afa29ba6bf9b11ec8f2eb2005564ba14ea5999ccf416a3b77579b11",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "She won't pass the exam unless she studies a lot.": {
+      "file": "audio/abe4058d235684aea325b017500a9d0a3d55b1b60bd6768113177bbb2e0828ef.mp3",
+      "bytes": 41003,
+      "sha256": "ec279a0a7a9271bff789a584c22f2acc7a5bf52457387e4f353033abe7cad44c",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
