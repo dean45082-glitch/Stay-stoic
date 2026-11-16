@@ -13073,6 +13073,13 @@
       "sha256": "c9d80f8c1f676602e2383dca1e03ed6fdf32a56e0753d446fd69473ece3eb011",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "Although we handle a heavy weight, we stay calm.": {
+      "file": "audio/bbfa98308144019e5eb67edf616277887742a8b2679aa262288f700694230382.mp3",
+      "bytes": 39749,
+      "sha256": "44ddc76c192a9052ab6431b982b7a22692848be3c6757ce9b3b47dbc44780e37",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
