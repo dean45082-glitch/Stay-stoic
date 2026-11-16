@@ -13227,6 +13227,13 @@
       "sha256": "e005769814b6798a3916d745ab4bc1f6aa09aeedbc6c3b6e047b8bde07232ed2",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "I've always been fire and blood.": {
+      "file": "audio/f42e668285a1e0dc774ba2539935e335294b3c2c8ea0516a2af8984845e71714.mp3",
+      "bytes": 26374,
+      "sha256": "ef6e43d60a2081be4b2fe0ae2c2091ff9256ca666f770bba77469bfe39d45644",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
