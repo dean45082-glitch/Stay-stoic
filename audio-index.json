@@ -13024,6 +13024,13 @@
       "sha256": "b3d0cde9cc4a34823542d82e26d839504bc5bf236098e47da65a424996f553f3",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "Although he faced a setback, he stayed calm.": {
+      "file": "audio/ed92c3cf4608808639737c0d1ba7bf36be8b0fa4cf8d589928b76684e27f48fb.mp3",
+      "bytes": 41838,
+      "sha256": "0dd17af7537c3a6884800e3c5ccbfbaa96e64c7049facc55c38f5f0a6b7439a0",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
