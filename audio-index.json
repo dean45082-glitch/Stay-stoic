@@ -13493,6 +13493,13 @@
       "sha256": "eede5e39e5e03d4cf4fd67f8fdae380995c3c8078dc8d1f88ea046bf5bf90ab9",
       "voiceId": "4RNt0zdgATxEX0rq2bVG",
       "voiceLabel": "New Yorker super slam"
+    },
+    "The slow opening doesn't detract from the rest of the film.": {
+      "file": "audio/a3c30793a9b53eb40df45076a694a0d575ce6cf177944be04c78ae129a938c4c.mp3",
+      "bytes": 45600,
+      "sha256": "a63694438fc53dc0cea7ceff22b77d9eff7763b6048ecd74005cc90293bb9c8a",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
