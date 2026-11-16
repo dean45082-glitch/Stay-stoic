@@ -10939,6 +10939,13 @@
       "voiceLabel": "NY sofisticado",
       "modelId": "eleven_flash_v2_5",
       "maxDay": 42
+    },
+    "amazon-five-voices-01": {
+      "status": "running",
+      "cap": 10000,
+      "estimate": 9963,
+      "lastDay": 13,
+      "completed": 0
     }
   },
   "voices": {
