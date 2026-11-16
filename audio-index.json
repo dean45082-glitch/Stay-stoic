@@ -13402,6 +13402,13 @@
       "sha256": "23b022c9bd5c206ff4336eb37c0d538e27d31d2d80c97225b1e2d387d82080af",
       "voiceId": "nbaOefRJYbGbDU7PX7zP",
       "voiceLabel": "Maine Guy"
+    },
+    "The city implemented a new bus schedule in June.": {
+      "file": "audio/8d880028628c18ce230004e89881dfbd853c49a333d0187113559308bd8e781c.mp3",
+      "bytes": 40585,
+      "sha256": "c2354e4dc29c10010861774fc9a9664eb1ca255e03cac52ec70daef07d1a3a6e",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
     }
   }
 }
