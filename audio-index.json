@@ -12142,6 +12142,13 @@
       "sha256": "e825a6337c9d511eebc46fc0ead3fb45abec147981fec3a8d7227c033e8d7683",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "If they let their guard down, they would feel better.": {
+      "file": "audio/4cb005cd3cdc228234e3575a2027678aafab8364c9a18e63458c6d7ca93a2b98.mp3",
+      "bytes": 44346,
+      "sha256": "e26d7861fbdf403a9c0bf47b6e08aaed7c8f1a7fc49f2382db5a1e344e9508a0",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
