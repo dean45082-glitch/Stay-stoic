@@ -11988,6 +11988,13 @@
       "sha256": "51b69fd3e7cd1b1b1f3f4602645cfb6accfbc1cb3a33f085267c18ab4b2c876d",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "If I let my guard down more often, it'd be easier, but riskier too.": {
+      "file": "audio/c6f90964794b990771ad500a83798366109bf6b84a87eeb6aa32f7187d5e28c8.mp3",
+      "bytes": 62736,
+      "sha256": "ce833dac9f3319f13b398fb633acaa15c7513e39f6586337122fe88be6dc733b",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
