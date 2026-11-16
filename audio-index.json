@@ -10830,6 +10830,13 @@
       "sha256": "e285b5e3598a436c221a62d40d6f8e5224b2449204ef63b5e9c4012cdb86b4b5",
       "voiceId": "4RNt0zdgATxEX0rq2bVG",
       "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D36:dialogue:1:1": {
+      "file": "audio/9caf5cc9bf4bcaf4ca9f5b66209a66416afb5c35aed3debb5df8fe311745983e.mp3",
+      "bytes": 90322,
+      "sha256": "15ecb8a4f0644cb5f47ed23df462839cef6969607fe8bf71be123e42a54e90e7",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
