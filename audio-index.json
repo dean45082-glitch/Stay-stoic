@@ -12366,6 +12366,13 @@
       "sha256": "746c177b87963c6b121d8776c3b046b37718e30413f9eeeb54a57ca8883060c5",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "She'd already moved on before I even asked.": {
+      "file": "audio/e20bccb83cf1189c7db20980969f992089495a43377d335bbfc4802acdf8d834.mp3",
+      "bytes": 35151,
+      "sha256": "341c289442336adbd21b3cb15314a8dd2f6b7bc4d2a5bb7edf621991de6ee393",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
