@@ -13213,6 +13213,13 @@
       "sha256": "25745e14762ed8c2dbc75173d181dcec3ffa4500d6669e59771fd468b567f4bd",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "I'll be facing whatever's ahead, one obstacle at a time.": {
+      "file": "audio/b2fd7847cf8771b27958c84b8ea6944987eb5646ebc28ecf532ef0e680750d10.mp3",
+      "bytes": 54377,
+      "sha256": "88cb8111f0e76c38eb1fb021c5f739d583f1aa44ec7b8e59e32aace0c925a857",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
