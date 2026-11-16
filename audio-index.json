@@ -13374,6 +13374,13 @@
       "sha256": "b0bd948abfa0fcc143853af000069e5cf0d0b86735daf15d8575ceaca1d68ffc",
       "voiceId": "nbaOefRJYbGbDU7PX7zP",
       "voiceLabel": "Maine Guy"
+    },
+    "The bus schedule varies depending on the day.": {
+      "file": "audio/862426106c6128a575e1fffc1ce464f951739c5cf72cb4695b21ee7c48f8ad5b.mp3",
+      "bytes": 37659,
+      "sha256": "e0525ad35dc7c5fe8a91de294a077753acceee450e5f3705d67d893456bfc0e0",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
     }
   }
 }
