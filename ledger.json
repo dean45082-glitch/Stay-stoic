@@ -10991,6 +10991,17 @@
       "voiceLabel": "New Yorker super slam",
       "modelId": "eleven_multilingual_v2",
       "day": 1
+    },
+    "97abd7cddcacde162e89bbb6db9e2e284cb22f92891cbb10d55e6586e57c487f": {
+      "status": "complete",
+      "batch": "amazon-five-voices-01",
+      "estimatedCredits": 88,
+      "bytes": 71514,
+      "sha256": "55b150b662ea3c9e1b6bcf18bcf2945f59fb8c3dcc627a58b3b1e3cf1c485c9c",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy",
+      "modelId": "eleven_multilingual_v2",
+      "day": 1
     }
   },
   "batches": {
@@ -11033,7 +11044,7 @@
       "cap": 10000,
       "estimate": 9963,
       "lastDay": 13,
-      "completed": 8
+      "completed": 9
     }
   },
   "voices": {
