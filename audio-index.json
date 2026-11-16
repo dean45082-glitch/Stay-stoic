@@ -13150,6 +13150,13 @@
       "sha256": "8866305fdf98608ff9205656178e6dcdc786bcd920cc57326be381e1f2b692ba",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "You've been learning and growing.": {
+      "file": "audio/6cd83f8b165b6662ecfac08399a8cbfa6e7d5f88ecd4a5d977c01554f90c5726.mp3",
+      "bytes": 24284,
+      "sha256": "ea06f686fcd534a3887f2e65dd1c8c487507aec481d56da357bf38d50b415e2c",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
