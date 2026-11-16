@@ -13031,6 +13031,13 @@
       "sha256": "0dd17af7537c3a6884800e3c5ccbfbaa96e64c7049facc55c38f5f0a6b7439a0",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "Although she faces a setback, she stays calm.": {
+      "file": "audio/e0643e30ddd0ad6fc5cad053ec5e45ed23b4ca52765f316f7285fd99f8405e02.mp3",
+      "bytes": 43510,
+      "sha256": "e562409a749a10f01593f5796fbff75332b85af609a673c3ef26fc97757d4048",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
