@@ -11981,6 +11981,13 @@
       "sha256": "fa25666845cadb215c272bf18ad8e1bc4f66ed88891d9a44fc6d81075a1ee5d5",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "If I let myself enjoy it more, I might lose that hunger.": {
+      "file": "audio/d7046fa4b76ef8f7fd1369ffa3934c3eb485d0c040148e213c8e5d6cb8a2ca3f.mp3",
+      "bytes": 49362,
+      "sha256": "51b69fd3e7cd1b1b1f3f4602645cfb6accfbc1cb3a33f085267c18ab4b2c876d",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
