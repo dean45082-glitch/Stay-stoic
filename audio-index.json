@@ -7512,6 +7512,13 @@
       "sha256": "76c0898246e77a2e8e1bf658bd3bb99e3389c459f7d1c5bc78236a47a9a12491",
       "voiceId": "4RNt0zdgATxEX0rq2bVG",
       "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D05:model:5": {
+      "file": "audio/880d80798e3c80fd8eaffeda8f2b997e07c9f74f0ab5d61cf910feb3a612ff7e.mp3",
+      "bytes": 53123,
+      "sha256": "3180aeea39ffd3b5db06e6de7e6bb4e1cf0c2888d4b7f5723ba5eac11496029c",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
     }
   }
 }
