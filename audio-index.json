@@ -13269,6 +13269,13 @@
       "sha256": "71191c39320e7509c9055240cd1101fa9167b72101baedf85d6f1f2092feb580",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "Every mistake must have been part of the plan.": {
+      "file": "audio/42f5af4f1d828d271bfb52cf44508677f180cd135f9a7b61f69573cd397b9409.mp3",
+      "bytes": 38077,
+      "sha256": "7ce1cd65042db46c262e4dbc37d868b05cb5c4c535d03a97887c3224d1a1d4f0",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
