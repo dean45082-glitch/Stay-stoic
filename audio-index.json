@@ -11932,6 +11932,13 @@
       "sha256": "827c353868857b2336b4479df7063492bb61304ad75bc8ef9183e3946c699587",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "In hindsight, he ought to have been more direct.": {
+      "file": "audio/d6dda0fe42a95c969493b0ad57f59847c940e4e088ce4148184427c4dd1cc169.mp3",
+      "bytes": 38913,
+      "sha256": "1888180f04a924fb3e3d35c58545cc9564bac637dddf2d16becb6931a85e2733",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
