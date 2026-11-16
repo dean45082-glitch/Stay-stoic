@@ -11883,6 +11883,13 @@
       "sha256": "debc579f2c01cb64d9d61f36c1502be4911a0c51b1e6c0851118217b1e815436",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "They ought to have clarified the expectation from the start.": {
+      "file": "audio/3c3fce318930e327bb49ccf0ccd7f71e0a71efefd5850a858e82baa0fc62ca63.mp3",
+      "bytes": 49362,
+      "sha256": "09ab79d4cc9a07b51606ca8f5ad8ca2db1ac5fbbdf09b4b55321ae6e59ffd304",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
