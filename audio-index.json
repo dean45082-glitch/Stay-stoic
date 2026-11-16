@@ -13360,6 +13360,13 @@
       "sha256": "77bc990f86174949924b4f1c613b119a4cbb06bfb5c14c787d9794837ecbf3eb",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "Work on the old square will commence in March. The council hopes to accelerate repairs before summer and enhance pedestrian access. It expects disruption to diminish once the temporary walkway opens, even though the square will still be under construction.": {
+      "file": "audio/f2c11764c1e288aafcd40ce8ca7ca87eff19b9454dc44ddc1deae5b705ca1932.mp3",
+      "bytes": 213620,
+      "sha256": "0ae890c1f6ff9822ecb5064b79b43d22506d9c52ced0e939bcdf905ef25a9d23",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
     }
   }
 }
