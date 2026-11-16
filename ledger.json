@@ -11662,6 +11662,17 @@
       "voiceLabel": "New Yorker Sifrino",
       "modelId": "eleven_multilingual_v2",
       "day": 7
+    },
+    "405c345b52817c3555d1fbe13ca8163d69f60fa03cac4f4f0fe47822322ff7c3": {
+      "status": "complete",
+      "batch": "amazon-five-voices-01",
+      "estimatedCredits": 99,
+      "bytes": 86560,
+      "sha256": "b3d5984b6c7d74c7e20a7007aceb2f7382b23514e1d091d952a737aa5be53af3",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style",
+      "modelId": "eleven_multilingual_v2",
+      "day": 8
     }
   },
   "batches": {
@@ -11704,7 +11715,7 @@
       "cap": 10000,
       "estimate": 9963,
       "lastDay": 13,
-      "completed": 69
+      "completed": 70
     }
   },
   "voices": {
