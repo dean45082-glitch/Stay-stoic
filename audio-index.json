@@ -13395,6 +13395,13 @@
       "sha256": "f505397187fc90402c6486d18a970f6ab89bc378f37db05f0f09a760cfac14f9",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "Attendance at our market fluctuates from week to week, and stall fees vary by location. We modified the layout so the cheapest stalls were easier to find. It didn't transform the market overnight, but more first-time sellers signed up the next month.": {
+      "file": "audio/349583e52c27bef6a9f2d31858f86b3de6fbbb41458a3b8c286480f49f0457f7.mp3",
+      "bytes": 191886,
+      "sha256": "23b022c9bd5c206ff4336eb37c0d538e27d31d2d80c97225b1e2d387d82080af",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
     }
   }
 }
