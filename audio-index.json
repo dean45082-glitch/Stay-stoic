@@ -12730,6 +12730,13 @@
       "sha256": "f4d4956e58b8d1ac0366dc476a657fc4956581ab1695423b778d6ea0d50dbe7c",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "If I had known, I would've stayed hungry from the start.": {
+      "file": "audio/e5debb94c4f1796bca2ef11dd43bafd1f6a7e27de445e30cea047a90d23259a4.mp3",
+      "bytes": 44764,
+      "sha256": "3c438d55226dccf054e6f230efa6848edcaa99b5ac1e5a9d31bbfb7a831efe43",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
