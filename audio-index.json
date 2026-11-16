@@ -12191,6 +12191,13 @@
       "sha256": "43ca30579c0e0fc9b2462c144ab5fecd4cd1b311c649c47dd739a98bb6faacaa",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "In hindsight, every mistake was worth it.": {
+      "file": "audio/508760adbd56ac22f785695aeb26634a9cc6b73051dce1c13883ab046d18c828.mp3",
+      "bytes": 35151,
+      "sha256": "769f6ef540e05e4c19b2c20cf346c973f2f674adbea687178c5caece4efe5302",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
