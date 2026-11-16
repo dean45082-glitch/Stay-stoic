@@ -11508,6 +11508,17 @@
       "voiceLabel": "Maine Guy",
       "modelId": "eleven_multilingual_v2",
       "day": 5
+    },
+    "45fb6816c69fcf5f0139ff0a64f224eb8f3b94e867b5a84c37f1ee9bdf35c3bd": {
+      "status": "complete",
+      "batch": "amazon-five-voices-01",
+      "estimatedCredits": 84,
+      "bytes": 77783,
+      "sha256": "7e0839852fc3ff021828d41954f887e23026e279d9e32e2227af2f3b60ed2560",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino",
+      "modelId": "eleven_multilingual_v2",
+      "day": 6
     }
   },
   "batches": {
@@ -11550,7 +11561,7 @@
       "cap": 10000,
       "estimate": 9963,
       "lastDay": 13,
-      "completed": 55
+      "completed": 56
     }
   },
   "voices": {
