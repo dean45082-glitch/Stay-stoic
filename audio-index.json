@@ -13437,6 +13437,13 @@
       "sha256": "996a0164480bd21f203f506214e09f6c7efbc1d6586487d5528aad04882e8cca",
       "voiceId": "YscMlI9nNgFEyG34UWMB",
       "voiceLabel": "Atlanta real"
+    },
+    "The mechanic assessed the damage. We evaluated three routes before choosing one.": {
+      "file": "audio/41d567d52c647af33d9736592ab48ddeb4bace75d3334c5c9459d81ac17ab4a2.mp3",
+      "bytes": 67752,
+      "sha256": "5d10c5a6551f47480f43f034c1c93ea8d11d4e221661e2becb3d97062d097d79",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
     }
   }
 }
