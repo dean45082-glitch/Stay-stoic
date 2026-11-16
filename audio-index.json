@@ -9045,6 +9045,13 @@
       "sha256": "d41901c31594a3ab648359fbd1e9c09709ee6efee0605c8d7f2a745983633a0e",
       "voiceId": "nbaOefRJYbGbDU7PX7zP",
       "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D17:dialogue:3:4": {
+      "file": "audio/1211bf3629ce3e49e5734e0e94157071fc731a5543de6a4afce545636310bdbd.mp3",
+      "bytes": 24284,
+      "sha256": "b6fffa93a4799a4f464e0c484e85cce0b8e6bc83e11ea8595931ee7b6ee32bd3",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
     }
   }
 }
