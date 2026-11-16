@@ -11925,6 +11925,13 @@
       "sha256": "fb15cc11a8eab7555eb04df327777ed04ffa655ae15708437d38c0595fe7ae35",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We ought to have treated that obligation as a priority.": {
+      "file": "audio/f09c43b85714c1377948eb34fefe2c205f6185cf2047e19b01ce0d9856211437.mp3",
+      "bytes": 44764,
+      "sha256": "827c353868857b2336b4479df7063492bb61304ad75bc8ef9183e3946c699587",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
