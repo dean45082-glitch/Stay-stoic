@@ -11890,6 +11890,13 @@
       "sha256": "09ab79d4cc9a07b51606ca8f5ad8ca2db1ac5fbbdf09b4b55321ae6e59ffd304",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "He ought to have known that would have consequences.": {
+      "file": "audio/e5de014de4e09c698db34bbd65bca11774bbac6b3a38cdb94dcd1d5461e943f0.mp3",
+      "bytes": 41003,
+      "sha256": "1d06711be9cc014d9af68bb6610841a67055016a2678cead86b906d8bfc72975",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
