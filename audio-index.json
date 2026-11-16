@@ -11736,6 +11736,20 @@
       "sha256": "a825c20188b91f695dc67c002da963ae4b89a618262070622e1b9694379f7b47",
       "voiceId": "J4bIp70tzyazNCFxUfjl",
       "voiceLabel": "LA guy"
+    },
+    "amazon-audio:D49:dialogue:2:1": {
+      "file": "audio/c3370b36df1f3f0f406ffb7522a1a593072c99988b07b3c187d8c543510aa428.mp3",
+      "bytes": 77783,
+      "sha256": "36c355aabf843bede958999b3001a7972a715778623916e49201289d0aac07dd",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D49:model:1": {
+      "file": "audio/c3370b36df1f3f0f406ffb7522a1a593072c99988b07b3c187d8c543510aa428.mp3",
+      "bytes": 77783,
+      "sha256": "36c355aabf843bede958999b3001a7972a715778623916e49201289d0aac07dd",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
     }
   }
 }
