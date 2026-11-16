@@ -1,7 +1,7 @@
 name: Amazon final five-voice batch and APK
 on:
   push:
-    branches: [amazon-five-voices-complete-apk]
+    branches: [amazon-day49-six-voices-apk]
 permissions:
   contents: write
 concurrency:
@@ -60,11 +60,11 @@ jobs:
       - name: Build debug APK
         run: gradle assembleDebug
       - name: Rename APK
-        run: cp app/build/outputs/apk/debug/app-debug.apk StayStoic-Amazon-Dias-1-a-60.apk
+        run: cp app/build/outputs/apk/debug/app-debug.apk StayStoic-Amazon-Dias-1-a-49.apk
       - uses: actions/upload-artifact@v4
         with:
           name: StayStoic-V2-APK
-          path: StayStoic-Amazon-Dias-1-a-60.apk
+          path: StayStoic-Amazon-Dias-1-a-49.apk
 
       - uses: actions/upload-artifact@v4
         with:

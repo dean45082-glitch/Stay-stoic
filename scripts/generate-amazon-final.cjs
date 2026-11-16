@@ -1,7 +1,7 @@
 'use strict';
 const fs=require('node:fs'),vm=require('node:vm'),crypto=require('node:crypto'),{execFileSync}=require('node:child_process');
 const {validate}=require('./generate-audio.cjs');
-const names=['Eminem style','New Yorker Sifrino','New Yorker super slam','Maine Guy','Atlanta real'];
+const names=['Eminem style','New Yorker Sifrino','New Yorker super slam','Maine Guy','Atlanta real','LA guy'];
 const norm=t=>String(t).normalize('NFC').replace(/\s+/g,' ').trim();
 const hash=t=>crypto.createHash('sha256').update(t).digest('hex');
 const original='amazon-five-voices-01',previous='amazon-five-voices-02',batch='amazon-five-voices-03',cap=7800,model='eleven_multilingual_v2';
@@ -11,7 +11,7 @@ function save(f,v){fs.writeFileSync(store+'/'+f+'.tmp',JSON.stringify(v,null,2)+
 const scope=(d,k,i,j)=>'amazon-audio:'+d+':'+k+':'+i+(j===undefined?'':':'+j);
 function plan(course){
  const items=new Map(),totals=names.map(()=>0),byRole={};let last=0;
- for(const d of course.lessons){
+ for(const d of course.lessons){if(d.day>49)break;
   const added=new Map(),cost=totals.slice(),roles=structuredClone(byRole),spoken=new Map();
   const add=(raw,voice,alias)=>{const text=norm(raw);if(!text)throw Error('Empty Amazon text');const id=hash(original+'\0'+voice+'\0'+text);if(!added.has(id)){added.set(id,{id,text,voice,aliases:[],day:d.day});if(!items.has(id))cost[voice]+=[...text].length;}added.get(id).aliases.push(alias);};
   d.dialogue_variants.forEach((lines,i)=>{
@@ -19,15 +19,15 @@ function plan(course){
    if(speakers.size>names.length)throw Error('Too many voices');
    for(const role of speakers){
     const previous=roles[role]??=names.map(()=>0);
-    const choices=names.map((_,v)=>v).filter(v=>!used.has(v)).sort((a,b)=>(cost[a]+previous[a]*75)-(cost[b]+previous[b]*75)||((a+d.day+i)%5)-((b+d.day+i)%5));
+    const choices=names.map((_,v)=>v).filter(v=>!used.has(v)&&(d.day>=49||v<5)).sort((a,b)=>(cost[a]+previous[a]*75)-(cost[b]+previous[b]*75)||((a+d.day+i)%5)-((b+d.day+i)%5));
     assigned[role]=choices[0];used.add(choices[0]);previous[choices[0]]++;
    }
    lines.forEach((l,j)=>{const v=assigned[l.speaker];add(l.text,v,scope(d.id,'dialogue',i,j));spoken.set(norm(l.text),v);});
   });
-  d.models.forEach((t,i)=>{const v=spoken.get(norm(t))??cost.indexOf(Math.min(...cost));add(t,v,scope(d.id,'model',i));});
+  d.models.forEach((t,i)=>{const v=spoken.get(norm(t))??cost.indexOf(Math.min(...cost.slice(0,d.day>=49?names.length:5)));add(t,v,scope(d.id,'model',i));});
   if(cost.reduce((a,b)=>a+b,0)>cap+9963+25027)break;
   for(const [id,item] of added){if(items.has(id))items.get(id).aliases.push(...item.aliases);else items.set(id,item);}
-  totals.splice(0,5,...cost);Object.assign(byRole,roles);last=d.day;
+  totals.splice(0,names.length,...cost);Object.assign(byRole,roles);last=d.day;
  }
  return {items:[...items.values()],totals,last};
 }
@@ -46,7 +46,7 @@ async function main(){
  if(sub&&Number.isFinite(sub.character_limit)&&Number.isFinite(sub.character_count)&&sub.character_limit-sub.character_count<estimate)throw Error('Insufficient credit balance');
  const ids=[];
  for(const name of names){const list=await get('/v2/voices?search='+encodeURIComponent(name));const found=list.voices.filter(v=>v.name.toLowerCase()===name.toLowerCase());if(found.length!==1||found[0].category!=='generated'||(found[0].voice_multiplier??1)>1)throw Error('Unable to verify standard-rate voice: '+name);ids.push(found[0].voice_id);}
- if(new Set(ids).size!==5)throw Error('Duplicate voice IDs');
+ if(new Set(ids).size!==names.length)throw Error('Duplicate voice IDs');
  const git=(...args)=>execFileSync('git',args,{cwd:store,stdio:'pipe',timeout:120000});
  const persist=msg=>{save('ledger.json',ledger);save('audio-index.json',ix);fs.writeFileSync(store+'/audio-index.js','window.STOIC_AUDIO_INDEX = '+JSON.stringify(ix)+';\n');git('add','audio','ledger.json','audio-index.json','audio-index.js');git('commit','-m',msg);git('push','origin','HEAD:audio-assets');};
  ledger.batches[batch]={status:'running',cap,estimate,lastDay:p.last,completed:0};persist('Reserve Amazon five-voice audio batch');
