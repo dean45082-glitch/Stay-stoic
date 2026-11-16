@@ -13451,6 +13451,13 @@
       "sha256": "387f80ed7f03a50d0e82dfb9278d7f2f5f382ab3a498075a529fbfb09bb9d003",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I spent the evening pondering whether to accept the invitation.": {
+      "file": "audio/6e721237e1d68cd60fef77f8c957514298da7d493a2bbc0bccc877da8a1f0adb.mp3",
+      "bytes": 56049,
+      "sha256": "36e7a68632f02dc3b6868dee8f1cd11071df72c5c374406b05ee1b48173f6f19",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
     }
   }
 }
