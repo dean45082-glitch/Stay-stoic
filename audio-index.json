@@ -12905,6 +12905,13 @@
       "sha256": "5328d61fdf16f07da41e1c94a462bd0a6c5a816ff24b0872e4f085fd9252f381",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "Although I work long hours, I stay calm.": {
+      "file": "audio/6fe5fb29f802f5b83cfb73f7e8b1851acc20ab5461c999cc2bc75b1f0d09437d.mp3",
+      "bytes": 37659,
+      "sha256": "8c286261677d502a4fa4bc75419dc446d8695cc0841e32edb57aeaab97ce0e06",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
