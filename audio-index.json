@@ -12982,6 +12982,13 @@
       "sha256": "bce56339e261c59e465e2fc846273fa718cbdb69ee51ee19b8820680c8d0cfd5",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "Even though it hurt, I didn't react.": {
+      "file": "audio/3fc77548cb41e03bd9ed8e5d78952c5a47e0a7fd1960336745c3b3e45b016dc8.mp3",
+      "bytes": 34315,
+      "sha256": "4afe11b41b863a4f3cd9c516aa2cf21a47b6a40e1196b493367ab030d64910e9",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
