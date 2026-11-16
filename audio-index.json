@@ -13136,6 +13136,13 @@
       "sha256": "d4a1b4930c33034a37388632df96710577403f21669617528a62be1578a96be9",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "I'd been carrying that weight for too long.": {
+      "file": "audio/9f1e6508ccdbf2ebc3e8b822722ab64bd9c19a74e5a6b2d34cef199cd3420c77.mp3",
+      "bytes": 32225,
+      "sha256": "b5744956b44aff6f8f97be2587341ba580d2b7993310bd088e43fe900cf40625",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
