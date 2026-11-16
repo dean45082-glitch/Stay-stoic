@@ -13325,6 +13325,13 @@
       "sha256": "ebe6a62e230983a7fe4461e6965cba49fd9ee8db2407fa90b71609659b21d594",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "They've been building something bigger.": {
+      "file": "audio/a0c6debece957e362a6c1bdfa9a043a84914c07cd88b2adc17480ad9b81b08cd.mp3",
+      "bytes": 30972,
+      "sha256": "d4a5f68ce1ae56191641ee58d9c7766ac22bfc02d3a47cbfa5fc26a9646eaab6",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
