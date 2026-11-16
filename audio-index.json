@@ -13178,6 +13178,13 @@
       "sha256": "11faa72dee6193cc3b5b4b584198565dd2f96ea823a47b1b00a47d1bb7ff89e9",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "Whatever happens, I could handle it.": {
+      "file": "audio/1c59ce59be2d80a4bad586f26d441f50f92d1d8ac7378cb3b384fec9e3cfc6ad.mp3",
+      "bytes": 33897,
+      "sha256": "ee3bf0967b4b113ffea60a29d9ad7d301907c61802ea90cd05ec55651b9d308a",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
