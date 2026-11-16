@@ -13220,6 +13220,13 @@
       "sha256": "88cb8111f0e76c38eb1fb021c5f739d583f1aa44ec7b8e59e32aace0c925a857",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "By the end of this, I will have changed my mindset.": {
+      "file": "audio/87d6c7d2ab0d5701c7a8814b6dacaec86def3d0904806cfb6e530dd300290b34.mp3",
+      "bytes": 43510,
+      "sha256": "e005769814b6798a3916d745ab4bc1f6aa09aeedbc6c3b6e047b8bde07232ed2",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
