@@ -12919,6 +12919,13 @@
       "sha256": "3aa04da4fdc2e806c020f41aaac5f1c0afe4b568de14266c3861d3eceb2fd652",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "Although he works long hours, he always finds time for his family.": {
+      "file": "audio/c7bf323a2eb442a4938f33fa9f1799f032e6b40fe5d5ad0b2611b40d27ead6f9.mp3",
+      "bytes": 56885,
+      "sha256": "c6fcabbb6afa29ba6bf9b11ec8f2eb2005564ba14ea5999ccf416a3b77579b11",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
