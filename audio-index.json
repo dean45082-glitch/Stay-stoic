@@ -13430,6 +13430,13 @@
       "sha256": "3b5f8e5994a372a052cf31e088d41deb8f43a99e210f64a145afe991cedfbc18",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "The city implemented a new bus timetable to maximize connections and minimize long waits. It kept both evening routes for a month to account for workers on late shifts, then phased out the older route once riders had switched.": {
+      "file": "audio/10a326dcc819830b56a4a79adbbde615df1255e10025c02f82cc739375e894f9.mp3",
+      "bytes": 187706,
+      "sha256": "996a0164480bd21f203f506214e09f6c7efbc1d6586487d5528aad04882e8cca",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
     }
   }
 }
