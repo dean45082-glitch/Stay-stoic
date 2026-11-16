@@ -13458,6 +13458,13 @@
       "sha256": "36e7a68632f02dc3b6868dee8f1cd11071df72c5c374406b05ee1b48173f6f19",
       "voiceId": "J4bIp70tzyazNCFxUfjl",
       "voiceLabel": "LA guy"
+    },
+    "She scrutinized the lease before signing it.": {
+      "file": "audio/e4363fb22d84daee36f6360952831f1680f3cd0f5702ad4109148268b749ad24.mp3",
+      "bytes": 34315,
+      "sha256": "ffdb1bb264d70e7cd862f4c9944bf931323d93196ed8b91b266a9b42f068cf8c",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
