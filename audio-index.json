@@ -13318,6 +13318,13 @@
       "sha256": "f63ba92164fd5a9ffda73ef5d465696d5798bc3d8ffcb5558ac7d5048ed9e152",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "They've been learning and growing.": {
+      "file": "audio/efc48b02c1dc65cc9a76f86adcaeccc7c0b8aee1e25fdf847f61653b19b67848.mp3",
+      "bytes": 28464,
+      "sha256": "ebe6a62e230983a7fe4461e6965cba49fd9ee8db2407fa90b71609659b21d594",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
