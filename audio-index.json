@@ -7379,6 +7379,27 @@
       "sha256": "08b4b3ad201606b6def23a13f346da211e4a36cc5d0ee3f7738ef440e45b0a09",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "amazon-audio:D05:dialogue:0:2": {
+      "file": "audio/bb739d55d81b62d6e30b0b617e52c8b21e5e53f2f0ff6c0b1a14f45ad930775e.mp3",
+      "bytes": 23448,
+      "sha256": "1720f4d767aae9d434b79bb8238dc7a8027eb45815ff2a6e3e7722bfd6d16e40",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D07:dialogue:0:2": {
+      "file": "audio/bb739d55d81b62d6e30b0b617e52c8b21e5e53f2f0ff6c0b1a14f45ad930775e.mp3",
+      "bytes": 23448,
+      "sha256": "1720f4d767aae9d434b79bb8238dc7a8027eb45815ff2a6e3e7722bfd6d16e40",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D08:dialogue:0:2": {
+      "file": "audio/bb739d55d81b62d6e30b0b617e52c8b21e5e53f2f0ff6c0b1a14f45ad930775e.mp3",
+      "bytes": 23448,
+      "sha256": "1720f4d767aae9d434b79bb8238dc7a8027eb45815ff2a6e3e7722bfd6d16e40",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
     }
   }
 }
