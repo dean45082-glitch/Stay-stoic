@@ -12205,6 +12205,13 @@
       "sha256": "741cf1905bcfaacb1d5c001b237a3dc7f5c88080284b8e16a180ac74f4d6911a",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "If you had asked for help, you would've felt better.": {
+      "file": "audio/5ebe2eaa8cab0dbe08229cb1827991f749b9bd24f10230db653013d80cfd7c96.mp3",
+      "bytes": 44764,
+      "sha256": "6852ca66ae63f4f682d0028780d9317413a8dffc206a220ad45c7c4fa6378d5e",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
