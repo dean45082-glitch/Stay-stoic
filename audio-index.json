@@ -12744,6 +12744,13 @@
       "sha256": "936a87b0cf802efb1b06ae1950dc7bc33976c1ac0faf76af91c22a3b7d5f238d",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "I should've anchored myself sooner.": {
+      "file": "audio/b02ed3fe6e0edd2de5ac8e93db4389f5d83bf7cb333ddc5992458797b9943753.mp3",
+      "bytes": 30136,
+      "sha256": "6d66e225326c9bebf9259e01fd881729e92962f72e4ce0abc414a5fb87a823c1",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
