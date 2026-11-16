@@ -13248,6 +13248,13 @@
       "sha256": "88dcf99c7812c2052e79d4f2b36030ccb76ca5dd755322669c4f7d92e5e2a776",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She's been growing stronger every day.": {
+      "file": "audio/5d8dc08947c2cf7470fbc5498dabb6d76346914ccf04604f93be8d5efd2ebc94.mp3",
+      "bytes": 33897,
+      "sha256": "b65134897654782e68cc6e85e7c96ebcc4afc71fe31bf2989b872fe8f62f1d1b",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
