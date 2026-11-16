@@ -13542,6 +13542,13 @@
       "sha256": "fac727c2eb234bb06c3c4e117c5a65780146bd3ef0c905f740f5e4125fa847fa",
       "voiceId": "nbaOefRJYbGbDU7PX7zP",
       "voiceLabel": "Maine Guy"
+    },
+    "One missed connection could jeopardize the rest of the trip.": {
+      "file": "audio/b33f15cf308cd12b68f6fe31ad0fe86b3764f5e8fc7fb8a822fddcdd6eb3d5e3.mp3",
+      "bytes": 40585,
+      "sha256": "521a36630259d93f369ba8933a958139d75a99f8478a694db92437933de2c963",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
     }
   }
 }
