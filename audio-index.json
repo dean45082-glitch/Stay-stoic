@@ -10536,6 +10536,13 @@
       "sha256": "e60967a677e7150468aaba889ee883715804222030afd65635522ec624a27a7e",
       "voiceId": "nbaOefRJYbGbDU7PX7zP",
       "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D34:dialogue:3:1": {
+      "file": "audio/3d5a2c1ba4b68943d74d85b955be4474cd98efd1fe19651f22598b5f6d9393bb.mp3",
+      "bytes": 49362,
+      "sha256": "ad6ab1e1476d8ec77510655665bf919a77b240391d22db783278702edb4d267c",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
