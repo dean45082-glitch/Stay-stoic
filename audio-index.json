@@ -13563,6 +13563,13 @@
       "sha256": "959ed90e594d68b4a8263be0722ec4ef9610ee9875fd9966f1cfcc43fd813220",
       "voiceId": "YscMlI9nNgFEyG34UWMB",
       "voiceLabel": "Atlanta real"
+    },
+    "Changing the story every time undermined his credibility.": {
+      "file": "audio/27d2c0c75b4523dfbfe6f8d4485ca6d1700fe4cc9bc0d104f4de4fd49a9b086c.mp3",
+      "bytes": 46436,
+      "sha256": "aea1fdf1bdccb626c3fb14e51b0e8d8d142363e18c4904735f53343f62aa470e",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
     }
   }
 }
