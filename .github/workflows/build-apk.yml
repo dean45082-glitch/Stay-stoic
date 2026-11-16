@@ -1,8 +1,12 @@
-name: Build Stay Stoic APK
+name: Amazon first five-voice batch and APK
 on:
-  workflow_dispatch:
   push:
-    branches: [main]
+    branches: [amazon-five-voices-first-apk]
+permissions:
+  contents: write
+concurrency:
+  group: stay-stoic-audio-generation
+  cancel-in-progress: false
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,6 +27,14 @@ jobs:
           node --check modules.js
           node --check app.js
           node --test scripts/audio.test.cjs scripts/player.test.cjs scripts/offline.test.cjs scripts/modules-storage.test.cjs
+      - name: Generate approved Amazon audio only
+        env:
+          XI_KEY: ${{ secrets.ELEVENLABS_API_KEY_SECONDARY }}
+        run: |
+          if ! command -v ffmpeg >/dev/null; then sudo apt-get update && sudo apt-get install -y ffmpeg; fi
+          git -C audio-store config user.name 'github-actions[bot]'
+          git -C audio-store config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          node scripts/generate-amazon-first.cjs audio-store --live
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
@@ -48,11 +60,11 @@ jobs:
       - name: Build debug APK
         run: gradle assembleDebug
       - name: Rename APK
-        run: cp app/build/outputs/apk/debug/app-debug.apk StayStoic-V2.apk
+        run: cp app/build/outputs/apk/debug/app-debug.apk StayStoic-Amazon.apk
       - uses: actions/upload-artifact@v4
         with:
           name: StayStoic-V2-APK
-          path: StayStoic-V2.apk
+          path: StayStoic-Amazon.apk
 
       - uses: actions/upload-artifact@v4
         with:

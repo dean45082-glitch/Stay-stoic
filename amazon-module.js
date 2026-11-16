@@ -56,13 +56,14 @@ function Lesson({lesson,meta,record,onPatch,onComplete}){
   }
   pieces.push(h('div',{key:'situation',style:card},...situationChildren));
 
+  const audioKey=(text,kind,i,j)=>{const key='amazon-audio:'+lesson.id+':'+kind+':'+i+(j===undefined?'':':'+j);return hasAudio(key)?key:text;};
   const modelChildren=[
     h(Title,{key:'t',n:'2',title:'Models · listen & repeat',sub:'Se reproduce audio solo cuando el mismo texto ya existe en la biblioteca.'})
   ];
   (lesson.models||[]).forEach((text,i)=>{
     modelChildren.push(h('div',{key:'m'+i,style:{display:'flex',gap:9,alignItems:'flex-start',padding:'10px 0',borderBottom:i<lesson.models.length-1?'1px solid '+C.line:'none'}},
       h('div',{style:{flex:1,color:C.marble,fontFamily:serif,fontSize:13.5,lineHeight:1.55}},(i+1)+'. '+text),
-      h(AudioButton,{text,r,status:setStatus})
+      h(AudioButton,{text:audioKey(text,'model',i),r,status:setStatus})
     ));
   });
   pieces.push(h('div',{key:'models',style:card},...modelChildren));
@@ -78,7 +79,7 @@ function Lesson({lesson,meta,record,onPatch,onComplete}){
         h('div',{style:{flex:1,color:C.dim,fontSize:11.5,lineHeight:1.55}},
           h('strong',{style:{color:C.marble}},line.speaker+': '),line.text
         ),
-        h(AudioButton,{text:line.text,r,status:setStatus})
+        h(AudioButton,{text:audioKey(line.text,'dialogue',vi,li),r,status:setStatus})
       ));
     });
     dialogueChildren.push(h('details',{key:'d'+vi,style:{padding:'9px 0',borderBottom:vi<variants.length-1?'1px solid '+C.line:'none'}},
@@ -126,8 +127,8 @@ function Lesson({lesson,meta,record,onPatch,onComplete}){
     h('div',{style:{display:'grid',gridTemplateColumns:'1fr 1fr',gap:8}},...reviewButtons)
   ));
 
-  const allAudioTexts=[lesson.scenario,...(lesson.models||[])];
-  variants.forEach(v=>v.forEach(line=>allAudioTexts.push(line.text)));
+  const allAudioTexts=[lesson.scenario,...(lesson.models||[]).map((t,i)=>audioKey(t,'model',i))];
+  variants.forEach((v,i)=>v.forEach((line,j)=>allAudioTexts.push(audioKey(line.text,'dialogue',i,j))));
   const savedCount=allAudioTexts.filter(Boolean).filter(hasAudio).length;
   const speedButtons=[.75,.8,1,1.15].map(n=>h('button',{
     key:n,
