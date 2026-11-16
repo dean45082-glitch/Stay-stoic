@@ -13591,6 +13591,13 @@
       "sha256": "dcc3e4613bab0f39093ca02d3382dc0ace76832105552e36df09cf81e2215166",
       "voiceId": "YscMlI9nNgFEyG34UWMB",
       "voiceLabel": "Atlanta real"
+    },
+    "Getting to the island involves taking two ferries.": {
+      "file": "audio/6c4a94f925f717b55d8efd4349f3c8ef2a5753772d32d32529b86473911ec7d2.mp3",
+      "bytes": 41003,
+      "sha256": "29b16c16cbeb7eec4af2197404f416f5946cc238ce54b353d5be5916565b72d5",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
     }
   }
 }
