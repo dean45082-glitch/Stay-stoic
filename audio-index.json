@@ -12541,6 +12541,13 @@
       "sha256": "aca16885ed36f969be71614c23338027cb018ad478f8684c5bc8a05e53b36650",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "It must've been hard, but you should've asked for help.": {
+      "file": "audio/f1e6bf3c0b899ce6a2cb61c0f01ca11767bfaba2f805ecb5b5bf880360f4150f.mp3",
+      "bytes": 44764,
+      "sha256": "cae3034a0167d2a0cc14133ad8bb5b3bfde3c9b16b8f82325491406c8cd4e001",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
