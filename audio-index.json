@@ -12765,6 +12765,13 @@
       "sha256": "f12f620b5df7e354581b6437b89a25694d708409cf258f25e894daabdc029fe2",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "If you had trusted the process more, you would've felt better.": {
+      "file": "audio/c8bae0d9d459d5b94ed8d2b79bf24ca168cf79084c3c7b29dad8fc607508ad2d.mp3",
+      "bytes": 48526,
+      "sha256": "3610fa086a82cff4d08a6417d64c50e750cbb979afd4a9bd1832e9baefc523bf",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
