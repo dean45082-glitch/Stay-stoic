@@ -11827,6 +11827,13 @@
       "sha256": "1248c8827934028bac3dd6bb4cf7321a4142f0b514596fe1732ea5d9f5a7deb4",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "You ought to have known better.": {
+      "file": "audio/5715945ae15c9e9eda318935f3597b519c57cd05e097dc1154fae61e9214c1dc.mp3",
+      "bytes": 22612,
+      "sha256": "a8fe5b0cd7e5de3287c1c8b0c36b7f19f20654a80472a4b5a6ef0a05f7d00911",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
