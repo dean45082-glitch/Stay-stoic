@@ -14544,6 +14544,17 @@
       "voiceLabel": "Maine Guy",
       "modelId": "eleven_multilingual_v2",
       "day": 38
+    },
+    "3e252923333dedfed3851b08c6cd043a9937ebfe09f9d70b789af257a1bb25ca": {
+      "status": "complete",
+      "batch": "amazon-five-voices-02",
+      "estimatedCredits": 108,
+      "bytes": 97845,
+      "sha256": "dc3acda1ba42a429ca14315462a95af5b13d3c24011517c86eefa8b7f28b3097",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real",
+      "modelId": "eleven_multilingual_v2",
+      "day": 38
     }
   },
   "batches": {
@@ -14593,7 +14604,7 @@
       "cap": 25300,
       "estimate": 25027,
       "lastDay": 48,
-      "completed": 219
+      "completed": 220
     }
   },
   "voices": {
