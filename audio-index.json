@@ -10858,6 +10858,20 @@
       "sha256": "62a4867344649b3ae39f4d121ad4e2d4ab5783c1b61477974d37b2705a146307",
       "voiceId": "YscMlI9nNgFEyG34UWMB",
       "voiceLabel": "Atlanta real"
+    },
+    "amazon-audio:D36:dialogue:2:1": {
+      "file": "audio/c2d774d6bf3f3c51ebf3cd0725f68cb53806e0e7fc3c0f180ba1aec84ac7782c.mp3",
+      "bytes": 84470,
+      "sha256": "b5fde974f13878f95150a68330fe21061ee8dd391e1758d03231203688db0c7b",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "amazon-audio:D36:model:1": {
+      "file": "audio/c2d774d6bf3f3c51ebf3cd0725f68cb53806e0e7fc3c0f180ba1aec84ac7782c.mp3",
+      "bytes": 84470,
+      "sha256": "b5fde974f13878f95150a68330fe21061ee8dd391e1758d03231203688db0c7b",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
