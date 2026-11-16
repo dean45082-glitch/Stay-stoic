@@ -12170,6 +12170,13 @@
       "sha256": "1860c0d7569e69b5e47ce74eb4d7f56958839ac305db9e881e9179d0b7099c19",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "If I had known then what I know now, I would've started sooner.": {
+      "file": "audio/0f521c57702d24a60cca18e5d9ad3c9df6c0d4335956934cb89509a96eff2082.mp3",
+      "bytes": 54377,
+      "sha256": "a7e453ac0a66b99d54daa891a7406bde7850fb2f975e7b69be5552a0c61d6f46",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
