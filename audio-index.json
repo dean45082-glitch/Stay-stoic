@@ -12912,6 +12912,13 @@
       "sha256": "8c286261677d502a4fa4bc75419dc446d8695cc0841e32edb57aeaab97ce0e06",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "Although I handle a heavy weight, I stay calm.": {
+      "file": "audio/77ce05e1f08a2d2fb820f83817ab412ba2a60db17de9f06abfb78e92e312cb04.mp3",
+      "bytes": 41003,
+      "sha256": "3aa04da4fdc2e806c020f41aaac5f1c0afe4b568de14266c3861d3eceb2fd652",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
