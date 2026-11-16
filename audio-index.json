@@ -13472,6 +13472,13 @@
       "sha256": "8cedb0da2117fa508ee72caad707a268311e20aff79eb16a50fe4296133b45b8",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I could barely discern the words over the music.": {
+      "file": "audio/96aa72b12ab5b1f2bbcac362e74cef74e3ad3a35750523375c3c6455b89dacc5.mp3",
+      "bytes": 39749,
+      "sha256": "43e980ce3153f855f04a549c3c34aa53bd8a9f02b9a251f617ab2be4ba2c7a66",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
