@@ -13577,6 +13577,13 @@
       "sha256": "f9e361326d4a5881008150fa1e8b0c4b659e4afc165c840b5611485304e1ae21",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "The organizers deferred announcing the lineup until Friday.": {
+      "file": "audio/d7cca966f2ba9613865907661cec4d75f40aa72c86f836eb89b33f585c831294.mp3",
+      "bytes": 47690,
+      "sha256": "a0db84ff6ec5ce475cbfa854ebdba4af080180cc92b734538f3aa7bab85026cd",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
