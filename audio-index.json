@@ -12674,6 +12674,13 @@
       "sha256": "9012cf2bb58154d56814d07b5c52d0dd0d6dbee7f9973875ca9acd8de784d019",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "We should've known better.": {
+      "file": "audio/e43c5f690251aba288e49500072a0917a00f23d2e852d0f308928aa812a445f6.mp3",
+      "bytes": 18851,
+      "sha256": "bce857d93dfe1cde6034acc171c08cbebc13bec16ee3a6be4f3f08597ecb9ab8",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
