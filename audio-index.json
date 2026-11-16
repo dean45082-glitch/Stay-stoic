@@ -12534,6 +12534,13 @@
       "sha256": "addc5b320dd7f484577277586e99f90114f0f073edbbdffb26e3aeb37d249524",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "I should've stayed calm.": {
+      "file": "audio/7db45a6e06cc55e91379e9c06fc6e6a84b8e4da342c9ba0ae1200de982c007a6.mp3",
+      "bytes": 21776,
+      "sha256": "aca16885ed36f969be71614c23338027cb018ad478f8684c5bc8a05e53b36650",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
