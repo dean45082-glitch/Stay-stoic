@@ -11904,6 +11904,13 @@
       "sha256": "d5b0df66190c7d8c6f0aa1b6f76644ada4efe43e62727572d048ceaec60d7703",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "You ought to have made your expectation clear.": {
+      "file": "audio/72bcbee8d0b77c29dea545a7d5ce26aaee66c335c1e635abeb853c521f11bf7b.mp3",
+      "bytes": 36823,
+      "sha256": "7b962970f8cc9c57eaf31ec9c5768f0187aa2f453f662356878e578b0f3ccd1c",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
