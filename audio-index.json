@@ -12947,6 +12947,13 @@
       "sha256": "2927ab723179cb3dc751abc429b1c73dc957858d30bdb766056b16a7751708f8",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "Although you face a setback, you stay calm.": {
+      "file": "audio/8dc14c2410b634f7fb0d9279211cb70f5328c049acdbdcf54c29fde4872ae126.mp3",
+      "bytes": 38077,
+      "sha256": "a3420fbb65cf82d2ea10f1a73300d44defd6d0b0f0805870faa3f4190515f05a",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
