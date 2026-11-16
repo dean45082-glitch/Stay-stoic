@@ -12975,6 +12975,13 @@
       "sha256": "ba165831270082b1004f0d07617009a48aec0598af11b29959903e646fa19ae2",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "He would have gone to the party if he hadn't been so tired.": {
+      "file": "audio/e69a4906307e955c8eecb07c5dc6bc1a7582af73345275dd7c0be44ac93cdc44.mp3",
+      "bytes": 44346,
+      "sha256": "bce56339e261c59e465e2fc846273fa718cbdb69ee51ee19b8820680c8d0cfd5",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
