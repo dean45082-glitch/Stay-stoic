@@ -13479,6 +13479,13 @@
       "sha256": "43e980ce3153f855f04a549c3c34aa53bd8a9f02b9a251f617ab2be4ba2c7a66",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "It took a second to grasp why everyone was laughing.": {
+      "file": "audio/9e4b2063804c3a0d219bcb50d2a8c1404a9d1ca9a65a92997d4f03e910c7a2e5.mp3",
+      "bytes": 44346,
+      "sha256": "c578ba8e0bccf72d75620a796869b4dd46a7489cad5f2e4d81e3ee18105d6971",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
     }
   }
 }
