@@ -12037,6 +12037,13 @@
       "sha256": "973e9cc564810414d140ce78784bd8bf09261c1050ae9ae74581043d3c07a4fb",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "If I could change one thing, it'd be my tone of voice.": {
+      "file": "audio/71ca60007635c5b534db815ffa152cce45f0706085165e75f4ebc36be791b9a3.mp3",
+      "bytes": 52287,
+      "sha256": "983d82769278dfe779fd00b3786eb6cdcfd8c72c0e5457b34dc5d13d49da6c55",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
