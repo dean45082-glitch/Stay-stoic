@@ -12359,6 +12359,13 @@
       "sha256": "1afd32e7682ecd1bab0cbfe72970a7aa09708f930eb013a26345d7aa07bd274b",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "By next year, I'll have been living here for a decade.": {
+      "file": "audio/229dafce529f60f482e1c0ae4354fd13c07201463321062fe8e355368ff700ac.mp3",
+      "bytes": 49362,
+      "sha256": "746c177b87963c6b121d8776c3b046b37718e30413f9eeeb54a57ca8883060c5",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
