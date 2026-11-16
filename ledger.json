@@ -15259,6 +15259,17 @@
       "voiceLabel": "LA guy",
       "modelId": "eleven_multilingual_v2",
       "day": 49
+    },
+    "32725eaa2812ccfbefc11e797dbe003425462f6b2ff21f141ff5ef36955c5f47": {
+      "status": "complete",
+      "batch": "amazon-five-voices-03",
+      "estimatedCredits": 38,
+      "bytes": 34315,
+      "sha256": "a825c20188b91f695dc67c002da963ae4b89a618262070622e1b9694379f7b47",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy",
+      "modelId": "eleven_multilingual_v2",
+      "day": 49
     }
   },
   "batches": {
@@ -15315,7 +15326,7 @@
       "cap": 7800,
       "estimate": 1085,
       "lastDay": 49,
-      "completed": 3
+      "completed": 4
     }
   },
   "voices": {
