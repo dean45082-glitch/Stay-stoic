@@ -13052,6 +13052,13 @@
       "sha256": "12966aec332978d3a5d12d89ec55be5e6c210b8f4fcdb1bea8fca9ddff7a3b2c",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "Once you accept it, the weight lifts.": {
+      "file": "audio/d79062758dd4a52bb9716ab484ab4d3a272bc67997450584ba1430e6028472b5.mp3",
+      "bytes": 31390,
+      "sha256": "bb5aba5ef548fd10bcdc53ba44255a45fc07a33c2dbc622c49cb665eb63f5594",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
