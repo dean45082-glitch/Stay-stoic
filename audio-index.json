@@ -11862,6 +11862,13 @@
       "sha256": "b78975dd35749d1e7158b7cfa2ae33486b16edd4bf7657a40a39aac58b62740a",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "In hindsight, we ought to have asked before assuming.": {
+      "file": "audio/acf63a19278013e9a66a00b3f7e6787ec22d1d7cdaffcb7a199ba467f671540d.mp3",
+      "bytes": 44346,
+      "sha256": "90212ff32fcc4210dc410782ea90812805cf09c0e8e3851a58f914b38fbdd078",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
