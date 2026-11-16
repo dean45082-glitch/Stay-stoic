@@ -13409,6 +13409,13 @@
       "sha256": "c2354e4dc29c10010861774fc9a9664eb1ca255e03cac52ec70daef07d1a3a6e",
       "voiceId": "YscMlI9nNgFEyG34UWMB",
       "voiceLabel": "Atlanta real"
+    },
+    "Open the curtains to maximize natural light. Leave early to minimize the risk of missing your flight.": {
+      "file": "audio/7650a3ed1f76af151e6f28fb163c656fdb1be46340f82de526687d427970a369.mp3",
+      "bytes": 83634,
+      "sha256": "eab8e2dc330cc6074ab3dcbf20b0718bf49a5f431feacef6e529e85b519f131f",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
