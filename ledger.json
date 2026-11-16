@@ -15149,6 +15149,17 @@
       "voiceLabel": "Eminem style",
       "modelId": "eleven_multilingual_v2",
       "day": 47
+    },
+    "3af0256721bd638ecbbe90dfa677cfd0774cb88204ad7d4df256461e98eca52e": {
+      "status": "complete",
+      "batch": "amazon-five-voices-02",
+      "estimatedCredits": 103,
+      "bytes": 81963,
+      "sha256": "86a74e62020a6aff461e1e5cc25cf1f0c86b1c476a46e6ff3de0f664df250048",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real",
+      "modelId": "eleven_multilingual_v2",
+      "day": 47
     }
   },
   "batches": {
@@ -15198,7 +15209,7 @@
       "cap": 25300,
       "estimate": 25027,
       "lastDay": 48,
-      "completed": 274
+      "completed": 275
     }
   },
   "voices": {
