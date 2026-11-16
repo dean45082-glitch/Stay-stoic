@@ -12408,6 +12408,13 @@
       "sha256": "0514a790d47eecaef700a2adae8ae99d912b24f87ff05a4ca74097c36899fcaf",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "By the time you talk to him, I will have finished.": {
+      "file": "audio/621098a6f62cd1b54bab09895dd1418c4b1f6a9816343b0aac9c0d05f965826e.mp3",
+      "bytes": 40585,
+      "sha256": "fb49c771a40fa9895ff977a0aee360caa97278301fc8f78bb45a03bcb8f63dcc",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
