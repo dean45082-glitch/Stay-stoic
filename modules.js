@@ -338,7 +338,7 @@
           author: 'SÉNECA',
           image: 'seneca.webp',
           done: amazonDone,
-          total: w.AMAZON_COURSE?.totalDays || 60,
+          total: w.AMAZON_COURSE?.lessons?.length ?? 0,
           onClick: () => onSelect('amazon')
         })
       )
