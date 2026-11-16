@@ -12590,6 +12590,13 @@
       "sha256": "00f09b063d9be8abf690e7996ea39f069162b6927abcceeca13b915e1f4acde2",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "It can't have been as bad as it seemed.": {
+      "file": "audio/59cc265906c0394d7d03793ef54798e214ff012fc2cf039062b3929ed58f1ceb.mp3",
+      "bytes": 30136,
+      "sha256": "c6f7c9d495c0ae668fbf1bcdcce948b76b18f6e66213c88ddb4ba3008a2e3f4b",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
