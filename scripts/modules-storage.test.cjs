@@ -29,7 +29,7 @@ test('module shell contains the three requested modules and busts', () => {
   assert.match(modules, /English My Way/);
   assert.match(modules, /My Way to C1/);
   assert.match(modules, /My Way Up at Amazon/);
-  assert.match(modules, /app-icon\.webp/);
+  assert.match(modules, /marcus-aurelius\.webp/);
   assert.match(modules, /epictetus\.webp/);
   assert.match(modules, /seneca\.webp/);
   assert.match(modules, /onSelect\('amazon'\)/);
