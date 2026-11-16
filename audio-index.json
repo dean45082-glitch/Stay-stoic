@@ -13416,6 +13416,13 @@
       "sha256": "eab8e2dc330cc6074ab3dcbf20b0718bf49a5f431feacef6e529e85b519f131f",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "The town is phasing out its old parking meters.": {
+      "file": "audio/2c8dd4d6089bfb6fa785c44d0ce72c6e3d87945bed19f40d11635d1800ad92e9.mp3",
+      "bytes": 40585,
+      "sha256": "ca53f553c8dc81781f878de84a5bd7917c990a4a49b6d97a6f0ddc8e58bd7fe0",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
     }
   }
 }
