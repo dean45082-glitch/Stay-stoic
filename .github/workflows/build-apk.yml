@@ -1,7 +1,7 @@
 name: My Way and C1 approved audio and APK
 on:
   push:
-    branches: [my-way-c1-approved-apk]
+    branches: [my-way-c1-sifrino-apk]
 permissions:
   contents: write
 concurrency:

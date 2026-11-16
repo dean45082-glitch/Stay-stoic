@@ -1,7 +1,7 @@
 'use strict';
 const fs=require('node:fs'),vm=require('node:vm'),crypto=require('node:crypto'),{execFileSync}=require('node:child_process');
 const {validate}=require('./generate-audio.cjs');
-const labels=['NY sofisticado','Eminem style','New Yorker Sifrino','New Yorker super slam','Maine Guy','Atlanta real','LA guy'];
+const labels=['New Yorker Sifrino','Eminem style','New Yorker Sifrino','New Yorker super slam','Maine Guy','Atlanta real','LA guy'];
 const store=process.argv[2],batch='my-way-and-c1-through48',cap=13771,model='eleven_multilingual_v2';
 const norm=t=>String(t).normalize('NFC').replace(/\s+/g,' ').trim();
 const hash=t=>crypto.createHash('sha256').update(t).digest('hex');
@@ -31,8 +31,8 @@ async function main(){
  const get=async route=>{const r=await fetch(api+route,{headers:{'xi-api-key':key},signal:AbortSignal.timeout(20000)});if(!r.ok)throw Error('ElevenLabs access check HTTP '+r.status+' '+route);return r.json();};
  const sub=await get('/v1/user/subscription').catch(()=>null);
  if(sub&&Number.isFinite(sub.character_limit)&&Number.isFinite(sub.character_count)&&sub.character_limit-sub.character_count<total)throw Error('Insufficient credit balance');
- const id0='WbNN0ZquKxio6sawH5yC';const ny=await get('/v1/voices/'+id0);if(ny.voice_id!==id0||(ny.voice_multiplier??1)>1)throw Error('NY sofisticado not verified');
- const ids=[id0];for(const name of labels.slice(1)){const a=(await get('/v2/voices?search='+encodeURIComponent(name))).voices.filter(v=>v.name.toLowerCase()===name.toLowerCase());if(a.length!==1||a[0].category!=='generated'||(a[0].voice_multiplier??1)>1)throw Error('Voice unavailable: '+name);ids.push(a[0].voice_id);}
+ const ids=[];const verified=new Map();for(const name of labels){if(!verified.has(name)){const a=(await get('/v2/voices?search='+encodeURIComponent(name))).voices.filter(v=>v.name.toLowerCase()===name.toLowerCase());if(a.length!==1||a[0].category!=='generated'||(a[0].voice_multiplier??1)>1)throw Error('Voice unavailable: '+name);verified.set(name,a[0].voice_id);}ids.push(verified.get(name));}
+ if(ids[0]!=='tMVTGjBHMRBk0HpbxEiG'||ids[1]!=='VcxTwjcCv1kVfys2U7LT')throw Error('Unexpected My Way voice IDs');
  const git=(...args)=>execFileSync('git',args,{cwd:store,stdio:'pipe',timeout:120000});
  const persist=msg=>{save('ledger.json',ledger);save('audio-index.json',ix);fs.writeFileSync(store+'/audio-index.js','window.STOIC_AUDIO_INDEX = '+JSON.stringify(ix)+';\n');git('add','audio','ledger.json','audio-index.json','audio-index.js');git('commit','-m',msg);git('push','origin','HEAD:audio-assets');};
  ledger.batches[batch]={status:'running',cap,estimate:total,completed:0};persist('Reserve My Way and C1 audio batch');
