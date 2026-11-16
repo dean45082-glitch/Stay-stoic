@@ -11200,6 +11200,17 @@
       "voiceLabel": "Atlanta real",
       "modelId": "eleven_multilingual_v2",
       "day": 3
+    },
+    "fe81e1aa221c3e816375714db54a4c6e6c2559d7251b39565d5f9db2cdc4bf52": {
+      "status": "complete",
+      "batch": "amazon-five-voices-01",
+      "estimatedCredits": 38,
+      "bytes": 28464,
+      "sha256": "de5e79b2aca9c749884e8c866c58fc761faa44a345c4e64a2358a72dbdbb454e",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino",
+      "modelId": "eleven_multilingual_v2",
+      "day": 3
     }
   },
   "batches": {
@@ -11242,7 +11253,7 @@
       "cap": 10000,
       "estimate": 9963,
       "lastDay": 13,
-      "completed": 27
+      "completed": 28
     }
   },
   "voices": {
