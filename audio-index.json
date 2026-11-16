@@ -9843,6 +9843,20 @@
       "sha256": "98de35282b7065b8d3ef5194d128937d34d019f19943fc6b958ca59c3fdff0db",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "amazon-audio:D27:dialogue:0:4": {
+      "file": "audio/62903179a0fb41e84b879b1d64c707bcef86d915e65a35fee5c1bcd4170940ac.mp3",
+      "bytes": 94083,
+      "sha256": "9b3988dee1f827fb6428f9b566ef6cbdd81778dbcb733bde8b95dc76e08d93d4",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "amazon-audio:D27:model:3": {
+      "file": "audio/62903179a0fb41e84b879b1d64c707bcef86d915e65a35fee5c1bcd4170940ac.mp3",
+      "bytes": 94083,
+      "sha256": "9b3988dee1f827fb6428f9b566ef6cbdd81778dbcb733bde8b95dc76e08d93d4",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
