@@ -9395,6 +9395,13 @@
       "sha256": "9e5efc8ce26f58a74af0c88dab2fc1f9e6aca6638f7e3032739e4b359333c5d6",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "amazon-audio:D21:dialogue:3:3": {
+      "file": "audio/6ad8c94d3c3914c340d095e7a57039dd652234795b3c80cb97a6316901ef020f.mp3",
+      "bytes": 120833,
+      "sha256": "53bb59c69948145de6678d47c5943e861ad64922dc783c2838bd197d9a7dc807",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
