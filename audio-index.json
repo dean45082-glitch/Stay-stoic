@@ -13465,6 +13465,13 @@
       "sha256": "ffdb1bb264d70e7cd862f4c9944bf931323d93196ed8b91b266a9b42f068cf8c",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "We contemplated moving the book club online. To assess the idea, we evaluated attendance records and scrutinized the dates when people dropped out. That made us ponder a smaller change: starting later rather than abandoning in-person meetings.": {
+      "file": "audio/7abd5e0e0c8399f72b6cf2d4356882a0e354a539266da07016ec4ee023e6a576.mp3",
+      "bytes": 234518,
+      "sha256": "8cedb0da2117fa508ee72caad707a268311e20aff79eb16a50fe4296133b45b8",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
