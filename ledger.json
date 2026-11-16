@@ -11948,6 +11948,17 @@
       "voiceLabel": "New Yorker super slam",
       "modelId": "eleven_multilingual_v2",
       "day": 11
+    },
+    "e343aa3f66bd6f71129b0eca6e40b7382b754332eced9e5950d26c1a0ac5d498": {
+      "status": "complete",
+      "batch": "amazon-five-voices-01",
+      "estimatedCredits": 102,
+      "bytes": 89486,
+      "sha256": "f4dee430d3e4abf89a63868f97e9a8c19467971495dd43792406fd80e0b42df5",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style",
+      "modelId": "eleven_multilingual_v2",
+      "day": 12
     }
   },
   "batches": {
@@ -11990,7 +12001,7 @@
       "cap": 10000,
       "estimate": 9963,
       "lastDay": 13,
-      "completed": 95
+      "completed": 96
     }
   },
   "voices": {
