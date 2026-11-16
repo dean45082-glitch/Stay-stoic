@@ -12737,6 +12737,13 @@
       "sha256": "3c438d55226dccf054e6f230efa6848edcaa99b5ac1e5a9d31bbfb7a831efe43",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "If I let my guard down, I might lose my edge.": {
+      "file": "audio/fdeaf673cf2152903b2fd5d3baf13af860c82caa05252e514d58c7d5b3a635ac.mp3",
+      "bytes": 40585,
+      "sha256": "936a87b0cf802efb1b06ae1950dc7bc33976c1ac0faf76af91c22a3b7d5f238d",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
