@@ -12800,6 +12800,13 @@
       "sha256": "5bded3d8267d96b474d344a35c1ce2ef425c9d81053b860358c51a22083996c9",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "If he had stayed hungry from the start, he would've felt better.": {
+      "file": "audio/f363d7d75ffaeb53da4527f08b4d7b956570071469b59c510eda8e08a48e3d69.mp3",
+      "bytes": 46436,
+      "sha256": "2c089ee08ab5a73715e40f8f936bac8ca23b36a59cc95171c9e6113eb52fa276",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
