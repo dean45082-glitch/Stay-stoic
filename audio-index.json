@@ -13549,6 +13549,13 @@
       "sha256": "521a36630259d93f369ba8933a958139d75a99f8478a694db92437933de2c963",
       "voiceId": "4RNt0zdgATxEX0rq2bVG",
       "voiceLabel": "New Yorker super slam"
+    },
+    "The town planted trees to mitigate the effects of extreme heat.": {
+      "file": "audio/f043cccd104d0ffd7674afca09f559677817fb8af63182c07d7998c59f577369.mp3",
+      "bytes": 53959,
+      "sha256": "00ef2bfb9e6476483e4ceea4b00e172af7b8f1401e9911b00fd97261148e889a",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
