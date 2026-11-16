@@ -13,6 +13,128 @@ function write(key,v){try{localStorage.setItem(key,JSON.stringify(v))}catch(e){c
 function defMeta(){return{day:1,streak:0,lastCompletedDay:0,lastMarkedDay:0,completedDays:[]}}
 function getRate(){try{const n=Number(localStorage.getItem(RATE));return Number.isFinite(n)&&n>=.6&&n<=1.4?n:1}catch{return 1}}
 function setRate(n){n=Math.max(.6,Math.min(1.4,Number(n)||1));try{localStorage.setItem(RATE,String(n))}catch{};try{w.StoicAudio?.setRate(n)}catch{};return n}
+const remixCases=[
+  [4,1,4,'V06','Verify the sensor and display','Line 3 has stopped after a sensor alignment issue, and the pick-to-light screen at the receiving station is blank. The tray has been moved clear. RME has not confirmed a repair.',
+    'Can you check on the Line 3 sensor and tell me whether the display is responding?',
+    'The tray is clear, but the sensor and display still need separate checks.',
+    'I will keep the affected station unavailable until I get the test result.','Both stations are ready because the tray is clear.'],
+  [8,5,39,'V10','Report a growing tray queue','Trays begin to accumulate behind the guide rail after the merge briefly restarts. The queue is visible upstream, but the cause of the new stoppage is still unknown.',
+    'Trays are backing up before the merge again.',
+    'A brief restart moved a few trays. It did not clear the queue.',
+    'I will report where the queue starts and ask Flow to confirm the next step.','The original repair failed, so we know which part needs replacing.'],
+  [12,9,40,'V09','Confirm where scanning is available','The tote scanner at induct goes offline. A handheld scanner is present, but it has not read a test tote. Another station has just confirmed a successful scan.',
+    'The induct scanner went down during the last batch.',
+    'The handheld is available, but we have not verified it. The other station has completed a test scan.',
+    'I will confirm capacity at the tested station before sending any totes.','Use the handheld immediately because it is already at induct.'],
+  [16,16,50,'V03','Switch printers and verify the label','The label printer stops responding at Pack. A test document appeared at a different printer earlier in the shift. The alternate device is available, and its output location still needs confirming.',
+    'We can switch over to the alternate printer once we confirm where the label comes out.',
+    'The print job was accepted, but we have not matched the output to this station.',
+    'I will run one test label and confirm the destination before sending the batch.','The job was accepted, so all labels must be printing at the expected station.'],
+  [20,20,37,'V08','Report an intermittent station fault','A screen responds normally for a few minutes, then stops accepting keyboard input. It briefly recovers after a restart. No one has confirmed whether the display, keyboard, or connection is responsible.',
+    'The display cuts out after a few minutes, even after a restart.',
+    'We observed a loss of input twice. We have not isolated the cause.',
+    'I will note the time and what stopped responding, then share it with RME.','The keyboard is definitely broken because the screen stopped responding.'],
+  [24,22,23,'V07','Trace recirculation during recovery','During gridlock recovery, empty trays begin recirculating again. Two teams report different points where the buildup starts. Flow needs an update before increasing volume.',
+    'Can you look into where the trays start recirculating?',
+    'We have two reports. We can confirm the buildup, but we cannot yet confirm where it began.',
+    'I will compare the times and locations before giving Flow a cause.','The first location reported must be the source of the blockage.'],
+  [28,26,59,'V02','Redirect an associate clearly','Flow asks one associate to change stations. The original handover lists the west side, but a follow-up message names a different reporting point. The person covering the original station is ready.',
+    'Please move over to the receiving station once I confirm the reporting point.',
+    'Your original station is covered. I am checking which location Flow wants you to use.',
+    'I will repeat the confirmed location and ask you to acknowledge it.','Go to the first station mentioned, even though Flow sent a later update.'],
+  [32,29,32,'V05','Maintain pace while handling exceptions','Pack reports missing items and induct is seeing a rise in exceptions. Verified totes can still move, and several held totes need follow-up.',
+    'We can keep up with incoming work if we separate the held totes from the verified ones.',
+    'We can move the verified totes while the missing items are being checked.',
+    'I will tell both teams what is held, what can move, and when to expect an update.','Release all held totes now so we can maintain the rate.'],
+  [36,34,57,'V14','Backfill before a labor move','A work area is considering opening an extra wall. Flow also requests an associate for labor share. The requested associate is trained, but no replacement for their current position has been confirmed.',
+    'Can we backfill the current position before we send the associate?',
+    'Training is confirmed. Coverage and staffing at the proposed wall are still pending.',
+    'I will confirm coverage and report when the associate can move.','Training is enough, so we can move the associate and open the wall now.'],
+  [40,36,49,'V13','Request a spare and verify the result','Two handovers disagree about a connection fault. A replacement is connected at the station, but nobody has confirmed a successful output test.',
+    'Is there a spare connector available if RME needs it?',
+    'The replacement is connected. Its output still needs to be verified.',
+    'I will keep the handover marked pending until we confirm the test result.','The station is fixed because a replacement has been connected.'],
+  [44,39,45,'V04','Recover the queue after a restart','The merge restarts and moves a small batch, then trays start building up again. The next team needs to know how much work is left and what has been verified.',
+    'We have started to catch up, but the queue is building again.',
+    'The restart moved one batch. The line is still accumulating trays upstream.',
+    'I will report the remaining queue and ask Flow for the next check-in.','We are caught up because the first batch moved after the restart.'],
+  [48,16,53,'V11','Report low label stock at handover','The printer is working after a confirmed test, but its station has only a short roll of labels left. The handover says there is a full spare. The supply bin has not been checked.',
+    'We are running low on labels at Pack.',
+    'The printer passed its test. I have not confirmed that a spare roll is in the bin.',
+    'I will check the bin and tell the next shift where to get a replacement.','We have already run out of labels, so every Pack station must stop.'],
+  [53,30,53,'V12','Describe why a package needs resealing','A package is rejected after a larger box is selected. The contents match the order, but the top flap has lifted. The next handover needs a specific reason for the exception.',
+    'Please seal the replacement box and check that the top flap stays closed.',
+    'The order contents match. The package was held because the flap was open.',
+    'I will update the handover with the packaging issue and the result of the next check.','The package was rejected, so we know it contained the wrong items.'],
+  [58,22,55,'V01','Recover part of the lost volume','After a gridlock, the receiving area can take a small batch. Some work has been recovered, but the remaining queue and full receiving capacity have not been confirmed.',
+    'We can claw back some of the lost volume if the receiving area confirms it can take another batch.',
+    'We have cleared the first batch. The rest of the backlog still needs a capacity check.',
+    'I will give Flow the confirmed volume and state what remains open.','The backlog is cleared because the receiving area accepted the first batch.']
+];
+const oldDayToNew=new Map();
+
+function buildAmazonSequence(course){
+  const existing=course.lessons;
+  const after=new Map(remixCases.map(row=>[row[0],row]));
+  const sequence=[];
+  const linkedCases=new Map();
+  for(const lesson of existing){
+    oldDayToNew.set(lesson.day,sequence.length+1);
+    sequence.push({...lesson,day:sequence.length+1});
+    const row=after.get(lesson.day);
+    if(!row)continue;
+    const [position,first,second,focus,title,scenario,request,evidence,next,wrong]=row;
+    const sources=[existing[first-1],existing[second-1]];
+    const phrase=course.vocabulary.find(entry=>entry.id===focus);
+    const id='AMZ-MIX-'+String(position).padStart(2,'0');
+    for(const source of new Set(sources.flatMap(item=>item.source_ids||[]))){
+      const ids=linkedCases.get(source)||[];
+      ids.push(id);
+      linkedCases.set(source,ids);
+    }
+    sequence.push({
+      id,day:sequence.length+1,title,scenario,
+      source_ids:[...new Set(sources.flatMap(item=>item.source_ids||[]))],
+      vocabulary_ids:[focus,...new Set(sources.flatMap(item=>item.vocabulary_ids||[]))],
+      objective:'Use “'+(focus==='V01'?'claw back':phrase.term)+'” to '+title.charAt(0).toLowerCase()+title.slice(1)+'.',
+      models:[request,evidence,next],
+      dialogue_variants:[[
+        {speaker:'Lead',text:'What should the next shift know?'},
+        {speaker:'Associate',text:evidence},
+        {speaker:'Lead',text:request},
+        {speaker:'Associate',text:next}
+      ]],
+      activities:[
+        {type:'listen_select',prompt:'Which update stays within the evidence from this situation?',options:[wrong,evidence],correct_index:1,feedback:'The supported update is: '+evidence},
+        {type:'decision',prompt:'What should you do next in this situation?',options:[next,wrong],correct_index:0,feedback:'This next step keeps the handover tied to checks the team can confirm.'}
+      ],
+      short_application:{
+        prompt:'Give a short handover. Use “'+(focus==='V01'?'claw back':phrase.term)+'” and one term from Vocabulario del día. Say what is confirmed and what still needs a check.',
+        model:request+' '+evidence+' '+next
+      }
+    });
+  }
+  const situations={...course.situations,entries:course.situations.entries.map(entry=>{
+    const added=linkedCases.get(entry.source_id);
+    return added?{...entry,lesson_ids:[...new Set([...(entry.lesson_ids||[]),...added])]}:entry;
+  })};
+  return {...course,lessons:sequence,situations};
+}
+
+if(w.AMAZON_COURSE?.lessons?.length===60){
+  w.AMAZON_COURSE=buildAmazonSequence(w.AMAZON_COURSE);
+}
+
+function loadAmazonMeta(){
+  const meta=read(META,defMeta());
+  if(!oldDayToNew.size||meta.sequenceVersion===1)return meta;
+  const move=day=>oldDayToNew.get(day)||0;
+  const migrated={...meta,sequenceVersion:1,day:move(meta.day)||1,
+    lastCompletedDay:move(meta.lastCompletedDay),lastMarkedDay:move(meta.lastMarkedDay),
+    completedDays:[...new Set((meta.completedDays||[]).map(move).filter(Boolean))].sort((a,b)=>a-b)};
+  return migrated;
+}
+
 function pct(done,total){return total?Math.round(done/total*100):0}
 function Progress({value}){return h('div',{style:{height:6,background:C.bg,borderRadius:999,overflow:'hidden',marginTop:10}},h('div',{style:{width:Math.max(value?3:0,value)+'%',height:'100%',background:C.bronze,borderRadius:999}}))}
 function Title({n,title,sub}){return h('div',{style:{display:'flex',alignItems:'center',gap:11,marginBottom:13}},h('div',{style:{width:32,height:32,borderRadius:'50%',border:'1px solid '+C.bronze,color:C.bronzeLight,display:'flex',alignItems:'center',justifyContent:'center',fontSize:12,fontWeight:800,flexShrink:0}},n),h('div',null,h('div',{style:{color:C.marble,fontFamily:serif,fontSize:18,lineHeight:1.15}},title),sub&&h('div',{style:{color:C.dim,fontSize:11,marginTop:3,lineHeight:1.4}},sub)))}
@@ -202,6 +324,17 @@ function Lesson({lesson,meta,record,onPatch,onComplete,reference}){
     h('div',{style:{display:'grid',gridTemplateColumns:'1fr 1fr',gap:8}},...reviewButtons)
   ));
 
+  const wordById=new Map((w.AMAZON_COURSE.vocabulary||[]).map(entry=>[entry.id,entry]));
+  const dayWords=(lesson.vocabulary_ids||[]).map(id=>wordById.get(id)).filter(Boolean);
+  if(dayWords.length)pieces.push(h('section',{key:'day-vocab',style:card},
+    h(Title,{n:'8',title:'Vocabulario del día',sub:'Intenta explicar cada término en inglés y abre la definición para comprobarlo.'}),
+    ...dayWords.map(entry=>h('details',{key:entry.id,style:{padding:'8px 0',borderBottom:'1px solid '+C.line}},
+      h('summary',{style:{cursor:'pointer',fontWeight:700}},entry.term),
+      h('p',{style:{color:C.dim,fontSize:13}},entry.meaning),
+      h(StudyAudio,{text:entry.term,label:'Escuchar '+entry.term,rate:r,status:setStatus})
+    ))
+  ));
+
   const speedButtons=[.75,.8,1,1.15].map(n=>h('button',{
     key:n,
     onClick:()=>setR(setRate(n)),
@@ -223,6 +356,6 @@ function Lesson({lesson,meta,record,onPatch,onComplete,reference}){
 
   return h('div',null,...pieces);
 }
-function AmazonApp(){const course=w.AMAZON_COURSE,[meta,setMeta]=useState(()=>read(META,defMeta())),[progress,setProgress]=useState(()=>read(PROGRESS,{})),[view,setView]=useState('home'),[activeDay,setActiveDay]=useState(meta.day||1),[reference,setReference]=useState(null);useEffect(()=>{try{w.StoicAudio?.stop?.()}catch{}w.resetStayStoicScroll()},[view,activeDay]);if(!course?.lessons?.length)return h('div',{style:{minHeight:'100vh',background:C.bg,color:C.marble,padding:24,fontFamily:sans}},'No se pudo cargar My Way Up at Amazon.');const total=course.lessons.length,lesson=course.lessons[Math.max(0,Math.min(total-1,activeDay-1))],record=progress[lesson?.id]||{};const saveMeta=n=>{setMeta(n);write(META,n)},saveProgress=n=>{setProgress(n);write(PROGRESS,n)},open=(d,source=null)=>{setReference(source);setActiveDay(Math.max(1,Math.min(total,d)));setView('day')},openId=(id,source)=>{const l=course.lessons.find(x=>x.id===id);if(l)open(l.day,source)},patch=p=>{const n={...progress,[lesson.id]:{...(progress[lesson.id]||{}),...p,lessonId:lesson.id,updatedAt:Date.now()}};saveProgress(n)},complete=()=>{if(meta.completedDays?.includes(activeDay))return;const completedDays=[...(meta.completedDays||[]),activeDay].sort((a,b)=>a-b),seq=activeDay===meta.day,nextDay=seq?Math.min(total,activeDay+1):meta.day,streak=seq?(meta.lastCompletedDay===activeDay-1||activeDay===1?(meta.streak||0)+1:1):meta.streak||0;saveMeta({...meta,day:nextDay,lastMarkedDay:activeDay,lastCompletedDay:Math.max(meta.lastCompletedDay||0,activeDay),streak,completedDays});setView('home')};return h('div',{style:{minHeight:'100vh',background:C.bg,color:C.marble,fontFamily:sans}},h('div',{style:{maxWidth:520,margin:'0 auto',padding:'22px 18px 42px'}},view==='home'&&h(Home,{meta,onDay:()=>open(meta.day||1),onCalendar:()=>setView('calendar'),onVocab:()=>setView('vocabulary'),onSituations:()=>setView('situations')}),view==='calendar'&&h(React.Fragment,null,h('button',{onClick:()=>setView('home'),style:{...ghost,marginBottom:16}},'‹ Inicio Amazon'),h(Calendar,{meta,onPick:open})),view==='vocabulary'&&h(React.Fragment,null,h('button',{onClick:()=>setView('home'),style:{...ghost,marginBottom:16}},'‹ Inicio Amazon'),h(Vocabulary)),view==='situations'&&h(React.Fragment,null,h('button',{onClick:()=>setView('home'),style:{...ghost,marginBottom:16}},'‹ Inicio Amazon'),h(Situations,{onOpenLesson:openId})),view==='day'&&h(React.Fragment,null,h('button',{onClick:()=>setView('home'),style:{...ghost,marginBottom:16}},'‹ Inicio Amazon'),h(Lesson,{key:lesson.id,lesson,meta,record,onPatch:patch,onComplete:complete,reference}))))}
+function AmazonApp(){const course=w.AMAZON_COURSE,[meta,setMeta]=useState(loadAmazonMeta),[progress,setProgress]=useState(()=>read(PROGRESS,{})),[view,setView]=useState('home'),[activeDay,setActiveDay]=useState(meta.day||1),[reference,setReference]=useState(null);useEffect(()=>{try{w.StoicAudio?.stop?.()}catch{}w.resetStayStoicScroll?.()},[view,activeDay]);if(!course?.lessons?.length)return h('div',{style:{minHeight:'100vh',background:C.bg,color:C.marble,padding:24,fontFamily:sans}},'No se pudo cargar My Way Up at Amazon.');const total=course.lessons.length,lesson=course.lessons[Math.max(0,Math.min(total-1,activeDay-1))],record=progress[lesson?.id]||{};const saveMeta=n=>{setMeta(n);write(META,n)},saveProgress=n=>{setProgress(n);write(PROGRESS,n)},open=(d,source=null)=>{setReference(source);setActiveDay(Math.max(1,Math.min(total,d)));setView('day')},openId=(id,source)=>{const l=course.lessons.find(x=>x.id===id);if(l)open(l.day,source)},patch=p=>{const n={...progress,[lesson.id]:{...(progress[lesson.id]||{}),...p,lessonId:lesson.id,updatedAt:Date.now()}};saveProgress(n)},complete=()=>{if(meta.completedDays?.includes(activeDay))return;const completedDays=[...(meta.completedDays||[]),activeDay].sort((a,b)=>a-b),seq=activeDay===meta.day,nextDay=seq?(course.lessons.find(l=>l.day>activeDay&&!completedDays.includes(l.day))?.day||course.lessons.find(l=>!completedDays.includes(l.day))?.day||total):meta.day,streak=seq?(meta.lastCompletedDay===activeDay-1||activeDay===1?(meta.streak||0)+1:1):meta.streak||0;saveMeta({...meta,day:nextDay,lastMarkedDay:activeDay,lastCompletedDay:Math.max(meta.lastCompletedDay||0,activeDay),streak,completedDays});setView('home')};return h('div',{style:{minHeight:'100vh',background:C.bg,color:C.marble,fontFamily:sans}},h('div',{style:{maxWidth:520,margin:'0 auto',padding:'22px 18px 42px'}},view==='home'&&h(Home,{meta,onDay:()=>open(meta.day||1),onCalendar:()=>setView('calendar'),onVocab:()=>setView('vocabulary'),onSituations:()=>setView('situations')}),view==='calendar'&&h(React.Fragment,null,h('button',{onClick:()=>setView('home'),style:{...ghost,marginBottom:16}},'‹ Inicio Amazon'),h(Calendar,{meta,onPick:open})),view==='vocabulary'&&h(React.Fragment,null,h('button',{onClick:()=>setView('home'),style:{...ghost,marginBottom:16}},'‹ Inicio Amazon'),h(Vocabulary)),view==='situations'&&h(React.Fragment,null,h('button',{onClick:()=>setView('home'),style:{...ghost,marginBottom:16}},'‹ Inicio Amazon'),h(Situations,{onOpenLesson:openId})),view==='day'&&h(React.Fragment,null,h('button',{onClick:()=>setView('home'),style:{...ghost,marginBottom:16}},'‹ Inicio Amazon'),h(Lesson,{key:lesson.id,lesson,meta,record,onPatch:patch,onComplete:complete,reference}))))}
 w.StayStoicAmazonApp=AmazonApp;
 })(window);
