@@ -12254,6 +12254,13 @@
       "sha256": "eb69030b59d5b3f5b338a257c452b40a047d454a632d0996e52cdbc53d202efb",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She wouldn't have reacted that way if she had known the truth.": {
+      "file": "audio/ed67b398b4bb52371bbcce50ba5c6e23dbfe4671e4ca7fa339727d47563d2027.mp3",
+      "bytes": 51034,
+      "sha256": "1fbc764afafefbe8ae39d686b602348e98e97e4a8421898152bf132c1d0b8ce6",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
