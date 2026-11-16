@@ -8737,6 +8737,34 @@
       "sha256": "792abcdbde66591dc4f3c16f0f4782675fb58bf0b7d534c76b7f53e023619c93",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "amazon-audio:D14:dialogue:2:1": {
+      "file": "audio/ec080bed330c72d704c0f64c4660c8b4058341e21ce8058af47a1ae75e177e62.mp3",
+      "bytes": 84888,
+      "sha256": "e87259e90f84c8a15effcfe666dc89c5245129d2df44e713e000718b61f672d6",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D14:model:4": {
+      "file": "audio/ec080bed330c72d704c0f64c4660c8b4058341e21ce8058af47a1ae75e177e62.mp3",
+      "bytes": 84888,
+      "sha256": "e87259e90f84c8a15effcfe666dc89c5245129d2df44e713e000718b61f672d6",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D47:dialogue:2:1": {
+      "file": "audio/ec080bed330c72d704c0f64c4660c8b4058341e21ce8058af47a1ae75e177e62.mp3",
+      "bytes": 84888,
+      "sha256": "e87259e90f84c8a15effcfe666dc89c5245129d2df44e713e000718b61f672d6",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D47:model:1": {
+      "file": "audio/ec080bed330c72d704c0f64c4660c8b4058341e21ce8058af47a1ae75e177e62.mp3",
+      "bytes": 84888,
+      "sha256": "e87259e90f84c8a15effcfe666dc89c5245129d2df44e713e000718b61f672d6",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
     }
   }
 }
