@@ -11953,6 +11953,13 @@
       "sha256": "cf5d49d7c40dcac3000c23e6cde7d6d9f01505bbcaadf8f199b3b62157ff7da8",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I ought to have responded with more responsibility.": {
+      "file": "audio/63c29b5d2216d7291296c0ffa7435ea9bb35ebd6af337bca354bf957f815b75d.mp3",
+      "bytes": 44764,
+      "sha256": "2eb4826c81e1efe4b849f90b3070574c39baaa5bdd150e6ed74c7ac99b36bd1f",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
