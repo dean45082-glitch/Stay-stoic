@@ -13234,6 +13234,13 @@
       "sha256": "ef6e43d60a2081be4b2fe0ae2c2091ff9256ca666f770bba77469bfe39d45644",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She's been learning and growing.": {
+      "file": "audio/cae38e598f2d9ed9779bb783f4fb664d0e4ebdd989646b9dc4040c689a0d3c70.mp3",
+      "bytes": 24702,
+      "sha256": "0fd3a381e78d4c307a6e698b7ecd7b3fb61142fc847663517e7d2ed5d539d2c6",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
