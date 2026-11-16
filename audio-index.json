@@ -12835,6 +12835,13 @@
       "sha256": "5931f95fb7f6f626701643db383eb52c44a4c2f708a13ab9a76500901260a1d9",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "If she had stayed hungry from the start, she would've felt better.": {
+      "file": "audio/93568a76e59e9b91fe2edca8d1806ac4aad41a6a6ecdcecc479362d2629c0b41.mp3",
+      "bytes": 50198,
+      "sha256": "782d268abb0aefbcc7da420bde613b2b2b0dbd7dc5e2cab16bb54b94d1910eb1",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
