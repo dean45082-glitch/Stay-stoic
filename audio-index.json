@@ -12793,6 +12793,13 @@
       "sha256": "461cb4e86369cda3c09a7667e4a4f6344ca527fc8aa59dc2328730b887a9ecf4",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "If I stayed silent, I'd probably regret it.": {
+      "file": "audio/01e1c36a48d5f783cc00115f1ed7c6fd6c79ea483712c77709d71b3f9e7de73b.mp3",
+      "bytes": 37659,
+      "sha256": "5bded3d8267d96b474d344a35c1ce2ef425c9d81053b860358c51a22083996c9",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
