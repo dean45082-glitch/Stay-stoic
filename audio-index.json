@@ -12023,6 +12023,13 @@
       "sha256": "a9455578065ec669542e12c6c5f1ec866a4c55e0df476ddf1a498a89a5c63e97",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "If you let their guard down, you would feel better.": {
+      "file": "audio/bf50acec82fb4a605d52697ad71b629356b06a1f413324804a2740060b612f31.mp3",
+      "bytes": 44346,
+      "sha256": "75374e720b22f918847171b8d51c4ea1b250d8b59688883d1a136a236e51b731",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
