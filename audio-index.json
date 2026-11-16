@@ -12681,6 +12681,13 @@
       "sha256": "bce857d93dfe1cde6034acc171c08cbebc13bec16ee3a6be4f3f08597ecb9ab8",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "We should've stayed calm.": {
+      "file": "audio/7f49946627b82813d65aa24086dea48d5392953c29ad56a72ca4d44550c18bd0.mp3",
+      "bytes": 22612,
+      "sha256": "94e90340e7c774b403e4184ae939270281228871c62177047ab9280b919ffce2",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
