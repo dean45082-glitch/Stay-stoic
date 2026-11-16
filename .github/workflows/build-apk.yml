@@ -1,7 +1,7 @@
-name: Amazon remaining five-voice batch and APK
+name: Amazon final five-voice batch and APK
 on:
   push:
-    branches: [amazon-five-voices-remaining-apk]
+    branches: [amazon-five-voices-complete-apk]
 permissions:
   contents: write
 concurrency:
@@ -34,7 +34,7 @@ jobs:
           if ! command -v ffmpeg >/dev/null; then sudo apt-get update && sudo apt-get install -y ffmpeg; fi
           git -C audio-store config user.name 'github-actions[bot]'
           git -C audio-store config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          node scripts/generate-amazon-remaining.cjs audio-store --live
+          node scripts/generate-amazon-final.cjs audio-store --live
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
@@ -60,11 +60,11 @@ jobs:
       - name: Build debug APK
         run: gradle assembleDebug
       - name: Rename APK
-        run: cp app/build/outputs/apk/debug/app-debug.apk StayStoic-Amazon-Dias-1-a-48.apk
+        run: cp app/build/outputs/apk/debug/app-debug.apk StayStoic-Amazon-Dias-1-a-60.apk
       - uses: actions/upload-artifact@v4
         with:
           name: StayStoic-V2-APK
-          path: StayStoic-Amazon-Dias-1-a-48.apk
+          path: StayStoic-Amazon-Dias-1-a-60.apk
 
       - uses: actions/upload-artifact@v4
         with:
