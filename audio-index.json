@@ -14,6 +14,9 @@
     },
     "nbaOefRJYbGbDU7PX7zP": {
       "label": "Maine Guy"
+    },
+    "tMVTGjBHMRBk0HpbxEiG": {
+      "label": "New Yorker Sifrino"
     }
   },
   "entries": {
@@ -6932,6 +6935,20 @@
       "sha256": "2e2f6c7da3b5fb30c95b40a7c1978883713a39bb08d51af9ee49fd491141d38a",
       "voiceId": "nbaOefRJYbGbDU7PX7zP",
       "voiceLabel": "Maine Guy"
+    },
+    "amazon-audio:D01:dialogue:1:1": {
+      "file": "audio/b596194c43397a259f1a99a641000fb08246548ad9efb51cb967fe02a88f6158.mp3",
+      "bytes": 74439,
+      "sha256": "7d1e2c30a01d0fa76df49ff40d5ef5c3a4541ceec5b7a3d52b0f824e0eeb85c2",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "amazon-audio:D01:model:2": {
+      "file": "audio/b596194c43397a259f1a99a641000fb08246548ad9efb51cb967fe02a88f6158.mp3",
+      "bytes": 74439,
+      "sha256": "7d1e2c30a01d0fa76df49ff40d5ef5c3a4541ceec5b7a3d52b0f824e0eeb85c2",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
