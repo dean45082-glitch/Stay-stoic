@@ -9108,6 +9108,20 @@
       "sha256": "7017ec2f32bd87cd6756132bf1dd69bbe636537eca573510221dbb5ea82052ab",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "amazon-audio:D18:dialogue:1:1": {
+      "file": "audio/d6b6c5081c32fa56f73ad31917ad651b75eb23b9fb23dbe1df50a5e87291f88d.mp3",
+      "bytes": 64408,
+      "sha256": "b068c10e60cd4710c1bae704f734ab071b3a1dbabb846b49e16e4f714fdc18c2",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "amazon-audio:D18:model:2": {
+      "file": "audio/d6b6c5081c32fa56f73ad31917ad651b75eb23b9fb23dbe1df50a5e87291f88d.mp3",
+      "bytes": 64408,
+      "sha256": "b068c10e60cd4710c1bae704f734ab071b3a1dbabb846b49e16e4f714fdc18c2",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
     }
   }
 }
