@@ -13185,6 +13185,13 @@
       "sha256": "ee3bf0967b4b113ffea60a29d9ad7d301907c61802ea90cd05ec55651b9d308a",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "I'm still learning, and I'm still growing.": {
+      "file": "audio/cf6ac6f3a50c8de8575a55311c9199f2eaa3e520ee8e69378eca65c4c6767656.mp3",
+      "bytes": 36823,
+      "sha256": "fb563218ab97bf63435af027ae77d84651fb3643de143da654f1719e50ff5c48",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
