@@ -12443,6 +12443,13 @@
       "sha256": "44d755ea6a7138321b837ecd32b57c0900db8f49994f43b2124aef198cb6e304",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "She'll have been waiting, and she'll have lost her patience.": {
+      "file": "audio/e90b9359094a2ef61c6c4ddfa918ce7f9eb73534ac7f2d98317fa6e22098c5a4.mp3",
+      "bytes": 47690,
+      "sha256": "b95efa14455635248bfbdfbc7ee73be8f30dcc8f4417f2138a9ec58ccb930ade",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
