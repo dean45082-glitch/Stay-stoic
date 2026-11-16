@@ -13262,6 +13262,13 @@
       "sha256": "fdf8276ba83841f9bf70039328d14675ee2dc984117671410dec5fdd9dedc1b9",
       "voiceId": "VcxTwjcCv1kVfys2U7LT",
       "voiceLabel": "Eminem style"
+    },
+    "Once my family is settled, I'll be anchored right where I'm supposed to be.": {
+      "file": "audio/229da6e3bbb9d307f4f34038194e975b5605eab6d2bf451af6f56db4d17c424a.mp3",
+      "bytes": 63572,
+      "sha256": "71191c39320e7509c9055240cd1101fa9167b72101baedf85d6f1f2092feb580",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
