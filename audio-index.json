@@ -12079,6 +12079,13 @@
       "sha256": "d0a93a24276de0e0b334b297b8359b139cccaea68774ea13303442c0a45a55fb",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "If I let go of control, what would happen?": {
+      "file": "audio/4491f09a8677847e5d3f399fc676b1c4b786522ea30207cb13379cbab3a0ce2f.mp3",
+      "bytes": 32225,
+      "sha256": "1491a540c007d205cc9733bae605c29d0f9f57e44bbf99da1ffd3ef77717a57e",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
