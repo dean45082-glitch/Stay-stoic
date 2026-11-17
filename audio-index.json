@@ -15635,6 +15635,76 @@
       "sha256": "b58f6661d96838a4cef36b37207bcc2734d0fd4588661791daade42bc31ac7d9",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "Report a permanent fix because one response was observed.": {
+      "file": "audio/ce777c546b2699c93362100350ba8b74832838e716d2c48f112b5f3b356ef46b.mp3",
+      "bytes": 46436,
+      "sha256": "a1d925ce3e05a43aa07fd98bf0a6825b27d42e0451d2c6bd0d2c2231c80c21c6",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "barcode": {
+      "file": "audio/5cab106c2d22fc382832853e89111a2b3f0e154b302b5db0d04c66d109952a67.mp3",
+      "bytes": 12999,
+      "sha256": "ec62aaf5b3ae7eb4eb511d40eac3cf00ebed2ce4d40ffb8366687dff8d2a0292",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "scanner": {
+      "file": "audio/5164521c38c6f14bfd67d178dfed9ec0d0c93c47e09c433e0ab4513640dcb4f1.mp3",
+      "bytes": 16761,
+      "sha256": "4e0ddc49618f46469c1967fe1d19f2002a4c08a48df71fea497d3901a4e137a0",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "battery": {
+      "file": "audio/27a6ab20bdbe5e8cd9de55059794e2af3dc5068661c9b887a050f1fadf2f4462.mp3",
+      "bytes": 15089,
+      "sha256": "65dc600d8943ce519cb868385ad7878bb73b385e97f37131e853faec953e2add",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "charger": {
+      "file": "audio/36fb6ec3e0df6001f22967098a15c2e669532d9cefa12cf5355fe00f91d5c60e.mp3",
+      "bytes": 16761,
+      "sha256": "dba796088cef8899bc99d1e303d377e82087e591cb92412554bb7a069fff7425",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "access": {
+      "file": "audio/c91c8ce3b00a04098be3c7efcbfe0240cb65d17fc3db55a3c12416f2b608f7ff.mp3",
+      "bytes": 12163,
+      "sha256": "4844070444c8ee21e716b8e270664a3e2b584cfc6fa30afc07bd3d7f66028655",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "label": {
+      "file": "audio/375f8f0bcbbc61f98fd9fb82f575e6af53b01d011ba5516c58a791422463ca1e.mp3",
+      "bytes": 14253,
+      "sha256": "f5d5590feb749f11a411e2ac7d23e983db62df9c74fbf8a9ed5ecf2e723f9fb8",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Line 3 has stopped after a sensor alignment issue, and the pick-to-light screen at the receiving station is blank. The tray has been moved clear. RME has not confirmed a repair.": {
+      "file": "audio/5afc3520a64a066376aef0798775e4f310bfa9cf82d64276948a24468f82ccec.mp3",
+      "bytes": 162211,
+      "sha256": "c2ef23181c32fcece8514666fcc8241f7a844529c47bcb246c8911f24474effd",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "Can you check on the Line 3 sensor and tell me whether the display is responding?": {
+      "file": "audio/461e03ffaf20b50be65214309d842ea26c23ee2d7982e76dd75e070b60dd10ec.mp3",
+      "bytes": 61065,
+      "sha256": "b3336a4f4c4f50c8bc5a0faa012cdb13ce9531897b9242c0ba20d7864f57476e",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "The tray is clear, but the sensor and display still need separate checks.": {
+      "file": "audio/03416b1cf66af3beb33525bf791e68a64788b452d1d4f61463f4386065501295.mp3",
+      "bytes": 61901,
+      "sha256": "f3298de2fbad0d7042e9183d09414616c0bc630d2fb91999df65802c96f711b1",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
     }
   }
 }
