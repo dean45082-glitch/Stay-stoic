@@ -15761,6 +15761,76 @@
       "sha256": "4dad0b93189a6b993ff4eeb36091cdb99c28419e52092b8a7e5d84d411f8024a",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "What should you do next in this situation?": {
+      "file": "audio/e6e88e5723f907bad0989212a37a4bbdcfe460f125f32486286f50e55a422f18.mp3",
+      "bytes": 33897,
+      "sha256": "39cd4619eaca474b65834b388808d3ef8e148022a1a01c48338213c593f8cb4f",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "This next step keeps the handover tied to checks the team can confirm.": {
+      "file": "audio/58f9225de09f4f341912f9208fb21625e0b8449583620647ddba6ba3976b78e8.mp3",
+      "bytes": 63572,
+      "sha256": "81ea0600444311ec6c9263219893d89b066e09e51203e0feff11eb26a5029f2c",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "Check on": {
+      "file": "audio/188beab9321b6322a435c3233a83fee2ced5867616dffb7a77201fd53a97c2d7.mp3",
+      "bytes": 12999,
+      "sha256": "26060cd893b97426284c6d7153b2a29156b6035352450bdfccf8ec2495541fb5",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Trays were getting stuck at the guide rail before reaching the inductor. Maintenance case — Induct 20 — tray guard clearance Trays were catching just before the scan zone. RME documented a mechanical alignment issue. Clearance between the tray guard and bed rail was approximately three-quarters of an inch. RME adjusted the rail to approximately two inches of clearance and completed the work order. The figures describe this intervention. Practice response I'd report exactly where the trays were catching and coordinate a maintenance window if the line could keep operating. If it couldn't, I'd coordinate a sort-out and opening another line.": {
+      "file": "audio/6ebcffd27b68dc43900f960da471325a6c3438880c60c5072fab1dd4c1749398.mp3",
+      "bytes": 514550,
+      "sha256": "ccbc2cb32fec8f3e02f22c0bfa3c40c70ed75bb6b4ff6fb9fd3ad26d07aa0d5b",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "Explain maintenance timing and preserve the uncertainty about the repair.": {
+      "file": "audio/f6a71694723419366c0a9cd79ae5b5a952792bf0ca00f62e16552699cd6d0ab4.mp3",
+      "bytes": 57721,
+      "sha256": "bb7c5c4c81320b40b05e2b711a5c3b6a62cc726b403d1b3059a2885f9283e8c5",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "Trays were getting stuck at the guide rail before reaching the inductor. I contacted RME and coordinated maintenance; during the most recent occurrence, the repair was scheduled for break. Although the line was operating again after break, the specific repair performed by RME remains unconfirmed.": {
+      "file": "audio/14533f47897884e50bdee11111c17a301728e3c29a2043850223ae2efcf5e7a6.mp3",
+      "bytes": 282583,
+      "sha256": "bdfac3153c37eed2874a2b42841b97201196e5bb4ce63c9acc31a000b5ee032d",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "RME definitely adjusted the rail by a specific distance.": {
+      "file": "audio/44b2f84e186a79c7017df40c4b932bbb3e3cfdc48919f8b23af7d1a57d3d1fba.mp3",
+      "bytes": 48526,
+      "sha256": "3c4061a9b3d1f1ebade25a2f6053416c88d65e68677e279450168a72b420695b",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "What does this original message communicate? “need AA to work WIP down”": {
+      "file": "audio/c2e79e18939960b3a342f8a7d58637e84661ce6919d5fb0c8f4fce0f66cf0328.mp3",
+      "bytes": 74021,
+      "sha256": "5252f01dc950f9b6af1d18f3de03b23f3897cc471bc02a858dc593555193b808",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "Support is requested to increase the amount waiting.": {
+      "file": "audio/83bed57a3cd5b685b165280fb99ad6f6e4161b648cbcde1caa589c5a659f1054.mp3",
+      "bytes": 42674,
+      "sha256": "b7e5630c3db4640b0e880e1c31bb62adca84090ae303df6c89a07f3ec9adb84d",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "The current WIP has been verified as zero.": {
+      "file": "audio/1461956a7d4febc2a9a6b660c25467c88f56fdc902281c32c5f16d8a31713ff9.mp3",
+      "bytes": 37659,
+      "sha256": "08141c5e1f96b47ef70caa75f688f1bec99e6b00a4660e92c43da985d93ec730",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
     }
   }
 }
