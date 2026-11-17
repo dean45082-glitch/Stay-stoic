@@ -16251,6 +16251,76 @@
       "sha256": "3e832851ca901d59ae78a215795fa2e0bb96a374caf665b42c83182e58d49470",
       "voiceId": "nbaOefRJYbGbDU7PX7zP",
       "voiceLabel": "Maine Guy"
+    },
+    "allocation": {
+      "file": "audio/fba5569adfac0ca5cd8c312548cfd4769ae502ad5235d70bfebd57aea769676a.mp3",
+      "bytes": 15925,
+      "sha256": "f8a447b557b1efaf0ad17be062ac7d35bf472ef8831f535754dfe5a271985241",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "training": {
+      "file": "audio/ab9178b63f8bb272604f499247de757a0b1939b1f69599cca92ff502d59b4365.mp3",
+      "bytes": 13835,
+      "sha256": "aab0d713803051e165a95f5e69f20e429f1472a50ceac3545cb114feaddc013a",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "team": {
+      "file": "audio/560fc9d869a4cd7c22dcbd6f6a6eb8a242c3bb68a7304b9082c2bb163426ae1e.mp3",
+      "bytes": 14253,
+      "sha256": "1dd8290ccc9389f6a77ac5ac8e1361432fea2b8f4e95deb3b5f50fb4f4738153",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "overtime": {
+      "file": "audio/7d082fa63d63667661c8a678b3cebb17bf804aafb8a91fc6555bee5415396f12.mp3",
+      "bytes": 13835,
+      "sha256": "5f92b10621fdf7cc93f875bc6119ef5e5fdfeb134cb7eea374414757119e202d",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "Distinguish failed automatic release from premature departure.": {
+      "file": "audio/356fa987e33ab85aeaac2b9f3a171fb5e8d128834635642e6c46ec9e7a44cd15.mp3",
+      "bytes": 53123,
+      "sha256": "bc9d2fce5750b29e13f9a0849e64c5cc0c9b21f4ffbfaed3f525f279dbae4b31",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "The automatic tray-release function was not working, leaving release dependent on manual operation. The recovered account describes an RME ticket and manual button-controlled release while technical support addressed the fault. This case concerns failure to release automatically, unlike the separate case in which a tray leaves prematurely.": {
+      "file": "audio/28c710d9939c4d4f05271d4001e9c78639713fc0421401f6e609ea17fab8dcbb.mp3",
+      "bytes": 275896,
+      "sha256": "039b1349efa95a7fa8f39e757b51d188d3f8f9daede04a2783d1e772c109e65c",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "This is necessarily the same symptom as a tray departing too early.": {
+      "file": "audio/e024831f90fd131c6caba4f076c0640b2a1966bba7fc06d0de3723f6f8efdbc7.mp3",
+      "bytes": 55213,
+      "sha256": "043b71fb02466f00f55f1c42bbede67064cd1eeb37617189748085be230485ef",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "What does this original message communicate? “do not overstaff!!”": {
+      "file": "audio/692d1a46c13fb8c13bbf5fa15e3e8d4d1bd0173aa53c63170296f28ca09633b1.mp3",
+      "bytes": 59811,
+      "sha256": "302e66daf25331db54a2f6a0e08d5271081933de8b645ad06cc4da47e97cb5d7",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "The speaker confirms there is no training gap.": {
+      "file": "audio/24ed026a6034345240467bddaa3ba55bcfcb46394df0b2c1b8eb4789547f2d96.mp3",
+      "bytes": 36823,
+      "sha256": "e144fb63a3f61fb9569adb6d6456e32a9b2a47e31595725d8f372d38ca1175fe",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "The speaker asks the team to add more people.": {
+      "file": "audio/8e5ab9825ce821ded8e943e4182db9d0779fc5455a83bbd9eccfdd6895331294.mp3",
+      "bytes": 38913,
+      "sha256": "3594160bf43e112b1dc6b7c9891f428e5562418d7bde4795d5d7e8d169264c7f",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
