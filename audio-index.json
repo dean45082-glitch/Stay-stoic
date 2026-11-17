@@ -16741,6 +16741,76 @@
       "sha256": "0c1f9c888d6f356f1dfd2868574c4211c5f44038f30185391e2ccb97aba015fb",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "A document listing shipment contents": {
+      "file": "audio/60a64195bebb4ae36a78eefaccbf2f0a2b2e81519006a27d0e141d60834fd84f.mp3",
+      "bytes": 33897,
+      "sha256": "0eb00f91c983dbd59fcac5b78d1d1b8ec94f55523db40fd1cffa85be0f4fe4db",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Choose the meaning of manifest in warehouse English.": {
+      "file": "audio/cd498ce5135aaf0a0133c395516b927b6c4c10387e0aebdba68c70db8030b363.mp3",
+      "bytes": 46436,
+      "sha256": "ea050634fe98ea7cbf2a8c1dbc30a00b6664d347c2cb2af99f9db29718c60539",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "A cargo-carrying vehicle section pulled by a tractor": {
+      "file": "audio/cd5a0b88fadfdb0a53198e10b63768a41ce86c45d2844ab3920437828f50f856.mp3",
+      "bytes": 45600,
+      "sha256": "fd8866bedf9050712c95a3e799f4fe0e0650fa12c5179e0de3b498725a6700d9",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "Choose the meaning of dock in warehouse English.": {
+      "file": "audio/46edc6f1c0ad02932a63cd8bcf1998a28ca3bb7ba22eb9387e46828af205280c.mp3",
+      "bytes": 38077,
+      "sha256": "320a8605789abc3a66c81825abc992f7ed96bf9671d68c4aae29f0b702d91f3c",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "A group of goods sent together": {
+      "file": "audio/504f1fcc674fa807e5e3c1aa5c455d42ca69f5e17f18105a1525f6847f6d74c6.mp3",
+      "bytes": 30972,
+      "sha256": "91c5c529781118ef7107229aaf78a5888867b37928d546e306eccf0cf1fa5f24",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "A new condition appears: The associate can access a different station, but the faulty reader still fails. Choose the most accurate update.": {
+      "file": "audio/0d99c591badccbc619ce5d89208c611e1b4b4d4b263fd62e452368ef160d401c.mp3",
+      "bytes": 123758,
+      "sha256": "492f1529bcbbc27a37aa9ef4a9d1551eb5ac778f54c8de7b2deba8fbd784330e",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "Close the original issue because the associate has access somewhere else.": {
+      "file": "audio/935d19d2da8617a12069fa75b80c2cfab68e59344677334c0f5a8784ccd39134.mp3",
+      "bytes": 56885,
+      "sha256": "31e3b30ec60da6b58de108c789ed83b4029b2dbff71e2f08a5655da124937c21",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "dock": {
+      "file": "audio/8bf2d980266dde68bddfa8923d06127f2357d53bfa515d7a77987f5fc594e5c9.mp3",
+      "bytes": 13835,
+      "sha256": "7979c14ef449401b426d5834bda965303cfa9fddb27af021b72d81f8b16a5a5c",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "trailer": {
+      "file": "audio/6bf16ee88fe15787c376978785231dfaa0319705d633b1aef22a750333543f44.mp3",
+      "bytes": 16761,
+      "sha256": "caea6fe6fed3224453ac09d22263bc72043b26f36508628f73e8c3b5e5190d7d",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "shipment": {
+      "file": "audio/349fbb25d0ac75c591089b52ab3f2fa12378a4ee08259853274e094dc0b24de0.mp3",
+      "bytes": 14253,
+      "sha256": "654fdbfe9a66ddd399abcb7ad605af12aeed16ec37c2879814a105ceba945594",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
     }
   }
 }
