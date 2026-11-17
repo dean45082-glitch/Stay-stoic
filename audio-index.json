@@ -16181,6 +16181,76 @@
       "sha256": "0ac43026a3e595774ce0d345f2605e617c82aa4387a538b0ec0766515cffd9b1",
       "voiceId": "J4bIp70tzyazNCFxUfjl",
       "voiceLabel": "LA guy"
+    },
+    "The queue has already cleared.": {
+      "file": "audio/b6ee92dc42bbf76234702f80d16cddb4ae5c351a86470977f1cbe6dac9764413.mp3",
+      "bytes": 24284,
+      "sha256": "c9ed31d793ed5ceebb497567c94ea2d92a2518fbc07d8c7f60a052e36f91c336",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "People are waiting at the speaker’s location.": {
+      "file": "audio/dc9aef6fc3441ec37d749b53a3e62328d9373fdf97398ee1c8eff062d2ca6dc0.mp3",
+      "bytes": 33061,
+      "sha256": "ce7c8170c250c13b7621d5ec9d0409294e792f084b87e89975f34d905dfc6bd6",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "Choose the meaning of operator in warehouse English.": {
+      "file": "audio/8d26c33adc468d2c5c852c6c73f91673f21ad2ab70521da8725e3871f6bd258a.mp3",
+      "bytes": 38913,
+      "sha256": "083777b1f9261f6b3dac05d37b0557b07d7bff0df43ee66a1b89cffe64507633",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Learning the knowledge and skills needed for work": {
+      "file": "audio/ed04842a00c22b48efd13699f4a4b0450de3d962db789970bc8338d721e48fbc.mp3",
+      "bytes": 38913,
+      "sha256": "fa7d0430c2e08d209371015e0bb50408712b674c0a8e4c6d856c6a21da329556",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "People working toward shared objectives": {
+      "file": "audio/4e7fdc16ec8f6912e7d5dcb4e79c8c6c8ca4c78eae60da50a69b3e42c0414427.mp3",
+      "bytes": 31390,
+      "sha256": "54d4024e26781a20e2b2f0edfa0ccb2bb46919f7423ab5abfb3c4221de3b8a22",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "Choose the meaning of training in warehouse English.": {
+      "file": "audio/dc1b14171dc2b6a8f2067cf5c4b48cfc0f079f412bdf7be04d10a99aea632a4d.mp3",
+      "bytes": 39749,
+      "sha256": "02e52e99425c3fe0387d1b0f85ffd4a2ffd594572f791b61a05c576ccf49b9f3",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "Work beyond scheduled or standard hours": {
+      "file": "audio/c9f01026ac2698bc31d4529822eb8381ad506fea682c58c308497dcb9a39174e.mp3",
+      "bytes": 35987,
+      "sha256": "86ab26bf64cced6f1f437cf78f1c1caadc5ea55053fcb019a75492ee0bd5bb0b",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "Choose the meaning of team in warehouse English.": {
+      "file": "audio/70b7dd8e1d674b3cd26802fdf8fb265a21feb8b5de3a1c0019f100f6648431bb.mp3",
+      "bytes": 40585,
+      "sha256": "a34446555396ee23cc4cf15cff695371f4f9f11ef569cd9d69911430ebd403ed",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "A new condition appears: A tray left early, but no one has confirmed whether a destination button was pressed. Choose the most accurate update.": {
+      "file": "audio/89338bb5f94b4301b311e50204ad984de4d27210f608d5958216d5083357cda8.mp3",
+      "bytes": 124594,
+      "sha256": "f20ad54d92a53f69c8d61c1d21a6756e31df5f176ac1bb4579c72953ed50117b",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Report a confirmed missing item without checking whether placement was recorded.": {
+      "file": "audio/41ae0d4e27ba65cff4a920fb386afe4dbb43790bc6ec2b8c18a2969112646dd4.mp3",
+      "bytes": 59811,
+      "sha256": "3e832851ca901d59ae78a215795fa2e0bb96a374caf665b42c83182e58d49470",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
     }
   }
 }
