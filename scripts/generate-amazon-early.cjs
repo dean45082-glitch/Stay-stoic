@@ -4,7 +4,7 @@ const root=path.resolve(__dirname,'..');
 const store=path.resolve(process.argv[2]);
 const live=process.argv.includes('--live');
 const {validate}=require('./generate-audio.cjs');
-const batch='amazon-early-gaps-2026-11';
+const batch='amazon-early-gaps-2026-11-resume';
 const model='eleven_multilingual_v2';
 const voiceNames=['Eminem style','New Yorker Sifrino','New Yorker super slam','Maine Guy','Atlanta real','LA guy'];
 const read=name=>JSON.parse(fs.readFileSync(path.join(store,name),'utf8'));
@@ -81,7 +81,10 @@ async function main(){
  if(live){
    if(!key)throw Error('Missing ElevenLabs secret');
    if(ledger.batches?.[batch])throw Error('This paid batch must not be started twice');
-   const dashboardCap=8339;
+   const dashboardCap=8339-71;
+   const previous=ledger.batches?.['amazon-early-gaps-2026-11'];
+   if(previous?.status!=='stopped'||previous.completed!==0)throw Error('Previous paid attempt must be reconciled');
+   execFileSync('ffmpeg',['-version'],{stdio:'ignore'});
    const subscription=await api('/v1/user/subscription').catch(error=>{
      if(error.message==='ElevenLabs HTTP 401 on /v1/user/subscription')return null;
      throw error;
