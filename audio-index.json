@@ -16461,6 +16461,76 @@
       "sha256": "09dbe0947553930080f3374c6b24369fa20757fda0968575c7f724f2e34092b0",
       "voiceId": "nbaOefRJYbGbDU7PX7zP",
       "voiceLabel": "Maine Guy"
+    },
+    "I will report where the queue starts and ask Flow to confirm the next step.": {
+      "file": "audio/c57320cf539832b5a0e78c388b80515fc863c229a6eb888cb779e79e0fe4b570.mp3",
+      "bytes": 56049,
+      "sha256": "a12475f5805b04a1210bdf87bc851115f2b56067a197b3db104feafcb230feb9",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "Use “Back up” to report a growing tray queue.": {
+      "file": "audio/82745bac09f06493334995e85d115ad91f5d3d8bfc7c267d306bbf31078d03ae.mp3",
+      "bytes": 37659,
+      "sha256": "333c309c765abb2c5e980884938623250fe7327a08681135ec08c6e96c5c384c",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "Give a short handover. Use “Back up” and one term from Vocabulario del día. Say what is confirmed and what still needs a check.": {
+      "file": "audio/23fcf762822f31df57106bd3268bfebaf680bf7ea9f8b4e8cf045fb4fe278e81.mp3",
+      "bytes": 115399,
+      "sha256": "d638d6e5f60a87a41417d94078e385aace4fe9de19a5b67a0a763d0f15c3f6a2",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "Trays are backing up before the merge again. A brief restart moved a few trays. It did not clear the queue. I will report where the queue starts and ask Flow to confirm the next step.": {
+      "file": "audio/f438fc6416e5c12eebd77250ec831a6d8670b131d2328cd7f08c1a4b3078e516.mp3",
+      "bytes": 150508,
+      "sha256": "3ae56a5b1aac5140f45ba3b70a6a63522e92ca7037472de37bb90aab6d14e785",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "The original repair failed, so we know which part needs replacing.": {
+      "file": "audio/6e7255b7ab4da5049c2b15acd3da16e90385a0cebdebeeb5279fd7ca80f7d85d.mp3",
+      "bytes": 54377,
+      "sha256": "34cbe1b3260bc5d7620708fa0befe39992daa43792c244955617539ec5308722",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "The supported update is: A brief restart moved a few trays. It did not clear the queue.": {
+      "file": "audio/0bd051bd38e9ba4e7d0a3782297d4a83324ac967a1d4871f1ceee5f91e0f04b1.mp3",
+      "bytes": 76111,
+      "sha256": "e7b57672c9834bd69958691e822ae55b87453fdbfc680909db03758721089381",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "Back up": {
+      "file": "audio/3052e7e925f7ab5d9d87ab19b91d2d157ca932c64ac91ad80dcdc5d029433b9a.mp3",
+      "bytes": 13835,
+      "sha256": "9cf948159a2cd2b1af5f5ab7bce133cdb82feba3fd197b6178235274c393ab47",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "Report a temporary scanner option and its limitations.": {
+      "file": "audio/bba92ff21f8497708a8d198df498ef2bc64b66b793e5dc20dbbd7335f515272f.mp3",
+      "bytes": 47690,
+      "sha256": "16fe2c81678d98d36fe4b4ed007e73b9adb2c08cdee8628ddb0e4e5feff8d2e7",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "The tote scanner at induct stopped working. The recovered account describes power, cable and USB checks, escalation to RME, and temporary use of the hand scanner. The availability of a working hand scanner did not mean the primary scanner had been repaired.": {
+      "file": "audio/f5197661e7ed327bfd456dc66830b384bdb9f245ed2e7ec48ef3d7abecc1ae4b.mp3",
+      "bytes": 226994,
+      "sha256": "b771b3babdfe5467b86e15c0cb419fe2570fd445d3a2329a0bc9049f36ce5867",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "A working hand scanner proves the tote scanner has no fault.": {
+      "file": "audio/277f2c224b2b0827f98b15274af0fe05b8785e1bc65948cbbea66f6eed58340b.mp3",
+      "bytes": 51452,
+      "sha256": "c7da269cc824d6107297d362707e2541bbbd933a21cc4c456a447a006f86a3a2",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
