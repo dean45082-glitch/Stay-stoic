@@ -16811,6 +16811,76 @@
       "sha256": "654fdbfe9a66ddd399abcb7ad605af12aeed16ec37c2879814a105ceba945594",
       "voiceId": "J4bIp70tzyazNCFxUfjl",
       "voiceLabel": "LA guy"
+    },
+    "dispatch": {
+      "file": "audio/e83ea9ad586a96ff044b97e781036e85b05a8170f9cac1415d8f186040a84f01.mp3",
+      "bytes": 14253,
+      "sha256": "6bd4afd993f3873af641fc73c41d76ac7d4a47610493f87279224988f5741df8",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "yard": {
+      "file": "audio/9111ecdec6d44289cbc145760fbb0e02d87248d91e0d8aca1e2f1a739c6288e4.mp3",
+      "bytes": 15089,
+      "sha256": "cb00a3060f07504b87a780628f7ad2a6eae470d7436bbf7b067c27b44ef98313",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "manifest": {
+      "file": "audio/b71ffb674c24aa24b2d6cd75e018988713b4e0234d26033af6eb894292d36aaf.mp3",
+      "bytes": 14253,
+      "sha256": "27059cc17cf6204c6c0bd937ccb73bb36cd361fa0f90ee4d55668aeaec0ba398",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Explain a temporary movement measure and lasting repair.": {
+      "file": "audio/28064f5978b31ece8f3b371282888d9f02c500345061898eb730906c103dcddd.mp3",
+      "bytes": 44764,
+      "sha256": "b3eded2f712a06106ac74de04724bd517565826d19ae921d84841a19daf85177",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "A dead roller on a rebin line could bring the affected line to a complete stop. I contacted RME and downstacked incoming trays while the line was stopped. A jam pole temporarily helped move a stalled tray in the described incidents, but it did not repair the roller.": {
+      "file": "audio/f023c2ee285fb3a48c723034465c765fb5ffcf719eabdece409461079a36ed46.mp3",
+      "bytes": 229920,
+      "sha256": "111de74e3a98ba8fcaf4573df74a59e4e9bc750abc748edabe4f74627735c684",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "Moving one stalled tray proves that the roller has been repaired.": {
+      "file": "audio/53e1fba29a207b50ca19a022d99df7200d8e7434abe5ca6a7ccb17f9ec2aacfb.mp3",
+      "bytes": 52287,
+      "sha256": "5b779b1bc416e718c414cdda482162f99bc5f096ebd19f98eeb55790584f8aaf",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "What does this original message communicate? “Pack departments are starting to run out of work”": {
+      "file": "audio/f97a6e544651fbf1627fa7e9cb508a12ac4fd208fbe8548a9e62933ac6d9e416.mp3",
+      "bytes": 69424,
+      "sha256": "e5125146fa4b8ce3cff43d0da3333c8310fef7f26ba8a10b7bc175a69cfe1e14",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "Available work in Pack is beginning to run low.": {
+      "file": "audio/6e8307b6d695add9a9331a15dfd86efd98bbaf46a724184fd0766d7327cbc6e0.mp3",
+      "bytes": 45600,
+      "sha256": "a8187debf5016a6cb7be12f12e4ee375c71ae14a2e1bb1f67b281d4f6b7a78c7",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "All Pack stations have already shut down.": {
+      "file": "audio/a6253726860aa02a6a98e766c525360a5f958c9c6d8954b31388ef788215afd0.mp3",
+      "bytes": 33897,
+      "sha256": "8280721bda11b53834dbe717f1deb938e46a3ba917b286353f6002c1a4414d73",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Pack is facing a confirmed shortage of cartons.": {
+      "file": "audio/1f7e32a5c3ce5f1e78f44d11cc6151c3a5cf79e1485d521e0f0b66c41c4188bb.mp3",
+      "bytes": 40585,
+      "sha256": "10498928d65a9d2b07b9f5bc3e8e5e751515ab4b7a4502c65c21825f1d8409f0",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
     }
   }
 }
