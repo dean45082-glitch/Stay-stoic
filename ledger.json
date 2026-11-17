@@ -21083,6 +21083,116 @@
       "voiceLabel": "New Yorker Sifrino",
       "modelId": "eleven_multilingual_v2",
       "day": 11
+    },
+    "462a3bcef9dc576ff636bcf02a55b9a096cbdd17bff3d2297ca55279d37884b4": {
+      "status": "complete",
+      "batch": "amazon-early-gaps-2026-11-balance",
+      "estimatedCredits": 80,
+      "bytes": 71096,
+      "sha256": "2f84ea4e1f11a33e9e1fa1429ca6ee7dfe664a4c03f49b300e0af7ff7aa794af",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam",
+      "modelId": "eleven_multilingual_v2",
+      "day": 11
+    },
+    "9ac9d18b6995cc27a0f406558b3f33590a94e4459c69f54c75266af691d5a95c": {
+      "status": "complete",
+      "batch": "amazon-early-gaps-2026-11-balance",
+      "estimatedCredits": 54,
+      "bytes": 52287,
+      "sha256": "bf7a6f215ba98cfacf57106a4e8a91cb162401b8c29df75dc026a005563953cc",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy",
+      "modelId": "eleven_multilingual_v2",
+      "day": 11
+    },
+    "8cc9138129855a9efdf05aa22b8a037074a1b7c6abe9113d9ecdce3d89da5c0a": {
+      "status": "complete",
+      "batch": "amazon-early-gaps-2026-11-balance",
+      "estimatedCredits": 45,
+      "bytes": 35151,
+      "sha256": "a117da59af77d2e0964ec77318e0ed18506a62023e31c7825c447d344c66f1d8",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real",
+      "modelId": "eleven_multilingual_v2",
+      "day": 11
+    },
+    "f05eaf00dbb6b07003e12a275885a0b07966e1ab9e6a1a4096588c9519625f5d": {
+      "status": "complete",
+      "batch": "amazon-early-gaps-2026-11-balance",
+      "estimatedCredits": 64,
+      "bytes": 58139,
+      "sha256": "4b04b33e978a83bda253a987a021b7cfc61168522f8e067bfd31b196afba6345",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy",
+      "modelId": "eleven_multilingual_v2",
+      "day": 11
+    },
+    "96963a14d857c63ffd20c2706a9fbbdaf39865beb1a33e13c5b773dc113c29a1": {
+      "status": "complete",
+      "batch": "amazon-early-gaps-2026-11-balance",
+      "estimatedCredits": 50,
+      "bytes": 37659,
+      "sha256": "ecb8e2cd857721b07e1b7df802f8ceecbd586c9516e19af47b50be5e00acbb45",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style",
+      "modelId": "eleven_multilingual_v2",
+      "day": 11
+    },
+    "c99af9d4ac1e6e61387993563b135f816f705ecd03958dcbe48ed4455fc12f09": {
+      "status": "complete",
+      "batch": "amazon-early-gaps-2026-11-balance",
+      "estimatedCredits": 49,
+      "bytes": 47272,
+      "sha256": "ab14d03dee9450aae8b6a6bb13f4fa26fa909d99dbe4a351ea5616cbb55912fe",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino",
+      "modelId": "eleven_multilingual_v2",
+      "day": 11
+    },
+    "aaa22ea892455996025ed356b77b52a1b01e7b0737b33f5357d035824e25fbea": {
+      "status": "complete",
+      "batch": "amazon-early-gaps-2026-11-balance",
+      "estimatedCredits": 48,
+      "bytes": 42674,
+      "sha256": "ad0024a2d97eb5b2e3bee30a18e468b70d6dddb2c24a1c96673f3c662a8598ff",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam",
+      "modelId": "eleven_multilingual_v2",
+      "day": 11
+    },
+    "0dc12baa1aafa425b730b18d51e19d17001fd8422421a71b22055c2086795d1a": {
+      "status": "complete",
+      "batch": "amazon-early-gaps-2026-11-balance",
+      "estimatedCredits": 29,
+      "bytes": 26374,
+      "sha256": "a98227071dade8d7f08788ae608904886e7dd52e54d2c11c69a8daf469706a6c",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy",
+      "modelId": "eleven_multilingual_v2",
+      "day": 11
+    },
+    "6ce620214b863ad3c956140429f894c59394780a04c1e5bcee989a55efde0c53": {
+      "status": "complete",
+      "batch": "amazon-early-gaps-2026-11-balance",
+      "estimatedCredits": 53,
+      "bytes": 42674,
+      "sha256": "398108b2f0a14ec3c03ef612ada86f979fce32c531b471e50070da4f8c296788",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real",
+      "modelId": "eleven_multilingual_v2",
+      "day": 11
+    },
+    "369bb4d1d1d35a97063968085d53a1734f580654a5361ba2a6371bfbcc6594b8": {
+      "status": "complete",
+      "batch": "amazon-early-gaps-2026-11-balance",
+      "estimatedCredits": 65,
+      "bytes": 65662,
+      "sha256": "6660736a0d407a6a668d40b0be5ca01ddb8beb3a6ed67e7538fe33662140fd21",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy",
+      "modelId": "eleven_multilingual_v2",
+      "day": 11
     }
   },
   "batches": {
@@ -21175,9 +21285,9 @@
       "firstRemainingDay": 9,
       "reused": 0,
       "status": "running",
-      "completed": 110,
-      "charged": 2770,
-      "measured": 110
+      "completed": 120,
+      "charged": 2986,
+      "measured": 120
     }
   },
   "voices": {
