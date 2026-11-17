@@ -4,7 +4,7 @@ const root=path.resolve(__dirname,'..');
 const store=path.resolve(process.argv[2]);
 const live=process.argv.includes('--live');
 const {validate}=require('./generate-audio.cjs');
-const batch='amazon-early-gaps-2026-11-resume';
+const batch='amazon-early-gaps-2026-11-balance';
 const model='eleven_multilingual_v2';
 const voiceNames=['Eminem style','New Yorker Sifrino','New Yorker super slam','Maine Guy','Atlanta real','LA guy'];
 const read=name=>JSON.parse(fs.readFileSync(path.join(store,name),'utf8'));
@@ -61,7 +61,9 @@ async function api(route,body){
    body:body?JSON.stringify(body):undefined,signal:AbortSignal.timeout(45000)
  });
  if(!response.ok)throw Error('ElevenLabs HTTP '+response.status+' on '+route.split('?')[0].replace(/(\/text-to-speech\/).+/, '$1[voice]'));
- return body?Buffer.from(await response.arrayBuffer()):response.json();
+ if(!body)return response.json();
+ const charge=response.headers.get('character-cost');
+ return {audio:Buffer.from(await response.arrayBuffer()),charge:charge===null?null:Number(charge)};
 }
 
 function persist(message){
@@ -81,9 +83,9 @@ async function main(){
  if(live){
    if(!key)throw Error('Missing ElevenLabs secret');
    if(ledger.batches?.[batch])throw Error('This paid batch must not be started twice');
-   const dashboardCap=8339-71;
-   const previous=ledger.batches?.['amazon-early-gaps-2026-11'];
-   if(previous?.status!=='stopped'||previous.completed!==0)throw Error('Previous paid attempt must be reconciled');
+   const dashboardCap=5013;
+   const previous=ledger.batches?.['amazon-early-gaps-2026-11-resume'];
+   if(previous?.status!=='complete'||previous.completed!==128)throw Error('Previous paid attempt must be reconciled');
    execFileSync('ffmpeg',['-version'],{stdio:'ignore'});
    const subscription=await api('/v1/user/subscription').catch(error=>{
      if(error.message==='ElevenLabs HTTP 401 on /v1/user/subscription')return null;
@@ -92,7 +94,7 @@ async function main(){
    if(subscription&&(!Number.isFinite(subscription.character_limit)||!Number.isFinite(subscription.character_count)))throw Error('Could not verify remaining credits');
    const available=subscription?subscription.character_limit-subscription.character_count:dashboardCap;
    balance=Math.max(0,Math.min(dashboardCap,available));
-   if(balance<8000)throw Error('Verified balance is below the expected 8,000 credits: '+balance);
+   if(balance<1)throw Error('No remaining subscribed credits');
    for(const label of voiceNames){
      const data=await api('/v2/voices?search='+encodeURIComponent(label));
      const matches=data.voices.filter(v=>v.name.toLowerCase()===label.toLowerCase());
@@ -110,18 +112,23 @@ async function main(){
  console.log(JSON.stringify(report));
  if(!live||!n)return;
  ledger.batches??={};
- const record=ledger.batches[batch]={...report,status:'running',completed:0};
+ const record=ledger.batches[batch]={...report,status:'running',completed:0,charged:0,measured:0};
  for(const {text,entry} of reused)entries[text]??=entry;
  persist('Reserve the capped early Amazon audio batch');
  try{
-   for(const [i,item] of selected.entries()){
+   for(const [i,item] of result.entries()){
+     if(record.charged+item.cost>balance){record.firstRemainingDay=item.day;break;}
      const voice=voices[i%voices.length];
      const id=hash(batch+'\0'+voice.id+'\0'+item.text);
      if(ledger.entries[id]||entries[item.text])throw Error('Unexpected duplicate audio');
      const file='audio/'+id+'.mp3',tmp=file+'.tmp';
      let bytes;
      try{
-       write(tmp,await api('/v1/text-to-speech/'+voice.id+'?output_format=mp3_44100_128',{text:item.text,model_id:model}));
+       const generated=await api('/v1/text-to-speech/'+voice.id+'?output_format=mp3_44100_128',{text:item.text,model_id:model});
+       const measured=Number.isFinite(generated.charge)&&generated.charge>=0&&generated.charge<=item.cost;
+       record.charged+=measured?generated.charge:item.cost;
+       if(measured)record.measured++;
+       write(tmp,generated.audio);
        bytes=validate(path.join(store,tmp));
        fs.renameSync(path.join(store,tmp),path.join(store,file));
      }finally{fs.rmSync(path.join(store,tmp),{force:true});}
@@ -131,9 +138,11 @@ async function main(){
      index.voices??={};
      index.voices[voice.id]??={label:voice.label};
      record.completed++;
+     record.lastDay=item.day;
      if(record.completed%10===0)persist('Save early Amazon audio '+record.completed+' of '+n);
    }
    record.status='complete';
+   record.files=record.completed;
    persist('Complete early Amazon audio batch');
    console.log(JSON.stringify(record));
  }catch(e){

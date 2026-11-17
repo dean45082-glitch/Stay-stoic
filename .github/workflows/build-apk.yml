@@ -43,7 +43,7 @@ jobs:
           const fs = require('fs');
           const store = 'audio-store/';
           const ledger = JSON.parse(fs.readFileSync(store + 'ledger.json'));
-          const batch = 'amazon-early-gaps-2026-11-resume';
+          const batch = 'amazon-early-gaps-2026-11-balance';
           if (!ledger.batches?.[batch]) process.exit(0);
           fs.mkdirSync('audio-delta/audio', {recursive:true});
           for (const f of ['audio-index.json','audio-index.js']) fs.copyFileSync(store + f, 'audio-delta/' + f);
