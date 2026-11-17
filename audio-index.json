@@ -17021,6 +17021,76 @@
       "sha256": "1948b0e523c28f538f84ca5d26be3fbfa0968b2c526ae4b272e2473e16fa18ec",
       "voiceId": "J4bIp70tzyazNCFxUfjl",
       "voiceLabel": "LA guy"
+    },
+    "The phrase confirms that no response can be requested.": {
+      "file": "audio/eb9f8ddf6e67560e3539ebfda1607d90c8ba46fd8b178f80f3552e071a33bbec.mp3",
+      "bytes": 49362,
+      "sha256": "7e550bc0533f8210a07ef48c0da41ccacafbad691a357907b2bc8c6bb197face",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "The speaker has finished investigating an issue.": {
+      "file": "audio/4974fee053095557557327b8b8cbf6b43e8e072ed69d6c5ae05618853f1d463c.mp3",
+      "bytes": 38913,
+      "sha256": "c4498ed5a3d94acac20354acefeefd03ad88c542499939ec724ac58de8d1f68e",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "The speaker is drawing attention to an update or upcoming issue.": {
+      "file": "audio/04e082164dd135ce0c76274c6e5a568513149f87ab8b302f5802847029e6e9e0.mp3",
+      "bytes": 55213,
+      "sha256": "43c59e509281b7eb15c82cee60f0f99c0382e0111adcf29c7c0079de6d4c9f73",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Choose the meaning of inventory in warehouse English.": {
+      "file": "audio/8edf5e6b3d4a7e32bcda4e50c3111c87547203c4bab4b5e1e60030c19e805c08.mp3",
+      "bytes": 44764,
+      "sha256": "06c494d37b6b2c2d1d964c537f43c8f4415f852d00ff5c4fc92deea73b55f458",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "Stock held, or a record of that stock": {
+      "file": "audio/7e7923d5a783b077ea450c49f7cdc67e2f6e7af8e999bbae66c7c88e9eb8843d.mp3",
+      "bytes": 35987,
+      "sha256": "bea4394a723135255d9712f4d0c810790b94d324dad0d27efb1c82367fcf8424",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "Inventory loss or reduction not explained by recorded movement": {
+      "file": "audio/509cda92f56d56d2fe82c67919da0d3f451f565a196b8cd39439b77410cc923b.mp3",
+      "bytes": 55213,
+      "sha256": "76685b48a862ef7907a565bfaaf03d08339dca4e19a675da1fd72272118fc208",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "An inventory count of a selected portion of stock": {
+      "file": "audio/7e864476b7adad4ddb44744d7e810303191bb990360bf36161f731474140b217.mp3",
+      "bytes": 47272,
+      "sha256": "d00a89c036eef52a849cd45f1d80af25a63d38eff9b277cceb47cda6d7935e1f",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "Choose the meaning of cycle count in warehouse English.": {
+      "file": "audio/f0e39ad859017182ce14fd612b8e6f77f1919099dfb7eff538a93c948220d0b4.mp3",
+      "bytes": 47690,
+      "sha256": "77c99c7f288162f331cc3baad72a2a7ef91cda3ae0a4daf0d4a8a2909f9762ed",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "Inventory replacement rate here; can also mean employee departures": {
+      "file": "audio/5c91fe353ed6cd8f62982dd053e4951c77748219be415ac1762ecd0823c82225.mp3",
+      "bytes": 57721,
+      "sha256": "dfcb71098c964b104c4cf73808741700bd91aa2e4bd9166e65c28ade5569440f",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Choose the meaning of shrinkage in warehouse English.": {
+      "file": "audio/6a82d7ef2358d5f326a92e233a7cb1323b53f489f546ed8e52c5c50f15a00667.mp3",
+      "bytes": 45600,
+      "sha256": "366bc5502a3d45220ea32cd714453e932016ace94375250553aedf3466cd4de3",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
     }
   }
 }
