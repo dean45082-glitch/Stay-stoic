@@ -15495,6 +15495,76 @@
       "sha256": "ccbda24293a309773a21ff3b6a5651ce91985d9dd0b0fa9cba3e583da1119bcf",
       "voiceId": "J4bIp70tzyazNCFxUfjl",
       "voiceLabel": "LA guy"
+    },
+    "variance": {
+      "file": "audio/4956063963f6ac419c5325850bbf4b1578118c4f6fceace1cc47988cf56f1b14.mp3",
+      "bytes": 15925,
+      "sha256": "1afa45aa519095eacaf2d65d07640e9144bc9aab28e7ea49d4bc440bb5b80c5d",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "dedicated connector": {
+      "file": "audio/d6c5ba2947f99b8b6b6c3933c8c50d06c9a4334e6b2e208b9ef46a031f78a4c7.mp3",
+      "bytes": 18851,
+      "sha256": "e591bf00935d6c066745f9b6ec09f17166f4a058b43da4f53e6a245443114ffb",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "lockout/tagout": {
+      "file": "audio/d22f6bc3e5015103f131fe5f203ec895d7927ede7f555e35299f0a5cd945dd38.mp3",
+      "bytes": 19687,
+      "sha256": "ead433fc716d8837ce299a9994061a0bc90e287fac31713b7171bcb3737c40ac",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "cord/cable fault": {
+      "file": "audio/5050f564076efc57cec2a503566ee770ba61af51254b13f0c0f6372a140e285d.mp3",
+      "bytes": 26374,
+      "sha256": "46e44308e4717ff3e4be9eee1e772b256071da8164c63b669c062d604716a0a7",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "Describe a display symptom without guessing the failed component.": {
+      "file": "audio/8da8b46096a064530a368e6eba2f2291d30a9bd3662f1239be80d7655bafbe07.mp3",
+      "bytes": 48526,
+      "sha256": "088fea00782a2e0766bc799ec91c3e27bd13563efe1dc187226afb6276eceeff",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "The pick-to-light display module was not working at the rebin wall. The account describes connection and maintenance-function checks, followed by escalation to RME. A display that does not respond does not, by itself, establish which internal component has failed.": {
+      "file": "audio/bf44d52e1f2fde0dbd7c36e4ec554cb38f12dad7c33f411e93321c0f762d59e8.mp3",
+      "bytes": 238697,
+      "sha256": "1ddb07e6f72dfda847e121f64a7dac2074d0c9f1af30572cf3ca657ba1eb85a7",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "The missing display proves every item was placed in the wrong chute.": {
+      "file": "audio/85e32f507631a4883ac4b5d1e32a72866ecbe2d84ff3f1decaa11e48d6be489f.mp3",
+      "bytes": 51452,
+      "sha256": "372c1f05e0969ebc608196ae3d3776956340d7cc655e2018b52e1f1c2d527c83",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "What does this original message communicate? “are we fully balanced?”": {
+      "file": "audio/2c593b44eeda79fcb83cc2ebcd04710e4b2337abf195e8630404a93ed499bd0b.mp3",
+      "bytes": 63572,
+      "sha256": "c30cfeecb4f2235a40fb0c12a0cb69a51b84c9676d70e2e3bbc1cb9713f06819",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "The speaker is announcing a wall closure.": {
+      "file": "audio/56f15dbaa48a31c53047fd42e10b2c2a713807f3b5ff23cce653d3a1c3d18039.mp3",
+      "bytes": 33061,
+      "sha256": "4f860052d67ea1b02dcaee9c9404b4e3b77ec1745518d02d5ebd51abf02aa45f",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "The speaker has confirmed that all measures are balanced.": {
+      "file": "audio/8a862232af283669b5b625f12893cec0d856f91851981d953bc3a1bf00ca891b.mp3",
+      "bytes": 42674,
+      "sha256": "030f26078382bd3e4e6b2aca8151a4dc2ddaa9cf813090bb8697de5889972b7e",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
     }
   }
 }
