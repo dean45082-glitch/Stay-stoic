@@ -17161,6 +17161,41 @@
       "sha256": "006b8bd35093b373147788b16f782c1c70e51523b4d01f7af6f78996ab6aee16",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "The induct scanner went down during the last batch.": {
+      "file": "audio/79f56147b0ebb71bb12ba5ff64f0d39ef9970a6a674ab76c9f8428c3f6e275e5.mp3",
+      "bytes": 41838,
+      "sha256": "421f5ad567a8c4c849d5709fe9f502faad755243913c0d89873b0a41ba4d2cad",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "The handheld is available, but we have not verified it. The other station has completed a test scan.": {
+      "file": "audio/468f3379d82b7dd163a72a99d5b8ac766d0132fec5e8363bdf8181cdc7b27c7a.mp3",
+      "bytes": 82798,
+      "sha256": "915918fa37fc77be8ca7a79daa58e9585a9b7a6dc528d43afdd8e1b94ab08369",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "I will confirm capacity at the tested station before sending any totes.": {
+      "file": "audio/028625c150d0581ea89d4aeadd7ee72796c40132d5d78eb70785dcd9723867ac.mp3",
+      "bytes": 62736,
+      "sha256": "6b72aef859619a991cbb74628d61945115766af75b1832c3128cbdda9b055115",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "Use “Go down” to confirm where scanning is available.": {
+      "file": "audio/d44da11b83a45efac34cf2c9c8b0f39579dd407f7571c83f3aaef567885229d0.mp3",
+      "bytes": 47272,
+      "sha256": "66d60245d533c9b06a84c2dc649a4bb135a1f68563a1bf1122c85a72c3c269ed",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "Give a short handover. Use “Go down” and one term from Vocabulario del día. Say what is confirmed and what still needs a check.": {
+      "file": "audio/1ac26e0fa8c8b1eeac4cc6f3c751639eca2d07891ba70d82b88436d33698e3d8.mp3",
+      "bytes": 119161,
+      "sha256": "291566f09e617179dea9fe17e3e3b3b584319e3bf31ae189bef4048e68491da5",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
     }
   }
 }
