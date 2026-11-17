@@ -19956,6 +19956,18 @@
       "reused": 0,
       "status": "complete",
       "completed": 128
+    },
+    "amazon-early-gaps-2026-11-balance": {
+      "verifiedCap": 5013,
+      "estimated": 5002,
+      "files": 79,
+      "lastDay": 9,
+      "firstRemainingDay": 9,
+      "reused": 0,
+      "status": "running",
+      "completed": 0,
+      "charged": 0,
+      "measured": 0
     }
   },
   "voices": {
