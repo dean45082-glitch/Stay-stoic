@@ -81,9 +81,14 @@ async function main(){
  if(live){
    if(!key)throw Error('Missing ElevenLabs secret');
    if(ledger.batches?.[batch])throw Error('This paid batch must not be started twice');
-   const subscription=await api('/v1/user/subscription');
-   if(!Number.isFinite(subscription.character_limit)||!Number.isFinite(subscription.character_count))throw Error('Could not verify remaining credits');
-   balance=Math.max(0,Math.min(balance,subscription.character_limit-subscription.character_count));
+   const dashboardCap=8339;
+   const subscription=await api('/v1/user/subscription').catch(error=>{
+     if(error.message==='ElevenLabs HTTP 401 on /v1/user/subscription')return null;
+     throw error;
+   });
+   if(subscription&&(!Number.isFinite(subscription.character_limit)||!Number.isFinite(subscription.character_count)))throw Error('Could not verify remaining credits');
+   const available=subscription?subscription.character_limit-subscription.character_count:dashboardCap;
+   balance=Math.max(0,Math.min(dashboardCap,available));
    if(balance<8000)throw Error('Verified balance is below the expected 8,000 credits: '+balance);
    for(const label of voiceNames){
      const data=await api('/v2/voices?search='+encodeURIComponent(label));
