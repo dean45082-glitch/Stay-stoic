@@ -13612,6 +13612,1259 @@
       "sha256": "f9c0a7076fbe2eb102d50d804be1f5ca8d2f1eb6ee306f8c4e9edc91a5b30c04",
       "voiceId": "YscMlI9nNgFEyG34UWMB",
       "voiceLabel": "Atlanta real"
+    },
+    "The photo eye on Line 3 was misaligned with its prismatic reflector, bringing that line to a complete stop.": {
+      "file": "audio/4ac55b32ad4e0166a745387f743692d84521602ca712fbd069faf3980a78c4e6.mp3",
+      "bytes": 101189,
+      "sha256": "19065245fc75f5912e04e3f7031a5c22e446216de75787a1bcadcaea5cf43e95",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "I contacted RME and downstacked incoming trays while waiting to limit additional recirc.": {
+      "file": "audio/8f2e015030f869daf02a30fa3cace63fd75f4ffa047646dffa75a9abf16d5fd0.mp3",
+      "bytes": 75275,
+      "sha256": "9b334f72c1ca38eb576e29c209bf5f394ce5de4d59f25b73d575ac4ba1a93b49",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "Although RME resolved the fault, the accumulated trays still had to be worked through.": {
+      "file": "audio/b596194c43397a259f1a99a641000fb08246548ad9efb51cb967fe02a88f6158.mp3",
+      "bytes": 74439,
+      "sha256": "7d1e2c30a01d0fa76df49ff40d5ef5c3a4541ceec5b7a3d52b0f824e0eeb85c2",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "We could support the move, provided backfill is confirmed without compromising recovery.": {
+      "file": "audio/97abd7cddcacde162e89bbb6db9e2e284cb22f92891cbb10d55e6586e57c487f.mp3",
+      "bytes": 71514,
+      "sha256": "55b150b662ea3c9e1b6bcf18bcf2945f59fb8c3dcc627a58b3b1e3cf1c485c9c",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "A rebin finger stopped working, interrupting the affected flow.": {
+      "file": "audio/b9636b92d56ba081cfa04e9d4d59ef643401f0c43a926a619a8934c6dec1ffad.mp3",
+      "bytes": 50198,
+      "sha256": "f4ea1234122a1d9e888b93da0266f7806e0d7aa030635ac0604c5d538bb8f9c6",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "The account describes connection checks and a maintenance test, followed by escalation to RME when further support was needed.": {
+      "file": "audio/6927cbd230e0bd0163fa8447f1859d1e868b08a70b0cf38bb3c0925b6980b39f.mp3",
+      "bytes": 97845,
+      "sha256": "b9c9bf6b0db3dd3bf1229819b2f81e2668fe80c705c3dcab3025d4ded592b56c",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "The initial checks did not replace the technical work required to restore the finger.": {
+      "file": "audio/e8285db7ea51596c1e21bbeace629af3d5402767a7afa031ee596a24eb871809.mp3",
+      "bytes": 71514,
+      "sha256": "f704a1382d7b6f45f9fb6170ab14c83348a70ea4e656cb3ecfda0802bfa3f000",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "The finger has been reported as ready, but I’ll confirm the test result before describing it as operational.": {
+      "file": "audio/9ab7d32de8bf67d2975d4eb1bf9861ab6e5535dfbda76f0123c672eacc231f0b.mp3",
+      "bytes": 94501,
+      "sha256": "bd1f4b1811c960a40a004b4351ea2a203694fd31a8fc88e5662e970949557fc1",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "A connection issue involving the end caps or wiring harness interrupted the rebin wall.": {
+      "file": "audio/acb28091f4c1662eb748ef4a6165b38dce2e906de9db73c52ca3445eeaa003cf.mp3",
+      "bytes": 76111,
+      "sha256": "da05c294cd7996b96bee9ed509c7f0f2afd90642a09b9451cfb5a10675de5723",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "The account describes testing the connection, disconnecting and reconnecting the end caps, and escalating unresolved issues to RME.": {
+      "file": "audio/65c4eab1ce6914d1aa5eb72a6d1c7dffe902e49233a1a349612d2a555ddb88c5.mp3",
+      "bytes": 107876,
+      "sha256": "ce67101b27529d96516da6cb2f2d86c9b1201aa618a9cc2362106eb5b3426d06",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "The reported connection problem identifies the affected area without establishing an unverified internal electrical cause.": {
+      "file": "audio/330fbe3af9fefced1754976e2cb89f7d9cb8475cd2c8ec46f7af0d3e8d183ffd.mp3",
+      "bytes": 103696,
+      "sha256": "395e3ab1b2635172b31251665b743e408374af57fa915102f15ce7f811adcfb0",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "The reports identify different connection points; we need to reconcile them before attributing the fault.": {
+      "file": "audio/672a2bc085c1b2f772a58dd6682de83e5b9578758873150bbc591be06701e9c6.mp3",
+      "bytes": 77783,
+      "sha256": "3cbaf196908413c892fcf41de186a3a22a4c9a380255d8c66a7b4de265cb1e8f",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "RME documented damaged cable or connector components and restored operation.": {
+      "file": "audio/ac06a4005249c68d01561bf024840ff9e3d6a495cf1b14ee68ec597ff5857c97.mp3",
+      "bytes": 67334,
+      "sha256": "f40b3ee36a3fac76a9b87ede56dd08c839716e75917ac9571e39bdb80e28325d",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "The pick-to-light display module was not working at the rebin wall.": {
+      "file": "audio/254b99d4702c455fb2f1ed4f9ac1e4939871aed8fa6ad344f99f7863f38586ce.mp3",
+      "bytes": 52287,
+      "sha256": "85e8a8cd0936b8147aa86037bd4934f522e7485b8dcd86cdff86336b42d11079",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "The account describes connection and maintenance-function checks, followed by escalation to RME.": {
+      "file": "audio/1075b4908ea50760b482298a9f18fe800f4f905fe5fd9b28537b901a23618bf6.mp3",
+      "bytes": 86560,
+      "sha256": "6a145735c598048bce3ab445a9eb0832809685f74a76e846fcfef3aefb705cea",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "A display that does not respond does not, by itself, establish which internal component has failed.": {
+      "file": "audio/cbaecd36fab1f4be6fc56a3df03a1b48f843ec512aa96db388abac350c1ee5d3.mp3",
+      "bytes": 84470,
+      "sha256": "c479ba4737392e61d1315d8c637d54d954574751156a92563149809b6653890e",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "Although the display is responding intermittently, we haven’t confirmed sustained operation.": {
+      "file": "audio/16dfcf631c6ef8d67e180173218476ab2c6fbdb73067527aebaa1aeaa9829906.mp3",
+      "bytes": 75275,
+      "sha256": "f63887400230a3749a7030c810bd22783fb25aab902cbfe1ab4c0b9dd9ee431c",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Trays were getting stuck at the guide rail before reaching the inductor.": {
+      "file": "audio/b0ec6573699b8dc7405f394cdcfb2185ed484d1029f02c4d35bc8152c3717817.mp3",
+      "bytes": 55213,
+      "sha256": "08b4b3ad201606b6def23a13f346da211e4a36cc5d0ee3f7738ef440e45b0a09",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "I contacted RME and coordinated maintenance; during the most recent occurrence, the repair was scheduled for break.": {
+      "file": "audio/e04892ef73e778da3ef479ac79c55150a8c7aeb5d35de7f69a97233c2f3f11d4.mp3",
+      "bytes": 101189,
+      "sha256": "7a51c3d30fdf72f346f67603d43f219bb807cd9d73c3f97f7e7cc36825cc3604",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "Although the line was operating again after break, the specific repair performed by RME remains unconfirmed.": {
+      "file": "audio/1fa81769e91091b531c415cdaa8784b1f7fe81a7c8bc79707734828c552d78d6.mp3",
+      "bytes": 107876,
+      "sha256": "0d27bc1ce1510339f0ae617980d4924f1d1ff80a343ebcc75fed3ae9864b6cfe",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "The line is now completely stopped, so the earlier maintenance timing needs to be reassessed.": {
+      "file": "audio/b58aadd6fc4e2185c224c58fc6349e356f941f93434690189cbfba49a90cae4c.mp3",
+      "bytes": 73185,
+      "sha256": "fcff420eb98e7a3e0a986d05e08bbe0eb5892c879bb1d18feaf9cfa9ab399219",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "RME attributed the jams to insufficient clearance at the tray guard.": {
+      "file": "audio/880d80798e3c80fd8eaffeda8f2b997e07c9f74f0ab5d61cf910feb3a612ff7e.mp3",
+      "bytes": 53123,
+      "sha256": "3180aeea39ffd3b5db06e6de7e6bb4e1cf0c2888d4b7f5723ba5eac11496029c",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "Trays returning from the rebin station’s recirc line repeatedly jammed at the merge.": {
+      "file": "audio/45fb6816c69fcf5f0139ff0a64f224eb8f3b94e867b5a84c37f1ee9bdf35c3bd.mp3",
+      "bytes": 77783,
+      "sha256": "7e0839852fc3ff021828d41954f887e23026e279d9e32e2227af2f3b60ed2560",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "I escalated the issue to RME because the mechanical cause was unknown and repair was outside my role.": {
+      "file": "audio/c66980ab5c095e1d590f0b848867e309078cde643c9600dadbbc6ba4c20e1a14.mp3",
+      "bytes": 104532,
+      "sha256": "8ecf15a155be6b538404a08d5f7cd2a7af865f258d19eddaa8d0dede9933f09e",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "The recurring symptom was established, whereas the mechanical cause and exact repair were not confirmed.": {
+      "file": "audio/80e45e188ca07591902d622e84947fb149b09f52029dfcd30f6473c2a759f71a.mp3",
+      "bytes": 90322,
+      "sha256": "c12aeb0bd7364b35697e82578f600046e33fa6178c0042bcf74dc18a853c8728",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "The symptom has recurred, which means we need a fresh status update rather than an unsupported causal conclusion.": {
+      "file": "audio/5e757e4bf3d7154d36234697c8c36d406d19da075ae625dbfac99abed996f34c.mp3",
+      "bytes": 86560,
+      "sha256": "0558cd00df5e47210c859372b5e55eba97f3dd7350e5d3707af042f32247f495",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "The automatic tray-release system malfunctioned, allowing a tray to leave while its item was still on it.": {
+      "file": "audio/af84f063e7c2b5b055826c04cb02c730b25222c57d02e43c16cca11803cf0fad.mp3",
+      "bytes": 76947,
+      "sha256": "72feed1e05f9798f7880b0e0943497b14b7bfdd60e9e59d9ab523f76f8d57631",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "In the user’s account, manual release allowed the associate to place the item before pressing the release button; an RME ticket was submitted.": {
+      "file": "audio/ee1d1f32a71c57743a99d0d6c8cf3b1c9aa8c13cc69078ff5b4c674da3ca7874.mp3",
+      "bytes": 116235,
+      "sha256": "751aebd6dd00e0da73dbd0b2d8ccad71144cf3271bbb05f67369b0d1e955c267",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "If the destination chute was confirmed without the item being placed, the confirmation could create a missing-item risk.": {
+      "file": "audio/55e09a6a96741e3e3f86533089a8874e0098d28819333d3abb9e70b98f8b5890.mp3",
+      "bytes": 95337,
+      "sha256": "c34ecaccd0888a4755044b682f06d721ae4702c6cef23ef4f1d4605a73f66398",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "The early release is confirmed; the possible placement confirmation and missing-item outcome still need checking.": {
+      "file": "audio/f72b3f1b458450da0d536d6638bcbb09ff8521affda12be5dc0ca8738675b0bc.mp3",
+      "bytes": 96173,
+      "sha256": "ae25afb74790857fbd7c43bdda4368d873b96dff6e8f593ed0bc2c50ea5041ce",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "The automatic tray-release function was not working, leaving release dependent on manual operation.": {
+      "file": "audio/405c345b52817c3555d1fbe13ca8163d69f60fa03cac4f4f0fe47822322ff7c3.mp3",
+      "bytes": 86560,
+      "sha256": "b3d5984b6c7d74c7e20a7007aceb2f7382b23514e1d091d952a737aa5be53af3",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "The recovered account describes an RME ticket and manual button-controlled release while technical support addressed the fault.": {
+      "file": "audio/77a2fcd47a0b1d05a24ec818dabed34e8026b77e1330f183f72059361a1fd46a.mp3",
+      "bytes": 100771,
+      "sha256": "6f69026306a55a8d09a38ac66e1bf0dc6cd0e7fe47e4bbe7016e416826b8f86f",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "This case concerns failure to release automatically, unlike the separate case in which a tray leaves prematurely.": {
+      "file": "audio/3d4b9159e6b1b1f30a1b16aa7acdcced18e49211c0fd11ef45765c1e799a482f.mp3",
+      "bytes": 89486,
+      "sha256": "496f39406be91324f0b60cbb8e72b80b8a51e8d35d3e1295abb274b4e58d6924",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Manual release was available earlier; however, the station is now needed for technical work.": {
+      "file": "audio/dd60f8fb5bbf3a0ab4987b6103e3d0e8f6bd47a8e562d76b615219ee409038f5.mp3",
+      "bytes": 79037,
+      "sha256": "a54dd536c7b5efc8cd7f861f2e868bee817a386a4ead3dfca95b38eb92874409",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "The tote scanner at induct stopped working.": {
+      "file": "audio/f7413a55de5fbe5c341f48f075faa72378af95134a7bc421044b8a0fc7cf8add.mp3",
+      "bytes": 35151,
+      "sha256": "dc0a2902db1a2446368c9a81e13442c08e7e79d0e941646af8e37be4559241b6",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "The recovered account describes power, cable and USB checks, escalation to RME, and temporary use of the hand scanner.": {
+      "file": "audio/f6338b529be3330eb979e7837ced0467eeed8571f47cfc093d9df45c7c7624d2.mp3",
+      "bytes": 110384,
+      "sha256": "a56621eebbf3ae728e96d180b45a93419a2d737ea4e752d28705d99e1deb31fe",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "The availability of a working hand scanner did not mean the primary scanner had been repaired.": {
+      "file": "audio/5b7ba68b166c72f5db68b1422bc25fba703b8b81642809626f8d12bf6babc296.mp3",
+      "bytes": 69424,
+      "sha256": "4e8975921ce8c6395c0b6079f16167fea61d94694f22667dc5adf48a5dbbfbfe",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "The temporary scanning option is no longer available, so the previous continuity update is no longer accurate.": {
+      "file": "audio/768b41046dd4701201254da7b221962e4f4aab67597f679c7a37db464ef5a698.mp3",
+      "bytes": 91158,
+      "sha256": "c8db3584f57959229a3423517e8e3910a148387371ba969a3fb764de87bc0e21",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "A pin pad, MAASK login or badge-reader issue prevented normal access to the station.": {
+      "file": "audio/00338ba66786c2d84bf6b6624932f558db0f2a739125323995917c198cd7db01.mp3",
+      "bytes": 76111,
+      "sha256": "427f681025d57f759c8566a4a07d9534ad4f988251d9abf158e625ec6278af02",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "The account describes checking cable and USB connections; unresolved cases led to disabling the station in SCC and submitting an IT ticket.": {
+      "file": "audio/e1c509c2e87a214b6d37e7807726c87b9a6b6c8c99c5ff7b7b28ea84547b84b8.mp3",
+      "bytes": 128774,
+      "sha256": "be0800dfd7282a1328365cbfbe2da679a0ae1389208c6a37c7e1bf1fd74c7300",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "Moving the associate restored their access to work without resolving the original station fault.": {
+      "file": "audio/ae376ea9ea1e746d1c77d61f818b60b30014be15a66485095f38a1f5dd2f606c.mp3",
+      "bytes": 89486,
+      "sha256": "2da37fed45a5dd9c2a4765ad11d1e0e796a898597e5c1955858190607b407da1",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "Although the associate can work elsewhere, the original access fault remains unresolved.": {
+      "file": "audio/520a70fcda82eeb662e94f6eaadd72d8fcf5cc102d995666929de8a17c80e566.mp3",
+      "bytes": 73185,
+      "sha256": "547651641079e7b0acb5022226dcf4e3e686ea499cd5591bebb8848ef787bd0e",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "A dead roller on a rebin line could bring the affected line to a complete stop.": {
+      "file": "audio/c839fec318a29ec0358a872d4712597d3ce92d9082de0934ee3693275daa2788.mp3",
+      "bytes": 69424,
+      "sha256": "288dcda3844553e87644e9da87aae33adc41503343145d3b956c1d4b525ca042",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "I contacted RME and downstacked incoming trays while the line was stopped.": {
+      "file": "audio/409fc71fa88fe879f88ebcffea9dba47de71a775c579040e49d0d706f1e07b0e.mp3",
+      "bytes": 71096,
+      "sha256": "190466d4f7abbb55e2d57f386319da371212d123bde2eb81f799eee934472bdf",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "A jam pole temporarily helped move a stalled tray in the described incidents, but it did not repair the roller.": {
+      "file": "audio/d00c2a02760f3364257495980b357e43b52baadccb5f5a8f898430a6112d1cdd.mp3",
+      "bytes": 97009,
+      "sha256": "ed748382cc174e0699b3fa452002bf4a27dcb8d66ff164b499339725b5dfafb0",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "The tray has moved, but the roller’s condition still needs confirmation.": {
+      "file": "audio/49761bd6c75bddf7157d6e609546f0ad34e1288ff76d8ac06932e6b5659ea2da.mp3",
+      "bytes": 71096,
+      "sha256": "02108a450c8457fc4011d9f8b839bd5153304a44c784b12649608b5080a5a7d7",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "A dead roller stopped totes from moving along the tote takeaway, bringing the affected line to a halt.": {
+      "file": "audio/e343aa3f66bd6f71129b0eca6e40b7382b754332eced9e5950d26c1a0ac5d498.mp3",
+      "bytes": 89486,
+      "sha256": "f4dee430d3e4abf89a63868f97e9a8c19467971495dd43792406fd80e0b42df5",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "I contacted RME to inspect and repair the equipment while I communicated the disruption and supported the operation.": {
+      "file": "audio/f6cc113ca1012f6420c42fca98556a92da8b5e8c3d90370fbf68913da7aa8358.mp3",
+      "bytes": 104532,
+      "sha256": "28273a9c129a98a08810954487928eec1a1c6bdf9f9f6b68fc25b23c54fb4dd1",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "The temporary movement of a tote with a jam pole did not resolve the underlying equipment fault.": {
+      "file": "audio/567b6b176be02173fec5d1643fb35675ca6be53168cfa132de6f60754e5aa0ea.mp3",
+      "bytes": 70260,
+      "sha256": "54dedb0f79fdf85b7f967adb06cf924e666e995975d3f8e8584c351c2842a597",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "The takeaway stopped again after briefly resuming, so we need to update the current status and impact.": {
+      "file": "audio/2e80dd2f0c578a0238eda2e4c449584c885df062c39246b3c254dbe9fc70526c.mp3",
+      "bytes": 87814,
+      "sha256": "6c5eb0eb8f43930ef22da045dbefde62260c8f12033f7649c417ea429ac93e11",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "A button on the rebin wall was not working.": {
+      "file": "audio/88d1a04572728ccbdd3483e3e42e4b588331120403ad43dfb721de76c46817a2.mp3",
+      "bytes": 35151,
+      "sha256": "ed7c16d9bad80ccee1ce229c7c563c10e651b8f7a6ef3b358294036bf929f8b9",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "The recovered account describes connection and maintenance-function checks and escalation to RME.": {
+      "file": "audio/03e385a7a46cf08e6fdaefb85dba31715b929278a1893236b8915a7338c77dc4.mp3",
+      "bytes": 81127,
+      "sha256": "bc2ddcf622fcd0b7009d12c0bb66c66d76ff28e1c8e11e5f979f519dd506bf76",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "A successful connection check alone would not establish that the button had resumed its function.": {
+      "file": "audio/716f297cb4f10d850fc6cb143ba7fb66e0facd2089fbab373bd1c14bbac091e4.mp3",
+      "bytes": 83634,
+      "sha256": "91a436a4d63b77cfa9125e0ba61a5540ae35f2c5284eb64c1a506dce36185022",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "One test succeeded; we should report that result without claiming repeated reliable operation.": {
+      "file": "audio/d015fa2f7dcadb8ad0176d5418c52935750a7285f56c1fbd0aa5b5352e57670e.mp3",
+      "bytes": 81963,
+      "sha256": "1711f4f049fe56abce8e1f56576387f897c005d9d3fef3ecbaf29ecc31b443f1",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "The work order was completed and the exact part remains unspecified.": {
+      "file": "audio/3702e50c3db90425a971ecbb46883963ea58f5387cb203aebce7d1215fdf673d.mp3",
+      "bytes": 58139,
+      "sha256": "e8ae81f18a32f99d7edc9bd520cb342c2d10c0a5c1414fcf9ea26366461ecff3",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "The hand scanner at induct was unavailable for smaller barcodes that the main scanner could not read.": {
+      "file": "audio/5eaa6eae2d8d1935f0236fc10bb0931a83d601193a7100814c0d5b0288fb38f2.mp3",
+      "bytes": 81127,
+      "sha256": "045fa9c123fe08e1479ef293f737dc2e4040337870aadd6ebf3cf3ccc9366437",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "I checked its cable and USB connection and submitted an RME ticket if reconnecting did not resolve the problem.": {
+      "file": "audio/83248bc257bdcaa580e8bca6c3641d2e0fe02ed827606ac108daae00bc925784.mp3",
+      "bytes": 98263,
+      "sha256": "4ae88f883efc049fcab0ec9132fcb9e2138c7c0f5353f60ab0e2392174f8e844",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Items readable by the main scanner could continue; unreadable exceptions followed the reported Unscannable process.": {
+      "file": "audio/3c8e050395d685cc3e1b74eede243514b983489857c8a00b0626618f6579e3b7.mp3",
+      "bytes": 99099,
+      "sha256": "0fcbe07764df44e9593a0f297680840867926067befee644a4e6cdcee8264ae8",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "The station retains partial scanning capability, although more items now require the exception process.": {
+      "file": "audio/ec080bed330c72d704c0f64c4660c8b4058341e21ce8058af47a1ae75e177e62.mp3",
+      "bytes": 84888,
+      "sha256": "e87259e90f84c8a15effcfe666dc89c5245129d2df44e713e000718b61f672d6",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "The hand scanner at a Pack station was not working.": {
+      "file": "audio/5b72bd70f3d563eb339f447ea6c2b63ab5a15ee7d6d9bb897723658918698092.mp3",
+      "bytes": 42674,
+      "sha256": "d5e30f98d5f4e954ce030ae36f02e320a5698e731bf67106f9933b2de9eb96ea",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "The recovered account describes cable and USB checks, followed by disabling the affected station in SCC and submitting an IT ticket if unresolved.": {
+      "file": "audio/f5a77cb3ce486b1adf240f542c39fab35c8604186d0fcf617e99b1bd6bb4f953.mp3",
+      "bytes": 156359,
+      "sha256": "6368d434380b20967c3d53a1f24b3e5b9fbc030e27fbed86ba7fc29e5de67669",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "Relocating the packer preserved access to work but did not establish that the original scanner was fixed.": {
+      "file": "audio/9b1c1379a2f70184e00e33dcf617b1f3d3c29d5d4ab96e6a33ec848092e1b9ca.mp3",
+      "bytes": 89486,
+      "sha256": "f80eaccc2f09fb59a1e52b163425b493aff34251bf4961de2642ef7dbe489256",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "We can coordinate the move once the receiving station’s scanner is confirmed available.": {
+      "file": "audio/f04ef6834e440f6bacc97c29cf03abdf58aa118a6c1917811fc0babd331fe7e9.mp3",
+      "bytes": 63572,
+      "sha256": "75335def6f711aebab6ce510ec55f99fd7f1a0a740a2095aa8788a0ea645428f",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "The Pack label printer was not working.": {
+      "file": "audio/b9730a5cf76bb4b65038e05facd0f6de7a1a5dc211c7ee2fec4b05317bc1d36c.mp3",
+      "bytes": 31390,
+      "sha256": "075645f91e6881b2a5b4efff0ab0517b34bc664481b8327a843a77bceaf0f5ee",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "The recovered account describes checking connections and obstructions, restarting the printer, and arranging a replacement through the printer hub or Problem Solve resources if needed.": {
+      "file": "audio/095b2f4f9d67616e6792d223ead6d7c0cde37235d5168aa7b40def63faebce96.mp3",
+      "bytes": 154270,
+      "sha256": "a68716ccae78ad00454b707ba02ee7b25e7c4805390b9106932d255113a9938e",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "A label-printing failure and a station-wide failure are different claims; only the observed failure should be reported.": {
+      "file": "audio/4a4fdf2a9dd1f757df613caaddebf30bf11c84d12604143a0ef30352f6f2c1dc.mp3",
+      "bytes": 99935,
+      "sha256": "e7753a4a215307ab68fc92c28d3483c6d64042d9a74e7b41ea0510d4b8fa37c7",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "The replacement is connected; the output still needs to be verified before we call the setup complete.": {
+      "file": "audio/cd064dd1aa06ba6d0ab698ab8d34b0adfad76c3fe2df8ebc9b3bc9075cc61bef.mp3",
+      "bytes": 75275,
+      "sha256": "1dac30089fadd97c012b7b9684b4e30223e07e5172511bd875c0fb5cb7cc6cb1",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "The P-slip printer was not working.": {
+      "file": "audio/b642ff3fa1512547d7f4cb1d5aa4109417cf3b407168c4a949d1d44ad8470fc5.mp3",
+      "bytes": 32225,
+      "sha256": "4ed3388d58dc174bb551224abcbcada8dd745606c2a64bd9900089f3101847a5",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "The recovered account describes checking connections and obstructions, restarting the unit and exchanging it at the printer hub when unresolved.": {
+      "file": "audio/fc0e390e5fbad3729aa5a676e93824b62c5a50a31a26d80ad6874a6ba507ba20.mp3",
+      "bytes": 117907,
+      "sha256": "620627f840842574666e763631229459d76090b4bc88f136314ec53acf58a6a4",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "Replacing a printer does not establish that every required station configuration has been verified.": {
+      "file": "audio/27ac8375378762d5860dab42a7b6686d2ad192d58efc63571e0299f7705212f3.mp3",
+      "bytes": 93247,
+      "sha256": "fa41059e49ec6d64487787e43a89580bec897055dfe17b3f9f551ecff3fbc030",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "Output is present, but the assignment needs checking before the configuration is confirmed.": {
+      "file": "audio/cba6539f9db2ee635a0ccc1b1fe55eeb6156563a2e8115d3dd64e7b7a2964d0a.mp3",
+      "bytes": 69424,
+      "sha256": "8ea627785a003d5288bb86dd8aca9b33892f56e348c589e1a39a48a1ae9fbde8",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "IT verified P-slip output with a test print after rebooting the station.": {
+      "file": "audio/a1bf4d8ca9a1dcd2b0c40bbe6e3086614d5f61f840425e451c3d9d05a064a83d.mp3",
+      "bytes": 70260,
+      "sha256": "80ee20cbb0f78c40bf37c7dac18c53f3a3f8c91a81ba6aa53dff6707fd83823a",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "A gift-wrap station required two printers to be configured.": {
+      "file": "audio/58eb66fa0849477dd7ac374886a70fbf34c080983ea95dfea0d0f22132b35d40.mp3",
+      "bytes": 48526,
+      "sha256": "e5f9ebe1bba528eac30de8dac2dbfdaca98135a3b04ee82b3ebe18433caca499",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "The recovered account describes using the mouse and the left and right setup codes to configure the two printers.": {
+      "file": "audio/4543d6b9df5e2bdf0222542438eaa67fa2e2e731f0fae4927e66857fd4dbf9c2.mp3",
+      "bytes": 86560,
+      "sha256": "29564abfd22c9328fd7059d97e333613f9240df48e69a3f7a2e5951e42b47820",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "Physical connection and correct output assignment are separate aspects of the setup.": {
+      "file": "audio/d6b6c5081c32fa56f73ad31917ad651b75eb23b9fb23dbe1df50a5e87291f88d.mp3",
+      "bytes": 64408,
+      "sha256": "b068c10e60cd4710c1bae704f734ab071b3a1dbabb846b49e16e4f714fdc18c2",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Although both printers produce output, the assignments need verification.": {
+      "file": "audio/31aa60b8e5474c8bc46cd906706e9f1caa368a210f9bd455f74293d5e6c14f66.mp3",
+      "bytes": 58139,
+      "sha256": "46dd5e501e2534d77496fc314e1ce276b5dda7a8d599c93b2b7974358136b59b",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "A Pack station froze and stopped responding.": {
+      "file": "audio/383991d423cc3096478c2c26ab877207fd226e7eda92200ff374ca951d3c34cb.mp3",
+      "bytes": 38913,
+      "sha256": "78c2e94a914b99232d74809ab2c021598348489fd6c38e126127d69d43c7986c",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "I rebooted it; where rebooting did not resolve the issue, I closed the station, submitted an IT ticket and moved the associate.": {
+      "file": "audio/aae44bdff893398c04e1e2a928974aec04f8fbb1edcdcda4f75e7daf0f43afb4.mp3",
+      "bytes": 104532,
+      "sha256": "98d1d5148fc597c8ec80c9ca635a2cb2738b63f56c92cfc3b3dbbce2667c3692",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "A successful reboot could restore operation, but an unsuccessful reboot required a different response.": {
+      "file": "audio/d30861c5d3620a065934b4097e9fb21ba0820917106ed4e7f83bb83a387bc3fe.mp3",
+      "bytes": 99935,
+      "sha256": "f2ba56c1c875695d3d2c1f1ba6e40a83d54ce85824fd4b50054e0633a165f00a",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "The reboot restored the screen temporarily; the recurring freeze means the issue remains unresolved.": {
+      "file": "audio/d5ad6a0c66696d581753a7f6b17fba9d329174edc4ad8198f414860063924025.mp3",
+      "bytes": 81127,
+      "sha256": "4b830bc1aa3002f7d9460445db7f681edc3576eba545fd475c8513027ffe6ecf",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "The station keyboard was not working.": {
+      "file": "audio/7c091ae2c118e151d24f67aa9d193b9d76f8d39aa20cc84de18b22824c227988.mp3",
+      "bytes": 30136,
+      "sha256": "66d749c2e7e2b88576da5f94419b37b0d334fc7df16e91ec75608b0bf7f089b1",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "The recovered account describes disabling the station, submitting an IT ticket and moving the associate to another station.": {
+      "file": "audio/8afff46b33e52a8d04f9562d574231cf61ac8f89ec551d0bae3dbc18fe881cf7.mp3",
+      "bytes": 105786,
+      "sha256": "4beb0122228aaa917228e6c73bf7018bbb4d70a8dee4e2e8a25f8dbe65d7c2cf",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "The associate’s relocation did not establish that the keyboard had been repaired.": {
+      "file": "audio/3bec88100ee6c14a1fc8eb3da79431f3d928974ce152c16646f1c17e23618065.mp3",
+      "bytes": 64826,
+      "sha256": "902b6691d4a5ead89a5f93cad300644b854b3a5dbe99776fbb020adf3bc88262",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "The associate was relocated; the handover should not describe the original keyboard as repaired.": {
+      "file": "audio/9f2aed6e2a3d36a3c17a146d7d1e3e6f2b7d05d05dfbc6a92006b38416252a69.mp3",
+      "bytes": 73185,
+      "sha256": "35be9ea6a4e50bae0fedffea5dfcdbb6e046d52e77f60dbee60aa9f6c5d90573",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "A low-voltage issue prevented normal sign-in and sign-out at the affected rebin stations.": {
+      "file": "audio/0ba784ce0b8b9e9fda9723f9b50a01b929feb8bddcdde5682e5d1a13425461fb.mp3",
+      "bytes": 80709,
+      "sha256": "33a922c8926e3aea224e6e3c3a2fc7b3bddab63417df9a605ded114be0a785fb",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "I closed the affected wall, completed whatever sign-out actions were still possible and opened another station.": {
+      "file": "audio/011ef4847f663ae603496dab48a3a67ca2d7080c594e531ed68bb5e20275c098.mp3",
+      "bytes": 90322,
+      "sha256": "c36883b71b25a6282e101428f3e93fec3f46415d9bde36ede9e27a7721e948d9",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "At the time of the update, the issue had remained unresolved for two days; that duration is historical, not a current live status.": {
+      "file": "audio/64423ee905190140f547ef71583cb68f1b29ae376e9de61769a2b7a3085df8e0.mp3",
+      "bytes": 131282,
+      "sha256": "ae8b599f5547d8ddcc9aa6dc6de125e2f8820c75b0a8e32254c060936e44a085",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "The report describes the status at that time; I’ll check for a current update before repeating it as today’s status.": {
+      "file": "audio/ddcfb41dbc2d89eac87963385c52f20861492f2453f3a2ff64bf5b1dfcded3ec.mp3",
+      "bytes": 94083,
+      "sha256": "96d2c8b9483ab6290f2a936e237e904d8034678e3d9d26b2f527b3abf4dffbfb",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "RME replaced the damaged end cap and verified that the scanners and bay displays functioned.": {
+      "file": "audio/4136110de9c985a72ab9f2b2c3fe17a97c97274a916cdd0922721287b4bfe3bf.mp3",
+      "bytes": 78201,
+      "sha256": "16fd0099727ddeb97ccd1a856ecc8a9fbff66f169266b70f4c3921a5b616576b",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "The recovered account describes an affected line reaching an AGL or gridlock condition.": {
+      "file": "audio/9ca24d2e54b38a78778e24c5f30ac7a1e6e5fa25fdcb13d67675e44788c7a011.mp3",
+      "bytes": 79873,
+      "sha256": "45dcc523a28d9316d35bbc5202356f5a3228f672e944a56211165e79d00d58c9",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "The user described moving trays away from the affected line to nearby lines or a temporary holding area during recovery.": {
+      "file": "audio/3d10dbc24aa74978de0b12f9d1188e4bdf53e29a731a8491077d2c23a61cf8c1.mp3",
+      "bytes": 103696,
+      "sha256": "2a78e8036aff7ffc2f82236424fb0094424e2a9277029e42e2fb4fc72423388f",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "Relocating accumulated trays addresses the disruption without establishing the technical cause of the gridlock.": {
+      "file": "audio/bdecf38cb1ce000f9b4e18245d70529204c76d0ee0530be0a66c0469425025ed.mp3",
+      "bytes": 95337,
+      "sha256": "37bd3b1005987d4a05b7d4d07fb6f8dd4cf16e5fa52b04519f7695cde9cc2ab0",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Relocation has reduced the local accumulation, but receiving capacity still needs confirmation.": {
+      "file": "audio/3d16090c9f66d5ed3e5b9d083a819e3f8d79d69907bfc32cb4b0cd1437c93265.mp3",
+      "bytes": 84470,
+      "sha256": "547762c04c3a6a0689c16d2153165c50a47933dba6b848cc4e74d1db39c8cae6",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "The recovered account describes investigating the source of recirc and the station involved.": {
+      "file": "audio/7ec2333fc8344944981267e448555bdf9ddcd304140c9f9224e4bb61b61ac728.mp3",
+      "bytes": 74021,
+      "sha256": "bc93069d1fde1a2eda527496b7fa17f4a12a0925e8c786f141590de2bc50755a",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "The user traced where the recirc was coming from and took action corresponding to the finding.": {
+      "file": "audio/67dc2e6a755ef6384aec67d7dd0ca2423a1ea758acbd6ac6ae9ee345b6a46b75.mp3",
+      "bytes": 76947,
+      "sha256": "241499606243d2216fe9aa9bb59569c7d40ee8947da356a66f11eb86f17673bc",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "The available summary does not establish the exact causal finding or the specific corrective action for every occurrence.": {
+      "file": "audio/814170eaa584d21e519975e52ebaa891e89d285ebdcb36f65c7b47affb2d05ff.mp3",
+      "bytes": 99935,
+      "sha256": "dc1e8db9207c53f14833ad7baba405e35e2fe38c8088ffb8410ab610fa46b9ce",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "We have identified the source location, although the cause is still being investigated.": {
+      "file": "audio/58d333cec6d0fe7600c66b20a9a1e04890d145c06c5408d3b2797b875cfd8d10.mp3",
+      "bytes": 71096,
+      "sha256": "89a16ca8293da97b155b9c247b24c832d86a9b4b41054cd93bf7d7e9ace3d68d",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "The recovered account describes requesting or coordinating an additional wall when PPW was high and workload exceeded available wall staffing.": {
+      "file": "audio/ee2348e33c4684679cb710edc404813d435d886ec5b7d8623928ee338a8f2a69.mp3",
+      "bytes": 119161,
+      "sha256": "87c0d384ec70487f457fce1788e09bbb677d58449db95c9438784d0f9c5631ca",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "The user coordinated the opening in response to the workload and staffing situation.": {
+      "file": "audio/5f98115a93ab26a7104e70167c85c1b65732f05daedfd398d4c42a88a7736699.mp3",
+      "bytes": 72350,
+      "sha256": "598ba2bf338ed44e85a4ea5d8830b4f604b8c0dd6752ab06685e6fd10667249f",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "The account does not establish a universal PPW threshold for opening a wall.": {
+      "file": "audio/802613f0911f84d648637efd6bca96040484a39361aa59d45b017db701d46ff9.mp3",
+      "bytes": 70260,
+      "sha256": "86e3c99dd01d3d3131c4c34f2cad5477222622daac071089a5b0aaf55dbc5fcc",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "The additional wall would provide capacity if suitable staffing and readiness are confirmed.": {
+      "file": "audio/8de206d2b10cc9d8fccec7493e8ee7b4e04e6d44d4e1b4ce3910f0c1f0ce9c31.mp3",
+      "bytes": 73185,
+      "sha256": "b49a1ebef3501030c92ddddf5e72ce835ba01e21783ce86c88dfcf2a8948b25d",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "The recovered account describes requesting or coordinating a wall closure when PPW was low.": {
+      "file": "audio/56e61148c8bdcc8adfb80004ffcafc2b69a55eaa5336c053a23332a775b6df0a.mp3",
+      "bytes": 91576,
+      "sha256": "7dee91863b8f3626720b29faef23aa86191d77e6e75115a712ebbb3cad101689",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "The user concentrated work and coordinated reassignment as part of the closure.": {
+      "file": "audio/71c8cbf737f37506ea67d620618d914546ac7a2afd1cdb7b13bdeb8bd2bad86a.mp3",
+      "bytes": 72350,
+      "sha256": "4f136a0c6facd19bc9429ac3e394f0fcea77614de214707d838f2ea5c365f091",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "Closing a wall changes capacity and staffing allocation; it does not by itself establish that demand has disappeared.": {
+      "file": "audio/a0f04786219c8edeee56a77403dc90056b42b68e0ec293bb0ef63a37a4debd37.mp3",
+      "bytes": 100771,
+      "sha256": "7d0d2cbbc4fc33f8639a603c69f42c7456fce29a0d36d98e1466303d65f0cbfa",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "The closure is agreed; reassignment details still need to be communicated before we describe the move as complete.": {
+      "file": "audio/6332503029a20900ce5fc1cbfbec38f75708359d044048a950bace14cda03f01.mp3",
+      "bytes": 95337,
+      "sha256": "8c836edbfe8d5b5778daf2670023da2f12d30cc9195b01f84f0fbbcf141bd849",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "Flow requested associates for another department or process path, such as Ship Dock, Stow, ICQA, Pick, AFE2 or Singles.": {
+      "file": "audio/2fadbd67c4432955b2aa22628fbef4b86a2d9d515cd114ba7b05ba81169d582c.mp3",
+      "bytes": 121251,
+      "sha256": "76194ad9147b1e332268bf10f3b7931f379e7984d1ac91d6ce4e57a0d30e64c4",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "I identified associates who could support the destination and coordinated where they needed to report.": {
+      "file": "audio/97d26f0599540bcad2ef7f48931d75fc323d669d39e771485eb4df71b2b2bd37.mp3",
+      "bytes": 78201,
+      "sha256": "31333adfed0fc83334ed02de88f0a2d89135b7b1e612ca0f5c4aff98ee46a14b",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Supporting another department also required considering the effect on staffing in the area they were leaving.": {
+      "file": "audio/4b4573f3ead25c5fe534735b80fdd61ac0d46b8c4415817a3b1e64e38ffa26e1.mp3",
+      "bytes": 77783,
+      "sha256": "a826da3b8439c6093385cffac663eb066285a739d9cdc2be9534ad96b8856b1a",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "The destination has changed, so I’ll confirm the new reporting location and loop in the leads.": {
+      "file": "audio/77967ee724147d800f6a87885290dcc9f37f4de80faa0c65ac32f3781cd0edaa.mp3",
+      "bytes": 79037,
+      "sha256": "7d149dcdbbe73b771a502e51861acb4aed3de1ca0842ed4b73ca61576d446bfc",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "The recovered account describes low PPW and an absence of Pick totes.": {
+      "file": "audio/a3e8f0734c6f7d0ebe562efc8a4a18bd42dd02772e76a996f02779fd4837caa6.mp3",
+      "bytes": 67752,
+      "sha256": "1a9eedf5bf015fd0a298a11975eeb8c35137fcc1b1f189e0036045170da63275",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "The user took associates off stations for a safety-training working huddle while PPW stabilized.": {
+      "file": "audio/7af2782cad9a634f11ef6285bca53d4aed964ebd2179ba899f87575a3b02ed1a.mp3",
+      "bytes": 84888,
+      "sha256": "98de35282b7065b8d3ef5194d128937d34d019f19943fc6b958ca59c3fdff0db",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "The huddle account does not specify an exact training script or numerical return-to-work trigger.": {
+      "file": "audio/719805499d5fe8521d91e8d74cc66ac7a88773dc1f881c7303d1755bfb6579be.mp3",
+      "bytes": 84888,
+      "sha256": "474c422cf7ccd7a289197110727f5b22f9ba08d8d549589255d12b827c538d59",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "Work is arriving again, but the return plan needs coordination before we announce the next step.": {
+      "file": "audio/b65c3b9daec9b0aec15c3f22ff55fb7d9aaf37f2cc1baea84995debe132a6bd6.mp3",
+      "bytes": 74439,
+      "sha256": "2368ff5583af056b5435e39cf2c81e5fdba501d08e212a0385cdd3207a19c07c",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "Thank you. Let’s separate what you remember clearly from what still needs checking.": {
+      "file": "audio/a44c8bd37a6c8d6499b3c3d44139c916db95f6eda79a16993311b63d79d1453f.mp3",
+      "bytes": 61065,
+      "sha256": "fb260283cc7777aa4f9ac6a02a487c491286585dfb5db8429515e137d4def988",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "That’s fine. I’ll record that you don’t recall it and review the available information.": {
+      "file": "audio/a7c09cc4028d01c7ea67a2aaf2b905c61760c26a1765ac611e14ef495e966792.mp3",
+      "bytes": 65662,
+      "sha256": "684657b3f20594b7989148012bb948dbdecfb51a5bb3cd293e7cb0e4ec710c5a",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "RME replaced a missing bay display component.": {
+      "file": "audio/584267d41a48bd3d3c2512469251c3d8d68ff6833eba8e957c26cb29ea717192.mp3",
+      "bytes": 39749,
+      "sha256": "981070b4150d386d62f78bc077e374ced672c692825831c90a0646286978e10c",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "I followed every step, but I still couldn’t find the items.": {
+      "file": "audio/ce6925b6432a819190267a423e61bbf532ce96ba0aa435309250d573614bdd75.mp3",
+      "bytes": 45600,
+      "sha256": "fff2a88d3275466da265989893f097854a1b620f7f8e7c3c1c1d4ef432177c51",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "Understood. Let’s record which checks you completed and what remained unresolved.": {
+      "file": "audio/379c3d035ffdd6de0bda7110dc86df473eae9f0f2b4c5339bf7c8b665fa08839.mp3",
+      "bytes": 66498,
+      "sha256": "eacdc38e055eb84ed35ba1df905c1163066fa73d5e4190db7ffde75ec98caada",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Thank you for clarifying. Let’s review that step in the applicable process.": {
+      "file": "audio/9fe4858d7cd3003b0555e4b84514b3bb9625e5b0bb8f9980dcba6d7277592fa7.mp3",
+      "bytes": 58975,
+      "sha256": "12435f3cf8eeabc675a725b2c818e3126d18eaf0ba638831a03dd55e1f512751",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "The item wouldn’t fit in the recommended box.": {
+      "file": "audio/f8b988d5b7a1c3134637fe7beff2c3bcba23bc895ed08055b4712357dca06fa9.mp3",
+      "bytes": 37659,
+      "sha256": "267469356de99327849afc8f762052d28b317d18831b5a1b534a7256f88cf780",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "Could you describe what prevented it from fitting? We can then review the applicable guidance.": {
+      "file": "audio/d1d4200507d3a2a35b70d02b7de06b62f05146f79b7b6c6174549b1d1d4226a4.mp3",
+      "bytes": 73185,
+      "sha256": "27012ad3bb0e24d87b93204d8697606ca30e6c5f65c6455e4325ca0612aea557",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "I’ll document that the reason is not recalled rather than assigning one.": {
+      "file": "audio/359b140c17761aabf49fa75cdf9ea917d26ce445ac3553780614688fe047f1ab.mp3",
+      "bytes": 61901,
+      "sha256": "4dd5d19f63a8979951dae3fdaa83a1c521c0608e7650f5498992fe94a9511f78",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "A packer asked, and I sent the item to Problem Solve.": {
+      "file": "audio/98250c46f8de2b477e86404230a791a2d96681fde47cd0c2775c3ba17e6eba7e.mp3",
+      "bytes": 44764,
+      "sha256": "8e7064f699d52c8c57f6560afa7ea07b2c41e9d17faf2f734cd149118617ef31",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "I’ll record that as your account. What details do you recall about that interaction?": {
+      "file": "audio/09e7250841dd8c19088bfce6e125269c266b73247fd54f9a5af77cc1ff99a62e.mp3",
+      "bytes": 63572,
+      "sha256": "8730a7eb9088e49024458946884bed95584560ef09cf346cadf85c37b132f896",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "Understood. We’ll compare the available accounts without assuming either is complete.": {
+      "file": "audio/ddfe08cf7ecca31df46a23a0054446d00951093399ff62fc5974162426a7575d.mp3",
+      "bytes": 61065,
+      "sha256": "f041f2415d07e27419e96f3038d55ee36594fca4a8e462be010b25d201c383bd",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "I don’t remember any station problems.": {
+      "file": "audio/103f3c989f790e853180995eb5e3b48c76366f65e5157b763fd83c20786e56c9.mp3",
+      "bytes": 32225,
+      "sha256": "5c749e5afe4d1233a43f0bf0518bb560afd8743c6a8fdc72f1a178a3e49a926c",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "I’ll record that you don’t recall any, without treating it as proof that none occurred.": {
+      "file": "audio/492020456d44d01f9bed0da5658a069de5dda2b5e518b629772644b086661fe0.mp3",
+      "bytes": 58975,
+      "sha256": "f055aadb1b0e6d799331deeaca349ba0fef58d20cb01ec6120f315bc339d7075",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "Can you describe the behavior you observed and whether it was reported?": {
+      "file": "audio/91542578bdab4f868fd7ca9ded64855ac795de499175f2b491021e8db8c1353b.mp3",
+      "bytes": 58975,
+      "sha256": "8807293547b8db6bfa38beced4c4d85504b8ad9b4a98c11d9fcce80ed4af1093",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "I can explain the distinction using the example we reviewed.": {
+      "file": "audio/fec2b529bfc2a6efae843256c69e284ac1a738f9d56c694ded486f1e5b4f4e77.mp3",
+      "bytes": 47690,
+      "sha256": "b874218342d06333daf7ed1bd2f4b596a525c607cc6cb8de87e1c83a99da051b",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Please walk me through it so I can check that we understood it the same way.": {
+      "file": "audio/eac94584279e443ae8a40fedd4562b2cbabde09701950ae4c02990c6267549bd.mp3",
+      "bytes": 50198,
+      "sha256": "83153a0373042e49fdb21ee5b65ba2ac6f87e94ec2071c048ffe4c8f23cffa48",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "Let’s revisit the distinction in the applicable guidance rather than assume they are interchangeable.": {
+      "file": "audio/bc7e84aa80f1c084ff327d0c4f2062194fdc315df20feb4119e192174c8f0d76.mp3",
+      "bytes": 76947,
+      "sha256": "7e23d42bfbee6d4a8db9653a0844559a686c65917ae3fd81d46e479e902b5a65",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "Flow requests one associate for Ship Dock during recovery. Training is confirmed, but backfill is not.": {
+      "file": "audio/f89bf04820aaf946d600cb83074f732031c20b17cd50305412914c6a5c325afc.mp3",
+      "bytes": 98263,
+      "sha256": "aa932c191e873a2e7f3ac63df059ef9c7634fb25e404d59f9711833ed36e755e",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "RME found debris and loose hardware and restored the takeaway.": {
+      "file": "audio/e793e8ac0dc3b3f5c2d67835f84bb391891c127ba711c7093b0a0ed66c369a28.mp3",
+      "bytes": 57721,
+      "sha256": "742f1ac6e0fae0392c04d330036bd84246190bf996d170263af2a4c206a41201",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "A handover says the finger is ready, but the latest functional test has not been completed.": {
+      "file": "audio/2a083d155b6dc91ce42ee76e3682e28fe30b59bcf41b8609f1e8309ff85d42c1.mp3",
+      "bytes": 75275,
+      "sha256": "717a086d4d2bc8e7dc17a687f6bb0b68ff94132ee612be324fd069235079e670",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "Two reports name different connection points. Neither report includes a confirmed test result.": {
+      "file": "audio/644b1983bc46bf7dd7da389c46e7660553103818d0c9bac23bb3bb7ce3014ca0.mp3",
+      "bytes": 83634,
+      "sha256": "121693faedae571b177fd786f3c866ce29e3e80b69c2a01c698b1494d39b0ec6",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "The display starts responding intermittently, and a lead asks whether the issue is resolved.": {
+      "file": "audio/31990dedc95f3cb9671eb31546a45b728326097fce2ca1836d0c3a1077e30349.mp3",
+      "bytes": 73185,
+      "sha256": "e9a5b7ca80545b63ee5cac9d5b0b78504075ca22ba2135b45c005e58e4ccd7a1",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "RME is scheduled for break, but the line stops completely before break starts.": {
+      "file": "audio/c85ad6d8e82c1c92bf79099aa78ecca0ffbbc04c50dd6e5bfdd7e40e23b2d988.mp3",
+      "bytes": 64408,
+      "sha256": "6b59dcd667b06910eb6b9c4d6e1f318d5ff0d5dbf9e6b9f992e4d9767b74a320",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "The work order lists missing hardware without identifying the exact component.": {
+      "file": "audio/ba93220c567e9355b0b3369ae86389e1ba50401172633ae04bcea57b420eab92.mp3",
+      "bytes": 61065,
+      "sha256": "daec8058c6e89f31a90781592a573023d05b9fd428cc7323362550c7764711d3",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "The merge jams again after a restart. Someone suggests the earlier repair proved the cause.": {
+      "file": "audio/6e28021b909c60bd8d46657cdbc8185f27a6b40221844f67903288f269757c21.mp3",
+      "bytes": 80709,
+      "sha256": "96217fd1a2b9d0fdf8be75c90aed4f42863669cfab44ba68fcd750c4b5caae02",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "The temporary hand scanner also becomes unavailable while the tote scanner is still down.": {
+      "file": "audio/03d157a49e6d50d6f8b04b9e316f49d361689ddff2712fbd2cc67b963d1a42f0.mp3",
+      "bytes": 72350,
+      "sha256": "151c8c8d1894848a81f653f0cd2d9809cc13b21c474823be41505dcf45bf394d",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "The associate can access a different station, but the faulty reader still fails.": {
+      "file": "audio/7b6f2ed8be529a6e6f689d3262501d4826823c1fc8c6c058b5f097587330fe69.mp3",
+      "bytes": 68588,
+      "sha256": "ba481aef93a731b32a14181fcd63a4428d9edd49ae7fdca04621163c99d1cd19",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "A tray left early, but no one has confirmed whether a destination button was pressed.": {
+      "file": "audio/509f75aa5d2045d1b2dcfdc93e56d2600aa927c0dea3a3ea6669ede6c071157b.mp3",
+      "bytes": 73185,
+      "sha256": "b11fcd2cfdcf71de8622685627e35a0555da08c4389b25770e9579bd85541c14",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "The reported symptom is intermittent feed jams and the cause is pending.": {
+      "file": "audio/5fc86e5e3c6ec58df1bc69bc9797913aed160eec48ffdcbf8ee939d69818f781.mp3",
+      "bytes": 58975,
+      "sha256": "70a0b2bf40ac215263442ce45bda7a3ce0a90d08054df9751f66c62f7d9f214a",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "Manual release is available, but RME now needs the station stopped for the repair.": {
+      "file": "audio/47d7139f545ae9e66bd4b308eca1b20935edb40ec76906be85eed0f1493fafa4.mp3",
+      "bytes": 70260,
+      "sha256": "d3690dc6bd94918060a44e7187663480134110a764d9c5637d3335ee86214e73",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "One stalled tray has moved, but the roller has not been confirmed operational.": {
+      "file": "audio/fbb43112c9fba9483063ead3b6aed680098cc6ea4211cc3a29b753184502ad86.mp3",
+      "bytes": 63572,
+      "sha256": "70e85543d00af6b99b909b4f3702d9c9e2a43cda16822b83a5d44dbfbb541551",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "The takeaway resumes briefly and then stops again while totes accumulate.": {
+      "file": "audio/873bddeb8ba8a14176625a61fb52cd5880363971db7e55b1355eb4dc5bdc0b02.mp3",
+      "bytes": 63572,
+      "sha256": "791c6b5216805d02d6aaea6e555921be183aac352cd61901cf4bc62b4e88a804",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "The equipment was tested and returned to operation with more roller work pending.": {
+      "file": "audio/6ea2bd83fa688a691db6d6e79135c0040c97ce6113505810aa9fac6b7651b7c5.mp3",
+      "bytes": 65662,
+      "sha256": "f84920a5368c800439c2ee360a5f4cd864c7a2568eea498b0988c9f31845a0a7",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "The button works during one test, but no result is available for a second check.": {
+      "file": "audio/a9aa92afffca625a64e43cd09f9d17a9d13b8550384d6f00ae31d1c1ccbdd02a.mp3",
+      "bytes": 64826,
+      "sha256": "d68b1e2ebbbb04da63c0365b63236c5ae0f2ae928ac9afc71679490f6a8d343f",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "Most items can still be read by the main scanner, while exceptions are increasing.": {
+      "file": "audio/2202ba8a48182a8ebc3ebbb9a28ef529045f5eb09084f7794723739d580f0e69.mp3",
+      "bytes": 67334,
+      "sha256": "792abcdbde66591dc4f3c16f0f4782675fb58bf0b7d534c76b7f53e023619c93",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "A receiving station is available, but its scanner has not been checked.": {
+      "file": "audio/cb895c9adc13e8b470e6e30e3678aaa9f1da897681464d66c79a6384c58dc4a8.mp3",
+      "bytes": 54377,
+      "sha256": "4a975f3f6fc513f2e1ed040c425ffd6473becddc7eeb4261870fb589fe4b0bb9",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "A replacement label printer is connected, but test output is unavailable.": {
+      "file": "audio/76512f374e28cfe7f2644010d52a8d4d2e36c8cb9f4d9e4b62c156cf0b0a7cdd.mp3",
+      "bytes": 59811,
+      "sha256": "76aac47c596cefcf12b5054a59564406d93dafa6425fd8f1a70f7685f90f3fbf",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "IT replaced the taper cable and verified the device status.": {
+      "file": "audio/0ff3161818f36c9ef5df454962c5f55effad5fc9793788858e37e0cfbca0cd52.mp3",
+      "bytes": 59811,
+      "sha256": "387d1fe229039e3c5554c982904d8d9c48cefbfc2afc921aeede96a7d460922d",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "A P-slip prints, but it comes from a printer different from the expected one.": {
+      "file": "audio/7df3bdc40f7921a089547cfb7db2104f723bfa49b2060f85defdeb17b10f2504.mp3",
+      "bytes": 54377,
+      "sha256": "06ebf5434adc381b07fda7147362af1cb319fc432cf44c14a5486824e41e8af1",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "I’ll pass on the latest confirmed status and follow up on any detail that is still open.": {
+      "file": "audio/4ee05bb1f11f53dca1d5c62b2f3fc679c850a9ee76ac1f3b3c0a3e2c44c4417b.mp3",
+      "bytes": 67334,
+      "sha256": "df7a60585986889542be200dc5280196cc0962f633d0753f3564da438522cc3c",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "The associate could be moved while the faulty unit was exchanged; gift-wrap configuration was relevant where applicable.": {
+      "file": "audio/c8ddf069bc08fa3ce9b120e181f542924f2316d9738cb4bdf45050d777aae371.mp3",
+      "bytes": 97845,
+      "sha256": "7da878e632f9b46fc70fef2fef8855d6315ed01bf74956379794d01f8444c144",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "Can I report the issue as fully resolved?": {
+      "file": "audio/afa584d68ec5e10c4f9d82a42e0625dab79ae7d1a0547b96e2c62fa0bc7bc493.mp3",
+      "bytes": 35151,
+      "sha256": "907081c9ef1ddc92f49645d57834d1d42fd3a9c82ebf284382d0dfd251614c42",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "What should I carry into the handover?": {
+      "file": "audio/6922ca41f327442400e7e7af08999c51e990ec553f1f063d6e67af780597947a.mp3",
+      "bytes": 30136,
+      "sha256": "0a497ae04dde2826fd502b887c4ff74a149cf5db2a33f4d6c7959cbde3cdc029",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "Both printers produce output, but the left and right assignments appear reversed.": {
+      "file": "audio/3657e14544ae0dd94cb76fbaa3da134a3c326a9c688a25a77265d2a2f580849b.mp3",
+      "bytes": 59811,
+      "sha256": "bde668cf46f349c3caa3be54f4be1d514aeecee67478e568e2b4402937413acc",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "The setup was checked after configuration; exact codes are not supplied and must not be invented.": {
+      "file": "audio/5e214d79d6e8f13c64a25b02218050c99786be9b4239e200fd1c82290999a99f.mp3",
+      "bytes": 87396,
+      "sha256": "7017ec2f32bd87cd6756132bf1dd69bbe636537eca573510221dbb5ea82052ab",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "A reboot restores the screen, but it freezes again shortly afterward.": {
+      "file": "audio/77de029f30e66d0493c15d6096f26032fa4e047c467cc84a615b1faee6ca3f5c.mp3",
+      "bytes": 58975,
+      "sha256": "9271342992bc7a3b4eb14f49e3e24decb22429727bd903402a8c91e9c2a93956",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "The affected station remained unavailable until IT resolved the fault if the reboot did not work.": {
+      "file": "audio/833cdfc82761a0c1700f23a2dd595926c82e386e427f8209c98c250af2bb99a9.mp3",
+      "bytes": 87814,
+      "sha256": "895e374aac730935d156e7c2c3af3b2ecbd16e3a9f84668e61c123c87725d3e1",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "The associate is moved, but the outgoing handover lists the original keyboard as fixed.": {
+      "file": "audio/605b636c21a6b20631a9f08e7bccf22dc044c7130d66625758612502893b04a6.mp3",
+      "bytes": 77783,
+      "sha256": "0ac37f6f80c2c10d967093df71e2ceebf863e67e88dd98cb3abb65a35e4cc026",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "The affected station remained unavailable until the keyboard issue was resolved.": {
+      "file": "audio/b131037c5d96309ab6aed6d5d7e205a8044803511ac9b669df478455d340dc28.mp3",
+      "bytes": 72350,
+      "sha256": "ab1d73f0592a04b872f2854d79fa4e6d3b41f37a1b3b010b88621c5213a9cece",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "How would you handle the interruption?": {
+      "file": "audio/fe81e1aa221c3e816375714db54a4c6e6c2559d7251b39565d5f9db2cdc4bf52.mp3",
+      "bytes": 28464,
+      "sha256": "de5e79b2aca9c749884e8c866c58fc761faa44a345c4e64a2358a72dbdbb454e",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "What did RME document?": {
+      "file": "audio/282019e07c7ec578bbe9e729f2a02cc19493c4d50eb6af0a209c85b8c7559aa9.mp3",
+      "bytes": 24284,
+      "sha256": "0095763f8b7c8252a991e7b141d567676beed9edc11925d749f10a4012d0488e",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "A new shift receives the two-day-old low-voltage report with no fresh technical update.": {
+      "file": "audio/03651961ce48fdb45b5f9d782531669197e3465c47d24e8d872aa4bf3d884618.mp3",
+      "bytes": 75275,
+      "sha256": "0847cd02ff1ee53ae20df120ce688dc00ffc6c202d7ac3ebeb0fd3261f32e636",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "I managed the operational impact while technical support worked toward a resolution.": {
+      "file": "audio/9185784cc4622d7098426809527edb426f10b23357282e33a4a4a1f1c86e4c40.mp3",
+      "bytes": 65662,
+      "sha256": "043a06e99faecb7902ede7d97be7a95d1286b22f04769289a10753a129b9a5ba",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Trays have been relocated, but downstream capacity at the receiving area is not confirmed.": {
+      "file": "audio/3aa1b41e48a82be3912ddf5b3adb9fda1ed6439f25b4f3d996a273861a39f797.mp3",
+      "bytes": 76947,
+      "sha256": "20cd477f362430b480e6448316cd01fa78a70d046a1f422d80a41be4a55aef64",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "The exact operating thresholds and technical cause were not supplied; practice must focus on communicating the known recovery actions.": {
+      "file": "audio/391cdaa855ebe247aa7201b4df4678845800cc41d5fecd0a8aa12bd785573941.mp3",
+      "bytes": 111220,
+      "sha256": "657fbeff2acc640e473af62c2acd03f5d35fdac9135c1558e2b5d7218f63ce29",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "The team identifies where recirc originates, but the exact cause remains unknown.": {
+      "file": "audio/cf27e669911fbb91bda547598de2d7c4302e4061d1371dd0d91ae99070292aa3.mp3",
+      "bytes": 67334,
+      "sha256": "fad36afe766e0c3984747686aae5338431c516e45fc3b1f31f480da156599864",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "A useful update separates the observed recirc, the identified location and any cause that still needs confirmation.": {
+      "file": "audio/11741ddb0438c68d27af8ae100a0a8ecf3a653e457a1e85d33d7701289ff5b33.mp3",
+      "bytes": 95337,
+      "sha256": "877d97b150fd90644c345277a466b04d49a21d700b86a897e9a22e53fa801219",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "An additional wall is proposed, but trained staffing is not yet confirmed.": {
+      "file": "audio/924f4e59652531645b44eda57a6abf5814eb9fd640ea152f918b6425e69b9e5e.mp3",
+      "bytes": 69424,
+      "sha256": "122d9fe9ffd5c69793ba81d6ca1967222c43b48edc8a1b08ebb795b578aafe86",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "Communication should confirm staffing and readiness before describing the additional capacity as available.": {
+      "file": "audio/1373ddab7b6d8c1670f77e18247070d2a51dc327940625ab279556e7419a398f.mp3",
+      "bytes": 87396,
+      "sha256": "c5ecfc824a6ec3df0257276d34eb4fa9abab5b72771336e5eef32b53e44f3949",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "A wall closure is agreed, but the receiving assignments have not been communicated.": {
+      "file": "audio/e1fb5fefebd18ebea5727d7487afb6aaf089604bba377270a91fc467ac8da4b7.mp3",
+      "bytes": 64826,
+      "sha256": "80296212460a57fc0599df3fceeb5d94db80ec4d40339ea5a0416144ccd05b1e",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "The exact PPW threshold and completion criteria were not supplied, so the update should distinguish proposed and completed moves.": {
+      "file": "audio/86c36530ccc929679cb669bfd32b9e349932581f1ed322e4bffb4660640ffd82.mp3",
+      "bytes": 114563,
+      "sha256": "fbb0bb5f43ce17650d345ca61908b9261108c003bbe2bfb1a7154131463b3d51",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "The receiving department changes the reporting location after the labor move is arranged.": {
+      "file": "audio/9433c8a39e8ab0bf5a4c634b39b730dc447c7abcda6a0553486fc5381fe25acc.mp3",
+      "bytes": 77783,
+      "sha256": "b3a5490d2006d7ec5dc05850cf6c58383f9a19867a61a35ce9e7a85e622c4052",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "The move needed clear communication about the destination and appropriate coverage; Ship Dock is the confirmed department name.": {
+      "file": "audio/4d4d18bfbe4160f1b66a14caa40369306775a942943ec565ae4b500cdb4765fc.mp3",
+      "bytes": 108712,
+      "sha256": "6d54d30cfe05d2464f56e6832a4685afdaa568eaf05aa8cdd94bac3f416d0650",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Pick totes return during the huddle, but the plan for returning associates has not been confirmed.": {
+      "file": "audio/73e8a383c74f713c93d246cd5f593d9ef8179fcaf83b7b11fc695e92a8216f48.mp3",
+      "bytes": 80709,
+      "sha256": "fe9de5b092d4ec63a43dcc4f1f903f9f8f3a94bc101453b36d7cb4abf12c82f9",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "An update should explain the reason for the huddle and identify what must be checked before communicating a return.": {
+      "file": "audio/62903179a0fb41e84b879b1d64c707bcef86d915e65a35fee5c1bcd4170940ac.mp3",
+      "bytes": 94083,
+      "sha256": "9b3988dee1f827fb6428f9b566ef6cbdd81778dbcb733bde8b95dc76e08d93d4",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }

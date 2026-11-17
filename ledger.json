@@ -18528,6 +18528,16 @@
       "cap": 13771,
       "estimate": 13771,
       "completed": 258
+    },
+    "amazon-early-gaps-2026-11": {
+      "verifiedCap": 8339,
+      "estimated": 8280,
+      "files": 129,
+      "lastDay": 5,
+      "firstRemainingDay": 5,
+      "reused": 179,
+      "status": "running",
+      "completed": 0
     }
   },
   "voices": {
