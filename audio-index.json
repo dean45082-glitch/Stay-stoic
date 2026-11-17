@@ -14865,6 +14865,76 @@
       "sha256": "9b3988dee1f827fb6428f9b566ef6cbdd81778dbcb733bde8b95dc76e08d93d4",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "Report the affected line and distinguish restart from backlog recovery.": {
+      "file": "audio/97028a9d4814a24840cc55cc7a6d468e24c6fcffe44ae8d0dbe3b49d48b21f5a.mp3",
+      "bytes": 59811,
+      "sha256": "7151a6d2a3d6939fef1b3cb65b7ff250477fbdd2851fe79b86ac85e0f07528e0",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "Give a brief report of the observed issue and the response. Include one uncertainty or boundary from the case. Use a time or contrast connector such as “while”, “after” or “although”.": {
+      "file": "audio/c2cf0614e2d07ee93fa32e4303d94dfb0c955ab7a19f6fe19b24b4928766d335.mp3",
+      "bytes": 209022,
+      "sha256": "e90c2ffa7aeef702fbda7bd65825d4fb481f569d98bf454d927dc7c51284a61a",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "The photo eye on Line 3 was misaligned with its prismatic reflector, bringing that line to a complete stop. I contacted RME and downstacked incoming trays while waiting to limit additional recirc. Although RME resolved the fault, the accumulated trays still had to be worked through.": {
+      "file": "audio/b49866802991772a4347e79e6ccf8a7c1402eae0f6437e9d982a8d98a43eac78.mp3",
+      "bytes": 233682,
+      "sha256": "47b92d8799cf3bde0978770724e73274fdb622b3b530db3aac0286536ee2a72e",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Listen to the update. Which statement matches the situation?": {
+      "file": "audio/183f882eb1c6cebe7d2ea8d5f0888ad147ec5c41d26c36bd2bba6d0df962e16d.mp3",
+      "bytes": 53959,
+      "sha256": "27e52f66f14ad0f64b0ceec26a8a5fca2b0c24dd0a1e540e02ebc72be5df0b10",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "A final resolution has been independently verified and no follow-up is needed.": {
+      "file": "audio/9e3af404b2a28471fd39699c84affcda6126961b39db887fd81d301e8a4213bb.mp3",
+      "bytes": 62736,
+      "sha256": "809c820b2b60e10867b455cc59eeb042690029f532a0ffbde75f17a46db16a29",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "The entire sorter failed and I repaired the alignment myself.": {
+      "file": "audio/ba618a43a27bed1f5d1e0da5f8940c43216e714765d07d2c4557c0e7f90da622.mp3",
+      "bytes": 56885,
+      "sha256": "22737e31e37f08a6d826cc98926168e76ed706d01a717df39e842c7161603c33",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "Which response preserves the evidence and avoids an unsupported conclusion?": {
+      "file": "audio/53f51b50222d94ed3db5e2e074d283ae475153e0fd9eff068b654726dc39aee4.mp3",
+      "bytes": 62736,
+      "sha256": "0dd936af532ae40c5b880ee573a29e1d8aaaa14e8794c2d74a483a743e562291",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "I’ll report a permanent fix before checking the latest status.": {
+      "file": "audio/b35936a6e26506910ddd487521d27d2a932253c4ba20b9e61df833d4229d605b.mp3",
+      "bytes": 51452,
+      "sha256": "4472aa66d71a9ee6a6f89ef704b0304e7795873730da00e38a0ab7bb79b4c3e0",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "Which distinction belongs in the case review?": {
+      "file": "audio/261e83c34ce3c43276f30e006af193833393511157e70822cec72938304c8fae.mp3",
+      "bytes": 35987,
+      "sha256": "449ad79abcf49dd5899e3006b2d3cd6adc8b311509db147af83b3f896a6f00b6",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "The most confident-sounding explanation is sufficient evidence.": {
+      "file": "audio/120493ea7b9048bbc5fa3348b242d2c7803cce27de112c0ab539efec9a2da5b7.mp3",
+      "bytes": 45600,
+      "sha256": "82435bee029aa7d63605a52fce72933a3fafaa70582df14ddb2de064e692752a",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
     }
   }
 }
