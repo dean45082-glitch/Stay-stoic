@@ -15425,6 +15425,76 @@
       "sha256": "f5cb7d2e48e536dfee1cb0e2421468d45b7b76dd3ec68a18cb4167c60531ec3b",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "A new condition appears: Two reports name different connection points. Neither report includes a confirmed test result. Choose the most accurate update.": {
+      "file": "audio/3926548db91ea8dc5fe401a41c5ac295df8abc0f644c1deb02807a7423234fd5.mp3",
+      "bytes": 122087,
+      "sha256": "86122d6a0eba1608eafd9104bf9255286adcb4e422db950aade37b6683d7bc8d",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Choose the more specific report and present it as a verified cause.": {
+      "file": "audio/0f5b94192b718e95d50b53aeddc8fd73a175117a8d9d4704f88aae5e19899860.mp3",
+      "bytes": 61901,
+      "sha256": "9c1950dd3a6b9e9f42b59f128867aad95d85d28c520583044bfab35dee51d158",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "Which statement can you include in the handover based on the maintenance record?": {
+      "file": "audio/11ac4cba0114fc2ae2b1e06e83fa7007f60b6ed808ec69231c9bd590ea43d078.mp3",
+      "bytes": 58975,
+      "sha256": "b4eb0341d4974fd435491c4f510bcf684b5b62f793e882fc18a754373cdfb4aa",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "The supplied ticket verifies the actions taken by the process lead.": {
+      "file": "audio/ce0db0cc44a8a9bad51a4799c6349d2fd858adfc2aa499f8269a1de21f0a62fe.mp3",
+      "bytes": 60647,
+      "sha256": "d3f09eb591219b58dde3d4e698246d7e77aed256ae308cdf33b164306df134eb",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "RME confirmed the damaged part was an end cap.": {
+      "file": "audio/5f51ed4722ed283afa067f1269aa7c379b60f4cda6238f2e46e0ae7a53469594.mp3",
+      "bytes": 41838,
+      "sha256": "63ea0a7424d1f30679a0b17eaaa9a2517db9bd7ef3afcbe57cc1e880d1576cba",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "traceability": {
+      "file": "audio/f24a3d33b4f24687f66dd084724dbae1ba2a8fd77a062836f2e76606c6a28cc9.mp3",
+      "bytes": 17597,
+      "sha256": "eafcf97b3d0e188618752b29f6abedb14fb1fb0095cb50365e304f6562bfbd51",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "accuracy": {
+      "file": "audio/051f7ca760f9b250607b0fcde9931d9f00f9383acf60f5f3e29f4160144672c5.mp3",
+      "bytes": 12999,
+      "sha256": "11bbb324d9c37150a6d08ba9c5131fa81950d284056ad77f649beab590509fb5",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "audit": {
+      "file": "audio/71ba8cc2bc1bcdc5b6b5e77c5065bb126002f376fe7ed511d93ea9859040e3ae.mp3",
+      "bytes": 12999,
+      "sha256": "226e2d7ee6b55be7993fd7080e33dfc0c4d32eee8d1fc5be3e950eaed6eb242f",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "exception": {
+      "file": "audio/0a36cb512642c00683ff6607a3690021e073fbcc803d7eff29ea882c15b14ec9.mp3",
+      "bytes": 15089,
+      "sha256": "70e8efde9f5203f861b99d459e24f10f1b53bb1f766b9827ae61c5db8a87f814",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "location": {
+      "file": "audio/4098b4dc42854bc659a9396c092e55593ded008b378d3721ee4276719c252f83.mp3",
+      "bytes": 13835,
+      "sha256": "ccbda24293a309773a21ff3b6a5651ce91985d9dd0b0fa9cba3e583da1119bcf",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
     }
   }
 }
