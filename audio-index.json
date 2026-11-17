@@ -15705,6 +15705,62 @@
       "sha256": "f3298de2fbad0d7042e9183d09414616c0bc630d2fb91999df65802c96f711b1",
       "voiceId": "J4bIp70tzyazNCFxUfjl",
       "voiceLabel": "LA guy"
+    },
+    "I will keep the affected station unavailable until I get the test result.": {
+      "file": "audio/ff4fa255ae7ec2035e0e16aced981e61ee719d4d7523ea0eb58056fd4935e0d3.mp3",
+      "bytes": 58139,
+      "sha256": "578ebd9aa9e2426529ec1492aadafa9f25714a2f43ade394e56d62190a061434",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "What should the next shift know?": {
+      "file": "audio/9bd39fcc127de1015841d8c2dc0f1b425bf3cd45b98b5b4d75b289051ff86357.mp3",
+      "bytes": 23448,
+      "sha256": "cc1405a155f31b9d0c202069663cd64613cb6a551878bf9633f6d313da839804",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "Use “Check on” to verify the sensor and display.": {
+      "file": "audio/4a947989fe31d2956b180f4e47bab0a8c5032e1fe141f1873331dd5117c62d09.mp3",
+      "bytes": 41003,
+      "sha256": "cee18427239aed96a3839295ac2ca9ad940d441e954618b861da0fcf22ff8ebd",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Give a short handover. Use “Check on” and one term from Vocabulario del día. Say what is confirmed and what still needs a check.": {
+      "file": "audio/8b73bd972af2221c0c656a94f3bb5bdf71285838119708f1ea6044f55c396ecc.mp3",
+      "bytes": 114563,
+      "sha256": "8daaafe79e9ae878694c1c7f42db58681099d184e4f2e92e3bf30d40b6cdda95",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "Can you check on the Line 3 sensor and tell me whether the display is responding? The tray is clear, but the sensor and display still need separate checks. I will keep the affected station unavailable until I get the test result.": {
+      "file": "audio/56c37b008802c170d278fa9ed804673bf8ac9f08ad38da8c1a3e9f73829e8de2.mp3",
+      "bytes": 188124,
+      "sha256": "b075abdd334d56f856dd261c91545ca12b9a2369d235a1f5f97cdbd6bc72ef6a",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "Which update stays within the evidence from this situation?": {
+      "file": "audio/d9e775a110f1e0af602b6f25eab8fbb2c6cb9c9c60e874fd1606ed36a4dc15ac.mp3",
+      "bytes": 53959,
+      "sha256": "c2e17fd08280c284abdcec015f46ae4bbfc3a13e224073244b7c959bccd0a654",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "Both stations are ready because the tray is clear.": {
+      "file": "audio/aefe4917ecf389a03fe1188c58099b23a6fb3c763f60a5d1a4183b755a9082bb.mp3",
+      "bytes": 41003,
+      "sha256": "d963fc675061c094202ba9274a994751bd7442092435865cb3723c098fa79823",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "The supported update is: The tray is clear, but the sensor and display still need separate checks.": {
+      "file": "audio/cfd1da7bc10ba8318e471de1c026e0bb2b7d1ff4eb01998caaaa44c5bc08fd8e.mp3",
+      "bytes": 75275,
+      "sha256": "4dad0b93189a6b993ff4eeb36091cdb99c28419e52092b8a7e5d84d411f8024a",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
