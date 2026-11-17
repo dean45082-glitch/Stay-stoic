@@ -16391,6 +16391,76 @@
       "sha256": "1476dfa651f273672965c5e358df7d297b7fbbe3b6f04b8147a5ab1f88d09efd",
       "voiceId": "J4bIp70tzyazNCFxUfjl",
       "voiceLabel": "LA guy"
+    },
+    "Describe manual operation as continuing after the reported stop.": {
+      "file": "audio/9e119d4c01443e55adbf6a902dc00565f8859d6babb7567e1d04dc4fa3a456bf.mp3",
+      "bytes": 59811,
+      "sha256": "8c50dce165eefcd8de25e6c67e5951a882c59e4186ba3ab45257dbb8c672464a",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "queue": {
+      "file": "audio/6b7cd725d24dd8d701e513fe1820ba5d083b2559c32fc181588b29290b554369.mp3",
+      "bytes": 14253,
+      "sha256": "a6621ec3581212a56e4913a1c3aa8049feb26b79bf189398f676e450aa1d4f67",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "shortage": {
+      "file": "audio/c17f7a4d520ae3d73c570c6201829ec688b553c860703bd6d8ec4477ee5f0956.mp3",
+      "bytes": 15925,
+      "sha256": "ffb6adc7a75cb6bc23f588a4cc7200175792e69c2a767d449ed32dc56eaf2f74",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "replenishment": {
+      "file": "audio/ec2e120d326999af0856da8dde704620faceae865c5bcb6c13eab2c9462bebbd.mp3",
+      "bytes": 17597,
+      "sha256": "cba188f408c8e231b80872b8732a14b8d7c499c64a029a04148cf1e41882b9ae",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "restock": {
+      "file": "audio/8479ffbad67a5b42d6e3fd3440cddcec47271cf6e1d43293d2fb841030e1e8d3.mp3",
+      "bytes": 15925,
+      "sha256": "5bf454ea7292da1b499df49fea377b783bada70b8ebddfe6ba5190341ee99602",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "stock": {
+      "file": "audio/da8b7c0286fc71475811b8e02333cd87157ece8aa0d4146188adbf4422cd36c6.mp3",
+      "bytes": 12163,
+      "sha256": "86097295dfac55af8753e404ddb46d2f046ad17c6ae7229ef51b53a716e94bb0",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "supplier": {
+      "file": "audio/707874230efbb07c27985f268fd9f8d425f97fe06193a26556ced6a000345ace.mp3",
+      "bytes": 17597,
+      "sha256": "1a1c7d6259859a976c714b364d968947be687c3769432c09b8abf4f7422209a8",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "Trays begin to accumulate behind the guide rail after the merge briefly restarts. The queue is visible upstream, but the cause of the new stoppage is still unknown.": {
+      "file": "audio/44e0cb101d06ba92fb6d583091f9c59df2125d777ee335f79b85f7c225ba1def.mp3",
+      "bytes": 146746,
+      "sha256": "b1548523bea895e925644089bbda3d083e8fbc840ddbf2ff4f17f732f3e8df4c",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "Trays are backing up before the merge again.": {
+      "file": "audio/6a6c4ba3672e480ba20c00a5093a2a470a099031096fd650720b667ceddc50dc.mp3",
+      "bytes": 35987,
+      "sha256": "9579eb2f0277c15eb0a942fe98cc3e5efc5191caa890fdad7867ed963a3a9658",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "A brief restart moved a few trays. It did not clear the queue.": {
+      "file": "audio/7c3a87b5b597bab8b84f253891c139d752f0f40214f21b0c79b8b9600ca8c0e0.mp3",
+      "bytes": 56049,
+      "sha256": "09dbe0947553930080f3374c6b24369fa20757fda0968575c7f724f2e34092b0",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
     }
   }
 }
