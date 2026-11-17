@@ -18538,6 +18538,16 @@
       "reused": 179,
       "status": "stopped",
       "completed": 0
+    },
+    "amazon-early-gaps-2026-11-resume": {
+      "verifiedCap": 8268,
+      "estimated": 8238,
+      "files": 128,
+      "lastDay": 5,
+      "firstRemainingDay": 5,
+      "reused": 0,
+      "status": "running",
+      "completed": 0
     }
   },
   "voices": {
