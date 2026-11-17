@@ -15355,6 +15355,76 @@
       "sha256": "b71f6556982698c5620b79128c4d81b9235af73221d546bb07afaef41da51a74",
       "voiceId": "nbaOefRJYbGbDU7PX7zP",
       "voiceLabel": "Maine Guy"
+    },
+    "Remove the leads from the conversation.": {
+      "file": "audio/e92f2c1fe0539a8ced4515c084aa39d1a7111a4e3f70cb5841cfe7e5c1753879.mp3",
+      "bytes": 33897,
+      "sha256": "52a891e3e8b734c1fd90198311334a127233a738450285063a5a24f36bf80564",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "Include the leads in the communication.": {
+      "file": "audio/eecd703e400295180729daf3219f68088f7d2f6727bb57b3788e563cc92dc271.mp3",
+      "bytes": 33061,
+      "sha256": "54228ac2b7e0d0221fdf0629f3b05ef5aafbfc0d781d5c7f24d704702797dfff",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "Choose the meaning of exception in warehouse English.": {
+      "file": "audio/5a7ba52cac4f89f032975fd078181cd9176b7f0ca7d29258eaa8b44dd20eb60e.mp3",
+      "bytes": 48526,
+      "sha256": "5e2b22df00e6214913fcc60c796f2d145a510bf2132261e0fde833f881bc2b16",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "A specified place or storage position": {
+      "file": "audio/3ccb6a1d9f46f024ccac760ac29b5e733cf02959182cc188e454ab28b5b000cf.mp3",
+      "bytes": 36823,
+      "sha256": "74a6276a5be28da407325b585ef84326e490a735770f90ad0f3d03b24629dd2f",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "A difference from an expected or reference value": {
+      "file": "audio/421f601a4e799337acfdb7b2fe181c88069f686a94af1013a967a83159d6bb9a.mp3",
+      "bytes": 44764,
+      "sha256": "16e94cb9e4404bf9e596893730de7888153150aff85571e044b1684e4218f4d4",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "A case requiring handling outside the normal flow": {
+      "file": "audio/668b73d4083d63cb938488de089fdebb64314ced67fd7fa7104d74f07522393c.mp3",
+      "bytes": 49362,
+      "sha256": "489cad468c2b7965566b95e6011b4ba1422fbc16068a1e9e1e253dc8defd07b9",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "Choose the meaning of location in warehouse English.": {
+      "file": "audio/e7f91db1c0f36a835340c378cf858b69501c4cda0beb9e4eca226b231bfc6135.mp3",
+      "bytes": 42674,
+      "sha256": "a45e3597136e15ac9809c70c6b44895036a4dcf564b1bfc0241a1bbf854e52c5",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "Ability to follow an item's history or movement": {
+      "file": "audio/2c0be98ae1cefd7d1c713c9e3242bddc478481921eda76509d7170ec6ef1e129.mp3",
+      "bytes": 41838,
+      "sha256": "e563fb53596a0514fe0901c295f9a7ceedd5d69f4dc6b359365852928cb0a401",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "Choose the meaning of variance in warehouse English.": {
+      "file": "audio/906a7a3f96b4c5756fa666789470b0b83d5dea47170a79786ae33adb156d8508.mp3",
+      "bytes": 41003,
+      "sha256": "75ccdc15aad5bbd21c1b9c63d90ba186a745abd34b3c4c3620a5c06fce6d4bc5",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "How closely information or work matches what is correct": {
+      "file": "audio/41049cd27e371f8af49fda5f87ea4b14f181c7e695bb9d1f3c18d292612ce579.mp3",
+      "bytes": 53123,
+      "sha256": "f5cb7d2e48e536dfee1cb0e2421468d45b7b76dd3ec68a18cb4167c60531ec3b",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
