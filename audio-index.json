@@ -16881,6 +16881,76 @@
       "sha256": "10498928d65a9d2b07b9f5bc3e8e5e751515ab4b7a4502c65c21825f1d8409f0",
       "voiceId": "nbaOefRJYbGbDU7PX7zP",
       "voiceLabel": "Maine Guy"
+    },
+    "Choose the meaning of aisle in warehouse English.": {
+      "file": "audio/1f7bc82b544c938c000da38c3887442300110965327308c248ee25a4650076b9.mp3",
+      "bytes": 39749,
+      "sha256": "f215c9ba6437e4b3412a7c2f5976293baa0a2bfa6333244201078d62d6bd54d5",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "A passage between storage or work areas": {
+      "file": "audio/d530117e9b662dbc5679feab44ea3112d808e08652b17292075973c89e0c88e5.mp3",
+      "bytes": 37659,
+      "sha256": "217c5f2e37cbcc595d908ac04455e13fd1df3f8bcb61b0aa1395ff95117075fc",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "Moving received goods into storage locations": {
+      "file": "audio/f91aab5cc24e72abf93c25898a292a52bf66f9ef09e16e0c54fd35a853e522a7.mp3",
+      "bytes": 37659,
+      "sha256": "2cafe14ed60ba49d39f39ead6d73b8710d5d2a16b54e8f863d9694416075fcc7",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "Accepting and recording incoming goods": {
+      "file": "audio/8c98ba60de4e13a918b0747e4b15f0e1c70175e7bf4152bb6a9120789070d4d6.mp3",
+      "bytes": 37659,
+      "sha256": "6a56f9c2b5977593015c8cc64b59ed3e22307fdea8b891a3ebaa8440cdbca06d",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "Choose the meaning of receiving in warehouse English.": {
+      "file": "audio/dfff39deceaf252c3a514b4b52802e010960b7ebfcc46600544c4292c9ceeaa7.mp3",
+      "bytes": 36823,
+      "sha256": "83f6413cb8ba3deed0035ebdfabe12d9b01c41e12b216850ae0f0d27f563ecc7",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "A container or assigned storage position": {
+      "file": "audio/ea38a21371ae552dec4f7bac297a2b40dd9e61a143d2e694e8bbf6a4ee39d7a0.mp3",
+      "bytes": 33897,
+      "sha256": "9513524d124b0b101c1cde8a80f59794d11df54e1652cb7b08b8526d35c12c39",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "Choose the meaning of putaway in warehouse English.": {
+      "file": "audio/c8e48045e66932c33784adae9927d03c45c71408865c90b316c77992493f28d1.mp3",
+      "bytes": 44346,
+      "sha256": "08d9b1950848380c5aaea0b470e51ebb746a7d9a994f9d667c9fe30056b05814",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "A structure used to support stored goods": {
+      "file": "audio/ad22f04b7a33e51a2fee902334f6eed067b9e9f68170fcb368e347aef264d6d0.mp3",
+      "bytes": 37659,
+      "sha256": "0354a8a25360d130110ad51cb12428ce2af0a21ddab74cff8788c16359be062a",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "A new condition appears: One stalled tray has moved, but the roller has not been confirmed operational. Choose the most accurate update.": {
+      "file": "audio/737aec1cab087dc518ce8307e08d5e7cfd280281eacc3ce6d8bff0e3674a7ba9.mp3",
+      "bytes": 122087,
+      "sha256": "9dbb67fbe6c80a7e8ba5c4c75b027c59490ba3533aec7807dfd14f3fa9c58800",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "Call the roller repaired because one tray moved.": {
+      "file": "audio/5c407fed44ae722a7266047c748e73972a14e22bd694e528081e635e621414bc.mp3",
+      "bytes": 43510,
+      "sha256": "cec19d21e8fc7fdf0c8974cc21c225c7c4c8f0c7da9d63c5b73d9488172c2d41",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
     }
   }
 }
