@@ -15215,6 +15215,76 @@
       "sha256": "69973b935378bc7a8164d3033c02f7b9692c9f8e298ad916a5576fa2e3674acc",
       "voiceId": "tMVTGjBHMRBk0HpbxEiG",
       "voiceLabel": "New Yorker Sifrino"
+    },
+    "Examination of condition or conformity": {
+      "file": "audio/b6089ffc82fd73dce19da9fcb01e398573f0def53708c6b6e68fcd6c0f70127b.mp3",
+      "bytes": 34315,
+      "sha256": "c65f7e5a7a0eda9a278a2ee82a5d4084932df53cc41a248def49fd9986954a26",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "Restore damaged or faulty equipment": {
+      "file": "audio/c0f7d1007bc59ff3e9ba177ef93b62c7fece555c93c9a4824ffde4b9012f135e.mp3",
+      "bytes": 37659,
+      "sha256": "cd7773919d1fe1a23338568543b18da7d0eeaa7ced6f9bb781c99a1a79099625",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "Choose the meaning of repair in warehouse English.": {
+      "file": "audio/284b362f699dd3de44b479c28a4c6e2914dbf2282b95b8e19d45ebddf4f11735.mp3",
+      "bytes": 38913,
+      "sha256": "5bc19b43f77564a135ab9e409b397c0832625a62d9a8f8622b365fe9864c8655",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "The sequence and movement of work": {
+      "file": "audio/a193737ac916d9db526e1c15d3d179ddf177a1d31bded3fd1ef4ace852c46658.mp3",
+      "bytes": 36823,
+      "sha256": "35eeb2662b3c68e96f6d6b9884c6f99dca63ad727be49507ed79892a3763c4ed",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
+    },
+    "Choose the meaning of procedure in warehouse English.": {
+      "file": "audio/532367e70a411ff3f5dcc7c2ad4d37fff027b2da4a227f2604f2e77ed2a0794e.mp3",
+      "bytes": 43510,
+      "sha256": "33754c384c7839e8b1ee860050b2a50f2d732226eeab268d4795812836c3d6ba",
+      "voiceId": "VcxTwjcCv1kVfys2U7LT",
+      "voiceLabel": "Eminem style"
+    },
+    "A person operating equipment or a process": {
+      "file": "audio/30b0c0903e914df4151c795797b11e6b5bbb92bd9c7ea807c2499766cd46301d.mp3",
+      "bytes": 37659,
+      "sha256": "32b12c2d5142350fbe7177114f3478039ea12996cee61c4be365c832526fba57",
+      "voiceId": "tMVTGjBHMRBk0HpbxEiG",
+      "voiceLabel": "New Yorker Sifrino"
+    },
+    "A new condition appears: A handover says the finger is ready, but the latest functional test has not been completed. Choose the most accurate update.": {
+      "file": "audio/cc6553d3b5242ec53412acba19451d8a7b06be0aefa85f33dcc7920146ee7e2d.mp3",
+      "bytes": 133372,
+      "sha256": "2f1313e54ff0224de37e4387c8b237d3596a80a7155089a7ad3d6244ee6262c1",
+      "voiceId": "4RNt0zdgATxEX0rq2bVG",
+      "voiceLabel": "New Yorker super slam"
+    },
+    "State that all functions passed because the handover used the word ready.": {
+      "file": "audio/d7a551d88ff8916cebf503fe81de479076a6080fb88d03463f5c40f80ed7d43b.mp3",
+      "bytes": 64408,
+      "sha256": "f68c41fccaf687d1cbb79efb05b16a693642d89acf65cfd1458a1213f9c0591a",
+      "voiceId": "nbaOefRJYbGbDU7PX7zP",
+      "voiceLabel": "Maine Guy"
+    },
+    "operator": {
+      "file": "audio/ac8f115ef5a9416da2ce10cf8524af069ceeef70550d74a14fa51936d0cc9109.mp3",
+      "bytes": 15089,
+      "sha256": "ab88c08dada3088883862dd7c7092bef2503e469fc5290461949f294fdfaf073",
+      "voiceId": "YscMlI9nNgFEyG34UWMB",
+      "voiceLabel": "Atlanta real"
+    },
+    "maintenance": {
+      "file": "audio/726a2fd6de854c2aba3b6e7f49b0208b06f2d44eb83aacce511b3356ccb0b4a8.mp3",
+      "bytes": 13835,
+      "sha256": "f12ab3f5a6816bdc769b61a1ccfa78a84d0c0c46774727608740bb19de00d9fd",
+      "voiceId": "J4bIp70tzyazNCFxUfjl",
+      "voiceLabel": "LA guy"
     }
   }
 }
